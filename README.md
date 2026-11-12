@@ -1,44 +1,48 @@
-# Webwright WebVoyager — Pre-execution Task Definitions
+# Webwright WebVoyager
 
 Maintained by [XYDT](https://www.xydigit.com/).
 
-This repository publishes the exact task definitions intended for a subsequent Webwright execution and evaluation. It contains **615 unique tasks across 15 websites**. This task-definition publication includes no execution records or benchmark score.
+This repository holds the task definitions and provides separate locations for future execution evidence, evaluation outputs, and evaluation scripts. The benchmark inputs contain **615 unique tasks across 15 websites**, adapted from the fixed browser-control-fable-5 reference documented below.
 
-## Task collection and provenance
+## Repository layout
 
-The collection is adapted from [browser-control-fable-5 in omxyz/webvoyager](https://github.com/omxyz/webvoyager/blob/df42681582be8125c5296473ad8efcd86f926cb6/benchmark/data/browser-control-fable-5/WebVoyager_data.jsonl).
+| Directory | Contents |
+|---|---|
+| [`benchmark/`](benchmark/) | Frozen task definitions, upstream reference, full month-change report, task manifest, and checksums. |
+| [`results/`](results/) | Future execution-evidence indexes, artifact manifests, checksums, and archive download links. |
+| [`evaluation/`](evaluation/) | Future raw external-judge outputs, judgment-selection records, and final summaries. |
+| [`evaluator/`](evaluator/) | Evaluation scripts and public configuration for the corresponding batch. |
 
-- Fixed upstream comparison commit: `df42681582be8125c5296473ad8efcd86f926cb6`.
-- Exact task files intended for execution and evaluation: [`webvoyager/`](webvoyager/).
-- Retained upstream comparison file: [`reference/WebVoyager_data.jsonl`](reference/WebVoyager_data.jsonl).
-- Upstream file SHA-256: `3be3e58768816c8a0249ba48c4dec5d25a91047a2f9bb0e028bcbba73669ac40`.
-- Task IDs, website names, starting URLs, and all fields other than the instruction are unchanged from the fixed upstream reference.
-- **565 instructions are unchanged; 50 instructions contain month-name substitutions only**: 20 Booking tasks and 30 Google Flights tasks, with 81 substitutions in total. Day numbers, years, and all non-month instruction text are preserved.
+No execution results or benchmark score have been published in this repository yet. The result-related directories currently contain instructions for their future contents.
 
-The complete task-by-task changes are documented in [`TASK_UPDATES.md`](TASK_UPDATES.md). File hashes and task IDs are recorded in [`TASK_MANIFEST.json`](TASK_MANIFEST.json), with executable checksum entries in [`SHA256SUMS.txt`](SHA256SUMS.txt).
+## Task definitions
 
-## Date preparation
+- Exact task files: [`benchmark/webvoyager/`](benchmark/webvoyager/).
+- Source, date rules, and publication procedure: [`benchmark/README.md`](benchmark/README.md).
+- Full before-and-after task instructions: [`benchmark/TASK_UPDATES.md`](benchmark/TASK_UPDATES.md).
+- Task IDs and file hashes: [`benchmark/TASK_MANIFEST.json`](benchmark/TASK_MANIFEST.json).
+- Executable task checksums: [`benchmark/SHA256SUMS.txt`](benchmark/SHA256SUMS.txt).
 
-Date preparation used **November 14, 2026** as its cutoff. In the Booking and Google Flights files, tasks with an explicitly year-dated trip start before that cutoff were moved forward by one calendar month relative to the local preparation input. All dates within an affected trip were moved together.
+Relative to the fixed upstream collection, **565 instructions are unchanged and 50 differ only in month names** (20 Booking and 30 Google Flights tasks; 81 substitutions). All task IDs and non-instruction fields are retained. Yearless dates were not changed. Existing date-wording caveats and calendar-interval changes are documented in the task-update report.
 
-Dates without an explicit year were left unchanged. Historical publication dates, historical sports dates, and other dates used as content-search conditions were not treated as expired travel dates.
+## Public task freeze before execution
 
-The earliest explicitly year-dated travel start in this collection is **November 15, 2026**. See the task-update report for the existing weekend-wording inconsistency and the calendar-interval effects of month substitutions. No dates will be silently adapted during an execution using this frozen version.
-
-## Publication before execution
-
-1. Publish the task definitions and their change report before starting the associated execution batch.
-2. Record the full Git commit SHA after confirming that it is publicly accessible. The initial task snapshot is also identified by the `tasks-frozen-2026-11-12` tag.
-3. Use the task files from that exact commit for both execution and external evaluation. Retain the task instruction and frozen commit SHA in the execution provenance.
-4. Verify the execution input files against `SHA256SUMS.txt` before starting. The checksum paths are relative to a project directory containing `webvoyager/`.
-5. Keep this task snapshot and tag unchanged. If any task definitions need revision before execution, publish and identify a new snapshot first; do not change definitions during the batch or after observing its outcomes.
-6. When results are published, link to the exact task commit, retain execution evidence and raw judge outputs, and document the agent, judge, budgets, retry/stopping policy, and score aggregation.
-
-For a checkout of this repository:
+The benchmark-layout task snapshot is identified by the `tasks-frozen-benchmark-2026-11-12` tag. Record its full commit SHA and use the exact associated task definitions for execution and external evaluation.
 
 ```bash
-git rev-parse HEAD
+cd benchmark
 sha256sum -c SHA256SUMS.txt
+git rev-parse HEAD
 ```
 
-A future result must identify which task-definition commit it actually used. Publication of these task definitions does not by itself establish any execution result or independent verification.
+The checksum entries are relative to `benchmark/`. They also work from a separate execution-project directory containing the identical `webvoyager/` files when the checksum file is supplied by its full path.
+
+Keep the frozen task commit and its tag unchanged. If task definitions need revision before execution, publish a new identified snapshot first. Do not alter task definitions during a batch or after observing its outcomes.
+
+The earliest explicitly year-dated travel start is **November 15, 2026**. A later execution must account for date validity before selecting and publicly freezing its input version.
+
+## Publishing results later
+
+After execution, place the batch documentation and execution-artifact index under `results/`, the external-judge records and final summary under `evaluation/`, and the evaluation script under `evaluator/`. Large execution archives may be published as Release assets, with their download links, packaging manifest, and SHA-256 checksums recorded under `results/`.
+
+Every reported batch must identify its frozen task commit, agent and judge configuration, retry/stopping policy, and scoring/aggregation rules. Preserve task-level evidence and raw judge outputs so that the result can be audited.
