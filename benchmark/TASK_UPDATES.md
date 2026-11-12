@@ -29,24 +29,6 @@
 | Google Flights | 40 | 10 | 30 |
 | **Total** | **615** | **565** | **50** |
 
-## Date rules and existing caveats
-
-The preparation cutoff is **2026-11-14**. Dates without an explicit year are retained exactly. None of the 63 explicitly year-dated Booking / Google Flights tasks starts before that cutoff; no invalid dates or reversed date ranges were found. Twelve yearless dated tasks remain unchanged.
-
-The earliest explicitly year-dated travel starts are **2026-11-15**, in Booking--22, Booking--34, Google Flights--22, and Google Flights--34.
-
-Month-only changes do not guarantee unchanged calendar intervals:
-
-| Task | Upstream dates | Current dates | Upstream interval | Current interval |
-|---|---|---|---:|---:|
-| Booking--20 | 2026-10-28 → 2026-11-02 | 2026-11-28 → 2026-12-02 | 5 days | 4 days |
-| Google Flights--28 | 2026-07-27 → 2026-08-01 | 2026-11-27 → 2026-12-01 | 5 days | 4 days |
-| Google Flights--36 | 2026-07-28 → 2026-08-04 | 2026-11-28 → 2026-12-04 | 7 days | 6 days |
-
-These three instructions do not separately specify a required number of days or nights. Their literal day numbers are unchanged.
-
-Booking--19 retains the upstream phrase "weekend stay", while the current dates, 2026-11-18 through 2026-11-20, are Wednesday through Friday. The upstream dates, 2026-08-18 through 2026-08-20, are Tuesday through Thursday. This existing wording inconsistency has been retained; no non-month wording was rewritten.
-
 ## Complete edited-task index
 
 | Task ID | Month substitutions in order |

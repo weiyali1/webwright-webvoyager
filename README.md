@@ -18,12 +18,11 @@ No execution results or benchmark score have been published in this repository y
 ## Task definitions
 
 - Exact task files: [`benchmark/webvoyager/`](benchmark/webvoyager/).
-- Source, date rules, and publication procedure: [`benchmark/README.md`](benchmark/README.md).
 - Full before-and-after task instructions: [`benchmark/TASK_UPDATES.md`](benchmark/TASK_UPDATES.md).
 - Task IDs and file hashes: [`benchmark/TASK_MANIFEST.json`](benchmark/TASK_MANIFEST.json).
 - Executable task checksums: [`benchmark/SHA256SUMS.txt`](benchmark/SHA256SUMS.txt).
 
-Relative to the fixed upstream collection, **565 instructions are unchanged and 50 differ only in month names** (20 Booking and 30 Google Flights tasks; 81 substitutions). All task IDs and non-instruction fields are retained. Yearless dates were not changed. Existing date-wording caveats and calendar-interval changes are documented in the task-update report.
+Relative to the fixed upstream collection, **565 instructions are unchanged and 50 differ only in month names** (20 Booking and 30 Google Flights tasks; 81 substitutions). All task IDs and non-instruction fields are retained. Yearless dates were not changed.
 
 ## Public task freeze before execution
 
@@ -38,8 +37,6 @@ git rev-parse HEAD
 The checksum entries are relative to `benchmark/`. They also work from a separate execution-project directory containing the identical `webvoyager/` files when the checksum file is supplied by its full path.
 
 Keep the frozen task commit and its tag unchanged. If task definitions need revision before execution, publish a new identified snapshot first. Do not alter task definitions during a batch or after observing its outcomes.
-
-The earliest explicitly year-dated travel start is **November 15, 2026**. A later execution must account for date validity before selecting and publicly freezing its input version.
 
 ## Publishing results later
 
