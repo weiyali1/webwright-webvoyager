@@ -1,5 +1,9 @@
 # Evaluation Methodology
 
+> **Documentation draft for the 2026-11-16 batch.** Numerical values and task-specific details below are retained from the earlier submission as a template. They will be updated after this batch's evaluation is complete.
+
+Evaluation-output paths in backticks are planned paths relative to the repository root; the corresponding judge records and summaries have not yet been published.
+
 ## System and Task Collection
 
 - Execution system: Webwright (Qwen3.8-Max).
@@ -7,14 +11,14 @@
 - Base task collection: [browser-control-fable-5](https://github.com/omxyz/webvoyager/tree/main/benchmark/data/browser-control-fable-5) from omxyz/webvoyager.
 - Task preparation: month names were updated in 49 date-sensitive task instructions.
 - Evaluated collection: 615 tasks with the updated task instructions.
-- Exact executed task definitions: `tasks/`.
+- Exact executed task definitions: [`benchmark/webvoyager/`](../../benchmark/webvoyager/).
 - Evaluation type: self-reported, system-level post-hoc evaluation.
 
 All 615 tasks are included in the final denominator.
 
-The exact task definitions used for execution and evaluation are published in `tasks/`. The agent and external judge used the same updated task instructions. The reported score applies to this date-updated collection of 615 tasks.
+The exact task definitions used for execution and evaluation are published in [`benchmark/webvoyager/`](../../benchmark/webvoyager/). The agent and external judge used the same updated task instructions. The reported score applies to this date-updated collection of 615 tasks.
 
-The [task-definition timing supplement](evidence/report_time/) provides the retained comparison records and their correspondence with the submitted execution records.
+The [frozen task snapshot](https://github.com/weiyali1/webwright-webvoyager/tree/6bfe6d6e68c35562a5bd76f65c033a7d8075d486/benchmark/webvoyager) identifies the task definitions for this batch. The task files remain under `benchmark/`.
 
 ## Framework Self-Repair
 
@@ -112,7 +116,7 @@ It does not use `final_response.txt`, execution logs, or internal judge verdict 
 
 Source screenshots are retained. JPEG conversion and resizing apply to request-time image transport.
 
-Exact prompts, configurations, image transport metadata, and judge outputs are retained in `evaluation/raw/`.
+Exact prompts, configurations, image transport metadata, and judge outputs are retained in `evaluation/webvoyager-2026-11-16/raw/`.
 
 Judging prompt source:
 https://github.com/MinorJerry/WebVoyager/blob/main/evaluation/auto_eval.py
@@ -126,9 +130,9 @@ Final scoring was reconstructed offline from the saved judge response
 texts using the upstream WebVoyager parsing rule and the judgment-selection
 policy described below.
 
-The status fields in `evaluation/raw/` preserve their originally recorded
+The status fields in `evaluation/webvoyager-2026-11-16/raw/` preserve their originally recorded
 values. Final task outcomes and selected-record provenance are documented
-in `evaluation/merged_results.json` and `evaluation/REJUDGMENT_AUDIT.json`.
+in `evaluation/webvoyager-2026-11-16/merged_results.json` and `evaluation/webvoyager-2026-11-16/REJUDGMENT_AUDIT.json`.
 
 This offline reparsing and aggregation step made no additional model calls.
 
@@ -161,8 +165,8 @@ The final results are 600 successes, 11 failures, and 4
 missing-evidence tasks out of 615, yielding a success rate of 97.56%.
 
 Selected judgments and their provenance are recorded in
-evaluation/merged_results.json and evaluation/REJUDGMENT_AUDIT.json.
-All saved judge outputs remain available in evaluation/raw/.
+evaluation/webvoyager-2026-11-16/merged_results.json and evaluation/webvoyager-2026-11-16/REJUDGMENT_AUDIT.json.
+All saved judge outputs remain available in evaluation/webvoyager-2026-11-16/raw/.
 
 Further audit details are available in
 [the scoring correction report](SCORING_CORRECTION.md).

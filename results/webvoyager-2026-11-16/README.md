@@ -1,6 +1,10 @@
 # Webwright WebVoyager Evaluation Results
 
-Submission: `webvoyager-2026-11-03`
+> **Documentation draft for the 2026-11-16 batch.** Numerical values and task-specific details below are retained from the earlier submission as a template. They will be updated after this batch's evaluation is complete.
+
+Evaluation-output paths in backticks are planned paths relative to the repository root; the corresponding judge records and summaries have not yet been published.
+
+Batch: `webvoyager-2026-11-16`
 
 ## Results
 
@@ -25,9 +29,9 @@ Missing-evidence tasks remain in the denominator and count as unsuccessful.
 
 This evaluation is based on the [browser-control-fable-5](https://github.com/omxyz/webvoyager/tree/main/benchmark/data/browser-control-fable-5) task collection from omxyz/webvoyager.
 
-The exact task definitions used for execution and evaluation are published in `tasks/`. The agent and external judge used the same updated task instructions. The reported score applies to this date-updated collection of 615 tasks.
+The exact task definitions used for execution and evaluation are published in [`benchmark/webvoyager/`](../../benchmark/webvoyager/). The agent and external judge used the same updated task instructions. The reported score applies to this date-updated collection of 615 tasks.
 
-The [task-definition timing supplement](evidence/report_time/) documents the retained comparison records and their correspondence with the submitted execution records.
+The [frozen task snapshot](https://github.com/weiyali1/webwright-webvoyager/tree/6bfe6d6e68c35562a5bd76f65c033a7d8075d486/benchmark/webvoyager) identifies the task definitions for this batch. The task files remain under `benchmark/`.
 
 ## Framework Self-Repair Workflow
 
@@ -73,9 +77,9 @@ Final scoring was reconstructed offline from the saved judge response
 texts using the upstream WebVoyager parsing rule and the judgment-selection
 policy described below.
 
-The status fields in `evaluation/raw/` preserve their originally recorded
+The status fields in `evaluation/webvoyager-2026-11-16/raw/` preserve their originally recorded
 values. Final task outcomes and selected-record provenance are documented
-in `evaluation/merged_results.json` and `evaluation/REJUDGMENT_AUDIT.json`.
+in `evaluation/webvoyager-2026-11-16/merged_results.json` and `evaluation/webvoyager-2026-11-16/REJUDGMENT_AUDIT.json`.
 
 This offline reparsing and aggregation step made no additional model calls.
 
@@ -108,25 +112,24 @@ The final results are 600 successes, 11 failures, and 4
 missing-evidence tasks out of 615, yielding a success rate of 97.56%.
 
 Selected judgments and their provenance are recorded in
-evaluation/merged_results.json and evaluation/REJUDGMENT_AUDIT.json.
-All saved judge outputs remain available in evaluation/raw/.
+evaluation/webvoyager-2026-11-16/merged_results.json and evaluation/webvoyager-2026-11-16/REJUDGMENT_AUDIT.json.
+All saved judge outputs remain available in evaluation/webvoyager-2026-11-16/raw/.
 
 Further audit details are available in
 [the scoring correction report](SCORING_CORRECTION.md).
 
 ## Published Materials
 
-- [Exact task collection](tasks/)
-- [Evaluation script](evaluator/evaluate_webvoyager.py)
-- [Raw evaluation records](evaluation/raw/)
-- [Merged final judgments](evaluation/merged_results.json)
-- [Final summary](evaluation/summary.json)
+- [Exact task collection](../../benchmark/webvoyager/)
 - [Evaluation methodology](METHODOLOGY.md)
-- [Archive manifest](artifacts/PACKAGING_MANIFEST.json)
-- [Archive checksums](artifacts/SHA256SUMS.txt)
-- [Execution evidence downloads](https://github.com/weiyali1/webwright-webvoyager-results/releases/tag/webvoyager-2026-11-03)
-- [Task-definition timing supplement](evidence/report_time/)
+- [Scoring-selection template](SCORING_CORRECTION.md)
+- [Evaluation scripts and publication status](../../evaluator/)
+- [External evaluation outputs and publication status](../../evaluation/)
+- [Archive manifest](https://github.com/weiyali1/webwright-webvoyager/releases/download/webvoyager-2026-11-16/PACKAGING_MANIFEST.json)
+- [Archive checksums](https://github.com/weiyali1/webwright-webvoyager/releases/download/webvoyager-2026-11-16/SHA256SUMS.txt)
+- [Execution evidence downloads](https://github.com/weiyali1/webwright-webvoyager/releases/tag/webvoyager-2026-11-16)
+- [Frozen task snapshot](https://github.com/weiyali1/webwright-webvoyager/tree/6bfe6d6e68c35562a5bd76f65c033a7d8075d486/benchmark/webvoyager)
 
 The 15 ZIP archives contain task records grouped by website.
 
-Reporting date: 2026-11-03.
+Documentation batch: 2026-11-16. Final evaluation results are pending.

@@ -1,5 +1,9 @@
 # Judge-Output Parsing and Scoring Correction
 
+> **Documentation draft for the 2026-11-16 batch.** Numerical values and task-specific details below are retained from the earlier submission as a template. They will be updated after this batch's evaluation is complete.
+
+Evaluation-output paths in backticks are planned paths relative to the repository root; the corresponding judge records and summaries have not yet been published.
+
 ## Judge-Side Errors and Scoring Correction
 
 The original evaluation script and all raw judge outputs are preserved
@@ -43,7 +47,7 @@ Success rate = 600 / 615 × 100% = 97.5609756%, displayed as 97.56%.
 
 All raw records retain their historically saved status fields.
 Corrected selections and provenance are recorded in
-evaluation/merged_results.json and evaluation/REJUDGMENT_AUDIT.json.
+evaluation/webvoyager-2026-11-16/merged_results.json and evaluation/webvoyager-2026-11-16/REJUDGMENT_AUDIT.json.
 
 This correction involved no additional model calls or browser-task
 executions. The original evaluation script remains unchanged.
