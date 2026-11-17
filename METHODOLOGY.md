@@ -36,9 +36,13 @@ The `config_snapshot/merged_config.yaml` files for all 615 submitted execution r
 
 These are configured limits and completion requirements, not measurements of resources consumed by each task. The step limit applies to the agent loop, rather than to all browser actions or model requests. The execution-model output cap is distinct from the external judge's output cap.
 
-The agent develops and executes scripts, receives internal self-reflection feedback, and can repair its scripts within the task workflow. Its self-check uses agent-generated critical points and expected answers. Internal validation can influence repair and stopping, but its pass/fail labels do not supply the external benchmark outcome. Tasks can also stop on budgets or errors without successful completion.
+**Internal retry policy:** Within each task record, the agent develops and executes a script, checks it using agent-generated critical points and expected answers, and retries script repair/execution until its own self-reflection check passes or configured stopping limits or an unrecoverable error end the task. With the two completion requirements above enabled, normal successful completion is configured to require a passing self-check and a task-success marker. The self-check therefore controls internal repair and successful stopping; it is not merely an unused annotation on an otherwise single-attempt execution.
+
+The reported score is a system-level result that includes these self-verified internal retries. It is not a single-attempt, no-retry baseline. Internal pass/fail labels are not external ground-truth labels, and an internal pass does not guarantee an external SUCCESS. A task can terminate on a limit or error without achieving its own success condition.
 
 Numbered `final_runs/run_NNN` directories are internal execution/repair iterations. Of the 615 selected final runs, 258 are `run_001` and 357 have a numeric index of at least 2; the maximum selected index is 22. A selected index is not a count of independently scored benchmark attempts, and the maximum observed index is not an inferred configured retry limit.
+
+Each task ID contributes one final external outcome after this internal workflow; judge-side API/parse-error retries are described separately below. Selecting its latest/highest run without consulting the internal label at selection time does not undo the self-check's earlier role in deciding whether to repair, re-execute, or stop. Comparisons with systems that use a different internal retry or self-verification policy must account for that difference.
 
 ## Frozen Input Selection
 

@@ -50,11 +50,13 @@ This documentation update does not change any file under `benchmark/`. Task inst
 
 ## Execution and Internal Repair
 
-Webwright performs exploration, script development, execution validation, and repair within each task record. Its internal self-reflection checks can guide script revisions and task termination. Those internal checks are separate from the external score.
+**Internal retry policy:** Webwright retries script execution and repair until the agent's own self-reflection check passes, or configured stopping limits or an unrecoverable error end the task. The self-check uses agent-generated critical points and expected answers. Normal successful completion is configured to require a passing self-check and a task-success marker. The reported score includes this self-verified internal repair/re-execution workflow; it is not a single-attempt, no-retry result.
 
 All 615 execution configuration snapshots record a 400-step agent-loop limit, an eight-hour runtime limit, and a 30-minute idle limit. These are configured limits, not measured consumption. Internal `final_runs/run_NNN` indices describe execution/repair iterations, not independent benchmark tasks. In this batch, 357 selected runs have indices of at least 2; the maximum selected index is 22.
 
 The evaluator selects the newest timestamped task record and then the highest numeric `run_NNN` within it, without consulting its internal pass/fail label or falling back to an earlier successful run. Each task ID contributes one result.
+
+Selecting the highest run does not remove the effect of self-verification: the agent has already used its own check to guide internal repair and stopping before external judging. The internal check is not external ground truth; the final benchmark label comes from the separate GLM evaluation or missing-evidence validation.
 
 ## External Judge and Actual Configuration
 
