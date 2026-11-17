@@ -56,7 +56,7 @@ The request contains:
 2. The selected run's `answer.txt`, read and stripped of surrounding whitespace.
 3. Up to the last five screenshots from that run.
 
-**Answer preparation.** The selected run's `answer.txt` is derived from the model's original answer in the same run's `final_response.txt`. Preparation removes only text unrelated to the answer itself: internal self-check or grading statements and completion markers, such as `self-reflection … PASS`, and `predicted_label=1`. All substantive answer content, including its wording, explanations, facts, numerical values, and conclusions, is preserved without rewriting, correction, or supplementation. The original `final_response.txt` remains available in the execution artifacts.
+**Answer preparation.** The selected run's `answer.txt` is derived from the model's original answer in the same run's `final_response.txt`. Preparation removes only text unrelated to the answer itself: internal self-check or grading statements, completion markers, and internal artifact references, such as `self-reflection … PASS`, and `predicted_label=1`. All substantive answer content, including its wording, explanations, facts, numerical values, and conclusions, is preserved without rewriting, correction, or supplementation. The original `final_response.txt` remains available in the execution artifacts.
 
 This preparation precedes external evaluation. During judging, the evaluator reads the prepared `answer.txt` as the answer input.
 
