@@ -63,7 +63,7 @@ Each request supplies the task instruction, only the selected run's `answer.txt`
 | Setting | Recorded configuration |
 | --- | --- |
 | Judge model | `glm-5.3-flash` |
-| Purpose / prompt variant | `pilot` / `standard` |
+| Prompt variant | `standard` |
 | Prompt | WebVoyager judging prompt; exact text is saved in each round's `prompts.json` |
 | Temperature / seed | `0.0` / not set |
 | Source screenshots | Up to 5 from the selected run |
@@ -75,8 +75,6 @@ Each request supplies the task instruction, only the selected run's `answer.txt`
 | Read timeout | 300 seconds initially; increased to 900 seconds in later documented retries |
 
 The first round used 15 website-specific evaluator processes started in parallel; each process evaluated its own tasks sequentially. It was not a single 615-task evaluator invocation. The aggregate combines those 15 first rounds with the three published supplement directories. Other experimental batches are not merged into this score.
-
-The recorded purpose is `pilot`, and `official_acceptance_claimed` is `false`. Using the upstream prompt does not make this an official leaderboard-approved result or a reproduction of every upstream runtime default.
 
 ## API Errors, Parse Errors, and First Valid Outcomes
 

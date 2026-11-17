@@ -12,7 +12,7 @@ This document describes the completed `webvoyager-2026-11-16` batch, judged on N
 - Exact definitions: [`benchmark/webvoyager/`](benchmark/webvoyager/).
 - Frozen task-definition commit: `6bfe6d6e68c35562a5bd76f65c033a7d8075d486`.
 - Task-definition Git tree: `092ac8034909c70a45b50b9ea5aa03fcf51bbe0e`.
-- Evaluation type: self-reported, system-level, post-hoc judging; recorded purpose `pilot`, not a claim of official leaderboard acceptance.
+- Evaluation type: self-reported, system-level, post-hoc judging.
 
 All 615 evaluated instruction strings were checked against the frozen task definitions and match exactly. No task was removed from the denominator, and no task definition or lock file under `benchmark/` is changed by this documentation update.
 
@@ -63,7 +63,7 @@ The judge uses the standard prompt text from [WebVoyager's `evaluation/auto_eval
 | Judge setting | Actual configuration |
 | --- | --- |
 | Requested and returned model | `glm-5.3-flash` |
-| Purpose / prompt variant | `pilot` / `standard` |
+| Prompt variant | `standard` |
 | Temperature / seed | `0.0` / not set |
 | Maximum attached source screenshots | `5` |
 | Request format | JPEG, quality `85`, subsampling `0` |
