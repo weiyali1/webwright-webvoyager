@@ -54,6 +54,10 @@ The request contains:
 2. The selected run's `answer.txt`, read and stripped of surrounding whitespace.
 3. Up to the last five screenshots from that run.
 
+**Answer preparation.** The selected run's `answer.txt` is derived from the model's original answer in the same run's `final_response.txt`. Preparation removes only text unrelated to the answer itself: internal self-check or grading statements and completion markers, such as “自检通过”, “检查点通过”, `self-reflection … PASS`, and `predicted_label=1`. All substantive answer content, including its wording, explanations, facts, numerical values, and conclusions, is preserved without rewriting, correction, or supplementation. The original `final_response.txt` remains available in the execution artifacts.
+
+This preparation precedes external evaluation. During judging, the evaluator reads the prepared `answer.txt` as the answer input.
+
 Screenshot order follows `run_manifest.json` when present; otherwise it follows natural filename order. The final five in that order are selected. The evaluator never substitutes `final_response.txt`, `final_script_log.txt`, internal judge files, or older runs for a missing answer.
 
 Each round publishes `selection_manifest.json`, including the task-definition hash, answer-file hash where present, screenshot paths and SHA-256 hashes, chosen record/run, and an input fingerprint. Repeated task records in the published rounds have matching task definitions, answer hashes, selected run, and fingerprints. `--resume` requires the same configuration and the same selection manifest.
