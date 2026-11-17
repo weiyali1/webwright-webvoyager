@@ -46,13 +46,13 @@ The executed instructions are published in [`benchmark/webvoyager/`](benchmark/w
 
 The [frozen task snapshot](https://github.com/weiyali1/webwright-webvoyager/tree/6bfe6d6e68c35562a5bd76f65c033a7d8075d486/benchmark/webvoyager) is identified by commit `6bfe6d6e68c35562a5bd76f65c033a7d8075d486`; its `benchmark/webvoyager` Git tree is `092ac8034909c70a45b50b9ea5aa03fcf51bbe0e`. All 615 instructions in the published evaluation records were checked against those task definitions and match exactly.
 
-This documentation update does not change any file under `benchmark/`. Task instructions, task IDs, and their existing lock files are retained.
+The task definitions in `benchmark/webvoyager/`, `benchmark/TASK_MANIFEST.json`, `benchmark/SHA256SUMS.txt`, and the retained upstream reference are unchanged from the frozen snapshot. This lock applies to those files, not to every file in `benchmark/`; auxiliary documentation in that directory has changed.
 
 ## Execution and Internal Repair
 
 **Internal retry policy:** Webwright retries script execution and repair until the agent's own self-reflection check passes, or configured stopping limits or an unrecoverable error end the task. The self-check uses agent-generated critical points and expected answers. Normal successful completion is configured to require a passing self-check and a task-success marker. The reported score includes this self-verified internal repair/re-execution workflow; it is not a single-attempt, no-retry result.
 
-All 615 execution configuration snapshots record a 400-step agent-loop limit, an eight-hour runtime limit, and a 30-minute idle limit. These are configured limits, not measured consumption. Internal `final_runs/run_NNN` indices describe execution/repair iterations, not independent benchmark tasks. In this batch, 357 selected runs have indices of at least 2; the maximum selected index is 22.
+All 615 execution configuration snapshots record a 400-step agent-loop limit, an eight-hour runtime limit, and a 30-minute idle limit. The execution configuration uses a 4,000-token default/text output budget, an 8,000-token action output budget, and a 4,000-token summary output budget. These are distinct from the external GLM judge's output budgets. These are configured limits, not measured consumption. Internal `final_runs/run_NNN` indices describe execution/repair iterations, not independent benchmark tasks. In this batch, 357 selected runs have indices of at least 2; the maximum selected index is 22.
 
 The evaluator uses the highest numeric `run_NNN` within each task record, without consulting its internal pass/fail label or falling back to an earlier successful run. Each task ID contributes one result.
 

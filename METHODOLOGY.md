@@ -14,7 +14,7 @@ This document describes the completed `webvoyager-2026-11-16` batch, judged on N
 - Task-definition Git tree: `092ac8034909c70a45b50b9ea5aa03fcf51bbe0e`.
 - Evaluation type: self-reported, system-level, post-hoc judging.
 
-All 615 evaluated instruction strings were checked against the frozen task definitions and match exactly. No task was removed from the denominator, and no task definition or lock file under `benchmark/` is changed by this documentation update.
+All 615 evaluated instruction strings were checked against the frozen task definitions and match exactly. No task was removed from the denominator. The task definitions in `benchmark/webvoyager/`, `benchmark/TASK_MANIFEST.json`, `benchmark/SHA256SUMS.txt`, and the retained upstream reference are unchanged from the frozen snapshot. This lock applies to those files, not to every file in `benchmark/`; auxiliary documentation in that directory has changed.
 
 ## Execution Budgets and Internal Repair
 
@@ -25,7 +25,9 @@ The `config_snapshot/merged_config.yaml` files for all 615 submitted execution r
 | `model.model_name` | `qwen3.8-max` |
 | `model.temperature` | `0.0` |
 | `model.enable_thinking` | `true` |
-| `model.max_output_tokens` | `4000` |
+| `model.max_output_tokens` | `4000` (default/text) |
+| `model.action_max_output_tokens` | `8000` |
+| `model.summary_max_output_tokens` | `4000` |
 | `model.request_timeout_seconds` | `600` |
 | `agent.step_limit` | `400` |
 | `agent.max_run_seconds` | `28800` seconds (8 hours) |
@@ -34,7 +36,7 @@ The `config_snapshot/merged_config.yaml` files for all 615 submitted execution r
 | `agent.require_self_reflection_success` | `true` |
 | `agent.require_task_success_marker` | `true` |
 
-These are configured limits and completion requirements, not measurements of resources consumed by each task. The step limit applies to the agent loop, rather than to all browser actions or model requests. The execution-model output cap is distinct from the external judge's output cap.
+These are configured limits and completion requirements, not measurements of resources consumed by each task. The step limit applies to the agent loop, rather than to all browser actions or model requests. The execution configuration uses a 4,000-token default/text output budget, an 8,000-token action output budget, and a 4,000-token summary output budget. These are distinct from the external GLM judge's output budgets.
 
 **Internal retry policy:** Within each task record, the agent develops and executes a script, checks it using agent-generated critical points and expected answers, and retries script repair/execution until its own self-reflection check passes or configured stopping limits or an unrecoverable error end the task. With the two completion requirements above enabled, normal successful completion is configured to require a passing self-check and a task-success marker. The self-check supplies repair feedback and gates successful completion.
 
