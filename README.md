@@ -1,6 +1,6 @@
 # Webwright WebVoyager Results
 
-**Webwright (Qwen3.8-Max): 599/615 tasks, 97.40%.**
+**Webwright (Qwen3.8-Max): 599/615 tasks, 97.39%.**
 
 This repository publishes a self-reported system-level, post-hoc evaluation of 615 tasks across 15 websites, adapted from [browser-control-fable-5](https://github.com/omxyz/webvoyager/tree/main/benchmark/data/browser-control-fable-5). Reported by [XYDT](https://www.xydigit.com/).
 
@@ -17,9 +17,9 @@ Batch: `webvoyager-2026-11-16`. External judging ran on November 16–17, 2026. 
 | NOT SUCCESS (`failure`) | 14 |
 | Missing evidence | 2 |
 | Unresolved tasks after aggregation | 0 |
-| Success rate | **97.40%** |
+| Success rate | **97.39%** |
 
-Success rate = 599 / 615 × 100% = 97.39837398%, rounded to 97.40%. Both missing-evidence tasks remain in the denominator and count as unsuccessful. Thus 613 tasks have a GLM success/failure verdict, and two have an evaluator input-validation outcome.
+Success rate = 599 / 615 × 100%, displayed as **97.39%** by truncating to two decimal places. Both missing-evidence tasks remain in the denominator and count as unsuccessful. Thus 613 tasks have a GLM success/failure verdict, and two have an evaluator input-validation outcome.
 
 | Website | Tasks | SUCCESS | NOT SUCCESS | Missing evidence |
 | --- | ---: | ---: | ---: | ---: |

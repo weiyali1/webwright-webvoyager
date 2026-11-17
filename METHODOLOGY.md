@@ -1,6 +1,6 @@
 # Evaluation Methodology
 
-This document describes the completed `webvoyager-2026-11-16` batch, judged on November 16–17, 2026. The aggregate is **599 successes, 14 failures, and two missing-evidence tasks out of 615**, or **97.40%**. See [`evaluation/summary.json`](evaluation/summary.json) for the machine-readable totals and task-level provenance.
+This document describes the completed `webvoyager-2026-11-16` batch, judged on November 16–17, 2026. The aggregate is **599 successes, 14 failures, and two missing-evidence tasks out of 615**, or **97.39%**. See [`evaluation/summary.json`](evaluation/summary.json) for the machine-readable totals and task-level provenance.
 
 ## System, Tasks, and Task Lock
 
@@ -142,7 +142,7 @@ Candidates are ordered using their saved `evaluated_at` timestamps and source pa
 
 The aggregate contains 610 task rows associated with a 32768-token source configuration, three with 65536, and two with 131072. The 610 include both missing-answer tasks, for which no judge call was made; the selected actual model verdict counts by cap are therefore 608, 3, and 2.
 
-Success rate = 599 / 615 × 100% = 97.39837398%, displayed as 97.40%. Unresolved API/parse errors are not silently counted as failures or dropped from the denominator; after combining valid records, none of the 615 tasks remains unresolved. Original per-round summaries can still report incomplete status because their historical records are preserved.
+Success rate = 599 / 615 × 100%, displayed as **97.39%** by truncating to two decimal places. Unresolved API/parse errors are not silently counted as failures or dropped from the denominator; after combining valid records, none of the 615 tasks remains unresolved. Original per-round summaries can still report incomplete status because their historical records are preserved.
 
 Supplement rounds send the frozen task instruction, selected answer, and screenshots to GLM for judging. The aggregation step selects the first valid verdict from the saved GLM responses and combines those verdicts with the two missing-evidence outcomes.
 

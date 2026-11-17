@@ -1,6 +1,6 @@
 # Judge Errors and First-Valid-Verdict Scoring
 
-This report applies to the completed `webvoyager-2026-11-16` batch. It replaces carried-over template descriptions with this batch's actual records. The final result is **599 SUCCESS, 14 NOT SUCCESS, and two missing-evidence outcomes out of 615**, with **zero unresolved tasks** and a success rate of **97.40%**.
+This report applies to the completed `webvoyager-2026-11-16` batch. It replaces carried-over template descriptions with this batch's actual records. The final result is **599 SUCCESS, 14 NOT SUCCESS, and two missing-evidence outcomes out of 615**, with **zero unresolved tasks** and a success rate of **97.39%**.
 
 The authoritative aggregate is [`evaluation/summary.json`](evaluation/summary.json). Its `task_results` entries identify each selected record, raw status, response ID, generation cap, fingerprint, and selection method. The original evaluator and saved per-round records are unchanged by this report.
 
@@ -103,7 +103,7 @@ The 14 first-valid NOT SUCCESS outcomes are:
 - Google Search: `Google Search--2`, `Google Search--34`.
 - Wolfram Alpha: `Wolfram Alpha--33`.
 
-Success rate = 599 / 615 × 100% = 97.39837398%, displayed as 97.40%. Merging only the original evaluator's structured accepted statuses also gives 599 success, 14 failure, and two missing evidence; the literal-text recovery changes the selected provenance of five tasks, not these totals.
+Success rate = 599 / 615 × 100%, displayed as **97.39%** by truncating to two decimal places. Merging only the original evaluator's structured accepted statuses also gives 599 success, 14 failure, and two missing evidence; the literal-text recovery changes the selected provenance of five tasks, not these totals.
 
 ## Preserved Historical Record Discrepancy
 
