@@ -1,0 +1,181 @@
+{
+  "task_id": "Allrecipes--10",
+  "website": "Allrecipes",
+  "task": "Find The Most Popular Recipes of the 1960s, noting the recipe name, preparation time and total time of the second recipe in this collection.",
+  "task_record": "Allrecipes--10/Allrecipes--10_20261113_030853",
+  "task_definition_sha256": "82721d2e36d10f05f5bed62175b55498b5b203eec69c2691d0577aceed69a0dc",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--10/Allrecipes--10_20261113_030853"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: The second recipe in The Most Popular Recipes of the 1960s collection is Swedish Meatballs I (also listed as Swedish Meatballs l). Preparation time: 25 mins. Total time: 1 hr 25 mins.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--10/Allrecipes--10_20261113_030853/final_runs/run_003/screenshots/final_execution_1_collection_heading.png",
+      "sha256": "dfed5054875a34581af78cd8844344527145d0ff01dfbb4f1a89e00d2e5ad5df"
+    },
+    {
+      "path": "Allrecipes--10/Allrecipes--10_20261113_030853/final_runs/run_003/screenshots/final_execution_2_second_recipe_in_collection.png",
+      "sha256": "2d1befbdfe7786c4a9d60f8183f6e9bce0f4b05efdfd059b2e24ec065a0a1e12"
+    },
+    {
+      "path": "Allrecipes--10/Allrecipes--10_20261113_030853/final_runs/run_003/screenshots/final_execution_3_second_recipe_prep_time.png",
+      "sha256": "8f9ed078a7a8623c18ab4a5f6548ebab91d5ac79f4b0457a921de651af22d62a"
+    },
+    {
+      "path": "Allrecipes--10/Allrecipes--10_20261113_030853/final_runs/run_003/screenshots/final_execution_4_second_recipe_total_time.png",
+      "sha256": "8f9ed078a7a8623c18ab4a5f6548ebab91d5ac79f4b0457a921de651af22d62a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "dedd4d2a2731b2b04807c9b5e84f2d12992de3c5e21474c9d3bc170c07f0f697",
+  "fingerprint": "ddfbc7b7a2ca5577d7888031583a615cbcd7c1646b105b61ae0f2a66a8bb5c26",
+  "evaluated_at": "2026-11-16T10:01:50.965210+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Find \"The Most Popular Recipes of the 1960s\" collection\n2. Identify the second recipe in the collection\n3. Note the recipe name\n4. Note the preparation time\n5. Note the total time\n\n## Screenshot Verification:\n\n**Screenshot 1:** Shows the Allrecipes page titled \"The Most Popular Recipes of the 1960s\" — confirming the collection was successfully located. The first image appears to be a meringue-covered dessert (likely Baked Alaska, the first recipe).\n\n**Screenshot 2:** Shows the collection page scrolled to a section about Swedish meatballs with a \"VIEW RECIPE\" button, immediately followed by \"03 of 20 Sidecar\". This numbering confirms that the Swedish meatballs entry is **02 of 20** — i.e., the second recipe in the collection.\n\n**Screenshots 3 & 4:** Show the recipe page for \"Swedish Meatballs I\" with the following details clearly visible:\n- **Prep Time: 25 mins** ✓\n- **Cook Time: 1 hr**\n- **Total Time: 1 hr 25 mins** ✓\n\n## Response Verification:\nThe result response states:\n- Recipe name: Swedish Meatballs I ✓ (matches screenshot 3)\n- Preparation time: 25 mins ✓ (matches screenshot 3)\n- Total time: 1 hr 25 mins ✓ (matches screenshot 3)\n\nAll information in the response is consistent with the screenshots. The identification of Swedish Meatballs as the second recipe is supported by the \"03 of 20 Sidecar\" label appearing directly after the Swedish meatballs section, and the first recipe being the dessert shown at the top of the collection.\n\nAll three required pieces of information (recipe name, prep time, total time) were correctly retrieved and reported.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8430,
+    "completion_tokens": 881,
+    "total_tokens": 9311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 495
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:01:51.138428+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Allrecipes--10/Allrecipes--10_20261113_030853/final_runs/run_003/screenshots/final_execution_1_collection_heading.png",
+      "source_sha256": "dfed5054875a34581af78cd8844344527145d0ff01dfbb4f1a89e00d2e5ad5df",
+      "source_bytes": 384914,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 183705,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7e2030c8401aeb9d3fabdaf699befa8c51ad0d49dee3ec386d5b75a213cb39d7"
+    },
+    {
+      "path": "Allrecipes--10/Allrecipes--10_20261113_030853/final_runs/run_003/screenshots/final_execution_2_second_recipe_in_collection.png",
+      "source_sha256": "2d1befbdfe7786c4a9d60f8183f6e9bce0f4b05efdfd059b2e24ec065a0a1e12",
+      "source_bytes": 380853,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 191956,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2bc61ff4e3ef585f56967351626e4c5459c9d6636449209d93bd0706c1300e69"
+    },
+    {
+      "path": "Allrecipes--10/Allrecipes--10_20261113_030853/final_runs/run_003/screenshots/final_execution_3_second_recipe_prep_time.png",
+      "source_sha256": "8f9ed078a7a8623c18ab4a5f6548ebab91d5ac79f4b0457a921de651af22d62a",
+      "source_bytes": 348899,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 180413,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ac95e78278140975f60d474530b4555dd88470518c2ebda659227b89d2b8f443"
+    },
+    {
+      "path": "Allrecipes--10/Allrecipes--10_20261113_030853/final_runs/run_003/screenshots/final_execution_4_second_recipe_total_time.png",
+      "source_sha256": "8f9ed078a7a8623c18ab4a5f6548ebab91d5ac79f4b0457a921de651af22d62a",
+      "source_bytes": 348899,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 180413,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ac95e78278140975f60d474530b4555dd88470518c2ebda659227b89d2b8f443"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 985130,
+  "response_id": "53874fa3-5a30-4c4e-82c3-44f5611c0297",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1648,
+    "reasoning_content_chars": 2026
+  }
+}

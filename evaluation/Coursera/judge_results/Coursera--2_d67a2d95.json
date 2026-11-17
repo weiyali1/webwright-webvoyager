@@ -1,0 +1,181 @@
+{
+  "task_id": "Coursera--2",
+  "website": "Coursera",
+  "task": "Find a Beginner's Spanish Specialization on Coursera and show all the courses in this Specialization.",
+  "task_record": "Coursera--2/Coursera--2_20261114_053748",
+  "task_definition_sha256": "ab8dbd16534bbb37e8b9f94a8fcd771d3b8e32acc0992dd24757fe3fbdd40b0e",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--2/Coursera--2_20261114_053748"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found the Beginner's Spanish Specialization 'Learn Spanish: Basic Spanish Vocabulary' (https://www.coursera.org/specializations/learn-spanish, Beginner level, 5 course series). All courses in this Specialization: 1) Spanish Vocabulary: Meeting People, 2) Spanish Vocabulary: Cultural Experience, 3) Spanish Vocabulary: Sports, Travel, and the Home, 4) Spanish Vocabulary: Careers and Social Events, 5) Spanish Vocabulary Project.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--2/Coursera--2_20261114_053748/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "sha256": "fc0673f7c888832d36df47a2e868160d7cf05c2be2c142e4f83aed377bfe3ac1"
+    },
+    {
+      "path": "Coursera--2/Coursera--2_20261114_053748/final_runs/run_001/screenshots/final_execution_2_specialization_page.png",
+      "sha256": "e4f9f500f2a4b02351446c8e086235dbab9ba01f537c3e9a515f29a99fc90f7a"
+    },
+    {
+      "path": "Coursera--2/Coursera--2_20261114_053748/final_runs/run_001/screenshots/final_execution_3_courses_section.png",
+      "sha256": "2f61141472cf0f994fb9059f87af0b2305d0e7a5b3a93a9fb7e0f22307703923"
+    },
+    {
+      "path": "Coursera--2/Coursera--2_20261114_053748/final_runs/run_001/screenshots/final_execution_4_all_courses.png",
+      "sha256": "910982d5c60f1311b3a19cc2ed2eb71e12b1ba4c3a4455a1c39e82d5818fb34f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "a5d8488515275fd080e55e688c5228c0ae3c6134678f6b4d2df60687a4af9a19",
+  "fingerprint": "8e4e09fb08afce89be51c526b79458f0b7a510e084e9c8e65da15e94fd4048bb",
+  "evaluated_at": "2026-11-16T09:57:49.659296+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. **Find a Beginner's Spanish Specialization on Coursera**\n2. **Show all the courses in this Specialization**\n\n## Screenshot Analysis:\n\n**Screenshot 1 (Search Results):** The search for \"beginner's spanish specialization\" was performed on Coursera. The results show \"Learn Spanish: Basic Spanish Vocabulary\" by University of California, Davis, explicitly labeled as \"Beginner · Specialization · 3 - 6 Months\" — this matches the requirement of finding a Beginner's Spanish Specialization.\n\n**Screenshot 2 (Specialization Page):** The specialization page for \"Learn Spanish: Basic Spanish Vocabulary Specialization\" by UC Davis is opened. Key details visible:\n- \"5 course series\"\n- \"Beginner level\" with \"No prior experience required\"\n- Instructor: Dr. Robert Blake\n- 182,738 already enrolled\n\nThis confirms the specialization is indeed a Beginner-level Spanish Specialization.\n\n**Screenshot 3 (Courses Section):** The page shows the \"Specialization - 5 course series\" section with courses listed:\n1. Spanish Vocabulary: Meeting People (Course 1 · 16 hours)\n2. Spanish Vocabulary: Cultural Experience (Course 2 · 14 hours)\n3. Spanish Vocabulary: Sports, Travel, and the Home (Course 3 · 18 hours)\n4. Spanish Vocabulary: Careers and Social Events (Course 4 · 15 hours)\n5. The 5th course is partially cut off at the bottom of this screenshot.\n\n**Screenshot 4 (Full Page View):** The full specialization page is displayed, showing the complete course list including the 5th course (Spanish Vocabulary Project), confirming all courses in the specialization are shown.\n\n## Response Verification:\nThe response correctly identifies the specialization ('Learn Spanish: Basic Spanish Vocabulary', Beginner level, 5 course series) and lists all 5 courses:\n1. Spanish Vocabulary: Meeting People\n2. Spanish Vocabulary: Cultural Experience\n3. Spanish Vocabulary: Sports, Travel, and the Home\n4. Spanish Vocabulary: Careers and Social Events\n5. Spanish Vocabulary Project\n\nThis matches the courses visible in the screenshots. Both task components are fulfilled: the Beginner's Spanish Specialization was found, and all courses in the specialization are shown/listed.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 5433,
+    "completion_tokens": 1195,
+    "total_tokens": 6628,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 717
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:57:50.311391+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Coursera--2/Coursera--2_20261114_053748/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "fc0673f7c888832d36df47a2e868160d7cf05c2be2c142e4f83aed377bfe3ac1",
+      "source_bytes": 987820,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 299730,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0e5628937d856521043b3da3af266eb46d190770a8ffc34c7128128ac6b1f6ed"
+    },
+    {
+      "path": "Coursera--2/Coursera--2_20261114_053748/final_runs/run_001/screenshots/final_execution_2_specialization_page.png",
+      "source_sha256": "e4f9f500f2a4b02351446c8e086235dbab9ba01f537c3e9a515f29a99fc90f7a",
+      "source_bytes": 204764,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 205458,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "81a84fb870fe7db0f30d34f095b47fec26cf2abee452d2ee7c44df06b67ee59a"
+    },
+    {
+      "path": "Coursera--2/Coursera--2_20261114_053748/final_runs/run_001/screenshots/final_execution_3_courses_section.png",
+      "source_sha256": "2f61141472cf0f994fb9059f87af0b2305d0e7a5b3a93a9fb7e0f22307703923",
+      "source_bytes": 443341,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 194520,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5782c508ac6a138755da57f31a98e63f4cf458fa6316bed252b415624955e039"
+    },
+    {
+      "path": "Coursera--2/Coursera--2_20261114_053748/final_runs/run_001/screenshots/final_execution_4_all_courses.png",
+      "source_sha256": "910982d5c60f1311b3a19cc2ed2eb71e12b1ba4c3a4455a1c39e82d5818fb34f",
+      "source_bytes": 894233,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        8268
+      ],
+      "transmitted_dimensions": [
+        196,
+        1280
+      ],
+      "transmitted_bytes": 41173,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "55727245b539726c36d7193a3ce61f0f1206026d0c02da5cc709a3839b895271"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 991177,
+  "response_id": "eab75b06-275a-4850-886d-1154d13bf5d0",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2221,
+    "reasoning_content_chars": 3246
+  }
+}

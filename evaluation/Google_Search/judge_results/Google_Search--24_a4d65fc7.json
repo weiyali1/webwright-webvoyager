@@ -1,0 +1,151 @@
+{
+  "task_id": "Google Search--24",
+  "website": "Google Search",
+  "task": "What is the name of the star system closest to the Solar System, and what are the discovered planets in it?",
+  "task_record": "Google Search--24/Google Search--24_20261116_023856",
+  "task_definition_sha256": "a5e408c53e266d6683ba0a51707b73dc3618aed30111a4742d2d3236695f7372",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Search--24/Google Search--24_20261116_023856"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The closest star system to the Solar System is Alpha Centauri, which includes Proxima Centauri at approximately 4.25 light-years away. The discovered planets in this system are: Proxima Centauri b (confirmed, Earth-sized, in the habitable zone, discovered 2016), Proxima Centauri c (candidate), and Proxima Centauri d (very light, confirmed). Alpha Centauri A may also have a gas giant candidate.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Search--24/Google Search--24_20261116_023856/final_runs/run_001/screenshots/final_execution_1_enter_query.png",
+      "sha256": "b638cb05997d1fbdb33260ebde36e99fcdd5a3322dd2260a95210c9b2e745582"
+    },
+    {
+      "path": "Google Search--24/Google Search--24_20261116_023856/final_runs/run_001/screenshots/final_execution_2_results_displayed.png",
+      "sha256": "6494847a51fae00f12e3e310f28932f75ab806e82df9a5fcec89e3f51d83901b"
+    },
+    {
+      "path": "Google Search--24/Google Search--24_20261116_023856/final_runs/run_001/screenshots/final_execution_3_planet_details.png",
+      "sha256": "22c62b04806213efc349d928cedb33e08df453641956053da04a82fd221631f2"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "88a39030f3c57403b5309ca92b8cf962f31a004af18e435e02e6f5e831dbe2c1",
+  "fingerprint": "5f071b87bf954cafea7161fd6f23bf85cf2281797ac2e6c8e7010d857e9cac11",
+  "evaluated_at": "2026-11-16T10:09:31.945764+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task Requirements:**\n1. Identify the name of the star system closest to the Solar System\n2. List the discovered planets in that system\n\n**Screenshot Analysis:**\n- **Screenshot 1:** Shows a Google search initiated with the query \"closest star system to the Solar System discovered planets\" — the search was properly executed per the task.\n- **Screenshot 2:** Search results display a Wikipedia entry for \"Proxima Centauri\" stating it is \"the nearest star to Earth after the Sun, located 4.25 light-years (1.3 parsecs) away in the southern constellation of Centaurus.\" An AI overview was loading, and related questions include \"Which star system is the closest to the solar system?\"\n- **Screenshot 3:** Further results show the AI overview partially rendered, mentioning \"Proxima c\" as an outer candidate planet (候選行星), Barnard's Star as the next nearest system with planets, a Max-Planck-Institut result confirming a planet discovered in 2016 orbiting Proxima Centauri in the habitable zone, a \"List of nearest exoplanets\" result confirming Proxima Centauri at 4.25 light-years, and an Observatoire de Paris result noting Alpha Centauri is a triple star system.\n\n**Response Analysis:**\nThe response states the closest star system is Alpha Centauri (including Proxima Centauri at ~4.25 light-years), with planets: Proxima Centauri b (confirmed, habitable zone, 2016), Proxima Centauri c (candidate), Proxima Centauri d (confirmed), plus a possible gas giant candidate around Alpha Centauri A.\n\n**Cross-Verification:**\n- The 4.25 light-year distance and Proxima Centauri as nearest star are directly corroborated by the screenshots.\n- The 2016 discovery of Proxima Centauri b is corroborated by the Max-Planck result.\n- Proxima c as a candidate planet is corroborated by the AI overview snippet in Screenshot 3.\n- Alpha Centauri as a triple star system is corroborated by the Observatoire de Paris result.\n- Details about Proxima d and the Alpha Centauri A gas giant candidate are not visible in the screenshots, but per evaluation guidelines, content in the response not shown on the screenshot should be believed, and these facts are astronomically accurate.\n\nBoth parts of the question (star system name and its planets) are fully and accurately answered, and the browsing evidence supports the response.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 5111,
+    "completion_tokens": 1521,
+    "total_tokens": 6632,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 988
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:09:32.289327+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "Google Search--24/Google Search--24_20261116_023856/final_runs/run_001/screenshots/final_execution_1_enter_query.png",
+      "source_sha256": "b638cb05997d1fbdb33260ebde36e99fcdd5a3322dd2260a95210c9b2e745582",
+      "source_bytes": 48930,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 51798,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8bc930e1756b9f3e9cf7d494aca635944749b2b31b68d715c8271b247f06514a"
+    },
+    {
+      "path": "Google Search--24/Google Search--24_20261116_023856/final_runs/run_001/screenshots/final_execution_2_results_displayed.png",
+      "source_sha256": "6494847a51fae00f12e3e310f28932f75ab806e82df9a5fcec89e3f51d83901b",
+      "source_bytes": 217984,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 82746,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9690459c75166a97caa7aca90f85d4ef755355cd24cd108212e492e2733536bf"
+    },
+    {
+      "path": "Google Search--24/Google Search--24_20261116_023856/final_runs/run_001/screenshots/final_execution_3_planet_details.png",
+      "source_sha256": "22c62b04806213efc349d928cedb33e08df453641956053da04a82fd221631f2",
+      "source_bytes": 213458,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 152408,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "482a51307deca000d519e15c6fb9f6d93ebab34d4da9fe9613aad8aa0e9aef48"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 385838,
+  "response_id": "ef937900-72e5-4fdf-8d98-e6e50e00dddd",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2345,
+    "reasoning_content_chars": 4239
+  }
+}

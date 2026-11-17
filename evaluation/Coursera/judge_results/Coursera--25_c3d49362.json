@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--25",
+  "website": "Coursera",
+  "task": "Find a course on Coursera about 'Relativity' for beginners. List the course's main topics and the estimated time (in hours) required to complete it.",
+  "task_record": "Coursera--25/Coursera--25_20261114_134505",
+  "task_definition_sha256": "5ef5e9b1958a0a3c13288e25398d273d6c93ecf39ae55844fc75d4936bd83b81",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--25/Coursera--25_20261114_134505"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Course: Understanding Einstein: The Special Theory of Relativity (Stanford Online, Beginner level) on Coursera. Main topics: Module 1: Introduction to the Course, and Einstein in Context; Module 2: Events, Clocks, and Reference Frames; Module 3: Ethereal Problems and Solutions; Module 4: The Weirdness Begins; Module 5: Spacetime Switches; Module 6: Breaking the Spacetime Speed Limit; Module 7: Paradoxes to Ponder; Module 8: To the Center of the Galaxy and Back. Estimated time: 81 hours total (sum of the 8 module estimates: 5+11+10+12+14+11+9+9), matching the suggested pace '2 months at 10 hours a week'.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp2_beginner_level_filter.png",
+      "sha256": "02f2020dcdc3e816ad3adc18ec06dd022dd935426356813e7b7b8f62928fe922"
+    },
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp3_filtered_results_beginner.png",
+      "sha256": "d5473a295ae9b4a47acbaa7ce3f7ccf36e978ecd814201628c3fa796f2af72a6"
+    },
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp4_course_page_beginner_relativity.png",
+      "sha256": "a8b84f2151cc35c579f8e33ccb5cdbbbc7bbab06171f77d70d92778755a1c2fe"
+    },
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp5_syllabus_modules.png",
+      "sha256": "ada3ebfa219bf874ab32267c8ef48519231a11d766cc7087dd0f3e11dce858e5"
+    },
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp6_estimated_time.png",
+      "sha256": "94d98b5aa250addf1a2b45f59550716bfa3ff31f1d654c8274e14ef082b2a42b"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "4bbb22a9442ef032b48fb438d1dbf8d6d26e9c2170bb399cf114a602f72a11be",
+  "fingerprint": "1168cbf4158b14fbbc7629f3ac1ac80b8ae952caa59ff06c98d75677d4c46d0d",
+  "evaluated_at": "2026-11-16T10:05:57.793277+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a course on Coursera about 'Relativity' for beginners\n2. List the course's main topics\n3. Provide the estimated time (in hours) required to complete it\n\n**Verification against screenshots:**\n\n1. **Course found for beginners:** ✓ The screenshots show a Coursera search for \"Relativity\" with the \"Beginner\" level filter applied (checkbox checked, 50 results). The first result is \"Understanding Einstein: The Special Theory of Relativity\" by Stanford Online, labeled \"Beginner · Course · 1-3 Months\". The course page confirms \"Beginner level\" and \"No prior experience required\" — this matches the response.\n\n2. **Main topics listed:** ✓ The fourth screenshot shows the course's 8 modules, and the response lists them accurately:\n   - Module 1: Introduction to the Course, and Einstein in Context (5 hours)\n   - Module 2: Events, Clocks, and Reference Frames (11 hours)\n   - Module 3: Ethereal Problems and Solutions (10 hours)\n   - Module 4: The Weirdness Begins (12 hours)\n   - Module 5: Spacetime Switches (14 hours)\n   - Module 6: Breaking the Spacetime Speed Limit (11 hours)\n   - Module 7: Paradoxes to Ponder (9 hours)\n   - Module 8: To the Center of the Galaxy and Back (9 hours)\n\n3. **Estimated time in hours:** ✓ The response states 81 hours total, computed as the sum of the module estimates (5+11+10+12+14+11+9+9 = 81). This arithmetic is correct and consistent with the course page's \"Flexible schedule: 2 months at 10 hours a week\" (~80 hours), which is also visible in the screenshot.\n\n**Consistency check:** The response aligns fully with the screenshots — course name, provider (Stanford Online), beginner level, module topics, and per-module hour estimates all match. No contradictions were found.\n\nAll three components of the task were completed accurately.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9151,
+    "completion_tokens": 1224,
+    "total_tokens": 10375,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 774
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:05:58.321577+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp2_beginner_level_filter.png",
+      "source_sha256": "02f2020dcdc3e816ad3adc18ec06dd022dd935426356813e7b7b8f62928fe922",
+      "source_bytes": 764289,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 295034,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d62721c69047abca148a013425f45abe1ca7bac5055650dfb1e2716ad3f3cc24"
+    },
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp3_filtered_results_beginner.png",
+      "source_sha256": "d5473a295ae9b4a47acbaa7ce3f7ccf36e978ecd814201628c3fa796f2af72a6",
+      "source_bytes": 847149,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 303625,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a837e806abd8c3bd8ff4e85f54630e39580fd5432c8df49040302f983a306bb6"
+    },
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp4_course_page_beginner_relativity.png",
+      "source_sha256": "a8b84f2151cc35c579f8e33ccb5cdbbbc7bbab06171f77d70d92778755a1c2fe",
+      "source_bytes": 188719,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 202672,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a216c5c1fd89156280c234ff1c844fc0534f34874b298264880d667f8d4e1b22"
+    },
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp5_syllabus_modules.png",
+      "source_sha256": "ada3ebfa219bf874ab32267c8ef48519231a11d766cc7087dd0f3e11dce858e5",
+      "source_bytes": 162780,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 197666,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ff4c659696834fe242997cec500ad82363ccf83d1e796e3565dde46b6dd5562b"
+    },
+    {
+      "path": "Coursera--25/Coursera--25_20261114_134505/final_runs/run_002/screenshots/cp6_estimated_time.png",
+      "source_sha256": "94d98b5aa250addf1a2b45f59550716bfa3ff31f1d654c8274e14ef082b2a42b",
+      "source_bytes": 188719,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 202730,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "04468012396134c1887d726a6cf6c68678641280ea92eb376219534d2865f7d3"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1605945,
+  "response_id": "be040aae-184e-4910-8bd7-876cce2a5c33",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1853,
+    "reasoning_content_chars": 3089
+  }
+}

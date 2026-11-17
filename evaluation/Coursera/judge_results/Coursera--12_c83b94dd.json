@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--12",
+  "website": "Coursera",
+  "task": "Look for a Coursera course (not Specialization) that teaches Java programming basics.",
+  "task_record": "Coursera--12/Coursera--12_20261114_091510",
+  "task_definition_sha256": "e47f03745571fadf332b774134c51b9c225f24c4cf63f3fc3b30204ac9432631",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--12/Coursera--12_20261114_091510"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Course: Java Programming for Beginners | URL: https://www.coursera.org/learn/java-for-programming-beginners — a Coursera Course (not a Specialization) that teaches Java programming basics, found by searching 'java programming basics' on Coursera and applying the Learning Product > Courses filter.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+      "sha256": "7b5bbd51335da313cf0e56bfdfb1aefd34346603a07d480ea919ebaa4d21003d"
+    },
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_2_courses_filter_applied.png",
+      "sha256": "b496c0929ffbb6a77a7b7af5b71f8f1cbd438e7b36575660d0652bafdd2953e6"
+    },
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_3_filtered_results.png",
+      "sha256": "b496c0929ffbb6a77a7b7af5b71f8f1cbd438e7b36575660d0652bafdd2953e6"
+    },
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_4_course_page.png",
+      "sha256": "166206acf7e1b45e059acbf054cf869493144df097e949324fc01ea131315cb6"
+    },
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "sha256": "166206acf7e1b45e059acbf054cf869493144df097e949324fc01ea131315cb6"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "22d0f61ee1525ac5c6f590bc902b09c65ecb6d5c89104b9211268a20c84513d4",
+  "fingerprint": "e2175acd5f1d3246542a65a0c6d56768db42882d14186eaaddeb2e91b321272c",
+  "evaluated_at": "2026-11-16T10:01:43.081650+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task was to find a **Coursera course (not a Specialization)** that teaches **Java programming basics**.\n\n## Screenshot Evidence Review\n\n**Screenshot 1:** Shows the Coursera search results page for \"java programming basics\". The first result is \"Java Programming for Beginners\" by IBM, explicitly labeled as \"Beginner · **Course** · 1 - 3 Months\" with relevant skills listed (Java Programming, Java, Memory Management, Programming Principles, etc.).\n\n**Screenshots 2-3:** Show the \"Learning Product\" filter dropdown open with the **\"Courses\" checkbox checked** (5,585 results), while \"Specializations\" remains unchecked. The \"Filter & Sort (1)\" indicator confirms a filter was applied — this demonstrates deliberate effort to ensure the result is a Course and not a Specialization.\n\n**Screenshots 4-5:** Show the course detail page for \"Java Programming for Beginners\" by IBM. Key confirming details:\n- It is a single course (\"This course is part of multiple programs\" — not itself a Specialization)\n- 5 modules covering fundamentals\n- 4.6★ rating with 185 reviews\n- **Beginner level** — appropriate for learning Java programming basics\n- Instructors: IBM Skills Network Team\n- Breadcrumb: Categories > Computer Science > Software Development\n\n## Response Consistency\nThe response identifies the course \"Java Programming for Beginners\" with a Coursera URL, correctly stating it is a Course (not a Specialization) that teaches Java programming basics, found via search and the Courses filter. This aligns fully with the screenshots.\n\n## Conclusion\nThe task's requirements are fully satisfied: a search was performed, the Courses-only filter was applied to exclude Specializations, and a matching beginner-level Java course was located and its page opened.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8208,
+    "completion_tokens": 967,
+    "total_tokens": 9175,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 578
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:01:43.551270+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "7b5bbd51335da313cf0e56bfdfb1aefd34346603a07d480ea919ebaa4d21003d",
+      "source_bytes": 975985,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 304534,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8fe1c9b1de00a3651d8c6d2f981a47887595972cfe4bf8278497125907851544"
+    },
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_2_courses_filter_applied.png",
+      "source_sha256": "b496c0929ffbb6a77a7b7af5b71f8f1cbd438e7b36575660d0652bafdd2953e6",
+      "source_bytes": 797175,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 275384,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ebd00ffdce3da53769f37c8b8372d609fe7d94795066ad15e38e63a189db1582"
+    },
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_3_filtered_results.png",
+      "source_sha256": "b496c0929ffbb6a77a7b7af5b71f8f1cbd438e7b36575660d0652bafdd2953e6",
+      "source_bytes": 797175,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 275384,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ebd00ffdce3da53769f37c8b8372d609fe7d94795066ad15e38e63a189db1582"
+    },
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_4_course_page.png",
+      "source_sha256": "166206acf7e1b45e059acbf054cf869493144df097e949324fc01ea131315cb6",
+      "source_bytes": 127946,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_bytes": 218584,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "31caec33c8fdb6fbe6e2538f1bc0d8d2364bcfbf3dc9c372b3ca05c403c5d2b0"
+    },
+    {
+      "path": "Coursera--12/Coursera--12_20261114_091510/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "166206acf7e1b45e059acbf054cf869493144df097e949324fc01ea131315cb6",
+      "source_bytes": 127946,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_bytes": 218584,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "31caec33c8fdb6fbe6e2538f1bc0d8d2364bcfbf3dc9c372b3ca05c403c5d2b0"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1726579,
+  "response_id": "95a21592-a8fe-4ef2-84ff-e72fe671df85",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1823,
+    "reasoning_content_chars": 2704
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--27",
+  "website": "Booking",
+  "task": "Locate a hotel in Melbourne offering free parking and free WiFi, for a stay from November 28 to December 4, 2026.",
+  "task_record": "Booking--27/Booking--27_20261113_105104",
+  "task_definition_sha256": "e1f3728ebc6c602ea438717c1a7f5705595bf27b1f1076c40e0bea6793fbee54",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--27/Booking--27_20261113_105104"
+  ],
+  "final_run": "run_005",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Located hotel in Melbourne with free parking and free WiFi for Nov 28 - Dec 4, 2026: Melbourne Private Apartments - Collins Wharf Waterfront, Docklands. Found on Booking.com by searching Melbourne (Nov 28 - Dec 4, 2026) and applying the Parking and Free WiFi facility filters; 367 filtered properties displayed.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp2_dates_nov28_dec4.png",
+      "sha256": "dc23c18eeddc429cbf83374812f3331845cb21ad78685fd794385278416b863b"
+    },
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp3_melbourne_results.png",
+      "sha256": "db536f601ce09c1685b81f1f699a253592802fbb147fe1b28a34335fa666acf8"
+    },
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp4_filter_parking_applied.png",
+      "sha256": "6b6a093b444be9e0deb649ab086161b623ab8974ae3d52750a889ee9219b5aae"
+    },
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp5_filter_freewifi_applied.png",
+      "sha256": "145ad2df1f5e3133e6adc0d948bb9fa9dece57ffea8ba657a9b44e439b8eef18"
+    },
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp6_filtered_results_hotel.png",
+      "sha256": "eef2286be4e830a21d574147f70efd7c95b08ec7e60d0b87c0ced206ccdf856f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "a810926155c48e7eaea8507e71a26801543c2ab864e81fb7b9700df62ced8278",
+  "fingerprint": "402b4b2eafdbc457ec7d18205d52c4c573540f2fef63d81ef8e170b863dfcb36",
+  "evaluated_at": "2026-11-16T10:09:00.897679+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Locate a hotel/accommodation in Melbourne\n2. Must offer free parking\n3. Must offer free WiFi\n4. Stay dates: November 28 – December 4, 2026\n\n**Step-by-step verification against screenshots:**\n\n1. **Screenshot 1 (Search setup):** The Booking.com homepage shows the destination entered as \"Melbourne, Victoria (Melbourne Region), Au...\" and the calendar displays November 2026 and December 2026 with **Nov 28, 2026** and **Dec 4, 2026** both selected (highlighted in blue). The date field confirms \"Sat, Nov 28 — Fri, Dec 4\". ✅ Dates match the instruction exactly.\n\n2. **Screenshot 2 (Initial results):** Search executed for Melbourne showing 531 properties for Nov 28 – Dec 4. The filter sidebar shows \"Parking\" and \"Free Wifi\" options not yet applied.\n\n3. **Screenshot 3 (Parking filter applied):** The \"Parking\" checkbox is checked, reducing results to 380 properties, with a \"Parking\" filter chip visible. First result: **Melbourne Private Apartments - Collins Wharf Waterfront, Docklands**.\n\n4. **Screenshots 4 & 5 (Both filters applied):** Both \"Parking\" and \"Free Wifi\" checkboxes are checked, results reduced to **367 properties**, and the \"Facilities 2\" chip confirms two facility filters are active. The top result, **Melbourne Private Apartments - Collins Wharf Waterfront, Docklands**, is displayed with a \"Free Wifi 9.0\" badge, priced at US$1,271 for 6 nights, 2 adults — confirming it satisfies both required facilities for the specified dates.\n\n**Result Response consistency:** The response accurately states the hotel name, the search method (Melbourne, Nov 28 – Dec 4, 2026, Parking + Free WiFi filters), and the 367 filtered properties count — all of which match the screenshots.\n\nAll task components were fulfilled: correct location (Melbourne), correct dates (Nov 28 – Dec 4, 2026), and a property offering both free parking and free WiFi was successfully located.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7672,
+    "completion_tokens": 1061,
+    "total_tokens": 8733,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 584
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:09:01.225255+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp2_dates_nov28_dec4.png",
+      "source_sha256": "dc23c18eeddc429cbf83374812f3331845cb21ad78685fd794385278416b863b",
+      "source_bytes": 118067,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 159519,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b1715fefc7dc035cc386c038cc95167d9eef4e52ad12d63c29e0b156e6a07bf6"
+    },
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp3_melbourne_results.png",
+      "source_sha256": "db536f601ce09c1685b81f1f699a253592802fbb147fe1b28a34335fa666acf8",
+      "source_bytes": 382585,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 216298,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a8f43a201f9af498128f97cd8dbb08729c7d957c2279877aa7e4778bca730c45"
+    },
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp4_filter_parking_applied.png",
+      "source_sha256": "6b6a093b444be9e0deb649ab086161b623ab8974ae3d52750a889ee9219b5aae",
+      "source_bytes": 412359,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 240645,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ac5b5e29d5a6fb1e78dcbd6c5b61031bbca4fbb57eba72185695a339e591a153"
+    },
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp5_filter_freewifi_applied.png",
+      "source_sha256": "145ad2df1f5e3133e6adc0d948bb9fa9dece57ffea8ba657a9b44e439b8eef18",
+      "source_bytes": 413999,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 242599,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "016f66329a6ecc02092a534324c93a0f37f54fa010b2865a20a093edcc110418"
+    },
+    {
+      "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp6_filtered_results_hotel.png",
+      "source_sha256": "eef2286be4e830a21d574147f70efd7c95b08ec7e60d0b87c0ced206ccdf856f",
+      "source_bytes": 414005,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 242612,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "874de6088f2453c35dd2c99abecd87951ef012f00bfc1a234be12e5de20b507c"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1472203,
+  "response_id": "e62f4814-918e-4b8d-9040-dc3d1763a051",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1956,
+    "reasoning_content_chars": 2580
+  }
+}

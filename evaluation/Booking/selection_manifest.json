@@ -1,0 +1,1585 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "task_id": "Booking--0",
+      "website": "Booking",
+      "task": "Find a Mexico hotel with deals for December 25-26, 2026.",
+      "task_record": "Booking--0/Booking--0_20261112_225544",
+      "task_definition_sha256": "66e3a2cf50bc948e79377140c2920026bf0e1902ea509abc51a898022b5b7f84",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--0/Booking--0_20261112_225544"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Hotel with a deal for Dec 25-26, 2026 in Mexico: Hotel Palace México — Limited-time Deal, price HK$ 396 (Booking.com Mexico search, check-in Fri Dec 25 2026, check-out Sat Dec 26 2026).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--0/Booking--0_20261112_225544/final_runs/run_005/screenshots/final_execution_0_homepage.png",
+          "sha256": "4c6f035c5591c3e2c31e37f90619bb7bfa1123385c1770bd325d29af0ab4f679"
+        },
+        {
+          "path": "Booking--0/Booking--0_20261112_225544/final_runs/run_005/screenshots/final_execution_1_destination_mexico.png",
+          "sha256": "8d34c71e9c15ecf60f073415e25f278677914743dd5ab71aee79f8ef9ba8babc"
+        },
+        {
+          "path": "Booking--0/Booking--0_20261112_225544/final_runs/run_005/screenshots/final_execution_2_dates_selected.png",
+          "sha256": "8d34c71e9c15ecf60f073415e25f278677914743dd5ab71aee79f8ef9ba8babc"
+        },
+        {
+          "path": "Booking--0/Booking--0_20261112_225544/final_runs/run_005/screenshots/final_execution_3_results_displayed.png",
+          "sha256": "5a9666f7c31b45c0b762550c48dc9d9fa0d1c23e13dedc839654c6b9eaa13d1f"
+        },
+        {
+          "path": "Booking--0/Booking--0_20261112_225544/final_runs/run_005/screenshots/final_execution_4_deal_evidence.png",
+          "sha256": "8913b26920eb11fb891ef679df0d37258478736f7d4bc13029b42ead466b955a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a20f54eee4e5916772fba062444b46cdd10fa984ac06437ecc7102075ef1d8ac",
+      "fingerprint": "6075f81e81a8f52bed2f6dcca1030fee0b6f634d4e284066e8976a5eaf57f08e"
+    },
+    {
+      "task_id": "Booking--1",
+      "website": "Booking",
+      "task": "Find the cheapest available hotel room for a three night stay from 1st Jun in Jakarta. The room is for 2 adults, just answer the cheapest hotel room and the price.",
+      "task_record": "Booking--1/Booking--1_20261112_232919",
+      "task_definition_sha256": "b3d19f6bac827fad810ff5f49b4ad684e81525a0ecbcf8e14a977a01d2824ebb",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--1/Booking--1_20261112_232919"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The cheapest available hotel room for 2 adults for a 3-night stay from 1 Jun 2027 in Jakarta is Marson Interkota Residence Mitra RedDoorz at HK$130 for the stay.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--1/Booking--1_20261112_232919/final_runs/run_003/screenshots/cp2_dates_jun1_jun4.png",
+          "sha256": "1979406417919b2d201a6152b0f736fb1c3385e6c8e9445b517be72437279fc5"
+        },
+        {
+          "path": "Booking--1/Booking--1_20261112_232919/final_runs/run_003/screenshots/cp3_occupancy_2_adults.png",
+          "sha256": "1979406417919b2d201a6152b0f736fb1c3385e6c8e9445b517be72437279fc5"
+        },
+        {
+          "path": "Booking--1/Booking--1_20261112_232919/final_runs/run_003/screenshots/cp4_jakarta_results.png",
+          "sha256": "4aa9617bc90c010eb1e0f4ea53e05bae87632b6896a1437d3ced4117aa413693"
+        },
+        {
+          "path": "Booking--1/Booking--1_20261112_232919/final_runs/run_003/screenshots/cp5_sorted_price_lowest.png",
+          "sha256": "d44064e2e1c58ae01045848d36d6cf8c70e9961f791368f4f1bb7b0a49787e79"
+        },
+        {
+          "path": "Booking--1/Booking--1_20261112_232919/final_runs/run_003/screenshots/cp6_cheapest_room.png",
+          "sha256": "d44064e2e1c58ae01045848d36d6cf8c70e9961f791368f4f1bb7b0a49787e79"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d0938d8f36fc541a242d026b841b9b2b2fd092eaca533537c01c696343806cc6",
+      "fingerprint": "798b79b7d3450caabe467c9eab21f57b9c6c6ecfad0650ca47b431c34dca36c5"
+    },
+    {
+      "task_id": "Booking--2",
+      "website": "Booking",
+      "task": "Find a hotel in Ohio From December 20th to December 23th, 2026 for 3 adults and 2 rooms.",
+      "task_record": "Booking--2/Booking--2_20261112_235740",
+      "task_definition_sha256": "c1888329577ccacdc405b5700a127aa0baf588109f8058bcd4854f548fb92b8a",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--2/Booking--2_20261112_235740"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found hotels in Ohio on Booking.com for December 20-23, 2026, for 3 adults and 2 rooms. The search results page displayed 2,840 properties in Ohio with the applied constraints (URL params checkin=2026-12-20, checkout=2026-12-23, group_adults=3, no_rooms=2); 15 property cards were visible on the first page, with the first result being 'Holiday Inn Columbus Dwtn-Capitol Square by IHG'.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--2/Booking--2_20261112_235740/final_runs/run_002/screenshots/final_execution_1_destination_dropdown.png",
+          "sha256": "54bcf7496e2fa98cb79af3f436c10cbd5ede65d62c088377379f2380b3b4eefe"
+        },
+        {
+          "path": "Booking--2/Booking--2_20261112_235740/final_runs/run_002/screenshots/final_execution_2_calendar_selected.png",
+          "sha256": "79ef78d69ecc5e725095b9f7a72748c9042ab7d0eb45eabe84f77d66c30078b3"
+        },
+        {
+          "path": "Booking--2/Booking--2_20261112_235740/final_runs/run_002/screenshots/final_execution_3_occupancy.png",
+          "sha256": "806f66885551791fb9f27c8aac495c60b49e3b2f338f471cdd2a703cc9e8bc80"
+        },
+        {
+          "path": "Booking--2/Booking--2_20261112_235740/final_runs/run_002/screenshots/final_execution_4_searchbox_ready.png",
+          "sha256": "a751b088003a9c3aeba97d331dcd53f5d8e5696d587d98cf5eaa661938455777"
+        },
+        {
+          "path": "Booking--2/Booking--2_20261112_235740/final_runs/run_002/screenshots/final_execution_5_results.png",
+          "sha256": "7ad097a4c049a6dd9f18ae20c694cc1e3cb3d3c6ba029351ad45d7171d49414a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "6417d6492c7eb1ec65670e139f72b4ec1d79ca51fffde223a14ddbba97f013c8",
+      "fingerprint": "077ca460d1fa50160a5c5c2981ce2bb182c37d81b5dad0ea6025cc5ff94087a2"
+    },
+    {
+      "task_id": "Booking--3",
+      "website": "Booking",
+      "task": "Find a hotel with 4 star and above rating in Los Angeles for 3 days from Jul 18th.",
+      "task_record": "Booking--3/Booking--3_20261113_003030",
+      "task_definition_sha256": "8f65204c351fade63a11a20ef984c273aa893205add6ed8ea208544a4188f611",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--3/Booking--3_20261113_003030"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Hotel found: Loews Hollywood Hotel (Los Angeles, 4-star and above filter applied, stay Jul 18 - Jul 21, 2027 = 3 nights; 15 matching properties displayed).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--3/Booking--3_20261113_003030/final_runs/run_003/screenshots/final_execution_2_dates.png",
+          "sha256": "25db56c440eea09a877814492bce48ac99bd065eb695c0c264a11e1c555da376"
+        },
+        {
+          "path": "Booking--3/Booking--3_20261113_003030/final_runs/run_003/screenshots/final_execution_3_results.png",
+          "sha256": "0c788b2be6122594b2bc9daa793002bbd09c5b7cc66035fbf04bacb98e895243"
+        },
+        {
+          "path": "Booking--3/Booking--3_20261113_003030/final_runs/run_003/screenshots/final_execution_4_star_filter.png",
+          "sha256": "42bffaed8749db08b3f291f1887e23ac6414b276846d7b5c5412530eacb79337"
+        },
+        {
+          "path": "Booking--3/Booking--3_20261113_003030/final_runs/run_003/screenshots/final_execution_5_filtered_results.png",
+          "sha256": "42bffaed8749db08b3f291f1887e23ac6414b276846d7b5c5412530eacb79337"
+        },
+        {
+          "path": "Booking--3/Booking--3_20261113_003030/final_runs/run_003/screenshots/final_execution_6_hotel_identified.png",
+          "sha256": "42bffaed8749db08b3f291f1887e23ac6414b276846d7b5c5412530eacb79337"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c25db40f0500668dedf585fbb8c15dc9ea540de4e0304221dc016a1d06268581",
+      "fingerprint": "767335dd842453a6ae876e374b57fba29f08ddf8051b77c4c7b95268cfe2effe"
+    },
+    {
+      "task_id": "Booking--4",
+      "website": "Booking",
+      "task": "Search for the cheapest Hotel near Kashi Vishwanath Temple that offer breakfast from Dec 25th - Dec 26th, 2026.",
+      "task_record": "Booking--4/Booking--4_20261113_005106",
+      "task_definition_sha256": "8965bd4e491ef7290098e250c508c34cb9621b7c54f087c349058c6897b20b0a",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--4/Booking--4_20261113_005106"
+      ],
+      "final_run": "run_007",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Cheapest hotel near Kashi Vishwanath Temple with breakfast included for Dec 25-26, 2026: Hotel Ganpati Palace at HK$ 201. Results were filtered by 'Breakfast included' and 'Hotels' property type and sorted by 'Price (lowest first)'. Runners-up: FabHotel Rudransh Residency (HK$ 204) and Ganga Putra Inn (HK$ 223).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--4/Booking--4_20261113_005106/final_runs/run_007/screenshots/final_execution_2_dates_selected.png",
+          "sha256": "ebd9d1de2043c532c667ab4661c955ec73d39351487b41730067016920d38cc4"
+        },
+        {
+          "path": "Booking--4/Booking--4_20261113_005106/final_runs/run_007/screenshots/final_execution_3_results_displayed.png",
+          "sha256": "e4efb7083df12cd7fb7ad9eeecbac4f6370766ff5cce84dff21c1a3ccef789fd"
+        },
+        {
+          "path": "Booking--4/Booking--4_20261113_005106/final_runs/run_007/screenshots/final_execution_4_filters_applied.png",
+          "sha256": "902d62d11bff81a5c6e02b095fe04a2915fcc0b877f2ca4a76aa8bf4df5c4356"
+        },
+        {
+          "path": "Booking--4/Booking--4_20261113_005106/final_runs/run_007/screenshots/final_execution_5_sort_applied.png",
+          "sha256": "37f03ca5bf172c36858daf997d688344b5ee13ef0eb7ee911f1f73e01d980d9a"
+        },
+        {
+          "path": "Booking--4/Booking--4_20261113_005106/final_runs/run_007/screenshots/final_execution_6_final_results.png",
+          "sha256": "37f03ca5bf172c36858daf997d688344b5ee13ef0eb7ee911f1f73e01d980d9a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a37355a5b2365279b5af1dc9c9e7ac1d9a23ca15eec6081218086bf558d20937",
+      "fingerprint": "e491818ed32713274eacaeb594fd18f41651844a8b4b593eb7ed793eec70a513"
+    },
+    {
+      "task_id": "Booking--5",
+      "website": "Booking",
+      "task": "Search a hotel with free WiFi and air conditioning in Bali from December 1 to December 4, 2026.",
+      "task_record": "Booking--5/Booking--5_20261113_013804",
+      "task_definition_sha256": "916f17dd8d15bdfe0b9d8a8010375919aefd0f251d46dd0e059ed7ba484374f1",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--5/Booking--5_20261113_013804"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Booking.com search for hotels in Bali from December 1 to December 4, 2026 completed with the 'Free WiFi' and 'Air conditioning' filters applied via the site's dedicated filter controls. Filtered results displayed: 15,594 properties found (15 property cards visible on the results page). URL: https://www.booking.com/searchresults.html?ss=Bali&checkin=2026-12-01&checkout=2026-12-04&group_adults=2&no_rooms=1&group_children=0&nflt=hotelfacility%3D107%3Broomfacility%3D11",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--5/Booking--5_20261113_013804/final_runs/run_001/screenshots/final_execution_1_bali_results_dates.png",
+          "sha256": "fd711465df5cba76b7f8825ad048c37750ad3ed757296218649ab7e9129b465e"
+        },
+        {
+          "path": "Booking--5/Booking--5_20261113_013804/final_runs/run_001/screenshots/final_execution_2_free_wifi_filter.png",
+          "sha256": "5321d4ddeba11d9c8b649775365abc29c21b12472a70f70198cb234575a1b488"
+        },
+        {
+          "path": "Booking--5/Booking--5_20261113_013804/final_runs/run_001/screenshots/final_execution_3_air_conditioning_filter.png",
+          "sha256": "4e2c1bb420ab7163cfe0be2498d896039a8094b41dff8771a984f91013d6fb1c"
+        },
+        {
+          "path": "Booking--5/Booking--5_20261113_013804/final_runs/run_001/screenshots/final_execution_4_final_filtered_results.png",
+          "sha256": "4e2c1bb420ab7163cfe0be2498d896039a8094b41dff8771a984f91013d6fb1c"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "5feec5ce750486fa3979730708a81c5dfffc38f037204bcca7fdf58a328405f6",
+      "fingerprint": "1480f514fa92dfe860fb5333e550693aacfcce56cec35896530f456884e51bad"
+    },
+    {
+      "task_id": "Booking--7",
+      "website": "Booking",
+      "task": "Find a hotel room on January 3-6 that is closest to National University of Singapore and costs less than $500",
+      "task_record": "Booking--7/Booking--7_20261113_015347",
+      "task_definition_sha256": "db1c991d566b506255f5750566b90a15770afb8fab94e7063049d42aaf90d7ef",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--7/Booking--7_20261113_015347"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Closest hotel to National University of Singapore under $500 for January 3-6, 2027: Fragrance Hotel - Ocean View, 1 km from National University of Singapore, price US$228 (USD). Verified on Booking.com with currency set to USD, destination set via official autocomplete, dates Jan 3-6 selected, price filter capped at US$490 (under $500), and results sorted by Distance from landmark.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--7/Booking--7_20261113_015347/final_runs/run_002/screenshots/final_execution_3_dates.png",
+          "sha256": "1cdd186f59363be90f97b862947680cd4cd09d7b4668ed9443b1a7dd386b21f7"
+        },
+        {
+          "path": "Booking--7/Booking--7_20261113_015347/final_runs/run_002/screenshots/final_execution_4_results.png",
+          "sha256": "23af0bd8db4a13edf2596c715941ebce2be95e6075d380e09d40ed4a412d8789"
+        },
+        {
+          "path": "Booking--7/Booking--7_20261113_015347/final_runs/run_002/screenshots/final_execution_5_price_filter.png",
+          "sha256": "b55601f399f31dfa0750790912739e1b8c507d86c1e26aed1f6fa9253254bf81"
+        },
+        {
+          "path": "Booking--7/Booking--7_20261113_015347/final_runs/run_002/screenshots/final_execution_6_sort_distance.png",
+          "sha256": "3257cc93fd6a2bd4f24532758d444811f6b12a3fe59f099be3d1f0231cb30777"
+        },
+        {
+          "path": "Booking--7/Booking--7_20261113_015347/final_runs/run_002/screenshots/final_execution_7_final_result.png",
+          "sha256": "c4ab486ada6b0e0ad0b537836f34406a501ace84eafe7af468b514e7224b7441"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "2f4020b19f1827505e3affb8f0893361aa0c8d819affae4b854737b2c7b06e75",
+      "fingerprint": "605ebbd67e09c8be1ce844ae91fae3c582ba6acf790c0b734ec6465e55e89fa3"
+    },
+    {
+      "task_id": "Booking--8",
+      "website": "Booking",
+      "task": "Get the hotel with highest review score and free cancelation in Chennai for 20/12/2026 - 21/12/2026.",
+      "task_record": "Booking--8/Booking--8_20261113_022046",
+      "task_definition_sha256": "60e5c55d9fd3d6fac203f3895e199edcb50e1627621edd49f57cf6bb5619f918",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--8/Booking--8_20261113_022046"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Somerset Greenways Chennai is the hotel with the highest review score (9.3, Wonderful, 849 reviews) and free cancellation in Chennai for 20/12/2026 - 21/12/2026, found by applying the Free cancellation filter and sorting by Top reviewed on booking.com.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--8/Booking--8_20261113_022046/final_runs/run_001/screenshots/final_execution_1_chennai_results_dates.png",
+          "sha256": "dd63a8a29f6d7693880b804460f668807b2f2ea7ccdabe83a9072ad205aac4b4"
+        },
+        {
+          "path": "Booking--8/Booking--8_20261113_022046/final_runs/run_001/screenshots/final_execution_2_free_cancellation_filter.png",
+          "sha256": "fc99bb8096e743158bc85363e3a4163b91cd1b42ff3a580bf1fd18fcb28eb554"
+        },
+        {
+          "path": "Booking--8/Booking--8_20261113_022046/final_runs/run_001/screenshots/final_execution_3_sort_top_reviewed.png",
+          "sha256": "799bc10ccee8f9d9b8959e77658e1248dc2ee5442dcc897478cd7da9bcd87fac"
+        },
+        {
+          "path": "Booking--8/Booking--8_20261113_022046/final_runs/run_001/screenshots/final_execution_4_top_hotel.png",
+          "sha256": "799bc10ccee8f9d9b8959e77658e1248dc2ee5442dcc897478cd7da9bcd87fac"
+        },
+        {
+          "path": "Booking--8/Booking--8_20261113_022046/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+          "sha256": "799bc10ccee8f9d9b8959e77658e1248dc2ee5442dcc897478cd7da9bcd87fac"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "4a6a9dc334b4101b649c7dceb752c6be241cce7a8f9c05fcd3a5c01bfb2e6f0f",
+      "fingerprint": "725ad3fa8891354904204b22ca6fdda6ef48abf122430b34527a5440e4d477f4"
+    },
+    {
+      "task_id": "Booking--9",
+      "website": "Booking",
+      "task": "Find hotels for 2 adults in London with a price less than 250 dollars for four days starting from December 25. You must browse the page and offer at least 3 options.",
+      "task_record": "Booking--9/Booking--9_20261113_023210",
+      "task_definition_sha256": "ec802db77aa17b700150c25c65b2cff4cdc9eeca81ccd954e9f0c225699b4cd3",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--9/Booking--9_20261113_023210"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Found 15 London hotel options for 2 adults, Dec 25-29 (4 nights), budget under US$250 per night. Top options:\n1) Hilton London Kensington Hotel - US$895 total for 4 nights (about US$224/night, under US$250/night)\n2) Hilton London Olympia - US$849 total for 4 nights (about US$212/night, under US$250/night)\n3) DoubleTree By Hilton London Excel - US$682 total for 4 nights (about US$170/night, under US$250/night)\n4) ibis London Shepherds Bush - Hammersmith - US$718 total for 4 nights (about US$180/night, under US$250/night)\n5) K Hotel Kensington - US$649 total for 4 nights (about US$162/night, under US$250/night)",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--9/Booking--9_20261113_023210/final_runs/run_002/screenshots/cp3_occupancy.png",
+          "sha256": "6cbb216d6a15dcf27cbbff7f4e48486485dea15fc146618fc0838b1039bdf885"
+        },
+        {
+          "path": "Booking--9/Booking--9_20261113_023210/final_runs/run_002/screenshots/cp4_results.png",
+          "sha256": "8285094647a9aec30918f20d8e4a2d21e6604638578e2a662d19dbf5bdbe2d30"
+        },
+        {
+          "path": "Booking--9/Booking--9_20261113_023210/final_runs/run_002/screenshots/cp5_price_filter.png",
+          "sha256": "39364b54e1b37bbf24e59074f47f8b6d3c35549ef9dbfc6aaf01189af3f609bb"
+        },
+        {
+          "path": "Booking--9/Booking--9_20261113_023210/final_runs/run_002/screenshots/cp6_hotels.png",
+          "sha256": "39364b54e1b37bbf24e59074f47f8b6d3c35549ef9dbfc6aaf01189af3f609bb"
+        },
+        {
+          "path": "Booking--9/Booking--9_20261113_023210/final_runs/run_002/screenshots/cp7_final.png",
+          "sha256": "39364b54e1b37bbf24e59074f47f8b6d3c35549ef9dbfc6aaf01189af3f609bb"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c7bff480f1a683ec92ebe5904173734ce56a6e70e10ad2f974060264ad48df32",
+      "fingerprint": "e9ed5fb905f934cc335d3d09ceea91fe910aa4f68ba29bea43a112dc6eac9227"
+    },
+    {
+      "task_id": "Booking--10",
+      "website": "Booking",
+      "task": "Find a well-reviewed hotel in Paris with available bookings suitable for a couple (2 adults) on Valentine's Day week, February 14-21, 2027, that offers free cancellation options.",
+      "task_record": "Booking--10/Booking--10_20261113_030635",
+      "task_definition_sha256": "3d884c593974e0d2d8f0541aee1b0104dd117fb30c7c98ddc570d6ae29ebaa5f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--10/Booking--10_20261113_030635"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Recommended well-reviewed Paris hotel for a couple (2 adults) on Feb 14-21, 2027: Hôtel Augustin - Astotel, review score 9.0 (Wonderful, 2,067 reviews), with availability for the selected dates and a Free cancellation option. Search used Booking.com's dedicated controls: destination Paris, calendar dates Sun Feb 14 - Sun Feb 21 2027, occupancy 2 adults · 0 children · 1 room, and filters Free cancellation + Wonderful: 9+ (1,118 properties found).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--10/Booking--10_20261113_030635/final_runs/run_002/screenshots/final_execution_3_occupancy_2_adults.png",
+          "sha256": "c98f88b0d5b1d7daf4908070fe7b54fccb8d45824ebd4cd7fb13779e59b2112c"
+        },
+        {
+          "path": "Booking--10/Booking--10_20261113_030635/final_runs/run_002/screenshots/final_execution_4_results_paris.png",
+          "sha256": "dcb70a87caae03ab1d00ba493f6b44cecfd67c7ec25484da2fe6fc7a551b36dc"
+        },
+        {
+          "path": "Booking--10/Booking--10_20261113_030635/final_runs/run_002/screenshots/final_execution_5_free_cancellation_filter.png",
+          "sha256": "d4102b5e1bd3faaea8ea876256b19e2f30ab2284fed8a742a1317b7efd5e270a"
+        },
+        {
+          "path": "Booking--10/Booking--10_20261113_030635/final_runs/run_002/screenshots/final_execution_6_review_score_filter.png",
+          "sha256": "fc9c936fdf78f8eaf5d2f05b8ff425548722d510adce0c0a694c6dfa37780d6e"
+        },
+        {
+          "path": "Booking--10/Booking--10_20261113_030635/final_runs/run_002/screenshots/final_execution_7_selected_hotel.png",
+          "sha256": "fc9c936fdf78f8eaf5d2f05b8ff425548722d510adce0c0a694c6dfa37780d6e"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "5cd940af0c8588cbad004ed5bcb4237c9fce6a67def033a387704fdf14a85011",
+      "fingerprint": "dfec5869d0b00b65c01db42622182a16fed0799fb4cee8cc87d92f10897709e9"
+    },
+    {
+      "task_id": "Booking--12",
+      "website": "Booking",
+      "task": "Find a hotel in Paris with a customer review score of 8 or higher, free Wi-Fi, and available for a 5-night stay starting on January 5th, 2027.",
+      "task_record": "Booking--12/Booking--12_20261113_032555",
+      "task_definition_sha256": "36bedb68e8919893f06724a51a47e3b075c57bef0d2599c7e6d4767ec6ba72d9",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--12/Booking--12_20261113_032555"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found a hotel in Paris meeting all requirements: Aparthotel Adagio Paris Haussmann Champs Elysées (customer review score 8.5, >= 8), with free Wi-Fi, available for a 5-night stay from Tue Jan 5 to Sun Jan 10, 2027. Filters 'Very Good: 8+' and 'Free Wifi' are applied on the Booking.com Paris results page.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_2_dates_jan5_jan10_2027.png",
+          "sha256": "7a3a0a91ec26b77013adc75b1964e0a9b3589e4dc7db640cd59fc82898023847"
+        },
+        {
+          "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_3_results_loaded.png",
+          "sha256": "7a3a0a91ec26b77013adc75b1964e0a9b3589e4dc7db640cd59fc82898023847"
+        },
+        {
+          "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_4_review_score_8plus_filter.png",
+          "sha256": "d8f129c6f2d073a2e3d5bcfd3b2c138f0d1c3a7307fb96af3aabbd6d7ae3c6fb"
+        },
+        {
+          "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_5_free_wifi_filter.png",
+          "sha256": "a56677713af8a31c03375d6e933d2621842b45351541f9963cd5f08540c6a78d"
+        },
+        {
+          "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_6_final_filtered_results.png",
+          "sha256": "775a9c03bed5a05b18d9fb714eee3575ed2dac1fdf9cdde87ea637d19b0dca0b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "684d313cdf300bec5a82a0fda5285eb40d719c809bb3e5fe0b6168d65aec564b",
+      "fingerprint": "f5d50e766a94440ccdd5873a07db86bddb2930f382c25ca696e23fe76c072b64"
+    },
+    {
+      "task_id": "Booking--15",
+      "website": "Booking",
+      "task": "Find the highest-rated luxury hotel in Rome available for booking from January 10, 2027, to January 20, 2027, for 2 adults. Include the cost, amenities offered, and customer rating.",
+      "task_record": "Booking--15/Booking--15_20261113_035149",
+      "task_definition_sha256": "84434784235c0bc7f6f571459e278da184d917b5bbdf575e4250f2ba789ecff7",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--15/Booking--15_20261113_035149"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Highest-rated luxury (5-star) hotel in Rome for Jan 10–20, 2027 (2 adults): Maalot Roma - Small Luxury Hotels of the World — customer rating 9.7 | Exceptional · 1,011 reviews (5 out of 5 stars); cost US$7,490 (+US$222 taxes and fees) for 10 nights, 2 adults; amenities offered: Non-smoking rooms, Fitness center, Room service, Restaurant, Facilities for disabled guests, Airport shuttle, Free Wifi, Family rooms, Bar, Exceptional Breakfast.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp6_sorted_top_reviewed.png",
+          "sha256": "6611e53c9e811b9b326ab3cb68a7a4c3173e4073e37f929d6c27ce584046d2c4"
+        },
+        {
+          "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp7_top_result_extracted.png",
+          "sha256": "6611e53c9e811b9b326ab3cb68a7a4c3173e4073e37f929d6c27ce584046d2c4"
+        },
+        {
+          "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp8_detail_amenities.png",
+          "sha256": "fc9aebed3634dfae0af58d4b0ef60b1b70f79604ca43eb923d7576862fe3bb4d"
+        },
+        {
+          "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp8_detail_page_top.png",
+          "sha256": "21ceb947602204558585cd04e23924f761114e777b17d39b88d81607e77f81f3"
+        },
+        {
+          "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp9_final_state.png",
+          "sha256": "fc9aebed3634dfae0af58d4b0ef60b1b70f79604ca43eb923d7576862fe3bb4d"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a36dd65a91e98854c77b8ebfb0a6cea96296d1090ccce97f86da1d67d3aa27f7",
+      "fingerprint": "4ae21ab88d42df59d6f0d3778759c23d973248bc156945e80e9d84de9e5e1951"
+    },
+    {
+      "task_id": "Booking--16",
+      "website": "Booking",
+      "task": "Look for a hotel in Paris with a user rating of 9 or higher and available for a 5-night stay starting January 15, 2027. The hotel should also offer free Wi-Fi and breakfast included in the price. Provide the name, location, and price per night.",
+      "task_record": "Booking--16/Booking--16_20261113_042928",
+      "task_definition_sha256": "b929da0347916fc3e694bd7f04263a29b8aec721ea92fa8d59d5502261172bef",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--16/Booking--16_20261113_042928"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Hotel: Paris La Trêve | Location: 7th arr., Paris | Price per night: US$280.60 (US$1,403 total for the 5-night stay Jan 15-20, 2027, 2 adults). The hotel has a guest review score of 9.1 (Wonderful, ≥9), and the applied filters confirm free Wi-Fi and breakfast included.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--16/Booking--16_20261113_042928/final_runs/run_001/screenshots/final_execution_3_paris_search_results.png",
+          "sha256": "7ec593c6c58dee5a3c9e64a36f177ce85b2c8da54beb0be4ddb7f7f93a621d14"
+        },
+        {
+          "path": "Booking--16/Booking--16_20261113_042928/final_runs/run_001/screenshots/final_execution_4_filter_rating_9plus.png",
+          "sha256": "cfa6d2261b60eb8c5332bfeb5739f137129afe1706454abd1471ff1f4645806c"
+        },
+        {
+          "path": "Booking--16/Booking--16_20261113_042928/final_runs/run_001/screenshots/final_execution_5_filter_free_wifi.png",
+          "sha256": "5ce17dac354b98304dcaf5da8624e09f94a59fa55d0772c9e5c85f3bae54ef20"
+        },
+        {
+          "path": "Booking--16/Booking--16_20261113_042928/final_runs/run_001/screenshots/final_execution_6_filter_breakfast_included.png",
+          "sha256": "5d19196bcccf853168750c646cb99c74369365f46f8d874e8ede86936243933b"
+        },
+        {
+          "path": "Booking--16/Booking--16_20261113_042928/final_runs/run_001/screenshots/final_execution_7_final_filtered_result.png",
+          "sha256": "5d19196bcccf853168750c646cb99c74369365f46f8d874e8ede86936243933b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "b3fec8ea6507c34973899816c70fccd2f202afbd9abfd6ee8dbe883b35e0298e",
+      "fingerprint": "22f5217a85e27c1b110c0bbf6ca4f764c7c66ca44555fc495247880d3d579cc5"
+    },
+    {
+      "task_id": "Booking--17",
+      "website": "Booking",
+      "task": "Find a hotel in Paris with a fitness center and a rating of 8 or higher available for a 5-night stay starting from February 14, 2027, and sort the results by best reviewed.",
+      "task_record": "Booking--17/Booking--17_20261113_045944",
+      "task_definition_sha256": "721a5394bd3d711265e00d31c247b6ef5d78b27dbdf8cc7186b533a0a2ed27d8",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--17/Booking--17_20261113_045944"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Best-reviewed hotel in Paris with a fitness center and rating 8+ for a 5-night stay Feb 14-19, 2027: Hôtel des Arts Montmartre (review score 9.6, Exceptional). Search used destination Paris, dates Sun Feb 14 - Fri Feb 19 2027, filters: Property Type = Hotels, Facilities = Fitness center, Review score = Very Good: 8+, sorted by 'Best reviewed & lowest price'; 226 matching properties displayed.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp4_filter_hotels.png",
+          "sha256": "3d8245e001f740ffa972ea76aa520eeaa63ea1d2223e723f549b204090b35f38"
+        },
+        {
+          "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp5_filter_fitness_center.png",
+          "sha256": "e160f0c92ef76b4dcf45b3fadd1ce8173512f709df49d876eb4e4487dc941e62"
+        },
+        {
+          "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp6_filter_review_8plus.png",
+          "sha256": "7fddea3b15f570c3dbbb028adf85dc755f0b951ec9b62551347979674ad7e339"
+        },
+        {
+          "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp7_sort_best_reviewed.png",
+          "sha256": "8adea50e55c89474c37f5c2736192ffdf82ed05aabb6a005749ba8cd74ccffca"
+        },
+        {
+          "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp8_final_results.png",
+          "sha256": "8adea50e55c89474c37f5c2736192ffdf82ed05aabb6a005749ba8cd74ccffca"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "9c0acf10d3493d2d1b95782a0076a64794516a20b8c96cc92bbf0baf9415d3ea",
+      "fingerprint": "5e86bbc5db20f7dbe0df1e5171ec71df1e6c705eb8a1854ddafb8d6c13ecd4c3"
+    },
+    {
+      "task_id": "Booking--18",
+      "website": "Booking",
+      "task": "Search a hotel in London with a user rating of 8 or higher for a stay between February 14th, 2027, and February 21st, 2027, suitable for a couple. Provide the name and a short description of the hotel.",
+      "task_record": "Booking--18/Booking--18_20261113_055227",
+      "task_definition_sha256": "7f94908b7f41d73da2edba1db85280648ab339d7b972bcfe03e80210e671a03c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--18/Booking--18_20261113_055227"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Hotel: The Cumberland, London. Description: Set in the heart of central London at Marble Arch, where Oxford Street meets Park Lane and Hyde Park is just a few steps away, The Cumberland puts you right at the lively end of the city. It is also home to Gordon Ramsay Hell's Kitchen, bringing one of the world's most iconic dining experiences. Found on Booking.com by searching London for Feb 14–21, 2027 (2 adults) with the 'Very Good: 8+' review score filter applied.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_3_occupancy_2_adults.png",
+          "sha256": "66f4a33fb5668f0984e7f6d59161e9858bf18f8cb4089786d36269843377cc6e"
+        },
+        {
+          "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_4_search_results_london.png",
+          "sha256": "b4b126a949153435367ed4cb682402dc6875f0b034f3512a030da3fe023556ef"
+        },
+        {
+          "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_5_filter_8plus.png",
+          "sha256": "15716dc57840abe649669abd1fa4f7d81efe9b5ee21e523682f4736fcca8fbc7"
+        },
+        {
+          "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_6_filtered_results.png",
+          "sha256": "15716dc57840abe649669abd1fa4f7d81efe9b5ee21e523682f4736fcca8fbc7"
+        },
+        {
+          "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_7_hotel_detail.png",
+          "sha256": "201eff031c8cc2e70ff958b3a15289be03246c914b2b33bf9fa3f430d255a279"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "4c88ddc6f508a58bced9405d8433cca5e7d41900df1911b5f22dc21d3d2b7698",
+      "fingerprint": "fb39d3b122821efea0a7304e67f6a2bdd312d14bdd77dcb2468376e106aadafc"
+    },
+    {
+      "task_id": "Booking--19",
+      "website": "Booking",
+      "task": "Look for a hotel with customer ratings above an 8.0 in Paris, France for a weekend stay from November 18, 2026, to November 20, 2026, and list top three suggestions based on user reviews.",
+      "task_record": "Booking--19/Booking--19_20261113_062025",
+      "task_definition_sha256": "15bb5a071bb3e10f1782ace88b8162524d0545ea3759c675fcf91bdd7e320c91",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--19/Booking--19_20261113_062025"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Top three hotel suggestions in Paris, France for Nov 18-20, 2026 (customer ratings above 8.0, filtered with 'Very Good: 8+' and sorted by 'Top reviewed' user reviews on Booking.com): 1. Hôtel des Arts Montmartre - review score 9.6 (2,417 reviews); 2. Villa-des-Prés - review score 9.7 (707 reviews); 3. HIGHSTAY Maisons - Vintimille - review score 9.8 (96 reviews).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_2_dates_nov18_nov20_2026.png",
+          "sha256": "bd0a0cda76161dcfcf01166de02daa0c177e18ef3cd9ffe19cd0ede4d4bbb8d3"
+        },
+        {
+          "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_3_search_results_paris.png",
+          "sha256": "f7acfd451c6ad0d2196236d4afb9ca7a41c7516ed84c7f6b563125677ec111a1"
+        },
+        {
+          "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_4_filter_very_good_8plus.png",
+          "sha256": "800b68f593ad231ba5854ccfd1053c3d4e62fcb7ce85920e7bbc159228cf7c1c"
+        },
+        {
+          "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_5_sort_top_reviewed.png",
+          "sha256": "9a75bb25b04fdf9357d47529659081172d2f43a364ccb24b986a1756bad33225"
+        },
+        {
+          "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_6_final_filtered_sorted_results.png",
+          "sha256": "9a75bb25b04fdf9357d47529659081172d2f43a364ccb24b986a1756bad33225"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "980c517ad81a01dd4cfda69264dbd5c777386944f52939890b61263f766a3584",
+      "fingerprint": "5e67abb309ac34c94d9c87d470cd57bbe762cd9725c3eb940c0cd6c0bc09ed77"
+    },
+    {
+      "task_id": "Booking--20",
+      "website": "Booking",
+      "task": "Locate a hotel in Rome with a good rating (7 or above) that offers free cancellation and breakfast included, for a stay from November 28 to December 2, 2026, for two adults.",
+      "task_record": "Booking--20/Booking--20_20261113_064301",
+      "task_definition_sha256": "ea59ef4fdac7d909d47450cb2fc637e6974a6fec338a2ab2e0ee73469956c22b",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--20/Booking--20_20261113_064301"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found hotel in Rome: Rome Times Hotel (rating 8.5/10, >= 7), with free cancellation and breakfast included, for Nov 28 - Dec 2, 2026, 2 adults.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_5_search_results.png",
+          "sha256": "55a50897c5dc9748c9c55166c1249915897d35e6fc9ce2feaf2ca5bf0b2b481b"
+        },
+        {
+          "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_6_free_cancellation_filter.png",
+          "sha256": "ac258419d20d495197ff704236fa4d4d7b9e3f05921b264dd0dc31461f016565"
+        },
+        {
+          "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_7_breakfast_included_filter.png",
+          "sha256": "5f2b2d10569af8eeb470767538081912df67443daeea97dd4a1d6ac8a8c966c6"
+        },
+        {
+          "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_8_good7_filter.png",
+          "sha256": "439f07da36822d69d26bc3517fa4d527cf7f0c6339527196f56bda8086a3b43c"
+        },
+        {
+          "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_9_final_results.png",
+          "sha256": "512cc8503e75ee3b2f84cd15452a15f201167f1831fff6cea04eeb92ccf549d2"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "fa31ac3defcf5d957ac6dba382f47ba6abaedef76ab9f9ec853848901bea0539",
+      "fingerprint": "8a0f2628d389a91a0e0b81782ba697071341c402915c6c3f66dca7f582ae1c39"
+    },
+    {
+      "task_id": "Booking--21",
+      "website": "Booking",
+      "task": "Find a hotel in Sydney with a rating of 8 or higher, providing free Wi-Fi and parking, available for a four-night stay starting on December 10, 2026.",
+      "task_record": "Booking--21/Booking--21_20261113_070525",
+      "task_definition_sha256": "778e34a8ff71cec3dd85bbf00c7e25647c1c3406f8c7e895e1021fb5025b7182",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--21/Booking--21_20261113_070525"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The EVE Hotel Sydney (review score 9.3) in Sydney matches all constraints: rating 8+ (Very Good: 8+ filter applied), free Wi-Fi and parking facility filters applied, available for a four-night stay December 10-14, 2026.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--21/Booking--21_20261113_070525/final_runs/run_001/screenshots/final_execution_2_results.png",
+          "sha256": "76f0037937c53ff39bb2ef1d3a7ce335e0169c2873ec51edbe2bfbecb1ef5a93"
+        },
+        {
+          "path": "Booking--21/Booking--21_20261113_070525/final_runs/run_001/screenshots/final_execution_3_rating_filter.png",
+          "sha256": "801b2e624c0eb524ef9e116aa16e18b3c665d4827a06713ed23e5ad33ffdb7b6"
+        },
+        {
+          "path": "Booking--21/Booking--21_20261113_070525/final_runs/run_001/screenshots/final_execution_4_wifi_filter.png",
+          "sha256": "bd02fb984154a4babea37533a42e8327061d5006630d96ff170e7268ed8fc613"
+        },
+        {
+          "path": "Booking--21/Booking--21_20261113_070525/final_runs/run_001/screenshots/final_execution_5_parking_filter.png",
+          "sha256": "5b145769fb7c4d3481c8cb03d788e20d00b29cb6dc38605ac100769ba97973c3"
+        },
+        {
+          "path": "Booking--21/Booking--21_20261113_070525/final_runs/run_001/screenshots/final_execution_6_final_results.png",
+          "sha256": "e9ebff0718d5ed848d6fbcc7e6df808750f1148e0b04b1919bef8331eadd9f58"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "9dac05020a13f1b9adf0ebdb043aa002f2c920f918033541a44888216436d478",
+      "fingerprint": "c04446da0ccd4ac1b4adb64410a50e370c70b7e41e605e2d2edd29f6b65e0da4"
+    },
+    {
+      "task_id": "Booking--22",
+      "website": "Booking",
+      "task": "Search for a hotel in Amsterdam with a customer review score of 9 or higher, offering bicycle rentals, for a week-long stay from November 15 to November 22, 2026, for two adults.",
+      "task_record": "Booking--22/Booking--22_20261113_073409",
+      "task_definition_sha256": "51db601a6edebab8920d33785070e5c182b2d868b76bac9829bab89d5cdc89a4",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--22/Booking--22_20261113_073409"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Searched Booking.com for hotels in Amsterdam for Nov 15-22, 2026 (7 nights, 2 adults), applied the 'Wonderful: 9+' customer review score filter and the 'Bicycle rental' facilities filter via the site's filter controls. Results: Amsterdam: 24 properties found. Top matches include Wilde Amsterdam, Hotel Estheréa, Mercure Amsterdam North Station, Citadines Sloterdijk Station Amsterdam, and Pillows Grand Boutique Hotel Maurits at the Park.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+          "sha256": "d78971ff2538cdefe91fb015e9dfca474ff1f3840752d92d13564034c171f95d"
+        },
+        {
+          "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_2_review_score_9plus_filter.png",
+          "sha256": "45f2cc608fbb832835fc4af1d53943fb24772dcae3cd3a8ee41969f0c28c121a"
+        },
+        {
+          "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_3_bicycle_rental_filter.png",
+          "sha256": "096a62d54d2acb9760879c2b593f45cac965785db34ef952f39de2a3a54efe36"
+        },
+        {
+          "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_4_final_filtered_results.png",
+          "sha256": "8e9bd0b775176dc0de10df80e2598311cbbf3d238d772d640b9b861e8b926690"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "6456fc76565104935f562df5e405dab4f34d1a2cd3ffe93349eac6877b36de3f",
+      "fingerprint": "19d84f780695260d40d79d3c8f33343de18e72168c02b126a29d4e9bf3230463"
+    },
+    {
+      "task_id": "Booking--23",
+      "website": "Booking",
+      "task": "Identify a hotel in Tokyo with a spa and wellness center, rated 9 or above, with availability for a five-night stay starting on November 20, 2026. Check if free cancellation is offered.",
+      "task_record": "Booking--23/Booking--23_20261113_075127",
+      "task_definition_sha256": "e180fcf5113b882b05bc681c09be3076ea832a0a173b5ba7480f2176d8911ced",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--23/Booking--23_20261113_075127"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Identified hotel: Grand Hyatt Tokyo (Tokyo, Japan). Review score: 9.1 'Wonderful' (based on 390 reviews), satisfying the >=9 requirement. It has a spa and wellness center (verified via the 'Spa and wellness center' facility filter). Availability is confirmed for a five-night stay starting November 20, 2026 (check-in Fri, Nov 20, 2026; check-out Wed, Nov 25, 2026), with rooms/rates bookable for those dates on the hotel detail page. Free cancellation: YES — offered on select rates ('Free cancellation before November 18, 2026'); a non-refundable rate is also available.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--23/Booking--23_20261113_075127/final_runs/run_004/screenshots/final_execution_5_review_9plus_filter.png",
+          "sha256": "69025e4cc7c945197a3757f8cce6dfc1a4549405ced1e29df747daa7e5322471"
+        },
+        {
+          "path": "Booking--23/Booking--23_20261113_075127/final_runs/run_004/screenshots/final_execution_6_identified_hotel.png",
+          "sha256": "8d12fde11cfd13ec96d32b28391a2baf7ba469987c66bbf77e8e3c759bc9b490"
+        },
+        {
+          "path": "Booking--23/Booking--23_20261113_075127/final_runs/run_004/screenshots/final_execution_7_detail_header.png",
+          "sha256": "5b6fbeebc9f932a571a4a01324fce655e015e126834897cbb9ab840d181885fe"
+        },
+        {
+          "path": "Booking--23/Booking--23_20261113_075127/final_runs/run_004/screenshots/final_execution_8_availability_rooms.png",
+          "sha256": "76dc569d14864ec11befcdb6810e7a925afb45322fb95549d44d6906952e0307"
+        },
+        {
+          "path": "Booking--23/Booking--23_20261113_075127/final_runs/run_004/screenshots/final_execution_9_free_cancellation.png",
+          "sha256": "76dc569d14864ec11befcdb6810e7a925afb45322fb95549d44d6906952e0307"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "f58dc4667a3f90c757f6a1d35c332a18367a99dbc26188b27a3d53743b3b2d19",
+      "fingerprint": "e871c8be7603b4eff2db9efaf51bf4fd0d43f54adf9c5264d87e4c89716ec874"
+    },
+    {
+      "task_id": "Booking--24",
+      "website": "Booking",
+      "task": "Find a hotel in Barcelona for a stay from February 25-28, 2027. Please sort the results by distance from the beach and make sure they offer free Wi-Fi and breakfast.",
+      "task_record": "Booking--24/Booking--24_20261113_083512",
+      "task_definition_sha256": "681144a4f225646d22dbba155dd575851d881d71e047a49388689b9ced1bed26",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--24/Booking--24_20261113_083512"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found hotels in Barcelona on booking.com for a stay from February 25-28, 2027. Applied the Free Wifi and Breakfast included filters via the site's filter controls, and sorted results by 'Distance from closest beach' using the sort dropdown. 15 properties were displayed; the closest-to-beach top result is Sofitel Barcelona Skipper. Final URL: https://www.booking.com/searchresults.html?ss=Barcelona&checkin=2027-02-25&checkout=2027-02-28&group_adults=2&no_rooms=1&group_children=0&nflt=hotelfacility%3D107%3Bmealplan%3D1&order=closest_beach_distance_v2",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--24/Booking--24_20261113_083512/final_runs/run_003/screenshots/final_execution_3_breakfast_filter.png",
+          "sha256": "15602079975b49d963f1bd706d8cd249322bb806aa5c3445d82132144024b61a"
+        },
+        {
+          "path": "Booking--24/Booking--24_20261113_083512/final_runs/run_003/screenshots/final_execution_4_sort_dropdown_open.png",
+          "sha256": "840f1bcbdde40eebe98222769aa17a22b432e7b0243d88b53fa5dd6b02d465cd"
+        },
+        {
+          "path": "Booking--24/Booking--24_20261113_083512/final_runs/run_003/screenshots/final_execution_5_sorted_by_beach_distance.png",
+          "sha256": "6f542f08fd6e94c338b201ce3c38adfa120da60465936f80300c79a6133f0846"
+        },
+        {
+          "path": "Booking--24/Booking--24_20261113_083512/final_runs/run_003/screenshots/final_execution_6_final_results.png",
+          "sha256": "6f542f08fd6e94c338b201ce3c38adfa120da60465936f80300c79a6133f0846"
+        },
+        {
+          "path": "Booking--24/Booking--24_20261113_083512/final_runs/run_003/screenshots/final_execution_7_final_results_fullpage.png",
+          "sha256": "899c62186abfd1e4df84b60116dcf1dc59e941b5afd65c9d909555e2fa8af3c1"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "0f407658002b0e11821efe12a05f4e6595cdacce4854058f79907580497bbd04",
+      "fingerprint": "3e5e724eea9614f8bec5626a044c24fde02795aa7d7930d58e990547ad0cdfef"
+    },
+    {
+      "task_id": "Booking--25",
+      "website": "Booking",
+      "task": "Search for a hotel in Lisbon with airport shuttle, rated 8.5 or above, available for a six-night stay from December 1 to December 7, 2026, for two adults, breakfast included.",
+      "task_record": "Booking--25/Booking--25_20261113_090654",
+      "task_definition_sha256": "0d6568d644a8e2cb4b70dad8877709e9522c52ee778a8fe3593d7fdcb419c18c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--25/Booking--25_20261113_090654"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Hotels in Lisbon matching all constraints (airport shuttle, breakfast included, rated 8.5 or above, six-night stay Dec 1-7, 2026, 2 adults) were found. Top result: Memmo Alfama Design Hotels - Adults Only with review score 9.0. Other matches: VIP Executive Suites do Edificio Monumental (9.0), Vincci Liberdade (9.0), Hotel Principe Lisboa (9.0), Hotel da Estrela (9.0). Site filters applied: Airport shuttle, Breakfast Included, and Wonderful: 9+ (closest available booking.com control ensuring 8.5+). Final filtered results: Lisbon: 102 properties found; all extracted result scores >= 8.5.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--25/Booking--25_20261113_090654/final_runs/run_001/screenshots/cp4_results.png",
+          "sha256": "ea596350da1593f2f6fb126ead4d7fc6d2738ed933ea8aaa9f23b1ffa7300074"
+        },
+        {
+          "path": "Booking--25/Booking--25_20261113_090654/final_runs/run_001/screenshots/cp5_airport_shuttle.png",
+          "sha256": "790994a94ff9422e4e244681b6f44204cac6b5348190d3b895da95a82f2d4e15"
+        },
+        {
+          "path": "Booking--25/Booking--25_20261113_090654/final_runs/run_001/screenshots/cp6_review_score.png",
+          "sha256": "e80bcb4683b7e831341ce0fd0fced628304c1825088b6aa88dd33062cd90cffb"
+        },
+        {
+          "path": "Booking--25/Booking--25_20261113_090654/final_runs/run_001/screenshots/cp7_breakfast.png",
+          "sha256": "11a2d7fdb321827772664c8abeca5191dbaf96ff393a8c9bd060cb213e776305"
+        },
+        {
+          "path": "Booking--25/Booking--25_20261113_090654/final_runs/run_001/screenshots/cp8_final_results.png",
+          "sha256": "e80bcb4683b7e831341ce0fd0fced628304c1825088b6aa88dd33062cd90cffb"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "8809ec06e706c6c08654622ee6c9a52bc8ae7abf6d54d731ca1c314c6c085da8",
+      "fingerprint": "49cadcaba13db7239b550b4d5820c7bd98480abcffe88502e99425a05ca3ebf4"
+    },
+    {
+      "task_id": "Booking--26",
+      "website": "Booking",
+      "task": "Check Booking.com for a 3-star hotel or higher in Paris with a guest rating above 8.0 and available parking for dates November 20-23, 2026.",
+      "task_record": "Booking--26/Booking--26_20261113_101139",
+      "task_definition_sha256": "2bcded118e34fca19de942525daf8d3be38172e69a846a666492cf7c4673dc25",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--26/Booking--26_20261113_101139"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found 394 properties in Paris matching 3+ stars, guest rating 8+ (Very Good: 8+), and parking available for November 20–23, 2026. First result: La Clef Tour Eiffel Paris by The Crest Collection.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_1_paris_results_dates.png",
+          "sha256": "3b8948b7a07fdca6b28dfb9cc3900fcf045a63b5d26650d130fc3fc3f96ffc00"
+        },
+        {
+          "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_2_star_filter.png",
+          "sha256": "e3e10720e9ae801ebd342cdc8ec0c5a6ce9653b7aa7544973db497ec34ca889a"
+        },
+        {
+          "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_3_final_results.png",
+          "sha256": "e3e10720e9ae801ebd342cdc8ec0c5a6ce9653b7aa7544973db497ec34ca889a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e836e2248bfef3d4486277e085d1bb8d0505f77b60d7418863204a0351d03d5f",
+      "fingerprint": "4e5c7093b4e64deb5acb34a1e5334fafa37d798017593392ec22b250f227e314"
+    },
+    {
+      "task_id": "Booking--27",
+      "website": "Booking",
+      "task": "Locate a hotel in Melbourne offering free parking and free WiFi, for a stay from November 28 to December 4, 2026.",
+      "task_record": "Booking--27/Booking--27_20261113_105104",
+      "task_definition_sha256": "e1f3728ebc6c602ea438717c1a7f5705595bf27b1f1076c40e0bea6793fbee54",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--27/Booking--27_20261113_105104"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Located hotel in Melbourne with free parking and free WiFi for Nov 28 - Dec 4, 2026: Melbourne Private Apartments - Collins Wharf Waterfront, Docklands. Found on Booking.com by searching Melbourne (Nov 28 - Dec 4, 2026) and applying the Parking and Free WiFi facility filters; 367 filtered properties displayed.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp2_dates_nov28_dec4.png",
+          "sha256": "dc23c18eeddc429cbf83374812f3331845cb21ad78685fd794385278416b863b"
+        },
+        {
+          "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp3_melbourne_results.png",
+          "sha256": "db536f601ce09c1685b81f1f699a253592802fbb147fe1b28a34335fa666acf8"
+        },
+        {
+          "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp4_filter_parking_applied.png",
+          "sha256": "6b6a093b444be9e0deb649ab086161b623ab8974ae3d52750a889ee9219b5aae"
+        },
+        {
+          "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp5_filter_freewifi_applied.png",
+          "sha256": "145ad2df1f5e3133e6adc0d948bb9fa9dece57ffea8ba657a9b44e439b8eef18"
+        },
+        {
+          "path": "Booking--27/Booking--27_20261113_105104/final_runs/run_005/screenshots/cp6_filtered_results_hotel.png",
+          "sha256": "eef2286be4e830a21d574147f70efd7c95b08ec7e60d0b87c0ced206ccdf856f"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a810926155c48e7eaea8507e71a26801543c2ab864e81fb7b9700df62ced8278",
+      "fingerprint": "402b4b2eafdbc457ec7d18205d52c4c573540f2fef63d81ef8e170b863dfcb36"
+    },
+    {
+      "task_id": "Booking--28",
+      "website": "Booking",
+      "task": "Find a hotel in Dubai with a swimming pool, for a week-long stay from November 22 to November 29, 2026.",
+      "task_record": "Booking--28/Booking--28_20261113_115305",
+      "task_definition_sha256": "dcd31045e8ac140f07cd68cc53b5d6663bf51ba4a50f67379ecc616815218d04",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--28/Booking--28_20261113_115305"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: A hotel in Dubai with a swimming pool for the week-long stay from November 22 to November 29, 2026 is The First Collection Dubai Jumeirah Village Circle, a Tribute Portfolio Hotel. Booking.com by entering destination Dubai, selecting check-in Nov 22, 2026 and check-out Nov 29, 2026, submitting the search, and applying the dedicated 'Swimming pool' facilities filter; the filtered results displayed the hotel as the first match.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp2_dates_selected.png",
+          "sha256": "c44480b6415c8d6a14e7e3ccc70fd9ed9f26b6aec0f30e82f7e29de213d91b1b"
+        },
+        {
+          "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp3_search_results.png",
+          "sha256": "d05999454c56a0fd3e6f9151c23d8cdb824d9bbf9eff1af1066aa16da0798ba4"
+        },
+        {
+          "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp4_pool_filter_applied.png",
+          "sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83"
+        },
+        {
+          "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp5_filtered_results.png",
+          "sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83"
+        },
+        {
+          "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp6_hotel_result.png",
+          "sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "af80127042f3111248a3b3c61ee41b8c9c9dfa819d6dd636aa5b581a75a6e765",
+      "fingerprint": "e2fa85c3858aab76c18fe8eecf612d32a88e6fc86452ca0d26c83c39dfb0a656"
+    },
+    {
+      "task_id": "Booking--29",
+      "website": "Booking",
+      "task": "Search for a hotel in Toronto with a fitness center and a rating of 8+, available for a two-night stay from December 5 to December 7, 2026.",
+      "task_record": "Booking--29/Booking--29_20261113_122531",
+      "task_definition_sha256": "d5c0de39049fdf95e5b8b64bd84efc3a4faa82e53c60a107bfc9db9b09b640d6",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--29/Booking--29_20261113_122531"
+      ],
+      "final_run": "run_006",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Searched Booking.com for Toronto stays Dec 5–7, 2026 (two nights) with filters Hotels + Fitness center + Very Good: 8+ applied. Results: Toronto: 70 properties found; top matches include DoubleTree by Hilton Toronto Downtown, Revery Toronto Downtown (Curio Collection by Hilton), and Riu Plaza Toronto.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_fitness_center.png",
+          "sha256": "58e5ef713fb5eb7a02d634474b77904a096472d9c07935cfa1235b9192805237"
+        },
+        {
+          "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_hotels.png",
+          "sha256": "c8935c71f4f3e6a06477382a90855866f4ed886efedeb4a29053e1d77d8b85cb"
+        },
+        {
+          "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_review_score_8.png",
+          "sha256": "46011de3dd6b51dc136e366fecdf258173e464c13706214303c2489e6a2d3235"
+        },
+        {
+          "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_04_final_filtered_results.png",
+          "sha256": "d8464849b9dc5390dc0cef257eff80885f54517590af03060c0d5db395f49734"
+        },
+        {
+          "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_05_final_full_page.png",
+          "sha256": "b4a64a969e6e780af6f9d106b0fccc938c242071206b3e7d6c85d1a245d4bf13"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "5d4109d008c9ec7b7737be0456ebf1e5a06f85a3b4fda41f488615dff2bbbc6f",
+      "fingerprint": "b4087ce81a6f6407baf0d03577e15d490be989aa4c85d703079dba6f78df79b2"
+    },
+    {
+      "task_id": "Booking--30",
+      "website": "Booking",
+      "task": "Search for hotels in London from November 20 to November 23, 2026, on Booking. How many hotels are left after applying the Breakfast included and Fitness center filters?",
+      "task_record": "Booking--30/Booking--30_20261113_131338",
+      "task_definition_sha256": "7f4628afb4695e5c1142b0cb049494939f914581c8df7d45d1192408d4fbc8fc",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--30/Booking--30_20261113_131338"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "247 hotels are left after applying the Breakfast included and Fitness center filters (London, Nov 20-23, 2026).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--30/Booking--30_20261113_131338/final_runs/run_002/screenshots/final_execution_1_london_results.png",
+          "sha256": "52fc7b73e1a85ab69d53c0df6e30b3dccf7091e0e43f579b1b164ec1f56bdf96"
+        },
+        {
+          "path": "Booking--30/Booking--30_20261113_131338/final_runs/run_002/screenshots/final_execution_2_breakfast_filter.png",
+          "sha256": "db3bd2ef77af73e938de3aff58e5c9ea042a8f90d88117886b3c6a4d6c351442"
+        },
+        {
+          "path": "Booking--30/Booking--30_20261113_131338/final_runs/run_002/screenshots/final_execution_3_fitness_filter.png",
+          "sha256": "4b1e1b7b8591db32e903ff167476fc26a089f36d8b6df37949c14e569d6fd357"
+        },
+        {
+          "path": "Booking--30/Booking--30_20261113_131338/final_runs/run_002/screenshots/final_execution_4_final_count.png",
+          "sha256": "4b1e1b7b8591db32e903ff167476fc26a089f36d8b6df37949c14e569d6fd357"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "b2e79edcf90b254888d1a36b5b8f9da2ce2372b49d08ba158be7b256aed55e14",
+      "fingerprint": "808247c86b49ad508178092b085588027509397cdc315c5fa009f7425f54a823"
+    },
+    {
+      "task_id": "Booking--31",
+      "website": "Booking",
+      "task": "Search for hotels in Rio de Janeiro from December 1-7, 2026, check the Brands filter to see which brand has the most hotels and which brand has the fewest.",
+      "task_record": "Booking--31/Booking--31_20261113_132513",
+      "task_definition_sha256": "3333cdf5b8cd26b41aeac2f9db61577a0fc0222b5f651b14080093b970bc1854",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--31/Booking--31_20261113_132513"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "For hotels in Rio de Janeiro from December 1-7, 2026 on booking.com, the Brands filter shows Windsor as the brand with the MOST hotels (14 hotels) and Days Inn by Wyndham as the brand with the FEWEST hotels (1 hotel; tied with Wyndham Hotels & Resorts, Sofitel, Mercure, Courtyard by Marriott, JW Marriott Hotels & Resorts, and Residence Inn at 1 each).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--31/Booking--31_20261113_132513/final_runs/run_002/screenshots/final_execution_1_destination.png",
+          "sha256": "1752c64e28db89cf626547f3396ee574de0d82ad1882a13460b8cf8d508e5634"
+        },
+        {
+          "path": "Booking--31/Booking--31_20261113_132513/final_runs/run_002/screenshots/final_execution_2_dates.png",
+          "sha256": "fbe890f17e41ec31366c0646da8fcb11f027433b7b7522d3725b21043b99dbf1"
+        },
+        {
+          "path": "Booking--31/Booking--31_20261113_132513/final_runs/run_002/screenshots/final_execution_3_results.png",
+          "sha256": "7bd3518ed07653c01afe2675a0b1574f5014e02f6d3fbdd5038457bead24bca9"
+        },
+        {
+          "path": "Booking--31/Booking--31_20261113_132513/final_runs/run_002/screenshots/final_execution_4_brands_expanded.png",
+          "sha256": "35a5b46c864578350d0c821af612955e87b67cb197f71e763f53d87cc5cef7bf"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "568e4ea20f4610af260e1890a3311abb973da8ec91898b90e7b2b355db006492",
+      "fingerprint": "64a188d3ee641b0c121c74affa41e171858f1cf78a33ada3d06864f53bc14da5"
+    },
+    {
+      "task_id": "Booking--32",
+      "website": "Booking",
+      "task": "Look for hotels in Sydney from February 24 to February 27, 2027, on Booking. Once the Swimming Pool and Airport Shuttle filters are applied, what is the total number of hotels available?",
+      "task_record": "Booking--32/Booking--32_20261113_134849",
+      "task_definition_sha256": "4f94feb38355b04ed31f82576710f09dd75f3fd96385f5ea503c71883c0eef8d",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--32/Booking--32_20261113_134849"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "After searching hotels in Sydney on Booking.com for February 24-27, 2027 and applying the Swimming Pool and Airport Shuttle filters, the total number of hotels/properties available is 12.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+          "sha256": "23834a0ba1644303f665b2b0488f12efea69efac2ab92fbb5f72e61fda14c692"
+        },
+        {
+          "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_2_pool_filter.png",
+          "sha256": "c963bc185c5a0e91ded825b023785c12e7d55afecbc27f9a1997750c2f61b4de"
+        },
+        {
+          "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_3_shuttle_filter.png",
+          "sha256": "0d8f0e3acc6e2995ebb812d317924f4255f33417be3d1c2702788314ee3568b4"
+        },
+        {
+          "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_4_final_count.png",
+          "sha256": "5e7c37f490761693e5a1e3516e4a0c770bc48d2e134ec8093a75bb7f0e744f43"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "cff654745b618724c7c720d2016d64ca03469386986a3be03d1750eddebfc10b",
+      "fingerprint": "42c2d8a917926ca956b981bdd2f7df59aeb8d55657ef9105854739b2590b5973"
+    },
+    {
+      "task_id": "Booking--33",
+      "website": "Booking",
+      "task": "Find the Customer Service on the Booking website, browse the questions about cancellation, and tell me 'how do I know whether my booking has been cancelled'.",
+      "task_record": "Booking--33/Booking--33_20261113_140027",
+      "task_definition_sha256": "58bf2795101f6b1d05ee52dd48cb29463c5d62ff7193a790a213f2db56a99998",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--33/Booking--33_20261113_140027"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "To know whether your booking has been cancelled: According to Booking.com Customer Service (Help Center > Cancellations > 'How do I know if my booking was canceled?'), after you cancel a booking with them, you should get an email confirming the cancellation. Make sure to check your inbox and spam/junk mail folders. If you don't receive an email within 24 hours, contact the property to confirm they got your cancellation.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--33/Booking--33_20261113_140027/final_runs/run_003/screenshots/final_execution_1_homepage.png",
+          "sha256": "334862727b09a2bb50bae0f97ed74338c11ec2e827ac00ab796bf1b290cd31fe"
+        },
+        {
+          "path": "Booking--33/Booking--33_20261113_140027/final_runs/run_003/screenshots/final_execution_2_customer_service.png",
+          "sha256": "ea65a24fb21add682b1119672922fd42b7dbf53c615e537639eb5ada35547166"
+        },
+        {
+          "path": "Booking--33/Booking--33_20261113_140027/final_runs/run_003/screenshots/final_execution_3_cancellations_list.png",
+          "sha256": "d866073c8b3e8edc711107591fb4b983569b2cffd799b29d4e88e0be949bf67a"
+        },
+        {
+          "path": "Booking--33/Booking--33_20261113_140027/final_runs/run_003/screenshots/final_execution_4_faq_answer.png",
+          "sha256": "684445f7bc1f985d68bf408bbc2a3c86e634d8baefdd1a24763d49bfbed8fccf"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "736ce6afedeb5a7886000ee9201122739a5c7d2c6a1c4390fc10c022b530f37b",
+      "fingerprint": "556b2ceeb21f4c4899b504f84ee1b6f7e56d6ce5ce6b86ce8b9f531497982eac"
+    },
+    {
+      "task_id": "Booking--34",
+      "website": "Booking",
+      "task": "Search for a hotel in Berlin available for a three-night stay from November 15 to November 18, 2026, for one adult. Tell me the price in USD and CNY for the three-night stay.",
+      "task_record": "Booking--34/Booking--34_20261113_141539",
+      "task_definition_sha256": "47e41b87013c24ce3af3670460f7b373e1e2cb28a036c8579f9aaccc946914fc",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--34/Booking--34_20261113_141539"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Hotel: Park Inn by Radisson Berlin Alexanderplatz. For the 3-night stay Nov 15-18, 2026 (1 adult) in Berlin, the price is US$340 (USD) and CNY 2,269 (CNY).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--34/Booking--34_20261113_141539/final_runs/run_001/screenshots/final_execution_1_search_berlin_dates_adult.png",
+          "sha256": "db4a3c12be74ccc8143548245058c14c8236ba14f1e2657f3abde310f74c6c0b"
+        },
+        {
+          "path": "Booking--34/Booking--34_20261113_141539/final_runs/run_001/screenshots/final_execution_2_hotel_price_usd.png",
+          "sha256": "db4a3c12be74ccc8143548245058c14c8236ba14f1e2657f3abde310f74c6c0b"
+        },
+        {
+          "path": "Booking--34/Booking--34_20261113_141539/final_runs/run_001/screenshots/final_execution_3_hotel_price_cny.png",
+          "sha256": "7376ddebff40c7b43236426fb37e9333303996b2a9cba4acc707acbbdfde137c"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "20f140e96ebf4a1e9995fbc003dd5cedfa010e583aace276225387b00a86e970",
+      "fingerprint": "74b7c20df04e02857f762f1905fd3d51e149d38101d11d2029b3192388a796e8"
+    },
+    {
+      "task_id": "Booking--35",
+      "website": "Booking",
+      "task": "Browse the booking website to get inspiration for your next trip, and summarize at least three places mentioned in one of the travel articles.",
+      "task_record": "Booking--35/Booking--35_20261114_000721",
+      "task_definition_sha256": "f81f74545af2cf56e8eaec450408d667a4c1f37612fd480f6a66d859d1419334",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--35/Booking--35_20261114_000721"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Travel article: Eight family-friendly destinations for hiking in the Alps (https://www.booking.com/articles/5-family-friendly-summer-hikes-through-the-alps.html). Summary of at least three places mentioned: (1) Oeschinensee, Switzerland — a picturesque Alpine lake with shoreline trails past the Fründen Glacier, vibrant blue water, and family-friendly mapped trails including the Oeschinen Lake circular route; (2) Chamonix, France — a French Alps destination centered on Mont Blanc, offering unparalleled mountain views and challenging multi-day treks such as the 11-day Chamonix-Mont-Blanc route; (3) Engelberg, Switzerland — a town above Lake Lucerne with scattered trails, starting with the Engelberg Trübsee Lake Walk reached by a gondola over forests and meadows; (4) Lugano, Switzerland — a picturesque town on Lake Lugano in the Italian-speaking Ticino region, combining aquatic sports with endless hiking trails and guided town tours.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--35/Booking--35_20261114_000721/final_runs/run_001/screenshots/final_execution_1_articles_index.png",
+          "sha256": "9e1306b90eb7aa2fbf6186c5d36f7c2314b7f5e5ee6f5415a7128d713260a905"
+        },
+        {
+          "path": "Booking--35/Booking--35_20261114_000721/final_runs/run_001/screenshots/final_execution_2_article_top.png",
+          "sha256": "aacdc67668498f5e30b7ea3136aaeacf665928eec423436a94432030ebbd3661"
+        },
+        {
+          "path": "Booking--35/Booking--35_20261114_000721/final_runs/run_001/screenshots/final_execution_3_places_full_page.png",
+          "sha256": "6f5e7b4601deb301be86c60046f5f615da9ab69a4c6eea96e7665dd33ca0488f"
+        },
+        {
+          "path": "Booking--35/Booking--35_20261114_000721/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+          "sha256": "87be98dff4e428a65ff645ca3761cbdde7360ad976f97c551f9d92ec9f2f5052"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "4a0bcfdbd473c4c9fe1c14b4e44fc344cf3320a10a1d60c1f19ef732f9626160",
+      "fingerprint": "455c80169172d31de217d57d0d25da33c474a3d2ce1ed0beed2b1d095e4b768c"
+    },
+    {
+      "task_id": "Booking--36",
+      "website": "Booking",
+      "task": "Search for a budget hotel in Rome under $100 per night for one adult from November 20 to November 23, 2026. Sort the results by price, identify if any of top three results offer breakfast.",
+      "task_record": "Booking--36/Booking--36_20261114_002053",
+      "task_definition_sha256": "eec2f4128f2c4f87b56b151f7090b28c2440dd054167acb6a65e4afcc83655d5",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--36/Booking--36_20261114_002053"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Budget hotels in Rome under US$100/night for 1 adult, Nov 20-23, 2026, sorted by price (lowest first). Top three results: 1) Arneil Rooms Rome (US$66) - does not offer breakfast; 2) Hostel Beautiful (US$71) - does not offer breakfast; 3) La Casa di Elena (US$66) - offers breakfast (Breakfast in the room). Yes, La Casa di Elena offers breakfast among the top three results.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--36/Booking--36_20261114_002053/final_runs/run_001/screenshots/final_execution_1_results_filtered_sorted.png",
+          "sha256": "69f3df6bf8fbb8e3f374dd271678c4962aec5d5638ef20a844b2adc741580d95"
+        },
+        {
+          "path": "Booking--36/Booking--36_20261114_002053/final_runs/run_001/screenshots/final_execution_2_top3_cards_breakfast.png",
+          "sha256": "ad6f96a00d7c0834bbb42aa9d55664dbbda7eed74b8d4f014df1d29a34471d4a"
+        },
+        {
+          "path": "Booking--36/Booking--36_20261114_002053/final_runs/run_001/screenshots/final_execution_3_full_results.png",
+          "sha256": "9dad5cba57c1388884c1f3e8495834022734639ab5df659571ad5ebe3d82f1c8"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "8c98c79d391e3e52a8ed7736edd553168c5d43043ffe93beeb56418e3c73f70e",
+      "fingerprint": "8b5208dec9c90b099fd9e79d90f2a325a4f3a00ddcd1bfd2c49780e3ec3e84d5"
+    },
+    {
+      "task_id": "Booking--37",
+      "website": "Booking",
+      "task": "Search for a resort (not hotel) in Bali, detailing the available dates between November 20, 2026, and November 25, 2026, and checking any provided tour or cultural experiences.",
+      "task_record": "Booking--37/Booking--37_20261114_011935",
+      "task_definition_sha256": "b292784d42a2fc09d100ac56f96daf23c3b098a929e49784164ff9b55fdd898a",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--37/Booking--37_20261114_011935"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Selected resort (not hotel) in Bali: The Patra Bali Resort & Villas - CHSE Certified, Kuta. Dates detailed via Booking.com calendar: check-in Friday, November 20, 2026; check-out Wednesday, November 25, 2026 (5 nights); availability confirmed on the property page for those dates. Tour/cultural experiences provided: tour desk; staff arrange activities such as cookery lessons and water polo; leisure facilities include a kids' club and multiple on-site restaurants serving Indonesian/local cuisine. Filtered resort results included: The Patra Bali Resort & Villas - CHSE Certified, Discovery Kartika Plaza Hotel, Bali Garden Beach Resort, Ramayana Suites and Resort.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_3_search_results.png",
+          "sha256": "6412e26141ceded1b1594ae0b6a7da8b844629309fa6a1aa60f87aeca7e45a82"
+        },
+        {
+          "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_4_resorts_filter.png",
+          "sha256": "6e66a69944d8fd187553cbe3dcda9276ab39eb9f3071923171fb067b921223b5"
+        },
+        {
+          "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_5_filtered_resort_results.png",
+          "sha256": "6e66a69944d8fd187553cbe3dcda9276ab39eb9f3071923171fb067b921223b5"
+        },
+        {
+          "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_6_property_availability.png",
+          "sha256": "1437a83f08016750f256bdde834d18a87cac12d0898690641f4120fc18c0f12c"
+        },
+        {
+          "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_7_tour_cultural_experiences.png",
+          "sha256": "9a4be4138fe7697f766ef0843128559f6bee79651828fd4ca5f288cffa57c19a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "fa163ef0807bbbd3ac09a540e8bc96b875428ec916f5f5c881243b061fd95290",
+      "fingerprint": "ad45c57c1c0fc4329ddc52f6be5ceaac4631390cc4e54dfe419fac70a84bb5a3"
+    },
+    {
+      "task_id": "Booking--38",
+      "website": "Booking",
+      "task": "Look up Vienna hotel options with availability for a 4-night stay from November 28 to December 2, 2026, with amenities that include a Parking, breakfast included, and a rating of 8+ on Booking.com.",
+      "task_record": "Booking--38/Booking--38_20261114_015259",
+      "task_definition_sha256": "a5a2fe87891d23e21222f91ac57fd9ce8d9940a82a7348bfa28ce8ab75408be9",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--38/Booking--38_20261114_015259"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found 15 Vienna hotel options with availability for Nov 28 - Dec 2, 2026 (4 nights) matching Parking, Breakfast included, and 8+ rating filters. Results summary: Vienna: 159 properties found. Examples: Grand Hotel Palace Schönbrunn - operated by Czech Inn, Max Brown Hotel 5th District, part of Sircle Collection, Living Hotel Kaiser Franz Joseph.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--38/Booking--38_20261114_015259/final_runs/run_005/screenshots/final_execution_2_vienna_results.png",
+          "sha256": "fff93e93e516fbef78d4914af46d6a843898df9a835323c20df84f6c5592e858"
+        },
+        {
+          "path": "Booking--38/Booking--38_20261114_015259/final_runs/run_005/screenshots/final_execution_3_filter_parking.png",
+          "sha256": "84ab38825eb61ff16d58de30dc776de02d43ab731996e15bf07bd4705a66d727"
+        },
+        {
+          "path": "Booking--38/Booking--38_20261114_015259/final_runs/run_005/screenshots/final_execution_4_filter_breakfast.png",
+          "sha256": "796d91a8a51516a3af6cded69a0cbb2f29a63c4f263c18a398405517fd8f2a48"
+        },
+        {
+          "path": "Booking--38/Booking--38_20261114_015259/final_runs/run_005/screenshots/final_execution_5_filter_rating_8plus.png",
+          "sha256": "f6eaad7df71a163cc7665c86dbdc49f6d531e5489922eb4690c1f97c7dece7f4"
+        },
+        {
+          "path": "Booking--38/Booking--38_20261114_015259/final_runs/run_005/screenshots/final_execution_6_final_filtered_results.png",
+          "sha256": "f6eaad7df71a163cc7665c86dbdc49f6d531e5489922eb4690c1f97c7dece7f4"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "415bc31f1ff9d16ef7e38a8ba8ae27c18f06c07866ecc6f1b026c62dcba60506",
+      "fingerprint": "209fc0994d2d121400c66c2a2f97b1d1b0ecea16fb46fa9cddcf81ec20fcd9bb"
+    },
+    {
+      "task_id": "Booking--39",
+      "website": "Booking",
+      "task": "Find a pet-friendly hotel with parking available in downtown Toronto for the stay of November 24-26, 2026.",
+      "task_record": "Booking--39/Booking--39_20261114_022057",
+      "task_definition_sha256": "8e900daddb71cdb1fbc8d149439e352671c2372ed813b2d47550fe33ee370321",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--39/Booking--39_20261114_022057"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Pet-friendly hotel with parking in Downtown Toronto for Nov 24-26, 2026: Town Inn Suites Hotel (found on Booking.com with 'Pet friendly' and 'Parking' filters applied; 15 matching properties).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--39/Booking--39_20261114_022057/final_runs/run_005/screenshots/cp2_dates.png",
+          "sha256": "6fcf88c7d8c04c1a6f7a2c420063d9c0a15a86083f3709db41fe1ad176850818"
+        },
+        {
+          "path": "Booking--39/Booking--39_20261114_022057/final_runs/run_005/screenshots/cp3_results.png",
+          "sha256": "51ff4ea82c5284d8972977e29a7f8c843013f735049873e019316fa3aacb0c35"
+        },
+        {
+          "path": "Booking--39/Booking--39_20261114_022057/final_runs/run_005/screenshots/cp4_pet_filter.png",
+          "sha256": "d68483ede501d59c25453ec463c7a129ec0ddff4e747da4009040fd32b1abc04"
+        },
+        {
+          "path": "Booking--39/Booking--39_20261114_022057/final_runs/run_005/screenshots/cp5_parking_filter.png",
+          "sha256": "ba7332f8f1ddf74929de409a4f36849bcd209ada13f203a2b54a2ab181f83cfa"
+        },
+        {
+          "path": "Booking--39/Booking--39_20261114_022057/final_runs/run_005/screenshots/cp6_filtered_results.png",
+          "sha256": "ba7332f8f1ddf74929de409a4f36849bcd209ada13f203a2b54a2ab181f83cfa"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "cdbb4002ebea1d40a2a94b2a6e50f7bd1a4a14b6b0c8068688363c896e383567",
+      "fingerprint": "98009ae6536dd3a3c4330b533de7327eb6ea11f5cf2a30658a100b141d95b389"
+    },
+    {
+      "task_id": "Booking--40",
+      "website": "Booking",
+      "task": "I need to choose a hotel in Shenzhen, please select date (6 December to 8 December 2026) and click the search button. How much it costs when convert the price to Chinese Yuan on the page.",
+      "task_record": "Booking--40/Booking--40_20261114_032247",
+      "task_definition_sha256": "bd4d7e501daa1ba50ece13c6174d7478c90e320d27a30da4c9e4f767d4542986",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--40/Booking--40_20261114_032247"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "For hotels in Shenzhen on 6-8 December 2026 with prices shown in Chinese Yuan, the first search result 'SAVHE Hotel Binhe Times Shenzhen' costs CNY 1,645 for the stay.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--40/Booking--40_20261114_032247/final_runs/run_002/screenshots/final_execution_2_checkin_dec6.png",
+          "sha256": "428ad4369d568fa874be6af9f8cddb3d4bad8a6e94f69bea255d4fdce15302a9"
+        },
+        {
+          "path": "Booking--40/Booking--40_20261114_032247/final_runs/run_002/screenshots/final_execution_3_checkout_dec8.png",
+          "sha256": "595e9da963e59803cfda7857f461bbc4f28649bc20c77ce5c785cd6e7fcaa06f"
+        },
+        {
+          "path": "Booking--40/Booking--40_20261114_032247/final_runs/run_002/screenshots/final_execution_4_search_results.png",
+          "sha256": "8622b8e8e90c1a08726314ac311d0e0b5a33d55c82f0a302dcc3223c0df6e22f"
+        },
+        {
+          "path": "Booking--40/Booking--40_20261114_032247/final_runs/run_002/screenshots/final_execution_5_currency_cny.png",
+          "sha256": "087abf70290bae622a298c9694ad05831ceedd7daa8be4407ada57015794111b"
+        },
+        {
+          "path": "Booking--40/Booking--40_20261114_032247/final_runs/run_002/screenshots/final_execution_6_price_cny.png",
+          "sha256": "f1940e6dcda729c9aead94f3bd3db5320bce14bf7e0a2e22b205ce0d4588bb16"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c159772e73e1171d0fc6a4fd07605675ae9e9045c50f318f84ef6e9176e96fb7",
+      "fingerprint": "f84695cefbd6a589c747882402671da89f91c44f64c4397a0d68cc23d74ad266"
+    },
+    {
+      "task_id": "Booking--41",
+      "website": "Booking",
+      "task": "Browse Booking's homepage to find out which company it belongs to.",
+      "task_record": "Booking--41/Booking--41_20261114_034541",
+      "task_definition_sha256": "dbc0e8d4a21085d329c0cecc143837b6cc10f9531834bf1329290ae3786d3832",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--41/Booking--41_20261114_034541"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Booking.com belongs to Booking Holdings Inc. The homepage footer states: \"Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.\"",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--41/Booking--41_20261114_034541/final_runs/run_001/screenshots/final_execution_1_homepage_open.png",
+          "sha256": "e5cb26eb065cecedc8c98bd8da315cba62eda59a16aac94ae5ef9d3c570569b8"
+        },
+        {
+          "path": "Booking--41/Booking--41_20261114_034541/final_runs/run_001/screenshots/final_execution_2_scrolled_to_footer.png",
+          "sha256": "8b5047a97ae84f211086ee05b8766ddfbdb0c938a271b5a6619b77e4f3a02319"
+        },
+        {
+          "path": "Booking--41/Booking--41_20261114_034541/final_runs/run_001/screenshots/final_execution_3_ownership_statement.png",
+          "sha256": "8b5047a97ae84f211086ee05b8766ddfbdb0c938a271b5a6619b77e4f3a02319"
+        },
+        {
+          "path": "Booking--41/Booking--41_20261114_034541/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+          "sha256": "8b5047a97ae84f211086ee05b8766ddfbdb0c938a271b5a6619b77e4f3a02319"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "2b914213bf6ac33798af286fd898d2acc259ebd3cccef2274d5c80ab1f1407d9",
+      "fingerprint": "1f05c25925100c335d4c7b4d4001c26d433d47a2651308e002d04282d4b45b0f"
+    },
+    {
+      "task_id": "Booking--42",
+      "website": "Booking",
+      "task": "Search for a hotel in Hokkaido for the period December 1 to December 7, 2026, with a rating of 9+, check out its user reviews, which categories are greater than 9 and which are less than 9?",
+      "task_record": "Booking--42/Booking--42_20261114_035205",
+      "task_definition_sha256": "76c8188ab97fb6141419873fb7d3691fa14cfc7cb27a842e30534a7d37123648",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--42/Booking--42_20261114_035205"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Searched Booking.com for hotels in Hokkaido for Dec 1–7, 2026 and applied the 'Wonderful: 9+' review score filter. Selected Winery Hotel and Condominium HITOHANA (Furano, Hokkaido; overall guest review score 9.1) and opened its guest reviews. Review categories greater than 9: Facilities 9.3, Cleanliness 9.4, Comfort 9.5, Free Wifi 9.1. Review categories less than 9: Value for money 8.9, Location 8.9.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--42/Booking--42_20261114_035205/final_runs/run_003/screenshots/final_execution_4_filter_9plus_applied.png",
+          "sha256": "3c5cf041210c3b2de24634ebd0d079cd4271b75842299cd28713d116cbbcaf38"
+        },
+        {
+          "path": "Booking--42/Booking--42_20261114_035205/final_runs/run_003/screenshots/final_execution_5_filtered_results_9plus.png",
+          "sha256": "3c5cf041210c3b2de24634ebd0d079cd4271b75842299cd28713d116cbbcaf38"
+        },
+        {
+          "path": "Booking--42/Booking--42_20261114_035205/final_runs/run_003/screenshots/final_execution_6_hotel_page.png",
+          "sha256": "ac1732889161da5924f927f2e4fd646da12627f4a97f0dbc1b9eaba1f136f7bd"
+        },
+        {
+          "path": "Booking--42/Booking--42_20261114_035205/final_runs/run_003/screenshots/final_execution_7_reviews_section.png",
+          "sha256": "5ac532a5ad3da988fd394f98d7e5cf68c0a8c8cdcb5713cffec35236899f57a5"
+        },
+        {
+          "path": "Booking--42/Booking--42_20261114_035205/final_runs/run_003/screenshots/final_execution_8_category_scores.png",
+          "sha256": "5ac532a5ad3da988fd394f98d7e5cf68c0a8c8cdcb5713cffec35236899f57a5"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "9a5c26ebd3180b7136a2a99e6fee05735c890bcbcb7d8dddfe228485ad392a00",
+      "fingerprint": "2ff591e6d07dceba32c309980be601e1188868e3a9af1993550bb8b1c55418d5"
+    },
+    {
+      "task_id": "Booking--43",
+      "website": "Booking",
+      "task": "Search for properties in Los Angeles, browse the results page to see what filters are available, list some of them.",
+      "task_record": "Booking--43/Booking--43_20261114_043411",
+      "task_definition_sha256": "dd28ed29da121db9f8abef0d6661a06a3ffb056111bb5e69fa412e2d8ab20f07",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Booking--43/Booking--43_20261114_043411"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Searched for properties in Los Angeles on Booking.com (1,375 properties found) and browsed the results page filter sidebar. Available filter groups include: Filter by, Your previous filters, Your budget (per night), Popular filters, Property Type, Bedrooms and bathrooms, Review score, Meals, Reservation policy, Facilities, Room facilities, Neighborhood, Property rating, Distance from center of Los Angeles, Brands, Bed preference, Fun Things To Do, Travel group, Landmarks, Highly rated features, Online Payment, Certifications, Property Accessibility, Room Accessibility. Example filter options: Wonderful: 9+, Very Good: 8+, Pet friendly, Breakfast included, Parking, Resorts, Free cancellation, Hotels, Book without credit card, Free Wifi, No prepayment, Apartments, Hostels, Bed and Breakfasts, Guesthouses.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Booking--43/Booking--43_20261114_043411/final_runs/run_002/screenshots/final_execution_1_search_los_angeles.png",
+          "sha256": "8578eeceb251c46413127c0a9119ed17155273313d6d57324a6d13a891e2f8d5"
+        },
+        {
+          "path": "Booking--43/Booking--43_20261114_043411/final_runs/run_002/screenshots/final_execution_2_results_page.png",
+          "sha256": "941bf174f41d3623c87ba3cafd4fbccb841f46772461b33667a9214fdefdd2c6"
+        },
+        {
+          "path": "Booking--43/Booking--43_20261114_043411/final_runs/run_002/screenshots/final_execution_3_filter_sidebar.png",
+          "sha256": "941bf174f41d3623c87ba3cafd4fbccb841f46772461b33667a9214fdefdd2c6"
+        },
+        {
+          "path": "Booking--43/Booking--43_20261114_043411/final_runs/run_002/screenshots/final_execution_4_filter_options.png",
+          "sha256": "941bf174f41d3623c87ba3cafd4fbccb841f46772461b33667a9214fdefdd2c6"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "f3c9c7e62392532f4adfc939fd92dc97f314b521531877d74a0639932c2aff28",
+      "fingerprint": "e9cc4c976135b39887dfb941ee084746d06275d27d46849dcf3dfb931774db17"
+    }
+  ]
+}

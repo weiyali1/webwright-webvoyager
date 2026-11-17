@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--25",
+  "website": "Google Map",
+  "task": "Search for a parking facility near the Fox Theater in Detroit that closes at night.",
+  "task_record": "Google Map--25/Google Map--25_20261115_030648",
+  "task_definition_sha256": "965d00a88dd5c30b3d8825de08fec400cde9a68f02feff9f692a7e03541c2247",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--25/Google Map--25_20261115_030648"
+  ],
+  "final_run": "run_009",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Premier Parking Garage (near the Fox Theater in Detroit) closes at night: Google Maps shows status \"Open · Closes 11 pm\" and weekly hours 8 am to 11 pm.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_2_parking_results.png",
+      "sha256": "f111b3920b5a865c96a2cd2d1d3ed9b49b08a55547fbe4792ace616e27044b66"
+    },
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_3_hours_filter_options.png",
+      "sha256": "7f2146d9525a538f90465df083c51036cb336a369334b32f1f0f646afbec4aa6"
+    },
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_4_premier_detail.png",
+      "sha256": "cd56e877a7581b1616bd5320960b70b6c0a5acc57b7cbdc73af8d1a356c4af5f"
+    },
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_5_hours_closes_11pm.png",
+      "sha256": "cd56e877a7581b1616bd5320960b70b6c0a5acc57b7cbdc73af8d1a356c4af5f"
+    },
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_6_final_state.png",
+      "sha256": "cd56e877a7581b1616bd5320960b70b6c0a5acc57b7cbdc73af8d1a356c4af5f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "530d3d3b7f2547027ea0b5eb595de0695d5da4e317c1abe36f9fb0a619d12666",
+  "fingerprint": "7ab3ac303cc80b43a0e7290d2c877ca14cbe62398dec19da5225b323590d312e",
+  "evaluated_at": "2026-11-16T10:18:23.531350+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task was to: **Search for a parking facility near the Fox Theater in Detroit that closes at night.**\n\n## Step-by-Step Verification\n\n**Step 1: Search performed for parking near Fox Theater Detroit**\n- Screenshot 1 shows the Google Maps search bar containing \"parking near Fox Theater Detro...\" with a results list of parking facilities (Comerica Garage, SP+ Parking, The Z Garage, Olympic parking, etc.) and a map of downtown Detroit. ✓\n\n**Step 2: Filtering/identifying a facility that closes at night**\n- Screenshot 2 shows the \"Hours\" filter dropdown opened, displaying options like \"Any time,\" \"Open now,\" \"Open 24 hours,\" and specific day/time selections — indicating the agent examined hours to find a facility closing at night. ✓\n\n**Step 3: Identified facility with night closing time**\n- Screenshots 3–5 show the detail panel for **Premier Parking Garage** (432 W Congress St, Detroit, MI 48226), which explicitly displays the status **\"Open · Closes 11 pm\"** — 11 pm qualifies as closing \"at night.\" ✓\n\n**Step 4: Proximity to Fox Theater**\n- In screenshots 3–5, the map clearly shows the **Fox Theatre** label with the Premier Parking Garage marker located nearby (both visible in the same map area near Woodward Ave). ✓\n\n## Response Consistency\n- The result response states Premier Parking Garage is near the Fox Theater and closes at night, with Google Maps showing \"Open · Closes 11 pm\" — this matches the screenshots exactly.\n- The response also mentions \"weekly hours 8 am to 11 pm,\" which is not visible in the screenshots, but per evaluation guidelines, content in the response not shown on the screenshot should be believed.\n\n## Conclusion\nAll components of the task were fulfilled: a search was conducted near the Fox Theater in Detroit, and a parking facility (Premier Parking Garage) that closes at night (11 pm) was successfully located and verified.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8086,
+    "completion_tokens": 1054,
+    "total_tokens": 9140,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 614
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:18:24.283406+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_2_parking_results.png",
+      "source_sha256": "f111b3920b5a865c96a2cd2d1d3ed9b49b08a55547fbe4792ace616e27044b66",
+      "source_bytes": 1233300,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 362508,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c9adafb72dade3bcfc322458bf1dad1d78be0d48faef3cafae9a32433fbfd2df"
+    },
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_3_hours_filter_options.png",
+      "source_sha256": "7f2146d9525a538f90465df083c51036cb336a369334b32f1f0f646afbec4aa6",
+      "source_bytes": 1084026,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 342882,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e6c26691368b040edf685e1b8fe66d9dadddacfe9c1b476964caf50e3a83fbb2"
+    },
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_4_premier_detail.png",
+      "source_sha256": "cd56e877a7581b1616bd5320960b70b6c0a5acc57b7cbdc73af8d1a356c4af5f",
+      "source_bytes": 1087468,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 308427,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e3a2d5e405e7a79663c7a1d6de1738ff2d2e802d7e2a13f0577a230e244c8e8a"
+    },
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_5_hours_closes_11pm.png",
+      "source_sha256": "cd56e877a7581b1616bd5320960b70b6c0a5acc57b7cbdc73af8d1a356c4af5f",
+      "source_bytes": 1087468,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 308427,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e3a2d5e405e7a79663c7a1d6de1738ff2d2e802d7e2a13f0577a230e244c8e8a"
+    },
+    {
+      "path": "Google Map--25/Google Map--25_20261115_030648/final_runs/run_009/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "cd56e877a7581b1616bd5320960b70b6c0a5acc57b7cbdc73af8d1a356c4af5f",
+      "source_bytes": 1087468,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 308427,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e3a2d5e405e7a79663c7a1d6de1738ff2d2e802d7e2a13f0577a230e244c8e8a"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2177341,
+  "response_id": "01b34d60-da5f-4cc2-b1a6-e5d5d4f38a13",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1939,
+    "reasoning_content_chars": 2594
+  }
+}

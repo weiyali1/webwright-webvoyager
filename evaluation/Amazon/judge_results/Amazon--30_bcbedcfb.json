@@ -1,0 +1,211 @@
+{
+  "task_id": "Amazon--30",
+  "website": "Amazon",
+  "task": "Locate the highest-rated fiction book released in 2026 on Amazon, with a minimum of 50 customer reviews.",
+  "task_record": "Amazon--30/Amazon--30_20261116_053802",
+  "task_definition_sha256": "0acc1be80f9446116fd6bc513f115308bcea0714df4fb9f2e336f4ea59fde383",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Amazon--30/Amazon--30_20261116_053802"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Highest-rated fiction book released in 2026 on Amazon with at least 50 customer reviews: 'Mob Sorcery 6' by K.D. Robertson (Kindle Edition) — 5.0 out of 5 stars with 213 ratings; publication date November 10, 2026. Found via Amazon Books Advanced Search constrained to Literature & Fiction (node 17), Publication Date 'During' 2026, sorted by Avg. Customer Review; the top result met the >=50 reviews threshold and was verified on its product detail page (fiction category: Science Fiction & Fantasy > Fantasy > Urban).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_3_results_2026_fiction.png",
+      "sha256": "e9921a545f26c2d00b495c80312427f0dfeb4c33c2748199dc14b8d21d19c873"
+    },
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_4_sort_avg_customer_review.png",
+      "sha256": "e9921a545f26c2d00b495c80312427f0dfeb4c33c2748199dc14b8d21d19c873"
+    },
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_5_results_review_counts.png",
+      "sha256": "e9921a545f26c2d00b495c80312427f0dfeb4c33c2748199dc14b8d21d19c873"
+    },
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_6_product_detail.png",
+      "sha256": "a9cb502e077da81ae64925eb07e832f5938dc0c4040bfd91ab5bf8542124bb8a"
+    },
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_7_product_details_pubdate.png",
+      "sha256": "b35f46c0d14c038ae998434e193344b4b5a63b105a16fe60124a74731b99514c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "f76dab65ac2aca2fb746e461ef761ff6b72193c986b67b7a4263bd44350ca7ae",
+  "fingerprint": "84fe7072097640fc92a856d3e023393ce82596a2045d60c6b4539a3d279cdc3c",
+  "evaluated_at": "2026-11-16T10:16:30.793688+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a **fiction** book on Amazon\n2. Released in **2026**\n3. **Highest-rated** (top average customer review)\n4. Minimum of **50 customer reviews**\n\n**Verification against screenshots:**\n\n1. **Fiction constraint**: The search was performed within the \"Literature & Fiction\" department (visible in the search dropdown and left sidebar in screenshots 1–3). The product page breadcrumb (screenshot 4) confirms the book belongs to Science Fiction & Fantasy > Fantasy > Urban — a fiction category. ✓\n\n2. **2026 release**: The top result shows \"Nov 10, 2026\" in the search results, and the Product details section (screenshot 5) explicitly confirms \"Publication date: November 10, 2026.\" ✓\n\n3. **Highest-rated**: Results are sorted by \"Avg. Customer Review\" (visible in the sort dropdown). The top result, \"Mob Sorcery 6,\" has 5.0 stars, while all subsequent visible results (AFTER DARKNESS, Tudo para conquistar você, Bernardo Moretti, Irresponsável Caos) have 4.9 stars. ✓\n\n4. **Minimum 50 reviews**: \"Mob Sorcery 6\" shows 5.0 stars with **213 ratings** in both the search results and the product detail page (\"Customer Reviews: 5.0 (213)\"), well above the 50-review threshold. ✓\n\n**Consistency check**: The result response matches the screenshots — the book title, author (K.D. Robertson), rating (5.0), rating count (213), and publication date (Nov 10, 2026) are all corroborated by the visual evidence, including verification on the product detail page itself.\n\nAll conditions of the instruction were satisfied: the book was located, verified as fiction, confirmed as a 2026 release, is the top-rated result when sorted by average customer review, and exceeds the 50-review minimum.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9787,
+    "completion_tokens": 1441,
+    "total_tokens": 11228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1013
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:16:31.360235+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_3_results_2026_fiction.png",
+      "source_sha256": "e9921a545f26c2d00b495c80312427f0dfeb4c33c2748199dc14b8d21d19c873",
+      "source_bytes": 634326,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 306147,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5479c5ca295a94838d983d7a365b09f914a4966a07d019f0bb1cd10ea024b463"
+    },
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_4_sort_avg_customer_review.png",
+      "source_sha256": "e9921a545f26c2d00b495c80312427f0dfeb4c33c2748199dc14b8d21d19c873",
+      "source_bytes": 634326,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 306147,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5479c5ca295a94838d983d7a365b09f914a4966a07d019f0bb1cd10ea024b463"
+    },
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_5_results_review_counts.png",
+      "source_sha256": "e9921a545f26c2d00b495c80312427f0dfeb4c33c2748199dc14b8d21d19c873",
+      "source_bytes": 634326,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 306147,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5479c5ca295a94838d983d7a365b09f914a4966a07d019f0bb1cd10ea024b463"
+    },
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_6_product_detail.png",
+      "source_sha256": "a9cb502e077da81ae64925eb07e832f5938dc0c4040bfd91ab5bf8542124bb8a",
+      "source_bytes": 863616,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 359681,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6ddcfe4f6c479d62552ed2a9bf6435e471e839ddfafca4fe6dfc25a09a8f6079"
+    },
+    {
+      "path": "Amazon--30/Amazon--30_20261116_053802/final_runs/run_003/screenshots/final_execution_7_product_details_pubdate.png",
+      "source_sha256": "b35f46c0d14c038ae998434e193344b4b5a63b105a16fe60124a74731b99514c",
+      "source_bytes": 364425,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 202718,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7a142599028f09cd9289dee3544e4cf134a4072db127f09bc557cedb635f7c0d"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1977956,
+  "response_id": "9cea34f5-c9e3-4f92-9d9a-444014e81560",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1755,
+    "reasoning_content_chars": 4078
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Huggingface--41",
+  "website": "Huggingface",
+  "task": "What is the current Text-to-3D model with the highest number of downloads and tell me are there Spaces that use the model.",
+  "task_record": "Huggingface--41/Huggingface--41_20261115_164426",
+  "task_definition_sha256": "b19b232f1b6511014412ffe6659c802c3327a86cc0ff4b4527771bc2175fce2d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Huggingface--41/Huggingface--41_20261115_164426"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The current Text-to-3D model with the highest number of downloads on Hugging Face is microsoft/TRELLIS-text-xlarge (13.9k downloads), found by applying the Text-to-3D task filter and sorting by Most downloads on the Models page. Yes, there are Spaces that use this model — the model page shows a 'Spaces using microsoft/TRELLIS-text-xlarge' section listing multiple Spaces, e.g., hugging-apps/ocltm and PUMACKON/TRELLIS_TextTo3D.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_2_task_filter_text_to_3d.png",
+      "sha256": "ded0520af12f1572d6d2559252df3a7b7772589f1689ad9d26257085e0e30b31"
+    },
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_3_sort_most_downloads.png",
+      "sha256": "9bf0b91f4e8bd97e358c535fb11b659b2e18b1f35dcfbe34ffc8d698e5d2194e"
+    },
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_4_top_model.png",
+      "sha256": "9bf0b91f4e8bd97e358c535fb11b659b2e18b1f35dcfbe34ffc8d698e5d2194e"
+    },
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_5_model_page.png",
+      "sha256": "93d058ecf2778580ffbdc34aa1901d9c15433f876b7c7d37be1c6abb880d44a2"
+    },
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_6_spaces_usage.png",
+      "sha256": "93d058ecf2778580ffbdc34aa1901d9c15433f876b7c7d37be1c6abb880d44a2"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "d9dc44c08272f7c7171a7e2e61982aed743971f8bcc7a49a774f4a0d897335ce",
+  "fingerprint": "2dbae8636226d18e9addd5803666f837eb635fa97d33e15263b31744d3e951fb",
+  "evaluated_at": "2026-11-16T10:25:52.565092+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task requirements:**\n1. Identify the current Text-to-3D model with the highest number of downloads (on Hugging Face).\n2. Determine whether there are Spaces that use that model.\n\n**Screenshot analysis:**\n\n- **Screenshot 1:** The Hugging Face Models page with the \"Text-to-3D\" task filter selected in the sidebar (highlighted), showing 156 models, initially sorted by Trending.\n- **Screenshots 2 & 3:** The same filtered list re-sorted by \"Most downloads\" (the sort button shows \"Sort: Most downloads\"). The top result is **microsoft/TRELLIS-text-xlarge** with **13.9k downloads** (Text-to-3D, Updated Mar 24, 2025, 92 likes), followed by microsoft/TRELLIS-text-large (8.29k), bartowski/LLaMA-Mesh-GGUF (5.77K), etc. This confirms TRELLIS-text-xlarge is the most-downloaded Text-to-3D model.\n- **Screenshots 4 & 5:** The model page for microsoft/TRELLIS-text-xlarge confirms \"Downloads last month: 13,906\" and displays a section titled **\"Spaces using microsoft/TRELLIS-text-xlarge — 11\"**, listing multiple Spaces such as hugging-apps/ocltm, yejunliang23/ShapLM-Omni, PUMACKON/TRELLIS_TextTo3D, soungng/TRELLIS_TextTo3D, PlagueEvgeny/TextTo3D, RihemXX/TRELLIS_TextTo3D, and more (+3 Spaces).\n\n**Response analysis:**\n\nThe response correctly states:\n- The highest-downloaded Text-to-3D model is microsoft/TRELLIS-text-xlarge with 13.9k downloads — matching the screenshot exactly.\n- The methodology (Text-to-3D filter + sort by Most downloads) matches the actions shown.\n- Yes, Spaces exist that use the model, citing the \"Spaces using microsoft/TRELLIS-text-xlarge\" section with examples hugging-apps/ocltm and PUMACKON/TRELLIS_TextTo3D — both of which appear in the screenshot.\n\nBoth parts of the task (identifying the model and verifying Spaces usage) are fully completed and consistent with the visual evidence.\n\n## Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9090,
+    "completion_tokens": 1097,
+    "total_tokens": 10187,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 585
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:25:53.147259+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_2_task_filter_text_to_3d.png",
+      "source_sha256": "ded0520af12f1572d6d2559252df3a7b7772589f1689ad9d26257085e0e30b31",
+      "source_bytes": 711147,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1800
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 175208,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "469b1500fd9c0d4c929ba58f55079b9f061aad8d9c79e21761eae9130ce0bc46"
+    },
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_3_sort_most_downloads.png",
+      "source_sha256": "9bf0b91f4e8bd97e358c535fb11b659b2e18b1f35dcfbe34ffc8d698e5d2194e",
+      "source_bytes": 728872,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1800
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 184799,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5ce4b3a258fe1f88f624d978c994e9c8573871efd34b40c18bbceaf43cdc2c34"
+    },
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_4_top_model.png",
+      "source_sha256": "9bf0b91f4e8bd97e358c535fb11b659b2e18b1f35dcfbe34ffc8d698e5d2194e",
+      "source_bytes": 728872,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1800
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 184799,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5ce4b3a258fe1f88f624d978c994e9c8573871efd34b40c18bbceaf43cdc2c34"
+    },
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_5_model_page.png",
+      "source_sha256": "93d058ecf2778580ffbdc34aa1901d9c15433f876b7c7d37be1c6abb880d44a2",
+      "source_bytes": 161046,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1800
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 109101,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7f0dfc48bf6971a2d369bf16dbe0318f9a42a911743d751a628fa1d3ce5b72a1"
+    },
+    {
+      "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_6_spaces_usage.png",
+      "source_sha256": "93d058ecf2778580ffbdc34aa1901d9c15433f876b7c7d37be1c6abb880d44a2",
+      "source_bytes": 161046,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1800
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 109101,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7f0dfc48bf6971a2d369bf16dbe0318f9a42a911743d751a628fa1d3ce5b72a1"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1020776,
+  "response_id": "7b406271-93e5-44ea-bd5c-425a3c8ccf81",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1854,
+    "reasoning_content_chars": 2146
+  }
+}

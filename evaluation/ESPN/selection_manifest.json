@@ -1,0 +1,1681 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "task_id": "ESPN--0",
+      "website": "ESPN",
+      "task": "Look up the current standings for the NBA Eastern Conference on ESPN.",
+      "task_record": "ESPN--0/ESPN--0_20261113_135143",
+      "task_definition_sha256": "d790ea803952239c2fda0afe7867462c11d5bc7374b526b14d49bbb943c7ab2f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--0/ESPN--0_20261113_135143"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: NBA Eastern Conference standings (2026-27 season, ESPN): 1 Boston Celtics: 10-2 (.833); 2 Philadelphia 76ers: 10-3 (.769); 3 Detroit Pistons: 8-3 (.727); 4 Atlanta Hawks: 7-5 (.583); 5 New York Knicks: 6-5 (.545); 6 Cleveland Cavaliers: 6-6 (.500); 7 Miami Heat: 5-6 (.455); 8 Toronto Raptors: 5-7 (.417); 9 Orlando Magic: 4-7 (.364); 10 Charlotte Hornets: 4-8 (.333); Indiana Pacers: 4-8 (.333); Washington Wizards: 4-9 (.308); Brooklyn Nets: 3-8 (.273); Chicago Bulls: 1-9 (.100); Milwaukee Bucks: 1-11 (.083)",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--0/ESPN--0_20261113_135143/final_runs/run_001/screenshots/final_execution_1_espn_home.png",
+          "sha256": "9fef9738ead82051f71afdd29e9978536b42a3458e8f04af575f0029a891797a"
+        },
+        {
+          "path": "ESPN--0/ESPN--0_20261113_135143/final_runs/run_001/screenshots/final_execution_2_nba_standings.png",
+          "sha256": "a7f8a15cd06e9fbedd63c974abb63b1a435cc6e6f180de7f2c63e613c54b5227"
+        },
+        {
+          "path": "ESPN--0/ESPN--0_20261113_135143/final_runs/run_001/screenshots/final_execution_3_eastern_table.png",
+          "sha256": "a615bf5141f4a6bba465b4f201301abd907cb0f1370ae0619a1e624dea6384f6"
+        },
+        {
+          "path": "ESPN--0/ESPN--0_20261113_135143/final_runs/run_001/screenshots/final_execution_4_eastern_data.png",
+          "sha256": "f4ed1332ebcbbef423d22e581d3fadb8654ba3cb6b2d854298d6a19609c7da9a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "5f7e01d5b4f311c78d4b91a95d137c94ea86b6b71545e60c66a6ff6f79ecaffe",
+      "fingerprint": "eb6f5a5e0427912b9b5f1c19483860197794559a03aa4b42e9109d3fc2a84b6c"
+    },
+    {
+      "task_id": "ESPN--1",
+      "website": "ESPN",
+      "task": "Check the latest articles on ESPN for updates on any trades that occurred in the NBA within the past 2 days.",
+      "task_record": "ESPN--1/ESPN--1_20261113_140127",
+      "task_definition_sha256": "ed337a4e689e68c9fb81f6117fa2468b55c469a6e099e75eb67380d5c754c31e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--1/ESPN--1_20261113_140127"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Checked ESPN's latest articles for NBA trades in the past 2 days. Latest NBA trade-related articles within 2 days: [14h] 'NBA trade deadline: Big questions for Knicks, Thunder and other top teams' (NBA Insiders); [1d] 'NBA buzz: Latest on trades, news, roster moves and intel' (ESPN staff). ESPN's NBA Transactions page shows the most recent NBA trade dated Sunday, November 8 (Traded G Nique Clifford to the Oklahoma City Thunder), so no actual NBA trades occurred within the past 2 days; the newest articles are trade-deadline buzz/updates, not completed trades.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--1/ESPN--1_20261113_140127/final_runs/run_004/screenshots/final_execution_1_open_espn.png",
+          "sha256": "bfdd6c7a734924809f7f69fc484a0dbee1b7e2affe0bc6a33163dcda2546fbea"
+        },
+        {
+          "path": "ESPN--1/ESPN--1_20261113_140127/final_runs/run_004/screenshots/final_execution_2_search_articles_tab.png",
+          "sha256": "909ed7ecc39d98cf7810b0108947bee7370667b32264c99362611168a9918581"
+        },
+        {
+          "path": "ESPN--1/ESPN--1_20261113_140127/final_runs/run_004/screenshots/final_execution_3_latest_articles_within_2_days.png",
+          "sha256": "909ed7ecc39d98cf7810b0108947bee7370667b32264c99362611168a9918581"
+        },
+        {
+          "path": "ESPN--1/ESPN--1_20261113_140127/final_runs/run_004/screenshots/final_execution_4_nba_transactions.png",
+          "sha256": "ea607732341a29201183596a7c6edea911bd489a6a0bd185932d78f125eb1abb"
+        },
+        {
+          "path": "ESPN--1/ESPN--1_20261113_140127/final_runs/run_004/screenshots/final_execution_5_final_state.png",
+          "sha256": "14064f41909cc95f1859120aa4037ad57b8b50eb1de63291f56458ed31d41f30"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "588698f39a3e4afc7e3f111e688796bc0c183c7de500529fe09b5805cb9f5699",
+      "fingerprint": "9ebd9d30d91133bf8090b9bbffd027dc6b3da3cca6b159ca75b22c88c00684d1"
+    },
+    {
+      "task_id": "ESPN--2",
+      "website": "ESPN",
+      "task": "Show the scores and main highlight of the Milwaukee Bucks game that took place within the last 2 days on ESPN.",
+      "task_record": "ESPN--2/ESPN--2_20261114_000319",
+      "task_definition_sha256": "d6118002814a225551e64d036a77f39da0369a19e4ebca0c393e54cfc5e39688",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--2/ESPN--2_20261114_000319"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Milwaukee Bucks game within the last 2 days: vs Los Angeles Lakers on Nov 12, 2026 (Final). Score: Lakers 123 - Bucks 112. Main highlight: Doncic, Mamukelashvili and Reaves lead Lakers past Bucks 123-112 for 7th straight win (Luka Doncic scored 32 points, Sandro Mamukelashvili added 23 and Austin Reaves 18 as the Lakers won their 7th straight; Tyler Herro returned with 25 points and Jaime Jaquez Jr. scored a season-high 23 for Milwaukee).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--2/ESPN--2_20261114_000319/final_runs/run_001/screenshots/final_execution_1_bucks_team_page.png",
+          "sha256": "e770202e73ce0aa6d81406e6108794f3c3d7d2745a0eeaaff0b54bf4f9b78005"
+        },
+        {
+          "path": "ESPN--2/ESPN--2_20261114_000319/final_runs/run_001/screenshots/final_execution_2_recent_game_schedule.png",
+          "sha256": "9cb33378765283307034f29960159640b9dce8ca7693ababa91567ade13c40e1"
+        },
+        {
+          "path": "ESPN--2/ESPN--2_20261114_000319/final_runs/run_001/screenshots/final_execution_3_game_score.png",
+          "sha256": "585de140a14fb2c80bb77356c971730be03ebcfa7086e019772b40547c6c970d"
+        },
+        {
+          "path": "ESPN--2/ESPN--2_20261114_000319/final_runs/run_001/screenshots/final_execution_4_main_highlight_recap.png",
+          "sha256": "f497418f30352c40d3a547fd4a80737f0014412755a578ff33dd6a9d370c4dd6"
+        },
+        {
+          "path": "ESPN--2/ESPN--2_20261114_000319/final_runs/run_001/screenshots/final_execution_5_final_state_score_highlight.png",
+          "sha256": "f497418f30352c40d3a547fd4a80737f0014412755a578ff33dd6a9d370c4dd6"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "86ad9b01f791d0eb7ffb8936fa0e3833a04506f60e2505edd17c7d7e6ad6cd6e",
+      "fingerprint": "4ef5c6c3755f5996ca075e1b6cb6eac2aab6f8230bdd6c493ddd3e0b41021a66"
+    },
+    {
+      "task_id": "ESPN--3",
+      "website": "ESPN",
+      "task": "Retrieve the final score from the most recent NBA game broadcast on ESPN, including the playing teams' names and the date of the match.",
+      "task_record": "ESPN--3/ESPN--3_20261114_001736",
+      "task_definition_sha256": "3d42c8d108f5c08fb8d0167d4de6a851241597b755ef096c8809ca0830bc2429",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--3/ESPN--3_20261114_001736"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The most recent NBA game broadcast on ESPN was on November 11, 2026: Houston Rockets 115, Golden State Warriors 108 (Final) — Golden State Warriors @ Houston Rockets, 9:30 PM ET, televised on ESPN.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--3/ESPN--3_20261114_001736/final_runs/run_002/screenshots/final_execution_1_espn_homepage.png",
+          "sha256": "fb3652a6bab75940e75527caa1e3f950f69eafd620f56edce838723f409c47d1"
+        },
+        {
+          "path": "ESPN--3/ESPN--3_20261114_001736/final_runs/run_002/screenshots/final_execution_2_nba_scoreboard.png",
+          "sha256": "934e3e031700cdf5af1af3de315b4837434d4f43d84b9e86a4023614b906b984"
+        },
+        {
+          "path": "ESPN--3/ESPN--3_20261114_001736/final_runs/run_002/screenshots/final_execution_3_game_page_final.png",
+          "sha256": "8f998599b8e3ebf81984ce6f3ea15c9f9b50aa2ffd868a82e967f5ee8e628fd3"
+        },
+        {
+          "path": "ESPN--3/ESPN--3_20261114_001736/final_runs/run_002/screenshots/final_execution_4_game_info_espn_date.png",
+          "sha256": "9f62bf82b4503ef67b6a23f223519928951e6eedb3c6377b594ea4895efca9a4"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d6fb3c516bf304306102a68cc21a5a27229ce34d13054580d0b3d94bfd211fcf",
+      "fingerprint": "ac71585ccc0746f8417ed10d552b01913e7d68a93cb457a07bd2a6721f6d5021"
+    },
+    {
+      "task_id": "ESPN--4",
+      "website": "ESPN",
+      "task": "Check ESPN for the final scores of NBA games that were played yesterday.",
+      "task_record": "ESPN--4/ESPN--4_20261114_010635",
+      "task_definition_sha256": "55ed1ee87c537eed725b62a91dc0b8c89ad69f322ff275fe390f32665936f0e7",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--4/ESPN--4_20261114_010635"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "NBA final scores for yesterday (Friday, November 13, 2026, per ESPN NBA scoreboard): Raptors 112 @ 76ers 123 (FINAL); Pistons 144 @ Wizards 140 (FINAL/2OT); Mavericks 94 @ Timberwolves 133 (FINAL); Hornets 96 @ Suns 101 (FINAL)",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--4/ESPN--4_20261114_010635/final_runs/run_003/screenshots/final_execution_1_nba_scoreboard_yesterday.png",
+          "sha256": "cc967340c5e53afd3c45c37d29bd9fec08e4df8626ee02000e93beb37ca7dea6"
+        },
+        {
+          "path": "ESPN--4/ESPN--4_20261114_010635/final_runs/run_003/screenshots/final_execution_2_date_header_friday_nov_13.png",
+          "sha256": "0b7ea389ba071ebb2df5213bfe93943a5119b0f036bc088f96787facce83de90"
+        },
+        {
+          "path": "ESPN--4/ESPN--4_20261114_010635/final_runs/run_003/screenshots/final_execution_3_final_games_scores.png",
+          "sha256": "d61398c02c809b93c5a69c6da99260cd92650665540af669ce025d7a76c40872"
+        },
+        {
+          "path": "ESPN--4/ESPN--4_20261114_010635/final_runs/run_003/screenshots/final_execution_4_all_final_scores_fullpage.png",
+          "sha256": "2d412da5de2b895adebdb4b72bad049a87f95851372703a12ffde7c317bd345b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c719b979f487fb86aa43c67f64df01f7506cf60417d8a3d83c73e6d9f6fa6b5c",
+      "fingerprint": "9f2a0484dc993978c9c6b85aef8d92eacee33b704c19d167390252c1768d9dfc"
+    },
+    {
+      "task_id": "ESPN--5",
+      "website": "ESPN",
+      "task": "Identify the top scorer in the NBA from the latest completed game and note down the points scored, the team they play for, and their position on the team.",
+      "task_record": "ESPN--5/ESPN--5_20261114_013722",
+      "task_definition_sha256": "70fb03b3cb4fdf25143f0618619b31e0ec69384d013ade86c5e561ac5e8c7d90",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--5/ESPN--5_20261114_013722"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Top scorer in the NBA's latest completed game (Suns 101-96 Hornets, Nov 12, 2026): Devin Booker scored 30 points for the Phoenix Suns; his position is Guard.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--5/ESPN--5_20261114_013722/final_runs/run_002/screenshots/final_execution_1_scoreboard_latest_final_date.png",
+          "sha256": "129c02b78998d3411dad25e7d8007cff3acbc4bff7d6083ee12ec5cdd776db84"
+        },
+        {
+          "path": "ESPN--5/ESPN--5_20261114_013722/final_runs/run_002/screenshots/final_execution_2_game_page_final.png",
+          "sha256": "86fc2aa8d98bf4d32034a4ef48c350289b7988088c6e03a1b8a0ea66f7fced69"
+        },
+        {
+          "path": "ESPN--5/ESPN--5_20261114_013722/final_runs/run_002/screenshots/final_execution_3_boxscore_pts_column.png",
+          "sha256": "dba98c1ea2078e9c0dee88ffa70343633ed02f25140b2972e1d08ce1272cd906"
+        },
+        {
+          "path": "ESPN--5/ESPN--5_20261114_013722/final_runs/run_002/screenshots/final_execution_4_boxscore_top_scorer.png",
+          "sha256": "58d4355e42307fe7115d5f570297bd2286b0d8ed175d780453fd88a71f9fbc8b"
+        },
+        {
+          "path": "ESPN--5/ESPN--5_20261114_013722/final_runs/run_002/screenshots/final_execution_5_player_profile_position.png",
+          "sha256": "1d76a8905f6d6b3ec43548103b09b4f0a61c5ad02383e67d4b540699356b3a7b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "3cd149050765817b09f1a4a2cf8dc25cc064c0ab2ab22739c596fdf87f2ee8fb",
+      "fingerprint": "0d7ef71cbdccbb86db6e462b0ddb89b468776cd0c368e41471cfa5373a6c75e5"
+    },
+    {
+      "task_id": "ESPN--6",
+      "website": "ESPN",
+      "task": "Find the result of the latest basketball game between the Los Angeles Lakers and the Boston Celtics, including the final score and top scorer from the match.",
+      "task_record": "ESPN--6/ESPN--6_20261114_022439",
+      "task_definition_sha256": "2522e8729ed289ccf969d674bd8ca1ed2411c14722308cf604a1e259a127368a",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--6/ESPN--6_20261114_022439"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The latest basketball game between the Los Angeles Lakers and the Boston Celtics was played on Mon, Feb 23, 2026 (Feb 22, 2026 local). Final score: Boston Celtics 111, Los Angeles Lakers 89 (Celtics won). Top scorer: Jaylen Brown (Boston Celtics) with 32 points.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--6/ESPN--6_20261114_022439/final_runs/run_002/screenshots/final_execution_1_lakers_schedule.png",
+          "sha256": "020c0125dd9683bdda9040d943d8ea362c284c6962d1d5241acf440101700e87"
+        },
+        {
+          "path": "ESPN--6/ESPN--6_20261114_022439/final_runs/run_002/screenshots/final_execution_2_latest_boston_game_row.png",
+          "sha256": "176360e0cd9d090fb76765a58f29e77caa422631d94d17472333b91fb14804ca"
+        },
+        {
+          "path": "ESPN--6/ESPN--6_20261114_022439/final_runs/run_002/screenshots/final_execution_3_game_final_score.png",
+          "sha256": "b8cd06dd04cde8369138a9f7fdb4a9b8777e7682cdc0023a65bf6247411b94bc"
+        },
+        {
+          "path": "ESPN--6/ESPN--6_20261114_022439/final_runs/run_002/screenshots/final_execution_4_boxscore_top_scorer.png",
+          "sha256": "5774e610b277f0d8175b7264fb63f2d2fe590cd7e7249b518ed9aa419c514f7a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "50cd49cc320c4db7dafd6540590fb3a45ccf71d4f2f6fa8bd1a702e600958ca0",
+      "fingerprint": "a1a6c4fb6481fd2a262b909cce354ca32f1191d675221b9066b77a758f96ea61"
+    },
+    {
+      "task_id": "ESPN--7",
+      "website": "ESPN",
+      "task": "Retrieve the final score and a brief summary of the latest NBA game played by the Los Angeles Lakers as reported on ESPN.",
+      "task_record": "ESPN--7/ESPN--7_20261114_032037",
+      "task_definition_sha256": "a66105c9b430399e1c88e0b3ec93c460a3d8f845f336bd27f72f56d975048ad1",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--7/ESPN--7_20261114_032037"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final score: Lakers 123-112 Bucks. Summary: Doncic, Mamukelashvili and Reaves lead Lakers past Bucks 123-112 for 7th straight win. MILWAUKEE -- Luka Doncic scored 32 points, Sandro Mamukelashvili added 23 and Austin Reaves 18 as the Los Angeles Lakers extended their winning streak to seven games with a 123-112 win over the Milwaukee Bucks on Wednesday night (Nov 11, 2026), as reported on ESPN.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--7/ESPN--7_20261114_032037/final_runs/run_002/screenshots/final_execution_1_lakers_team_schedule.png",
+          "sha256": "7352f0ed4c7abc63795b61022569f24ebbc3c835e7de2175bca960e6d67a1b45"
+        },
+        {
+          "path": "ESPN--7/ESPN--7_20261114_032037/final_runs/run_002/screenshots/final_execution_2_schedule_latest_game.png",
+          "sha256": "7352f0ed4c7abc63795b61022569f24ebbc3c835e7de2175bca960e6d67a1b45"
+        },
+        {
+          "path": "ESPN--7/ESPN--7_20261114_032037/final_runs/run_002/screenshots/final_execution_3_game_final_score.png",
+          "sha256": "263b8f3a2a1a0958c12f5936eecb0ab75e39a97730ce15c324ff4111b1c3322d"
+        },
+        {
+          "path": "ESPN--7/ESPN--7_20261114_032037/final_runs/run_002/screenshots/final_execution_4_recap_summary.png",
+          "sha256": "0b05ee6c92b89063ecda629a51e37b975e1b20b382a6dcb70454127338fc022b"
+        },
+        {
+          "path": "ESPN--7/ESPN--7_20261114_032037/final_runs/run_002/screenshots/final_execution_5_final_state.png",
+          "sha256": "0b05ee6c92b89063ecda629a51e37b975e1b20b382a6dcb70454127338fc022b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c4005fc09c36e25e2eb3a3c18afbd2f9fb6dad0fcfae114621ebe4d902135365",
+      "fingerprint": "f49a8b1fa3796459326707b9062afe6b1605f0914bda1e4b7c87afa9f8e1aee3"
+    },
+    {
+      "task_id": "ESPN--8",
+      "website": "ESPN",
+      "task": "Find information on ESPN about the top three scoring leaders in the NBA as of the last day of the regular season, and note which teams they play for.",
+      "task_record": "ESPN--8/ESPN--8_20261114_033156",
+      "task_definition_sha256": "959c069e032bc36ab915b8262436eacb817ade2a5c2a099fc7499ec7bd315e71",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--8/ESPN--8_20261114_033156"
+      ],
+      "final_run": "run_008",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Top three NBA scoring leaders as of the last day of the most recently completed regular season (2025-26 Regular Season, per ESPN NBA stats PTS leaders): 1) Luka Doncic - Los Angeles Lakers (LAL) - 33.5 PPG; 2) Shai Gilgeous-Alexander - Oklahoma City Thunder (OKC) - 31.1 PPG; 3) Anthony Edwards - Minnesota Timberwolves (MIN) - 28.8 PPG.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--8/ESPN--8_20261114_033156/final_runs/run_008/screenshots/final_execution_1_open_nba_stats.png",
+          "sha256": "e1910bf517a6548ca2a8dc5bce9c443af0fa959b48f847baa3b8e05991be052a"
+        },
+        {
+          "path": "ESPN--8/ESPN--8_20261114_033156/final_runs/run_008/screenshots/final_execution_2_select_2025_26_season.png",
+          "sha256": "52dd11b22329ed3abcafa5f4889d84393b98609ebc87e7bfb2929b0d91ac7254"
+        },
+        {
+          "path": "ESPN--8/ESPN--8_20261114_033156/final_runs/run_008/screenshots/final_execution_3_pts_table_2025_26.png",
+          "sha256": "52dd11b22329ed3abcafa5f4889d84393b98609ebc87e7bfb2929b0d91ac7254"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "ecbae53e474f96d8261cd28d8213e4e1f6cb610fc957ac365fd857a0dfe34a3f",
+      "fingerprint": "948702e434a0051353a61834c677f5ce15500d279e02101d482ba8fc971813bd"
+    },
+    {
+      "task_id": "ESPN--9",
+      "website": "ESPN",
+      "task": "Search on ESPN for how many teams have Los Angeles in their name and how many of them are NBA.",
+      "task_record": "ESPN--9/ESPN--9_20261114_041250",
+      "task_definition_sha256": "64bfc1d16a9a23221ce2ec825373e4c4c65b262ebe8543974b497bb1270cdcd8",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--9/ESPN--9_20261114_041250"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: ESPN search for 'Los Angeles' returned 11 team results; 8 of them have 'Los Angeles' in their name (Los Angeles Lakers, Los Angeles Rams, Los Angeles Chargers, Los Angeles Dodgers, Los Angeles Kings, Los Angeles Angels, Los Angeles Sparks, Los Angeles Knight Riders), and exactly 1 of them is NBA (Los Angeles Lakers).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--9/ESPN--9_20261114_041250/final_runs/run_003/screenshots/final_execution_1_homepage_search.png",
+          "sha256": "3f1b3249780c515b3811ac9bbeac69d8f81ecaaac9c84a7f00a86d7e8abf08d9"
+        },
+        {
+          "path": "ESPN--9/ESPN--9_20261114_041250/final_runs/run_003/screenshots/final_execution_2_query_entered.png",
+          "sha256": "e6ec7a663699b2fdf554a97fe979ff13beaee058871ccb0074d4ceda5e2e300e"
+        },
+        {
+          "path": "ESPN--9/ESPN--9_20261114_041250/final_runs/run_003/screenshots/final_execution_3_search_results_teams.png",
+          "sha256": "fc703f4726bbe0022cd29db311aa566dff98cd2221d14e7312362f02447d7d8a"
+        },
+        {
+          "path": "ESPN--9/ESPN--9_20261114_041250/final_runs/run_003/screenshots/final_execution_4_all_team_results.png",
+          "sha256": "99ad5209fe764cdb9432df5ebad2c168c8f95529af6ff74464b46d2cbbff5faf"
+        },
+        {
+          "path": "ESPN--9/ESPN--9_20261114_041250/final_runs/run_003/screenshots/final_execution_5_nba_team_league_labels.png",
+          "sha256": "99ad5209fe764cdb9432df5ebad2c168c8f95529af6ff74464b46d2cbbff5faf"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "bc9111ae39bf1f275d6e507030c411f640e24ad0ff7730dc3a157713566d81b4",
+      "fingerprint": "6e7a9e3be234fb05845a106fa89e4eec998b0e3b3d88f64a5f274b4b9e991e33"
+    },
+    {
+      "task_id": "ESPN--10",
+      "website": "ESPN",
+      "task": "Check ESPN for the score and a brief recap of the latest college football championship game.",
+      "task_record": "ESPN--10/ESPN--10_20261114_044037",
+      "task_definition_sha256": "923ef49367445c3c554a160dbc1005321c11254983c1d460d1836a0eb316f8bc",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--10/ESPN--10_20261114_044037"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The latest college football championship game on ESPN is the CFP National Championship (Jan 19/20, 2026, 2025 season): Indiana 27, Miami 21 (Final). Recap: Indiana completed an undefeated season and won its first national title in program history, beating Miami 27-21 in the CFP final. Fernando Mendoza capped the comeback with a decisive touchdown run, holding off a second-half Miami surge to secure Indiana's first-ever national championship.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--10/ESPN--10_20261114_044037/final_runs/run_002/screenshots/cp2_cfp_scoreboard_championship.png",
+          "sha256": "452b7972e9ab52a820265351757c564a6912fef91f574694774cae91d61d6dd5"
+        },
+        {
+          "path": "ESPN--10/ESPN--10_20261114_044037/final_runs/run_002/screenshots/cp3_championship_game_page.png",
+          "sha256": "08e7d05c3e38f20491894c14070e18c6738b1c9987ceca13e2942d3c9bdcf960"
+        },
+        {
+          "path": "ESPN--10/ESPN--10_20261114_044037/final_runs/run_002/screenshots/cp4_final_score_header.png",
+          "sha256": "13673886defffa6273ea1f7a568f6fdbd0621e9aded019b18bb8da3bf206683c"
+        },
+        {
+          "path": "ESPN--10/ESPN--10_20261114_044037/final_runs/run_002/screenshots/cp5_recap_text.png",
+          "sha256": "76ab400668e263f6a62b619742420f1ed3093861fb0ffbcd23cc3131732e4311"
+        },
+        {
+          "path": "ESPN--10/ESPN--10_20261114_044037/final_runs/run_002/screenshots/cp6_final_state.png",
+          "sha256": "76ab400668e263f6a62b619742420f1ed3093861fb0ffbcd23cc3131732e4311"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "7b07ec5e419b30c80b74002019d6db58bf324d03efdd486c34e9da692bbdf007",
+      "fingerprint": "959539a4a3af49bf0e761dcd08f3e0789237c534a1d4840694a412ab3c81648f"
+    },
+    {
+      "task_id": "ESPN--11",
+      "website": "ESPN",
+      "task": "How many NBA teams are there and list all the teams with 'New' in their name.",
+      "task_record": "ESPN--11/ESPN--11_20261114_050731",
+      "task_definition_sha256": "1f3e33bd08a371622079e86df5eea5d4241954de5432a7b5bb4f9c351db1b9d7",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--11/ESPN--11_20261114_050731"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "There are 30 NBA teams. Teams with 'New' in their name: New York Knicks, New Orleans Pelicans.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--11/ESPN--11_20261114_050731/final_runs/run_001/screenshots/final_execution_1_nba_teams_page.png",
+          "sha256": "8b84ea76fbbe2aa7d3d7fa86e8456f0dbef1209385cde25ae90e88827916253c"
+        },
+        {
+          "path": "ESPN--11/ESPN--11_20261114_050731/final_runs/run_001/screenshots/final_execution_2_teams_list_full.png",
+          "sha256": "326822a1ac23cdf4a62f64834c8f40b6fba3000a004d43f35d8cdd37130866b0"
+        },
+        {
+          "path": "ESPN--11/ESPN--11_20261114_050731/final_runs/run_001/screenshots/final_execution_3_new_teams_subset.png",
+          "sha256": "4b5db9767f7c9c0a3bb10a12fdc55e14fedba6aef8bb2b3a32d9bfde3321c495"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "2094231af05ec5d4f0961d0242671a4720d0b7145da3ba09e0c7c86b6d993e46",
+      "fingerprint": "cc02315d25afdba51c3bf3ea69a57cbe7d69c52d303d00e3681903e5c4dfb783"
+    },
+    {
+      "task_id": "ESPN--12",
+      "website": "ESPN",
+      "task": "The first three Top Headlines in the current ESPN home page correspond to which sports leagues?",
+      "task_record": "ESPN--12/ESPN--12_20261114_051343",
+      "task_definition_sha256": "19c51aac5bc698f57fd0603bc873e95a15680d2a280e1b5d9a99a2d8b644513f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--12/ESPN--12_20261114_051343"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The first three Top Headlines on the current ESPN home page correspond to the NBA (National Basketball Association), NFL (National Football League), and MLB (Major League Baseball).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--12/ESPN--12_20261114_051343/final_runs/run_002/screenshots/final_execution_1_home_loaded.png",
+          "sha256": "559e24ca23eb4f013f6f15d30350824e8d6ea5f90c50808a0a282ff29e2eccde"
+        },
+        {
+          "path": "ESPN--12/ESPN--12_20261114_051343/final_runs/run_002/screenshots/final_execution_2_top_headlines_section.png",
+          "sha256": "68b1303dbe33d4e3cca8842d604e493cba0b1087328171b888f3f2c5b77a5bc5"
+        },
+        {
+          "path": "ESPN--12/ESPN--12_20261114_051343/final_runs/run_002/screenshots/final_execution_3_first_three_headlines.png",
+          "sha256": "2474f8268a60c1f8c88dd770e50afb69a70c8f608134fddf47d6445560f0abf5"
+        },
+        {
+          "path": "ESPN--12/ESPN--12_20261114_051343/final_runs/run_002/screenshots/final_execution_5_final_state.png",
+          "sha256": "67a466b4590bc875db5de6de95b64fc79e5f2aabf48e8c6ba22f15f7f7e678f7"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "08d4c96f9489c123e831d27e5afdfc744d8e71cbdaac20baaa593f4e2cad6011",
+      "fingerprint": "224343eb99d91cc03d36576b8a9a1396adcfc6e05ee5d6065c12cdc61dc2bc9b"
+    },
+    {
+      "task_id": "ESPN--13",
+      "website": "ESPN",
+      "task": "Identify today's top headline in the Basketball section of ESPN, and summarize the main points of that article.",
+      "task_record": "ESPN--13/ESPN--13_20261114_052447",
+      "task_definition_sha256": "7673709a5f4cd19d7422ab0d072a88c91c14d1bcc3fe6c52d2e9d9aabf4e129c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--13/ESPN--13_20261114_052447"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Today's top headline in ESPN's Basketball (NBA) section is: 'Donovan Mitchell still believes in the Cavaliers, even if you don't' (article: https://www.espn.com/nba/story/_/id/50463020/donovan-mitchell-cleveland-cavaliers-extension; article headline: 'Donovan Mitchell's renewed faith in Cleveland fuels the Cavs' future'). Summary of main points: Weeks before his August wedding to singer Coco Jones, Donovan Mitchell had another reason to celebrate. In early July, during their joint bachelor-bachelorette party in upstate New York, the couple reflected on where they would build their future together. The Cleveland Cavaliers were ready to offer Mitchell a four-year, $273 million contract extension keeping him in Cleveland through 2031, and he intended to sign it even though waiting until next summer could have earned him an additional $80 million. Mitchell, who has repeatedly said he loves the team and the city, did not want a lingering contract negotiation to overshadow the 2026-27 Cavs season and wanted to make the commitment now.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--13/ESPN--13_20261114_052447/final_runs/run_002/screenshots/final_execution_1_basketball_section.png",
+          "sha256": "5a78e22fed2de5da3db06f58817b9c2e689ba394272405a9b31cc603ac25d385"
+        },
+        {
+          "path": "ESPN--13/ESPN--13_20261114_052447/final_runs/run_002/screenshots/final_execution_2_top_headline.png",
+          "sha256": "5a78e22fed2de5da3db06f58817b9c2e689ba394272405a9b31cc603ac25d385"
+        },
+        {
+          "path": "ESPN--13/ESPN--13_20261114_052447/final_runs/run_002/screenshots/final_execution_3_article.png",
+          "sha256": "d83f6d9df2f2b82d04239df11a4558772ba2893b4ecbb40148167cdb4449f46b"
+        },
+        {
+          "path": "ESPN--13/ESPN--13_20261114_052447/final_runs/run_002/screenshots/final_execution_4_article_content.png",
+          "sha256": "34af0ff65d1174adc2322729f55fecc8eb422660a74d6e1e899369766073b1f6"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "230ffa67c5a9ed25063b0b4fbe941e8a8fbe2a8758f4cf0be73407a311f1966d",
+      "fingerprint": "7d636c086339a12040af3e6221a135025808b087cc93c9777e5151173bc3039e"
+    },
+    {
+      "task_id": "ESPN--14",
+      "website": "ESPN",
+      "task": "Find the latest news about NBA trades or player movements on ESPN and report the most recent trade deal OR player acquisition.",
+      "task_record": "ESPN--14/ESPN--14_20261114_054045",
+      "task_definition_sha256": "7be06d6ae9f8dbc7379bbdf3733372136229ac53a8e39568a6f7f0dc34b4221b",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--14/ESPN--14_20261114_054045"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most recent NBA player movement on ESPN Transactions (dated Wednesday, November 11) is a player acquisition by the Los Angeles Lakers: Signed F Carson Cooper to a two-way contract. Waived C Lawson Lovering.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--14/ESPN--14_20261114_054045/final_runs/run_001/screenshots/final_execution_1_nba_section.png",
+          "sha256": "17b0c7537deb8cc381e79ab0f1d2bda6b3412097d2d273a6738786c3b7df8be4"
+        },
+        {
+          "path": "ESPN--14/ESPN--14_20261114_054045/final_runs/run_001/screenshots/final_execution_2_transactions_page.png",
+          "sha256": "04aea378331e5033840f80e1b5f5a506e774cafa51df97fdbe8e1f06ad1bc1c6"
+        },
+        {
+          "path": "ESPN--14/ESPN--14_20261114_054045/final_runs/run_001/screenshots/final_execution_3_latest_entry.png",
+          "sha256": "5066ee3b80d476dbcacc371b6e1cd6da52a93a5acf934aff9dfbecf5cbe6d472"
+        },
+        {
+          "path": "ESPN--14/ESPN--14_20261114_054045/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+          "sha256": "5066ee3b80d476dbcacc371b6e1cd6da52a93a5acf934aff9dfbecf5cbe6d472"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "6c4ce42514324bdab98e03e383973365df24e5b665518824aefbce11d957dfe2",
+      "fingerprint": "942bd5a99971e731fc46bf3dbc3279b94bb01d091b9083441832dd96ecad01af"
+    },
+    {
+      "task_id": "ESPN--15",
+      "website": "ESPN",
+      "task": "Check the scores of the NBA games played on February 25, 2026.",
+      "task_record": "ESPN--15/ESPN--15_20261114_055713",
+      "task_definition_sha256": "1cff7388083513c0e799c17785cc0edd56ac584daf879c0bafd48dcf4bd92aaa",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--15/ESPN--15_20261114_055713"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: NBA scores for February 25, 2026 (ESPN): Thunder 116 - Pistons 124 (FINAL); Spurs 110 - Raptors 107 (FINAL); Warriors 133 - Grizzlies 112 (FINAL); Kings 97 - Rockets 128 (FINAL); Cavaliers 116 - Bucks 118 (FINAL); Celtics 84 - Nuggets 103 (FINAL)",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--15/ESPN--15_20261114_055713/final_runs/run_001/screenshots/final_execution_1_nba_scoreboard.png",
+          "sha256": "0f884d5641b2fb15984e104404cb839ffdd1657682b6e12d337d154494133ec2"
+        },
+        {
+          "path": "ESPN--15/ESPN--15_20261114_055713/final_runs/run_001/screenshots/final_execution_2_date_selected_feb25_2026.png",
+          "sha256": "0f884d5641b2fb15984e104404cb839ffdd1657682b6e12d337d154494133ec2"
+        },
+        {
+          "path": "ESPN--15/ESPN--15_20261114_055713/final_runs/run_001/screenshots/final_execution_3_games_scores_displayed.png",
+          "sha256": "5caaa9bc669f76efa408fecf3d4e2cc2f3d99b31a2e96d1622a93ac6f9d2e4d1"
+        },
+        {
+          "path": "ESPN--15/ESPN--15_20261114_055713/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+          "sha256": "7eb7d7cdfa3452e2e199ded984a43884ac4d914f59fdcd300daf7bc7979494f0"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "78eb3e5e34cb1c7dc58504cfa9b6ce98bcfcaf3f4c191f5a88af793cdc24a4a1",
+      "fingerprint": "ea2286301c3362986b808a3393db41d0282cda9d6d0653dcf8a22ee96cccea5c"
+    },
+    {
+      "task_id": "ESPN--16",
+      "website": "ESPN",
+      "task": "Check the schedule for the NBA game on February 25, 2026, and provide the teams that are playing and their current standings in their respective conferences.",
+      "task_record": "ESPN--16/ESPN--16_20261114_061828",
+      "task_definition_sha256": "d354bd786f7d165ab3b0d2ebe4b1313f8f9d8f128ebdd029473bf1ee37df294e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--16/ESPN--16_20261114_061828"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "NBA schedule for Wednesday, February 25, 2026 on ESPN (11 games), with each team's current conference standing (rank, W-L):\n\n1. Philadelphia 76ers (Eastern Conference: #2, 10-3) @ Indiana Pacers (Eastern Conference: #11, 4-8) — Final: PHI 135, IND 114\n2. Washington Wizards (Eastern Conference: #12, 4-9) @ Atlanta Hawks (Eastern Conference: #4, 7-5) — Final: ATL 119, WSH 98\n3. Dallas Mavericks (Western Conference: #10, 7-5) @ Brooklyn Nets (Eastern Conference: #13, 3-8) — Final: DAL 123, BKN 114\n4. Oklahoma City Thunder (Western Conference: #7, 8-4) @ Toronto Raptors (Eastern Conference: #8, 5-7) — Final: OKC 116, TOR 107\n5. New York Knicks (Eastern Conference: #5, 6-5) @ Cleveland Cavaliers (Eastern Conference: #6, 6-6) — Final: CLE 109, NY 94\n6. Charlotte Hornets (Eastern Conference: #10, 4-8) @ Chicago Bulls (Eastern Conference: #14, 1-9) — Final: CHA 131, CHI 99\n7. Miami Heat (Eastern Conference: #7, 5-6) @ Milwaukee Bucks (Eastern Conference: #15, 1-11) — Final: MIL 128, MIA 117\n8. Golden State Warriors (Western Conference: #6, 8-4) @ New Orleans Pelicans (Western Conference: #12, 4-8) — Final: NO 113, GS 109\n9. Boston Celtics (Eastern Conference: #1, 10-2) @ Phoenix Suns (Western Conference: #11, 5-6) — Final: BOS 97, PHX 81\n10. Minnesota Timberwolves (Western Conference: #3, 9-3) @ Portland Trail Blazers (Western Conference: #5, 8-3) — Final: MIN 124, POR 121\n11. Orlando Magic (Eastern Conference: #9, 4-7) @ Los Angeles Lakers (Western Conference: #1, 11-2) — Final: ORL 110, LAL 109\n\nStandings were retrieved from the ESPN NBA standings page (Eastern and Western Conference tables, all 15 teams per conference); all 22 teams playing on Feb 25, 2026 were matched to their conference rank and W-L record.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--16/ESPN--16_20261114_061828/final_runs/run_005/screenshots/final_execution_2_feb25_2026_date_selected.png",
+          "sha256": "96c327865dc43cf03fa58f94cebdaa7e72c1fa1625a3627c5e8ef5290aa5f2ca"
+        },
+        {
+          "path": "ESPN--16/ESPN--16_20261114_061828/final_runs/run_005/screenshots/final_execution_3_feb25_games_displayed.png",
+          "sha256": "96c327865dc43cf03fa58f94cebdaa7e72c1fa1625a3627c5e8ef5290aa5f2ca"
+        },
+        {
+          "path": "ESPN--16/ESPN--16_20261114_061828/final_runs/run_005/screenshots/final_execution_4_eastern_conference_standings.png",
+          "sha256": "5fb55b003630a329320c1436322441d7064e758f90dd29ca7b6f7afab2521c34"
+        },
+        {
+          "path": "ESPN--16/ESPN--16_20261114_061828/final_runs/run_005/screenshots/final_execution_5_western_conference_standings.png",
+          "sha256": "e8205df51eceb465017e840659af57aeef1e57dd3ac44b5e1446abc3884cfbad"
+        },
+        {
+          "path": "ESPN--16/ESPN--16_20261114_061828/final_runs/run_005/screenshots/final_execution_6_final_standings_state.png",
+          "sha256": "e8205df51eceb465017e840659af57aeef1e57dd3ac44b5e1446abc3884cfbad"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "890e27347c452d46047329cd60833a4ae9e60fc881464fb932f1ba3c532e36eb",
+      "fingerprint": "0b7ee62387524ee87a55336814d206363aa3c99e673f67fb020ca73f7d433c47"
+    },
+    {
+      "task_id": "ESPN--17",
+      "website": "ESPN",
+      "task": "Check out the NBA Basketball Power Index 2025-26 to see which teams are in first place and which are in last place.",
+      "task_record": "ESPN--17/ESPN--17_20261114_070753",
+      "task_definition_sha256": "f4ac7cd2497a17dfe62d67d988ec5d996e210be7d8d9829a722c567cceb9c09d",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--17/ESPN--17_20261114_070753"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "In the NBA Basketball Power Index 2025-26, the first place team is Oklahoma City Thunder and the last place team is Memphis Grizzlies.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--17/ESPN--17_20261114_070753/final_runs/run_002/screenshots/final_execution_1_bpi_page_loaded.png",
+          "sha256": "ea67cfb645349b7e4958a397027a4c65c6a495c719ea00e405c0e7ad00836413"
+        },
+        {
+          "path": "ESPN--17/ESPN--17_20261114_070753/final_runs/run_002/screenshots/final_execution_2_season_label.png",
+          "sha256": "ea67cfb645349b7e4958a397027a4c65c6a495c719ea00e405c0e7ad00836413"
+        },
+        {
+          "path": "ESPN--17/ESPN--17_20261114_070753/final_runs/run_002/screenshots/final_execution_3_first_place.png",
+          "sha256": "f2ceb09683dcd45053eb1afe9874bd76414776122bc626870491b3c46fb2ab34"
+        },
+        {
+          "path": "ESPN--17/ESPN--17_20261114_070753/final_runs/run_002/screenshots/final_execution_4_last_place.png",
+          "sha256": "90f2de7d853164aec28f174a26db8ceed57d7c9f8cdc0d3e00e92b4a9e6fd06f"
+        },
+        {
+          "path": "ESPN--17/ESPN--17_20261114_070753/final_runs/run_002/screenshots/final_execution_5_final_answer.png",
+          "sha256": "90f2de7d853164aec28f174a26db8ceed57d7c9f8cdc0d3e00e92b4a9e6fd06f"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "21c090ba254a39f5e879828f99297cdbdba5686ec5d9c2201018d304e39c854d",
+      "fingerprint": "4dc5cc8b2c67df37024c1fb03ec9786699bb37db6b55a601702238082203e75b"
+    },
+    {
+      "task_id": "ESPN--18",
+      "website": "ESPN",
+      "task": "How many sports leagues can you choose from on the ESPN home page?",
+      "task_record": "ESPN--18/ESPN--18_20261114_072026",
+      "task_definition_sha256": "1be240e2b8b379a66973c2b0484364351a7962cdc0bf916a69cfba48a3451c46",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--18/ESPN--18_20261114_072026"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "There are 23 sports leagues/options to choose from in the league selector on the ESPN home page (Top Events, NCAAF, NFL, NBA, NCAAM, NCAAW, NHL, PGA Tour, LPGA Tour, Top Soccer, MLB, Tennis (W), Tennis (M), UFC, Women's NCAA Volleyball, PLL, NLL, NASCAR, F1, Women's NCAA soccer, Men's NCAA soccer, Concacaf Nations League, UEFA Nations League).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--18/ESPN--18_20261114_072026/final_runs/run_001/screenshots/final_execution_1_espn_home_loaded.png",
+          "sha256": "a2cd9b0333d14e68606ab3711d54df99246078e4226433016e24efef1b8a5551"
+        },
+        {
+          "path": "ESPN--18/ESPN--18_20261114_072026/final_runs/run_001/screenshots/final_execution_2_league_selector_open.png",
+          "sha256": "93ae9f4ba4ed35b38e208f7cb4863472eb8bbf37a4f6ec1437b887b7a4b4ea46"
+        },
+        {
+          "path": "ESPN--18/ESPN--18_20261114_072026/final_runs/run_001/screenshots/final_execution_3_league_options_enumerated.png",
+          "sha256": "93ae9f4ba4ed35b38e208f7cb4863472eb8bbf37a4f6ec1437b887b7a4b4ea46"
+        },
+        {
+          "path": "ESPN--18/ESPN--18_20261114_072026/final_runs/run_001/screenshots/final_execution_4_final_count.png",
+          "sha256": "93ae9f4ba4ed35b38e208f7cb4863472eb8bbf37a4f6ec1437b887b7a4b4ea46"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "42fef9cf4edea557cd23b76d5f3e75a24ad1898eb897b6fafb56c8b97b5dc1fb",
+      "fingerprint": "ed4fb43b69e80cfb6d3ffe9b229ab983184fd5092cf9a6197bfbe2d7026e61c6"
+    },
+    {
+      "task_id": "ESPN--19",
+      "website": "ESPN",
+      "task": "Who has the highest salary in Boston Celtics Roster 2023-24?",
+      "task_record": "ESPN--19/ESPN--19_20261114_073300",
+      "task_definition_sha256": "fa41bd1c6cf8211a915489d35804b4a518b95da89f15ede46795d56bcc575e4e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--19/ESPN--19_20261114_073300"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Jrue Holiday has the highest salary in the Boston Celtics 2023-24 roster: $36,861,707 (per ESPN NBA salaries, 2023-24 season).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--19/ESPN--19_20261114_073300/final_runs/run_002/screenshots/final_execution_1_open_nba_salaries.png",
+          "sha256": "dcd5644fd22a70a7e95309202cac8441a4dc70a8c3dadcdbd600d5dc6a6fdf40"
+        },
+        {
+          "path": "ESPN--19/ESPN--19_20261114_073300/final_runs/run_002/screenshots/final_execution_2_select_season_2023_24.png",
+          "sha256": "b961c1573fb6534823c9818f2eaa45c5decf9f3fa316a1f4c74aec53f652e96c"
+        },
+        {
+          "path": "ESPN--19/ESPN--19_20261114_073300/final_runs/run_002/screenshots/final_execution_3_celtics_highest_salary_row.png",
+          "sha256": "b961c1573fb6534823c9818f2eaa45c5decf9f3fa316a1f4c74aec53f652e96c"
+        },
+        {
+          "path": "ESPN--19/ESPN--19_20261114_073300/final_runs/run_002/screenshots/final_execution_4_final_state.png",
+          "sha256": "b961c1573fb6534823c9818f2eaa45c5decf9f3fa316a1f4c74aec53f652e96c"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "60de86c8c5b98d62dc51a32c016466316f1369d96f4b32e767e4abbb994582e4",
+      "fingerprint": "53c1d28b6f69219bda4757ba9be2f82a1995c6df90eaebf6d6fdbcb5ddad2a74"
+    },
+    {
+      "task_id": "ESPN--20",
+      "website": "ESPN",
+      "task": "Look up the current leaders in rebounds and assists in the NBA Western Conference on ESPN.",
+      "task_record": "ESPN--20/ESPN--20_20261114_080243",
+      "task_definition_sha256": "e43ff7a2e6554515ab3c97cd5439063914c4d4d78734ed00286a259c810aff25",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--20/ESPN--20_20261114_080243"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Current NBA Western Conference leaders on ESPN (2026-27 Regular Season): Rebounds - Domantas Sabonis (SAC), 13.3 RPG; Assists - Nikola Jokic (DEN), 9.0 APG.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--20/ESPN--20_20261114_080243/final_runs/run_001/screenshots/final_execution_3_rebounds_west_leader.png",
+          "sha256": "d961324b49490203335ea2d2082f3fd44afc983773014b6e54e925b66a1d36c6"
+        },
+        {
+          "path": "ESPN--20/ESPN--20_20261114_080243/final_runs/run_001/screenshots/final_execution_4_assists_leaderboard.png",
+          "sha256": "0062fd9c259ac9124d67b0076da735a0348a56e2bc79bc7030765a76a2270c42"
+        },
+        {
+          "path": "ESPN--20/ESPN--20_20261114_080243/final_runs/run_001/screenshots/final_execution_5_assists_western_filter.png",
+          "sha256": "1ab5fd9cf6b8cf42ee67e7a5d8896804b09a33ff112427e103e93d3bee585869"
+        },
+        {
+          "path": "ESPN--20/ESPN--20_20261114_080243/final_runs/run_001/screenshots/final_execution_6_assists_west_leader.png",
+          "sha256": "c0091e1f0df8e17c2c07a84435bba796004e28c39cefe6e7d3d81cf2aa69e578"
+        },
+        {
+          "path": "ESPN--20/ESPN--20_20261114_080243/final_runs/run_001/screenshots/final_execution_7_final_state.png",
+          "sha256": "c0091e1f0df8e17c2c07a84435bba796004e28c39cefe6e7d3d81cf2aa69e578"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "7b244d2bd4e2349edec28f245fcbe8298694d5af0eadd5884429a435e43e1f73",
+      "fingerprint": "0927b9c182442f79c91867f9183cdb35fbf8dbd56e801964f6613d54a62c3b21"
+    },
+    {
+      "task_id": "ESPN--21",
+      "website": "ESPN",
+      "task": "Show the scores and main highlight of the Denver Nuggets game that occurred within the last 3 days on ESPN.",
+      "task_record": "ESPN--21/ESPN--21_20261114_082110",
+      "task_definition_sha256": "e1a15fe0ddd756aed8946172f1a8cd7de848c5e12aa50f36ea38223baa4cbf61",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--21/ESPN--21_20261114_082110"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Denver Nuggets game within the last 3 days: Thu, Nov 12, 2026 @ Memphis Grizzlies. Final score: Denver Nuggets 123 - Memphis Grizzlies 118 (Nuggets win). Main highlight: Jamal Murray, Nikola Jokic lead Nuggets to 123-118 win over Grizzlies - MEMPHIS, Tenn. -- Jamal Murray scored 17 of his 30 points in the fourth quarter, Nikola Jokic added 27 points, 11 rebounds and eight assists, and the Denver Nuggets held off the Memphis Grizzlies 123-118.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--21/ESPN--21_20261114_082110/final_runs/run_002/screenshots/final_execution_1_espn_home.png",
+          "sha256": "5c1c844cf179ee231e8e98b9a51779606d2261d976bb19e42e84d1d3239fc99f"
+        },
+        {
+          "path": "ESPN--21/ESPN--21_20261114_082110/final_runs/run_002/screenshots/final_execution_2_nuggets_schedule.png",
+          "sha256": "0441f3b838b00d429ea643767dc182f26ace6657ef1633552f0d4a14cf6d312d"
+        },
+        {
+          "path": "ESPN--21/ESPN--21_20261114_082110/final_runs/run_002/screenshots/final_execution_3_game_final_score.png",
+          "sha256": "a5aae5c1fa13f8103e9774677f28a0487c5cacd5148b88e9aa454fff9aa9ac00"
+        },
+        {
+          "path": "ESPN--21/ESPN--21_20261114_082110/final_runs/run_002/screenshots/final_execution_4_game_recap_highlight.png",
+          "sha256": "866d370d5a306c51f0a5b3a5306c23396bf33a63120c9f3ca484b1a9d3306667"
+        },
+        {
+          "path": "ESPN--21/ESPN--21_20261114_082110/final_runs/run_002/screenshots/final_execution_5_final_score_and_highlight.png",
+          "sha256": "866d370d5a306c51f0a5b3a5306c23396bf33a63120c9f3ca484b1a9d3306667"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "bf9465e98a7df52def5138fe79f0ea9a6cca6eb2e7c6601b2c9fa28395b616f3",
+      "fingerprint": "b45419c32a3445a5f284b81d59ebaa152a29479f268a70264b4874db928cee7f"
+    },
+    {
+      "task_id": "ESPN--22",
+      "website": "ESPN",
+      "task": "Find the latest Team transactions in the NBA within the past week.",
+      "task_record": "ESPN--22/ESPN--22_20261114_083333",
+      "task_definition_sha256": "0727738b5aeb217a7d9fab044816478f242ddc6a8564f510cf7ff0c8b290589e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--22/ESPN--22_20261114_083333"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Latest NBA team transactions within the past week (as of Nov 14, 2026) on the ESPN NBA Transactions page (https://www.espn.com/nba/transactions), newest first:\n- Friday, November 13: Minnesota Timberwolves — Signed C Johni Broome to a two-way contract.\n- Friday, November 13: Chicago Bulls — Signed C Orlando Robinson to a rest-of-season contract.\n- Wednesday, November 11: Los Angeles Lakers — Signed F Carson Cooper to a two-way contract. Waived C Lawson Lovering.\n- Tuesday, November 10: Los Angeles Lakers — Waived C Lawson Lovering.\n- Sunday, November 8: Oklahoma City Thunder — Waived F Dalen Terry.\n- Sunday, November 8: Sacramento Kings — Traded G Nique Clifford to the Oklahoma City Thunder.\n- Saturday, November 7: Memphis Grizzlies — Signed G Richie Saunders to two-way contract.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--22/ESPN--22_20261114_083333/final_runs/run_001/screenshots/final_execution_1_open_transactions.png",
+          "sha256": "f173131d0afeb033787f5c8bfcff090cbd5f0f8cd93143b55160563bff2f708c"
+        },
+        {
+          "path": "ESPN--22/ESPN--22_20261114_083333/final_runs/run_001/screenshots/final_execution_2_team_selector.png",
+          "sha256": "87f96d72c62a483f25d8251f85537887a36ebd102e1ad950a53d07b0675ffaf3"
+        },
+        {
+          "path": "ESPN--22/ESPN--22_20261114_083333/final_runs/run_001/screenshots/final_execution_3_past_week_latest.png",
+          "sha256": "87f96d72c62a483f25d8251f85537887a36ebd102e1ad950a53d07b0675ffaf3"
+        },
+        {
+          "path": "ESPN--22/ESPN--22_20261114_083333/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+          "sha256": "5f734d17be4ec7065861b96198e1ea87d74dc10d74092a3347dbeb26b49755d6"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "dba0cb3fdd5f2cc43fd2546070eebf1c3c8466a93480fb10651e9fd5baf78b4d",
+      "fingerprint": "b3a4069d5586ece9f24b33debdc6f63e640a3eec0dbeda28a22f7b48419e3d9f"
+    },
+    {
+      "task_id": "ESPN--23",
+      "website": "ESPN",
+      "task": "Find the result of the latest basketball game between the Miami Heat and the New York Knicks, including the final score and top rebounder from the match.",
+      "task_record": "ESPN--23/ESPN--23_20261114_084753",
+      "task_definition_sha256": "d676725ec8e2ba5f7aa3bc09eeef37793089fd9de7c31833c24c006d3d13816e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--23/ESPN--23_20261114_084753"
+      ],
+      "final_run": "run_006",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The latest basketball game between the Miami Heat and the New York Knicks was played on Mon, Dec 22, 2025 (2025-26 NBA season), at New York. Final score: New York Knicks 132, Miami Heat 125. The game's top rebounder was Kel'el Ware of the Miami Heat with 19 rebounds.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--23/ESPN--23_20261114_084753/final_runs/run_006/screenshots/cp1_heat_schedule.png",
+          "sha256": "99bc28449d1991760c90459697bdd0b3efda1b4967a3a2aa594f080d28d9be21"
+        },
+        {
+          "path": "ESPN--23/ESPN--23_20261114_084753/final_runs/run_006/screenshots/cp2_latest_knicks_game.png",
+          "sha256": "99bc28449d1991760c90459697bdd0b3efda1b4967a3a2aa594f080d28d9be21"
+        },
+        {
+          "path": "ESPN--23/ESPN--23_20261114_084753/final_runs/run_006/screenshots/cp3_boxscore_page.png",
+          "sha256": "09662ce051cce45b3be4df7f35cf3aa6dbeec4a18ddd6aa8c89d6c48f437a232"
+        },
+        {
+          "path": "ESPN--23/ESPN--23_20261114_084753/final_runs/run_006/screenshots/cp4_final_score.png",
+          "sha256": "077167ebfa39ee3c549aefdd4665338b962c055e9e0db4506897b40e26765a33"
+        },
+        {
+          "path": "ESPN--23/ESPN--23_20261114_084753/final_runs/run_006/screenshots/cp5_top_rebounder.png",
+          "sha256": "077167ebfa39ee3c549aefdd4665338b962c055e9e0db4506897b40e26765a33"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "343c72d914351d9987e156894f3c85fbe1aef8f5e85a6599f572fbba486ee4f9",
+      "fingerprint": "70b97554fa31303f6e551fecd3673629525f752db3def92077a6619915ea4813"
+    },
+    {
+      "task_id": "ESPN--24",
+      "website": "ESPN",
+      "task": "Find the final score from the most recent NFL game broadcast on ESPN, including the teams' names and the date of the match.",
+      "task_record": "ESPN--24/ESPN--24_20261114_100304",
+      "task_definition_sha256": "d5d8ae2be677d3aac5225d9f3ce851f9d7f04e48ceb26f021ca3ab7805b95d68",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--24/ESPN--24_20261114_100304"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most recent NFL game broadcast on ESPN: Buffalo Bills defeated the Minnesota Vikings 23-6 (Final) on Monday, November 9, 2026 (ESPN official date per page title 'Bills 23-6 Vikings (Nov 9, 2026) Final Score - ESPN'; Monday Night Football on ESPN at U.S. Bank Stadium, Minneapolis; the game page's Where to Watch module lists ESPN).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--24/ESPN--24_20261114_100304/final_runs/run_003/screenshots/final_execution_1_nfl_scoreboard.png",
+          "sha256": "80e3a8529856811b4f3ee14d7ab020dcc5539c58ff7ce6bbde5a6b87ffcea39e"
+        },
+        {
+          "path": "ESPN--24/ESPN--24_20261114_100304/final_runs/run_003/screenshots/final_execution_2_most_recent_final_game.png",
+          "sha256": "90a2d33741a46d1b1706f153835eac5de9ed9a66ac75c0048bd4a1c9657cf1cc"
+        },
+        {
+          "path": "ESPN--24/ESPN--24_20261114_100304/final_runs/run_003/screenshots/final_execution_3_final_score_teams_date.png",
+          "sha256": "7efd486c97c59d47897940a82c15d16d6ce4f078e4939013ac40cbb22df2d4b3"
+        },
+        {
+          "path": "ESPN--24/ESPN--24_20261114_100304/final_runs/run_003/screenshots/final_execution_4_espn_broadcast_where_to_watch.png",
+          "sha256": "a95fc9adfea5c65d969e554c311963ef1318352ff3ad96e0391f5b71375477db"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a1d1598586b960d514c6eb7dfd936146a47787d698d0b432eb3cd266015b4e1e",
+      "fingerprint": "132a3f1bd029c0199f48d35640070b45a737a4bbe97fd058f70368a580ac35f7"
+    },
+    {
+      "task_id": "ESPN--25",
+      "website": "ESPN",
+      "task": "Identify the player with the most assists in the latest NBA game and show me the assists, the team they play for, and their position.",
+      "task_record": "ESPN--25/ESPN--25_20261114_103554",
+      "task_definition_sha256": "043ba5da78acd2b3f3e2ce34330b5330557086fc70f4984b684a71f438b6f67e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--25/ESPN--25_20261114_103554"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The player with the most assists in the latest NBA game (Magic 107-99 Bucks (Nov 13, 2026) Box Score - ESPN) is Franz Wagner with 12 assists. He plays for Orlando Magic and his position is Forward.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--25/ESPN--25_20261114_103554/final_runs/run_005/screenshots/final_execution_1_scoreboard_latest_game.png",
+          "sha256": "835c7cfec97fa4c3fcfa475859489f7a4130237391e865e904d1d15cdcfd7cd6"
+        },
+        {
+          "path": "ESPN--25/ESPN--25_20261114_103554/final_runs/run_005/screenshots/final_execution_2_boxscore.png",
+          "sha256": "1375bb917d1e58f6e3e79bb1495ec2db208f51139ef9aa640ce022424a276355"
+        },
+        {
+          "path": "ESPN--25/ESPN--25_20261114_103554/final_runs/run_005/screenshots/final_execution_3_assists_leader_boxscore.png",
+          "sha256": "c8a98555df54f440b1df65efac12ea4b55813054818cfc4608ad638c27f1aa38"
+        },
+        {
+          "path": "ESPN--25/ESPN--25_20261114_103554/final_runs/run_005/screenshots/final_execution_4_player_profile.png",
+          "sha256": "99bce2a8ffd0c570056799adc2afd95adddf7b24105acf10a48293a98e5d9867"
+        },
+        {
+          "path": "ESPN--25/ESPN--25_20261114_103554/final_runs/run_005/screenshots/final_execution_5_final_state.png",
+          "sha256": "b6560143ea5c14882db155d567b7a9b95f65af177680a5fb50295d34076c20e9"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "eff20d8da52aa151f9ca1059a362dbfd86aaf3d7b8833a7239442b76d09ef195",
+      "fingerprint": "88dcc4f6d9112b055db541c1d93dd4b60a62d678f9d282282c124d10aa4e7558"
+    },
+    {
+      "task_id": "ESPN--26",
+      "website": "ESPN",
+      "task": "Find information on ESPN NBA schedule. Tell me yesterday's matchups in which the loser high was higher than the winner high.",
+      "task_record": "ESPN--26/ESPN--26_20261114_105842",
+      "task_definition_sha256": "e70a65d9bc768e4fd35268130b64166e1590a834d0bf753a7b1329fa33387301",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--26/ESPN--26_20261114_105842"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Yesterday (Friday, November 13, 2026) on the ESPN NBA scoreboard, the only matchup where the loser's high scorer outscored the winner's high scorer was Toronto Raptors @ Philadelphia 76ers (Final: 76ers 123, Raptors 112) — Raptors loser-high R.J. Barrett with 31 PTS > 76ers winner-high Tyrese Maxey with 27 PTS. The other three final games did not qualify: Pistons 144 vs Wizards 140 (Cade Cunningham 52 > Trae Young 37), Timberwolves 133 vs Mavericks 94 (Bone Hyland 24 > Zaccharie Risacher 22), and Suns 101 vs Hornets 96 (Devin Booker 30 > Coby White 21).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--26/ESPN--26_20261114_105842/final_runs/run_005/screenshots/final_execution_1_nba_scoreboard_loaded.png",
+          "sha256": "c1d2472116ae0732ac4612605cd7811393604f933f187761531a7ca1f5fb094c"
+        },
+        {
+          "path": "ESPN--26/ESPN--26_20261114_105842/final_runs/run_005/screenshots/final_execution_2_yesterday_date_selected.png",
+          "sha256": "daeb9a283f1cb8d7dffc2277c8a2de577ad1337134091fc16721ac6c1819e808"
+        },
+        {
+          "path": "ESPN--26/ESPN--26_20261114_105842/final_runs/run_005/screenshots/final_execution_3_yesterday_matchups_final.png",
+          "sha256": "6e39454f21286e3c58063f6cab45b2b5838f72662d581d5f974ba72066cca7c4"
+        },
+        {
+          "path": "ESPN--26/ESPN--26_20261114_105842/final_runs/run_005/screenshots/final_execution_5_qualifying_matchup.png",
+          "sha256": "aebefc9e1f136372dd2bed15a43e54d66e2697f54fe0956c5964f7170f68fbe2"
+        },
+        {
+          "path": "ESPN--26/ESPN--26_20261114_105842/final_runs/run_005/screenshots/final_execution_5_qualifying_matchup_card.png",
+          "sha256": "c968ee2fa57c20294865ee66b8347d92d20ae40fdd24883e6f6d99188f35c2f8"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "f5aad1c4adaacc65549e4174b5d9ed2f3c3770b6400d8da1e7bfd3f75bd44ab1",
+      "fingerprint": "00ebb8b87b96ead2c95266d7182fac9e09438f474e5db0a4b0a1212a01f532af"
+    },
+    {
+      "task_id": "ESPN--27",
+      "website": "ESPN",
+      "task": "Search on ESPN for how many teams have 'Golden' in their name and how many of them are in the NHL.",
+      "task_record": "ESPN--27/ESPN--27_20261114_121028",
+      "task_definition_sha256": "df03f470f67d760be6b010e0910d5cc548fb43cbf49480baa4bde8d182e16786",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--27/ESPN--27_20261114_121028"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: On ESPN, searching 'Golden' and viewing the Teams results shows 5 teams with 'Golden' in their name; 1 of them is in the NHL (Vegas Golden Knights).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--27/ESPN--27_20261114_121028/final_runs/run_002/screenshots/final_execution_1_search_input_golden.png",
+          "sha256": "cae1ddcfcacde32c0a26e5da8240ffc9a7da109bfeea8ac38552b80e0f19b64e"
+        },
+        {
+          "path": "ESPN--27/ESPN--27_20261114_121028/final_runs/run_002/screenshots/final_execution_2_search_results_golden.png",
+          "sha256": "e20f88852ad81b98bd92eb6a52724b04e01bac8416a9f1a3b0058857c328d291"
+        },
+        {
+          "path": "ESPN--27/ESPN--27_20261114_121028/final_runs/run_002/screenshots/final_execution_3_teams_results_view.png",
+          "sha256": "8d84f59beb187c2279a3d46193a6422a22821c627faa6abc84a6e79b3fd6fe5b"
+        },
+        {
+          "path": "ESPN--27/ESPN--27_20261114_121028/final_runs/run_002/screenshots/final_execution_4_all_golden_teams_list.png",
+          "sha256": "f61345a03e866fd8578cc1f99c5d265bc8d8a16c00883e7b2193ba0869f107e1"
+        },
+        {
+          "path": "ESPN--27/ESPN--27_20261114_121028/final_runs/run_002/screenshots/final_execution_5_nhl_teams_count.png",
+          "sha256": "1fad93e8b97fc0fca19f1f0c34247cb123269522235007bcba962408c2156ee2"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d5c656025540e8a99b664daba438f07fbabe4f2c127f9d21037fee4216d9129e",
+      "fingerprint": "69d0e2c8e3e998fca36141a2d22b27dcdb416c9be6db94c10df8398f4713a363"
+    },
+    {
+      "task_id": "ESPN--28",
+      "website": "ESPN",
+      "task": "How many MLB teams are there and list all the teams with 'City' in their name.",
+      "task_record": "ESPN--28/ESPN--28_20261114_123121",
+      "task_definition_sha256": "1970463ca2fec652679c254a8595f46ba24f4f94191df4ae1906940f213a609e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--28/ESPN--28_20261114_123121"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "There are 30 MLB teams. Teams with 'City' in their name: Kansas City Royals.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--28/ESPN--28_20261114_123121/final_runs/run_001/screenshots/final_execution_1_navigate_teams_page.png",
+          "sha256": "e7ad305042825f0ac28ea224baa90f8be9603674f03f175443dcc0d348cb2161"
+        },
+        {
+          "path": "ESPN--28/ESPN--28_20261114_123121/final_runs/run_001/screenshots/final_execution_2_team_list_count.png",
+          "sha256": "70bd086e07691e4570b998f8f28894f20ce5a1317e8b6fce521b464cf798d499"
+        },
+        {
+          "path": "ESPN--28/ESPN--28_20261114_123121/final_runs/run_001/screenshots/final_execution_3_city_teams_filter.png",
+          "sha256": "39e71d32ec8da8f2f33eb4f0197c7471b92cc53ecc7be5604ba9b559a3f2d9b4"
+        },
+        {
+          "path": "ESPN--28/ESPN--28_20261114_123121/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+          "sha256": "cf4cc7736fd1b057fb192db14eb061cce917d279174531410d53f2660c1d9cf3"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "77cd246192240162fa78f6b9e9807afce09bd66165cd5eaf918dc06f52abaa44",
+      "fingerprint": "cba5ecc7bfa0ade4a62a70a32ca36ca5bb0421e6aa3ac6d496500b640319ff6b"
+    },
+    {
+      "task_id": "ESPN--29",
+      "website": "ESPN",
+      "task": "Identify today's top headline in the Soccer section of ESPN, and summarize the main points of that article.",
+      "task_record": "ESPN--29/ESPN--29_20261114_124005",
+      "task_definition_sha256": "be8bb8829b9229bc3bb7d5642e11498aa3c44a74594ab8defedacf10b1e5f6e8",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--29/ESPN--29_20261114_124005"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Today's top headline in ESPN's Soccer section is \"Pochettino's USMNT tenure had ups, downs and an ever-present mercenary feel\" (https://www.espn.com/soccer/story/_/id/50462254/pochettino-usmnt-tenure-mercenary-feel). Summary of main points: Mauricio Pochettino's USMNT experiment officially ended as he leaves the U.S. men's national team to become Manchester United's manager. The article examines whether his roughly $6 million annual salary and the high expectations he inherited (after the 2022 World Cup round-of-16 run) were justified, noting his tenure delivered some highs but was always framed by a mercenary feel — his focus never strayed far from a return to Europe — and that his stint was never destined to last long enough to complete a full World Cup cycle.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--29/ESPN--29_20261114_124005/final_runs/run_001/screenshots/final_execution_1_soccer_section.png",
+          "sha256": "e5da82f5f52aa00b090e23eeeb650db1ffc00d888c1047ce9b5e19d27c500b76"
+        },
+        {
+          "path": "ESPN--29/ESPN--29_20261114_124005/final_runs/run_001/screenshots/final_execution_2_top_headline.png",
+          "sha256": "e5da82f5f52aa00b090e23eeeb650db1ffc00d888c1047ce9b5e19d27c500b76"
+        },
+        {
+          "path": "ESPN--29/ESPN--29_20261114_124005/final_runs/run_001/screenshots/final_execution_3_article_page.png",
+          "sha256": "d1b4a31d2108d15bdf5dc88c652ee738b65911c370bb3a26a6309750575382d4"
+        },
+        {
+          "path": "ESPN--29/ESPN--29_20261114_124005/final_runs/run_001/screenshots/final_execution_4_article_content.png",
+          "sha256": "d1b4a31d2108d15bdf5dc88c652ee738b65911c370bb3a26a6309750575382d4"
+        },
+        {
+          "path": "ESPN--29/ESPN--29_20261114_124005/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+          "sha256": "d1b4a31d2108d15bdf5dc88c652ee738b65911c370bb3a26a6309750575382d4"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "51734d493aa1639e3006572147fc7b319104d3d22f3a3e2eff43128623b33505",
+      "fingerprint": "02e4f79ae9965be2da40c48211c475bb1ad6036fc64fe4eaeee22b9a15f2d92e"
+    },
+    {
+      "task_id": "ESPN--30",
+      "website": "ESPN",
+      "task": "Check out the NHL Standings 2025-26 on ESPN to see which teams are at the top and which are at the bottom in Eastern and Western Conference. What about the situation in Division.",
+      "task_record": "ESPN--30/ESPN--30_20261114_125440",
+      "task_definition_sha256": "a49863db63de2f952c990ea4aa77dc46ee1458e1d279e205475716091c0ed883",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--30/ESPN--30_20261114_125440"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "NHL Standings 2025-26 (ESPN): Eastern Conference top=Carolina Hurricanes (113 pts), bottom=New York Rangers (77 pts); Western Conference top=Colorado Avalanche (121 pts), bottom=Vancouver Canucks (58 pts); Divisions -> Atlantic: top=Buffalo Sabres (109 pts), bottom=Toronto Maple Leafs (78 pts); Metropolitan: top=Carolina Hurricanes (113 pts), bottom=New York Rangers (77 pts); Central: top=Colorado Avalanche (121 pts), bottom=Chicago Blackhawks (72 pts); Pacific: top=Vegas Golden Knights (95 pts), bottom=Vancouver Canucks (58 pts).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--30/ESPN--30_20261114_125440/final_runs/run_003/screenshots/final_execution_1_season_2025-26_standings.png",
+          "sha256": "167bc28a94d6d74b8dbb590cb05d0d3fba0400b0deab0ad757952865cd00fbb3"
+        },
+        {
+          "path": "ESPN--30/ESPN--30_20261114_125440/final_runs/run_003/screenshots/final_execution_2_conference_standings.png",
+          "sha256": "8bc540dc10b8d41a4f5b9761afbc567600ccf28bd41a648f455866a45af46173"
+        },
+        {
+          "path": "ESPN--30/ESPN--30_20261114_125440/final_runs/run_003/screenshots/final_execution_3_division_standings.png",
+          "sha256": "a23e157a29c392277dffb577baee45784ac21ebbb1d6e04a0fd7fe8629d70a29"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "b41f527f5c7d47d4e93da3c2e18db2bcac266071afcecce08da896d2053910f6",
+      "fingerprint": "d7a64fbb1fc41c62168516c05c244b443399a876d4dfe50abb340cc0664554c2"
+    },
+    {
+      "task_id": "ESPN--31",
+      "website": "ESPN",
+      "task": "Who has the heaviest weight among infielders in the New York Yankees Roster 2026?",
+      "task_record": "ESPN--31/ESPN--31_20261114_131424",
+      "task_definition_sha256": "665f29ad6beed2f2f1eb446d432e660b12c8c524152d7a68d0f6aba75e728c34",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--31/ESPN--31_20261114_131424"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Luis Garcia Jr. (1B) has the heaviest weight among infielders on the New York Yankees 2026 roster at 216 lbs.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--31/ESPN--31_20261114_131424/final_runs/run_003/screenshots/final_execution_1_roster_page.png",
+          "sha256": "faa6d56f24e1425e4446e7a27a1c52290db0b6d209dd0ef9c34824d73362f835"
+        },
+        {
+          "path": "ESPN--31/ESPN--31_20261114_131424/final_runs/run_003/screenshots/final_execution_2_infielders_section.png",
+          "sha256": "54548f2cfafefb15a4e74770821c8f438dc4b4204c7ea741f41d4a79c99c2d75"
+        },
+        {
+          "path": "ESPN--31/ESPN--31_20261114_131424/final_runs/run_003/screenshots/final_execution_3_heaviest_infielder.png",
+          "sha256": "fc99012c1d473dac2cb23a60f4510eae30e695ab02d975075818357ceb1157bb"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "13ebeffa9fbcdfc8de084499aa9a7352bad9b4fad59b19014cab9c0608dd7dd7",
+      "fingerprint": "4740d0a0b533167b44efa24786a90094f30454aa8f81d915d73e7a3b29cb93ee"
+    },
+    {
+      "task_id": "ESPN--32",
+      "website": "ESPN",
+      "task": "Review yesterday's NHL game results on ESPN, focusing on teams' performance.",
+      "task_record": "ESPN--32/ESPN--32_20261114_133033",
+      "task_definition_sha256": "f2f2f7d23b0775aa45739326dae9b95f0f2369ade54ed6d0d1f809a247dcea9c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--32/ESPN--32_20261114_133033"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Yesterday's NHL game results on ESPN (Friday, November 13, 2026), reviewed on the NHL Scoreboard with teams' performance: Rangers 5 vs Canucks 1 (FINAL; Rangers record 12-8-14, Canucks record 3-17-11) || Predators 3 vs Golden Knights 2 (FINAL/SO; Predators record 11-4-55, Golden Knights record 13-5-37); Predators Scoring: R. O'Reilly 2; Golden Knights Scoring: V. Olofsson, R. Andersson",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--32/ESPN--32_20261114_133033/final_runs/run_004/screenshots/final_execution_1_nhl_scoreboard.png",
+          "sha256": "77d0281c9805f690ba13fa91552f5b87f84d8d1c3ce372c149b7679c0b77c685"
+        },
+        {
+          "path": "ESPN--32/ESPN--32_20261114_133033/final_runs/run_004/screenshots/final_execution_2_date_selected.png",
+          "sha256": "aeabf25f53efe3225425709dba8162247fdd37c760dd66c62199b4907bb138f6"
+        },
+        {
+          "path": "ESPN--32/ESPN--32_20261114_133033/final_runs/run_004/screenshots/final_execution_3_heading.png",
+          "sha256": "be6763704ddd02e0bd967e194485b5edd86558d9e91937e6cbca8f14af93b925"
+        },
+        {
+          "path": "ESPN--32/ESPN--32_20261114_133033/final_runs/run_004/screenshots/final_execution_4_results.png",
+          "sha256": "c55fbdf9e222f63f55f4698d5c21487bef181c87f1a5a052731c7c508f4db4e2"
+        },
+        {
+          "path": "ESPN--32/ESPN--32_20261114_133033/final_runs/run_004/screenshots/final_execution_5_final_state.png",
+          "sha256": "c55fbdf9e222f63f55f4698d5c21487bef181c87f1a5a052731c7c508f4db4e2"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "1fe2c21f8d0b3a52e0258584bc532508151f5334ec7ecd8834755b8509643587",
+      "fingerprint": "199425f5b8384d5d141581ce3ca872bb85533b645159b0b262b682e4b6e971b6"
+    },
+    {
+      "task_id": "ESPN--33",
+      "website": "ESPN",
+      "task": "Locate the latest ESPN articles discussing potential MVP candidates in the NFL for 2025 season.",
+      "task_record": "ESPN--33/ESPN--33_20261114_141526",
+      "task_definition_sha256": "948f3afca4eeb7d7e4193170bb208947c4b61050cb65d80838eb4abdc28405f2",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--33/ESPN--33_20261114_141526"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Latest ESPN articles discussing potential NFL MVP candidates for the 2025 season (found via ESPN search, query \"NFL MVP 2025\", Articles content filter; ESPN search exposes no sort control, so the latest were identified from displayed dates): 1) Joe Burrow is the MVP favorite, but is there a better betting value? (14h ago); 2) NFL execs on tight playoff races, MVP, Super Bowl picks, breakouts, more (19h ago); 3) 2026 NFL midseason award rankings: MVP picks, top rookies, OPOY, DPOY, coaches (2d ago); 4) Top 100 real NFL MVP candidates for 2025 season (10M ago). Full listing: https://www.espn.com/search/_/type/articles/q/NFL%20MVP%202025",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--33/ESPN--33_20261114_141526/final_runs/run_005/screenshots/final_execution_1_search_page_query.png",
+          "sha256": "f9954f94f1a375d69623d88d1299eb877e6ada31abfec813f3bd697842470b68"
+        },
+        {
+          "path": "ESPN--33/ESPN--33_20261114_141526/final_runs/run_005/screenshots/final_execution_2_query_entered.png",
+          "sha256": "f9954f94f1a375d69623d88d1299eb877e6ada31abfec813f3bd697842470b68"
+        },
+        {
+          "path": "ESPN--33/ESPN--33_20261114_141526/final_runs/run_005/screenshots/final_execution_3_articles_filter.png",
+          "sha256": "3d21853f4ae5ed07319ed0db39c233c19af61733d0556555c610934ff6360145"
+        },
+        {
+          "path": "ESPN--33/ESPN--33_20261114_141526/final_runs/run_005/screenshots/final_execution_4_articles_listing_dates.png",
+          "sha256": "3d21853f4ae5ed07319ed0db39c233c19af61733d0556555c610934ff6360145"
+        },
+        {
+          "path": "ESPN--33/ESPN--33_20261114_141526/final_runs/run_005/screenshots/final_execution_5_final_results.png",
+          "sha256": "3d21853f4ae5ed07319ed0db39c233c19af61733d0556555c610934ff6360145"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "fae08e1dd06753cc503662133c7395eedaee014c10c019dcfb86a02e9656977c",
+      "fingerprint": "2cedbee1064873edbafa9b3bd465b79608b3244b37b748d2194744b3f6e9d86c"
+    },
+    {
+      "task_id": "ESPN--34",
+      "website": "ESPN",
+      "task": "Visit ESPN to view the Philadelphia 76ers' latest injuries.",
+      "task_record": "ESPN--34/ESPN--34_20261114_145701",
+      "task_definition_sha256": "a2a974941281d205d648f3a06c3d9cc833808775918a0927d7abbcb43479a03e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--34/ESPN--34_20261114_145701"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Viewed the Philadelphia 76ers' latest injuries on ESPN at https://www.espn.com/nba/team/injuries/_/name/phi. Current injury report: LeBron James | F (GTD) - James (back) is out for Thursday's game against Toronto; Dominick Barlow | F (OUT) - participated in Thursday's shootaround but has no timeline to return; Adem Bona | C (OUT) - will be re-evaluated in approximately one week after seeing a specialist; Ariel Hukporti | C (OFS) - sustained a season-ending ruptured right Achilles tendon.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--34/ESPN--34_20261114_145701/final_runs/run_003/screenshots/final_execution_0_espn_home.png",
+          "sha256": "02d477176b4ece57e6f776a6953d270e7dad2704bb9f6e26e316e1f079ebf7fc"
+        },
+        {
+          "path": "ESPN--34/ESPN--34_20261114_145701/final_runs/run_003/screenshots/final_execution_1_team_page.png",
+          "sha256": "56cabf8cecea29f11172accfd59f24e802f1b84faa8b1c4d1bdb26f75385935f"
+        },
+        {
+          "path": "ESPN--34/ESPN--34_20261114_145701/final_runs/run_003/screenshots/final_execution_2_injuries_tab.png",
+          "sha256": "bd19c8a79ac90e166e8abadda7f696f7b13acbb75548d3f8e7bb870bd1a6f8fd"
+        },
+        {
+          "path": "ESPN--34/ESPN--34_20261114_145701/final_runs/run_003/screenshots/final_execution_3_injury_list.png",
+          "sha256": "9b55f74890c0aea497db5a595bf92ebef3c9a47c09596746efeb243bad292ff5"
+        },
+        {
+          "path": "ESPN--34/ESPN--34_20261114_145701/final_runs/run_003/screenshots/final_execution_4_final_state.png",
+          "sha256": "da65314b067612f28c5b5788e03838a682312358f60c0b4ce9589ccfb97d0b44"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "142721c991ed50795aa8f047d394454b91bbac7843b0c03f1a6c8d10cf1ed89c",
+      "fingerprint": "f2350e83c83eb8b00d79e4b8c1ed6a98aab513892a63b3416894258c3a5a0d2d"
+    },
+    {
+      "task_id": "ESPN--35",
+      "website": "ESPN",
+      "task": "Browse ESPN to find out when the next game of the Los Angeles Lakers will start. Then navigate to the ticket purchasing website from ESPN, what is the cheapest ticket available.",
+      "task_record": "ESPN--35/ESPN--35_20261115_022429",
+      "task_definition_sha256": "f4b22ef44d5c9f0802f9e2a88496cfb759e81a62785f9421efb542e971494fad",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--35/ESPN--35_20261115_022429"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The next Los Angeles Lakers game is Mon, Nov 16 @ Phoenix Suns (Mortgage Matchup Center), starting at 5:00 AM per ESPN's schedule display. Navigating from ESPN's Tickets link to Vivid Seats (sorted by Lowest Price), the cheapest available ticket is $62 (Upper Level listing, fees included).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--35/ESPN--35_20261115_022429/final_runs/run_002/screenshots/final_execution_1_lakers_schedule.png",
+          "sha256": "06ba7792c55cff71b2cd38bc45faca507f4a1ab4851498a259818bb5af8b9214"
+        },
+        {
+          "path": "ESPN--35/ESPN--35_20261115_022429/final_runs/run_002/screenshots/final_execution_2_next_game.png",
+          "sha256": "06ba7792c55cff71b2cd38bc45faca507f4a1ab4851498a259818bb5af8b9214"
+        },
+        {
+          "path": "ESPN--35/ESPN--35_20261115_022429/final_runs/run_002/screenshots/final_execution_3_ticket_site.png",
+          "sha256": "b228b33d352e869053561a46f73a80e180b37c9fb111f727d8ec8c034dbe6bd8"
+        },
+        {
+          "path": "ESPN--35/ESPN--35_20261115_022429/final_runs/run_002/screenshots/final_execution_4_cheapest_ticket.png",
+          "sha256": "d2f7666701f8b9b4401c3c36f3722368bee72075c62c5f404654533bdd96d856"
+        },
+        {
+          "path": "ESPN--35/ESPN--35_20261115_022429/final_runs/run_002/screenshots/final_execution_5_final_state.png",
+          "sha256": "d2f7666701f8b9b4401c3c36f3722368bee72075c62c5f404654533bdd96d856"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "46201f173a6865833ef862a04c4f4a08271b2fc2c911abe2abd566c4bf42c20f",
+      "fingerprint": "287c3bd4d80f51b4f00009d32ee9b53edb6a88aa96724087fb69d1ee6205ceb7"
+    },
+    {
+      "task_id": "ESPN--36",
+      "website": "ESPN",
+      "task": "Search for Lionel Messi's last 5 games, which teams has he played for, and what are the results?",
+      "task_record": "ESPN--36/ESPN--36_20261115_024503",
+      "task_definition_sha256": "664b1a807efbe6da0f8da4ef1a03d7ce0edf67ad473d2f38987825bfc519f1ea",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--36/ESPN--36_20261115_024503"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Lionel Messi plays for Inter Miami CF (MLS). His last 5 games per ESPN: 1) Sun 11/8 vs Charlotte FC - Draw 3-3; 2) Mon 11/2 at New England Revolution - Win 2-1; 3) Thu 10/29 vs FC Cincinnati - Draw 2-2; 4) Sun 10/25 at Red Bull New York - Loss 2-0; 5) Sun 10/18 at Atlanta United FC - Win 3-1.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--36/ESPN--36_20261115_024503/final_runs/run_002/screenshots/final_execution_1_search_results.png",
+          "sha256": "2ec5b03a1166d92a78a7fbc523150c91e28910f8e2f088b8c020ca111e75c952"
+        },
+        {
+          "path": "ESPN--36/ESPN--36_20261115_024503/final_runs/run_002/screenshots/final_execution_2_player_profile.png",
+          "sha256": "5d47c08796c71e00c6da8c2241c67210dd6fea990a4959606b2d6ef35460fd8f"
+        },
+        {
+          "path": "ESPN--36/ESPN--36_20261115_024503/final_runs/run_002/screenshots/final_execution_3_matches_game_log.png",
+          "sha256": "6a6aa5c106a62c03b20434e8e19fb9b6b1f6d28f874d58c9e05163b73285c2e8"
+        },
+        {
+          "path": "ESPN--36/ESPN--36_20261115_024503/final_runs/run_002/screenshots/final_execution_4_final_state.png",
+          "sha256": "431ab5bc5bbf9f555292c38197a1c731bc92140cd180bc97d9f0f93215b376d9"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "588ef69479d6e8493c3ecaba648e4e32ad9f7fb01b271a22df7f888f260f4922",
+      "fingerprint": "ca9f62f6c4d4123b401ee118e9463809eb6648c7cbfc3708ce8708b3ca6e2683"
+    },
+    {
+      "task_id": "ESPN--37",
+      "website": "ESPN",
+      "task": "Check out LeBron James' Stats to see how many games he has played in his career so far.",
+      "task_record": "ESPN--37/ESPN--37_20261115_030111",
+      "task_definition_sha256": "931d9a20dc62d85d904714b76d234f0aef9107c36cb99dc8307e8b390214dcd9",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--37/ESPN--37_20261115_030111"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "LeBron James has played 1632 games in his NBA career so far (per ESPN career stats, Regular Season Averages table Career row GP).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--37/ESPN--37_20261115_030111/final_runs/run_001/screenshots/final_execution_1_player_page.png",
+          "sha256": "70cf2bc03bdaa399a5979e7a4ebdddcf921b05615e732e2e4c7d0685496a7b94"
+        },
+        {
+          "path": "ESPN--37/ESPN--37_20261115_030111/final_runs/run_001/screenshots/final_execution_2_stats_table.png",
+          "sha256": "70cf2bc03bdaa399a5979e7a4ebdddcf921b05615e732e2e4c7d0685496a7b94"
+        },
+        {
+          "path": "ESPN--37/ESPN--37_20261115_030111/final_runs/run_001/screenshots/final_execution_3_career_row.png",
+          "sha256": "70cf2bc03bdaa399a5979e7a4ebdddcf921b05615e732e2e4c7d0685496a7b94"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "6a5e60ca4eaa153682568d5efa28c529fc6dc2df804a42b80fee5f31be497d9a",
+      "fingerprint": "e32696839f0447f6e6c93571f2848fb8872d98ab3574e1fa235485307bc8f470"
+    },
+    {
+      "task_id": "ESPN--38",
+      "website": "ESPN",
+      "task": "Check Los Angeles Lakers Stats 2023-24, calculate Anthony Davis' games played (GP) percentage, tell me if there are other players with the same games played percentage as Anthony Davis.",
+      "task_record": "ESPN--38/ESPN--38_20261115_030925",
+      "task_definition_sha256": "832d0db343da146ce6a58287dc477a36655d7983e5b3a3493af6c3ad13aaf159",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--38/ESPN--38_20261115_030925"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Anthony Davis played 76 out of 82 games in the 2023-24 NBA regular season, giving him a games played (GP) percentage of 92.68% (76/82). Yes, there is another Lakers player with the same games played percentage: D'Angelo Russell also played 76 games, sharing the same 92.68% GP percentage.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--38/ESPN--38_20261115_030925/final_runs/run_001/screenshots/final_execution_2_season_2023-24.png",
+          "sha256": "efddd1fe550d2881c69521e015b03039b3f9e9443aa3928ba543c91a6e0fa257"
+        },
+        {
+          "path": "ESPN--38/ESPN--38_20261115_030925/final_runs/run_001/screenshots/final_execution_3_table_gp_column.png",
+          "sha256": "efddd1fe550d2881c69521e015b03039b3f9e9443aa3928ba543c91a6e0fa257"
+        },
+        {
+          "path": "ESPN--38/ESPN--38_20261115_030925/final_runs/run_001/screenshots/final_execution_4_gp_calculation.png",
+          "sha256": "efddd1fe550d2881c69521e015b03039b3f9e9443aa3928ba543c91a6e0fa257"
+        },
+        {
+          "path": "ESPN--38/ESPN--38_20261115_030925/final_runs/run_001/screenshots/final_execution_5_same_gp_players.png",
+          "sha256": "efddd1fe550d2881c69521e015b03039b3f9e9443aa3928ba543c91a6e0fa257"
+        },
+        {
+          "path": "ESPN--38/ESPN--38_20261115_030925/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+          "sha256": "c708411b6d8dc76e1858311271ee936675fb2178d64498fcb82b436e58cf6d00"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "dd4105053b974a06312a4749d07a5a9dfe07f771d7b9b03738e1e29d48fe3521",
+      "fingerprint": "058dfffb1fdd67e93fa9c49674e1f21a9a635282f87ebc668b73a3589bf26b74"
+    },
+    {
+      "task_id": "ESPN--39",
+      "website": "ESPN",
+      "task": "Check the New York Jets Depth Chart in the NFL section of ESPN and identify the players listed as injured in the 2ND position.",
+      "task_record": "ESPN--39/ESPN--39_20261115_032456",
+      "task_definition_sha256": "f6428b32e2184306bdda1a18a82a198dd2d1ee47a7c46af87d62739d61c36cbf",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--39/ESPN--39_20261115_032456"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Players listed as injured in the 2ND position on the New York Jets depth chart (ESPN NFL): Joseph Ossai (Q - Questionable); Harrison Phillips (Q - Questionable); Kiko Mauigoa (IR - Injured Reserve); Nahshon Wright (Q - Questionable); VJ Payne (IR - Injured Reserve).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--39/ESPN--39_20261115_032456/final_runs/run_001/screenshots/final_execution_1_navigate_jets_depth_chart.png",
+          "sha256": "d42c9a2b8db6a9f5716ad66e3a0ff56f4df21734d77cc91261fd7533215671f1"
+        },
+        {
+          "path": "ESPN--39/ESPN--39_20261115_032456/final_runs/run_001/screenshots/final_execution_2_depth_chart_2nd_column.png",
+          "sha256": "d42c9a2b8db6a9f5716ad66e3a0ff56f4df21734d77cc91261fd7533215671f1"
+        },
+        {
+          "path": "ESPN--39/ESPN--39_20261115_032456/final_runs/run_001/screenshots/final_execution_3_final_state.png",
+          "sha256": "ae55d928435d73b6ba1f57805bb8d7ff954bd0f9c89f1546180b6cca523f86cc"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "42a07aa58dbca269976caca1b93ea8dc9bb1d6a505d9c7ef4b19612e2cdd5d14",
+      "fingerprint": "8aa50ee90884fe426283357bf94f54bc02d88c07a1b6437e626de16ee8dcd7da"
+    },
+    {
+      "task_id": "ESPN--40",
+      "website": "ESPN",
+      "task": "Browse the ESPN+ page from ESPN for a brief summary of what ESPN+ Tools is used for.",
+      "task_record": "ESPN--40/ESPN--40_20261115_033521",
+      "task_definition_sha256": "667caabda0ea2084bc21f63b0aa1223937a5149690d6a08810aaef6397ba7591",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--40/ESPN--40_20261115_033521"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "ESPN+ Tools (ESPN+ Fantasy Tools) is a set of subscriber-only fantasy and tournament analysis tools designed to give fans an edge in Fantasy games and Tournament Challenge pools. It includes Bracket Predictor (analyze each matchup and get recommended picks one game at a time), Bracket Analyzer (compare multiple brackets and get recommendations on which to play), PickCenter (expert picks and insights for matchups), and the Custom Dollar Value Generator (create custom player dollar values for fantasy drafts/auctions). In short, ESPN+ Tools is used to research matchups, generate and compare bracket/pick predictions, and build fantasy draft value rankings so subscribers can make better fantasy and tournament decisions.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--40/ESPN--40_20261115_033521/final_runs/run_005/screenshots/final_execution_1_espn_homepage.png",
+          "sha256": "530f480939fcf4ea54132e8e327c4dfbc874afcdd000a9a0b3315ddd7b90a5ac"
+        },
+        {
+          "path": "ESPN--40/ESPN--40_20261115_033521/final_runs/run_005/screenshots/final_execution_2_espnplus_entry.png",
+          "sha256": "7abbe761f4bce66977f1efdaab5998d2c696a4bc4d599dc39cdb78cdf9994b0b"
+        },
+        {
+          "path": "ESPN--40/ESPN--40_20261115_033521/final_runs/run_005/screenshots/final_execution_3_espnplus_page_archive.png",
+          "sha256": "f3c6eb927f8f5fe818895f678a7a82c3000ec47d31ee7727589c834ddc95223d"
+        },
+        {
+          "path": "ESPN--40/ESPN--40_20261115_033521/final_runs/run_005/screenshots/final_execution_4_espnplus_tools.png",
+          "sha256": "b5f8cf3706df36fdb3c444e74781272ec6f58772072bc085fee691f94e7a828a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "b2ce73b189cc3f0203fa0120f1b478c5c61d31631ede88ba9eb18f09ffeb63b4",
+      "fingerprint": "9601f4895217435d58a77704bf1c62539168cb5cb9831f0cdf1cdd2fb591577d"
+    },
+    {
+      "task_id": "ESPN--41",
+      "website": "ESPN",
+      "task": "Find out which four teams the NFC North contains in the NFL on ESPN.",
+      "task_record": "ESPN--41/ESPN--41_20261115_054328",
+      "task_definition_sha256": "363d7471bb65491998b9c529bcfa2698a163ea408e4b247a391547ab03c7af40",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--41/ESPN--41_20261115_054328"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The NFC North division on ESPN contains four teams: Chicago Bears, Detroit Lions, Green Bay Packers, and Minnesota Vikings. Verified on https://www.espn.com/nfl/standings.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--41/ESPN--41_20261115_054328/final_runs/run_003/screenshots/final_execution_1_nfl_standings_page.png",
+          "sha256": "433fabb8ddbcc685ae1b17289f19b138f919659f07005431ed3e6c299ead7ca2"
+        },
+        {
+          "path": "ESPN--41/ESPN--41_20261115_054328/final_runs/run_003/screenshots/final_execution_2_nfc_north_division.png",
+          "sha256": "a0b414e68c74c8fb11ad78e188dc178652cddeb45fef79de8b121ca36e04cd6d"
+        },
+        {
+          "path": "ESPN--41/ESPN--41_20261115_054328/final_runs/run_003/screenshots/final_execution_3_nfc_north_teams_full.png",
+          "sha256": "a0b414e68c74c8fb11ad78e188dc178652cddeb45fef79de8b121ca36e04cd6d"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "7c02feccb4a4f19410510089ecec346c02c5a998014f8d44e383a0bbfeb3d76e",
+      "fingerprint": "598c13a72d84270a21cade5030ebaf8c389ae0ab0efa25843c6ddd0bcf2bdcf4"
+    },
+    {
+      "task_id": "ESPN--42",
+      "website": "ESPN",
+      "task": "Check out NCAAM standings on ESPN, what are the teams with equal wins and losses in the America East Conference currently?",
+      "task_record": "ESPN--42/ESPN--42_20261115_055803",
+      "task_definition_sha256": "4d2dd4c47afbae2bd959c983a15bb37f468b39e3b0ac0e2e8abee81cf8ef3a29",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--42/ESPN--42_20261115_055803"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "In the America East Conference (NCAAM standings on ESPN), the teams currently with equal wins and losses overall are: UAlbany Great Danes (2-2), UMBC Retrievers (2-2), Vermont Catamounts (2-2).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--42/ESPN--42_20261115_055803/final_runs/run_004/screenshots/final_execution_1_ncaam_standings_page.png",
+          "sha256": "ac5b23c6203a68d0e35ebba08ee9d0062beb6f62a29d55a3dcf70a65f9d75ed9"
+        },
+        {
+          "path": "ESPN--42/ESPN--42_20261115_055803/final_runs/run_004/screenshots/final_execution_2_select_america_east.png",
+          "sha256": "7cf12230d8364637bc09a31cc7e1db122901b6fa0e6f7a16e68d0ec66a106735"
+        },
+        {
+          "path": "ESPN--42/ESPN--42_20261115_055803/final_runs/run_004/screenshots/final_execution_3_america_east_standings_table.png",
+          "sha256": "0fe5dafbed29185779644ca1b61ed92a9465264bc59e6213bef6cb6c29fc95e0"
+        },
+        {
+          "path": "ESPN--42/ESPN--42_20261115_055803/final_runs/run_004/screenshots/final_execution_5_equal_wl_teams.png",
+          "sha256": "c60b3fe8ef7bf80ddd668b4eb0dc45fcd7d05471d9403978abf0c67631627318"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "32f3dc5e6056e1db7d2ab357ba29d264e25607c0609e499bb9ca2e9e4c13413d",
+      "fingerprint": "89eae0d9f12f6b10968327e6ff58c1c226dd8991360a1b870930d660a0d6aa68"
+    },
+    {
+      "task_id": "ESPN--43",
+      "website": "ESPN",
+      "task": "Check out NCAAW recruiting on ESPN, what colleges are the top three players from?",
+      "task_record": "ESPN--43/ESPN--43_20261115_061111",
+      "task_definition_sha256": "0c7aff33b337bde338a828f4493834d8b7e5d576f1b400ff70a23102b9af20cb",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ESPN--43/ESPN--43_20261115_061111"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "On ESPN's NCAAW (girls basketball) recruiting SC Next 100 rankings, the top three players' colleges are: #1 Kaleena Smith - None (uncommitted); #2 Ivanna Wilson Manyacka - None (uncommitted); #3 Caroline Bradley - LSU.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ESPN--43/ESPN--43_20261115_061111/final_runs/run_002/screenshots/final_execution_1_recruiting_page.png",
+          "sha256": "259edb50b78f2d94037c1af1333a34e12649a5221d42e85322e87def191d35e5"
+        },
+        {
+          "path": "ESPN--43/ESPN--43_20261115_061111/final_runs/run_002/screenshots/final_execution_2_rankings_table.png",
+          "sha256": "259edb50b78f2d94037c1af1333a34e12649a5221d42e85322e87def191d35e5"
+        },
+        {
+          "path": "ESPN--43/ESPN--43_20261115_061111/final_runs/run_002/screenshots/final_execution_3_top3_players.png",
+          "sha256": "259edb50b78f2d94037c1af1333a34e12649a5221d42e85322e87def191d35e5"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "ef25d48f49af18df07274a84ec7a5e78b595de826511ed914be5e11e6bb0d522",
+      "fingerprint": "b660e2bdee6539c4ae6c3396cda65f119e5eda7ea5d95aa314b655e71082eab3"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Flights--23",
+  "website": "Google Flights",
+  "task": "Search for a one-way flight from Mumbai to Vancouver on November 28, 2026, filtering the results to show only 1-stop flights.",
+  "task_record": "Google Flights--23/Google Flights--23_20261114_044425",
+  "task_definition_sha256": "f77f297591a5ed5ace564b8236e59658f6e289b1e845f80e555b4766897b5e90",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Flights--23/Google Flights--23_20261114_044425"
+  ],
+  "final_run": "run_011",
+  "answer_input_mode": "answer.txt only",
+  "answer": "On Google Flights, I searched for a one-way flight from Mumbai (BOM) to Vancouver (YVR) on Saturday, November 28, 2026, then applied the dedicated Stops filter selecting '1 stop or fewer'. The filtered results displayed 11 results returned, and all 11 shown itineraries are 1-stop flights (0 nonstop or 2+ stop results). Example result: From 7602 Hong Kong dollars, 1 stop flight with Cathay Pacific, leaving Chhatrapati Shivaji Maharaj International Airport Mumbai at 2:00 AM on Saturday, November 28 and arriving at Vancouver International Airport.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_4b_date_set.png",
+      "sha256": "9562948ff620bb3a79a71b23a2e0103cf05f066a9e345d437a7481c1652b9a64"
+    },
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_5_results.png",
+      "sha256": "03f4c83ad985d0296125f0d7e50d57f100ac19eddeed102000ecc4bda4001e4a"
+    },
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_6_stops_dialog.png",
+      "sha256": "7757bcd837f6eddbf843633e1bbf8de8dd5c6fa4c4b26614d30b22ff2d38e580"
+    },
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_7_filtered_results.png",
+      "sha256": "201fee1f6898951c6d4e76a0d1a367e4eb83d61af977b56506b21eba5dd991e9"
+    },
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_8_final_state.png",
+      "sha256": "04e0bdc7de49490ef48c31b09511239eb930104d9eb6323a0372a8dea4a9fe07"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "70df3a936ffdd9a2f0a8e3415ab2dec2e4340a53ced4e08d381b7fd2196fca21",
+  "fingerprint": "071532c597ae9cc8e3895dcc3ae02a81be56079bbe83d9555e8a71bb8b49e170",
+  "evaluated_at": "2026-11-16T10:28:11.601894+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task requirements:**\n1. Search for a one-way flight from Mumbai to Vancouver\n2. Date: November 28, 2026\n3. Filter results to show only 1-stop flights\n\n**Screenshot verification:**\n\n1. **Search parameters (Screenshot 1):** The Google Flights search form shows \"One way\" selected, origin \"Mumbai\", destination \"Vancouver\", and date \"Sat, Nov 28\". The day-of-week (Saturday) is consistent with November 28, 2026 (Nov 28, 2025 would be a Friday; Nov 28, 2026 falls on a Saturday), supporting that the correct year was selected.\n\n2. **Initial results (Screenshot 2):** Unfiltered results show a mix of 1-stop and 2-stop itineraries (e.g., Air France/KLM with 2 stops, IndiGo with 2 stops), confirming this was the pre-filter state.\n\n3. **Filter application (Screenshot 3):** The Stops filter dropdown is open with the \"1 stop or fewer\" radio button selected, and the \"1 stop or fewer\" filter chip is now visible in the filter bar. Note: Google Flights does not offer a strict \"1 stop only\" option — \"1 stop or fewer\" is the closest available filter, which is appropriate.\n\n4. **Filtered results (Screenshots 4 & 5):** After applying the filter, all displayed itineraries (4 Top flights + 7 Other flights = 11 total) show \"1 stop\" — no nonstop or 2-stop flights appear. The example cited in the response (Cathay Pacific, 2:00 AM departure, 1 stop via HKG, HK$7,602) matches the screenshot exactly.\n\n**Response vs. screenshot consistency:** The response accurately describes the actions taken and the results shown. The claim of 11 results all being 1-stop flights matches the visible itineraries. The minor note that a \"View more flights\" button exists does not contradict the completed task — the filter was correctly applied and all shown results are 1-stop flights.\n\nAll three task components (one-way, correct route and date, 1-stop filtering) are satisfied.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8148,
+    "completion_tokens": 1783,
+    "total_tokens": 9931,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1308
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:28:12.124777+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_4b_date_set.png",
+      "source_sha256": "9562948ff620bb3a79a71b23a2e0103cf05f066a9e345d437a7481c1652b9a64",
+      "source_bytes": 324591,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 192613,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "923058cc6f824632741b282e34e28c45e02f1f932fc6381b5d8e6cb3889a5cae"
+    },
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_5_results.png",
+      "source_sha256": "03f4c83ad985d0296125f0d7e50d57f100ac19eddeed102000ecc4bda4001e4a",
+      "source_bytes": 280723,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 205056,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ddc321f0849faa9011bcba6909f08f6efd0a339b16261a671f07cf22bfb5658f"
+    },
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_6_stops_dialog.png",
+      "source_sha256": "7757bcd837f6eddbf843633e1bbf8de8dd5c6fa4c4b26614d30b22ff2d38e580",
+      "source_bytes": 287735,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 211022,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4da845e3c803a908714fb8e80d5dde0adadcc0463091a142d0651cfe3880c1ee"
+    },
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_7_filtered_results.png",
+      "source_sha256": "201fee1f6898951c6d4e76a0d1a367e4eb83d61af977b56506b21eba5dd991e9",
+      "source_bytes": 283464,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 216336,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "24c7af291bd3575a499d8f9c70850737bf88c822570520310ce94bf78a34fd04"
+    },
+    {
+      "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_8_final_state.png",
+      "source_sha256": "04e0bdc7de49490ef48c31b09511239eb930104d9eb6323a0372a8dea4a9fe07",
+      "source_bytes": 281972,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        1812
+      ],
+      "transmitted_dimensions": [
+        894,
+        1280
+      ],
+      "transmitted_bytes": 212394,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3ede20cc9e262a21d2c27b3831c675f48fcd4587a0a250f4bc8372829666d5ef"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1386782,
+  "response_id": "53b184a2-c918-4bcc-980d-b177ce4abad7",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1907,
+    "reasoning_content_chars": 4759
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--35",
+  "website": "Allrecipes",
+  "task": "Search for an Italian-style meatball recipe on Allrecipes that has more than 100 reviews. Detail the type of meat used and the overall cooking time required.",
+  "task_record": "Allrecipes--35/Allrecipes--35_20261113_112819",
+  "task_definition_sha256": "e26a44f8099bffa3f596dd936bed51f7c98a5655ef7dcc4a75f33771cd6aa9ab",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--35/Allrecipes--35_20261113_112819"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Selected recipe: Chef John's Italian Meatballs on Allrecipes (https://www.allrecipes.com/recipe/220854/chef-johns-italian-meatballs/) with 1,969 reviews (more than 100). Type of meat used: ground beef and ground pork (1 pound ground beef + 1 pound ground pork). Overall cooking time required: Total Time 2 hrs 15 mins (Prep 20 mins, Cook 35 mins).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_2_recipe_opened.png",
+      "sha256": "831465ae96305b5f9fb748d84977b9122cf337e771a4012a08289f6172118464"
+    },
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_3_reviews.png",
+      "sha256": "de372aa4fefbb6c67045d5f1816f59d673ac1f5e8edbc32f6026e6064f787eee"
+    },
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_4_ingredients_meat.png",
+      "sha256": "864498bcefa56a543d0852dbacdbdac301e70e4d99028e654ef241ad95bb17e9"
+    },
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_5_total_time.png",
+      "sha256": "56faacdce63effe4a6ba410aa0b8ed0f10898f03c75e88058eab502071e860cf"
+    },
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "sha256": "7d6cbf8d57ca8d0de913678cde5933957f858d39918e79a118460b3131e4697a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "43448008bee1c1f880511a3c78130482498520b75f1a12aa513ff4d1956b6c18",
+  "fingerprint": "913101c74e05ffe1d53209cc89f74bb8fbed3f543631cb1d24bac01442fb2b45",
+  "evaluated_at": "2026-11-16T10:17:01.095936+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for an Italian-style meatball recipe on Allrecipes\n2. The recipe must have more than 100 reviews\n3. Detail the type of meat used\n4. Detail the overall cooking time required\n\n**Verification against screenshots:**\n\n1. **Italian-style meatball recipe on Allrecipes**: ✓ The screenshots show the Allrecipes page for \"Chef John's Italian Meatballs,\" which is categorized under \"Recipes > Main Dishes > Meatball Recipes > Italian Meatball Recipes.\" This confirms it is an Italian-style meatball recipe on Allrecipes.\n\n2. **More than 100 reviews**: ✓ The screenshot clearly displays \"1,969 Reviews\" next to the star rating (4.8 stars, 2,537 ratings), which far exceeds the 100-review threshold.\n\n3. **Type of meat used**: ✓ The recipe description visible in the screenshot states: \"Here I use a standard half-beef/half-pork mixture.\" This confirms the meat types are beef and pork. The response adds specific quantities (1 pound ground beef + 1 pound ground pork), which is consistent with the screenshot's description and can be trusted per the evaluation guidelines.\n\n4. **Overall cooking time**: ✓ The screenshot clearly shows the time breakdown:\n   - Prep Time: 20 mins\n   - Cook Time: 35 mins\n   - Additional Time: 1 hr 20 mins\n   - **Total Time: 2 hrs 15 mins**\n   \n   This matches the response's claim of \"Total Time 2 hrs 15 mins (Prep 20 mins, Cook 35 mins).\"\n\n**Conclusion:** All components of the task were completed successfully. The recipe found matches the criteria (Italian-style, more than 100 reviews), and both the meat type and total cooking time were accurately detailed and verified against the screenshot.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9080,
+    "completion_tokens": 871,
+    "total_tokens": 9951,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 479
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:17:01.547209+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_2_recipe_opened.png",
+      "source_sha256": "831465ae96305b5f9fb748d84977b9122cf337e771a4012a08289f6172118464",
+      "source_bytes": 224446,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 155850,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "53dd825b4b4d3caea09b3511fb8a13f9cf6b4ae84ae1e4fbff433521e1af3044"
+    },
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_3_reviews.png",
+      "source_sha256": "de372aa4fefbb6c67045d5f1816f59d673ac1f5e8edbc32f6026e6064f787eee",
+      "source_bytes": 494921,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 200042,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6393cec5ade9b0eec1ac17f498da60b9dc40322980dbef548a30d67b97649264"
+    },
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_4_ingredients_meat.png",
+      "source_sha256": "864498bcefa56a543d0852dbacdbdac301e70e4d99028e654ef241ad95bb17e9",
+      "source_bytes": 815587,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 242890,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4caa87dbe12a4fa00426a5b13f9e11360992e09be47e0868aa623fb044e0834c"
+    },
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_5_total_time.png",
+      "source_sha256": "56faacdce63effe4a6ba410aa0b8ed0f10898f03c75e88058eab502071e860cf",
+      "source_bytes": 533717,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 209873,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "369c5eab839d2c2cc4f0b306b2fec2582aa03949e62c47b12b53ff84722f1d7d"
+    },
+    {
+      "path": "Allrecipes--35/Allrecipes--35_20261113_112819/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "7d6cbf8d57ca8d0de913678cde5933957f858d39918e79a118460b3131e4697a",
+      "source_bytes": 638401,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 227702,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "01a6ed338f6d10428096af3863d39a9dc8630c75e76f4d46b367e91de8c88092"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1385195,
+  "response_id": "a512c737-7674-4688-abfa-3e26bc1f7bb6",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1702,
+    "reasoning_content_chars": 1894
+  }
+}

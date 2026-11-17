@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--15",
+  "website": "Allrecipes",
+  "task": "Choose a dessert recipe on Allrecipes with a prep time of less than 30 minutes, has chocolate as an ingredient, and has a user rating of 4 stars or higher. Provide the name of the recipe, ingredients list, and step-by-step instructions.",
+  "task_record": "Allrecipes--15/Allrecipes--15_20261113_045736",
+  "task_definition_sha256": "182287b434770ffcc11fb7d1335ac4fbcc5ed7aeff8271417d63a9432f553beb",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--15/Allrecipes--15_20261113_045736"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Recipe name: 5-Minute Microwave Nutella Cake\nURL: https://www.allrecipes.com/recipe/230649/5-minute-microwave-nutella-cake/\nConstraint checks: Prep Time = 10 mins (< 30 minutes); chocolate ingredient present (2 tablespoons chocolate-hazelnut spread such as Nutella, plus cocoa powder); user rating = 4.6/5 from 61 ratings (>= 4 stars).\nIngredients:\n- ¼ cup self-rising flour\n- ¼ cup white sugar\n- 1 large egg\n- 3 tablespoons vegetable oil\n- 3 tablespoons milk\n- 2 tablespoons unsweetened cocoa powder, or more to taste\n- 2 tablespoons chocolate-hazelnut spread (such as Nutella), or more to taste\n- ½ teaspoon vanilla extract\n- pinch of salt (Optional)\nStep-by-step instructions:\n1. Stir self-rising flour, sugar, egg, oil, milk, cocoa powder, chocolate-hazelnut spread, vanilla, and a pinch of salt together in a large mug until batter is smooth.\n2. Cook in the microwave on full power until cake has risen in the mug and is set in the center, 1 minute and 30 seconds to 2 minutes and 30 seconds.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_2_recipe_detail_page.png",
+      "sha256": "23e0657159331484c416e118af4b492c93601c51b359d19d6665f66ecdca489e"
+    },
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_3_prep_time_details.png",
+      "sha256": "93dd863091c3839f4637d52f092b4685f1de4683cda21df91ca79856b138f97a"
+    },
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_4_ingredients_chocolate.png",
+      "sha256": "96842e395d31b83c0831c2f7c5ef0c6d1fbf223562d7e298934a22f03bebe11c"
+    },
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_5_rating.png",
+      "sha256": "ff093ce2516bc21ec7bdea20bbc76c95b5d895da29e90d075558e188d4fb2c79"
+    },
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_6_directions.png",
+      "sha256": "508546d2409987883e7c30f332fe76634c97e2c4942baba8ebb3d1b54f0813da"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "54667a37d0978d9d466a22c4738253f158ff62070a847252addefca3f493007a",
+  "fingerprint": "5d8d034b46134da2036b628fc25aa7394cfcd1a9c6c88db5ec6cf74823e05c1a",
+  "evaluated_at": "2026-11-16T10:04:23.860383+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements Check\n\n**1. Dessert recipe on Allrecipes:**\n- The screenshots show the recipe \"5-Minute Microwave Nutella Cake\" hosted on allrecipes.com (visible Allrecipes branding and URL structure). A cake is clearly a dessert. ✓\n\n**2. Prep time less than 30 minutes:**\n- The screenshot clearly shows \"Prep Time: 10 mins\" (with Cook Time: 5 mins, Total Time: 15 mins). 10 minutes is under the 30-minute threshold. ✓\n\n**3. Chocolate as an ingredient:**\n- The ingredients list in the screenshot includes \"2 tablespoons unsweetened cocoa powder\" and \"2 tablespoons chocolate-hazelnut spread (such as Nutella)\" — both chocolate-based ingredients. ✓\n\n**4. User rating of 4 stars or higher:**\n- The screenshot displays a star rating of \"4.6 (61)\" — 4.6 out of 5 stars, which exceeds the 4-star minimum. ✓\n\n**5. Required deliverables (name, ingredients, instructions):**\n\n- **Recipe name:** \"5-Minute Microwave Nutella Cake\" — matches the page title in the screenshot. ✓\n- **Ingredients list:** The response lists ¼ cup self-rising flour, ¼ cup white sugar, 1 large egg, 3 tablespoons vegetable oil, 3 tablespoons milk, 2 tablespoons unsweetened cocoa powder, 2 tablespoons chocolate-hazelnut spread, ½ teaspoon vanilla extract, and pinch of salt — this matches the ingredients shown in the screenshot exactly. ✓\n- **Step-by-step instructions:** The response provides Step 1 (stir ingredients in a mug until smooth) and Step 2 (microwave on full power for 1:30–2:30 until set), which match the \"Directions\" section visible in the screenshot verbatim. ✓\n\n## Consistency Verification\n\nThe textual response aligns fully with the screenshots — the rating (4.6/61), prep time (10 mins), ingredients, and directions all match. No discrepancies exist between the response and the visual evidence. All constraints from the instruction are satisfied and all requested deliverables are provided.\n\n## Final Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9270,
+    "completion_tokens": 986,
+    "total_tokens": 10256,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 519
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:24.342946+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_2_recipe_detail_page.png",
+      "source_sha256": "23e0657159331484c416e118af4b492c93601c51b359d19d6665f66ecdca489e",
+      "source_bytes": 705896,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 193340,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0e45b18ad8053227e91c206e03f99ed55f90f5cae0466ebc6bdc59a9cb991c79"
+    },
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_3_prep_time_details.png",
+      "source_sha256": "93dd863091c3839f4637d52f092b4685f1de4683cda21df91ca79856b138f97a",
+      "source_bytes": 710711,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 194755,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "47f3b1dca00c1d651bbc2b84c91135ec7715a6729d2ec297872af55732c11f7f"
+    },
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_4_ingredients_chocolate.png",
+      "source_sha256": "96842e395d31b83c0831c2f7c5ef0c6d1fbf223562d7e298934a22f03bebe11c",
+      "source_bytes": 174289,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 143985,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "25b933517371c939515bd49ffbeefb6c915137f6bc6bace642f7cd5deee93372"
+    },
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_5_rating.png",
+      "source_sha256": "ff093ce2516bc21ec7bdea20bbc76c95b5d895da29e90d075558e188d4fb2c79",
+      "source_bytes": 947872,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 246195,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "740eb1965f9dceae4208d6ce07963f8f01ad4234278d5be666b99732859e2458"
+    },
+    {
+      "path": "Allrecipes--15/Allrecipes--15_20261113_045736/final_runs/run_001/screenshots/final_execution_6_directions.png",
+      "source_sha256": "508546d2409987883e7c30f332fe76634c97e2c4942baba8ebb3d1b54f0813da",
+      "source_bytes": 403642,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 216377,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "15af3cbf58894fe606a64c35605c52642da1c446b9a137ee37a2fc1714e53929"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1330334,
+  "response_id": "f382a845-3d81-4147-b1fa-4495cff76b06",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1940,
+    "reasoning_content_chars": 2018
+  }
+}

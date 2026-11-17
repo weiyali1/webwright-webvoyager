@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--34",
+  "website": "Google Map",
+  "task": "Find a hiking trail within 2 miles of zip code 80202.",
+  "task_record": "Google Map--34/Google Map--34_20261115_074230",
+  "task_definition_sha256": "597b883f57359f754ff44242cedccae62c290d98cb0cb9dffee7aa76a21e012d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--34/Google Map--34_20261115_074230"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found a hiking trail within 2 miles of zip code 80202: Cherry Creek Trail (2250 15th St, Denver, CO 80202). Google Maps directions from origin 80202 show driving distances of 0.9, 0.7, and 1.1 miles, all within the 2-mile requirement.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_1_search_80202.png",
+      "sha256": "9326e85dcf87b5df4b546e32dcc415a75ff838bf90125ad9903068bd93ccf1a0"
+    },
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_2_search_results.png",
+      "sha256": "1fed9c0c5790d3365c245168962b29c7f495bd5c25675f47020a0de2e49b73b4"
+    },
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_3_results_displayed.png",
+      "sha256": "1fed9c0c5790d3365c245168962b29c7f495bd5c25675f47020a0de2e49b73b4"
+    },
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_4_directions_distance.png",
+      "sha256": "afd9aabf7b545cb33476bbb4b4f1e62d2cb8ac2095d98f88ca10103afb19b1d8"
+    },
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+      "sha256": "afd9aabf7b545cb33476bbb4b4f1e62d2cb8ac2095d98f88ca10103afb19b1d8"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "7339d96ecf603679a41ce734c4af8975be9f8ea73fdd0cddf0455a9fc7660e90",
+  "fingerprint": "fb2ce9d6ac6dc390515d6a3681664929c7f5658d6b91d5adc2642bf2555bc160",
+  "evaluated_at": "2026-11-16T10:22:40.200544+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nFind a hiking trail within 2 miles of zip code 80202 (Denver, CO).\n\n## Screenshot Evidence Review\n\n**Screenshot 1:** Shows the search query \"hiking trails near 80202\" being entered into Google Maps.\n\n**Screenshots 2-3:** Show the search results for \"hiking trails near 80202\" in the Denver, Colorado area. The results list includes **Cherry Creek Trail** (4.8★, 12 reviews, located at 2250 15th St), which is explicitly categorized as 行山徑 (hiking trail). Other results include parks and trails such as Sanderson Gulch Park & Trail, Confluence Park, etc.\n\n**Screenshots 4-5:** Show Google Maps directions from origin \"80202 美國科羅拉多丹佛\" (80202 Denver, Colorado) to destination \"Cherry Creek Trail, 2250 15th St, Denver\". The driving route options display:\n- Via Wewatta St和15th St: 4 min, **0.9 英里 (0.9 miles)**\n- Via 15th St: 5 min, **0.7 英里 (0.7 miles)**\n- Via Little Raven St: 6 min, **1.1 英里 (1.1 miles)**\n\nAll route distances are well within the 2-mile requirement.\n\n## Response Consistency Check\nThe result response states that Cherry Creek Trail (2250 15th St, Denver, CO 80202) was found within 2 miles of zip code 80202, with driving distances of 0.9, 0.7, and 1.1 miles. This matches the screenshots exactly:\n- ✓ Cherry Creek Trail appears in search results and is labeled as a hiking trail\n- ✓ The directions panel confirms origin 80202 and destination Cherry Creek Trail\n- ✓ The distances shown (0.9, 0.7, 1.1 miles) are all under 2 miles\n\n## Conclusion\nThe task required finding a hiking trail within 2 miles of zip code 80202. The agent successfully searched for hiking trails near 80202, identified Cherry Creek Trail as a hiking trail, and verified via Google Maps directions that it is approximately 0.9 miles away — well within the 2-mile constraint. Both the search and the distance verification steps are fully documented in the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8120,
+    "completion_tokens": 1316,
+    "total_tokens": 9436,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 784
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:22:40.827265+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_1_search_80202.png",
+      "source_sha256": "9326e85dcf87b5df4b546e32dcc415a75ff838bf90125ad9903068bd93ccf1a0",
+      "source_bytes": 850476,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 242389,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b67f163a69e1842f11c307d8eae30c4557322c511808fb850b9f83912f8490cd"
+    },
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_2_search_results.png",
+      "source_sha256": "1fed9c0c5790d3365c245168962b29c7f495bd5c25675f47020a0de2e49b73b4",
+      "source_bytes": 1331481,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 319816,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e23108cc61f9c9bff4f5f0338c83a3616f215d87a89ff780b51e55b34fd54925"
+    },
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_3_results_displayed.png",
+      "source_sha256": "1fed9c0c5790d3365c245168962b29c7f495bd5c25675f47020a0de2e49b73b4",
+      "source_bytes": 1331481,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 319816,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e23108cc61f9c9bff4f5f0338c83a3616f215d87a89ff780b51e55b34fd54925"
+    },
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_4_directions_distance.png",
+      "source_sha256": "afd9aabf7b545cb33476bbb4b4f1e62d2cb8ac2095d98f88ca10103afb19b1d8",
+      "source_bytes": 1134523,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 332939,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "895e4f47f92920c942bced9e575b54c672bf1d442fe7f327b375049253e04dca"
+    },
+    {
+      "path": "Google Map--34/Google Map--34_20261115_074230/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "afd9aabf7b545cb33476bbb4b4f1e62d2cb8ac2095d98f88ca10103afb19b1d8",
+      "source_bytes": 1134523,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 332939,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "895e4f47f92920c942bced9e575b54c672bf1d442fe7f327b375049253e04dca"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2067038,
+  "response_id": "fbb95744-3c22-4758-ba20-4eb2b3e5b102",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1923,
+    "reasoning_content_chars": 2546
+  }
+}

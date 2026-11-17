@@ -1,0 +1,151 @@
+{
+  "task_id": "Booking--26",
+  "website": "Booking",
+  "task": "Check Booking.com for a 3-star hotel or higher in Paris with a guest rating above 8.0 and available parking for dates November 20-23, 2026.",
+  "task_record": "Booking--26/Booking--26_20261113_101139",
+  "task_definition_sha256": "2bcded118e34fca19de942525daf8d3be38172e69a846a666492cf7c4673dc25",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--26/Booking--26_20261113_101139"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found 394 properties in Paris matching 3+ stars, guest rating 8+ (Very Good: 8+), and parking available for November 20–23, 2026. First result: La Clef Tour Eiffel Paris by The Crest Collection.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_1_paris_results_dates.png",
+      "sha256": "3b8948b7a07fdca6b28dfb9cc3900fcf045a63b5d26650d130fc3fc3f96ffc00"
+    },
+    {
+      "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_2_star_filter.png",
+      "sha256": "e3e10720e9ae801ebd342cdc8ec0c5a6ce9653b7aa7544973db497ec34ca889a"
+    },
+    {
+      "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_3_final_results.png",
+      "sha256": "e3e10720e9ae801ebd342cdc8ec0c5a6ce9653b7aa7544973db497ec34ca889a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e836e2248bfef3d4486277e085d1bb8d0505f77b60d7418863204a0351d03d5f",
+  "fingerprint": "4e5c7093b4e64deb5acb34a1e5334fafa37d798017593392ec22b250f227e314",
+  "evaluated_at": "2026-11-16T10:08:43.270634+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task Requirements:**\n1. Search Booking.com for hotels in Paris\n2. Dates: November 20–23, 2026\n3. Filter: 3-star hotel or higher\n4. Filter: Guest rating above 8.0\n5. Filter: Parking available\n\n**Analysis of Screenshots:**\n\n- **Screenshot 1 (initial state):** Shows a Booking.com search for Paris with dates set to \"Fri, Nov 20 — Mon, Nov 23\" (the map data ©2026 confirms the year context is 2026). The filter panel shows the relevant filters (3 stars, Very Good: 8+, Parking) still unchecked at this stage, with 3,175 properties found.\n\n- **Screenshots 2 & 3 (after filtering):** Show the filters correctly applied:\n  - **Star rating:** \"3 stars\" is checked in \"Your previous filters,\" \"4 stars\" is checked in \"Popular filters,\" and the active filter chip shows \"Property rating 3\" (covering 3, 4, and 5 stars — i.e., 3-star or higher). Results confirm this: La Clef Tour Eiffel (5★), Hotel Ekta Champs Elysées (4★), Hotel Elysées Bassano (4★), Residence Inn by Marriott Paris Didot Montparnasse (3★).\n  - **Guest rating:** \"Very Good: 8+\" is checked, with the active filter chip \"Very Good: 8+\" visible. All displayed results have ratings above 8.0 (8.2, 8.7, 8.3, 8.3, 9.0).\n  - **Parking:** \"Parking\" is checked, with the active \"Parking ×\" chip visible.\n  - **Result count:** 394 properties found matching all criteria.\n\n**Analysis of Result Response:**\nThe response states 394 properties were found matching 3+ stars, guest rating 8+, and parking for November 20–23, 2026, with the first result being \"La Clef Tour Eiffel Paris by The Crest Collection.\" This matches the screenshot exactly (first result: La Clef Tour Eiffel Paris by The Crest Collection, 5★, rating 8.2).\n\nAll required criteria (location, dates, star rating, guest rating, parking) were correctly applied and verified in the screenshots, and the response accurately summarizes the outcome.\n\n## Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6050,
+    "completion_tokens": 1438,
+    "total_tokens": 7488,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 917
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:43.685396+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_1_paris_results_dates.png",
+      "source_sha256": "3b8948b7a07fdca6b28dfb9cc3900fcf045a63b5d26650d130fc3fc3f96ffc00",
+      "source_bytes": 720872,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 313069,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "59b42d5c15f004b9c1d5259aacb5ab3c4d43bdd435d89f808fec5e888a094a64"
+    },
+    {
+      "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_2_star_filter.png",
+      "source_sha256": "e3e10720e9ae801ebd342cdc8ec0c5a6ce9653b7aa7544973db497ec34ca889a",
+      "source_bytes": 732708,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 310552,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "819effb40da5b62233bc0f84d8ef40f4e2bea4ccd9a3bb938fa8110e38107b21"
+    },
+    {
+      "path": "Booking--26/Booking--26_20261113_101139/final_runs/run_003/screenshots/final_execution_3_final_results.png",
+      "source_sha256": "e3e10720e9ae801ebd342cdc8ec0c5a6ce9653b7aa7544973db497ec34ca889a",
+      "source_bytes": 732708,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 310552,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "819effb40da5b62233bc0f84d8ef40f4e2bea4ccd9a3bb938fa8110e38107b21"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 1248638,
+  "response_id": "3a13b9e7-164f-4ce2-b57c-652c3f86fd7a",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1903,
+    "reasoning_content_chars": 3363
+  }
+}

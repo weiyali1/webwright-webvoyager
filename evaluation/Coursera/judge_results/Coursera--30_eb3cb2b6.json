@@ -1,0 +1,181 @@
+{
+  "task_id": "Coursera--30",
+  "website": "Coursera",
+  "task": "Locate the course 'Modern Art & Ideas' on Coursera offered by The Museum of Modern Art. Find out the percentage (rounded) of 3-star ratings in the reviews and note which star level has the lowest percentage.",
+  "task_record": "Coursera--30/Coursera--30_20261115_062551",
+  "task_definition_sha256": "fa6c14a417ca2b8b2cff6771b16605f2000a37829ab091bb6b1e9e6c924b870c",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--30/Coursera--30_20261115_062551"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The 3-star rating percentage for 'Modern Art & Ideas' by The Museum of Modern Art is 2% (rounded from 2.42%). The star level with the lowest percentage is 2 stars at 0.63%.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--30/Coursera--30_20261115_062551/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "sha256": "a5012b828359f792ca45b8d5b2cdd088d0593b59edd5bfe2c4285ade5a2ab087"
+    },
+    {
+      "path": "Coursera--30/Coursera--30_20261115_062551/final_runs/run_001/screenshots/final_execution_2_course_page.png",
+      "sha256": "bbf5ed6a4e0ec133fb9aa9c5d9968d58fb73ceefdd5090d044a60a3ae6c37f4c"
+    },
+    {
+      "path": "Coursera--30/Coursera--30_20261115_062551/final_runs/run_001/screenshots/final_execution_3_rating_distribution.png",
+      "sha256": "e93cf8240c804d581efb7972fafca47296a7f469afbe5ebe8737b5067b7c033f"
+    },
+    {
+      "path": "Coursera--30/Coursera--30_20261115_062551/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+      "sha256": "e93cf8240c804d581efb7972fafca47296a7f469afbe5ebe8737b5067b7c033f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "08a02087095c06c9ed93a53904d9b5d92829c7c0fba411d322a049e09661b13e",
+  "fingerprint": "0adbb4fc71903714a2d9ac432c1ffdd03b99267b6250bb161233f34fea398f00",
+  "evaluated_at": "2026-11-16T10:08:55.922124+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "Looking at this evaluation, I need to verify two pieces of information from the task:\n1. The rounded percentage of 3-star ratings\n2. Which star level has the lowest percentage\n\n**Screenshot Analysis:**\n\n- **Screenshot 1**: Shows the Coursera search results for \"Modern Art & Ideas\" with the course by The Museum of Modern Art appearing as the first result — confirming the course was successfully located.\n\n- **Screenshot 2**: Shows the course page for \"Modern Art & Ideas\" by MoMA (The Museum of Modern Art), with a 4.8 rating and 6,973 reviews.\n\n- **Screenshots 3 & 4**: Show the reviews section with the rating distribution breakdown:\n  - 5 stars: 83.11%\n  - 4 stars: 13.17%\n  - 3 stars: 2.42%\n  - 2 stars: 0.63%\n  - 1 star: 0.65%\n\n**Verification of the Response:**\n\n1. **3-star rating percentage**: The screenshot shows 2.42% for 3 stars. Rounded to the nearest whole number, 2.42% rounds to 2%. The response states \"2% (rounded from 2.42%)\" — this is correct.\n\n2. **Lowest percentage star level**: Comparing the two lowest values:\n   - 2 stars: 0.63%\n   - 1 star: 0.65%\n   \n   Since 0.63% < 0.65%, the 2-star level has the lowest percentage. The response states \"The star level with the lowest percentage is 2 stars at 0.63%\" — this is correct. This is a subtle point, as one might assume 1 star would be lowest, but the screenshot confirms 2 stars (0.63%) is lower than 1 star (0.65%).\n\nBoth required pieces of information were accurately extracted from the course's review section and correctly reported in the response, matching the screenshot data exactly.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6606,
+    "completion_tokens": 811,
+    "total_tokens": 7417,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 381
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:56.412881+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Coursera--30/Coursera--30_20261115_062551/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "a5012b828359f792ca45b8d5b2cdd088d0593b59edd5bfe2c4285ade5a2ab087",
+      "source_bytes": 1338053,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 328138,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8d3d457ba3bb52f2da348af465f9d5932bd8683cc77de2906ce02e81b8b3712a"
+    },
+    {
+      "path": "Coursera--30/Coursera--30_20261115_062551/final_runs/run_001/screenshots/final_execution_2_course_page.png",
+      "source_sha256": "bbf5ed6a4e0ec133fb9aa9c5d9968d58fb73ceefdd5090d044a60a3ae6c37f4c",
+      "source_bytes": 201619,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 196202,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1e47dd1608e036fb638e3244c6f646474a03d533a16492e743f8fb44974a2b3e"
+    },
+    {
+      "path": "Coursera--30/Coursera--30_20261115_062551/final_runs/run_001/screenshots/final_execution_3_rating_distribution.png",
+      "source_sha256": "e93cf8240c804d581efb7972fafca47296a7f469afbe5ebe8737b5067b7c033f",
+      "source_bytes": 201149,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 185266,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "db12930b4ccdcee092b881d71715bb9791bfa3b094dca65bf1d3c74ee8aa778c"
+    },
+    {
+      "path": "Coursera--30/Coursera--30_20261115_062551/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+      "source_sha256": "e93cf8240c804d581efb7972fafca47296a7f469afbe5ebe8737b5067b7c033f",
+      "source_bytes": 201149,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 185266,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "db12930b4ccdcee092b881d71715bb9791bfa3b094dca65bf1d3c74ee8aa778c"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1196354,
+  "response_id": "c4408666-7258-46e3-92c5-1dc0cb0acfc8",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1587,
+    "reasoning_content_chars": 1291
+  }
+}

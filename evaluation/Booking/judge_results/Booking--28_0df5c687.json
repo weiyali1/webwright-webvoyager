@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--28",
+  "website": "Booking",
+  "task": "Find a hotel in Dubai with a swimming pool, for a week-long stay from November 22 to November 29, 2026.",
+  "task_record": "Booking--28/Booking--28_20261113_115305",
+  "task_definition_sha256": "dcd31045e8ac140f07cd68cc53b5d6663bf51ba4a50f67379ecc616815218d04",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--28/Booking--28_20261113_115305"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: A hotel in Dubai with a swimming pool for the week-long stay from November 22 to November 29, 2026 is The First Collection Dubai Jumeirah Village Circle, a Tribute Portfolio Hotel. Booking.com by entering destination Dubai, selecting check-in Nov 22, 2026 and check-out Nov 29, 2026, submitting the search, and applying the dedicated 'Swimming pool' facilities filter; the filtered results displayed the hotel as the first match.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp2_dates_selected.png",
+      "sha256": "c44480b6415c8d6a14e7e3ccc70fd9ed9f26b6aec0f30e82f7e29de213d91b1b"
+    },
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp3_search_results.png",
+      "sha256": "d05999454c56a0fd3e6f9151c23d8cdb824d9bbf9eff1af1066aa16da0798ba4"
+    },
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp4_pool_filter_applied.png",
+      "sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83"
+    },
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp5_filtered_results.png",
+      "sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83"
+    },
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp6_hotel_result.png",
+      "sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "af80127042f3111248a3b3c61ee41b8c9c9dfa819d6dd636aa5b581a75a6e765",
+  "fingerprint": "e2fa85c3858aab76c18fe8eecf612d32a88e6fc86452ca0d26c83c39dfb0a656",
+  "evaluated_at": "2026-11-16T10:09:24.495164+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task Requirements:**\n1. Find a hotel in Dubai\n2. The hotel must have a swimming pool\n3. Stay dates: November 22 to November 29, 2026 (week-long stay)\n\n**Analysis of Screenshots:**\n\n1. **Screenshot 1:** Shows Booking.com with destination \"Dubai\" entered, and the calendar open displaying November 2026 and December 2026. The dates 22 and 29 in November 2026 are highlighted/selected, confirming check-in Nov 22, 2026 and check-out Nov 29, 2026. The search bar shows \"Sun, Nov 22 — Sun, Nov 29\" (Nov 22, 2026 is indeed a Sunday, confirming the correct year).\n\n2. **Screenshot 2:** Shows the unfiltered search results — \"Dubai: 7,923 properties found\" — with the \"Swimming pool\" filter still unchecked. The first result is \"The First Collection Dubai Jumeirah Village Circle, a Tribute Portfolio Hotel\" with a pool image, priced at US$475 for \"1 week, 2 adults.\"\n\n3. **Screenshots 3–5:** Show the results after applying the \"Swimming pool\" filter — the filter checkbox is checked, a \"Swimming pool ×\" filter chip is visible next to the sort bar, and the property count dropped to \"Dubai: 6,909 properties found.\" The first result remains \"The First Collection Dubai Jumeirah Village Circle, a Tribute Portfolio Hotel,\" located in Dubai, with availability shown for the selected week-long stay.\n\n**Analysis of Result Response:**\nThe response correctly identifies the hotel (The First Collection Dubai Jumeirah Village Circle, a Tribute Portfolio Hotel), confirms the destination (Dubai), the correct dates (Nov 22–29, 2026), and the application of the \"Swimming pool\" filter. This is fully consistent with the screenshots.\n\n**Conclusion:**\nAll task requirements are satisfied: a hotel in Dubai was found, the swimming pool filter was applied (guaranteeing the facility), and the dates match the requested week-long stay from November 22 to November 29, 2026.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7699,
+    "completion_tokens": 1033,
+    "total_tokens": 8732,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 563
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:09:24.834294+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp2_dates_selected.png",
+      "source_sha256": "c44480b6415c8d6a14e7e3ccc70fd9ed9f26b6aec0f30e82f7e29de213d91b1b",
+      "source_bytes": 347629,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 221200,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "478a2506fb33af1afbce75716629930e254960bc00b907544599efd2cb71bf12"
+    },
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp3_search_results.png",
+      "source_sha256": "d05999454c56a0fd3e6f9151c23d8cdb824d9bbf9eff1af1066aa16da0798ba4",
+      "source_bytes": 416992,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 236081,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f500faf57e4de5c675e4d4fb3bc45e57b781da4d82033cafc5a9fc02f80ba09c"
+    },
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp4_pool_filter_applied.png",
+      "source_sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83",
+      "source_bytes": 420051,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 239643,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "767f00f6d1406a68bcf351180a44860aea4c780b1197b28a723cbfecce45c33d"
+    },
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp5_filtered_results.png",
+      "source_sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83",
+      "source_bytes": 420051,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 239643,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "767f00f6d1406a68bcf351180a44860aea4c780b1197b28a723cbfecce45c33d"
+    },
+    {
+      "path": "Booking--28/Booking--28_20261113_115305/final_runs/run_002/screenshots/cp6_hotel_result.png",
+      "source_sha256": "f8a364acc595eba64aa2201ce51b37bf534ee19d26971105813e70fcbf44aa83",
+      "source_bytes": 420051,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 239643,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "767f00f6d1406a68bcf351180a44860aea4c780b1197b28a723cbfecce45c33d"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1571707,
+  "response_id": "59504670-70b8-4c74-b484-e3387dbd2f2c",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1893,
+    "reasoning_content_chars": 2303
+  }
+}

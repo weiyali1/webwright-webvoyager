@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--31",
+  "website": "GitHub",
+  "task": "Find the official GitHub repository for TensorFlow and list the files changed in the last commit. Tell me the name of changed files, total additions and total deletion.",
+  "task_record": "GitHub--31/GitHub--31_20261115_122700",
+  "task_definition_sha256": "c39c7f46528946c7b6a6769708c9bcc32e119083d0c80edec8ba3710ff7ad301",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--31/GitHub--31_20261115_122700"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Official TensorFlow repository: https://github.com/tensorflow/tensorflow. The last commit on the default branch (master), commit 9417b73 ('Set matching_files_dataset_test to medium size and 7 shards to preven…'), changed 1 file: tensorflow/python/data/experimental/kernel_tests/BUILD, with total additions: 2 and total deletions: 1.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_1_official_repo.png",
+      "sha256": "6c9303c37a7fd770c41cca3ca22dd228316dd97a78ec3a5a54fa4d995d76fc1c"
+    },
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_2_last_commit_header.png",
+      "sha256": "6c9303c37a7fd770c41cca3ca22dd228316dd97a78ec3a5a54fa4d995d76fc1c"
+    },
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_3_commit_diff_page.png",
+      "sha256": "c71fb3d8f4309874ae04fc7171342700884a23a21ab2f8de6c07aef294e55df0"
+    },
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_4_changed_files.png",
+      "sha256": "c71fb3d8f4309874ae04fc7171342700884a23a21ab2f8de6c07aef294e55df0"
+    },
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_5_diff_stats.png",
+      "sha256": "0bff2eb52bd5fbd73d5f2d6bc387a7d5c3fabaa67384e56541c1b47c1fe67d98"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "34752c8b0121f87763d86f246fb88faba96b62fd14455e55c70b1f0d7cefc7b8",
+  "fingerprint": "bd341ee6b85d61306bf4a365ea2e8cd6680c83c1faf31306a07cbe2a752bd393",
+  "evaluated_at": "2026-11-16T10:21:55.763706+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find the official GitHub repository for TensorFlow\n2. List the files changed in the last commit\n3. Provide the name of changed files, total additions, and total deletions\n\n**Verification against screenshots:**\n\n1. **Official repository identified:** The screenshots show the `tensorflow/tensorflow` repository on GitHub (github.com/tensorflow/tensorflow), which is indeed the official TensorFlow repository. This matches the response's claim.\n\n2. **Last commit identified:** The repository main page (screenshots 1-2) shows the latest commit on the `master` branch: commit `9417b73` — \"Set matching_files_dataset_test to medium...\" committed 2 hours ago (203,864 commits total). This confirms 9417b73 is the most recent commit.\n\n3. **Commit details verified:** Screenshots 3-5 show the commit page for `9417b73`:\n   - Commit message: \"Set matching_files_dataset_test to medium size and 7 shards to prevent ThreadSanitizer timeouts\"\n   - \"1 file changed\" with **+2 −1** shown in the header\n   - The changed file is `...sorflow/python/data/experimental/kernel_tests/BUILD` (i.e., `tensorflow/python/data/experimental/kernel_tests/BUILD`), as shown in the file tree sidebar and diff header\n   - The diff itself confirms the changes: removed `size = \"small\"`, added `size = \"medium\"` and `shard_count = 7` — consistent with 2 additions and 1 deletion\n\n4. **Response accuracy:** The response states the repository URL, commit hash (9417b73), the changed file name (tensorflow/python/data/experimental/kernel_tests/BUILD), 2 additions, and 1 deletion. All of these match the screenshot evidence exactly.\n\nAll three components of the task (repository identification, changed file name, additions/deletions counts) were completed correctly and are corroborated by the screenshots.\n\n## Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8692,
+    "completion_tokens": 910,
+    "total_tokens": 9602,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 482
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:21:56.292265+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_1_official_repo.png",
+      "source_sha256": "6c9303c37a7fd770c41cca3ca22dd228316dd97a78ec3a5a54fa4d995d76fc1c",
+      "source_bytes": 291205,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 278380,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2ddeec95ab4d2294622247f5d63a3519e3d136c51ea49ff558002e38a8858147"
+    },
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_2_last_commit_header.png",
+      "source_sha256": "6c9303c37a7fd770c41cca3ca22dd228316dd97a78ec3a5a54fa4d995d76fc1c",
+      "source_bytes": 291205,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 278380,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2ddeec95ab4d2294622247f5d63a3519e3d136c51ea49ff558002e38a8858147"
+    },
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_3_commit_diff_page.png",
+      "source_sha256": "c71fb3d8f4309874ae04fc7171342700884a23a21ab2f8de6c07aef294e55df0",
+      "source_bytes": 94638,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 133172,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ab5792fbb31241f6a9a10aa6918253be7a52de6fb9458f644746e7579d689586"
+    },
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_4_changed_files.png",
+      "source_sha256": "c71fb3d8f4309874ae04fc7171342700884a23a21ab2f8de6c07aef294e55df0",
+      "source_bytes": 94638,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 133172,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ab5792fbb31241f6a9a10aa6918253be7a52de6fb9458f644746e7579d689586"
+    },
+    {
+      "path": "GitHub--31/GitHub--31_20261115_122700/final_runs/run_002/screenshots/final_execution_5_diff_stats.png",
+      "source_sha256": "0bff2eb52bd5fbd73d5f2d6bc387a7d5c3fabaa67384e56541c1b47c1fe67d98",
+      "source_bytes": 95692,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        2050
+      ],
+      "transmitted_dimensions": [
+        790,
+        1280
+      ],
+      "transmitted_bytes": 91508,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "84c5998c832bbecc0abfa0f8518042f979a7f732112dbe25196bc111faabc891"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1222869,
+  "response_id": "8acef584-fa19-4ac6-b787-611d58804e11",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1847,
+    "reasoning_content_chars": 2150
+  }
+}

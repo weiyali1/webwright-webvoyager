@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--6",
+  "website": "GitHub",
+  "task": "Search for an open-source project related to 'cryptocurrency wallet' updated in the past 30 days and provide the top three contributors.",
+  "task_record": "GitHub--6/GitHub--6_20261114_104748",
+  "task_definition_sha256": "c55af3817c6994fda45976db27b171b4c074aadad6b8f29fe4b47a3459b72fc2",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--6/GitHub--6_20261114_104748"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Selected open-source repository: dogecoin/dogecoin (a cryptocurrency wallet/coin project, updated within the past 30 days — Updated Nov 9, 2026, found via GitHub repository search for 'cryptocurrency wallet' with the dedicated 'Pushed to' last-updated filter set to >2026-10-15, i.e., past 30 days). Top three contributors (by total commits from the repository's contributors graph data): 1. laanwj (707 commits); 2. patricklodder (600 commits); 3. TheBlueMatt (306 commits).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_1_search_cryptocurrency_wallet.png",
+      "sha256": "895f712afb6d6660e95bb94541c147dae5ca493b167f1abc17c3dcf982e52b53"
+    },
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_2_advanced_last_updated_filter.png",
+      "sha256": "43a0de75fb020ce5aec21790c919f5c04f6ad95475825934018edb10ae997756"
+    },
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_3_filtered_results.png",
+      "sha256": "698e86d053795fad4b16461e5910ac36d3df6bf2e55caa5910aa57ecf7a8f39b"
+    },
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_4_selected_repo_updated.png",
+      "sha256": "6c9d958c5d1433fa29c3c8b342147eb7aba582b788111755e4c0bd387ca25f0b"
+    },
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_5_contributors_top_three.png",
+      "sha256": "a8c7f22d2f5975b785fb3629a579744c59d7792fb36369f9ad4c58bc8e313551"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "73a2574f1cb7c3c00a10d1b248baa2d2296d483ab0a3d5af0beecb579003eff4",
+  "fingerprint": "734c7d9901c320951de879d8e6af4c01d2103a9734cabee6dcb8a96f460997cd",
+  "evaluated_at": "2026-11-16T10:00:04.653861+00:00",
+  "status": "failure",
+  "predicted_label": 0,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task requirements (two parts):**\n1. Search for an open-source project related to 'cryptocurrency wallet' updated in the past 30 days.\n2. Provide the top three contributors of that project.\n\n**Part 1 — Search for the project: ✅ Satisfied**\n- Screenshot 1 shows a GitHub repository search for \"cryptocurrency wallet\".\n- Screenshot 2 shows the Advanced search with the \"Pushed to\" filter set to `>2026-10-15` (i.e., updated within the past 30 days).\n- Screenshot 3 shows the filtered results (477 results), with **dogecoin/dogecoin** at the top, \"Updated 5 days ago\" — satisfying the \"updated in the past 30 days\" requirement.\n\n**Part 2 — Top three contributors: ❌ Not satisfied**\n- Screenshot 5 shows the dogecoin/dogecoin **Insights → Contributors** page, with the period set to \"Last 3 months\". The ranked contributors clearly displayed are:\n  - **#1 chromatic — 12 commits**\n  - **#2 michilumin — 6 commits**\n  - **#3 mikeua — 4 commits**\n  - (followed by doersf — 1 commit, john-lnubook — 1 commit)\n- The Result Response, however, claims the top three contributors are **laanwj (707 commits), patricklodder (600 commits), TheBlueMatt (306 commits)**. None of these usernames or commit counts appear anywhere in the screenshots, and this ranking **directly contradicts** the contributors graph shown in Screenshot 5.\n- The response further asserts the data came \"from the repository's contributors graph data,\" but the contributors graph actually displayed in the screenshot shows a completely different ranking (chromatic first, not laanwj). This indicates the reported contributor list was not derived from the state of the page shown.\n\n**Applying the evaluation rules:** When the Result Response contradicts the screenshot, the content of the screenshot prevails. Here, the screenshot's contributors page contradicts the response's claimed top three contributors, so the response's contributor information must be rejected as unsupported/incorrect.\n\n**Conclusion:** While the search portion of the task was completed correctly (a cryptocurrency wallet–related repository, dogecoin/dogecoin, updated within the past 30 days was located), the second required deliverable — the top three contributors — was reported incorrectly and contradicts the visual evidence.\n\n## Verdict\n\n**NOT SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9103,
+    "completion_tokens": 8863,
+    "total_tokens": 17966,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8330
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:00:05.187362+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_1_search_cryptocurrency_wallet.png",
+      "source_sha256": "895f712afb6d6660e95bb94541c147dae5ca493b167f1abc17c3dcf982e52b53",
+      "source_bytes": 216196,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 200561,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "364ad099e2791267d8cf5ffbd0cd817b73a5a4e7aaabe4ed33100e09a5d87cd9"
+    },
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_2_advanced_last_updated_filter.png",
+      "source_sha256": "43a0de75fb020ce5aec21790c919f5c04f6ad95475825934018edb10ae997756",
+      "source_bytes": 97714,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 135596,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ce05f9b2b327f715c82ce9683205dc64e54d0b0951da1f8052dba5336170768b"
+    },
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_3_filtered_results.png",
+      "source_sha256": "698e86d053795fad4b16461e5910ac36d3df6bf2e55caa5910aa57ecf7a8f39b",
+      "source_bytes": 207662,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 195704,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1100e3f58d2c862cb5749fcd5662a52f4311a99392b4c8e22d3e03cf9e38bde8"
+    },
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_4_selected_repo_updated.png",
+      "source_sha256": "6c9d958c5d1433fa29c3c8b342147eb7aba582b788111755e4c0bd387ca25f0b",
+      "source_bytes": 248303,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 224119,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7ea39b1b31d36f0abf6b13425bc6c2596e05a16659490934e8a5ef89510a072d"
+    },
+    {
+      "path": "GitHub--6/GitHub--6_20261114_104748/final_runs/run_001/screenshots/final_execution_5_contributors_top_three.png",
+      "source_sha256": "a8c7f22d2f5975b785fb3629a579744c59d7792fb36369f9ad4c58bc8e313551",
+      "source_bytes": 117247,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 147427,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e48da76b6e370b64b83b6af3fbc551a267099866684375041dbecf0efd88c483"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1208040,
+  "response_id": "15d3237c-836c-4560-bc9c-b16ad35db371",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2320,
+    "reasoning_content_chars": 36527
+  }
+}

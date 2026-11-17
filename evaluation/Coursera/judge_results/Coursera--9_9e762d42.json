@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--9",
+  "website": "Coursera",
+  "task": "Identify a Coursera course on artificial intelligence ethics that has a duration of less than 20 hours to complete and has been rated 4+ stars by participants.",
+  "task_record": "Coursera--9/Coursera--9_20261114_074255",
+  "task_definition_sha256": "1d5d883bb34d868669c11d46b0b5a275daf36cf834e0e7418718f22302271c3c",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--9/Coursera--9_20261114_074255"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Identified Coursera course: 'Generative AI: Impact, Considerations, and Ethical Issues' offered by IBM. Rating: 4.8/5 stars (347 reviews). Duration: 6 hours to complete (< 20 hours). URL: https://www.coursera.org/learn/generative-ai-ethical-considerations-and-implications",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_2_search_results.png",
+      "sha256": "6824b571101255643f52723038bce31b5f176f1a3519caeaa53fd167c211a039"
+    },
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_3_learning_product_expanded.png",
+      "sha256": "cd6b93ea903b01bc011a09c93440755ae21734733254d35912c6fdfc13181b61"
+    },
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_4_courses_filter_applied.png",
+      "sha256": "158be363e8ee780655a27fae9735ec53c4716bc674e184d81ad6e40240ea2e96"
+    },
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_5_course_page.png",
+      "sha256": "92f8f0af571966f0eed96b93f68f7b3e9aeb89a1021d994a1f7e75ca439ca207"
+    },
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_6_course_page_full.png",
+      "sha256": "687cf056dc383eea9dd0e1d746c9fa815d66346914cc07bb586fcd0b2d15b95b"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "5ee9f23892056395b467cc1b77dca5b181192d1cb21ea759231e6bf98faf4b6e",
+  "fingerprint": "e1865ea2c0f986d9c215a048ac2035f45da3a4e4f871c9d6ecb56aabe68760eb",
+  "evaluated_at": "2026-11-16T10:00:27.281074+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task required identifying a Coursera course on **artificial intelligence ethics** that meets two criteria:\n1. Duration of **less than 20 hours** to complete\n2. Rated **4+ stars** by participants\n\n## Verification Against Screenshots\n\n**Screenshot 1 (Search Results):** Shows Coursera search results for \"artificial intelligence ethics\" with multiple course options, including \"Generative AI: Impact, Considerations, and Ethical Issues\" by IBM displaying a 4.8 rating (347 reviews).\n\n**Screenshots 2-3 (Filtering):** The Learning Product filter was opened and \"Courses\" was selected, appropriately narrowing results to actual courses (excluding specializations, projects, etc.).\n\n**Screenshot 4 (Course Detail Page):** This is the critical verification screenshot for the IBM course \"Generative AI: Impact, Considerations, and Ethical Issues,\" which confirms:\n- **Rating:** 4.8 ★ with 347 reviews — exceeds the 4+ stars requirement ✓\n- **Duration:** \"Flexible schedule — 6 hours to complete\" — well under the 20-hour limit ✓\n- **Topic relevance:** The course covers AI ethics, with skills listed including Data Ethics, Responsible AI, Accountability, Ethical Standards And Conduct, Information Privacy, and learning objectives about \"ethical issues, concerns, and misuses associated with generative AI\" ✓\n- **Provider:** IBM, Beginner level ✓\n\n**Screenshot 5:** Full course page view further corroborating the course details.\n\n## Assessment of Response\nThe result response accurately states the course name, provider (IBM), rating (4.8/5 with 347 reviews), and duration (6 hours), all of which match the screenshot evidence exactly. The URL provided is consistent with the course page visited.\n\nAll three task criteria (AI ethics topic, <20 hours duration, 4+ star rating) are satisfied and verified by the screenshots.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6991,
+    "completion_tokens": 1035,
+    "total_tokens": 8026,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 619
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:00:28.008212+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_2_search_results.png",
+      "source_sha256": "6824b571101255643f52723038bce31b5f176f1a3519caeaa53fd167c211a039",
+      "source_bytes": 949228,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 304910,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b6dd4f9dc75df6d31533c71a79c8360fb662360348d3a6281bd9d5e930a926ad"
+    },
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_3_learning_product_expanded.png",
+      "source_sha256": "cd6b93ea903b01bc011a09c93440755ae21734733254d35912c6fdfc13181b61",
+      "source_bytes": 933048,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 300897,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "07b7bfa38b25e4c250ca9a83f5741e4215b3347a5b639f33d02b7342aa2e9eae"
+    },
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_4_courses_filter_applied.png",
+      "source_sha256": "158be363e8ee780655a27fae9735ec53c4716bc674e184d81ad6e40240ea2e96",
+      "source_bytes": 897327,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 285790,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "39c1597571664877f313fe9cc408c729c37284b958da68da49f1571fc69dfdb1"
+    },
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_5_course_page.png",
+      "source_sha256": "92f8f0af571966f0eed96b93f68f7b3e9aeb89a1021d994a1f7e75ca439ca207",
+      "source_bytes": 205267,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 193181,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d962b4858c730a14d92fca7522fec865ae58a21febde3e72182f1bd0bc1f3829"
+    },
+    {
+      "path": "Coursera--9/Coursera--9_20261114_074255/final_runs/run_001/screenshots/final_execution_6_course_page_full.png",
+      "source_sha256": "687cf056dc383eea9dd0e1d746c9fa815d66346914cc07bb586fcd0b2d15b95b",
+      "source_bytes": 666051,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        7836
+      ],
+      "transmitted_dimensions": [
+        207,
+        1280
+      ],
+      "transmitted_bytes": 38909,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9298f01825fe8ca718c669010d19250f06420d719210e63fa4e1dd67415c2a69"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1501562,
+  "response_id": "bc3c25a2-b1e8-4444-8a37-377ef1a63d7d",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1889,
+    "reasoning_content_chars": 2543
+  }
+}

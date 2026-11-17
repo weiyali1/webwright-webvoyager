@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--24",
+  "website": "Coursera",
+  "task": "Locate an online course on Coursera related to 'Sustainability' that belongs to Physical Science and Engineering subject. The course should include a module on Measuring Sustainability. Note the course duration and the offering institution.",
+  "task_record": "Coursera--24/Coursera--24_20261114_132636",
+  "task_definition_sha256": "c7c16d7ca0d470acce14349fa867925eefc65f23a5113500529ff29226ed19ba",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--24/Coursera--24_20261114_132636"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Course: Introduction to Sustainability (https://www.coursera.org/learn/sustainability), found via Coursera search for 'Sustainability' with the Physical Science and Engineering subject filter applied. It includes a module named 'Measuring Sustainability'. Duration: 3 weeks to complete at 10 hours a week. Offering institution: University of Illinois Urbana-Champaign.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_2_filter_checked.png",
+      "sha256": "961125b9941990353d518e81882d888f356694481230c2a11ea9f35468f549c0"
+    },
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_2_filtered_results.png",
+      "sha256": "6d8b274ace04925d5db2a780bb13f32c6d62773b04191ac0b28043730af9cdbd"
+    },
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_3_course_page.png",
+      "sha256": "ac62fbb605e43b22c5c0da72046b4601cd4b2e2652d3b959b1079fb9cee4be05"
+    },
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_4_measuring_module.png",
+      "sha256": "04c941e8a6b0f55626ba79ce4bcaf82dd0ee142e6dfdaab2bafc9f94ce385b37"
+    },
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_5_duration_institution.png",
+      "sha256": "ac62fbb605e43b22c5c0da72046b4601cd4b2e2652d3b959b1079fb9cee4be05"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "c3870ccb9c2ef0373370cfa6f31337c0a7656bf20d6a6ac3859aea96ddda1497",
+  "fingerprint": "4c0d83ae493fbfe032cd75681675776a859941c822dccb5fc2b839b15cbc864f",
+  "evaluated_at": "2026-11-16T10:05:35.871638+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Locate a Coursera course related to 'Sustainability' ✓\n2. Course must belong to Physical Science and Engineering subject ✓\n3. Course must include a module on Measuring Sustainability ✓\n4. Note the course duration ✓\n5. Note the offering institution ✓\n\n**Verification against screenshots:**\n\n1. **Search & Subject Filter**: Screenshots 1 and 2 show the Coursera search results for \"Sustainability\" with the \"Physical Science and Engineering\" filter checkbox checked (445 results) and the filter chip applied (\"Filter & Sort (1)\"). The first result is \"Introduction to Sustainability\" by University of Illinois Urbana-Champaign.\n\n2. **Course Subject Confirmation**: The course page (screenshots 3 and 5) shows the breadcrumb \"Physical Science and Engineering > Environmental Science and Sustainability\", confirming the course belongs to the required subject area.\n\n3. **Measuring Sustainability Module**: Screenshot 4 clearly displays the course modules, including \"Measuring Sustainability\" (4 hours to complete), among the 8 modules listed.\n\n4. **Course Duration**: Screenshot 3 shows \"3 weeks to complete at 10 hours a week\", which matches the response exactly.\n\n5. **Offering Institution**: Screenshot 4 shows the \"Offered by\" section with \"University of Illinois Urbana-Champaign\", and the instructor Dr. Jonathan Tomkin is affiliated with the same institution. This matches the response.\n\n**Response Consistency**: The result response accurately reflects all information visible in the screenshots — course name, module inclusion, duration (3 weeks at 10 hours/week), and offering institution (University of Illinois Urbana-Champaign). There are no discrepancies between the response and the screenshots.\n\nAll task components have been successfully completed and verified.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9069,
+    "completion_tokens": 959,
+    "total_tokens": 10028,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 579
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:05:36.468250+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_2_filter_checked.png",
+      "source_sha256": "961125b9941990353d518e81882d888f356694481230c2a11ea9f35468f549c0",
+      "source_bytes": 953905,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 339800,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c7e3fdbfbaaab34d1f0a03aa564996e2266a2c44f45f12038f19195038a0476f"
+    },
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_2_filtered_results.png",
+      "source_sha256": "6d8b274ace04925d5db2a780bb13f32c6d62773b04191ac0b28043730af9cdbd",
+      "source_bytes": 1033919,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 352518,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5045daae8d7eb164bac9ab627e85a1442825a11bf5269958b202fd0e0d8b2407"
+    },
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_3_course_page.png",
+      "source_sha256": "ac62fbb605e43b22c5c0da72046b4601cd4b2e2652d3b959b1079fb9cee4be05",
+      "source_bytes": 188932,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 204142,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d3366e34722e1b4bc032b4d53f5125c68f2b2c703697e8def5d5a28885f99705"
+    },
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_4_measuring_module.png",
+      "source_sha256": "04c941e8a6b0f55626ba79ce4bcaf82dd0ee142e6dfdaab2bafc9f94ce385b37",
+      "source_bytes": 169912,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 179656,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "935b311a28d91b6b99b9d5fd69e4db0bc6cd5011de46f57e35ef9ac6faf038b2"
+    },
+    {
+      "path": "Coursera--24/Coursera--24_20261114_132636/final_runs/run_003/screenshots/final_execution_5_duration_institution.png",
+      "source_sha256": "ac62fbb605e43b22c5c0da72046b4601cd4b2e2652d3b959b1079fb9cee4be05",
+      "source_bytes": 188932,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 204142,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d3366e34722e1b4bc032b4d53f5125c68f2b2c703697e8def5d5a28885f99705"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1710503,
+  "response_id": "ddd2e2c6-6b4a-4ae9-a981-0bffba0acc91",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1850,
+    "reasoning_content_chars": 2790
+  }
+}

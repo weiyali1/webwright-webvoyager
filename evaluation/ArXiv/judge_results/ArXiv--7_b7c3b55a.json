@@ -1,0 +1,374 @@
+{
+  "task_id": "ArXiv--7",
+  "website": "ArXiv",
+  "task": "Find the most recent paper submitted on machine learning in the Computer Science category posted on ArXiv.",
+  "task_record": "ArXiv--7/ArXiv--7_20261113_003307",
+  "task_definition_sha256": "928d2679db225ca83ed02466eccc7d4c31be6f06fa755244912c378ca65cb043",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "ArXiv--7/ArXiv--7_20261113_003307"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The most recent machine learning paper in the Computer Science category (cs.LG) on ArXiv is 'An ensemble of graph generative models for assisted history matching of the Brugge field case' (arXiv:2611.12927, https://arxiv.org/abs/2611.12927), by Gleb Shishaev, Anton Shirokov, Shadfar Davoodi, Mohammed Al-Shargabi, Vasily Demyanov, Daniel Arnold, submitted on 3 Nov 2026.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_1_homepage_cs_category.png",
+      "sha256": "01c7573f0c5afc0e55b9e82287565a1de850aeca5b8ff9513a4d81814431bb79"
+    },
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_2_csLG_machine_learning_category.png",
+      "sha256": "9bc0810991ef40b9f6e51d3f729c9104c30ac96c680766fe2a11cbe47ba0deeb"
+    },
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_3_csLG_new_listings.png",
+      "sha256": "796108f8705b4a1547090393907a152cb8fc836c7e7f1bee4654014ca9a84bd3"
+    },
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_4_first_paper_abstract.png",
+      "sha256": "1d97191dcc5f224678576a85ea54c3cc17356249dfe0abb1e53c9e90b88746a7"
+    },
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_5_final_state_new_listings.png",
+      "sha256": "796108f8705b4a1547090393907a152cb8fc836c7e7f1bee4654014ca9a84bd3"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "1c775792423f9710929c309d1962a8c0968206b0b7cf62fa5b2e942604986164",
+  "fingerprint": "f575893237896b4b72885f2f4a8e1d9a749acec7bb58f956e2bb5a5789218cf7",
+  "evaluated_at": "2026-11-16T12:19:44.412458+00:00",
+  "status": "api_error",
+  "predicted_label": null,
+  "judge_reasoning": "",
+  "api_attempts": 4,
+  "response_model": null,
+  "usage": {},
+  "error": "TimeoutError: The read operation timed out",
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T12:19:45.133837+00:00",
+      "outcome": "error",
+      "error": "TimeoutError: The read operation timed out",
+      "http_status": null,
+      "retryable": true,
+      "retry_wait_seconds": 2.0
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-16T12:24:47.504942+00:00",
+      "outcome": "error",
+      "error": "TimeoutError: The read operation timed out",
+      "http_status": null,
+      "retryable": true,
+      "retry_wait_seconds": 4.0
+    },
+    {
+      "attempt": 3,
+      "started_at": "2026-11-16T12:29:51.836237+00:00",
+      "outcome": "error",
+      "error": "TimeoutError: The read operation timed out",
+      "http_status": null,
+      "retryable": true,
+      "retry_wait_seconds": 8.0
+    },
+    {
+      "attempt": 4,
+      "started_at": "2026-11-16T12:35:00.116540+00:00",
+      "outcome": "error",
+      "error": "TimeoutError: The read operation timed out",
+      "http_status": null,
+      "retryable": true
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_1_homepage_cs_category.png",
+      "source_sha256": "01c7573f0c5afc0e55b9e82287565a1de850aeca5b8ff9513a4d81814431bb79",
+      "source_bytes": 258182,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 366785,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "215132e5068cd51e72fe93cd559cf5241231003251038cdd8fae4c40becc3f1a"
+    },
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_2_csLG_machine_learning_category.png",
+      "source_sha256": "9bc0810991ef40b9f6e51d3f729c9104c30ac96c680766fe2a11cbe47ba0deeb",
+      "source_bytes": 262925,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 319994,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "20141a38f897adb45bf23aeb88d777280c83591ca21e8eda0728922004df5df6"
+    },
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_3_csLG_new_listings.png",
+      "source_sha256": "796108f8705b4a1547090393907a152cb8fc836c7e7f1bee4654014ca9a84bd3",
+      "source_bytes": 332585,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 520779,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b48a9b30e2c6eb3a88508b012cff26c4aea7de0c385182db9c9150f7317d2b93"
+    },
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_4_first_paper_abstract.png",
+      "source_sha256": "1d97191dcc5f224678576a85ea54c3cc17356249dfe0abb1e53c9e90b88746a7",
+      "source_bytes": 166218,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 232614,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "416bfe049aead4e1932fac7eee340293f1281b6a20286d40ea3d3375cd13415b"
+    },
+    {
+      "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_5_final_state_new_listings.png",
+      "source_sha256": "796108f8705b4a1547090393907a152cb8fc836c7e7f1bee4654014ca9a84bd3",
+      "source_bytes": 332585,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 520779,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b48a9b30e2c6eb3a88508b012cff26c4aea7de0c385182db9c9150f7317d2b93"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2617956,
+  "http_status": null,
+  "retryable": true,
+  "previous_infrastructure_errors": [
+    {
+      "evaluated_at": "2026-11-16T10:02:18.531455+00:00",
+      "status": "api_error",
+      "error": "TimeoutError: The read operation timed out",
+      "api_attempts": 4,
+      "api_attempt_history": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-16T10:02:19.069776+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 2.0
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-16T10:07:21.397875+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 4.0
+        },
+        {
+          "attempt": 3,
+          "started_at": "2026-11-16T10:12:25.751256+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 8.0
+        },
+        {
+          "attempt": 4,
+          "started_at": "2026-11-16T10:17:34.102898+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true
+        }
+      ]
+    },
+    {
+      "evaluated_at": "2026-11-16T10:42:43.189940+00:00",
+      "status": "api_error",
+      "error": "TimeoutError: The read operation timed out",
+      "api_attempts": 4,
+      "api_attempt_history": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-16T10:42:43.806723+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 2.0
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-16T10:47:46.137615+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 4.0
+        },
+        {
+          "attempt": 3,
+          "started_at": "2026-11-16T10:52:50.492285+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 8.0
+        },
+        {
+          "attempt": 4,
+          "started_at": "2026-11-16T10:57:58.821859+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true
+        }
+      ]
+    },
+    {
+      "evaluated_at": "2026-11-16T11:19:08.022849+00:00",
+      "status": "api_error",
+      "error": "TimeoutError: The read operation timed out",
+      "api_attempts": 1,
+      "api_attempt_history": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-16T11:19:08.636559+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true
+        }
+      ]
+    },
+    {
+      "evaluated_at": "2026-11-16T11:55:43.362915+00:00",
+      "status": "api_error",
+      "error": "TimeoutError: The read operation timed out",
+      "api_attempts": 4,
+      "api_attempt_history": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-16T11:55:44.077287+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 2.0
+        },
+        {
+          "attempt": 2,
+          "started_at": "2026-11-16T12:00:46.482138+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 4.0
+        },
+        {
+          "attempt": 3,
+          "started_at": "2026-11-16T12:05:50.838879+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true,
+          "retry_wait_seconds": 8.0
+        },
+        {
+          "attempt": 4,
+          "started_at": "2026-11-16T12:10:59.205957+00:00",
+          "outcome": "error",
+          "error": "TimeoutError: The read operation timed out",
+          "http_status": null,
+          "retryable": true
+        }
+      ]
+    }
+  ]
+}

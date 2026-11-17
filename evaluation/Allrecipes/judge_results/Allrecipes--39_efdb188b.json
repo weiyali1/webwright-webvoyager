@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--39",
+  "website": "Allrecipes",
+  "task": "Locate a recipe for sushi rolls on Allrecipes with a minimum of 20 reviews. Show the Nutrition Facts and the main ingredients. Tell me how to store these rolls.",
+  "task_record": "Allrecipes--39/Allrecipes--39_20261113_123324",
+  "task_definition_sha256": "52d1966379240a7edb59d6ea053a94ea9c05c5622337658e597dd714894ae8b4",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--39/Allrecipes--39_20261113_123324"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Recipe: Smoked Salmon Sushi Roll — https://www.allrecipes.com/recipe/19511/smoked-salmon-sushi-roll/ (69 reviews, 113 ratings, exceeding the minimum of 20 reviews). Nutrition Facts (per serving): 291 Calories, 7g Fat, 45g Carbs, 11g Protein; full label: Servings Per Recipe 6, Total Carbohydrate 45g (16% DV), Dietary Fiber 4g (14% DV), Total Sugars 0g, Protein 11g (22% DV), Total Fat 7g (9% DV), Saturated Fat 1g (6% DV), Cholesterol 9mg (3% DV). Main ingredients: 2 cups Japanese sushi rice, 6 tablespoons rice wine vinegar, 6 sheets nori (dry seaweed), 2 tablespoons wasabi paste, 8 ounces smoked salmon cut into long strips, 1 cucumber peeled and sliced, 1 avocado peeled/pitted/sliced. How to store these rolls: best served right away, but they can be refrigerated in an airtight container for up to two days.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_2_recipe_reviews.png",
+      "sha256": "63c879c268783710dd29a89cbf73ac030b1676c76a937ad8bf45e4a74c7b106e"
+    },
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_3_nutrition_facts.png",
+      "sha256": "5fb553ceb3151b7f497650ffb39e2f723ddd80e0a8cbb4d50b40a5d381771624"
+    },
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_4_ingredients.png",
+      "sha256": "77dc68f2ef6e09f1f6009540d8bbacb044380ceaaa345dc6bfde40ccbc2872c2"
+    },
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_5_storage.png",
+      "sha256": "1c0949d5d4df273957404556c78611756365bf4418efe93de7cd2373ac8adb02"
+    },
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "sha256": "2e016cc8df449444b3f909fd1591ada2b910eba1fad8392f75121636cc57516d"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e38c64c24c1ba88586f857a32532dde5edda7f757e4c3b5ea27a62d291579ab9",
+  "fingerprint": "e572cfdc837cacf572757cd53b8cd8f035c40d0a3805e74e4de496c70dce95ba",
+  "evaluated_at": "2026-11-16T10:18:19.668408+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Locate a sushi roll recipe on Allrecipes with a minimum of 20 reviews\n2. Show the Nutrition Facts\n3. Show the main ingredients\n4. Explain how to store the rolls\n\n**Verification against screenshots:**\n\n1. **Recipe with ≥20 reviews:** ✓ The first screenshot shows the \"Smoked Salmon Sushi Roll\" recipe page on Allrecipes with a 4.7-star rating (113 ratings) and **69 Reviews**, which clearly exceeds the minimum of 20 reviews requirement.\n\n2. **Nutrition Facts:** ✓ The second screenshot displays the Nutrition Facts section (per serving): 291 Calories, 7g Fat, 45g Carbs, 11g Protein, plus the full nutrition label (Servings Per Recipe: 6, Total Carbohydrate 45g/16% DV, Dietary Fiber 4g, Total Sugars 0g, Protein 11g/22% DV, Total Fat 7g/9% DV, Saturated Fat 1g, Cholesterol 9mg, Sodium 405mg, etc.). This matches the response exactly.\n\n3. **Main ingredients:** ✓ The screenshots show the \"Salmon Roll Ingredients\" section listing sushi rice, rice wine vinegar, seaweed, wasabi paste, smoked salmon, cucumber, and avocado. The response provides the full detailed ingredient list with quantities (2 cups sushi rice, 6 tbsp rice wine vinegar, 6 sheets nori, 2 tbsp wasabi paste, 8 oz smoked salmon, 1 cucumber, 1 avocado), which is consistent with the screenshot and not contradicted.\n\n4. **Storage instructions:** ✓ The third and fourth screenshots show the \"How to Store Salmon Rolls\" section stating: \"These salmon sushi rolls are best served right away, but you can refrigerate them in an airtight container for up to two days.\" This matches the response verbatim.\n\nAll components of the task were completed: the recipe was located with sufficient reviews, Nutrition Facts were shown, main ingredients were identified, and storage instructions were provided. There are no discrepancies between the response and the screenshots.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8305,
+    "completion_tokens": 1138,
+    "total_tokens": 9443,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 686
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:18:20.157286+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_2_recipe_reviews.png",
+      "source_sha256": "63c879c268783710dd29a89cbf73ac030b1676c76a937ad8bf45e4a74c7b106e",
+      "source_bytes": 747315,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 217565,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2a1ec00d2b2bf9b82c02413384c1fa9cc78a189362d910b6cf4ed2dba0095721"
+    },
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_3_nutrition_facts.png",
+      "source_sha256": "5fb553ceb3151b7f497650ffb39e2f723ddd80e0a8cbb4d50b40a5d381771624",
+      "source_bytes": 468054,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 218418,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "09802114a4a5756a485fa58f73ee0c3fddf8bfc3b1ef76ffc61882cea78cc4cb"
+    },
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_4_ingredients.png",
+      "source_sha256": "77dc68f2ef6e09f1f6009540d8bbacb044380ceaaa345dc6bfde40ccbc2872c2",
+      "source_bytes": 688552,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 243166,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5e54561d5117b356963d11a9abdcf7d64ad2e94a31122fa8eecd1ce757f4de1f"
+    },
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_5_storage.png",
+      "source_sha256": "1c0949d5d4df273957404556c78611756365bf4418efe93de7cd2373ac8adb02",
+      "source_bytes": 799501,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 257193,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9f0301246104bbabd12d421ae6ae0641d2de9664d4a8f270befac477c19ea3a0"
+    },
+    {
+      "path": "Allrecipes--39/Allrecipes--39_20261113_123324/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "2e016cc8df449444b3f909fd1591ada2b910eba1fad8392f75121636cc57516d",
+      "source_bytes": 823511,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 234016,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9a440042b2b2efa97b302d9d76d82d19c6e28ebd428abe631ca29bd7599d798f"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1564336,
+  "response_id": "5fcf2bad-58d4-4cbb-b6db-3c559e9b3cb2",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1904,
+    "reasoning_content_chars": 2760
+  }
+}

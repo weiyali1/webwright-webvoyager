@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--5",
+  "website": "Coursera",
+  "task": "Identify a Specialization on Coursera that teaches C++ programming for beginners, provide the name and what the learning outcomes are.",
+  "task_record": "Coursera--5/Coursera--5_20261114_061655",
+  "task_definition_sha256": "0f396d5331b0f0d6c26583bc05eade09385d38b219e7dbfd15f15e747a7f960a",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--5/Coursera--5_20261114_061655"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Specialization: Coding for Everyone: C and C++ (University of California, Santa Cruz, Beginner-level Specialization on Coursera). Learning outcomes: Write and debug code in C and C++ programming languages; Understand algorithms, and how to properly express them; plus related skills such as Artificial Intelligence, Memory Management, Programming Principles, Computer Programming, Object Oriented Programming (OOP), and Code Reusability.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp1_search_results.png",
+      "sha256": "9460acfd36bd1cad10383cbb2d0d925e87cfb6861b7ff699e642f19bc6dd46a6"
+    },
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp2_specializations_filter.png",
+      "sha256": "087652c5417ff3a394630b4f27fb39013b91b9585e5c035cc348b60164808719"
+    },
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp3_beginner_filter.png",
+      "sha256": "a1c5b52fe1ae839dfe2a1653759bba1d78af7660f321b91e23ca2722de853c04"
+    },
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp4_filtered_results.png",
+      "sha256": "a1c5b52fe1ae839dfe2a1653759bba1d78af7660f321b91e23ca2722de853c04"
+    },
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp5_specialization_page.png",
+      "sha256": "bd9e916001235054e154799798af4431808cd952765ca9057a2f562dd7645a07"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "92ec218bd024362a917d012b03284c3471180042fb1a9d1faef0fe4d4dbd6806",
+  "fingerprint": "7814b5e049ea6f1d3f5e3085ee1d35b5d4366c4ba600e203d2cdf058a7b43450",
+  "evaluated_at": "2026-11-16T09:58:52.410974+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Identify a Specialization on Coursera that teaches C++ programming for beginners\n2. Provide the name of the specialization\n3. Provide the learning outcomes\n\n**Screenshot Evidence:**\n\n- **Screenshot 1:** Shows Coursera search results for \"C++\" with several results, including \"Coding for Everyone: C and C++\" by University of California, Santa Cruz, labeled as \"Beginner · Specialization · 3-6 Months.\"\n- **Screenshot 2:** The \"Specializations\" filter has been applied, narrowing results to Specializations only — \"Coding for Everyone: C and C++\" (Beginner · Specialization) appears as the top result.\n- **Screenshots 3 & 4:** The \"Beginner\" level filter has additionally been applied (Filter & Sort shows 2 filters), confirming the specialization is both a Specialization and Beginner-level. \"Coding for Everyone: C and C++\" remains the top result.\n- **Screenshot 5:** Shows the detail page for \"Coding for Everyone: C and C++ Specialization\" from UC Santa Cruz, with a \"What you'll learn\" section visible, confirming the agent navigated to the specialization page to gather learning outcome details.\n\n**Response Evaluation:**\n\nThe response correctly identifies:\n- **Name:** \"Coding for Everyone: C and C++\" by University of California, Santa Cruz — verified as a Beginner-level Specialization in the screenshots.\n- **Learning outcomes:** Write and debug code in C and C++; understand algorithms and how to express them; plus related skills (Programming Principles, OOP, Memory Management, etc.). These align with the \"What you'll learn\" section shown on the specialization page in Screenshot 5, and per the evaluation rules, content in the response not explicitly visible in the screenshot should be believed.\n\nAll three components of the task (identifying a beginner C++ specialization, providing its name, and stating learning outcomes) are fulfilled, and the workflow shown in the screenshots (search → filter by Specializations → filter by Beginner → open specialization page) supports the response.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6626,
+    "completion_tokens": 1368,
+    "total_tokens": 7994,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 924
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:58:52.940933+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp1_search_results.png",
+      "source_sha256": "9460acfd36bd1cad10383cbb2d0d925e87cfb6861b7ff699e642f19bc6dd46a6",
+      "source_bytes": 495578,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 227282,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0f7c0129892c7321f27411b60699f332fc09f03914e1514179df51b769a6b20d"
+    },
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp2_specializations_filter.png",
+      "source_sha256": "087652c5417ff3a394630b4f27fb39013b91b9585e5c035cc348b60164808719",
+      "source_bytes": 326456,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 211826,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "65bf16215481e1a3c83990cc9dcc0a828c10e69d84ae5c5e3494a7e1b87be632"
+    },
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp3_beginner_filter.png",
+      "source_sha256": "a1c5b52fe1ae839dfe2a1653759bba1d78af7660f321b91e23ca2722de853c04",
+      "source_bytes": 566310,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 238218,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "43f22ac81f2b1dcfdf710285665a0272e33238486ea2113308e261ee6196de0d"
+    },
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp4_filtered_results.png",
+      "source_sha256": "a1c5b52fe1ae839dfe2a1653759bba1d78af7660f321b91e23ca2722de853c04",
+      "source_bytes": 566310,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 238218,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "43f22ac81f2b1dcfdf710285665a0272e33238486ea2113308e261ee6196de0d"
+    },
+    {
+      "path": "Coursera--5/Coursera--5_20261114_061655/final_runs/run_003/screenshots/cp5_specialization_page.png",
+      "source_sha256": "bd9e916001235054e154799798af4431808cd952765ca9057a2f562dd7645a07",
+      "source_bytes": 759578,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1351,
+        7861
+      ],
+      "transmitted_dimensions": [
+        220,
+        1280
+      ],
+      "transmitted_bytes": 41397,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d7637219c94f187bbff5e00af075882e872f31e50e8a85fab9bf366f47f9649a"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1279386,
+  "response_id": "ad67e784-80ac-4b98-ac35-f1d5019c5d3b",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2076,
+    "reasoning_content_chars": 4359
+  }
+}

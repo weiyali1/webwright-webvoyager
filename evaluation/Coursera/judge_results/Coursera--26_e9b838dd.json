@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--26",
+  "website": "Coursera",
+  "task": "Identify a Specialization on Coursera that offers an overview of 'Renewable Energy'. The Specialization should be beginner-level and include a course on Renewable Energy Futures. Note the instructor's name and the number of weeks required to complete the course if I spend 5 hours a week.",
+  "task_record": "Coursera--26/Coursera--26_20261114_141451",
+  "task_definition_sha256": "77c79350005d36b1b0ec1d8e1b062aa286450da4e75a1f600b8169626f4cba57",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--26/Coursera--26_20261114_141451"
+  ],
+  "final_run": "run_006",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: The matching beginner-level Specialization is 'Renewable Energy' offered by University of Colorado Boulder (https://www.coursera.org/specializations/renewable-energy). It includes the course 'Renewable Energy Futures' (Course 4). Instructor: Stephen R. Lawrence. The page lists 4 weeks to complete at 10 hours a week (40 hours total), so at 5 hours per week it requires 8 weeks.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_4_open_specialization.png",
+      "sha256": "53a54c3e2ff170e3f9db7f8393e6a28c4cdadb1c74d88c8635e075d15185f1ad"
+    },
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_5_specialization_page_full.png",
+      "sha256": "10b2ffcb6d1b1e955a3cba82cfa32f77d80f2b9cf08907c492c6dfcdbc7b0010"
+    },
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_6_instructor.png",
+      "sha256": "fd4dbb46f11f375108789fb70206e079ff26f65a00d0fa96664fcc8006ed29ec"
+    },
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_7_schedule.png",
+      "sha256": "fd4dbb46f11f375108789fb70206e079ff26f65a00d0fa96664fcc8006ed29ec"
+    },
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_8_final_state.png",
+      "sha256": "fd4dbb46f11f375108789fb70206e079ff26f65a00d0fa96664fcc8006ed29ec"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "81f71e0e04aec54c4e1596411462244cd217e406776f7151c8f1181db13830bd",
+  "fingerprint": "96b4c839eef674e270dffc35436b98374e4d0ae25ddd4ea9435e9ae871000f3b",
+  "evaluated_at": "2026-11-16T10:06:21.642940+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Identify a Coursera Specialization offering an overview of 'Renewable Energy'\n2. The Specialization must be **beginner-level**\n3. It must **include a course on Renewable Energy Futures**\n4. Note the **instructor's name**\n5. Note the **number of weeks to complete at 5 hours/week**\n\n## Verification Against Screenshots:\n\n**Screenshot 1 (Specialization page):**\n- ✅ \"Renewable Energy Specialization\" by University of Colorado Boulder is identified — matches the topic requirement\n- ✅ \"Beginner level\" is explicitly displayed on the page\n- ✅ Instructors: \"Stephen R. Lawrence +1 more\" — instructor name noted correctly\n- ✅ \"4 weeks to complete at 10 hours a week\" is displayed\n\n**Screenshot 2 (Full page view):**\n- ✅ The course series list shows 4 courses, with \"Renewable Energy Futures\" visible as the 4th course — confirming the specialization includes the required course\n\n**Calculation check:**\n- The page states 4 weeks at 10 hours/week = 40 total hours\n- At 5 hours/week: 40 ÷ 5 = **8 weeks** — the response's calculation is mathematically sound and correctly derived from the page information\n\n## Response Consistency:\nThe response accurately reflects the screenshot content:\n- Specialization name and provider ✓\n- Beginner level ✓\n- Inclusion of 'Renewable Energy Futures' course ✓\n- Instructor name (Stephen R. Lawrence) ✓\n- Weeks calculation at 5 hours/week (8 weeks) ✓\n\nAll task components have been addressed, and the information provided aligns with the visual evidence in the screenshots.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7586,
+    "completion_tokens": 1143,
+    "total_tokens": 8729,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 766
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:06:22.044215+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_4_open_specialization.png",
+      "source_sha256": "53a54c3e2ff170e3f9db7f8393e6a28c4cdadb1c74d88c8635e075d15185f1ad",
+      "source_bytes": 140714,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 239543,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b7a1aba7fd9e61211778b3bfcaee548b8a866f05f5612c7e26077043ae725594"
+    },
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_5_specialization_page_full.png",
+      "source_sha256": "10b2ffcb6d1b1e955a3cba82cfa32f77d80f2b9cf08907c492c6dfcdbc7b0010",
+      "source_bytes": 738940,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        7879
+      ],
+      "transmitted_dimensions": [
+        206,
+        1280
+      ],
+      "transmitted_bytes": 38541,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "15fd15281fb9b4a353a7b510b02c52fa2c63de1a701f998459aada9c801f2987"
+    },
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_6_instructor.png",
+      "source_sha256": "fd4dbb46f11f375108789fb70206e079ff26f65a00d0fa96664fcc8006ed29ec",
+      "source_bytes": 140715,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 239557,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "61fc6034e3652550437aae0a005cbd6849fc56e2e7bcc7fa3c74a6b5352fd257"
+    },
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_7_schedule.png",
+      "source_sha256": "fd4dbb46f11f375108789fb70206e079ff26f65a00d0fa96664fcc8006ed29ec",
+      "source_bytes": 140715,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 239557,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "61fc6034e3652550437aae0a005cbd6849fc56e2e7bcc7fa3c74a6b5352fd257"
+    },
+    {
+      "path": "Coursera--26/Coursera--26_20261114_141451/final_runs/run_006/screenshots/final_execution_8_final_state.png",
+      "source_sha256": "fd4dbb46f11f375108789fb70206e079ff26f65a00d0fa96664fcc8006ed29ec",
+      "source_bytes": 140715,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 239557,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "61fc6034e3652550437aae0a005cbd6849fc56e2e7bcc7fa3c74a6b5352fd257"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1332573,
+  "response_id": "66a2296b-b64c-454c-b7a7-f5ffa3b877c0",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1573,
+    "reasoning_content_chars": 3315
+  }
+}

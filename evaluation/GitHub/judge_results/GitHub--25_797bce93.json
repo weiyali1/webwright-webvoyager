@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--25",
+  "website": "GitHub",
+  "task": "Search for a 'virtual reality' related repository on GitHub updated in the last 10 days with at least 200 stars and summarize its main objective.",
+  "task_record": "GitHub--25/GitHub--25_20261115_101537",
+  "task_definition_sha256": "ef28e69c537229707eb27f535594f5c0c40b1822497c4cecdc7cbf544ea1f99b",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--25/GitHub--25_20261115_101537"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Repository: bjornbytes/lovr (https://github.com/bjornbytes/lovr) - 2600 stars, last updated 2026-11-14T22:39:14.000Z. Main objective: LÖVR (lovr) is a simple, lightweight, cross-platform Lua framework for rapidly building 3D games and virtual reality (VR) experiences. It supports any OpenXR-compatible headset (plus a keyboard/mouse VR simulator), runs on Windows, macOS, Linux and Android, and provides beginner-friendly Lua scripting on top of a fast C11 engine with optimized stereo rendering, glTF asset import, 3D rigid-body physics (JoltPhysics) and spatialized audio.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_2_fill_filters.png",
+      "sha256": "1107777edc2133807259a791e5c9d8d6647ca9393f7d2721b918bf42f46d8f0d"
+    },
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_3_submit_results.png",
+      "sha256": "9ba31ffdfcbd3bfa82beaaeb5ce133aba56e1cc9a6bcfadd6048e7ac3e95bef1"
+    },
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_4_open_repository.png",
+      "sha256": "1e62457d08a6ea11c03aebfaa62b2da9975cd7159a38db7ca7f33d7599e1c6cd"
+    },
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_5_repo_stars_update.png",
+      "sha256": "1e62457d08a6ea11c03aebfaa62b2da9975cd7159a38db7ca7f33d7599e1c6cd"
+    },
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_6_repo_about_readme.png",
+      "sha256": "d022195fc7e14f31107f877854f157c39ec3fdd0d9dc81fa38d44166df73abb7"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "f33a4b1b501367d425532d71907fc9cc7cd9e052dfa94fff5e73fce5959e746f",
+  "fingerprint": "b641b2439ff62067274765513d8a7539deac3c872eb6b597d2b0c139ea73f82d",
+  "evaluated_at": "2026-11-16T10:19:30.081861+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for a 'virtual reality' related repository on GitHub\n2. The repository must be updated in the last 10 days\n3. The repository must have at least 200 stars\n4. Summarize its main objective\n\n**Screenshot Verification:**\n\n1. **Screenshot 1 (Advanced Search):** Shows the GitHub Advanced search page with the query `virtual reality stars:>=200 pushed:>2026-11-05` entered. The \"With this many stars\" field contains `>=200` and the \"Pushed to\" field contains `> 2026-11-05`, correctly applying both the star count filter and the \"updated within last 10 days\" filter.\n\n2. **Screenshot 2 (Search Results):** Shows 4 results matching the criteria, including:\n   - bjornbytes/lovr — \"Lua Virtual Reality Framework\" — 2.6k stars — Updated 3 hours ago ✓\n   - Igalia/wolvic — 975 stars — Updated yesterday\n   - EyeTrackVR/EyeTrackVR — 1.2k stars — Updated 1 hour ago\n   - bigmak94/AstroQuest — 318 stars — Updated 14 hours ago\n   \n   All results are VR-related, have ≥200 stars, and were updated recently.\n\n3. **Screenshots 3-5 (Repository Page):** Show the bjornbytes/lovr repository page confirming:\n   - 2.6k stars (≥200 ✓), 178 forks\n   - Recent activity: commits \"4 hours ago\", \"Updated 3 hours ago\" (within last 10 days ✓)\n   - About: \"Lua Virtual Reality Framework\" (VR-related ✓)\n   - README: \"A simple Lua framework for rapidly building 3D games and VR experiences\"\n   - Features listed: Cross-Platform (Windows, macOS, Linux, Android), Cross-Device (OpenXR headsets + keyboard/mouse VR simulator), Beginner-friendly Lua, Fast (C11, single-pass stereo rendering), Asset Import (glTF), 3D Rigid Body Physics (JoltPhysics), Spatialized Audio (SteamAudio)\n\n**Response Verification:**\nThe response identifies bjornbytes/lovr with 2600 stars (consistent with \"2.6k\" shown on screenshot) and provides a summary of the main objective that accurately reflects the README content visible in the screenshots — a lightweight cross-platform Lua framework for building 3D games and VR experiences, supporting OpenXR headsets, with stereo rendering, glTF import, JoltPhysics, and spatialized audio.\n\nAll task components (search with correct filters, repository meeting star/update criteria, and objective summary) were completed successfully.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8208,
+    "completion_tokens": 1688,
+    "total_tokens": 9896,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1111
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:19:30.618751+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_2_fill_filters.png",
+      "source_sha256": "1107777edc2133807259a791e5c9d8d6647ca9393f7d2721b918bf42f46d8f0d",
+      "source_bytes": 112060,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 125265,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2f1d26efc490bad016e69fc2789302dd2e34f9fc70abeadda49a74cf02c6ede9"
+    },
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_3_submit_results.png",
+      "source_sha256": "9ba31ffdfcbd3bfa82beaaeb5ce133aba56e1cc9a6bcfadd6048e7ac3e95bef1",
+      "source_bytes": 138370,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 112858,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f546df54eecfd146f6b909180749f36ed344aeebc23fefc4580e9ed92a5ea68c"
+    },
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_4_open_repository.png",
+      "source_sha256": "1e62457d08a6ea11c03aebfaa62b2da9975cd7159a38db7ca7f33d7599e1c6cd",
+      "source_bytes": 500157,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 234190,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ef2aa88e5e0cd2808aa72e3d0e86a09a4e59cbebbfa36cff6495df92d14c725e"
+    },
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_5_repo_stars_update.png",
+      "source_sha256": "1e62457d08a6ea11c03aebfaa62b2da9975cd7159a38db7ca7f33d7599e1c6cd",
+      "source_bytes": 500157,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 234190,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ef2aa88e5e0cd2808aa72e3d0e86a09a4e59cbebbfa36cff6495df92d14c725e"
+    },
+    {
+      "path": "GitHub--25/GitHub--25_20261115_101537/final_runs/run_001/screenshots/final_execution_6_repo_about_readme.png",
+      "source_sha256": "d022195fc7e14f31107f877854f157c39ec3fdd0d9dc81fa38d44166df73abb7",
+      "source_bytes": 481985,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 224677,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a4e4430222332aaa368dc6e6f14bbebba7d4ea7d5fd820ea86f7276dc6d16ed9"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1245180,
+  "response_id": "2013f010-e584-473f-9de0-5a1cd2f23100",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2305,
+    "reasoning_content_chars": 4260
+  }
+}

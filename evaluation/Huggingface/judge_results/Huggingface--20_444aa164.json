@@ -1,0 +1,211 @@
+{
+  "task_id": "Huggingface--20",
+  "website": "Huggingface",
+  "task": "Locate a pre-trained natural language processing model on Hugging Face that specializes in named entity recognition (NER), confirm that the model was last updated in 2024 and has 1M+ downloads.",
+  "task_record": "Huggingface--20/Huggingface--20_20261115_094031",
+  "task_definition_sha256": "17e430b676c735c9dce6f76b9e23f248e18639d653b414ba5700803feaf5851b",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Huggingface--20/Huggingface--20_20261115_094031"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found pre-trained NER model on Hugging Face: dslim/bert-base-NER (https://huggingface.co/dslim/bert-base-NER). It specializes in Named Entity Recognition (Token Classification pipeline task). Downloads last month: 1,012,348 (>= 1,000,000, so 1M+ confirmed). Last updated: Oct 8, 2024 (2024-10-08); results card showed Updated Oct 8, 2024. Last update in 2024 confirmed.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_3_sort_downloads.png",
+      "sha256": "ff2d9aae18bab0b2f26c4fa5aa8ecf5c5d448f4416e2bf17ea93d665baa7a801"
+    },
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_4_model_page.png",
+      "sha256": "c05fa7bf4fcab9ac03afbc56fdefac705618ac7a8f3d7ac503a6c8e9c78e99aa"
+    },
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_5_downloads.png",
+      "sha256": "c05fa7bf4fcab9ac03afbc56fdefac705618ac7a8f3d7ac503a6c8e9c78e99aa"
+    },
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_6_commits.png",
+      "sha256": "2f7d77e0944d8410ff4e89098fce8cf34edb89ce53cbc8e7d95360da415444af"
+    },
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+      "sha256": "0a9160ad34ad8eac8f2a0a22d0ddf05de1365ec8ec50c5d23b8aeea8f5679fa4"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "de7613b6dc58303a691fcf336985b31b794da525f8552b1722707ed916d2373d",
+  "fingerprint": "608eef358feffa0621dfd40c7a55239dab70d739b711ff2d04096625da1a5ee9",
+  "evaluated_at": "2026-11-16T10:11:27.111508+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements Breakdown\nThe task required three things:\n1. **Locate a pre-trained NLP model on Hugging Face specializing in NER**\n2. **Confirm the model was last updated in 2024**\n3. **Confirm the model has 1M+ downloads**\n\n## Evidence Verification\n\n**Requirement 1 — NER specialization: ✅**\n- The first screenshot shows the Hugging Face Models page filtered by \"Token Classification\" (the task category for NER), where `dslim/bert-base-NER` appears in the results.\n- The model page screenshots confirm the model card explicitly states: \"bert-base-NER is a fine-tuned BERT model that is ready to use for **Named Entity Recognition** and achieves state-of-the-art performance for the NER task.\" It was fine-tuned on the CoNLL-2003 Named Entity Recognition dataset.\n\n**Requirement 2 — Last updated in 2024: ✅**\n- The models list screenshot shows \"Updated Oct 8, 2024\" next to dslim/bert-base-NER.\n- The Commit History screenshot (Files and versions tab) confirms the most recent commits occurred on **Oct 8, 2024** (\"Update README.md\" commits), with no commits after that date.\n\n**Requirement 3 — 1M+ downloads: ✅**\n- The model page shows \"Downloads last month: **1,012,348**\", which exceeds 1,000,000.\n- The models list also shows \"1.01M\" downloads for this model, consistent with the model page figure.\n\n## Consistency Check\nThe Result Response aligns with the screenshots: model name (dslim/bert-base-NER), download count (1,012,348), and last update date (Oct 8, 2024) all match the visual evidence. No contradictions exist between the response and the screenshots.\n\n## Conclusion\nAll three conditions of the task were satisfied and verified against the screenshots: the model specializes in NER, was last updated on Oct 8, 2024 (in 2024), and has 1,012,348 downloads (1M+).\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9104,
+    "completion_tokens": 905,
+    "total_tokens": 10009,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 439
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:11:27.606650+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_3_sort_downloads.png",
+      "source_sha256": "ff2d9aae18bab0b2f26c4fa5aa8ecf5c5d448f4416e2bf17ea93d665baa7a801",
+      "source_bytes": 663429,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 233376,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ec0c1bc94adcac79754ef71bb1227b86744541dd4fb71ee3fb84d944b48593c6"
+    },
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_4_model_page.png",
+      "source_sha256": "c05fa7bf4fcab9ac03afbc56fdefac705618ac7a8f3d7ac503a6c8e9c78e99aa",
+      "source_bytes": 299261,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 246552,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "28f50d4c769387581f3e50ddc2d7d218ea4895d3d7afa021fcbf1e1f70fa0d05"
+    },
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_5_downloads.png",
+      "source_sha256": "c05fa7bf4fcab9ac03afbc56fdefac705618ac7a8f3d7ac503a6c8e9c78e99aa",
+      "source_bytes": 299261,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 246552,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "28f50d4c769387581f3e50ddc2d7d218ea4895d3d7afa021fcbf1e1f70fa0d05"
+    },
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_6_commits.png",
+      "source_sha256": "2f7d77e0944d8410ff4e89098fce8cf34edb89ce53cbc8e7d95360da415444af",
+      "source_bytes": 225296,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 157998,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2d9427972b5181c90c7ffaea83e23d5c65aae1298ead215f2431dcb292c0ccd0"
+    },
+    {
+      "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+      "source_sha256": "0a9160ad34ad8eac8f2a0a22d0ddf05de1365ec8ec50c5d23b8aeea8f5679fa4",
+      "source_bytes": 299253,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 246581,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "fcbae2de44d1501b389fde63a98500e95e65abdd1bf2b83337645698dec698ae"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1511517,
+  "response_id": "75c10ab5-7b12-4b7b-8a93-f4dba7dc2285",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1828,
+    "reasoning_content_chars": 1688
+  }
+}

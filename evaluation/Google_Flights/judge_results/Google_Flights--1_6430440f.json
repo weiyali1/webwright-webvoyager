@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Flights--1",
+  "website": "Google Flights",
+  "task": "Show me the list of one-way flights on November 17, 2026 from Chicago to Paris.",
+  "task_record": "Google Flights--1/Google Flights--1_20261112_225109",
+  "task_definition_sha256": "f04c60a407b1bc0e9f04a5bbdaed3dd05a52d96b6918b1a960319374199391df",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Flights--1/Google Flights--1_20261112_225109"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Displayed the list of one-way flights on Tuesday, November 17, 2026 from Chicago to Paris on Google Flights. 10 results returned. Top one-way flight: 6:25 PM ORD -> 9:35 AM+1 CDG, 8 hr 10 min, Nonstop, Air France/Delta, from HK$4,068; results include Best/Cheapest sorting and an 'Other flights' section.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_2_origin_chicago.png",
+      "sha256": "09c07d30ef3dec1f09534cadbb323114b5f368391dd99464fbc509c69d27dac3"
+    },
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_3_destination_paris.png",
+      "sha256": "2007ba1c30ca9a9ac1986fd15be06c0d2c5d1c7e2938eae2cd976c83631376a5"
+    },
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_4_date_nov17_2026.png",
+      "sha256": "bb719c026b4f6814e2746507c9cbc20a35604602ba69e859a702c4ac46bff6e1"
+    },
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_5_results_list.png",
+      "sha256": "8af493e3a407de947b3ac8652d43e1acd0b6f38b4ee056bd5ddea9cc5544fe7d"
+    },
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_6_results_full.png",
+      "sha256": "c8ad0d069089ca748c2cc2f80e8216be554f354540e2e092d85cc2ac1e156e4c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "763c4762cb622da6859a8950957e77bf42b6b3bf2f231f7e2759aa6f04f8fd7e",
+  "fingerprint": "aa97d98501da0b510e808d81e55ce04be43123efcdae3b7a7e7d7b4c9b371d72",
+  "evaluated_at": "2026-11-16T09:56:52.083390+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for one-way flights\n2. From Chicago to Paris\n3. Departure date: November 17, 2026\n4. Display the flight list\n\n**Screenshot Verification:**\n\n1. **Screenshot 1:** Google Flights page with \"One way\" trip type selected and \"Chicago\" entered as the origin city. ✓\n\n2. **Screenshot 2:** \"Paris\" entered as the destination, with \"One way\" still selected. ✓\n\n3. **Screenshot 3:** The date picker is open with November 17 selected (highlighted in blue), and the date field shows \"Tue, Nov 17\". November 17, 2026 does fall on a Tuesday, and the page's copyright (©2026 Google) confirms the year context is 2026, so the selected date corresponds to November 17, 2026. ✓\n\n4. **Screenshots 4 & 5:** The flight results page displays:\n   - Search parameters confirmed: \"One way\", Chicago → Paris, Tue, Nov 17 ✓\n   - \"Top flights\" section with 3 flights (e.g., 6:25 PM – 9:35 AM+1, 8 hr 10 min, Nonstop, Air France · Delta, HK$4,068) ✓\n   - \"Other flights\" section with 7 additional flights (British Airways, Aer Lingus, United, Delta, American, Iberia) ✓\n   - Best/Cheapest sorting tabs (Cheapest from HK$4,068) ✓\n\n**Response Consistency Check:**\nThe result response accurately describes what is shown in the screenshots: one-way flights on Tuesday, November 17, 2026, from Chicago to Paris, with the top flight being 6:25 PM ORD → 9:35 AM+1 CDG, 8 hr 10 min, Nonstop, Air France/Delta, from HK$4,068. The \"10 results\" claim matches the 3 top flights + 7 other flights visible, with a \"View more flights\" option available. All details in the response align with the visual evidence.\n\nAll task requirements (one-way, Chicago to Paris, November 17, 2026, flight list displayed) have been fulfilled.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8098,
+    "completion_tokens": 1379,
+    "total_tokens": 9477,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 886
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:56:53.315238+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_2_origin_chicago.png",
+      "source_sha256": "09c07d30ef3dec1f09534cadbb323114b5f368391dd99464fbc509c69d27dac3",
+      "source_bytes": 335935,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 196677,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1575ab0701d74355bdc2ac8674344c2b093363c894dd4d26156bcfc481747983"
+    },
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_3_destination_paris.png",
+      "source_sha256": "2007ba1c30ca9a9ac1986fd15be06c0d2c5d1c7e2938eae2cd976c83631376a5",
+      "source_bytes": 335980,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 175565,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e53f249a9a5da789d158d598b26d29a598a37bc06af0a9a29d03e4534a56f02f"
+    },
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_4_date_nov17_2026.png",
+      "source_sha256": "bb719c026b4f6814e2746507c9cbc20a35604602ba69e859a702c4ac46bff6e1",
+      "source_bytes": 294437,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 190117,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e37366620c18039040862e6c4eefad93ba16a36442fe1667d5c2ae435d0943ce"
+    },
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_5_results_list.png",
+      "source_sha256": "8af493e3a407de947b3ac8652d43e1acd0b6f38b4ee056bd5ddea9cc5544fe7d",
+      "source_bytes": 264999,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 204474,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a87f6fa4be2b113b89d2f6a082fd2f1afd36dc7aa39a92c077304d2d7bcabeef"
+    },
+    {
+      "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_6_results_full.png",
+      "source_sha256": "c8ad0d069089ca748c2cc2f80e8216be554f354540e2e092d85cc2ac1e156e4c",
+      "source_bytes": 261634,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        1808
+      ],
+      "transmitted_dimensions": [
+        896,
+        1280
+      ],
+      "transmitted_bytes": 199921,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b35adf14128bb06b1e69e613d97d5c489cf5e11d0c56ff43d0148d12169e9109"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1292270,
+  "response_id": "a9d02f00-76ef-461f-81e7-be2f9e8d70f8",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1763,
+    "reasoning_content_chars": 3146
+  }
+}

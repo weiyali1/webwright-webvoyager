@@ -1,0 +1,220 @@
+{
+  "task_id": "GitHub--4",
+  "website": "GitHub",
+  "task": "Find a popular JavaScript repository created in the last 30 days on GitHub with a Readme file.",
+  "task_record": "GitHub--4/GitHub--4_20261114_094858",
+  "task_definition_sha256": "025473a2e375a3861f6b571ea5cbb29dd338ff3120ccdd2ce1db10563582b669",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--4/GitHub--4_20261114_094858"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Popular JavaScript repository created in the last 30 days (created:>=2026-10-15) with a README file: heydamir/unslop - https://github.com/heydamir/unslop - 15.7k stars (top result after filtering GitHub repository search by Language=JavaScript, created in the last 30 days, and sorting by Most stars; README rendered on the repository page).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_1_advanced_form.png",
+      "sha256": "c5cf39ab8c689a16cd10db8f26fdd915a9e589884645afd109558ecf05adab32"
+    },
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_2_filtered_results.png",
+      "sha256": "9308a6f0bcdfc224cc9e582a6026774d0bdcfa28d5f7bbbb50a1acb1ec1bbf25"
+    },
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_3_sorted_most_stars.png",
+      "sha256": "20bd267e87a17d53bea99a329ba9e31e3f0cf14f72aea6c1ecf06c74dcf344a1"
+    },
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_4_repo_page.png",
+      "sha256": "e7a378569d7462063cc8b3258b7af28a9a71230b8e51e9aa097af794ff1f6633"
+    },
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_5_readme.png",
+      "sha256": "682a175351dd508f22c33f73aad86695211958e62d95d29064c46dcd1fc5ea52"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "79b9c962b035f799e0c3cd6a54a09f38b6c4738fb0bc2c636aacb16816511480",
+  "fingerprint": "9b4062aabd1b2bbd44efb619df46cb9c3f73afea6491784cc18925d8a6b93f87",
+  "evaluated_at": "2026-11-16T09:58:44.271009+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\n1. Find a **popular** JavaScript repository on GitHub\n2. Created in the **last 30 days**\n3. Has a **Readme file**\n\n## Verification Against Screenshots\n\n**Screenshot 1 (Advanced Search Setup):** Shows the GitHub Advanced search page with the query `created:>=2026-10-15 language:JavaScript` — the \"Created on the dates\" field is set to `>=2026-10-15` and \"Written in this language\" is set to JavaScript. This correctly filters for repositories created within the last 30 days in JavaScript.\n\n**Screenshot 2 (Search Results - Best match):** Shows repository search results with the filter `created:>=2026-10-1...` applied. The top result is **heydamir/unslop** — JavaScript, 15.7k stars, updated 5 days ago.\n\n**Screenshot 3 (Search Results - Most stars):** The results are sorted by \"Most stars,\" and **heydamir/unslop** remains the top result with 15.7k stars, confirming it is the most popular JavaScript repository matching the creation-date filter.\n\n**Screenshot 4 (Repository Page):** Confirms all criteria:\n- Repository: heydamir/unslop (Public)\n- **15.7k stars**, 901 forks — clearly popular\n- **Languages: JavaScript 100%**\n- **README.md** is present in the file listing, and the README is fully rendered on the page (title \"unslop\", description, images)\n- Recent activity (commits 5 days ago, 2 weeks ago) consistent with a recently created repo\n\n**Screenshot 5:** Further confirms the README content is rendered (Install, Use sections).\n\n## Conclusion\nAll three requirements are satisfied: the repository is popular (15.7k stars, top result when sorted by most stars), it is JavaScript (100%), it was filtered by creation date within the last 30 days (`created:>=2026-10-15`), and it has a README.md that is rendered on the repository page. The response accurately matches the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 2,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9746,
+    "completion_tokens": 1180,
+    "total_tokens": 10926,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 726
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:58:44.828751+00:00",
+      "outcome": "error",
+      "error": "HTTP 429: Too many requests",
+      "http_status": 429,
+      "retryable": true,
+      "retry_wait_seconds": 30.0
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-11-16T09:59:16.038144+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_1_advanced_form.png",
+      "source_sha256": "c5cf39ab8c689a16cd10db8f26fdd915a9e589884645afd109558ecf05adab32",
+      "source_bytes": 98789,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1380,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1104,
+        1280
+      ],
+      "transmitted_bytes": 137291,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "483f6b9d9552f7e55728ac7e92f1e7eab7e8e78514fb402d49a5398618ff72ab"
+    },
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_2_filtered_results.png",
+      "source_sha256": "9308a6f0bcdfc224cc9e582a6026774d0bdcfa28d5f7bbbb50a1acb1ec1bbf25",
+      "source_bytes": 229068,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1380,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1104,
+        1280
+      ],
+      "transmitted_bytes": 226518,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3b09d993b12584afc5b92b119ae46ac7b3119f5e3150164395b4a539264baae0"
+    },
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_3_sorted_most_stars.png",
+      "source_sha256": "20bd267e87a17d53bea99a329ba9e31e3f0cf14f72aea6c1ecf06c74dcf344a1",
+      "source_bytes": 228918,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1380,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1104,
+        1280
+      ],
+      "transmitted_bytes": 226525,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "fe6ec51c0b4f13d6b2e442cb0900160d2bad4390cf9be5e953e2b2910623783d"
+    },
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_4_repo_page.png",
+      "source_sha256": "e7a378569d7462063cc8b3258b7af28a9a71230b8e51e9aa097af794ff1f6633",
+      "source_bytes": 411815,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1380,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1104,
+        1280
+      ],
+      "transmitted_bytes": 260956,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4d7798417c17e1adef8df575a176b80c60c8365ca9f40e48e922cc1181f4b7d7"
+    },
+    {
+      "path": "GitHub--4/GitHub--4_20261114_094858/final_runs/run_002/screenshots/final_execution_5_readme.png",
+      "source_sha256": "682a175351dd508f22c33f73aad86695211958e62d95d29064c46dcd1fc5ea52",
+      "source_bytes": 368515,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1380,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1104,
+        1280
+      ],
+      "transmitted_bytes": 246596,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "03d1fd992e1c576baa7841728ef8bf7f660b3fec14c7a1d254e9474d8a7dc487"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1467166,
+  "response_id": "85887b73-439c-4ae4-b88f-9d9c73a79e2b",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1863,
+    "reasoning_content_chars": 2798
+  }
+}

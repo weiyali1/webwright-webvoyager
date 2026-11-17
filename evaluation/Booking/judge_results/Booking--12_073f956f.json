@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--12",
+  "website": "Booking",
+  "task": "Find a hotel in Paris with a customer review score of 8 or higher, free Wi-Fi, and available for a 5-night stay starting on January 5th, 2027.",
+  "task_record": "Booking--12/Booking--12_20261113_032555",
+  "task_definition_sha256": "36bedb68e8919893f06724a51a47e3b075c57bef0d2599c7e6d4767ec6ba72d9",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--12/Booking--12_20261113_032555"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found a hotel in Paris meeting all requirements: Aparthotel Adagio Paris Haussmann Champs Elysées (customer review score 8.5, >= 8), with free Wi-Fi, available for a 5-night stay from Tue Jan 5 to Sun Jan 10, 2027. Filters 'Very Good: 8+' and 'Free Wifi' are applied on the Booking.com Paris results page.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_2_dates_jan5_jan10_2027.png",
+      "sha256": "7a3a0a91ec26b77013adc75b1964e0a9b3589e4dc7db640cd59fc82898023847"
+    },
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_3_results_loaded.png",
+      "sha256": "7a3a0a91ec26b77013adc75b1964e0a9b3589e4dc7db640cd59fc82898023847"
+    },
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_4_review_score_8plus_filter.png",
+      "sha256": "d8f129c6f2d073a2e3d5bcfd3b2c138f0d1c3a7307fb96af3aabbd6d7ae3c6fb"
+    },
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_5_free_wifi_filter.png",
+      "sha256": "a56677713af8a31c03375d6e933d2621842b45351541f9963cd5f08540c6a78d"
+    },
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_6_final_filtered_results.png",
+      "sha256": "775a9c03bed5a05b18d9fb714eee3575ed2dac1fdf9cdde87ea637d19b0dca0b"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "684d313cdf300bec5a82a0fda5285eb40d719c809bb3e5fe0b6168d65aec564b",
+  "fingerprint": "f5d50e766a94440ccdd5873a07db86bddb2930f382c25ca696e23fe76c072b64",
+  "evaluated_at": "2026-11-16T10:02:23.846754+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Hotel in Paris\n2. Customer review score of 8 or higher\n3. Free Wi-Fi\n4. Available for a 5-night stay starting January 5th, 2027\n\n**Screenshot Verification:**\n\n1. **Destination & Dates:** The search bar shows \"Paris\" as the destination and dates \"Tue, Jan 5 — Sun, Jan 10\" — this is a 5-night stay. Jan 5, 2027 falls on a Tuesday, which is consistent with the displayed \"Tue, Jan 5,\" confirming the 2027 dates.\n\n2. **Filter Progression:**\n   - Screenshots 1–2: Initial search results (6,622 properties) with no filters applied.\n   - Screenshot 3: \"Very Good: 8+\" filter checkbox is checked and the filter chip appears at the top (3,716 properties found).\n   - Screenshots 4–5: Both \"Very Good: 8+\" and \"Free Wifi\" filters are checked with corresponding filter chips visible (3,578 properties found).\n\n3. **Hotel Identified:** The top result is **Aparthotel Adagio Paris Haussmann Champs Elysées** with:\n   - Review score: **8.5 \"Very Good\"** (≥ 8 ✓)\n   - Free Wi-Fi guaranteed by the applied \"Free Wifi\" filter ✓\n   - Availability shown: \"Studio (2 Adults), 5 nights, 2 adults, US$926\" with \"We have 7 left at this price\" and a \"See availability\" button, confirming availability for the 5-night stay ✓\n\n**Response Consistency:** The result response accurately matches the screenshots — the hotel name, review score (8.5), applied filters ('Very Good: 8+' and 'Free Wifi'), and the stay dates (Tue Jan 5 – Sun Jan 10) all align with the visual evidence.\n\nAll task requirements have been satisfied: a Paris hotel with a review score above 8, free Wi-Fi, and availability for the specified 5-night stay was successfully found.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8158,
+    "completion_tokens": 1157,
+    "total_tokens": 9315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 701
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:02:24.438272+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_2_dates_jan5_jan10_2027.png",
+      "source_sha256": "7a3a0a91ec26b77013adc75b1964e0a9b3589e4dc7db640cd59fc82898023847",
+      "source_bytes": 735480,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 276377,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2267992c3a13babe87cbd1015352f5995a6e16be38d3e0b2438a8459ea3b91a2"
+    },
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_3_results_loaded.png",
+      "source_sha256": "7a3a0a91ec26b77013adc75b1964e0a9b3589e4dc7db640cd59fc82898023847",
+      "source_bytes": 735480,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 276377,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2267992c3a13babe87cbd1015352f5995a6e16be38d3e0b2438a8459ea3b91a2"
+    },
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_4_review_score_8plus_filter.png",
+      "source_sha256": "d8f129c6f2d073a2e3d5bcfd3b2c138f0d1c3a7307fb96af3aabbd6d7ae3c6fb",
+      "source_bytes": 852165,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 291772,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ff23275f25346bda642c9d80eb93d1608c45ddfc15ea4188337e379848b74785"
+    },
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_5_free_wifi_filter.png",
+      "source_sha256": "a56677713af8a31c03375d6e933d2621842b45351541f9963cd5f08540c6a78d",
+      "source_bytes": 854666,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 293805,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "474c40fb6c91952a0a9151db5476843d666ada0f9151c0fd0934b54b5b41f403"
+    },
+    {
+      "path": "Booking--12/Booking--12_20261113_032555/final_runs/run_002/screenshots/final_execution_6_final_filtered_results.png",
+      "source_sha256": "775a9c03bed5a05b18d9fb714eee3575ed2dac1fdf9cdde87ea637d19b0dca0b",
+      "source_bytes": 854653,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 293767,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "019d54f7ef15f469884f148a4ec7ba992f7d8a5da40e601566dbf1f2adeb07f1"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1912795,
+  "response_id": "c65496a1-4e9e-4c2c-9fc5-c4e9dbb43265",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1697,
+    "reasoning_content_chars": 2467
+  }
+}

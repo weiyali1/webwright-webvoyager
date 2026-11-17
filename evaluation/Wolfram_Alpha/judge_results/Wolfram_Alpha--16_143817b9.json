@@ -1,0 +1,181 @@
+{
+  "task_id": "Wolfram Alpha--16",
+  "website": "Wolfram Alpha",
+  "task": "Weight lose for a male with current weight 90 kg, 40 year old, 175 cm. If he intakes 1500 calories every day, how long will it take to lose 17 kg.",
+  "task_record": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256",
+  "task_definition_sha256": "91c7468b0de95f01b6851436ff60b22c5ec487b92ec9686bfd2fd9d2597ff783",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "It will take 3 months 6 days (about 98 days) to lose 17 kg for a 40-year-old male (current weight 90 kg, height 175 cm) intaking 1500 calories per day, per Wolfram Alpha's weight loss regimen duration result (sedentary activity level).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256/final_runs/run_003/screenshots/final_execution_1_input_query.png",
+      "sha256": "440ec208766b51c5f161cd16665efa54abab88410b32e3d38d240c125e9ab99b"
+    },
+    {
+      "path": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256/final_runs/run_003/screenshots/final_execution_2_interpretation_pod.png",
+      "sha256": "37708af9bed61a265883533fd17333eb817ad4ded4c9824169eecdc19d8006d6"
+    },
+    {
+      "path": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256/final_runs/run_003/screenshots/final_execution_3_duration_result.png",
+      "sha256": "37708af9bed61a265883533fd17333eb817ad4ded4c9824169eecdc19d8006d6"
+    },
+    {
+      "path": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256/final_runs/run_003/screenshots/final_execution_4_final_state.png",
+      "sha256": "79c6c53057d173884982945d51990c4f8c792c7a746aed02d8fd8da58512188a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "f67ac64976dbd74f42e81e126de872747320664fd2ac2898e86f46661f08e2be",
+  "fingerprint": "176cc8e1641e9503a55fa09a4bf197548241f7efb6be3b6bb07e5d128b606a55",
+  "evaluated_at": "2026-11-16T10:03:59.617663+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task required calculating how long it would take for a 40-year-old male (90 kg, 175 cm) to lose 17 kg while consuming 1500 calories per day.\n\n## Screenshot Analysis\n\n**Screenshot 1:** Shows the Wolfram Alpha homepage with the query correctly entered: \"weight loss, current weight 90 kg, weight loss 17 kg, 1500 cal/day, male, 40 years old, 175 cm\" — all parameters from the task are included.\n\n**Screenshots 2 & 3:** Show the results page with the \"Input information\" table confirming all parameters were correctly interpreted:\n- gender: male ✓\n- age: 40 years ✓\n- height: 175 cm ✓\n- current body weight: 90 kg ✓\n- target weight loss: 17 kg ✓\n- caloric intake: 1500 Cal/d ✓\n- physical activity level: sedentary\n\nCritically, the **\"Weight loss regimen duration\"** section displays: *\"intake 1500 Cal/d for **3 months 6 days** to lose 17 kg with a sedentary activity level\"*\n\n**Screenshot 4:** Shows the full results page including the weight loss progress chart (90 kg → 73 kg target), caloric intake comparisons, and required caloric intake tables, confirming the computation was fully processed.\n\n## Response Verification\nThe result response states: \"It will take 3 months 6 days (about 98 days) to lose 17 kg...\" — this directly matches the answer shown in the screenshot (\"3 months 6 days\"). The \"about 98 days\" conversion is a reasonable approximation of 3 months 6 days.\n\n## Conclusion\nThe query was correctly formulated with all required parameters (male, 40 years old, 175 cm, 90 kg current weight, 17 kg target loss, 1500 cal/day), the computation was executed on Wolfram Alpha, and the answer reported in the response matches the screenshot exactly.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6343,
+    "completion_tokens": 978,
+    "total_tokens": 7321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 550
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:59.901280+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256/final_runs/run_003/screenshots/final_execution_1_input_query.png",
+      "source_sha256": "440ec208766b51c5f161cd16665efa54abab88410b32e3d38d240c125e9ab99b",
+      "source_bytes": 114673,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 182859,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "24768e66bea63f3e85768266ea71fda8aa00110bbc897ede2987c1de769dec38"
+    },
+    {
+      "path": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256/final_runs/run_003/screenshots/final_execution_2_interpretation_pod.png",
+      "source_sha256": "37708af9bed61a265883533fd17333eb817ad4ded4c9824169eecdc19d8006d6",
+      "source_bytes": 157848,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 167078,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "01f47ab0b443f83c1efbff95d6c466ccd06a0b48d6c8a1d43b4ebfd3aafd7ba8"
+    },
+    {
+      "path": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256/final_runs/run_003/screenshots/final_execution_3_duration_result.png",
+      "source_sha256": "37708af9bed61a265883533fd17333eb817ad4ded4c9824169eecdc19d8006d6",
+      "source_bytes": 157848,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 167078,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "01f47ab0b443f83c1efbff95d6c466ccd06a0b48d6c8a1d43b4ebfd3aafd7ba8"
+    },
+    {
+      "path": "Wolfram Alpha--16/Wolfram Alpha--16_20261114_052256/final_runs/run_003/screenshots/final_execution_4_final_state.png",
+      "source_sha256": "79c6c53057d173884982945d51990c4f8c792c7a746aed02d8fd8da58512188a",
+      "source_bytes": 387855,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1273,
+        3349
+      ],
+      "transmitted_dimensions": [
+        487,
+        1280
+      ],
+      "transmitted_bytes": 78158,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "01ebbac3603163c55b2e10d3518406bef3aa381df4dc52489d4f1fb9540e69fa"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 796752,
+  "response_id": "1128e2f6-01d8-49c6-be94-9b927dc94853",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1728,
+    "reasoning_content_chars": 2083
+  }
+}

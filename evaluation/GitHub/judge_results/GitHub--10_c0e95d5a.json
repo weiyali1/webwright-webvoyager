@@ -1,0 +1,181 @@
+{
+  "task_id": "GitHub--10",
+  "website": "GitHub",
+  "task": "If I start using Copilot Individual, how much US dollars will it cost per year and what features does it have?",
+  "task_record": "GitHub--10/GitHub--10_20261114_121607",
+  "task_definition_sha256": "773ab534a7fe879037c8ad3b9aedd469cbd7ced4f22c3107ab17892510a0696b",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--10/GitHub--10_20261114_121607"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Copilot Individual (now called Copilot Pro) costs $100 USD per year. GitHub's current plans page lists Copilot Pro at $10 USD per user per month. Features include: unlimited code completions and next edit suggestions, Copilot Chat in the IDE, on GitHub.com, and on mobile, access to Copilot in the cloud and code review, access to 3rd party agents (Claude Code and Codex), model selection, a monthly AI credits allowance ($15 monthly total credits for Pro), and broad IDE support (GitHub, VS Code, Visual Studio, Xcode, JetBrains IDEs, Neovim, Eclipse, Raycast, SQL Server Management Studio, and Zed).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--10/GitHub--10_20261114_121607/final_runs/run_002/screenshots/cp1_plans_page.png",
+      "sha256": "e2eeca4da3662a7a5149b4bb385f7250af375bf8095c6aa586b34731f6d37405"
+    },
+    {
+      "path": "GitHub--10/GitHub--10_20261114_121607/final_runs/run_002/screenshots/cp2_individual_plans.png",
+      "sha256": "e2eeca4da3662a7a5149b4bb385f7250af375bf8095c6aa586b34731f6d37405"
+    },
+    {
+      "path": "GitHub--10/GitHub--10_20261114_121607/final_runs/run_002/screenshots/cp3_pro_price.png",
+      "sha256": "e2eeca4da3662a7a5149b4bb385f7250af375bf8095c6aa586b34731f6d37405"
+    },
+    {
+      "path": "GitHub--10/GitHub--10_20261114_121607/final_runs/run_002/screenshots/cp4_pro_features.png",
+      "sha256": "e2eeca4da3662a7a5149b4bb385f7250af375bf8095c6aa586b34731f6d37405"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "473bdd1bd9b77a1eb24e7e45a2421d0fab34293e81b294e7df1b2f6220fe6b6f",
+  "fingerprint": "c89c68ae4fab15148b25eba226d89649016548c0218915e66c9836f4f1dbaeb5",
+  "evaluated_at": "2026-11-16T10:04:13.300184+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Identify the cost per year in USD for Copilot Individual\n2. Identify the features of that plan\n\n**Screenshot Evidence:**\n- The GitHub Copilot pricing page is shown with the \"For individuals\" tab selected, which is the correct context for the \"Copilot Individual\" question.\n- The plans displayed are: Free ($0), Pro ($10 USD per user/month), Pro+ ($39), and Max ($100). The individual plan formerly known as \"Copilot Individual\" is now labeled \"Pro.\"\n- The Pro plan features visible in the screenshot include: access to Copilot in the cloud and code review, unlimited code completion and next edit suggestions, access to 3rd party agents (Claude Code and Codex), model selection, and $15 monthly total credits for Pro.\n- The page also shows platform availability icons for various IDEs.\n\n**Response Consistency Check:**\n- The response correctly maps \"Copilot Individual\" to the current \"Copilot Pro\" plan and states it costs $100 USD per year (with $10 USD per user/month, which matches the screenshot exactly).\n- The $100/year annual price is not explicitly displayed on the screenshot, but per the evaluation rules, content in the response not shown on the screenshot should be believed — and this is consistent with GitHub's known annual billing option ($10/month billed monthly, $100/year billed annually). There is no contradiction with the screenshot, which only shows the monthly rate.\n- The features listed in the response (unlimited code completions/next edit suggestions, Copilot in the cloud and code review, 3rd party agents, model selection, $15 monthly credits) directly match the Pro column in the screenshot. Additional details (Copilot Chat in IDE/GitHub.com/mobile, IDE support list) are not contradicted and align with the platform icons shown.\n\n**Conclusion:**\nBoth parts of the task are addressed: the annual cost ($100 USD/year) and a comprehensive feature list consistent with the screenshot. The response is accurate, complete, and aligns with the visual evidence.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6680,
+    "completion_tokens": 2180,
+    "total_tokens": 8860,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1741
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:13.695985+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "GitHub--10/GitHub--10_20261114_121607/final_runs/run_002/screenshots/cp1_plans_page.png",
+      "source_sha256": "e2eeca4da3662a7a5149b4bb385f7250af375bf8095c6aa586b34731f6d37405",
+      "source_bytes": 229713,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 172132,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "020ad37821010803ef1112ac79533fc97a9c9b69f06675f2699120b50fe4b831"
+    },
+    {
+      "path": "GitHub--10/GitHub--10_20261114_121607/final_runs/run_002/screenshots/cp2_individual_plans.png",
+      "source_sha256": "e2eeca4da3662a7a5149b4bb385f7250af375bf8095c6aa586b34731f6d37405",
+      "source_bytes": 229713,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 172132,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "020ad37821010803ef1112ac79533fc97a9c9b69f06675f2699120b50fe4b831"
+    },
+    {
+      "path": "GitHub--10/GitHub--10_20261114_121607/final_runs/run_002/screenshots/cp3_pro_price.png",
+      "source_sha256": "e2eeca4da3662a7a5149b4bb385f7250af375bf8095c6aa586b34731f6d37405",
+      "source_bytes": 229713,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 172132,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "020ad37821010803ef1112ac79533fc97a9c9b69f06675f2699120b50fe4b831"
+    },
+    {
+      "path": "GitHub--10/GitHub--10_20261114_121607/final_runs/run_002/screenshots/cp4_pro_features.png",
+      "source_sha256": "e2eeca4da3662a7a5149b4bb385f7250af375bf8095c6aa586b34731f6d37405",
+      "source_bytes": 229713,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 172132,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "020ad37821010803ef1112ac79533fc97a9c9b69f06675f2699120b50fe4b831"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 921578,
+  "response_id": "f3e9bf3d-fce7-4e77-91a1-15f1d535334c",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2059,
+    "reasoning_content_chars": 7754
+  }
+}

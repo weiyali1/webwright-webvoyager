@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--34",
+  "website": "Allrecipes",
+  "task": "Locate a baked salmon recipe on Allrecipes that has at least 50 reviews and a rating of 4.5 stars or higher. Note the primary seasoning or herb used and the estimated cooking time.",
+  "task_record": "Allrecipes--34/Allrecipes--34_20261113_110530",
+  "task_definition_sha256": "3717cecd182951b5b73cc1d8a6001208c671ff9e90db479318a3f2c752b2e27a",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--34/Allrecipes--34_20261113_110530"
+  ],
+  "final_run": "run_005",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Located a qualifying baked salmon recipe on Allrecipes: Baked Dijon Salmon (https://www.allrecipes.com/recipe/21176/baked-dijon-salmon/). It has a 4.6-star rating from 3,746 ratings, satisfying the requirements of at least 4.5 stars and at least 50 reviews. The primary seasoning/herb used is Dijon mustard (3 tablespoons in the ingredient list). The estimated cooking time is 15 mins (total time 30 mins).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_1_search_results.png",
+      "sha256": "295defe56c654a6f10a5ec7f2636b4d8493698825b1338fa9ef1db1a15d8a318"
+    },
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_2_recipe_page_rating.png",
+      "sha256": "5c0fd492fc19917f51182c94d96663e8350a4a871dfed257832dddbcb277197f"
+    },
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_3_ingredients.png",
+      "sha256": "44b156bd7247fdce4029e105547e70a704417f648b0105cb4a594fd0ec087e15"
+    },
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_4_cook_time.png",
+      "sha256": "3edfaf959acaa7a5e9a50fbca06d971228f96f368760d35506ccca0a57fbb949"
+    },
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_5_final_state.png",
+      "sha256": "3edfaf959acaa7a5e9a50fbca06d971228f96f368760d35506ccca0a57fbb949"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "cd2f7d7f732f810d5bd383fc3581310dd5bfc3553f1053e7fa62bfc2c08210bf",
+  "fingerprint": "8482133235d709d91bbb01a80dc34cc16cbd4be22500ee167cd0e8db787ae276",
+  "evaluated_at": "2026-11-16T10:16:36.108124+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Locate a baked salmon recipe on Allrecipes\n2. Recipe must have at least 50 reviews\n3. Recipe must have a rating of 4.5 stars or higher\n4. Note the primary seasoning or herb used\n5. Note the estimated cooking time\n\n**Verification against screenshots:**\n\n1. **Baked salmon recipe located**: The first screenshot shows search results for \"baked salmon\" on Allrecipes, and the subsequent screenshots show the recipe page for \"Baked Dijon Salmon\" — clearly a baked salmon recipe. ✓\n\n2. **Review count requirement (≥50)**: The recipe page shows \"4.6 (3,746)\" ratings and \"2,685 Reviews\" — both far exceed the minimum of 50 reviews. ✓\n\n3. **Rating requirement (≥4.5 stars)**: The recipe page displays a 4.6-star rating, which satisfies the 4.5+ threshold. ✓\n\n4. **Primary seasoning/herb noted**: The ingredients screenshot shows \"3 tablespoons Dijon mustard\" along with other ingredients (butter, honey, bread crumbs, pecans, parsley). The response correctly identifies Dijon mustard as the primary seasoning, which is consistent with the recipe's title (\"Baked Dijon Salmon\") and its description (\"tangy, slightly sweet mustard crust\"). ✓\n\n5. **Estimated cooking time noted**: The recipe page clearly shows Prep Time: 15 mins, Cook Time: 15 mins, Total Time: 30 mins. The response accurately reports the cooking time as 15 mins (with total time of 30 mins). ✓\n\n**Consistency check**: The response content aligns with the screenshots — the recipe name, rating (4.6), ratings count (3,746), Dijon mustard quantity (3 tablespoons), and time figures (15 mins cook, 30 mins total) all match the visual evidence. No contradictions were found.\n\nAll components of the task were completed accurately and verified against the screenshots.\n\n## Final Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9098,
+    "completion_tokens": 927,
+    "total_tokens": 10025,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 493
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:16:36.542224+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "295defe56c654a6f10a5ec7f2636b4d8493698825b1338fa9ef1db1a15d8a318",
+      "source_bytes": 1230718,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 315552,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "83db19dbc5832e81b782d1376eb4c21b11393fa0712a7910d389d152ba13b189"
+    },
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_2_recipe_page_rating.png",
+      "source_sha256": "5c0fd492fc19917f51182c94d96663e8350a4a871dfed257832dddbcb277197f",
+      "source_bytes": 410121,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 173196,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "28625776652e42be3d6b9250199bcdafca06c1b4b764687df53d2a362ef8bc19"
+    },
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_3_ingredients.png",
+      "source_sha256": "44b156bd7247fdce4029e105547e70a704417f648b0105cb4a594fd0ec087e15",
+      "source_bytes": 178543,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 132642,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9b7b5549cbd0a9a748e5ee90b0a311ab3accd3dcfd32d263f68d3a527d79e67f"
+    },
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_4_cook_time.png",
+      "source_sha256": "3edfaf959acaa7a5e9a50fbca06d971228f96f368760d35506ccca0a57fbb949",
+      "source_bytes": 368058,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 188855,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4f0ea179209a8941ab8f8a52859c2e92fd71bbd3f5e3c56a3778b96ad708eeab"
+    },
+    {
+      "path": "Allrecipes--34/Allrecipes--34_20261113_110530/final_runs/run_005/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "3edfaf959acaa7a5e9a50fbca06d971228f96f368760d35506ccca0a57fbb949",
+      "source_bytes": 368058,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 188855,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4f0ea179209a8941ab8f8a52859c2e92fd71bbd3f5e3c56a3778b96ad708eeab"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1335597,
+  "response_id": "3719baf0-f976-4607-83a7-87a66e95f9b3",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1803,
+    "reasoning_content_chars": 1900
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "task_id": "Allrecipes--26",
+  "website": "Allrecipes",
+  "task": "Search for a high-protein vegetarian chili recipe on Allrecipes that has at least 50 reviews and a rating of 4 stars or higher. Provide the ingredient list, cooking time, and a brief description of the cooking steps.",
+  "task_record": "Allrecipes--26/Allrecipes--26_20261113_082938",
+  "task_definition_sha256": "49cf630a4f5bf1218fc1c22a51f33675ad5bb34b663f94a7ced4e4b55dfd74a1",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--26/Allrecipes--26_20261113_082938"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Recipe: Meatiest Vegetarian Chili from Your Slow Cooker (https://www.allrecipes.com/recipe/132394/meatiest-vegetarian-chili-from-your-slow-cooker/) — Rating: 4.6 stars, 232 reviews (meets ≥4 stars and ≥50 reviews). High-protein vegetarian chili with 21g protein per serving from tofu and black beans.\n\nINGREDIENTS: 1/2 cup olive oil; 4 onions, chopped; 2 green bell peppers, seeded and chopped; 2 red bell peppers, seeded and chopped; 1 (14 oz) package firm tofu, drained and cubed; 4 cloves garlic, minced; 4 (15.5 oz) cans black beans, drained; 2 (15 oz) cans crushed tomatoes; 6 tablespoons chili powder; 2 tablespoons dried oregano; 2 tablespoons distilled white vinegar; 1 tablespoon liquid hot pepper sauce (e.g., Tabasco); 2 teaspoons ground cumin; 2 teaspoons salt; 1/2 teaspoon ground black pepper.\n\nCOOKING TIME: Prep 25 mins; Cook 6 hrs 15 mins; Total 6 hrs 40 mins.\n\nCOOKING STEPS (brief): 1) Heat olive oil in a large skillet over medium-high heat; sauté onions until softening, then add bell peppers, cubed tofu, and garlic and cook until vegetables are lightly browned and tender (~10 minutes). 2) Place drained black beans in a slow cooker, add the tofu-vegetable mixture and crushed tomatoes, stir in chili powder, oregano, vinegar, hot pepper sauce, cumin, salt, and pepper; cover and cook on Low for 6 to 8 hours.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--26/Allrecipes--26_20261113_082938/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "sha256": "07763b6f11f37790d16086d2dafa6a02f9b527ad680273a1d7040b34ae502165"
+    },
+    {
+      "path": "Allrecipes--26/Allrecipes--26_20261113_082938/final_runs/run_001/screenshots/final_execution_2_recipe_page.png",
+      "sha256": "84a28eca864e30776e08bfb297d3d0e0c9974e9373d3a9558c9071b426040894"
+    },
+    {
+      "path": "Allrecipes--26/Allrecipes--26_20261113_082938/final_runs/run_001/screenshots/final_execution_3_ingredients.png",
+      "sha256": "3cac858ae7fac74f2297e9c1dde1b29b9504e782d8ee18273b173dd55b2d1418"
+    },
+    {
+      "path": "Allrecipes--26/Allrecipes--26_20261113_082938/final_runs/run_001/screenshots/final_execution_4_directions.png",
+      "sha256": "bbdd98b861248b7383f6ddc87c8e0e99a5d418c483dea917dabda77f936e2f82"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "7c3767038027c841a45c9b0c5df69df9eda706f677f5d758d63bef8768471a1b",
+  "fingerprint": "75d22bde002645099122752d6921801e13100204df4bfe221389fc35776e0ce8",
+  "evaluated_at": "2026-11-16T10:14:24.397819+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements Breakdown:\n1. **Search for a high-protein vegetarian chili recipe on Allrecipes** with ≥50 reviews and ≥4 stars rating\n2. **Provide the ingredient list**\n3. **Provide the cooking time**\n4. **Provide a brief description of the cooking steps**\n\n## Verification Against Screenshots:\n\n**Screenshot 1 (Search Results):** Shows a search performed on Allrecipes for \"high protein vegetarian chili\" with multiple relevant results, including \"Meatiest Vegetarian Chili from Your Slow Cooker\" (346 ratings, ~4.5 stars visible).\n\n**Screenshots 2 & 3 (Recipe Page):** Confirm the selected recipe \"Meatiest Vegetarian Chili from Your Slow Cooker\" has:\n- Rating: **4.6 stars** (meets ≥4 stars requirement) ✓\n- **232 Reviews** (meets ≥50 reviews requirement) ✓\n- Prep Time: 25 mins, Cook Time: 6 hrs 15 mins, Total Time: 6 hrs 40 mins ✓ (matches response)\n\n**Screenshot 4 (Ingredients & Directions):** Shows the ingredient list (onions, bell peppers, tofu, garlic, black beans, crushed tomatoes, chili powder, oregano, vinegar, hot pepper sauce, cumin, salt, black pepper) and the two-step directions, plus Nutrition Facts showing **21g protein per serving** — confirming it's genuinely high-protein.\n\n## Cross-Checking the Response:\n- **Recipe selection criteria:** 4.6 stars, 232 reviews — both requirements satisfied ✓\n- **Ingredient list:** Matches the screenshot exactly; the \"1/2 cup olive oil\" mentioned first in the response is not contradicted (likely just above the visible scroll area, and Step 1 references heating oil) ✓\n- **Cooking time:** Prep 25 mins, Cook 6 hrs 15 mins, Total 6 hrs 40 mins — matches screenshot ✓\n- **Cooking steps:** The brief 2-step summary accurately condenses the Directions shown in the screenshot (sauté vegetables/tofu, then slow cook with beans and seasonings on Low for 6–8 hours) ✓\n- **High-protein claim:** 21g protein per serving verified in Nutrition Facts ✓\n\nAll components of the task — search, recipe selection meeting criteria, ingredients, cooking time, and cooking steps — are complete and consistent with the screenshots.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7655,
+    "completion_tokens": 1461,
+    "total_tokens": 9116,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 950
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:14:24.794230+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Allrecipes--26/Allrecipes--26_20261113_082938/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "07763b6f11f37790d16086d2dafa6a02f9b527ad680273a1d7040b34ae502165",
+      "source_bytes": 1246625,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 340916,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "64cd8d70a7b197ad489624d2d3eb05288460821730a677c6ab21e21847ed45b8"
+    },
+    {
+      "path": "Allrecipes--26/Allrecipes--26_20261113_082938/final_runs/run_001/screenshots/final_execution_2_recipe_page.png",
+      "source_sha256": "84a28eca864e30776e08bfb297d3d0e0c9974e9373d3a9558c9071b426040894",
+      "source_bytes": 845538,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 231609,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9f10d3f0a18b11d6470ed0b19a454dad760fcad5e72c815f5052446034c37f8b"
+    },
+    {
+      "path": "Allrecipes--26/Allrecipes--26_20261113_082938/final_runs/run_001/screenshots/final_execution_3_ingredients.png",
+      "source_sha256": "3cac858ae7fac74f2297e9c1dde1b29b9504e782d8ee18273b173dd55b2d1418",
+      "source_bytes": 1120558,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 261220,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "072fda34e30aa16061b94c131de5416d1e02161f31d3bed2e108c9cdf31fc323"
+    },
+    {
+      "path": "Allrecipes--26/Allrecipes--26_20261113_082938/final_runs/run_001/screenshots/final_execution_4_directions.png",
+      "source_sha256": "bbdd98b861248b7383f6ddc87c8e0e99a5d418c483dea917dabda77f936e2f82",
+      "source_bytes": 172459,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 161332,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "db79b41c66124ff88e38f8ab4e4c62b05cb55e7301567aeef7b477cb7d2584a9"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1331140,
+  "response_id": "8d2f4da1-e006-4071-8d04-6ce278722313",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2129,
+    "reasoning_content_chars": 3768
+  }
+}

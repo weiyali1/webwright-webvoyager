@@ -1,0 +1,181 @@
+{
+  "task_id": "Wolfram Alpha--17",
+  "website": "Wolfram Alpha",
+  "task": "Show the average price of movie ticket in Providence, Nashville, Boise in 2023.",
+  "task_record": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230",
+  "task_definition_sha256": "fd2e8243ddd24bd1fdc00177b00b8fe1dd8c6b853457feb4bf32178d0f344dcd",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Average movie ticket prices in 2023: Providence: $14.37, Nashville: $13.30, Boise: $11.60 (from WolframAlpha results, based on C2ER retail price survey).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230/final_runs/run_002/screenshots/final_execution_1_query_filled.png",
+      "sha256": "9f5e2ba35b8ae3a9629d8343c49a3c0c5e4199b1ca11a3ccf4444d1df127c9a1"
+    },
+    {
+      "path": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230/final_runs/run_002/screenshots/final_execution_2_results_loading.png",
+      "sha256": "caaa3e849026f610d58ce08ebb5c4a033d1953c37207bf57a264ac8422225ff2"
+    },
+    {
+      "path": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230/final_runs/run_002/screenshots/final_execution_3_results_displayed.png",
+      "sha256": "90af0d8df21d96b962550cf665271c470dde042875dc82e51381fa0aa24420d0"
+    },
+    {
+      "path": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230/final_runs/run_002/screenshots/final_execution_4_final_state.png",
+      "sha256": "90af0d8df21d96b962550cf665271c470dde042875dc82e51381fa0aa24420d0"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "756cfb555a0b18f08d78055b4f8720aa418471b0b0395b59fa3dd9d26d863135",
+  "fingerprint": "206c41151c263cf6812c4f40dce8213591fa86c5715ca0117d578d7ca23b331d",
+  "evaluated_at": "2026-11-16T10:04:18.644614+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task was to **show the average price of movie tickets in Providence, Nashville, and Boise in 2023**.\n\n## Screenshot Analysis\n\n**Screenshot 1:** Shows the WolframAlpha homepage with the query \"average movie ticket price in Providence, Nashville, Boise in 2023\" correctly entered in the search box.\n\n**Screenshot 2:** Shows the results page with:\n- **Providence**: mean **$14.37** (lowest $13.44 Q1 2023, highest $15.49 Q3 2023)\n- **Nashville**: mean **$13.30** (lowest $12.50 Q1 2023, highest $14.61 Q3 2023)\n- **Boise**: mean **$11.60** (lowest $10.81 Q1 2023, highest $12.77 Q3 2023)\n- Data noted as \"(Quarter 1 2023 to Quarter 4 2023)\" and \"(based on C2ER retail price survey)\"\n\n**Screenshots 3 & 4:** Show detailed views confirming the same mean values for each city individually, along with a historical price chart.\n\n## Response Verification\nThe Result Response states: \"Providence: $14.37, Nashville: $13.30, Boise: $11.60 (from WolframAlpha results, based on C2ER retail price survey).\"\n\nCross-checking against the screenshots:\n- Providence: $14.37 ✓ (matches screenshot)\n- Nashville: $13.30 ✓ (matches screenshot)\n- Boise: $11.60 ✓ (matches screenshot)\n- Source attribution (C2ER retail price survey) ✓ (matches screenshot)\n\n## Conclusion\nAll three cities' average movie ticket prices for 2023 were successfully retrieved and displayed. The query was correctly formulated, the results are clearly visible in the screenshots, and the response accurately reflects the data shown. All components of the task were completed.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6574,
+    "completion_tokens": 800,
+    "total_tokens": 7374,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 381
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:19.074064+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230/final_runs/run_002/screenshots/final_execution_1_query_filled.png",
+      "source_sha256": "9f5e2ba35b8ae3a9629d8343c49a3c0c5e4199b1ca11a3ccf4444d1df127c9a1",
+      "source_bytes": 153447,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 142225,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c16be1d99c0196083eccd4b79fa9eed1a9cf9323f124fca6a2ff7e5a15f9dedc"
+    },
+    {
+      "path": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230/final_runs/run_002/screenshots/final_execution_2_results_loading.png",
+      "source_sha256": "caaa3e849026f610d58ce08ebb5c4a033d1953c37207bf57a264ac8422225ff2",
+      "source_bytes": 295963,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 149473,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1fa84dc241411d304b61d3204eb3743c2b3df181b34208dcf46bc63bb729942e"
+    },
+    {
+      "path": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230/final_runs/run_002/screenshots/final_execution_3_results_displayed.png",
+      "source_sha256": "90af0d8df21d96b962550cf665271c470dde042875dc82e51381fa0aa24420d0",
+      "source_bytes": 268102,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 129706,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "239b29a96b50ccd205fd89f2a87038760d9257af5c84d91dc0ed9e680a08eb9a"
+    },
+    {
+      "path": "Wolfram Alpha--17/Wolfram Alpha--17_20261114_054230/final_runs/run_002/screenshots/final_execution_4_final_state.png",
+      "source_sha256": "90af0d8df21d96b962550cf665271c470dde042875dc82e51381fa0aa24420d0",
+      "source_bytes": 268102,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 129706,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "239b29a96b50ccd205fd89f2a87038760d9257af5c84d91dc0ed9e680a08eb9a"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 737859,
+  "response_id": "8b099851-7d65-4e88-b76b-17d18271c355",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1598,
+    "reasoning_content_chars": 1468
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--8",
+  "website": "Coursera",
+  "task": "Find a free course related to 'R for Data Science' available on Coursera. Scroll to find a course with the Free tag. What language the course is taught in?",
+  "task_record": "Coursera--8/Coursera--8_20261114_072511",
+  "task_definition_sha256": "5f43e191ef54205b1b5f8e8f5c007e60388c16c9b5d8e690bc84738b79e745ed",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--8/Coursera--8_20261114_072511"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The free course related to 'R for Data Science' found on Coursera is 'SageMaker Unified Studio Foundations for Data Analytics' (by Amazon Web Services), which displays the Free tag. It is taught in English.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_1_search.png",
+      "sha256": "00bbefdb53d0176ceb04cc1e0339ad28563bbd305a8223aff0184cf4e3faa2df"
+    },
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_2_results.png",
+      "sha256": "00bbefdb53d0176ceb04cc1e0339ad28563bbd305a8223aff0184cf4e3faa2df"
+    },
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_3_free_card.png",
+      "sha256": "942e8323e0c8de4748279a172b875075e666ccefa7dac18fe292875522f40db8"
+    },
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_4_language.png",
+      "sha256": "29a23bdcdc2b6fe4031997f75c9fe554260ce7767f8fcdc71ac992ac6b78ab9a"
+    },
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_5_final.png",
+      "sha256": "29a23bdcdc2b6fe4031997f75c9fe554260ce7767f8fcdc71ac992ac6b78ab9a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e93f6b99930a69c75a9b01a6d72f9233eeb6aaa96ed3a15f2b7dd0531a04d86a",
+  "fingerprint": "972d337ddaa3b4118a1159bd2b948d57e20b8d52b6dce47795fb018b28bc2edb",
+  "evaluated_at": "2026-11-16T10:00:05.593745+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for a free course related to 'R for Data Science' on Coursera\n2. Scroll to find a course with the Free tag\n3. Identify the language the course is taught in\n\n**Screenshot Evidence:**\n\n1. **Screenshots 1 & 2:** Show the Coursera search results for \"R for Data Science\" with various courses displayed (Data Science: Foundations using R, Applied Data Science with R, R Programming, etc.). The search was correctly executed.\n\n2. **Screenshot 3:** After scrolling down the results page, the course \"SageMaker Unified Studio Foundations for Data Analytics\" by Amazon Web Services is visible, and it clearly displays the **\"Free\"** tag below the course description. This matches the task requirement of scrolling to find a course with the Free tag.\n\n3. **Screenshots 4 & 5:** Show the course detail page for \"SageMaker Unified Studio Foundations for Data Analytics\" (by AWS Instructor). In the \"Details to know\" section, it explicitly states **\"Taught in English\"**, confirming the language of instruction.\n\n**Response Verification:**\nThe result response states the free course found is 'SageMaker Unified Studio Foundations for Data Analytics' by Amazon Web Services with the Free tag, taught in English. This aligns perfectly with the visual evidence in the screenshots:\n- The Free tag is visible in screenshot 3 ✓\n- \"Taught in English\" is visible in screenshots 4 & 5 ✓\n\nAll steps of the task were completed: the search was performed, the page was scrolled to locate a course with the Free tag, and the course page was opened to determine the teaching language.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9033,
+    "completion_tokens": 808,
+    "total_tokens": 9841,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 445
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:00:06.171206+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_1_search.png",
+      "source_sha256": "00bbefdb53d0176ceb04cc1e0339ad28563bbd305a8223aff0184cf4e3faa2df",
+      "source_bytes": 580925,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 317643,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "698b985a8322a82c883618eed8e9bfbf4b0cc49fdca3d8a67e4f60771ccd6f1c"
+    },
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_2_results.png",
+      "source_sha256": "00bbefdb53d0176ceb04cc1e0339ad28563bbd305a8223aff0184cf4e3faa2df",
+      "source_bytes": 580925,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 317643,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "698b985a8322a82c883618eed8e9bfbf4b0cc49fdca3d8a67e4f60771ccd6f1c"
+    },
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_3_free_card.png",
+      "source_sha256": "942e8323e0c8de4748279a172b875075e666ccefa7dac18fe292875522f40db8",
+      "source_bytes": 435787,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 240697,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2c4af03854a7177933293214bc9c0787470d0c1b434846a423a0fa4cbff8b5e8"
+    },
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_4_language.png",
+      "source_sha256": "29a23bdcdc2b6fe4031997f75c9fe554260ce7767f8fcdc71ac992ac6b78ab9a",
+      "source_bytes": 166659,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 211398,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "48c56f0e8f85e9483561412a9cf0a2f3f263be2b9a11cfb6cd169e749cdf1e96"
+    },
+    {
+      "path": "Coursera--8/Coursera--8_20261114_072511/final_runs/run_003/screenshots/final_execution_5_final.png",
+      "source_sha256": "29a23bdcdc2b6fe4031997f75c9fe554260ce7767f8fcdc71ac992ac6b78ab9a",
+      "source_bytes": 166659,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 211398,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "48c56f0e8f85e9483561412a9cf0a2f3f263be2b9a11cfb6cd169e749cdf1e96"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1734944,
+  "response_id": "ef63c3ad-44af-4cfb-8431-cc9a9eef7911",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1638,
+    "reasoning_content_chars": 1917
+  }
+}

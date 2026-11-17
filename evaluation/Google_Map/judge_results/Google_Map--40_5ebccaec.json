@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--40",
+  "website": "Google Map",
+  "task": "Find a restaurant in Boston that eats Boston lobster and asks for a rating of 4.6 or higher, and check out what a one-star review says.",
+  "task_record": "Google Map--40/Google Map--40_20261115_091046",
+  "task_definition_sha256": "3520bc8a9e0ac5dcbf959b5c1717c40ac527551d8982eb112a7cd4dc035ef95b",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--40/Google Map--40_20261115_091046"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found Red's Best Fish Market, a Boston lobster restaurant rated 4.8 (>= 4.6, via the 4.5+ rating filter on Google Maps). Its one-star review says: 我們點了龍蝦捲（39美元）、炸牡蠣（26美元）和一碗蛤蜊濃湯（9美元）。我不明白這家店為什麼這麼火爆。龍蝦捲味道還行，沒什麼特別的，但也不值39美元。炸牡蠣個頭很小，26美元的價格也感覺偏高。味道還可以。蛤蜊濃湯味道也還可以，但裡面幾乎看不到蛤蜊，不管我們怎麼攪都找不到。 (Translation: We ordered a lobster roll ($39), fried oysters ($26), and clam chowder ($9). I don't understand why this place is so popular. The lobster roll was okay, nothing special, and not worth $39. The fried oysters were tiny and $26 felt overpriced. The chowder was okay but had almost no clams in it.)",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp2_rating_filter.png",
+      "sha256": "1506407ade929b4fc324ce634d2f4214bf12a2898bdda57480e6396ed4d0ce50"
+    },
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp3_place_panel.png",
+      "sha256": "492f4542176aa59cb29c47becabe8391bc7ab0cc78bb2314f2b0c7730d8cbd5f"
+    },
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp4_reviews_tab.png",
+      "sha256": "bd06549444fd57ec776541a31a56282509d6b3b5a4f333e120943a03babb13df"
+    },
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp5_one_star_filter.png",
+      "sha256": "bd06549444fd57ec776541a31a56282509d6b3b5a4f333e120943a03babb13df"
+    },
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp6_one_star_review.png",
+      "sha256": "325a6bb4f3ec511ada5207643f2f1939f5ead54dc0bcbea5f4693dec4d70da56"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "8a6e0ccbfbb9268ccc083bf47ef2e0a2ee66194bb4ec678e07ea3193361cba9f",
+  "fingerprint": "87918d78a478d20118269570c9e7bc7165c94904dbd823fcb70ae5f04838c476",
+  "evaluated_at": "2026-11-16T10:25:55.025414+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Find a restaurant in Boston that serves Boston lobster with a rating of **4.6 or higher**\n2. Check what a **one-star review** says\n\n## Verification Against Screenshots:\n\n**Step 1 - Restaurant Search & Rating Requirement:**\n- Screenshot 1 shows a Google Maps search for \"lobster restaurants in Boston\" with a rating filter applied (4.5+ filter visible at top)\n- Multiple lobster restaurants are listed: Boston Sail Loft (4.6), Yankee Lobster (4.5), Atlantic Fish Company (4.6), James Hook & Co (4.5), and Red's Best Fish Market (4.8)\n- **Red's Best Fish Market** was selected with a rating of **4.8** (946 reviews), which satisfies the ≥ 4.6 requirement ✓\n- The restaurant is located at 100 Hanover St, Boston, and is categorized as a seafood restaurant (海鮮餐廳) appearing in lobster restaurant search results ✓\n\n**Step 2 - One-Star Review:**\n- Screenshots 2-4 show the reviews tab (評論) for Red's Best Fish Market with the rating breakdown (4.8 overall)\n- Screenshot 5 shows a review from **Cody Tran** with a **1-star rating** (★☆☆☆☆) from 2 months ago\n- The review text in the screenshot reads: 「我們點了龍蝦捲（39美元）、炸牡蠣（26美元）和一碗蛤蜊濃湯（9美元）。我不明白這家店為什麼這麼火爆。龍蝦捲味道還行，沒什麼特別的，但也不值39美元。炸牡蠣個頭很小，26美元的價格也感覺偏高。味道還可以。蛤蜊濃湯味道也還可以，但裡面幾乎看不到蛤蜊，不管我們怎麼攪都找不到。」\n- The Result Response accurately quotes this review and provides a correct English translation matching the screenshot content ✓\n\n## Conclusion:\nBoth parts of the task were completed:\n1. ✅ A Boston lobster restaurant (Red's Best Fish Market) with rating 4.8 ≥ 4.6 was found\n2. ✅ A one-star review was located and its content accurately reported\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8312,
+    "completion_tokens": 1379,
+    "total_tokens": 9691,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 866
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:25:55.230014+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp2_rating_filter.png",
+      "source_sha256": "1506407ade929b4fc324ce634d2f4214bf12a2898bdda57480e6396ed4d0ce50",
+      "source_bytes": 731906,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 333056,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5f42663dabcefdbbb2584da12a44a207f5b5f80bd1c7fc38919035448f747cd0"
+    },
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp3_place_panel.png",
+      "source_sha256": "492f4542176aa59cb29c47becabe8391bc7ab0cc78bb2314f2b0c7730d8cbd5f",
+      "source_bytes": 678043,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 292338,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "059dcca99bf91601a3c1f50ddefd3b68ab1eb8d0998407e7f8f0bcaa0b447546"
+    },
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp4_reviews_tab.png",
+      "source_sha256": "bd06549444fd57ec776541a31a56282509d6b3b5a4f333e120943a03babb13df",
+      "source_bytes": 678057,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 292311,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "66f583ac6073a7264ae4b63c19835a60cb8c47def5916fd88017fea709591a3c"
+    },
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp5_one_star_filter.png",
+      "source_sha256": "bd06549444fd57ec776541a31a56282509d6b3b5a4f333e120943a03babb13df",
+      "source_bytes": 678057,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 292311,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "66f583ac6073a7264ae4b63c19835a60cb8c47def5916fd88017fea709591a3c"
+    },
+    {
+      "path": "Google Map--40/Google Map--40_20261115_091046/final_runs/run_003/screenshots/cp6_one_star_review.png",
+      "source_sha256": "325a6bb4f3ec511ada5207643f2f1939f5ead54dc0bcbea5f4693dec4d70da56",
+      "source_bytes": 782920,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 308988,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1dd228051d5a15ef21a8b86237bbd42dd4340277d9d1f2ea5520b783bc7cd3cf"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2029196,
+  "response_id": "30bc3b17-f085-4507-9b2b-bf44ab0ac001",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1647,
+    "reasoning_content_chars": 2560
+  }
+}

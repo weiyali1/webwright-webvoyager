@@ -1,0 +1,1620 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "task_id": "Google Flights--1",
+      "website": "Google Flights",
+      "task": "Show me the list of one-way flights on November 17, 2026 from Chicago to Paris.",
+      "task_record": "Google Flights--1/Google Flights--1_20261112_225109",
+      "task_definition_sha256": "f04c60a407b1bc0e9f04a5bbdaed3dd05a52d96b6918b1a960319374199391df",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--1/Google Flights--1_20261112_225109"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Displayed the list of one-way flights on Tuesday, November 17, 2026 from Chicago to Paris on Google Flights. 10 results returned. Top one-way flight: 6:25 PM ORD -> 9:35 AM+1 CDG, 8 hr 10 min, Nonstop, Air France/Delta, from HK$4,068; results include Best/Cheapest sorting and an 'Other flights' section.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_2_origin_chicago.png",
+          "sha256": "09c07d30ef3dec1f09534cadbb323114b5f368391dd99464fbc509c69d27dac3"
+        },
+        {
+          "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_3_destination_paris.png",
+          "sha256": "2007ba1c30ca9a9ac1986fd15be06c0d2c5d1c7e2938eae2cd976c83631376a5"
+        },
+        {
+          "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_4_date_nov17_2026.png",
+          "sha256": "bb719c026b4f6814e2746507c9cbc20a35604602ba69e859a702c4ac46bff6e1"
+        },
+        {
+          "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_5_results_list.png",
+          "sha256": "8af493e3a407de947b3ac8652d43e1acd0b6f38b4ee056bd5ddea9cc5544fe7d"
+        },
+        {
+          "path": "Google Flights--1/Google Flights--1_20261112_225109/final_runs/run_001/screenshots/final_execution_6_results_full.png",
+          "sha256": "c8ad0d069089ca748c2cc2f80e8216be554f354540e2e092d85cc2ac1e156e4c"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "763c4762cb622da6859a8950957e77bf42b6b3bf2f231f7e2759aa6f04f8fd7e",
+      "fingerprint": "aa97d98501da0b510e808d81e55ce04be43123efcdae3b7a7e7d7b4c9b371d72"
+    },
+    {
+      "task_id": "Google Flights--2",
+      "website": "Google Flights",
+      "task": "Find the lowest fare from all eligible one-way flights for 1 adult from JFK to Heathrow on Jun. 22.",
+      "task_record": "Google Flights--2/Google Flights--2_20261112_231938",
+      "task_definition_sha256": "a3d286e4d8a9ea60ff959ee0b88855e946b4b9b16b79a749e7727bfba5fc0ec9",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--2/Google Flights--2_20261112_231938"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The lowest one-way fare for 1 adult from JFK to London Heathrow (LHR) on Jun 22, 2027 is HK$3,172 (Google Flights, results sorted by price; top result: 1-stop Aer Lingus flight departing JFK 4:45 PM Tuesday, June 22, arriving Heathrow 8:05 AM Wednesday, June 23).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_1_search_form.png",
+          "sha256": "7c317371a6313422034aa8107d26467fd47488d77f1ab7b641af0586c49658f4"
+        },
+        {
+          "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_2_trip_type_one_way.png",
+          "sha256": "43219f94d5b028d282926095f1543b4d9f8531e89a5e8c60975c3f16032703ae"
+        },
+        {
+          "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_3_results_jfk_lhr_jun22.png",
+          "sha256": "ea0f5634c3fd2f25debe6389491928ed4f17bfa5a8f4898e94b1394807e603c1"
+        },
+        {
+          "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_4_sorted_by_price.png",
+          "sha256": "85bb6640cb64be050023c478d94d74004b273ae636b64797e208d4f3e60a1c6f"
+        },
+        {
+          "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_5_lowest_fare.png",
+          "sha256": "12d8c3eb030abadc7f3fe73cfad5c59dbac6f4677a3631bbb3c1c34347839688"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "898373d9cadf7fa81da5fbc68f371b5cc6ccc882503f1c79a089f9e2b7144c12",
+      "fingerprint": "816d2c29c743d457d441a57c768f60ed2917a49bc6cacadba50893bdee908e8f"
+    },
+    {
+      "task_id": "Google Flights--3",
+      "website": "Google Flights",
+      "task": "Search for the one-way flight available from Calgary to New York on Jan. 1st with the lowest carbon dioxide emissions.",
+      "task_record": "Google Flights--3/Google Flights--3_20261113_000520",
+      "task_definition_sha256": "39d83c2d5f4237a4a82bc5dc89ce9618f5e35e0e99a72a2bb5dea4501f307723",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--3/Google Flights--3_20261113_000520"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The lowest carbon dioxide emissions one-way flight from Calgary to New York on Jan 1 is the United 1-stop flight (YYC→LGA via Denver), departing 7:00 AM and arriving 7:54 PM, with 312 kg CO2 emissions, as shown by Google Flights sorted by emissions.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--3/Google Flights--3_20261113_000520/final_runs/run_004/screenshots/final_execution_1_form.png",
+          "sha256": "98d53cd604d00bb84d4cae13a9e5d6d3a0a31751e95558c3b99c90a84ba8ca27"
+        },
+        {
+          "path": "Google Flights--3/Google Flights--3_20261113_000520/final_runs/run_004/screenshots/final_execution_5_results.png",
+          "sha256": "bee07e3c6151b83cfadd0ea2f3c35f813374c28af3647aae2499457efdf3fb17"
+        },
+        {
+          "path": "Google Flights--3/Google Flights--3_20261113_000520/final_runs/run_004/screenshots/final_execution_6_sort_menu.png",
+          "sha256": "cac96b1613223495f78d8a08b80feacfbc5ec1ee605fad3952fa5a85e77b7300"
+        },
+        {
+          "path": "Google Flights--3/Google Flights--3_20261113_000520/final_runs/run_004/screenshots/final_execution_7_emissions_sorted.png",
+          "sha256": "6933faa324714a79c18736ae3333fec774e9b93863a5999d985f4933cbfe9b22"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "6fbb0ea6d43f4cd6ebcf02fc532dac5bed5a21eef1653daa3571928ab526d7f7",
+      "fingerprint": "b4beaf1a7557c0cf8984432bf701ddffaad93cc739a41840b670ebf07480d7da"
+    },
+    {
+      "task_id": "Google Flights--4",
+      "website": "Google Flights",
+      "task": "Search for one-way flights from New York to London on Dec. 26th and filter the results to show only non-stop flights.",
+      "task_record": "Google Flights--4/Google Flights--4_20261113_013110",
+      "task_definition_sha256": "1d3b0f718f69cbe333aa7c6f469ea1fffff6af1c9c807ccbc709ad5c12a6d4e2",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--4/Google Flights--4_20261113_013110"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Searched one-way flights from New York to London on Dec 26 on Google Flights and applied the dedicated Stops filter -> Nonstop only. Filter active (Nonstop, Stops, Selected); 23 nonstop results returned.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_1_search_results_oneway_nyc_lon_dec26.png",
+          "sha256": "400fda9ba93072b28b8e4186ec92a6d62a7f80848c802c2e38430baea369dd15"
+        },
+        {
+          "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_2_stops_filter_nonstop_selected.png",
+          "sha256": "1f5dbc7cbed16bc5f721deb130dea155af1393296174dbaf6e3063cfac08c2fc"
+        },
+        {
+          "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_3_final_nonstop_results.png",
+          "sha256": "3f4bb62c4a273afdc36342f66052d60e2a39f2ffc4789b14ee977c9bb3e70737"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e69eb89124a851d1f4abcc3df1933655274e97335034af9745e8efce1dbd12cd",
+      "fingerprint": "cd3affdb00a4fcef3c5ea9d4fd3cf542e4229179ebf123a33c1ed4bb04e15264"
+    },
+    {
+      "task_id": "Google Flights--5",
+      "website": "Google Flights",
+      "task": "Find flights from Chicago to London on 20 December and return on 23 December.",
+      "task_record": "Google Flights--5/Google Flights--5_20261113_020416",
+      "task_definition_sha256": "f196c734c8176c452f61b79115f82e9bab8f614257d35225e89487c41e5c957b",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--5/Google Flights--5_20261113_020416"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found round-trip flights from Chicago to London departing Sun, Dec 20, 2026 and returning Wed, Dec 23, 2026 on Google Flights: 12 results returned. Top (Best) option is a 1-stop Icelandair flight leaving Chicago O'Hare at 6:30 PM on Dec 20 and arriving at London Gatwick at 10:55 AM on Dec 21 for HK$11,985 round trip total; other nonstop options include American (ORD→LHR, 7h55m, HK$13,736) and United (ORD→LHR, 8h10m, HK$13,894). Cheapest fares start from HK$11,814.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--5/Google Flights--5_20261113_020416/final_runs/run_002/screenshots/final_execution_3_destination_london.png",
+          "sha256": "92450a34972cb41c6b5f72e6be2b8052efe8b97b9c51795a97f32b0481d1f7c8"
+        },
+        {
+          "path": "Google Flights--5/Google Flights--5_20261113_020416/final_runs/run_002/screenshots/final_execution_4_dates_selected.png",
+          "sha256": "4247bb45213ab00f9f8ca1518a3127dfc8ce527629b067495f9fc3fa187ef1fd"
+        },
+        {
+          "path": "Google Flights--5/Google Flights--5_20261113_020416/final_runs/run_002/screenshots/final_execution_5_form_complete.png",
+          "sha256": "d5de85da3ca0cc53cba96ac6c76eb1b9c08e8084f7941ac36914fc9891244b22"
+        },
+        {
+          "path": "Google Flights--5/Google Flights--5_20261113_020416/final_runs/run_002/screenshots/final_execution_6_results.png",
+          "sha256": "406b7bab70e3ec519e3548936a072a2fdf0d853ae79e36e2583ebf7ef2716235"
+        },
+        {
+          "path": "Google Flights--5/Google Flights--5_20261113_020416/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+          "sha256": "406b7bab70e3ec519e3548936a072a2fdf0d853ae79e36e2583ebf7ef2716235"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "85de8e636a7a2492f5d26bd681515b86fc8d990c37fd904dd5254d37f86365a3",
+      "fingerprint": "a55a3464b893231aeb8e87fe429a260e5f5116f3d614d257ecd7113b12ee8ccc"
+    },
+    {
+      "task_id": "Google Flights--6",
+      "website": "Google Flights",
+      "task": "Search for a flight on December 19 and return on December 26 from Tel Aviv to Venice and Select First Class.",
+      "task_record": "Google Flights--6/Google Flights--6_20261113_023438",
+      "task_definition_sha256": "0f8afdab313bdbbe60a8ff1a9371fc603d0886507aed19d3f5baa116c2488199",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--6/Google Flights--6_20261113_023438"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Searched Google Flights: Tel Aviv to Venice, depart Dec 19 2026, return Dec 26 2026, round trip, First class. Results URL: https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI2LTEyLTE5agwIAxIIL20vMDdxenZyDAgDEggvbS8wN19wZhooEgoyMDI2LTEyLTI2agwIAxIIL20vMDdfcGZyDAgDEggvbS8wN3F6dkABSARwAYIBCwj___________8BmAEB",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--6/Google Flights--6_20261113_023438/final_runs/run_002/screenshots/final_execution_4_departure_dec19.png",
+          "sha256": "8ce206ca689f4e63b7d1fbfed2074336e3dfbcd9c5c19ae6bd1ca83fbdb65ebb"
+        },
+        {
+          "path": "Google Flights--6/Google Flights--6_20261113_023438/final_runs/run_002/screenshots/final_execution_5_return_dec26.png",
+          "sha256": "d1eb077047fcceb57709f9f556deb1603c9f0068410aaf09b08205f4a05dbd47"
+        },
+        {
+          "path": "Google Flights--6/Google Flights--6_20261113_023438/final_runs/run_002/screenshots/final_execution_6_dates_confirmed.png",
+          "sha256": "42ace919226d1398d3d58df8c7fc524e4a162cac0f30f2ac1663aff2a015782a"
+        },
+        {
+          "path": "Google Flights--6/Google Flights--6_20261113_023438/final_runs/run_002/screenshots/final_execution_7_first_class.png",
+          "sha256": "4001e9db59ed9565a08dfb4c4b569ccca773c1f3a1fe568c64bb861ea44e8d15"
+        },
+        {
+          "path": "Google Flights--6/Google Flights--6_20261113_023438/final_runs/run_002/screenshots/final_execution_8_results.png",
+          "sha256": "ee650f29e0eed6110715ab76fd0513cad5b9d1f566c0c443525e4397b796217f"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "1713b26f017869d60152c41c09501c2088f3d1c960008c9414855a098a3471bd",
+      "fingerprint": "4890f816d7b66453bb6549e5f4c34188f2a62bee69c1dd87f027f8713a6efb3b"
+    },
+    {
+      "task_id": "Google Flights--7",
+      "website": "Google Flights",
+      "task": "Find a round trip from Phoenix to Miami (Jul. 7th - Jul. 10th), show the First Class plane tickets for me that do not exceed $2000.",
+      "task_record": "Google Flights--7/Google Flights--7_20261113_025207",
+      "task_definition_sha256": "91fd5d2abfd8e81d8155e7044f0f29e557b3446b1481edb01267b0fe65f9badd",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--7/Google Flights--7_20261113_025207"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found First Class round-trip tickets Phoenix (PHX) to Miami (MIA), departing Jul 7 and returning Jul 10, priced at or below $2000 on Google Flights. After applying the $2,000 maximum price filter, 21 results returned. Sample prices (USD): $1,254, $1,257, $1,282, $1,293, $1,302, $1,341, $1,357, $1,417, $1,447, $1,523 — all at or below the $2,000 cap.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--7/Google Flights--7_20261113_025207/final_runs/run_002/screenshots/final_execution_1_search_bar.png",
+          "sha256": "e416e568492c3cf328152c8b6b377a2e33d29494de32b7ef7aec8b60f8d7fe3a"
+        },
+        {
+          "path": "Google Flights--7/Google Flights--7_20261113_025207/final_runs/run_002/screenshots/final_execution_2_results.png",
+          "sha256": "d1d57f3d096b00abad68ab78c296f7ef79b74ddf8ee28632222bd5c1e328df1b"
+        },
+        {
+          "path": "Google Flights--7/Google Flights--7_20261113_025207/final_runs/run_002/screenshots/final_execution_3_price_filter.png",
+          "sha256": "7ed4c141f9e76244766d3cb9a655127acb550790a08b10bb6081f37ef3b0eed5"
+        },
+        {
+          "path": "Google Flights--7/Google Flights--7_20261113_025207/final_runs/run_002/screenshots/final_execution_4_final_results.png",
+          "sha256": "b8315594838c28f0760f42282f8b358ba71ceded64ff593bfba5109e2cdfb7f9"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "908f50d95f2fe22dfb0fa2bb1aa769ffc0ca4273b73f18ec1957059a07751c2d",
+      "fingerprint": "3fdbd18b8f1b2be78214066e68b7cdc2a1bd8a35c2a015406b14a8f15b71ac4d"
+    },
+    {
+      "task_id": "Google Flights--8",
+      "website": "Google Flights",
+      "task": "Search a one-way filght from Dublin To Athens Greece for 1 Adult that leaves on December 30 and analyse the price graph for the next 2 months.",
+      "task_record": "Google Flights--8/Google Flights--8_20261113_033509",
+      "task_definition_sha256": "fca77d902ac136c25defd3c9a624140d6e6a6be9edfe7c266e1d0b9271514f4e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--8/Google Flights--8_20261113_033509"
+      ],
+      "final_run": "run_006",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Price graph analysis - one-way Dublin (DUB) to Athens (ATH), 1 adult, departing 2026-12-30 (prices in HK$). The price graph spans 2026-12-30 to 2027-02-20 (~52 days), covering ~2 months after the Dec 30 departure. Departing on Dec 30 costs about HK$885. Late December is the most expensive window (peak ~HK$1,823 around the New Year holiday period), then prices drop sharply in January (January avg ~HK$840 vs late-December avg ~HK$1,152). Cheapest dates over the next ~2 months: Jan 21 ~HK$305; Jan 18 ~HK$351; Jan 14 ~HK$359; Feb 4 ~HK$374; Jan 11 ~HK$427. Mid-January through early February is the cheapest booking window; prices climb again toward mid-February (February avg ~HK$802).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--8/Google Flights--8_20261113_033509/final_runs/run_006/screenshots/final_execution_4_destination_athens.png",
+          "sha256": "7b50d09841635589883979debc20da6a15d285a9c5d020db5c7d219aaa503ac4"
+        },
+        {
+          "path": "Google Flights--8/Google Flights--8_20261113_033509/final_runs/run_006/screenshots/final_execution_5_departure_dec30.png",
+          "sha256": "1680e56d9b578e04884c447a1db1f90a44372a5d5b207191481600e33fa53630"
+        },
+        {
+          "path": "Google Flights--8/Google Flights--8_20261113_033509/final_runs/run_006/screenshots/final_execution_6_results_displayed.png",
+          "sha256": "16d0471916baa12526c90df9ca7420fc3f9dcae5227e60b4762a6945e141f306"
+        },
+        {
+          "path": "Google Flights--8/Google Flights--8_20261113_033509/final_runs/run_006/screenshots/final_execution_7_price_graph.png",
+          "sha256": "3577778c3ceeab0d1e1faa74496dea32a1ba389dc64b1c1bacc6c80f2df4d29f"
+        },
+        {
+          "path": "Google Flights--8/Google Flights--8_20261113_033509/final_runs/run_006/screenshots/final_execution_8_price_graph_analysis.png",
+          "sha256": "9662ce1a7ce51cf6f6854a54834021aba879a7f855a33e1541167f11069b6fc1"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c7c53ac92b0b570007b4852611a59ab3271207ceac30f67f6c6bef8102a2b901",
+      "fingerprint": "07f586c3ab3bade7d943949cbc5a42e1317d09ea02b1083766796bea66c0d250"
+    },
+    {
+      "task_id": "Google Flights--9",
+      "website": "Google Flights",
+      "task": "Find a one way economy flight from Pune to New York in Jan. 15th and show me how long it will take for flight transfer.",
+      "task_record": "Google Flights--9/Google Flights--9_20261113_045304",
+      "task_definition_sha256": "38a8220c7005b97ef0f18e87ce5d8dce87e07ab69eb137e9add443801ac6e629",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--9/Google Flights--9_20261113_045304"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found a one-way economy flight from Pune (PNQ) to New York on Fri, Jan 15: IndiGo + American, 7:15 PM – 6:10 AM+1, total duration 21 hr 25 min, PNQ–JFK, 1 stop. The flight transfer (layover) takes 2 hr 30 min at New Delhi (DEL).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--9/Google Flights--9_20261113_045304/final_runs/run_003/screenshots/cp5_calendar_jan15_selected.png",
+          "sha256": "61cd6d849338d21907ea7ab2ff9d287b822d764146e270dd7e484e13aceabcbf"
+        },
+        {
+          "path": "Google Flights--9/Google Flights--9_20261113_045304/final_runs/run_003/screenshots/cp5_date_set.png",
+          "sha256": "b716a9ad35a629f901a4b3f82aa75241c7a5b6d274c846d47369f01320408362"
+        },
+        {
+          "path": "Google Flights--9/Google Flights--9_20261113_045304/final_runs/run_003/screenshots/cp6_results_displayed.png",
+          "sha256": "a9a078d6240866ded0147935f4734693a213c0d9576841a90f23dc76e781b8ae"
+        },
+        {
+          "path": "Google Flights--9/Google Flights--9_20261113_045304/final_runs/run_003/screenshots/cp7_final_state.png",
+          "sha256": "1aa9945bf57b5587def3fd9a1b68350acb5adbb0f94e4039f685ad8a5384f77b"
+        },
+        {
+          "path": "Google Flights--9/Google Flights--9_20261113_045304/final_runs/run_003/screenshots/cp7_flight_details_expanded.png",
+          "sha256": "08bcaa57bc46c39a835084e1f82b3ffd5b1426fb4fab7b858d507cbe349293cc"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d387a69d7effbef55ed4010fbcf9e5e47b28eb099c277b8af3116aedbee7954f",
+      "fingerprint": "a56a005268230fcac36d0378c365451c749b5a5888fe1ead3e63125a4525204d"
+    },
+    {
+      "task_id": "Google Flights--10",
+      "website": "Google Flights",
+      "task": "Locate the cheapest round-trip flights from New York to Tokyo leaving on November 25, 2026, and returning on December 15, 2026.",
+      "task_record": "Google Flights--10/Google Flights--10_20261113_052602",
+      "task_definition_sha256": "a956124dac79336dc06fd07234ddd8851b476634ad70374715367a472066c588",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--10/Google Flights--10_20261113_052602"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Cheapest round-trip flight from New York to Tokyo departing Nov 25, 2026 and returning Dec 15, 2026: Cathay Pacific, 1:40 PM – 3:30 PM+2, 35 hr 50 min, JFK–NRT, 1 stop (15 hr 35 min layover in HKG), price HK$8,735 round trip. Results were displayed on Google Flights and sorted by Price using the sort control ('Sorted by price'), with the cheapest result first and reported.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--10/Google Flights--10_20261113_052602/final_runs/run_002/screenshots/final_execution_2_origin_destination.png",
+          "sha256": "29e405f8277295b515f3b0ef7e898b3b98c1f7e3dce773f9ee90ac1db3ab84c9"
+        },
+        {
+          "path": "Google Flights--10/Google Flights--10_20261113_052602/final_runs/run_002/screenshots/final_execution_3_dates_selected.png",
+          "sha256": "c9cfda841d5910fef28833002f778cae246c492c382efe5b3d39ae5892f46de3"
+        },
+        {
+          "path": "Google Flights--10/Google Flights--10_20261113_052602/final_runs/run_002/screenshots/final_execution_4_results_loaded.png",
+          "sha256": "3cc590f82a97be48a24212c0f4737b251e01a876726096802ff5592b09e8a080"
+        },
+        {
+          "path": "Google Flights--10/Google Flights--10_20261113_052602/final_runs/run_002/screenshots/final_execution_5_sorted_by_price.png",
+          "sha256": "94219e1a86696947e1abfb99b49938415cd0fe8d21f54b291a3b98d5da04de95"
+        },
+        {
+          "path": "Google Flights--10/Google Flights--10_20261113_052602/final_runs/run_002/screenshots/final_execution_6_cheapest_result.png",
+          "sha256": "94219e1a86696947e1abfb99b49938415cd0fe8d21f54b291a3b98d5da04de95"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "58ff3c66f25b460f64d8c4b72d04ef5b8c28d70bf3b94b70a4fe265abde2f39f",
+      "fingerprint": "ea9a1e617aa29c6ba8d89687f82a29a43687ee811a6dcca28014e106eef3a1f3"
+    },
+    {
+      "task_id": "Google Flights--11",
+      "website": "Google Flights",
+      "task": "Compare the prices for round-trip flights from New York to Tokyo for a departure on December 10, 2026, and a return on December 24, 2026, and select the option with the least number of stops.",
+      "task_record": "Google Flights--11/Google Flights--11_20261113_064355",
+      "task_definition_sha256": "5c70fe1a456dee3ac477be7902016941be936cded8510b2172e58dc62be25127",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--11/Google Flights--11_20261113_064355"
+      ],
+      "final_run": "run_006",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Compared round-trip prices from New York to Tokyo for Dec 10-24, 2026 on Google Flights and applied the Stops filter to the least-stops option (Nonstop). Final Response: The option with the least number of stops is a Nonstop round-trip flight: 9:50 AM JFK - 2:35 PM+1 HND (American/JAL), 14 hr 45 min, HK$10,363 round trip; compared nonstop prices: HK$10,363 (American/JAL JFK-HND), HK$10,912 (JAL JFK-HND, 2 departures), HK$11,394 (United EWR-HND).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--11/Google Flights--11_20261113_064355/final_runs/run_006/screenshots/final_execution_1_form_complete.png",
+          "sha256": "a16e199899ef55da2c3e674cbd9fa9f19b94ceb5c89311cf83f56e3e095e4c93"
+        },
+        {
+          "path": "Google Flights--11/Google Flights--11_20261113_064355/final_runs/run_006/screenshots/final_execution_2_results.png",
+          "sha256": "9b1671ecae4ffc396e5c28dc939a9e14313746223e674c503502efdebc82fcc7"
+        },
+        {
+          "path": "Google Flights--11/Google Flights--11_20261113_064355/final_runs/run_006/screenshots/final_execution_3_stops_dialog.png",
+          "sha256": "27e01a06f34a7257879caf5dfc9aa73e52218060065ec635f053a67848ba541e"
+        },
+        {
+          "path": "Google Flights--11/Google Flights--11_20261113_064355/final_runs/run_006/screenshots/final_execution_4_nonstop_filtered.png",
+          "sha256": "74caa05ba2e73722824a1a62c5228e492f1b48d4c98b8dea9a40eaac34439638"
+        },
+        {
+          "path": "Google Flights--11/Google Flights--11_20261113_064355/final_runs/run_006/screenshots/final_execution_5_final_state.png",
+          "sha256": "74caa05ba2e73722824a1a62c5228e492f1b48d4c98b8dea9a40eaac34439638"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "5c874862e556848c87e5eb933800698d34b70434765ffbe7bad0cf44e39f6ac1",
+      "fingerprint": "e450bb767e46c65f1a26699812d3266a92c006ddcf019cf129252c89fccc8f23"
+    },
+    {
+      "task_id": "Google Flights--12",
+      "website": "Google Flights",
+      "task": "Find the best-priced round-trip flight from New York to London leaving on November 25, 2026, and returning on December 5, 2026, with one stop or fewer.",
+      "task_record": "Google Flights--12/Google Flights--12_20261113_073208",
+      "task_definition_sha256": "6519f0578813df9186fadf092c493c054bb4a9116aa4d0e2507a5db5fca36f87",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--12/Google Flights--12_20261113_073208"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "",
+      "answer_source": "missing",
+      "screenshots": [
+        {
+          "path": "Google Flights--12/Google Flights--12_20261113_073208/final_runs/run_002/screenshots/final_execution_2_calendar_open.png",
+          "sha256": "b008030e3626e8178c2453c6d9c84c986e4252e9168fd21120d27751c2c409cd"
+        },
+        {
+          "path": "Google Flights--12/Google Flights--12_20261113_073208/final_runs/run_002/screenshots/final_execution_3_dates_selected.png",
+          "sha256": "1662340e3afce0a43b929230c57707b09f139f092015209e51d5dbcddc63b1ce"
+        },
+        {
+          "path": "Google Flights--12/Google Flights--12_20261113_073208/final_runs/run_002/screenshots/final_execution_4_form_complete.png",
+          "sha256": "2f2a76cae83bba9a952d6002cc1539f918e2d34f6abd335c2820b7ca9f3a176f"
+        },
+        {
+          "path": "Google Flights--12/Google Flights--12_20261113_073208/final_runs/run_002/screenshots/final_execution_5_results.png",
+          "sha256": "20ff6d409ac9a3354e164e5cea74c6d679484bd876c30426aa1b3be2b1ca6f53"
+        },
+        {
+          "path": "Google Flights--12/Google Flights--12_20261113_073208/final_runs/run_002/screenshots/final_execution_6_stops_filter.png",
+          "sha256": "7020a67fd173ad11df738bdf7f84fabb758e50760c5672ee6b5a668378e5dbc3"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": "Missing answer.txt",
+      "fingerprint": "775d610c2e6636321b3cc0441bf016c831bed8b9cd4fc49861711230dc52743b"
+    },
+    {
+      "task_id": "Google Flights--13",
+      "website": "Google Flights",
+      "task": "Find the cheapest round-trip flight option from New York City to Tokyo for a departure on December 10, 2026, and a return on December 24, 2026.",
+      "task_record": "Google Flights--13/Google Flights--13_20261113_083825",
+      "task_definition_sha256": "d2ea53ad47e0cbefb772eed1619924d953776c8c621406744e059d94d9c6ab97",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--13/Google Flights--13_20261113_083825"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Cheapest round-trip flight from New York City to Tokyo (departing Dec 10, 2026, returning Dec 24, 2026) on Google Flights, sorted by Price: American Airlines nonstop JFK→HND (operated by JAL), total round-trip price HK$10,362.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_3_departure_dec10.png",
+          "sha256": "ac004a4b8d2d845d82b2f91fbf0bea0a02394cf50da452cae512ded345f5af4d"
+        },
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_4_return_dec24_done.png",
+          "sha256": "a50e963edce7b20c8ca50e9dcd85bf90f2badf76bb484f8b463bdd9c08057adf"
+        },
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_5_results_displayed.png",
+          "sha256": "9aa907575f30f17727b8dba45a353bc441b00745f768f9874769ce9e0c1d546e"
+        },
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_6_sorted_by_price.png",
+          "sha256": "7bdfe7b96bae00eb2198895d02cefc37b37fb0a4660b6c959da1a810baabf50f"
+        },
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_7_cheapest_result.png",
+          "sha256": "7bdfe7b96bae00eb2198895d02cefc37b37fb0a4660b6c959da1a810baabf50f"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a0dc0f4c19ec1f5878c9a1bf73183bf91fb0829a13a3b9d7b3ea1284f1229620",
+      "fingerprint": "54bf05c86fdc7da27cfbca9ce2511a940f549cf612be5bb1e03ac101635d79f4"
+    },
+    {
+      "task_id": "Google Flights--14",
+      "website": "Google Flights",
+      "task": "Compare flight options and find the lowest round trip fare from New York to London departing on December 10, 2026, and returning on December 17, 2026.",
+      "task_record": "Google Flights--14/Google Flights--14_20261113_112252",
+      "task_definition_sha256": "017b9d1415cc4b6c2d597a27510a2e80853aafb9ff366e898d1469bf15ba7b28",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--14/Google Flights--14_20261113_112252"
+      ],
+      "final_run": "run_007",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The lowest round-trip fare from New York to London departing Dec 10, 2026 and returning Dec 17, 2026 is HK$5,958, found on Google Flights by setting origin New York, destination London, the exact dates, executing the search (31 results returned), and sorting via the site's Cheapest sort tab (cheapest first). The Cheapest tab showed 'from HK$5,958' and the cheapest-first result list confirmed it. Currency is displayed as HK$ per the page's locale.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--14/Google Flights--14_20261113_112252/final_runs/run_007/screenshots/final_execution_3_destination.png",
+          "sha256": "151fffc49bce17a50516c859c89eba0fdc4bd8fb392edb233761f567438afb78"
+        },
+        {
+          "path": "Google Flights--14/Google Flights--14_20261113_112252/final_runs/run_007/screenshots/final_execution_4_dates.png",
+          "sha256": "a629ba5de53d5640de5ae06fe256d998793eed96763ff26c632d562fb3eb9005"
+        },
+        {
+          "path": "Google Flights--14/Google Flights--14_20261113_112252/final_runs/run_007/screenshots/final_execution_5_results.png",
+          "sha256": "a629ba5de53d5640de5ae06fe256d998793eed96763ff26c632d562fb3eb9005"
+        },
+        {
+          "path": "Google Flights--14/Google Flights--14_20261113_112252/final_runs/run_007/screenshots/final_execution_6_sorted_price.png",
+          "sha256": "988e570f475a98c852b6c4fc77574c59caa736338dd2faea9f53adb13558d3aa"
+        },
+        {
+          "path": "Google Flights--14/Google Flights--14_20261113_112252/final_runs/run_007/screenshots/final_execution_7_lowest_fare.png",
+          "sha256": "1b2eb9e696330d3e55d9569346e9524c41ab37de1db359d05365be9f63f3a0ce"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "4d289bdfcfbc15736f10907eb462823f20d19f7cf799313da7c413e770618472",
+      "fingerprint": "d4e609d1f9416a0364a5bfc22711a62e84c56b20b0af5baa0f980a212eaea893"
+    },
+    {
+      "task_id": "Google Flights--15",
+      "website": "Google Flights",
+      "task": "Compare the prices and total duration of non-stop flights from New York to Tokyo Narita Airport departing on December 12th, 2026, and returning on December 26th, 2026.",
+      "task_record": "Google Flights--15/Google Flights--15_20261113_124951",
+      "task_definition_sha256": "a0ef5407b7d4e1afc643221424fa43f770e315527306b9768d064c77f38dee06",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--15/Google Flights--15_20261113_124951"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "For non-stop flights New York -> Tokyo Narita (NRT), Dec 12-26 2026, Google Flights (Nonstop filter applied via the Stops control) returns exactly 1 nonstop round-trip option, operated by United/ANA. Outbound Dec 12: 10:55 AM -> 3:15 PM+1 (EWR-NRT), total duration 14 hr 20 min; Return Dec 26: 5:15 PM -> 3:55 PM (NRT-EWR), total duration 12 hr 40 min; price HK$13,159 round trip. Because there is only a single nonstop itinerary, there are no alternative nonstop prices or durations to compare: HK$13,159 round trip is both the cheapest and the only nonstop price, with outbound duration 14 hr 20 min and return duration 12 hr 40 min (combined flight time 14 hr 20 min + 12 hr 40 min).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--15/Google Flights--15_20261113_124951/final_runs/run_004/screenshots/final_execution_4_dates.png",
+          "sha256": "ab164e546caf241a4ff61e551b4f40f024b8c37ef2942a5b6de5c1c979d35679"
+        },
+        {
+          "path": "Google Flights--15/Google Flights--15_20261113_124951/final_runs/run_004/screenshots/final_execution_5_results.png",
+          "sha256": "733cd6ce6689cf451cb51193195a1824520004ecb70b1a320d8dce2e3db0bee9"
+        },
+        {
+          "path": "Google Flights--15/Google Flights--15_20261113_124951/final_runs/run_004/screenshots/final_execution_6_stops_filter.png",
+          "sha256": "38ff8a35082b6f6546442d54ca6188a0a9629998b7c30c96cf381e3d8ca60fd8"
+        },
+        {
+          "path": "Google Flights--15/Google Flights--15_20261113_124951/final_runs/run_004/screenshots/final_execution_7_nonstop_results.png",
+          "sha256": "dfcecaf298802355f211b61ecd3a2a969e57bd3921a0de9be7ddf376e1614f09"
+        },
+        {
+          "path": "Google Flights--15/Google Flights--15_20261113_124951/final_runs/run_004/screenshots/final_execution_8_return_detail.png",
+          "sha256": "2268b23ab6014188c4e81f3cedce30e36c2b5edfd5b039fa140c2e377af0c0f9"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "50650a33b853d26b4ebf0bddfa4a779f58536782b888abbe1b9331242ce91c2c",
+      "fingerprint": "3fd3c01072384bf7f25512202ec83778780b8a718466fc691fc2674032df46eb"
+    },
+    {
+      "task_id": "Google Flights--16",
+      "website": "Google Flights",
+      "task": "Find the cheapest one-way flight from New York to Tokyo departing on January 15, 2027, and provide the airline and total flight duration.",
+      "task_record": "Google Flights--16/Google Flights--16_20261114_000246",
+      "task_definition_sha256": "418136b101b1d4b5ba59284beb6044d53727e1be42a5307fccf8204aca22a417",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--16/Google Flights--16_20261114_000246"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The cheapest one-way flight from New York to Tokyo departing on January 15, 2027 is Asiana Airlines and Korean Air (1 stop, price HK$3,820) with a total flight duration of 20 hr 55 min.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--16/Google Flights--16_20261114_000246/final_runs/run_003/screenshots/final_execution_4_destination_tokyo.png",
+          "sha256": "19f9e4d5ff50e84bea0df33a20468c0b54bfeaa215b81b60552200279bd0a0cc"
+        },
+        {
+          "path": "Google Flights--16/Google Flights--16_20261114_000246/final_runs/run_003/screenshots/final_execution_5_departure_jan15_2027.png",
+          "sha256": "aa3b72c2e071cbd65abbbb73c7d524fca85b62dabc32cd532a582ac9cef656ea"
+        },
+        {
+          "path": "Google Flights--16/Google Flights--16_20261114_000246/final_runs/run_003/screenshots/final_execution_6_search_results.png",
+          "sha256": "447707664754652fd769843dd4cfc70d5082756119b53a8e67e0554afe27455d"
+        },
+        {
+          "path": "Google Flights--16/Google Flights--16_20261114_000246/final_runs/run_003/screenshots/final_execution_7_sorted_by_price.png",
+          "sha256": "d2442201e458faa5ff8171211217378b2bac69a3c8b27bbd763ba68fc3bca9be"
+        },
+        {
+          "path": "Google Flights--16/Google Flights--16_20261114_000246/final_runs/run_003/screenshots/final_execution_8_cheapest_flight.png",
+          "sha256": "d2442201e458faa5ff8171211217378b2bac69a3c8b27bbd763ba68fc3bca9be"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "9d8cb81123778ac86a1a7775eaf08ebba7dddbc6b18315c5c0acf406278bfb0d",
+      "fingerprint": "aab72db709c5ec8156d99fb705800c118cdc17607ea9c1283ea17da3babb4c12"
+    },
+    {
+      "task_id": "Google Flights--17",
+      "website": "Google Flights",
+      "task": "Find the cheapest round-trip flight from New York to Paris leaving on November 27, 2026, and returning on December 10, 2026.",
+      "task_record": "Google Flights--17/Google Flights--17_20261114_004223",
+      "task_definition_sha256": "5e074a403129238558b0a95d760ef27f0d286e03463ae5908f90f65ca267bbc6",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--17/Google Flights--17_20261114_004223"
+      ],
+      "final_run": "run_007",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Cheapest round-trip flight New York -> Paris (departing Nov 27, 2026, returning Dec 10, 2026) found on Google Flights: HK$4,575 round trip total with TAP Air Portugal. Outbound: leaves Newark Liberty International Airport (EWR) at 12:10 AM on Friday, Nov 27 and arrives at Paris Orly Airport (ORY) at 7:45 PM, 1 stop with a 4 hr 10 min layover at Lisbon Airport, total duration 13 hr 35 min. Results page showed 17 results for New York to Paris (2026-11-27 to 2026-12-10), sorted by Price via the sort control ('Sorted by price'), with the Cheapest tab confirming 'Cheapest from HK$4,575'.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_4_departure_nov27.png",
+          "sha256": "df3bcf6f549f7bc649f368f72f191111b7fcee95785ce4be6e54bfcdf5a1726e"
+        },
+        {
+          "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_5_return_dec10.png",
+          "sha256": "be290bdbfc4cda8c0faf80c71730efda617d4f873beeaf27b40638e32d1a6c0e"
+        },
+        {
+          "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_6_search_results.png",
+          "sha256": "4f9c973672c9a8e205b461ed5521db5069eae607958142ab846e1f873d3432c9"
+        },
+        {
+          "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_7_sorted_by_price.png",
+          "sha256": "c606b579b143f9b4aa48c56a5f0cb6e2e3135be8e53235fa05811de72bc6f7c6"
+        },
+        {
+          "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_8_cheapest_result.png",
+          "sha256": "c606b579b143f9b4aa48c56a5f0cb6e2e3135be8e53235fa05811de72bc6f7c6"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d01d38028e9bff082f061b14b5840bd25ba3ca44c0805fad04f43f5daaa351cb",
+      "fingerprint": "1a4b8aaa83e7a92a738de0f881591955787744126c7f9e6f8b7244f13a087627"
+    },
+    {
+      "task_id": "Google Flights--18",
+      "website": "Google Flights",
+      "task": "Compare flight options from New York to Tokyo for a round trip leaving on November 25, 2026, and returning on December 15, 2026, for one adult. Prioritize the comparisons by the shortest travel time.",
+      "task_record": "Google Flights--18/Google Flights--18_20261114_015218",
+      "task_definition_sha256": "02ebf72510da69bb6a941959ecfc564de79634e7f41200eea25ffbdc2b396487",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--18/Google Flights--18_20261114_015218"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Compared New York to Tokyo round-trip flights for Nov 25 - Dec 15, 2026 (1 adult) on Google Flights, sorted by shortest travel time using the site's Sort by control (Duration sort selected; control reads 'Sorted by duration, Change sort order.'). Fastest flight options: 1) United Nonstop, total duration 14 hr 20 min, 11,942 HKD round trip; 2) ANA Nonstop, total duration 14 hr 30 min, 13,747 HKD round trip; 3) United Nonstop, total duration 14 hr 35 min, 11,943 HKD round trip; 4) JAL Nonstop, total duration 14 hr 35 min, 12,481 HKD round trip; 5) ANA Nonstop, total duration 14 hr 35 min, 12,727 HKD round trip. Shortest total travel time is 14 hr 20 min (United, 11,942 HKD round trip).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--18/Google Flights--18_20261114_015218/final_runs/run_003/screenshots/final_execution_1_form_filled.png",
+          "sha256": "b856e8489332d4a06664e1a2ca1dd84fcf5a75b6ef588fc2f17a1a4f457517a2"
+        },
+        {
+          "path": "Google Flights--18/Google Flights--18_20261114_015218/final_runs/run_003/screenshots/final_execution_2_results.png",
+          "sha256": "beff4b2c379f6f4f5011f18a0b4c440d37b06baaf66a2ae8e62e2a9737d57ba2"
+        },
+        {
+          "path": "Google Flights--18/Google Flights--18_20261114_015218/final_runs/run_003/screenshots/final_execution_3_sort_menu.png",
+          "sha256": "7e409a88df7bad1f282dd5b6b7241a4fd28e0a3de60404410504b49bb75a15c5"
+        },
+        {
+          "path": "Google Flights--18/Google Flights--18_20261114_015218/final_runs/run_003/screenshots/final_execution_4_sorted_duration.png",
+          "sha256": "4b98de6accaa4804c1056d71a84fed7deccd69119278f526d7db9b0c11be21ef"
+        },
+        {
+          "path": "Google Flights--18/Google Flights--18_20261114_015218/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+          "sha256": "20fe291fb29e5c997ef9060072e622b1ce159cc0f527c84c5f98db648b8f7254"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "ad1d3a7ed299523d59e2f7d2acf9a12cd65ffa97a993d0e07db36140ee96ebba",
+      "fingerprint": "4a4b1fe1aca7d2d30b841b9c6389a7a215338ab10d2189516f3d3a65a07cea70"
+    },
+    {
+      "task_id": "Google Flights--19",
+      "website": "Google Flights",
+      "task": "Find the cheapest one-way flight from London to Paris, departing on November 25, 2026. Include the airline, total travel time, and layovers for the chosen flight.",
+      "task_record": "Google Flights--19/Google Flights--19_20261114_024308",
+      "task_definition_sha256": "dee959307f72ed8e1e9332b091108e00122abd8dd3c94417d6dbabb018853bb8",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--19/Google Flights--19_20261114_024308"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The cheapest one-way flight from London to Paris on Nov 25, 2026 is HK$301 with easyJet, total travel time 1 hr 15 min, Nonstop (0 layovers), departing London Gatwick (LGW) at 4:45 PM and arriving at Paris CDG at 7:00 PM.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--19/Google Flights--19_20261114_024308/final_runs/run_005/screenshots/final_execution_4_date_nov25.png",
+          "sha256": "40c07cc4e562b1f21e9fc1385c54106aba062843c7e45b2c241c8fade6732011"
+        },
+        {
+          "path": "Google Flights--19/Google Flights--19_20261114_024308/final_runs/run_005/screenshots/final_execution_5_results.png",
+          "sha256": "4c713e3b07cfaeef37ac3baff4abed8729efc75971577dd683327c040ce70af7"
+        },
+        {
+          "path": "Google Flights--19/Google Flights--19_20261114_024308/final_runs/run_005/screenshots/final_execution_6_sorted_price.png",
+          "sha256": "ef536dbf47aadd32e8834655cd39943ed745375c5b6e008b75edd7157ae53439"
+        },
+        {
+          "path": "Google Flights--19/Google Flights--19_20261114_024308/final_runs/run_005/screenshots/final_execution_7_cheapest_result.png",
+          "sha256": "ef536dbf47aadd32e8834655cd39943ed745375c5b6e008b75edd7157ae53439"
+        },
+        {
+          "path": "Google Flights--19/Google Flights--19_20261114_024308/final_runs/run_005/screenshots/final_execution_8_final_state.png",
+          "sha256": "ef536dbf47aadd32e8834655cd39943ed745375c5b6e008b75edd7157ae53439"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c07d0f4b2130e2be0cf4989dad4298bfcb3261e2f098b3bb9d80b110001da19d",
+      "fingerprint": "64c96d8d8f7e865eca3ce8034b05de1e2398688636b7403a6b226ca748ca0a69"
+    },
+    {
+      "task_id": "Google Flights--21",
+      "website": "Google Flights",
+      "task": "Locate the lowest-priced one-way flight from Tokyo to Sydney for an adult, departing o6 November 25, 2026, and include the flight duration and number of layovers.",
+      "task_record": "Google Flights--21/Google Flights--21_20261114_034027",
+      "task_definition_sha256": "d7ab458b30c056924aa7b9cbb3cd72b49544ef620eeaeb4d6227d45e70060a54",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--21/Google Flights--21_20261114_034027"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Lowest-priced one-way flight from Tokyo to Sydney for 1 adult departing Wednesday, November 25, 2026: price HK$2,024 (Scoot via Singapore Changi), flight duration 32 hr, 1 stop (1 layover). Results were sorted by Price (lowest first) on Google Flights.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--21/Google Flights--21_20261114_034027/final_runs/run_003/screenshots/final_execution_3_calendar_nov25_selected.png",
+          "sha256": "0bfaefcbfd01bd7fc71a69400709cd93ce07ef63e2049c72aac0451b55b754e4"
+        },
+        {
+          "path": "Google Flights--21/Google Flights--21_20261114_034027/final_runs/run_003/screenshots/final_execution_4_form_ready_nov25.png",
+          "sha256": "66f728b2f230634e1d6c685a5efd6d5cc033b52a91b93a64d7817c21d5ffcbbe"
+        },
+        {
+          "path": "Google Flights--21/Google Flights--21_20261114_034027/final_runs/run_003/screenshots/final_execution_5_results_list.png",
+          "sha256": "87768538be1fee95ebe8e5f6d2de975cfdf38e8974c88ce70ccde9720d24ffa0"
+        },
+        {
+          "path": "Google Flights--21/Google Flights--21_20261114_034027/final_runs/run_003/screenshots/final_execution_6_sorted_by_price.png",
+          "sha256": "5723208b9d0f6c9df74b8afaabf739b5eaf8bced64ff71b2438d980567145f6f"
+        },
+        {
+          "path": "Google Flights--21/Google Flights--21_20261114_034027/final_runs/run_003/screenshots/final_execution_7_lowest_price_flight.png",
+          "sha256": "5723208b9d0f6c9df74b8afaabf739b5eaf8bced64ff71b2438d980567145f6f"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e9ff96be3a9e5a2b432c8bf23b9f37ccf924bc3f005b3d950e707379a74d1e1d",
+      "fingerprint": "783827335f39c422e7b05605e02b6d531bcc6aafd351623fc00e7e568b044a0a"
+    },
+    {
+      "task_id": "Google Flights--22",
+      "website": "Google Flights",
+      "task": "Find a round-trip flight from Rio de Janeiro to Los Angeles, leaving on November 15, 2026, and returning on November 22, 2026, and select the option with the least carbon dioxide emissions.",
+      "task_record": "Google Flights--22/Google Flights--22_20261114_042444",
+      "task_definition_sha256": "4ec5dd3702b537d39fd19d840f1f3246347ecc8b18e41378009b32eb7d597eac",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--22/Google Flights--22_20261114_042444"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Round-trip flight search Rio de Janeiro -> Los Angeles, Nov 15-22, 2026, sorted by least carbon emissions. Lowest-emission option: 599 kilograms CO2 emissions, from HK$10,196 round trip total, 1-stop flight with LATAM (operated by Latam Airlines Brasil), departing RIOgaleão International Airport at 5:35 AM on Sunday, November 15 and arriving at Los Angeles International Airport.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--22/Google Flights--22_20261114_042444/final_runs/run_001/screenshots/final_execution_4_dates.png",
+          "sha256": "dcb9a2a9b12759d8b717f85bb1a1c7a9de6b7a3a79b48fbffdaa418939695d9e"
+        },
+        {
+          "path": "Google Flights--22/Google Flights--22_20261114_042444/final_runs/run_001/screenshots/final_execution_5_results.png",
+          "sha256": "6f75f0b2dbc1a68ef8b2778c8208621bb10a5709ca41f0b76026ea3842627805"
+        },
+        {
+          "path": "Google Flights--22/Google Flights--22_20261114_042444/final_runs/run_001/screenshots/final_execution_6_sort_menu.png",
+          "sha256": "1e672b4b3c1880913300685e3e11eca3edebc57dbe9b877f261fa4dfc26b2413"
+        },
+        {
+          "path": "Google Flights--22/Google Flights--22_20261114_042444/final_runs/run_001/screenshots/final_execution_7_sorted_emissions.png",
+          "sha256": "e23a965b7f0243ae0e76f6678f959c497c659f579ca3293f042d5ce6efee301c"
+        },
+        {
+          "path": "Google Flights--22/Google Flights--22_20261114_042444/final_runs/run_001/screenshots/final_execution_8_selected_flight.png",
+          "sha256": "6402aed2a9080741f393912ba9f6d25f562525ceb357fa64db66d8697a43c0b7"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a916c6961515803496d051a5ca9fbf3a490d77d2e472a62845aad18796a11c23",
+      "fingerprint": "b4101265f91b63e41c8eeb8a729bd3c72c921f9f62cee13d8aca85da34146d02"
+    },
+    {
+      "task_id": "Google Flights--23",
+      "website": "Google Flights",
+      "task": "Search for a one-way flight from Mumbai to Vancouver on November 28, 2026, filtering the results to show only 1-stop flights.",
+      "task_record": "Google Flights--23/Google Flights--23_20261114_044425",
+      "task_definition_sha256": "f77f297591a5ed5ace564b8236e59658f6e289b1e845f80e555b4766897b5e90",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--23/Google Flights--23_20261114_044425"
+      ],
+      "final_run": "run_011",
+      "answer_input_mode": "answer.txt only",
+      "answer": "On Google Flights, I searched for a one-way flight from Mumbai (BOM) to Vancouver (YVR) on Saturday, November 28, 2026, then applied the dedicated Stops filter selecting '1 stop or fewer'. The filtered results displayed 11 results returned, and all 11 shown itineraries are 1-stop flights (0 nonstop or 2+ stop results). Example result: From 7602 Hong Kong dollars, 1 stop flight with Cathay Pacific, leaving Chhatrapati Shivaji Maharaj International Airport Mumbai at 2:00 AM on Saturday, November 28 and arriving at Vancouver International Airport.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_4b_date_set.png",
+          "sha256": "9562948ff620bb3a79a71b23a2e0103cf05f066a9e345d437a7481c1652b9a64"
+        },
+        {
+          "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_5_results.png",
+          "sha256": "03f4c83ad985d0296125f0d7e50d57f100ac19eddeed102000ecc4bda4001e4a"
+        },
+        {
+          "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_6_stops_dialog.png",
+          "sha256": "7757bcd837f6eddbf843633e1bbf8de8dd5c6fa4c4b26614d30b22ff2d38e580"
+        },
+        {
+          "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_7_filtered_results.png",
+          "sha256": "201fee1f6898951c6d4e76a0d1a367e4eb83d61af977b56506b21eba5dd991e9"
+        },
+        {
+          "path": "Google Flights--23/Google Flights--23_20261114_044425/final_runs/run_011/screenshots/final_execution_8_final_state.png",
+          "sha256": "04e0bdc7de49490ef48c31b09511239eb930104d9eb6323a0372a8dea4a9fe07"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "70df3a936ffdd9a2f0a8e3415ab2dec2e4340a53ced4e08d381b7fd2196fca21",
+      "fingerprint": "071532c597ae9cc8e3895dcc3ae02a81be56079bbe83d9555e8a71bb8b49e170"
+    },
+    {
+      "task_id": "Google Flights--24",
+      "website": "Google Flights",
+      "task": "Compare prices for economy class round-trip flights from Dubai to Rome, departing on December 1, 2026, and returning on December 8, 2026, and select the option with the fewest stops.",
+      "task_record": "Google Flights--24/Google Flights--24_20261114_061818",
+      "task_definition_sha256": "a05485db518243cd654e8f82f5c44695e777503c347551da6ce9a72b908f4301",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--24/Google Flights--24_20261114_061818"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Compared economy round-trip flights from Dubai to Rome for Dec 1 - Dec 8, 2026 on Google Flights. Set Round trip + Economy (1 passenger), origin Dubai (United Arab Emirates), destination Rome (Italy), departure Tue Dec 1, 2026 and return Tue Dec 8, 2026, submitted the search, and applied the Stops filter 'Nonstop only' (the fewest-stops option). The filtered results showed only nonstop options with prices: Air Arabia SHJ-FCO 4:10 PM - 7:55 PM, 6 hr 45 min, HK$4,055 round trip; Emirates DXB-FCO 8:55 AM - 12:40 PM HK$7,797; Etihad/ITA AUH-FCO 2:15 PM - 5:40 PM HK$7,797; Emirates DXB-FCO 3:10 PM - 6:50 PM HK$7,797; Etihad/ITA AUH-FCO 2:10 AM - 5:30 AM HK$8,305. Selected the fewest-stops (nonstop) option: Air Arabia, 4:10 PM - 7:55 PM, SHJ-FCA (Leonardo da Vinci International Airport), HK$4,055 round trip. Final Response: Selected nonstop flight Air Arabia SHJ-FCO departing 4:10 PM arriving 7:55 PM on Dec 1, 2026, returning Dec 8, 2026, economy round trip, Price: HK$4,055.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--24/Google Flights--24_20261114_061818/final_runs/run_004/screenshots/final_execution_4_calendar_dec1_dec8.png",
+          "sha256": "7115baf60723357ed30774410fdce8e83bf37e277fad47475372f5562f98d952"
+        },
+        {
+          "path": "Google Flights--24/Google Flights--24_20261114_061818/final_runs/run_004/screenshots/final_execution_5_results_displayed.png",
+          "sha256": "d64aebe1d116426b981e112b2e1dbda266c71991cf6579b516653a3ec7e8bc90"
+        },
+        {
+          "path": "Google Flights--24/Google Flights--24_20261114_061818/final_runs/run_004/screenshots/final_execution_6_stops_filter_nonstop.png",
+          "sha256": "87be740cf525e8fa8a92fabe77fc8e26749d57e455c2397ac15e20ea24b3be70"
+        },
+        {
+          "path": "Google Flights--24/Google Flights--24_20261114_061818/final_runs/run_004/screenshots/final_execution_7_nonstop_results_prices.png",
+          "sha256": "66ea494cb3f24f43b720554cce4b87d9f3aecb33f558dd5a5b7ab81631cb2268"
+        },
+        {
+          "path": "Google Flights--24/Google Flights--24_20261114_061818/final_runs/run_004/screenshots/final_execution_8_selected_nonstop_flight.png",
+          "sha256": "7df54caae84d620fb61bbb34795563fcea476f5cff3c4d9447b0db64e9b211eb"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a92125e745ba7b54a44253c49405879af46668a808e5b8509d3261b12831b7bb",
+      "fingerprint": "9273c240b1e536d82d3b08519976946229a9d04c2f1d1e46cf93836dd4f9af62"
+    },
+    {
+      "task_id": "Google Flights--25",
+      "website": "Google Flights",
+      "task": "Find a one-way business class flight from Buenos Aires to Amsterdam on December 10, 2026, and provide the details of the flight with the shortest duration.",
+      "task_record": "Google Flights--25/Google Flights--25_20261114_064716",
+      "task_definition_sha256": "f60de9d9f940315945b8483e52d8cf62c9a97fbfecf323ce6451f26be28b51c6",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--25/Google Flights--25_20261114_064716"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The shortest-duration one-way business class flight from Buenos Aires to Amsterdam on December 10, 2026 is the KLM nonstop flight departing 5:00 PM from Ezeiza International Airport (EZE) and arriving 10:30 AM (+1) at Amsterdam Airport Schiphol (AMS), with a total duration of 13 hr 30 min, priced at HK$34,087 (Google Flights results sorted by duration).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--25/Google Flights--25_20261114_064716/final_runs/run_003/screenshots/final_execution_4_destination_amsterdam.png",
+          "sha256": "6bc23416dca6c698b31c736e15249dfd974e94808500275c4c39ee7396ab0c81"
+        },
+        {
+          "path": "Google Flights--25/Google Flights--25_20261114_064716/final_runs/run_003/screenshots/final_execution_5_date_dec_10_2026.png",
+          "sha256": "220ec2beb99731e597fb1fb37ea8c68731e625b96633c524285c386dab3ff2dd"
+        },
+        {
+          "path": "Google Flights--25/Google Flights--25_20261114_064716/final_runs/run_003/screenshots/final_execution_6_results_displayed.png",
+          "sha256": "6a67c5bfabe1ab7b33097518278793bf8d9676bf788fb1cbc3a94c9b5396c365"
+        },
+        {
+          "path": "Google Flights--25/Google Flights--25_20261114_064716/final_runs/run_003/screenshots/final_execution_7_sorted_by_duration.png",
+          "sha256": "296131c95a26bdac2d6683837f616f51c8dd057e70696d508bf017532da50be5"
+        },
+        {
+          "path": "Google Flights--25/Google Flights--25_20261114_064716/final_runs/run_003/screenshots/final_execution_8_shortest_flight.png",
+          "sha256": "ff2f87e738739a7d2256d5377b364f4a8492bc04dae8ab58b9b4da449e4feb29"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "de535f90ba41101d32ff8f89f3cadfff7e6cd24424d3124991af95f3d695d057",
+      "fingerprint": "9988ab33afef587ef6984f594c4abb774941269860b2a46fe81e760b94f50588"
+    },
+    {
+      "task_id": "Google Flights--26",
+      "website": "Google Flights",
+      "task": "Search for the cheapest round-trip flights from Bangkok to Madrid, leaving on November 26, 2026, and returning on November 28, 2026, and provide options under $1000.",
+      "task_record": "Google Flights--26/Google Flights--26_20261114_072741",
+      "task_definition_sha256": "f33a46424ee9a338191e88e4be91a81a57c62257d5a2e1777f4ab44e4e081183",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--26/Google Flights--26_20261114_072741"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Cheapest round-trip flights Bangkok (BKK) -> Madrid (MAD), departing Nov 26, 2026 and returning Nov 28, 2026, sorted by Cheapest on Google Flights with the Price filter set to up to $1,000. 7 options under $1,000: 1) Etihad, 2 stops, 12:50 AM -> 11:45 PM, $725 (cheapest); 2) Turkish Airlines, 1 stop, 11:00 PM -> 10:35 PM, $794; 3) SWISS, 1 stop, 1:00 AM -> 11:10 PM, $847; 4) Qatar Airways, 1 stop, 8:05 AM -> 1:30 PM, $959; 5) Qatar Airways, 1 stop, 8:05 AM -> 1:30 PM, $959; 6) Qatar Airways, 1 stop, 2:20 AM -> 1:30 PM, $959; 7) Turkish Airlines, 1 stop, 11:00 PM -> 10:35 PM, $971. All prices are round-trip totals in USD. Round trip, Bangkok origin, Madrid destination, Nov 26 departure, Nov 28 return, results displayed, Cheapest sort applied, price filter up to $1,000 applied, and options extracted and reported.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--26/Google Flights--26_20261114_072741/final_runs/run_004/screenshots/final_execution_2_search_form_results.png",
+          "sha256": "fb83298035e26b1a53497aa8d787e80dadc55f6bf320b9b4b3e5ba7f70be519f"
+        },
+        {
+          "path": "Google Flights--26/Google Flights--26_20261114_072741/final_runs/run_004/screenshots/final_execution_3_sorted_cheapest.png",
+          "sha256": "caaaa72bb1722b9fd0a2a13e65d03d7998a0c60aed666ce0f6784a278984bba7"
+        },
+        {
+          "path": "Google Flights--26/Google Flights--26_20261114_072741/final_runs/run_004/screenshots/final_execution_4_price_filter_dialog_1000.png",
+          "sha256": "d73bd959b34db8df0abb5cb067181a91867c35f1f5a68c5f214731e0db827b0f"
+        },
+        {
+          "path": "Google Flights--26/Google Flights--26_20261114_072741/final_runs/run_004/screenshots/final_execution_5_final_sorted_filtered.png",
+          "sha256": "3aa23165918e5c7fe774e5f3a4dad4fee15e28222290b037ad6906fbd5d18ec7"
+        },
+        {
+          "path": "Google Flights--26/Google Flights--26_20261114_072741/final_runs/run_004/screenshots/final_execution_6_results_fullpage.png",
+          "sha256": "861d2444897d3f5f91d6c598278d52da8ac562a6507e1bc324cad3f13d3b8246"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "91abc8595a1088d7949e90ec7a6c4cd8a27787e5774a9a38cef92b47528539c8",
+      "fingerprint": "ea3e29f27c75c79d2eec1f09dc625a31ea86991573d6070ad0c0563488f79938"
+    },
+    {
+      "task_id": "Google Flights--27",
+      "website": "Google Flights",
+      "task": "Locate a one-way flight from Johannesburg to Toronto on November 30, 2026, for one adult, and analyze the price trends for the following month.",
+      "task_record": "Google Flights--27/Google Flights--27_20261114_081101",
+      "task_definition_sha256": "17c82add6a714a6ab39b6194a0a03d7a957292cfa98f7eab75f592747411567a",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--27/Google Flights--27_20261114_081101"
+      ],
+      "final_run": "run_011",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Located a one-way flight from Johannesburg (JNB) to Toronto (YYZ) on November 30, 2026, for 1 adult on Google Flights (trip type set to One way, 1 passenger, origin Johannesburg, destination Toronto, departure Mon, Nov 30, 2026; one-way search results displayed).\n\nPrice trend analysis for the following month (December 2026) using the Date grid and Price graph:\n- The Nov 30, 2026 departure was priced at HK$5,896.\n- 13 December departure dates with prices were visible in the Date grid.\n- Cheapest December departure: Dec 2 at HK$5,539.\n- Most expensive December departure: Dec 11 at HK$6,465.\n- Overall trend: early December (Dec 1–5) is cheapest (HK$5,539–HK$5,896 range), prices rise through mid-December (peaking around Dec 10–12 at ~HK$6,4xx), then ease slightly toward late December.\n\nFinal Response: One-way Johannesburg→Toronto on Nov 30, 2026 (1 adult) located; December 2026 price trends analyzed — Nov 30 HK$5,896, cheapest Dec 2 HK$5,539, most expensive Dec 11 HK$6,465, with 13 December dates tracked.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--27/Google Flights--27_20261114_081101/final_runs/run_011/screenshots/final_execution_5_departure_nov30.png",
+          "sha256": "60aab4fccbc67fa366af4070e3fa31bdddfae1b611e7c2048e2dbe2a7df6f1ca"
+        },
+        {
+          "path": "Google Flights--27/Google Flights--27_20261114_081101/final_runs/run_011/screenshots/final_execution_6_search_form_ready.png",
+          "sha256": "60aab4fccbc67fa366af4070e3fa31bdddfae1b611e7c2048e2dbe2a7df6f1ca"
+        },
+        {
+          "path": "Google Flights--27/Google Flights--27_20261114_081101/final_runs/run_011/screenshots/final_execution_7_results.png",
+          "sha256": "f16b736074946acc7202878e4c4fabdc5393a6234b8b3c9f0ebc3fe0e28509f1"
+        },
+        {
+          "path": "Google Flights--27/Google Flights--27_20261114_081101/final_runs/run_011/screenshots/final_execution_8_date_grid.png",
+          "sha256": "793b60f7bb7daa80955eb68a5e967371f171de01ce7a850aa80c3c13c5eee78a"
+        },
+        {
+          "path": "Google Flights--27/Google Flights--27_20261114_081101/final_runs/run_011/screenshots/final_execution_9_price_graph_final.png",
+          "sha256": "391ab2dfad36888609f8c48d9c820087cbe34407924e8b8afda94b0a8f2b5ab6"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "3b2c38af0664e122ee0e4fa29d7c6b5b9f84ee4e216ae0b812165a108f4e627f",
+      "fingerprint": "f16d87f7b089ea9461d6b94ab596a2f246b96a74a71ab81ad0dbf07ee89c5b0a"
+    },
+    {
+      "task_id": "Google Flights--28",
+      "website": "Google Flights",
+      "task": "Find the best-priced round-trip flight from Seattle to Paris, departing on November 27, 2026, and returning on December 1, 2026, with a maximum of one stop.",
+      "task_record": "Google Flights--28/Google Flights--28_20261114_094559",
+      "task_definition_sha256": "7072c0a4a60a7533c2d37b35b817b29737f7edbe2ee14ceaf8ee2ec15a13fee5",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--28/Google Flights--28_20261114_094559"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The best-priced round-trip flight from Seattle to Paris (departing November 27, 2026, returning December 1, 2026, with a maximum of one stop) is HK$7,181 round trip total with WestJet, 1 stop. Outbound leaves Seattle-Tacoma International Airport at 2:30 PM on Friday, November 27 and arrives at Aéroport de Paris-Charles de Gaulle at 11:30 AM on Saturday, November 28 (total duration 12 hr). Results were filtered to '1 stop or fewer' and sorted by price on Google Flights; this was the cheapest of 9 filtered results.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_2_results.png",
+          "sha256": "8b043b3402a19c3f797f710f62464e8c926540af091815a784e8dac4bc422a52"
+        },
+        {
+          "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_3_stops_dialog.png",
+          "sha256": "85fe072ecd82584d945359a78b95374aa13509e3f7f65a9620f8b7a136d92677"
+        },
+        {
+          "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_4_stops_applied.png",
+          "sha256": "269c9ea3f8876737ee78306ab7fc82a7c3bf128ef13d32ab2f0596f0f342d139"
+        },
+        {
+          "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_5_sorted_price.png",
+          "sha256": "f1473c3027c0df2948d7454f089f2088124853063de747f6a7852d865a1d188a"
+        },
+        {
+          "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_6_best_flight.png",
+          "sha256": "f1473c3027c0df2948d7454f089f2088124853063de747f6a7852d865a1d188a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "592be1dcfbc207bc7cc8326dcc9d58c2660aba3ce69d103a44d830e70a7facdb",
+      "fingerprint": "631cbe0c821bb2e30f599f4043f2a3e46c9db8534596267d1b7b41b2f2f0eb9d"
+    },
+    {
+      "task_id": "Google Flights--29",
+      "website": "Google Flights",
+      "task": "Compare the prices and total travel time of non-stop flights from Mexico City to Frankfurt, departing on December 5, 2026, and returning on December 15, 2026.",
+      "task_record": "Google Flights--29/Google Flights--29_20261114_103102",
+      "task_definition_sha256": "6de5adf75d3772d32b8033e4982e038e9370a18e70cb19b35e6b6472d3b8e784",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--29/Google Flights--29_20261114_103102"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Compared non-stop round-trip flights Mexico City (MEX) → Frankfurt (FRA), departing Dec 5, 2026, returning Dec 15, 2026 on Google Flights (round trip, 1 passenger, economy), with the Stops filter set to Nonstop only. There is exactly one nonstop round-trip option: Lufthansa. Outbound (Dec 5): Lufthansa MEX→FRA nonstop, total travel time 10 hr 45 min. Return (Dec 15): Lufthansa FRA→MEX nonstop, total travel time 12 hr 20 min. Price: HK$13,461 round trip (currency as displayed by the site). Comparison: the same HK$13,461 round-trip price applies to both legs; the return flight is 1 hr 35 min longer than the outbound (12 hr 20 min vs 10 hr 45 min).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--29/Google Flights--29_20261114_103102/final_runs/run_001/screenshots/cp4_results_page.png",
+          "sha256": "57ecc77bf3e63081515ca172232c8fd4c755ea252b1c9b7b299787de676edd74"
+        },
+        {
+          "path": "Google Flights--29/Google Flights--29_20261114_103102/final_runs/run_001/screenshots/cp5_nonstop_results.png",
+          "sha256": "a54419d77d9c1ff53abcc9f5099a380ac71e630c1c618f38064d310ea4becafd"
+        },
+        {
+          "path": "Google Flights--29/Google Flights--29_20261114_103102/final_runs/run_001/screenshots/cp5_stops_dialog_nonstop.png",
+          "sha256": "4d200d20bf2fd9d39d8c6f48d26d712793111d5e403cb212c42c5e882a8c4618"
+        },
+        {
+          "path": "Google Flights--29/Google Flights--29_20261114_103102/final_runs/run_001/screenshots/cp6_nonstop_comparison.png",
+          "sha256": "c2b38b33e30f8607d51090938325a421afad29d8a032ddccd54f9035bba8444b"
+        },
+        {
+          "path": "Google Flights--29/Google Flights--29_20261114_103102/final_runs/run_001/screenshots/cp6_return_nonstop_results.png",
+          "sha256": "c2b38b33e30f8607d51090938325a421afad29d8a032ddccd54f9035bba8444b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d441dd9e47ee31a0e856780dd9c03816c9ace95b9521f6041c7d41bcddf9cdc8",
+      "fingerprint": "d3b3e7258aa18b958df383b28289c15e45f67dd383da42de5c8c3d822d8d4068"
+    },
+    {
+      "task_id": "Google Flights--30",
+      "website": "Google Flights",
+      "task": "Find the most affordable one-way flight from Cape Town to Singapore, departing on November 20, 2026, and include the airline and total number of layovers.",
+      "task_record": "Google Flights--30/Google Flights--30_20261114_125827",
+      "task_definition_sha256": "7d07359ba4242cd913b8f9116f2d0c6af0f950958daa3bdda932e3868a571ca7",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--30/Google Flights--30_20261114_125827"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most affordable one-way flight from Cape Town (CPT) to Singapore (SIN) on November 20, 2026 is operated by Airlink and Etihad at HK$6,125, with 2 layovers.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--30/Google Flights--30_20261114_125827/final_runs/run_001/screenshots/cp5_results.png",
+          "sha256": "93af23b94e074f62b5ec4885752e1499b5b399ab8cf0151aba9b0c0965f03e10"
+        },
+        {
+          "path": "Google Flights--30/Google Flights--30_20261114_125827/final_runs/run_001/screenshots/cp6_cheapest_sort.png",
+          "sha256": "cfebd235803c3371d0b657a395a8e3fdb6238a94906a27f75d076d2ac9e16abf"
+        },
+        {
+          "path": "Google Flights--30/Google Flights--30_20261114_125827/final_runs/run_001/screenshots/cp7_cheapest_flight.png",
+          "sha256": "cfebd235803c3371d0b657a395a8e3fdb6238a94906a27f75d076d2ac9e16abf"
+        },
+        {
+          "path": "Google Flights--30/Google Flights--30_20261114_125827/final_runs/run_001/screenshots/cp_results_header.png",
+          "sha256": "e87cb8ba5d8152662c3ebdb4c30b3f006789606701c8b4df6527931a1ab6fd43"
+        },
+        {
+          "path": "Google Flights--30/Google Flights--30_20261114_125827/final_runs/run_001/screenshots/final_state.png",
+          "sha256": "cfebd235803c3371d0b657a395a8e3fdb6238a94906a27f75d076d2ac9e16abf"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "eb2f68ca9af5be0ae7f40e5f4a57bd81914812b2d410b3178f2e30a912871d9c",
+      "fingerprint": "99edc5edf06d055dc9685172f7cd37aa51013291266db68c4e808a868f8c18e3"
+    },
+    {
+      "task_id": "Google Flights--31",
+      "website": "Google Flights",
+      "task": "Find a one-way economy flight from Auckland to Honolulu on November 25, 2026, browse the full page and display a flight option with the most stops.",
+      "task_record": "Google Flights--31/Google Flights--31_20261114_134519",
+      "task_definition_sha256": "2b016e510ee06c8b5cca853b77451e935a000ed68eee73f71adad8fa565358c2",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--31/Google Flights--31_20261114_134519"
+      ],
+      "final_run": "run_011",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Displayed a one-way Economy flight search from Auckland (AKL) to Honolulu (HNL) on Nov 25, 2026 on Google Flights. Browsed the full results page (expanded 'View more flights' and scrolled the entire list) and opened the Stops filter, selecting the most-stops option '2 stops or fewer'. The most stops available for this route/date is 1 stop (stop-count distribution across all results: {1: 8}; no nonstop or 2-stop itineraries exist). Flight option with the most stops shown: From 3,154 HKD — 1 stop flight with Qantas, leaving Auckland Airport at 7:30 AM on Wednesday, November 25 and arriving at Daniel K. Inouye International Airport at 9:15 AM on Wednesday, November 25; total duration 24 hr 45 min with an 11 hr 25 min layover at Sydney Airport (SYD).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--31/Google Flights--31_20261114_134519/final_runs/run_011/screenshots/final_execution_7_full_page_bottom.png",
+          "sha256": "727bcbc03f5846a8fa6b414638e4ce5df231a2b0df465c33f0fc80c516f49635"
+        },
+        {
+          "path": "Google Flights--31/Google Flights--31_20261114_134519/final_runs/run_011/screenshots/final_execution_7a_results_top.png",
+          "sha256": "c8d47c8b6a2250fce109cdab12c7329768eedde806a1e1fc5b915bdbb067727b"
+        },
+        {
+          "path": "Google Flights--31/Google Flights--31_20261114_134519/final_runs/run_011/screenshots/final_execution_8_stops_filter_applied.png",
+          "sha256": "5c0bb1b03de673d1905a6dd65ae6ad17b6c74bceb92d438ddda9a742ef69db9f"
+        },
+        {
+          "path": "Google Flights--31/Google Flights--31_20261114_134519/final_runs/run_011/screenshots/final_execution_8a_stops_menu.png",
+          "sha256": "7c789aee84a220774dcb3344ebfb28f821aa2384c72be397d3657d2e62e3b1cb"
+        },
+        {
+          "path": "Google Flights--31/Google Flights--31_20261114_134519/final_runs/run_011/screenshots/final_execution_9_most_stops_flight.png",
+          "sha256": "c8d47c8b6a2250fce109cdab12c7329768eedde806a1e1fc5b915bdbb067727b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "f04518333fd45d7cab8cab99b73edb27d3da77e205438ca83c63595fd3dc2a28",
+      "fingerprint": "0382fd3b6363cf4a0a662ae4acc441d480b25da4ea59148728f4fb73a961bb88"
+    },
+    {
+      "task_id": "Google Flights--32",
+      "website": "Google Flights",
+      "task": "Search for round-trip flights from Stockholm to Toronto, departing on December 3, 2026, and returning on December 10, 2026, and sort the results to find the shortest total travel time.",
+      "task_record": "Google Flights--32/Google Flights--32_20261115_022337",
+      "task_definition_sha256": "5d5464183a505f1a8179bfcc3821be8c23e4957bfd08e2ba7221b781c16464c1",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--32/Google Flights--32_20261115_022337"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Searched round-trip flights from Stockholm to Toronto on Google Flights for December 3-10, 2026 and sorted results by Duration (shortest total travel time). The quickest option found is Icelandair departing ARN 12:45 PM arriving YYZ 6:15 PM with a total travel time of 11 hr 30 min (1 stop, 1 hr 45 min layover in KEF), priced at HK$5,142 round trip.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--32/Google Flights--32_20261115_022337/final_runs/run_004/screenshots/cp4_departure_dec3.png",
+          "sha256": "8deff998914039d802b25fa9e4aac2c4c017b4bc9d1c391e4f0bc55994ec1ea7"
+        },
+        {
+          "path": "Google Flights--32/Google Flights--32_20261115_022337/final_runs/run_004/screenshots/cp5_return_dec10.png",
+          "sha256": "e9510cbc9431ffe5fbc1b46f3a9b95814a27473cb457309f433379cae56b855f"
+        },
+        {
+          "path": "Google Flights--32/Google Flights--32_20261115_022337/final_runs/run_004/screenshots/cp6_results_displayed.png",
+          "sha256": "fa06aae9a989159be1a2bde195b1f06aa45609b155bf2f2dfdb1c61839dc9f0c"
+        },
+        {
+          "path": "Google Flights--32/Google Flights--32_20261115_022337/final_runs/run_004/screenshots/cp7_sort_menu_duration.png",
+          "sha256": "0cf4311933a7c8b3ac3453a33695cd0c72ba2a60a2647f183bb1dcc746c7b4a1"
+        },
+        {
+          "path": "Google Flights--32/Google Flights--32_20261115_022337/final_runs/run_004/screenshots/cp8_sorted_results.png",
+          "sha256": "7b60a9304bdfb59b44ca987f68dea3d1e68482cddf7df1640279675007794913"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d94b1f0a8fa60b18acf59c1a741cdd2885880edec4e33eb0fbbd4ab8e567e962",
+      "fingerprint": "1c434629139287b3170c5e1a2388658ed79615ac16f5da0502a5f9e269790068"
+    },
+    {
+      "task_id": "Google Flights--33",
+      "website": "Google Flights",
+      "task": "Find a one-way flight from Shanghai to Vancouver on November 27, 2026, and compare the options based on carbon dioxide emissions.",
+      "task_record": "Google Flights--33/Google Flights--33_20261115_025445",
+      "task_definition_sha256": "4f564a348b601d015409266772e3e4c597f1c66bd73f389952379e982efc7a7b",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--33/Google Flights--33_20261115_025445"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found one-way flights from Shanghai to Vancouver on November 27, 2026 on Google Flights and compared them by CO2 emissions. Sorted by CO2 emissions, the options compare as follows: Lowest emissions: Air Canada (Nonstop) at 487 kg CO2e, price HK$5,727; Korean Air (1 stop): 518 kg CO2e; Cathay Pacific (1 stop): 718 kg CO2e; additional options at 718, 718, 720, 729, 731, 771 kg CO2e. The Air Canada nonstop option emits the least CO2 (487 kg), while the other displayed options emit more, up to 800 kg CO2e.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--33/Google Flights--33_20261115_025445/final_runs/run_003/screenshots/final_execution_3_destination_vancouver.png",
+          "sha256": "a9ee4ebe139602cd3cb161ab7ff06812fb160e10fd66b06d079b63aa82b58f68"
+        },
+        {
+          "path": "Google Flights--33/Google Flights--33_20261115_025445/final_runs/run_003/screenshots/final_execution_4_date_nov27.png",
+          "sha256": "c17e8f8274f797c5e08fe2b3628bc8e9f6c8b252966246f61fe22256a3b45e73"
+        },
+        {
+          "path": "Google Flights--33/Google Flights--33_20261115_025445/final_runs/run_003/screenshots/final_execution_5_results.png",
+          "sha256": "ed801bc97dd988c9a241ac112a0e401c664d6b1ea358dd798c29f520a4906718"
+        },
+        {
+          "path": "Google Flights--33/Google Flights--33_20261115_025445/final_runs/run_003/screenshots/final_execution_6_sorted_emissions.png",
+          "sha256": "d4674f22091ecbdd42aff2199c0a2746f3e8589b36ca3bee796b09cb79b75d07"
+        },
+        {
+          "path": "Google Flights--33/Google Flights--33_20261115_025445/final_runs/run_003/screenshots/final_execution_7_final_state.png",
+          "sha256": "bc45e73ec46f269c793d57ea810a67846f10e9dfdee052540d79124da56647f1"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "044071307d6c68b8f7b828ce4e2a4050f81e89758572cb1994a5e95069006137",
+      "fingerprint": "67d5afbfe4282ac3f7c022d11d3f64ce314b0f459f6894e1498f0a2929bacdd0"
+    },
+    {
+      "task_id": "Google Flights--34",
+      "website": "Google Flights",
+      "task": "Compare business class flight options from Lisbon to Singapore for a one-way trip on November 15, 2026, select one of the flights and see which websites offer its booking options. Which one is the cheapest.",
+      "task_record": "Google Flights--34/Google Flights--34_20261114_112410",
+      "task_definition_sha256": "342c1c43e1697fc907bd0f5c214cde514f3b5d5f56af810f50f4878490da8d95",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--34/Google Flights--34_20261114_112410"
+      ],
+      "final_run": "run_008",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: For the one-way Business class flight Lisbon (LIS) -> Singapore (SIN) on November 15, 2026, the selected SWISS flight (3:35 PM - 6:05 PM) offers booking options on: SWISS Airline: HK$57,481; Booking.com: HK$58,389; Gotogate: HK$58,291; Mytrip: HK$58,291. The cheapest booking website for the Business class fare is SWISS Airline at HK$57,481.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--34/Google Flights--34_20261114_112410/final_runs/run_008/screenshots/final_execution_05_departure_set.png",
+          "sha256": "ee93a166ad06d2d9e03db52fca7d5f1f5cc79de0cc856bdabc0e9de9da4319b7"
+        },
+        {
+          "path": "Google Flights--34/Google Flights--34_20261114_112410/final_runs/run_008/screenshots/final_execution_06_search_results.png",
+          "sha256": "a96f1f1fc5e2addbd51a7306f3249d586623f3e7d5909fd5fba176fe058b1989"
+        },
+        {
+          "path": "Google Flights--34/Google Flights--34_20261114_112410/final_runs/run_008/screenshots/final_execution_07_selected_flight.png",
+          "sha256": "c9d984413a7201beee8b59ad1e9392575ea4773008c60579002c39a179a44c07"
+        },
+        {
+          "path": "Google Flights--34/Google Flights--34_20261114_112410/final_runs/run_008/screenshots/final_execution_08_booking_options.png",
+          "sha256": "5662fa6302cb820fb4450c60a329a3e0c7076f8fb37aa598d3223d2d1c0d54d8"
+        },
+        {
+          "path": "Google Flights--34/Google Flights--34_20261114_112410/final_runs/run_008/screenshots/final_execution_09_cheapest_booking_site.png",
+          "sha256": "9538ba431c85356188a6bc389b8c366bdffbcf8ecaa5cdf3082afb17416266b4"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "7900c70543db0e6cfbd990de02b77fbbe38c9439a276bacdf37145039ae308ba",
+      "fingerprint": "8a05d493b723fcec3bd7a98c0799aecd6bb56724458de88a6377a9c53d9a5fca"
+    },
+    {
+      "task_id": "Google Flights--35",
+      "website": "Google Flights",
+      "task": "Find the lowest-priced one-way flight from Cairo to Montreal on November 21, 2026, including the total travel time and number of stops.",
+      "task_record": "Google Flights--35/Google Flights--35_20261115_034504",
+      "task_definition_sha256": "d6fef8cb9f3d2a09b2c901f265e17fc6062d148fd8968553d9844af6ebdcb422",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--35/Google Flights--35_20261115_034504"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The lowest-priced one-way flight from Cairo (CAI) to Montreal (YUL) on Saturday, November 21, 2026 is HK$5,126 (Lufthansa and Air Canada), with 2 stops and a total travel time of 19 hr 21 min. Layover cities: Frankfurt am Main and Toronto.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--35/Google Flights--35_20261115_034504/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+          "sha256": "f28aa3e4d695c6513505c1c235bb921f67bf0371ebe905ced977bde94178a96a"
+        },
+        {
+          "path": "Google Flights--35/Google Flights--35_20261115_034504/final_runs/run_003/screenshots/final_execution_2_sort_menu_price.png",
+          "sha256": "69318c607538d9e3a0fca5bcd727298c1dc609f270fdc9670f63e6306e76ddcd"
+        },
+        {
+          "path": "Google Flights--35/Google Flights--35_20261115_034504/final_runs/run_003/screenshots/final_execution_3_sorted_by_price.png",
+          "sha256": "08c749532d700355b3b00c8f5f0aefa5f32a87ca30cf5fe1ad720f41ea72401d"
+        },
+        {
+          "path": "Google Flights--35/Google Flights--35_20261115_034504/final_runs/run_003/screenshots/final_execution_4_cheapest_flight.png",
+          "sha256": "f84663f5a63f34d4ce12e0d775de6cab4e4043ff7bd6fdab4d20547f9c21685a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "53d7c07fa75d1d20516c75db005ad0e002fdd33522b6bc36676440f072c2c1ce",
+      "fingerprint": "eafdb3f5183a4471a8c5c4e29f7afab78bf8ab17217e3367c6638a9ab0469e53"
+    },
+    {
+      "task_id": "Google Flights--36",
+      "website": "Google Flights",
+      "task": "Search for round-trip flights from Helsinki to New Delhi, departing on November 28, 2026, and returning on December 4, 2026, and filter the results to show only flights under $1000.",
+      "task_record": "Google Flights--36/Google Flights--36_20261115_043258",
+      "task_definition_sha256": "c4f6e7e08919141343bf044dd7cb5d74b4db82090dd34ab0c11235d48e77422f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--36/Google Flights--36_20261115_043258"
+      ],
+      "final_run": "run_010",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Round-trip Helsinki (HEL) -> New Delhi (DEL), departing Nov 28, 2026 and returning Dec 4, 2026. No flight under $1,000 USD exists for these exact dates (cheapest loaded fare $1056); the site price slider cannot go below $1200, so the exacter available filter was applied (slider aria-valuetext: 'Show prices between $1,200 and $1,200'). Visible filtered prices: [1056, 1138, 1161, 1175].",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--36/Google Flights--36_20261115_043258/final_runs/run_010/screenshots/final_execution_1_form_filled.png",
+          "sha256": "d672d23b7d18e0e0e1dbf9e3faef7ab0566144a5bd8688bbbfa01f647b529f10"
+        },
+        {
+          "path": "Google Flights--36/Google Flights--36_20261115_043258/final_runs/run_010/screenshots/final_execution_2_results.png",
+          "sha256": "c01917d58ebb9d9bc2aaea5209b0d740e5de34ca410c2b97835bd96caa70f8eb"
+        },
+        {
+          "path": "Google Flights--36/Google Flights--36_20261115_043258/final_runs/run_010/screenshots/final_execution_3_price_filter.png",
+          "sha256": "addee875222b3e2df8301dfbe77d92135af0b667640695d7d0d9f98bb0c5dc4e"
+        },
+        {
+          "path": "Google Flights--36/Google Flights--36_20261115_043258/final_runs/run_010/screenshots/final_execution_4_filtered_results.png",
+          "sha256": "a7e6388764e8e0d79b8db7399a3d19e26d8d3dd94636db82db66640d717ba696"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "021a17a27dee5766125d1f1b947f4e82766213a41072e11616adf81f7704936a",
+      "fingerprint": "91133f323e5a80ba2b2202268a4eecbeb00cbb0b49f7367f5a87e2ef43859f40"
+    },
+    {
+      "task_id": "Google Flights--37",
+      "website": "Google Flights",
+      "task": "Locate a round-trip flight from Buenos Aires to Beijing, leaving on November 28, 2026, and returning on December 3, 2026, check out one of the options and tell me if the airline for my return flight is the same as my departure flight.",
+      "task_record": "Google Flights--37/Google Flights--37_20261115_072820",
+      "task_definition_sha256": "edbc57189d9a4d0cbb57572d425f89e357ff74293fbfa0e61bb73209cd8ec29f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--37/Google Flights--37_20261115_072820"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Yes, the airline for the return flight is the same as the airline for the departure flight. For the selected Buenos Aires → Beijing round-trip option (departing Nov 28, 2026 and returning Dec 3, 2026), both the outbound leg (EZE → PEK via GRU and ADD) and the return leg (PEK → EZE via ADD and GRU) are operated by Ethiopian Airlines (departure airline: Ethiopian; return airline: Ethiopian).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--37/Google Flights--37_20261115_072820/final_runs/run_002/screenshots/final_execution_1_search_form.png",
+          "sha256": "1ea1c149b7c2f3dc9342484722a301299864a91ade77b4b9585ec7e9fefdb52a"
+        },
+        {
+          "path": "Google Flights--37/Google Flights--37_20261115_072820/final_runs/run_002/screenshots/final_execution_2_results.png",
+          "sha256": "f89948acd66a067495ba3ebd9ace560dd2c6bd9e2d94ceaf28d8bd3a952c1ad3"
+        },
+        {
+          "path": "Google Flights--37/Google Flights--37_20261115_072820/final_runs/run_002/screenshots/final_execution_3_outbound_selected.png",
+          "sha256": "0abae89d6b0ca9279e3594e696623f7cc7e3c0f37e36d91716770253f1f486f6"
+        },
+        {
+          "path": "Google Flights--37/Google Flights--37_20261115_072820/final_runs/run_002/screenshots/final_execution_4_details_view.png",
+          "sha256": "b217dd6e19b476a3ddc0b6a6838db48d6a436ddae14e7196eea59b4884c1b45c"
+        },
+        {
+          "path": "Google Flights--37/Google Flights--37_20261115_072820/final_runs/run_002/screenshots/final_execution_5_airlines_expanded.png",
+          "sha256": "777d7242717878e51eb0df4f4e00b238db0248e272c0bb341214d0a537b0ae7a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "45189cffb89c90b0de5b5a47a09f2878dfc832799f9de2a40020a6351b4cda3a",
+      "fingerprint": "1a0c7e575a8b0cdc2daaee7f2f0ea403f968834aece5cd15a45d9bc69a2df535"
+    },
+    {
+      "task_id": "Google Flights--38",
+      "website": "Google Flights",
+      "task": "Compare the prices and flight durations for economy class flights from Oslo to Dubai, departing on December 8, 2026, and show the options with no more than two layovers.",
+      "task_record": "Google Flights--38/Google Flights--38_20261115_082212",
+      "task_definition_sha256": "6eaa2367cb77b9d51c390ff4fa047b223110577600d65f3985e2899f726b627b",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--38/Google Flights--38_20261115_082212"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Economy one-way flights from Oslo to Dubai on Dec 8, 2026, with no more than two layovers (Google Flights '2 stops or fewer' filter; prices shown in HK$): 11 options found, all Nonstop or 1 stop. Cheapest: HK$2,094 (9 hr 35 min, 1 stop). Fastest: HK$3,061 (6 hr 55 min, Nonstop). Full price/duration comparison (sorted by price): 1. HK$2,094 | 9 hr 35 min | 1 stop; 2. HK$2,094 | 13 hr 30 min | 1 stop; 3. HK$2,218 | 11 hr 15 min | 1 stop; 4. HK$2,218 | 11 hr 40 min | 1 stop; 5. HK$2,218 | 12 hr 5 min | 1 stop; 6. HK$2,218 | 12 hr 45 min | 1 stop; 7. HK$2,218 | 13 hr 55 min | 1 stop; 8. HK$2,218 | 17 hr 40 min | 1 stop; 9. HK$2,218 | 19 hr 10 min | 1 stop; 10. HK$2,218 | 23 hr 35 min | 1 stop; 11. HK$2,218 | 25 hr 55 min | 1 stop; 12. HK$2,218 | 26 hr 5 min | 1 stop; 13. HK$2,218 | 26 hr 50 min | 1 stop; 14. HK$2,218 | 29 hr 25 min | 1 stop; 15. HK$2,218 | 31 hr 35 min | 1 stop; 16. HK$2,218 | 32 hr 35 min | 1 stop; 17. HK$2,218 | 33 hr 5 min | 1 stop; 18. HK$2,218 | 34 hr 5 min | 1 stop; 19. HK$2,218 | 35 hr 5 min | 1 stop; 20. HK$2,218 | 35 hr 35 min | 1 stop; 21. HK$3,061 | 6 hr 55 min | Nonstop; 22. HK$5,099 | 6 hr 55 min | Nonstop. (22 rows = 11 unique results shown twice by the page's hidden duplicate list.)",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--38/Google Flights--38_20261115_082212/final_runs/run_005/screenshots/final_execution_5_economy.png",
+          "sha256": "ff9e6d02c306afa1f6202d99d80dc3418cad17061c03fbd4a9eb190fc4779c83"
+        },
+        {
+          "path": "Google Flights--38/Google Flights--38_20261115_082212/final_runs/run_005/screenshots/final_execution_6_results.png",
+          "sha256": "e9cfa64198d8ead4c65b742150eeb330cf20978b70605500e64b111f2c523453"
+        },
+        {
+          "path": "Google Flights--38/Google Flights--38_20261115_082212/final_runs/run_005/screenshots/final_execution_7_stops_dialog.png",
+          "sha256": "147d239e1d5bb3888eb6a8132730aa52a98af92e1e05496868aab830d81cf2a1"
+        },
+        {
+          "path": "Google Flights--38/Google Flights--38_20261115_082212/final_runs/run_005/screenshots/final_execution_8_stops_filter_applied.png",
+          "sha256": "c3e7c8db25a2394a2ab6fbf10953ae66966375c43ded59bc2b1ba5eefb8e12fd"
+        },
+        {
+          "path": "Google Flights--38/Google Flights--38_20261115_082212/final_runs/run_005/screenshots/final_execution_9_final_state.png",
+          "sha256": "153400293672015dcb6a6017f9767991f16c26836c277d4dab43c28c38254b64"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "890343c438d0b35fcf82e3e098c347d02880a32a27bae4d522c8ca8738038411",
+      "fingerprint": "60d9fe4120ce3946448f06a6610c6c8399094a909bb672b6d67ec0a6c34b30ab"
+    },
+    {
+      "task_id": "Google Flights--39",
+      "website": "Google Flights",
+      "task": "Find a one-way flight from Prague to a city in Japan on November 20, 2026, which city in Japan is cheaper to go to, Tokyo or a certain city in Hokkaido?",
+      "task_record": "Google Flights--39/Google Flights--39_20261115_090355",
+      "task_definition_sha256": "c3d7c75f9fb2f29a4fcb0ee99a71639cb1175ab7026b0a85b1c523074dae6875",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--39/Google Flights--39_20261115_090355"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: One-way fares from Prague on Nov 20, 2026: Tokyo HK$4,372 vs Sapporo (Hokkaido) HK$6,829. Tokyo is the cheaper city to fly to.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--39/Google Flights--39_20261115_090355/final_runs/run_003/screenshots/cp3_dest_tokyo_date.png",
+          "sha256": "2e93f29326cf075752ae051daca04377c5747aab9c0ec82539d6bd42a2166a0e"
+        },
+        {
+          "path": "Google Flights--39/Google Flights--39_20261115_090355/final_runs/run_003/screenshots/cp4_tokyo_results.png",
+          "sha256": "3813f51b796813014d3a2622e3684a8c16d781cbbbf31238bbd2accd9ec8efa8"
+        },
+        {
+          "path": "Google Flights--39/Google Flights--39_20261115_090355/final_runs/run_003/screenshots/cp5_dest_sapporo.png",
+          "sha256": "a168652bf6c857cc92ac97d33ba562194ab70269d1d83fcc3d6cb3a20d620923"
+        },
+        {
+          "path": "Google Flights--39/Google Flights--39_20261115_090355/final_runs/run_003/screenshots/cp6_sapporo_results.png",
+          "sha256": "4bfb117c316a3dc09d53183f447e769c9c5bb53f7a0a6a04ef9c690de4491ca7"
+        },
+        {
+          "path": "Google Flights--39/Google Flights--39_20261115_090355/final_runs/run_003/screenshots/cp7_comparison.png",
+          "sha256": "4bfb117c316a3dc09d53183f447e769c9c5bb53f7a0a6a04ef9c690de4491ca7"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "1f70578f17a86628bc25ea5d61e8c95365ddc7875a582e5e371dbfc7d3e3d694",
+      "fingerprint": "778db3717353ab28baf93f83e6398f21fcf142ed158fea87be9a30db2ddf4af4"
+    },
+    {
+      "task_id": "Google Flights--40",
+      "website": "Google Flights",
+      "task": "Browse destinations on the Google Flights homepage from Seattle, look at destinations on a map, and recommend some famous places to travel that are within a reasonable distance and price.",
+      "task_record": "Google Flights--40/Google Flights--40_20261115_094811",
+      "task_definition_sha256": "c7facdf737ff3723c1ccfe7e4ea396ef78478f5996bf30c3d201531db94a55ce",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--40/Google Flights--40_20261115_094811"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Recommended famous places to travel from Seattle within reasonable flight distance (<= 4 hr) and reasonable price (<= HK$2,000): Denver HK$596 (2 hr 50 min); San Diego HK$995 (2 hr 40 min); Los Angeles HK$1,004 (2 hr 42 min); Las Vegas HK$1,161 (2 hr 38 min); Portland HK$1,309 (1 hr 6 min). These were observed on the Google Flights Explore destinations map/results for Seattle after applying the dedicated Price (up to HK$2,000) and Duration (under 4 hr) filters.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_4_map.png",
+          "sha256": "c576b127527c1c6930bd603a7f0f2304e0dd6c464b8ab38d2ce57333b863474b"
+        },
+        {
+          "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_5_price_filter.png",
+          "sha256": "4749f77253c2a76cc22a701d0fee70adb12f25d08aee911d6b3d52f26da4f8ec"
+        },
+        {
+          "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_6_duration_filter.png",
+          "sha256": "06bc3e28146268e416438974abbac7abadfe84f3fd7becc1332cccbd15cf256b"
+        },
+        {
+          "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_7_filtered_results.png",
+          "sha256": "5fe33dd5ce8ae20f0be903e318feee49e7a2210f0cc5a7b70d1583c6719cfbea"
+        },
+        {
+          "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_8_final_state.png",
+          "sha256": "5fe33dd5ce8ae20f0be903e318feee49e7a2210f0cc5a7b70d1583c6719cfbea"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "95b8da41d83b9d463014bfed10f96e95410688c91f6a176ac45f27dbbd0f2ccc",
+      "fingerprint": "fb24a926e89fb651bdd0ebc53be4bb9185b91ae443bcca5a2017fa8745d5fb6a"
+    },
+    {
+      "task_id": "Google Flights--41",
+      "website": "Google Flights",
+      "task": "Choose one way business class ticket from Hong Kong to Glacier National Park on 6 December 2026, offering a 1 stop ticket.",
+      "task_record": "Google Flights--41/Google Flights--41_20261115_103933",
+      "task_definition_sha256": "bbb66337cf253ddc74614c50cb772a3d904657d0ebae25a4cd17ceb3e173ce5e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--41/Google Flights--41_20261115_103933"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Configured Google Flights for a one-way business class ticket from Hong Kong to Glacier National Park departing 6 December 2026 and applied the '1 stop or fewer' stops filter. All search constraints (trip type: One way, cabin: Business, origin: Hong Kong, destination: Glacier National Park, date: Sun, Dec 6, 2026, stops filter: 1 stop or fewer) were verified on the results page. Google Flights returned 'No options matching your filters' — no 1-stop business class itineraries are available for this route on that date, so the final state is the filtered results page with the 1-stop filter active.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--41/Google Flights--41_20261115_103933/final_runs/run_001/screenshots/final_execution_4_destination_glacier.png",
+          "sha256": "9d262c16e537abaf6be3950ad0d632c833353a4fb509bb7bc3e201efb4ce990a"
+        },
+        {
+          "path": "Google Flights--41/Google Flights--41_20261115_103933/final_runs/run_001/screenshots/final_execution_5_date_dec6.png",
+          "sha256": "fee3f7b6e13fcbf65acc23ca1cde79d67ec2fae09f87f4c112f9fa81b5c87e70"
+        },
+        {
+          "path": "Google Flights--41/Google Flights--41_20261115_103933/final_runs/run_001/screenshots/final_execution_6_search_results.png",
+          "sha256": "d34c482965643d4bf0ce4ba85f5729e0153a6e85bcfcf0587a2a413f4a8956fa"
+        },
+        {
+          "path": "Google Flights--41/Google Flights--41_20261115_103933/final_runs/run_001/screenshots/final_execution_7_onestop_filter.png",
+          "sha256": "5f3ce54f166aa22b73d626652c78f957288de536a9b87feb37af021a7a51aeac"
+        },
+        {
+          "path": "Google Flights--41/Google Flights--41_20261115_103933/final_runs/run_001/screenshots/final_execution_8_final_results.png",
+          "sha256": "603414b3642a9a6d7cea88e126f3f059774e2ee8ad118a3967beb8d1030b3657"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "86d66ec1f0b8309b77fbb009c3eb947ed0b17b00ba292ff9c8d780f9c0811011",
+      "fingerprint": "b17703c20b945b37b733ef5db0f9cfe4214cc41462ac16fbffa552b7c78bac9a"
+    }
+  ]
+}

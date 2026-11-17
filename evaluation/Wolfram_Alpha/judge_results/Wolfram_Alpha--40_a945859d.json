@@ -1,0 +1,211 @@
+{
+  "task_id": "Wolfram Alpha--40",
+  "website": "Wolfram Alpha",
+  "task": "Approximate amount of fat burned by a 28yo, 172cm tall, 70kg woman running for 30min at a pace of 6min/mile.",
+  "task_record": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913",
+  "task_definition_sha256": "0cfe7039acac171b3f4c1e6c57d35219aef4ad356163ca7726ead5db2148e82f",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Approximately 0.17 lb (pounds) of fat burned (energy expenditure 600 Cal) by a 28yo, 172cm, 70kg woman running 30min at 6min/mile pace, as computed by Wolfram Alpha.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_1_site_loaded_input_visible.png",
+      "sha256": "4f791b93f772b07f4c569e89ebaa9d36a48e170dffd04377f5a40e8564ac1392"
+    },
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_2_query_entered.png",
+      "sha256": "379243eab9cc104915fd8cdcf2e5d4a6aec226cc68a946434ba4a0f0125215f3"
+    },
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_3_query_submitted.png",
+      "sha256": "3b6d03b1de72b2e408b0a3b542bdd1b372840e2cbd5c89cda7bcc22520854a82"
+    },
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_4_result_pod_displayed.png",
+      "sha256": "1fe63a5fcf357519f1213f7bc8296ea3c2402ee3712484d9669982fa94b062ae"
+    },
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_5_final_answer.png",
+      "sha256": "cfbb8580c45765031343cb21fa7deebfe252ad3f7a34c0d7f4385c538606c59c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "880b2dc99c8b3c7b0c31152aa0f9690179c1a63d5a5eedc944d96197c46f28fe",
+  "fingerprint": "6b3d7e9706efe959cf2b26b8cfb213dc8bc0a542dcab001c8a84c0f5589eddfa",
+  "evaluated_at": "2026-11-16T10:17:41.558326+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\nFind the approximate amount of fat burned by a 28-year-old, 172cm tall, 70kg woman running for 30 minutes at a pace of 6 min/mile.\n\n**Screenshot Evidence:**\n\n1. **Screenshot 1**: Shows the Wolfram Alpha homepage, indicating the tool selected for the computation.\n\n2. **Screenshot 2**: Shows the query entered into Wolfram Alpha: \"calories burned running 30 minutes 6 min per mile 70 kg 28 year old female 172 cm\" — this query correctly incorporates all the required parameters (30 minutes duration, 6 min/mile pace, 70 kg weight, 28 years age, female gender, 172 cm height).\n\n3. **Screenshot 3**: Shows the results page with:\n   - **Input information** correctly interpreted: running, time = 30 minutes, pace = 6 min/mi, gender = female, age = 28 years, height = 172 cm, body weight = 70 kg\n   - **Metabolic properties**: energy expenditure = 600 Cal, **fat burned = 0.17 lb**, oxygen consumption = 31.7 gallons, metabolic equivalent = 16 METs\n\n4. **Screenshots 4-5**: Full-page views confirming the same results, including additional details like speed, pace, distance (5 miles), and steps.\n\n**Result Response Verification:**\nThe response states \"Approximately 0.17 lb (pounds) of fat burned (energy expenditure 600 Cal)\" — this matches exactly what is displayed in the Wolfram Alpha results screenshot (fat burned: 0.17 lb).\n\n**Conclusion:**\n- All input parameters from the task (28yo, 172cm, 70kg, female, 30min, 6min/mile pace) were correctly entered and interpreted by Wolfram Alpha.\n- The fat burned value (0.17 lb) was successfully retrieved and reported in the response.\n- The response is consistent with the screenshot evidence.\n\nThe task has been successfully accomplished.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7384,
+    "completion_tokens": 757,
+    "total_tokens": 8141,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 321
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:17:42.158462+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_1_site_loaded_input_visible.png",
+      "source_sha256": "4f791b93f772b07f4c569e89ebaa9d36a48e170dffd04377f5a40e8564ac1392",
+      "source_bytes": 150020,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 162103,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a36f87c66bd238fcd3bb2b66a8b28d54c258f94589b7a46fd69495b0efd5e691"
+    },
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_2_query_entered.png",
+      "source_sha256": "379243eab9cc104915fd8cdcf2e5d4a6aec226cc68a946434ba4a0f0125215f3",
+      "source_bytes": 152533,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 165252,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "40e00548870adb7d66ac42685e775a492b7c6e403b8b3172e4ee53cb6cf8312d"
+    },
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_3_query_submitted.png",
+      "source_sha256": "3b6d03b1de72b2e408b0a3b542bdd1b372840e2cbd5c89cda7bcc22520854a82",
+      "source_bytes": 260279,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 165372,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "edb1d17fc437a0d1543064b808cd93d82eb0dd48e1c5593d81ab402647e36aac"
+    },
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_4_result_pod_displayed.png",
+      "source_sha256": "1fe63a5fcf357519f1213f7bc8296ea3c2402ee3712484d9669982fa94b062ae",
+      "source_bytes": 401815,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1273,
+        3089
+      ],
+      "transmitted_dimensions": [
+        527,
+        1280
+      ],
+      "transmitted_bytes": 88178,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "252ef8f531eea51f3e29136383aaa1f62e7d82b02ded771d3eb51c933bd130aa"
+    },
+    {
+      "path": "Wolfram Alpha--40/Wolfram Alpha--40_20261114_134913/final_runs/run_001/screenshots/final_execution_5_final_answer.png",
+      "source_sha256": "cfbb8580c45765031343cb21fa7deebfe252ad3f7a34c0d7f4385c538606c59c",
+      "source_bytes": 401805,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        3089
+      ],
+      "transmitted_dimensions": [
+        530,
+        1280
+      ],
+      "transmitted_bytes": 88506,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "185cdf654073a71e4284b27a4112fe42df5ae57d3d357e35a61120302996a4dc"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 895700,
+  "response_id": "f121218e-0477-4c12-9ac2-c25fca7faf6f",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1752,
+    "reasoning_content_chars": 1180
+  }
+}

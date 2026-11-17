@@ -1,0 +1,181 @@
+{
+  "task_id": "GitHub--20",
+  "website": "GitHub",
+  "task": "Open GitHub Copilot's FAQs to find the official answer to when Copilot chat can be used on mobile.",
+  "task_record": "GitHub--20/GitHub--20_20261115_032312",
+  "task_definition_sha256": "888ca07c19b521c36475ebb5115b9d8d9a06ea883916598be98a049095b04f8e",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--20/GitHub--20_20261115_032312"
+  ],
+  "final_run": "run_022",
+  "answer_input_mode": "answer.txt only",
+  "answer": "GitHub Copilot chat can be used on mobile via the GitHub Mobile app. The official GitHub Copilot plans page lists the availability row 'GitHub (including github.com and GitHub Mobile)' as Included for Copilot Free, Pro, Pro+, and Max, so it is available whenever you have any Copilot plan. The official GitHub docs also state: 'If you're a member of an organization or enterprise, your access to Copilot Chat in GitHub Mobile may depend on policies set by your administrator.'",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--20/GitHub--20_20261115_032312/final_runs/run_022/screenshots/cp1_copilot_faq_page.png",
+      "sha256": "44af408f98876e907deb18d7d0686d7e090f30ed6f85ff5adfd96d7329cb7857"
+    },
+    {
+      "path": "GitHub--20/GitHub--20_20261115_032312/final_runs/run_022/screenshots/cp2_mobile_faq_expanded.png",
+      "sha256": "0f2e2fdb9b1f4e0956850ab448237fec39955728a2a66a7876672bd039144af7"
+    },
+    {
+      "path": "GitHub--20/GitHub--20_20261115_032312/final_runs/run_022/screenshots/cp3_docs_mobile_access.png",
+      "sha256": "ab150b0d725ab8a22a77f38f0b7b27d5a2da90681f5324e760df997ecca242f6"
+    },
+    {
+      "path": "GitHub--20/GitHub--20_20261115_032312/final_runs/run_022/screenshots/cp3_plans_mobile_included.png",
+      "sha256": "ff9e28b70006ead59f581ed3617a000530694a116bf105068a12388911e67c77"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "5963fa0c08cb5bea7f472ab3a9cce09f81b85a7d1a7e1195f4ebcdbce9a65253",
+  "fingerprint": "83db0d03d4255975c8de0d0424fdfb4267deef662333c23652c6f9dba3c17186",
+  "evaluated_at": "2026-11-16T10:08:34.181699+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirement:** Open GitHub Copilot's FAQs to find the official answer to when Copilot chat can be used on mobile.\n\n**Screenshot Evidence:**\n\n1. **Screenshot 1:** Shows the GitHub Copilot \"Frequently asked questions\" page was successfully opened, with categories (General, Plans & Pricing, Privacy, Responsible AI) and FAQ questions listed.\n\n2. **Screenshot 2:** Shows the FAQ question \"What languages, IDEs, and surfaces does GitHub Copilot support?\" expanded, with the official answer stating GitHub Copilot is \"also available in the terminal/CLI, through the GitHub Copilot desktop app, on the web, **on mobile**, in Slack, and in Teams.\" This confirms the FAQ was consulted and mobile availability is officially confirmed.\n\n3. **Screenshot 3:** Shows the official GitHub Docs page \"Asking GitHub Copilot questions in GitHub Mobile,\" which contains the exact quote referenced in the response: \"If you're a member of an organization or enterprise, your access to Copilot Chat in GitHub Mobile may depend on policies set by your administrator.\" This directly addresses Copilot **Chat** on mobile.\n\n4. **Screenshot 4:** Shows the \"Compare features\" plans table where the row \"GitHub (including github.com and GitHub Mobile)\" is checked (✓) for Free, Pro, Pro+, and Max plans — corroborating the claim that Copilot on mobile is available with any plan.\n\n**Response Consistency:** The response accurately synthesizes information from all three official sources shown in the screenshots: (1) the FAQ confirms mobile availability, (2) the plans page confirms it's included in all plan tiers, and (3) the docs clarify the condition that organization/enterprise access may depend on administrator policies. There are no contradictions between the response and the screenshots.\n\n**Task Completion:** The FAQs were opened, the relevant FAQ was expanded, and the official answer regarding when/under what conditions Copilot Chat can be used on mobile was found and reported (via GitHub Mobile app, with any Copilot plan, subject to admin policies for organizations/enterprises).\n\n## Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7184,
+    "completion_tokens": 1493,
+    "total_tokens": 8677,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1055
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:34.307748+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "GitHub--20/GitHub--20_20261115_032312/final_runs/run_022/screenshots/cp1_copilot_faq_page.png",
+      "source_sha256": "44af408f98876e907deb18d7d0686d7e090f30ed6f85ff5adfd96d7329cb7857",
+      "source_bytes": 51494,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 117023,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "fdbc4ad96c4565ef9e32045d38664bbb577e9262c38d042d8c703cb89a31851b"
+    },
+    {
+      "path": "GitHub--20/GitHub--20_20261115_032312/final_runs/run_022/screenshots/cp2_mobile_faq_expanded.png",
+      "source_sha256": "0f2e2fdb9b1f4e0956850ab448237fec39955728a2a66a7876672bd039144af7",
+      "source_bytes": 74040,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 147821,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f9a21d456316b26ef813b8ffc3cc9ecb93a74ba02ebf5857a709903c9a382aac"
+    },
+    {
+      "path": "GitHub--20/GitHub--20_20261115_032312/final_runs/run_022/screenshots/cp3_docs_mobile_access.png",
+      "source_sha256": "ab150b0d725ab8a22a77f38f0b7b27d5a2da90681f5324e760df997ecca242f6",
+      "source_bytes": 149790,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 219851,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "25e8bef711833d0910011915872016c08961d9eaff8804584bb223d54d0642e6"
+    },
+    {
+      "path": "GitHub--20/GitHub--20_20261115_032312/final_runs/run_022/screenshots/cp3_plans_mobile_included.png",
+      "source_sha256": "ff9e28b70006ead59f581ed3617a000530694a116bf105068a12388911e67c77",
+      "source_bytes": 59647,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 130363,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "840ab1055b5bbf2b4badd8ead08388ad3dfdae646a06e728c314ca25d8c698d2"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 823461,
+  "response_id": "d616f7d8-2218-4ac2-a55a-38b0d651f287",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2124,
+    "reasoning_content_chars": 4971
+  }
+}

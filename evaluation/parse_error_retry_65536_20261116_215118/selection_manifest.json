@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "task_id": "ArXiv--7",
+      "website": "ArXiv",
+      "task": "Find the most recent paper submitted on machine learning in the Computer Science category posted on ArXiv.",
+      "task_record": "ArXiv--7/ArXiv--7_20261113_003307",
+      "task_definition_sha256": "928d2679db225ca83ed02466eccc7d4c31be6f06fa755244912c378ca65cb043",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ArXiv--7/ArXiv--7_20261113_003307"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most recent machine learning paper in the Computer Science category (cs.LG) on ArXiv is 'An ensemble of graph generative models for assisted history matching of the Brugge field case' (arXiv:2611.12927, https://arxiv.org/abs/2611.12927), by Gleb Shishaev, Anton Shirokov, Shadfar Davoodi, Mohammed Al-Shargabi, Vasily Demyanov, Daniel Arnold, submitted on 3 Nov 2026.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_1_homepage_cs_category.png",
+          "sha256": "01c7573f0c5afc0e55b9e82287565a1de850aeca5b8ff9513a4d81814431bb79"
+        },
+        {
+          "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_2_csLG_machine_learning_category.png",
+          "sha256": "9bc0810991ef40b9f6e51d3f729c9104c30ac96c680766fe2a11cbe47ba0deeb"
+        },
+        {
+          "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_3_csLG_new_listings.png",
+          "sha256": "796108f8705b4a1547090393907a152cb8fc836c7e7f1bee4654014ca9a84bd3"
+        },
+        {
+          "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_4_first_paper_abstract.png",
+          "sha256": "1d97191dcc5f224678576a85ea54c3cc17356249dfe0abb1e53c9e90b88746a7"
+        },
+        {
+          "path": "ArXiv--7/ArXiv--7_20261113_003307/final_runs/run_002/screenshots/final_execution_5_final_state_new_listings.png",
+          "sha256": "796108f8705b4a1547090393907a152cb8fc836c7e7f1bee4654014ca9a84bd3"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "1c775792423f9710929c309d1962a8c0968206b0b7cf62fa5b2e942604986164",
+      "fingerprint": "f575893237896b4b72885f2f4a8e1d9a749acec7bb58f956e2bb5a5789218cf7"
+    },
+    {
+      "task_id": "ArXiv--15",
+      "website": "ArXiv",
+      "task": "Searching Chinese Benchmark on ArXiv, how many papers announced in December 2023 mention being accepted for AAAI 2024?",
+      "task_record": "ArXiv--15/ArXiv--15_20261113_034042",
+      "task_definition_sha256": "25fefe5b3ba407de620586e3e5a2290783fd082de55f5140441d0c465767110f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ArXiv--15/ArXiv--15_20261113_034042"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "2",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_13.png",
+          "sha256": "9480c88e0607f6a8a9aa00e0030a79fac57ee58871728f4df82f2ed399420745"
+        },
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_14.png",
+          "sha256": "190e3055a2ae83a7ef5fbac7a2f4b3f16cdefa153813a61b42c80126dcc2b3a6"
+        },
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_15.png",
+          "sha256": "8030ffc31e5a4cb2be1865cff3388ae4e420444779931e274d32d02f4c4bcd9e"
+        },
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_16.png",
+          "sha256": "7c3cc5cbe3586bfd244ebbbd9961f79a442f67cf6b6c83a066040ef64b87e0e4"
+        },
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_17.png",
+          "sha256": "2bd28fe6b63ac9b8dcdc3f49e9c65fa8f39e10f8816a15dbba5a39fe4ecff16b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "fingerprint": "86709f38d81507a21565d79bef4fd7ece414b9bd8e450b1ed44f3cd8669b2d7b"
+    },
+    {
+      "task_id": "BBC News--28",
+      "website": "BBC News",
+      "task": "Find the Market Data section on BBC News and tell me which company the data comes from.",
+      "task_record": "BBC News--28/BBC News--28_20261113_065140",
+      "task_definition_sha256": "1ae6e7c22e72d457788a65c053d96254034943e0d4465ebd795c1e423768e0ac",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "BBC News--28/BBC News--28_20261113_065140"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The Market Data section on BBC News gets its data from Morningstar (shown as 'Source: Morningstar' on the BBC News Market Data page; the live section has since been discontinued).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "BBC News--28/BBC News--28_20261113_065140/final_runs/run_001/screenshots/final_execution_1_start_page.png",
+          "sha256": "168a6b312b6611cb75080ec388fcea5382780732b662d1371d125ee21edf44c9"
+        },
+        {
+          "path": "BBC News--28/BBC News--28_20261113_065140/final_runs/run_001/screenshots/final_execution_2_market_data_live.png",
+          "sha256": "a255927c5a71881d0ad41d4aa5398cd6085949a40ffce92cc7eae8a543e49f6a"
+        },
+        {
+          "path": "BBC News--28/BBC News--28_20261113_065140/final_runs/run_001/screenshots/final_execution_3_market_data_morningstar.png",
+          "sha256": "8355be6099ae40db2196b352920827cfcbe06cadc74e94b24dfb521a0d689f09"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "dffe42b5d10811d05a55796c1c91dc2bdd5549285f0fab3329d22c332106dadc",
+      "fingerprint": "acf31c04fa14ff7c0a3ec63577110c2b200144f9e3d2014fff6a8838181506a4"
+    },
+    {
+      "task_id": "Cambridge Dictionary--12",
+      "website": "Cambridge Dictionary",
+      "task": "Find the pronunciation, definition, and a sample sentence for the word \"resilience\" in the Cambridge Dictionary.",
+      "task_record": "Cambridge Dictionary--12/Cambridge Dictionary--12_20261113_123822",
+      "task_definition_sha256": "0c38434b5474605d482c13be7c6e6593691350848948f83209225a5086cf4776",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Cambridge Dictionary--12/Cambridge Dictionary--12_20261113_123822"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found the Cambridge Dictionary entry for \"resilience\" at https://dictionary.cambridge.org/dictionary/english/resilience. Pronunciation (UK/US IPA): /ɪˈzɪl.jəns/ (displayed as /ɪˈzɪl.jəns/ on the entry). Definition: the ability to be happy, successful, etc. again after something difficult or bad has happened. Sample sentence: \"Trauma researchers emphasize the resilience of the human psyche.\"",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Cambridge Dictionary--12/Cambridge Dictionary--12_20261113_123822/final_runs/run_002/screenshots/final_execution_3_entry_top.png",
+          "sha256": "54377de1774b8c57cb1adc3f875143cc52c42bec47715aeaa97a65d088845597"
+        },
+        {
+          "path": "Cambridge Dictionary--12/Cambridge Dictionary--12_20261113_123822/final_runs/run_002/screenshots/final_execution_4_pronunciation.png",
+          "sha256": "00bb0ed03e9e84542b54148d8be6f475c3826611fc023068c3ac506b7efb9137"
+        },
+        {
+          "path": "Cambridge Dictionary--12/Cambridge Dictionary--12_20261113_123822/final_runs/run_002/screenshots/final_execution_5_definition.png",
+          "sha256": "00bb0ed03e9e84542b54148d8be6f475c3826611fc023068c3ac506b7efb9137"
+        },
+        {
+          "path": "Cambridge Dictionary--12/Cambridge Dictionary--12_20261113_123822/final_runs/run_002/screenshots/final_execution_6_example_sentence.png",
+          "sha256": "00bb0ed03e9e84542b54148d8be6f475c3826611fc023068c3ac506b7efb9137"
+        },
+        {
+          "path": "Cambridge Dictionary--12/Cambridge Dictionary--12_20261113_123822/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+          "sha256": "689ec8f39c996c87a29d9e35b988dd6a1ad9b76a8f8d98541f56fd3ae4860257"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e9278f80bd8592eedb8f43caee37ae1021a28c733bda44c464558d241f4121f9",
+      "fingerprint": "41cda4733207936fdc8417e7c5c1969bc38560bd073e930dac3d40efd9e87e2f"
+    },
+    {
+      "task_id": "Cambridge Dictionary--15",
+      "website": "Cambridge Dictionary",
+      "task": "Find the pronunciation and a sample sentence for the word \"pandemic.\"",
+      "task_record": "Cambridge Dictionary--15/Cambridge Dictionary--15_20261113_131414",
+      "task_definition_sha256": "6d73c4aab56da88643aa65dcfee94bf11c3d4c8d9d56df51bc3fe3f6f13d3154",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Cambridge Dictionary--15/Cambridge Dictionary--15_20261113_131414"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "On the Cambridge Dictionary entry page for \"pandemic\" (https://dictionary.cambridge.org/dictionary/english/pandemic): Pronunciation (IPA): UK /pænˈdem.ɪk/, US /pænˈdem.ɪk/, each with an audio pronunciation button. Sample sentence: \"In some parts of the world malaria is still pandemic.\"",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Cambridge Dictionary--15/Cambridge Dictionary--15_20261113_131414/final_runs/run_001/screenshots/final_execution_1_entry_page.png",
+          "sha256": "77826ba50f30a5d0e3856c0ecf44330b982abfcf4e5dcba11eb74f952dff7825"
+        },
+        {
+          "path": "Cambridge Dictionary--15/Cambridge Dictionary--15_20261113_131414/final_runs/run_001/screenshots/final_execution_2_pronunciation.png",
+          "sha256": "77826ba50f30a5d0e3856c0ecf44330b982abfcf4e5dcba11eb74f952dff7825"
+        },
+        {
+          "path": "Cambridge Dictionary--15/Cambridge Dictionary--15_20261113_131414/final_runs/run_001/screenshots/final_execution_3_example_sentence.png",
+          "sha256": "77826ba50f30a5d0e3856c0ecf44330b982abfcf4e5dcba11eb74f952dff7825"
+        },
+        {
+          "path": "Cambridge Dictionary--15/Cambridge Dictionary--15_20261113_131414/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+          "sha256": "77826ba50f30a5d0e3856c0ecf44330b982abfcf4e5dcba11eb74f952dff7825"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "6893fccd4725f7d2bd858b6eb4a19ce062d7afbeacf07305379bf63249a76d50",
+      "fingerprint": "c3665036945a2abfce8b16f39398cc0b2db6478e0994365e605b832386c203a4"
+    },
+    {
+      "task_id": "Cambridge Dictionary--27",
+      "website": "Cambridge Dictionary",
+      "task": "Look up the meaning, pronunciation, and an example sentence of the word \"solitude\" using the Cambridge Dictionary.",
+      "task_record": "Cambridge Dictionary--27/Cambridge Dictionary--27_20261114_005841",
+      "task_definition_sha256": "679eae785e0a004834a57c7fe95856e6f56b94627855474705abf1f7e16587d3",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Cambridge Dictionary--27/Cambridge Dictionary--27_20261114_005841"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "solitude (Cambridge Dictionary): Meaning: the situation of being alone without other people. Pronunciation: UK /ˈsɒl.ɪ.tʃuːd/, US /ˈsɑː.lə.tuːd/. Example sentence: After months of solitude at sea it felt strange to be in company.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Cambridge Dictionary--27/Cambridge Dictionary--27_20261114_005841/final_runs/run_001/screenshots/final_execution_1_searchbox_filled.png",
+          "sha256": "69e309dd1b3614cacb0886019ce19098b57ef8c6079b8fb09f44e99968966bb8"
+        },
+        {
+          "path": "Cambridge Dictionary--27/Cambridge Dictionary--27_20261114_005841/final_runs/run_001/screenshots/final_execution_2_entry_page.png",
+          "sha256": "8977992d4737e8b4a981e111a725ad0c1900fe86dc49164bdf32e920eab4acf4"
+        },
+        {
+          "path": "Cambridge Dictionary--27/Cambridge Dictionary--27_20261114_005841/final_runs/run_001/screenshots/final_execution_3_meaning.png",
+          "sha256": "8977992d4737e8b4a981e111a725ad0c1900fe86dc49164bdf32e920eab4acf4"
+        },
+        {
+          "path": "Cambridge Dictionary--27/Cambridge Dictionary--27_20261114_005841/final_runs/run_001/screenshots/final_execution_4_pronunciation.png",
+          "sha256": "fa8355d750a96a3cb2cb771de30d12bdc32c51c6bedbc6bd075bc135d7206eda"
+        },
+        {
+          "path": "Cambridge Dictionary--27/Cambridge Dictionary--27_20261114_005841/final_runs/run_001/screenshots/final_execution_5_example_sentence.png",
+          "sha256": "fa8355d750a96a3cb2cb771de30d12bdc32c51c6bedbc6bd075bc135d7206eda"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d37d73bf7a14631c6f572be241787ca97c3a397f5f07df39d4fdd171b1897e60",
+      "fingerprint": "f1deb568e510a9363302dfb29da85793553ef9f60f46a091a22f6c2b0cd7659f"
+    },
+    {
+      "task_id": "Cambridge Dictionary--40",
+      "website": "Cambridge Dictionary",
+      "task": "Look up the definition, pronunciation in UK English, and at least one example using the word 'mitigate'.",
+      "task_record": "Cambridge Dictionary--40/Cambridge Dictionary--40_20261114_045329",
+      "task_definition_sha256": "0ffbaf985d5afb512ac0b498f61de197472efa2a193088abd7474ce7d0a50b06",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Cambridge Dictionary--40/Cambridge Dictionary--40_20261114_045329"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Looked up 'mitigate' on Cambridge Dictionary (https://dictionary.cambridge.org/dictionary/english/mitigate). Definition: to make something less harmful, unpleasant, or bad. UK English pronunciation: /ˈmɪt.ɪ.ɡeɪt/. Example: It is unclear how to mitigate the effects of tourism on the island.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Cambridge Dictionary--40/Cambridge Dictionary--40_20261114_045329/final_runs/run_001/screenshots/final_execution_1_homepage_search.png",
+          "sha256": "d23f39112fd13d2e4608d2e5a3cf0378b65056b59e944cd265469eff6e333c42"
+        },
+        {
+          "path": "Cambridge Dictionary--40/Cambridge Dictionary--40_20261114_045329/final_runs/run_001/screenshots/final_execution_2_entry_page.png",
+          "sha256": "26dd6ed358dc4540cb37021d8d0e8588545b4dc1f905e39c3cffcb670ed84c92"
+        },
+        {
+          "path": "Cambridge Dictionary--40/Cambridge Dictionary--40_20261114_045329/final_runs/run_001/screenshots/final_execution_3_definition.png",
+          "sha256": "26dd6ed358dc4540cb37021d8d0e8588545b4dc1f905e39c3cffcb670ed84c92"
+        },
+        {
+          "path": "Cambridge Dictionary--40/Cambridge Dictionary--40_20261114_045329/final_runs/run_001/screenshots/final_execution_4_uk_pronunciation.png",
+          "sha256": "26dd6ed358dc4540cb37021d8d0e8588545b4dc1f905e39c3cffcb670ed84c92"
+        },
+        {
+          "path": "Cambridge Dictionary--40/Cambridge Dictionary--40_20261114_045329/final_runs/run_001/screenshots/final_execution_5_examples.png",
+          "sha256": "26dd6ed358dc4540cb37021d8d0e8588545b4dc1f905e39c3cffcb670ed84c92"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "556588ad77fc85612ef85c31663444ff65b381c6d7a483312fbc31e5c0450bfb",
+      "fingerprint": "b4459d962b7cdc432cb43ab4fdeb4d71211888be3b6b04644078c6d44a15bca2"
+    },
+    {
+      "task_id": "Google Flights--13",
+      "website": "Google Flights",
+      "task": "Find the cheapest round-trip flight option from New York City to Tokyo for a departure on December 10, 2026, and a return on December 24, 2026.",
+      "task_record": "Google Flights--13/Google Flights--13_20261113_083825",
+      "task_definition_sha256": "d2ea53ad47e0cbefb772eed1619924d953776c8c621406744e059d94d9c6ab97",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Flights--13/Google Flights--13_20261113_083825"
+      ],
+      "final_run": "run_005",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Cheapest round-trip flight from New York City to Tokyo (departing Dec 10, 2026, returning Dec 24, 2026) on Google Flights, sorted by Price: American Airlines nonstop JFK→HND (operated by JAL), total round-trip price HK$10,362.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_3_departure_dec10.png",
+          "sha256": "ac004a4b8d2d845d82b2f91fbf0bea0a02394cf50da452cae512ded345f5af4d"
+        },
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_4_return_dec24_done.png",
+          "sha256": "a50e963edce7b20c8ca50e9dcd85bf90f2badf76bb484f8b463bdd9c08057adf"
+        },
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_5_results_displayed.png",
+          "sha256": "9aa907575f30f17727b8dba45a353bc441b00745f768f9874769ce9e0c1d546e"
+        },
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_6_sorted_by_price.png",
+          "sha256": "7bdfe7b96bae00eb2198895d02cefc37b37fb0a4660b6c959da1a810baabf50f"
+        },
+        {
+          "path": "Google Flights--13/Google Flights--13_20261113_083825/final_runs/run_005/screenshots/final_execution_7_cheapest_result.png",
+          "sha256": "7bdfe7b96bae00eb2198895d02cefc37b37fb0a4660b6c959da1a810baabf50f"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a0dc0f4c19ec1f5878c9a1bf73183bf91fb0829a13a3b9d7b3ea1284f1229620",
+      "fingerprint": "54bf05c86fdc7da27cfbca9ce2511a940f549cf612be5bb1e03ac101635d79f4"
+    },
+    {
+      "task_id": "Google Search--0",
+      "website": "Google Search",
+      "task": "Find the initial release date for Guardians of the Galaxy Vol. 3 the movie.",
+      "task_record": "Google Search--0/Google Search--0_20261115_120144",
+      "task_definition_sha256": "31d616720e9d6fa1d6afa024458312a08079f2c99f59b763dcae3df6189971ed",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Google Search--0/Google Search--0_20261115_120144"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The initial release date for Guardians of the Galaxy Vol. 3 is May 5, 2023.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Google Search--0/Google Search--0_20261115_120144/final_runs/run_001/screenshots/final_execution_1_google_homepage.png",
+          "sha256": "42d18f6c2ed19afc51ac5ebaf12805c45e5cfad826df540ea03e639060f91c4d"
+        },
+        {
+          "path": "Google Search--0/Google Search--0_20261115_120144/final_runs/run_001/screenshots/final_execution_2_query_entered.png",
+          "sha256": "82f0c5f2e263c61a1314123a1ee44ff374438d625097e17ee01a361365537e83"
+        },
+        {
+          "path": "Google Search--0/Google Search--0_20261115_120144/final_runs/run_001/screenshots/final_execution_3_results_knowledge_panel.png",
+          "sha256": "0cf4b1cd158b80d4b391d22e26914157e1d098348627f69399c3f8f077dcfe15"
+        },
+        {
+          "path": "Google Search--0/Google Search--0_20261115_120144/final_runs/run_001/screenshots/final_execution_4_release_date_visible.png",
+          "sha256": "0cf4b1cd158b80d4b391d22e26914157e1d098348627f69399c3f8f077dcfe15"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "029a1767dacadc1780ad51ebfb1563f21bbcaab59ca92503cc299975649874b8",
+      "fingerprint": "14f42bbc0890fd9ee230ae78f513aa01ac5f7090c613458185b957380f9c8540"
+    },
+    {
+      "task_id": "Wolfram Alpha--43",
+      "website": "Wolfram Alpha",
+      "task": "A polyominoes of order 6 means you have 6 identical squares to combine different shapes (2-sided). How many combinations are there? Looking at all the shapes in the result, how many of them have only 2 rows in total?",
+      "task_record": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451",
+      "task_definition_sha256": "e1d467289e775135ddc8b6a7c6538ea8bc7752ec2e5878f3c4782f90606445ef",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "There are 35 combinations of order-6 polyominoes (2-sided/free hexominoes). Of these, 12 shapes have only 2 rows in total.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451/final_runs/run_001/screenshots/final_execution_1_enter_query.png",
+          "sha256": "0acaf741dc98b4d869cd32f513314334ec4ce6f693e9d467bfdde19d675fee07"
+        },
+        {
+          "path": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451/final_runs/run_001/screenshots/final_execution_2_results_loaded.png",
+          "sha256": "b3bba763dd45f844139ad82e86bbfc479786c9d6f3a4b2ad4a7c576ae201ffa1"
+        },
+        {
+          "path": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451/final_runs/run_001/screenshots/final_execution_3_counts_pod.png",
+          "sha256": "05b015d79f8f092e6614a79af0d3b4d10755fff99b8a6f98c3a16cf6833e0a0b"
+        },
+        {
+          "path": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451/final_runs/run_001/screenshots/final_execution_4_images_expanded.png",
+          "sha256": "91d016c56229d6f0c5dc1d10b80205ec593391e363dcdd10daa3ea5771173d27"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e0d8f4ca90dfe4f3d9853135a3d17c4cd3cf8c5cbcef3de28e332e9ddb8dfd92",
+      "fingerprint": "b6d87c81c7a8b6b0fa15f3f6320fe35c40040bd3923b98dcf5e3f2088e6ad9b1"
+    }
+  ]
+}

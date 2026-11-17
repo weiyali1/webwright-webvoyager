@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--6",
+  "website": "Allrecipes",
+  "task": "Search for a vegetarian lasagna recipe that has at least a four-star rating and over 500 reviews.",
+  "task_record": "Allrecipes--6/Allrecipes--6_20261113_013315",
+  "task_definition_sha256": "14872c04990deae0b87ad6d22f04ff5d47623a7fd8d3f6de959efe7fa2e25b83",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--6/Allrecipes--6_20261113_013315"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found a vegetarian lasagna recipe meeting all criteria: 'Artichoke Spinach Lasagna' (https://www.allrecipes.com/recipe/20082/artichoke-spinach-lasagna/) on Allrecipes' dedicated Vegetarian Lasagna category page. It has a 4.6-star rating (requirement: at least 4 stars) and 1,287 reviews (requirement: over 500 reviews), with 1,824 total ratings.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_2_vegetarian_category.png",
+      "sha256": "527b932d974671fea79c6231fdcf18432c7d7d02043a83d17f856947f7e7db1b"
+    },
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_3_no_filter_controls.png",
+      "sha256": "527b932d974671fea79c6231fdcf18432c7d7d02043a83d17f856947f7e7db1b"
+    },
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_4_recipe_rating.png",
+      "sha256": "06e28b90d4f80c32875fbed98a6ccec251901c9d3c77fb0f1a700961d3607d34"
+    },
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_5_review_count.png",
+      "sha256": "28203675b79dbc88ca0fe86683bc3e45ec733b58c3d5655f2afe2fd0d50b4591"
+    },
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "sha256": "f829bdf163ce22844e501ac74fd4abdd108b483b3203d091fb4be1248974c500"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "5924274652ca8fd9e8b83805acade1fd50458e215d5dc0b8ab0861bf8bd1ce64",
+  "fingerprint": "a800cac15572d284fdd05e5c5a2441caf873745abda1ac3ff77614bab07a7581",
+  "evaluated_at": "2026-11-16T09:59:23.883707+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Search for a vegetarian lasagna recipe\n2. The recipe must have at least a 4-star rating\n3. The recipe must have over 500 reviews\n\n## Screenshot Evidence:\n\n**Screenshots 1-2 (Vegetarian Lasagna Category Page):**\n- Shows the Allrecipes \"Vegetarian Lasagna\" category page with over 50 vegetarian and vegan lasagna recipes\n- The \"Artichoke Spinach Lasagna\" recipe is visible with a star rating and 1,824 ratings listed\n\n**Screenshots 3-5 (Recipe Detail Page):**\n- The \"Artichoke Spinach Lasagna\" recipe page is displayed\n- Rating shown: **4.6 stars** (1,824 ratings) — exceeds the minimum 4-star requirement ✓\n- Reviews shown: **1,287 Reviews** — exceeds the over 500 reviews requirement ✓\n- The recipe is explicitly confirmed as vegetarian: the description states \"This is a fabulous lasagna made with an artichoke and spinach mixture\" and the \"Why You'll Love This Recipe\" section states \"This vegetarian lasagna layers marinated artichokes, spinach, and two kinds of cheese for rich, satisfying flavor\" ✓\n\n## Response Consistency:\nThe result response accurately matches the screenshots:\n- Recipe name: 'Artichoke Spinach Lasagna' ✓\n- Rating: 4.6 stars ✓\n- Reviews: 1,287 ✓\n- Total ratings: 1,824 ✓\n- Source: Allrecipes Vegetarian Lasagna category page ✓\n\n## Conclusion:\nAll task criteria have been satisfied:\n1. ✓ A vegetarian lasagna recipe was found (Artichoke Spinach Lasagna)\n2. ✓ The rating (4.6 stars) meets the \"at least four-star\" requirement\n3. ✓ The review count (1,287) exceeds the \"over 500 reviews\" requirement\n\nThe screenshots corroborate every claim made in the result response, and the recipe page explicitly identifies the dish as vegetarian.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8148,
+    "completion_tokens": 918,
+    "total_tokens": 9066,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 480
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:59:24.389375+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_2_vegetarian_category.png",
+      "source_sha256": "527b932d974671fea79c6231fdcf18432c7d7d02043a83d17f856947f7e7db1b",
+      "source_bytes": 934890,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 241118,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a407cc7546c0707777b3142de7a8416acac90aedec1a02dc9c1e66672e000e89"
+    },
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_3_no_filter_controls.png",
+      "source_sha256": "527b932d974671fea79c6231fdcf18432c7d7d02043a83d17f856947f7e7db1b",
+      "source_bytes": 934890,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 241118,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a407cc7546c0707777b3142de7a8416acac90aedec1a02dc9c1e66672e000e89"
+    },
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_4_recipe_rating.png",
+      "source_sha256": "06e28b90d4f80c32875fbed98a6ccec251901c9d3c77fb0f1a700961d3607d34",
+      "source_bytes": 570378,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 200665,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "252a00e71e6fedb87247fc778cc1b49d71273771ce852fe71716a17b27d03b60"
+    },
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_5_review_count.png",
+      "source_sha256": "28203675b79dbc88ca0fe86683bc3e45ec733b58c3d5655f2afe2fd0d50b4591",
+      "source_bytes": 567657,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 199651,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a33a8452ee91514e53cdf95887caab797163992eca6309324e08a330873b2397"
+    },
+    {
+      "path": "Allrecipes--6/Allrecipes--6_20261113_013315/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "f829bdf163ce22844e501ac74fd4abdd108b483b3203d091fb4be1248974c500",
+      "source_bytes": 566588,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 198831,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f544fbc8ac699da50277a3b41fe1464fbe84389fea701de0b1b44320688776b3"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1445169,
+  "response_id": "652e6825-1bbe-4adb-991a-5a1d414f174d",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1731,
+    "reasoning_content_chars": 1929
+  }
+}

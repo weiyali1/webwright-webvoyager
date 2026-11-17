@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--1",
+  "website": "GitHub",
+  "task": "Search for an open-source repository for machine learning in Python, specifically focused on decision trees, updated within the last 2 days.",
+  "task_record": "GitHub--1/GitHub--1_20261114_085638",
+  "task_definition_sha256": "1de1f752f7575b5fc4b299b040eb1c2baea7ccc3715d3cfcf7eedfa1811f239c",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--1/GitHub--1_20261114_085638"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: aniketsinghrajput887-Ak/Task_03_Decision_Tree (https://github.com/aniketsinghrajput887-Ak/Task_03_Decision_Tree) — an open-source Python machine-learning repository focused on decision trees (\"Decision Tree Classifier Machine Learning Project\", 100% Python), found via GitHub search using the official Advanced Search controls: Language select set to Python and Date pushed set to >=2026-11-12 (updated within the last 2 days). The search returned 20 matching repositories; this repository was updated yesterday.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_2_language_python.png",
+      "sha256": "ac287bec1cc1de2155e2143f5d38b2beba4e0c3fa065a9a24e1406c455425e9f"
+    },
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_3_date_pushed.png",
+      "sha256": "57627787c2478bc29ec24bcbebd6441b002684518dc95be6a19ea73c3808d00d"
+    },
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_4_results.png",
+      "sha256": "7714ffb2d24a93e25246e23f4110bd2a40925d4952dfae63be334c854d5b7a7b"
+    },
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_4_results_full.png",
+      "sha256": "d9545871338aa45a88128b0b1c5f47a20b1d336f19ac8a2a1082d18ed03938c9"
+    },
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_5_repo.png",
+      "sha256": "f7678637c672b4ba69895cf2c879a1c401f9c28f5d083421706c179d00c4fe1c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "6ef00e4cc9cfea2f9f1b64347300decd7e672435ceadf96467b95994e3a5fe02",
+  "fingerprint": "a90acf4a21c7b0de6959a75ff9a870b89168b988501e5bcde8aea84e3695f43d",
+  "evaluated_at": "2026-11-16T09:57:18.571310+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find an open-source repository for machine learning\n2. Written in Python\n3. Specifically focused on decision trees\n4. Updated within the last 2 days\n\n**Evidence from Screenshots:**\n\n1. **Screenshot 1 (Advanced Search setup):** The agent navigated to GitHub's Advanced Search page with the query \"machine learning decision trees language:Python\" entered, and \"Written in this language\" set to Python. This addresses the machine learning + Python + decision tree criteria.\n\n2. **Screenshot 2 (Date filter applied):** The \"Pushed to\" field was filled with \">=2026-11-12\", and the search query updated to \"machine learning decision trees pushed:>=2026-11-12 language:Python\". This correctly constrains results to repositories updated within the last 2 days.\n\n3. **Screenshots 3-4 (Search results):** The search returned 20 results. The top result is **aniketsinghrajput887-Ak/Task_03_Decision_Tree** — \"Decision Tree Classifier Machine Learning Project\", labeled **Python**, and explicitly marked **\"Updated yesterday\"** (well within the last 2 days). Other results also confirm the filter worked (updated 11 hours ago, 3 hours ago, 33 minutes ago, etc.).\n\n4. **Screenshot 5 (Repository page):** The repository page confirms:\n   - It is a **Public** repository (open-source accessible)\n   - **Languages: Python 100%**\n   - README titled \"Decision Tree Classifier – Machine Learning Project\" using a Decision Tree Classifier on the Bank Marketing Dataset\n   - Contains `decision_tree.py`, dataset, and related files\n   - Technologies: Python, Pandas, NumPy, Matplotlib, Scikit-learn\n\n**Result Response Consistency:** The response accurately identifies the repository with its URL, describes it as a Python ML project focused on decision trees, and explains the search methodology (Language=Python, Date pushed >=2026-11-12). This matches the screenshots. The minor discrepancy between \"Updated yesterday\" (search result) and \"2 days ago\" (commit timestamps) does not violate the requirement, as both fall within the 2-day window, and the search filter explicitly enforced the push date constraint.\n\nAll task criteria — open-source/public repository, machine learning, Python, decision tree focus, and updated within the last 2 days — are satisfied and verified by the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7948,
+    "completion_tokens": 1749,
+    "total_tokens": 9697,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1224
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:57:19.092379+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_2_language_python.png",
+      "source_sha256": "ac287bec1cc1de2155e2143f5d38b2beba4e0c3fa065a9a24e1406c455425e9f",
+      "source_bytes": 127761,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        2176
+      ],
+      "transmitted_dimensions": [
+        744,
+        1280
+      ],
+      "transmitted_bytes": 98385,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c5e218fc05c4cb5cff6058e0ab7b0902c0f5c7849f4475114277c329deddf606"
+    },
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_3_date_pushed.png",
+      "source_sha256": "57627787c2478bc29ec24bcbebd6441b002684518dc95be6a19ea73c3808d00d",
+      "source_bytes": 128164,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        2176
+      ],
+      "transmitted_dimensions": [
+        744,
+        1280
+      ],
+      "transmitted_bytes": 101252,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "fbc3cefbbfcdc74f46727ab0e43240c33b0e1a2579e5dbf6c545ef607349d9b1"
+    },
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_4_results.png",
+      "source_sha256": "7714ffb2d24a93e25246e23f4110bd2a40925d4952dfae63be334c854d5b7a7b",
+      "source_bytes": 228332,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 224894,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a6adf8c0100ded4adc2e1dec66ce31059b5011ba8aa123c44ef69c8441593802"
+    },
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_4_results_full.png",
+      "source_sha256": "d9545871338aa45a88128b0b1c5f47a20b1d336f19ac8a2a1082d18ed03938c9",
+      "source_bytes": 230454,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        1815
+      ],
+      "transmitted_dimensions": [
+        892,
+        1280
+      ],
+      "transmitted_bytes": 172108,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "21c8040221594e994472b8afa59d769df0942850f36d905036d67053a7a4dd40"
+    },
+    {
+      "path": "GitHub--1/GitHub--1_20261114_085638/final_runs/run_002/screenshots/final_execution_5_repo.png",
+      "source_sha256": "f7678637c672b4ba69895cf2c879a1c401f9c28f5d083421706c179d00c4fe1c",
+      "source_bytes": 161752,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 195904,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9dc065c3556caed37a29588fc12312f2fecd895aef4bf850d44ab1c33c498ad8"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1060279,
+  "response_id": "ffd1cf10-c390-4088-b8a1-c42655557fde",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2347,
+    "reasoning_content_chars": 5298
+  }
+}

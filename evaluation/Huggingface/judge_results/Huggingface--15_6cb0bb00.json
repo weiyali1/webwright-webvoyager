@@ -1,0 +1,181 @@
+{
+  "task_id": "Huggingface--15",
+  "website": "Huggingface",
+  "task": "Identify the most downloaded models on Hugging face that use the PaddlePaddle library.",
+  "task_record": "Huggingface--15/Huggingface--15_20261115_071106",
+  "task_definition_sha256": "0243782b53bcb0022914733d20f2b388039a8fffcfccd3bf01ec2798c4eb3771",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Huggingface--15/Huggingface--15_20261115_071106"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: The most downloaded models on Hugging Face using the PaddlePaddle library (filtered via Filters > Library > PaddlePaddle and sorted by Most downloads at https://huggingface.co/models?library=paddlepaddle&sort=downloads) are: 1) PaddlePaddle/PP-Chart2Table with 6.14k downloads (the most downloaded), followed by logasanjeev/indian-id-validator (1.19k), Kellenok/PP-OCRv6_manga (471), PaddlePaddle/PP-DocBee2-3B (175), and tieubaoca/pp-ocrv6-medium-rec-vietnamese (154).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_1_models_page.png",
+      "sha256": "84db9283b28ddeb35c2862d083d4487061ec8f2776dd70b7604ae37eeda588f6"
+    },
+    {
+      "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_2_library_paddlepaddle.png",
+      "sha256": "7e49ecb57304d4ae00ab0e6c96b71eb5a47dd37cd69471012c27732b42fc9bab"
+    },
+    {
+      "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_3_sort_downloads.png",
+      "sha256": "bfecc1a15fc83d0ccbd29227b8e76dad1ca6c7a6798dcf0f46a87b1d8ce322a8"
+    },
+    {
+      "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_4_results.png",
+      "sha256": "bfecc1a15fc83d0ccbd29227b8e76dad1ca6c7a6798dcf0f46a87b1d8ce322a8"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "9f62909d6fbff1c963534070c3f19edd266754d90075f775ed64d8a96a005c4f",
+  "fingerprint": "2d9a173334b2355d3df121d436f9bf5f729401a128c13a7d6fee5210f9438589",
+  "evaluated_at": "2026-11-16T10:08:48.325720+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirement:** Identify the most downloaded models on Hugging Face that use the PaddlePaddle library.\n\n**Step-by-step verification against screenshots:**\n\n1. **Screenshot 1:** Shows the Hugging Face Models page (3,237,372 models) in its initial state, sorted by \"Trending\" with no library filter applied. This establishes the starting point of the task.\n\n2. **Screenshot 2:** Shows the \"PaddlePaddle\" filter applied in the Libraries section (visible as an active filter chip in the left sidebar), reducing results to 265 models. However, at this stage the list is still sorted by \"Trending\" (showing Kellenok/PP-OCRv6_manga first).\n\n3. **Screenshots 3 & 4:** Show the final state with the PaddlePaddle library filter active AND the sort changed to \"Most downloads\". The results displayed are:\n   - **PaddlePaddle/PP-Chart2Table** — 6.14k downloads (highlighted as the top result)\n   - **logasanjeev/indian-id-validator** — 1.19k downloads\n   - **Kellenok/PP-OCRv6_manga** — 471 downloads\n   - **PaddlePaddle/PP-DocBee2-3B** — 175 downloads\n   - **tieubaoca/pp-ocrv6-medium-rec-vietnamese** — 154 downloads\n   - Followed by meister1378/VLLORA_OCRPUBLIC_v2 (106), junnyu/roformer_base_wwm_cluecorpussmall (45), etc.\n\n**Cross-checking the Result Response against the screenshots:**\n- The response correctly identifies PaddlePaddle/PP-Chart2Table with 6.14k downloads as the most downloaded PaddlePaddle model — this matches the screenshot exactly.\n- The subsequent models listed (indian-id-validator at 1.19k, PP-OCRv6_manga at 471, PP-DocBee2-3B at 175, pp-ocrv6-medium-rec-vietnamese at 154) all match the download counts and ordering shown in the screenshots.\n- The methodology described (Filters > Library > PaddlePaddle, sorted by Most downloads) is consistent with the UI state shown.\n\nThe task was fully executed: the correct filter was applied, the correct sort order was used, and the answer accurately reflects the visual evidence. The most downloaded model was identified along with supporting context of the top-ranked models.\n\n## Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8331,
+    "completion_tokens": 1248,
+    "total_tokens": 9579,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 699
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:48.691744+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_1_models_page.png",
+      "source_sha256": "84db9283b28ddeb35c2862d083d4487061ec8f2776dd70b7604ae37eeda588f6",
+      "source_bytes": 468324,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 229420,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4f4d2c40026075af86385482a1c5d8c5cf52f9564774b51995b0efb7958af897"
+    },
+    {
+      "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_2_library_paddlepaddle.png",
+      "source_sha256": "7e49ecb57304d4ae00ab0e6c96b71eb5a47dd37cd69471012c27732b42fc9bab",
+      "source_bytes": 424252,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 222570,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e375cd65a08d20aa149a7cdecd08f0882a95c88be8d1f436f2e51edd88303faa"
+    },
+    {
+      "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_3_sort_downloads.png",
+      "source_sha256": "bfecc1a15fc83d0ccbd29227b8e76dad1ca6c7a6798dcf0f46a87b1d8ce322a8",
+      "source_bytes": 443352,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 228766,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "80ff5e099d772f31803c1f342d7760101bab64a6d5cf9643c26bafc3b94ab54e"
+    },
+    {
+      "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_4_results.png",
+      "source_sha256": "bfecc1a15fc83d0ccbd29227b8e76dad1ca6c7a6798dcf0f46a87b1d8ce322a8",
+      "source_bytes": 443352,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 228766,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "80ff5e099d772f31803c1f342d7760101bab64a6d5cf9643c26bafc3b94ab54e"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1216078,
+  "response_id": "32703d79-975a-405c-a248-87f290fe0dc9",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2091,
+    "reasoning_content_chars": 2433
+  }
+}

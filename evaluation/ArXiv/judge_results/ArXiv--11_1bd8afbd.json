@@ -1,0 +1,211 @@
+{
+  "task_id": "ArXiv--11",
+  "website": "ArXiv",
+  "task": "For Non-English submissions, do I need to provide a multi-language abstract, if need, answer the separator between the multiple abstracts.",
+  "task_record": "ArXiv--11/ArXiv--11_20261113_014727",
+  "task_definition_sha256": "dfcc3d26b4e94158a89fa7ed095a72c7517d2f1e6f5c42334055005c882de122",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "ArXiv--11/ArXiv--11_20261113_014727"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Yes — for non-English submissions, arXiv requires a multi-language abstract: an English abstract in addition to the abstract in the original language. The separator between the multiple abstracts is a line of five hyphens: \"-----\" (with a blank line before and after the separator line), as stated in the official arXiv FAQ 'Submissions in Languages Other Than English and Multiple-Language Submissions' (info.arxiv.org/help/faq/multilang.html).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/03_multilang_faq_live.png",
+      "sha256": "d91b00574eea84d27b45036d4a86440fa5cf93b7c182d7f01599f70db11c7694"
+    },
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/04_multilang_section_live.png",
+      "sha256": "d91b00574eea84d27b45036d4a86440fa5cf93b7c182d7f01599f70db11c7694"
+    },
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/05_wayback_faq_top.png",
+      "sha256": "bc5de992e6e03a7a7a2bc11b4238a0a5381659ec3a9b92c1b28914cc3c3192ea"
+    },
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/06_multilingual_abstract_section.png",
+      "sha256": "bc5de992e6e03a7a7a2bc11b4238a0a5381659ec3a9b92c1b28914cc3c3192ea"
+    },
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/07_separator.png",
+      "sha256": "bc5de992e6e03a7a7a2bc11b4238a0a5381659ec3a9b92c1b28914cc3c3192ea"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "5b1e0258bbbed00c128d772551d932867b358c9ca5ed13c11a9efa1156a0a907",
+  "fingerprint": "65e672736b2f89e53525b2d870505989987e7e1d2385c0cb43c4722d34e2b223",
+  "evaluated_at": "2026-11-16T12:34:32.642009+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Breakdown\nThe task has two components:\n1. **Determine whether** a multi-language abstract is required for non-English submissions\n2. **If required**, identify the separator between the multiple abstracts\n\n## Screenshot Evidence\n\n**Screenshots 1-2 (current arXiv policy page):** Show the page \"Submissions in Languages Other Than English and Multiple-Language Submissions,\" confirming that arXiv accepts non-English submissions but requires an English version. This page covers multilingual paper preparation but does not show the abstract separator details.\n\n**Screenshots 3-5 (archived arXiv FAQ page via Wayback Machine, info.arxiv.org/help/faq/multilang.html):** This page explicitly answers both parts of the task:\n- **Part 1 (Is a multi-language abstract needed?):** The page states: *\"We accept submissions in languages other than English but do require that all submissions have an English version of the abstract.\"* → **Yes, a multi-language abstract is required.**\n- **Part 2 (Separator):** Under \"Preparation of a multilingual abstract,\" the page instructs: *\"Please prepare English and alternate language abstracts so that one follows the other, separated as shown below\"* — with a code block showing:\n  ```\n  English version of abstract for your important paper.\n  \n  -----\n  \n  Other language version of abstract for your important paper.\n  ```\n  And explicitly notes: *\"Note the blank lines before and after the separator ( ----- ).\"* → **The separator is a line of five hyphens \"-----\" with blank lines before and after.**\n\n## Response Verification\nThe Result Response states:\n- ✅ Yes, a multi-language abstract is required (English abstract plus original-language abstract) — matches screenshot content\n- ✅ The separator is \"-----\" (five hyphens) with blank lines before and after — matches the code block and note in the screenshots\n- ✅ Correctly cites the source (arXiv FAQ multilang page), consistent with the URL visible in the Wayback Machine screenshots\n\nBoth parts of the task are fully and accurately answered, with the response content consistent with the visual evidence.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9077,
+    "completion_tokens": 1854,
+    "total_tokens": 10931,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1389
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T12:34:33.140389+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/03_multilang_faq_live.png",
+      "source_sha256": "d91b00574eea84d27b45036d4a86440fa5cf93b7c182d7f01599f70db11c7694",
+      "source_bytes": 159184,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 172840,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "463182a9ea33c05002584999f7a927d397134c231800fc92b076eea2e094eb1a"
+    },
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/04_multilang_section_live.png",
+      "source_sha256": "d91b00574eea84d27b45036d4a86440fa5cf93b7c182d7f01599f70db11c7694",
+      "source_bytes": 159184,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 172840,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "463182a9ea33c05002584999f7a927d397134c231800fc92b076eea2e094eb1a"
+    },
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/05_wayback_faq_top.png",
+      "source_sha256": "bc5de992e6e03a7a7a2bc11b4238a0a5381659ec3a9b92c1b28914cc3c3192ea",
+      "source_bytes": 185050,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 203282,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4e523092572b019b1def509a9144e24d3844ad8d873b335d51d170becb0c4448"
+    },
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/06_multilingual_abstract_section.png",
+      "source_sha256": "bc5de992e6e03a7a7a2bc11b4238a0a5381659ec3a9b92c1b28914cc3c3192ea",
+      "source_bytes": 185050,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 203282,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4e523092572b019b1def509a9144e24d3844ad8d873b335d51d170becb0c4448"
+    },
+    {
+      "path": "ArXiv--11/ArXiv--11_20261113_014727/final_runs/run_001/screenshots/07_separator.png",
+      "source_sha256": "bc5de992e6e03a7a7a2bc11b4238a0a5381659ec3a9b92c1b28914cc3c3192ea",
+      "source_bytes": 185050,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 203282,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4e523092572b019b1def509a9144e24d3844ad8d873b335d51d170becb0c4448"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1277506,
+  "response_id": "dd13cd76-85af-41da-a525-cc36f7ffd1d6",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2152,
+    "reasoning_content_chars": 6645
+  }
+}

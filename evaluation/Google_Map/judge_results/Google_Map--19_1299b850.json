@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--19",
+  "website": "Google Map",
+  "task": "I will arrive Pittsburgh Airport soon. Provide the name of the Hilton hotel closest to the airport. Then, tell me the the walking time to the nearest supermarket from the hotel.",
+  "task_record": "Google Map--19/Google Map--19_20261114_141804",
+  "task_definition_sha256": "23a3b4873cda34fd1503324cad23a9857bd716e11fd401de63c9500e83686575",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--19/Google Map--19_20261114_141804"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The Hilton hotel closest to Pittsburgh Airport is Hilton Garden Inn Pittsburgh Airport. The walking time from the hotel to the nearest supermarket (Walmart Supercenter, 7500 University Blvd) is about 27 minutes (1.2 miles).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_1_hilton_search_results.png",
+      "sha256": "1f86df72f91c6ddfce951981c5f4c5e49a36f38c7d99ba3233dca499de1f5e69"
+    },
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_2_closest_hilton_place_panel.png",
+      "sha256": "7fd7dadc1432e57fc81e0b2981fb663672c0652a51a508d9230972d14f94c2f6"
+    },
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_3_hotel_to_airport_distance.png",
+      "sha256": "62cb36d69439ef9dee26767c810180dd75d85e59237b48b560c3b440a8ad581f"
+    },
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_4_supermarkets_near_hotel.png",
+      "sha256": "75a8d7b5559138506d6f07d660f4af4e05f6365485f8029742131070395f11d2"
+    },
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_5_walking_time_to_supermarket.png",
+      "sha256": "f243219838f90f29e8f783a27c489df1e01d715f173560ddb441c38ed56047e4"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "6a554e8bd81cb1f44ca0652a5c90b34fb6ed13feb6ba86ae23b46fa70928f4f1",
+  "fingerprint": "9a913e605d6e44c27127b8eec163e2ed31bfee708fb54eef0fcd79dbffbe6643",
+  "evaluated_at": "2026-11-16T10:10:14.934095+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "Looking at this task, I need to evaluate two components:\n1. Identifying the Hilton hotel closest to Pittsburgh Airport\n2. Determining the walking time to the nearest supermarket from that hotel\n\n**Analysis of the screenshots:**\n\n**Screenshot 1:** Shows a Google Maps search for \"Hilton hotels near Pittsburgh\" with results including Hilton Garden Inn Pittsburgh Airport, DoubleTree by Hilton Hotel Pittsburgh Airport, Hilton Garden Inn Pittsburgh Airport South-Robinson Mall, and Homewood Suites by Hilton Pittsburgh Airport Robinson Mall. The map shows Hilton Garden Inn Pittsburgh Airport positioned closest to Pittsburgh International Airport.\n\n**Screenshot 2:** Confirms the details of Hilton Garden Inn Pittsburgh Airport (9600 University Blvd, Moon Township, PA), and the map clearly shows it is the Hilton property nearest to the airport marker, closer than the DoubleTree by Hilton.\n\n**Screenshot 3:** Shows directions from the hotel to Pittsburgh International Airport, verifying the hotel-airport relationship.\n\n**Screenshot 4:** Shows a \"supermarkets\" search near the hotel area, with results including Giant Eagle Supermarket (5990 University Blvd), ALDI (2830 Gracy Center Way), Walmart Supercenter (7500 University Blvd), and others. Based on the map and addresses, Walmart Supercenter at 7500 University Blvd is the closest supermarket to the hotel at 9600 University Blvd (Giant Eagle and ALDI are farther away; Sheetz is a convenience store).\n\n**Screenshot 5:** Shows walking directions from Hilton Garden Inn Pittsburgh Airport to Walmart Supercenter, 7500 University Blvd, displaying **27 min** walking time via University Blvd for **1.2 miles**.\n\n**Comparison with the Result Response:**\n- The response states the closest Hilton hotel is \"Hilton Garden Inn Pittsburgh Airport\" — this matches the screenshots.\n- The response states the walking time to the nearest supermarket (Walmart Supercenter, 7500 University Blvd) is about 27 minutes (1.2 miles) — this exactly matches the walking directions shown in Screenshot 5.\n\nBoth parts of the task were completed: the hotel name was correctly identified, and the walking time to the nearest supermarket was accurately determined with supporting visual evidence.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8113,
+    "completion_tokens": 2675,
+    "total_tokens": 10788,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2221
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:10:15.532057+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_1_hilton_search_results.png",
+      "source_sha256": "1f86df72f91c6ddfce951981c5f4c5e49a36f38c7d99ba3233dca499de1f5e69",
+      "source_bytes": 1017876,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 274249,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0f518eb882725a4863b1df0ff6cb5f651f1d9984ed5af82fd03a6ce31fb6f2b9"
+    },
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_2_closest_hilton_place_panel.png",
+      "source_sha256": "7fd7dadc1432e57fc81e0b2981fb663672c0652a51a508d9230972d14f94c2f6",
+      "source_bytes": 883748,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 259335,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b6f3f66b9faa18d32e8fc961bd683ba0717add26870a952cc9a36c97cd95f822"
+    },
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_3_hotel_to_airport_distance.png",
+      "source_sha256": "62cb36d69439ef9dee26767c810180dd75d85e59237b48b560c3b440a8ad581f",
+      "source_bytes": 1100188,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 272335,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "95b9101184e341bf192952db494ac18f93f0c3510730f45e3fda3a46df754af5"
+    },
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_4_supermarkets_near_hotel.png",
+      "source_sha256": "75a8d7b5559138506d6f07d660f4af4e05f6365485f8029742131070395f11d2",
+      "source_bytes": 1020634,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 305006,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9d574fb49a42e141e203f2e383d4be1322442aa1553e5f3cfd0b3cc96b514926"
+    },
+    {
+      "path": "Google Map--19/Google Map--19_20261114_141804/final_runs/run_001/screenshots/final_execution_5_walking_time_to_supermarket.png",
+      "source_sha256": "f243219838f90f29e8f783a27c489df1e01d715f173560ddb441c38ed56047e4",
+      "source_bytes": 541207,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 190147,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5d840a920cdee421803734b44b473f65a1859e9644733341ef26adacaffdfed5"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1738047,
+  "response_id": "92452946-7dca-42a8-89b9-9aae2b0bcbeb",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2249,
+    "reasoning_content_chars": 9953
+  }
+}

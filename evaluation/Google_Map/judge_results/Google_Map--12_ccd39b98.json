@@ -1,0 +1,181 @@
+{
+  "task_id": "Google Map--12",
+  "website": "Google Map",
+  "task": "Find 5 places that serve burgers near 44012 zip code and sort these 5 places by highest rating.",
+  "task_record": "Google Map--12/Google Map--12_20261114_071831",
+  "task_definition_sha256": "fc03cf8d645567519c19f569a5d9b3960857bdff06a243d6e93c681aaf93cd9e",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--12/Google Map--12_20261114_071831"
+  ],
+  "final_run": "run_005",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Top 5 places that serve burgers near zip code 44012 (Avon Lake, OH), sorted by highest rating: 1. Edacious Kitchen + Bar - rating 4.7 (197 reviews); 2. Jake's On Lake - rating 4.6 (1792 reviews); 3. Parker's Grille & Tavern - rating 4.5 (821 reviews); 4. Legacy Restaurant & Grille - rating 4.5 (219 reviews); 5. 3rd Base Bar & Grill - rating 4.4 (378 reviews)",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--12/Google Map--12_20261114_071831/final_runs/run_005/screenshots/final_execution_1_search_results.png",
+      "sha256": "85691db42e290b84412b389124b946b425c2007b1196d7d6b8b21a2b4a6afcad"
+    },
+    {
+      "path": "Google Map--12/Google Map--12_20261114_071831/final_runs/run_005/screenshots/final_execution_2_hamburger_filter_selected.png",
+      "sha256": "cff0b4e52c4a5845c023d9143ec6dab568d2437ea02eb2454a17c0ab41c14157"
+    },
+    {
+      "path": "Google Map--12/Google Map--12_20261114_071831/final_runs/run_005/screenshots/final_execution_3_filtered_results.png",
+      "sha256": "8fd19ffc016d5629011fb16e49157b2bf746134d6635c149cab7de86ca56668e"
+    },
+    {
+      "path": "Google Map--12/Google Map--12_20261114_071831/final_runs/run_005/screenshots/final_execution_5_final_state_top5.png",
+      "sha256": "8fd19ffc016d5629011fb16e49157b2bf746134d6635c149cab7de86ca56668e"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "fc1135f858c5649451934672bf32d479e92d898f38d296d2bd15afcfd927535e",
+  "fingerprint": "110dacedad0daaffac7881ec9e5eec6ad7dc419609caf72f17a493090ba5d4d9",
+  "evaluated_at": "2026-11-16T10:03:53.158122+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\n1. Find 5 places that serve burgers near zip code 44012\n2. Sort these 5 places by highest rating\n\n## Screenshot Verification\n\n**Screenshot 1:** Shows a Google Maps search for \"burgers near 44012\" with results including:\n- Jake's On Lake — 4.6 (1,792 reviews)\n- Parker's Grille & Tavern — 4.5 (821 reviews)\n- Edacious Kitchen + Bar — 4.7 (197 reviews)\n- Legacy Restaurant & Grille — 4.5 (219 reviews)\n\n**Screenshot 2:** Shows the filter panel with \"Hamburger\" cuisine selected, confirming the search was refined to burger-serving establishments.\n\n**Screenshots 3 & 4:** After applying the Hamburger filter, results show:\n- Jake's On Lake — 4.6 (1,792)\n- Edacious Kitchen + Bar — 4.7 (197)\n- Parker's Grille & Tavern — 4.5 (821)\n- 3rd Base Bar & Grill — 4.4 (378)\n\n## Response Verification\n\nThe response lists 5 places sorted by rating:\n1. Edacious Kitchen + Bar — 4.7 (197) ✓ matches screenshot\n2. Jake's On Lake — 4.6 (1,792) ✓ matches screenshot\n3. Parker's Grille & Tavern — 4.5 (821) ✓ matches screenshot\n4. Legacy Restaurant & Grille — 4.5 (219) ✓ matches screenshot 1\n5. 3rd Base Bar & Grill — 4.4 (378) ✓ matches screenshot\n\n## Assessment\n- **5 places found:** ✓ Exactly 5 burger-serving places near 44012 were identified\n- **Sorted by highest rating:** ✓ Correct descending order: 4.7 → 4.6 → 4.5 → 4.5 → 4.4\n- **Accuracy:** All ratings and review counts in the response match the screenshots exactly\n- All establishments appeared in the burger search results (with Hamburger cuisine filter applied), confirming they serve burgers\n\nBoth components of the task (finding 5 burger places and sorting by rating) were completed correctly and the data is consistent with the visual evidence.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6658,
+    "completion_tokens": 1676,
+    "total_tokens": 8334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1177
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:53.319412+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Google Map--12/Google Map--12_20261114_071831/final_runs/run_005/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "85691db42e290b84412b389124b946b425c2007b1196d7d6b8b21a2b4a6afcad",
+      "source_bytes": 394035,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 248386,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4c6e7971da8fb0dc96ea04f103904bc7c5fa839b38511317d3abe39ed0f666e8"
+    },
+    {
+      "path": "Google Map--12/Google Map--12_20261114_071831/final_runs/run_005/screenshots/final_execution_2_hamburger_filter_selected.png",
+      "source_sha256": "cff0b4e52c4a5845c023d9143ec6dab568d2437ea02eb2454a17c0ab41c14157",
+      "source_bytes": 288611,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 189919,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9ef1180a399e10b9aa7c56d4be8f0f31b32ac5d1c51bdf5b9697d872c6ff6bb0"
+    },
+    {
+      "path": "Google Map--12/Google Map--12_20261114_071831/final_runs/run_005/screenshots/final_execution_3_filtered_results.png",
+      "source_sha256": "8fd19ffc016d5629011fb16e49157b2bf746134d6635c149cab7de86ca56668e",
+      "source_bytes": 380937,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 241236,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "df658ec9ebd8ee88d30565eeb0373ce85b2cf2f70f5ccb8705098f14f3ae9e99"
+    },
+    {
+      "path": "Google Map--12/Google Map--12_20261114_071831/final_runs/run_005/screenshots/final_execution_5_final_state_top5.png",
+      "source_sha256": "8fd19ffc016d5629011fb16e49157b2bf746134d6635c149cab7de86ca56668e",
+      "source_bytes": 380937,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 241236,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "df658ec9ebd8ee88d30565eeb0373ce85b2cf2f70f5ccb8705098f14f3ae9e99"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1230966,
+  "response_id": "1feaab40-3152-4cc4-8f51-bc78169e29d6",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1760,
+    "reasoning_content_chars": 4035
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "task_id": "Allrecipes--42",
+  "website": "Allrecipes",
+  "task": "Find a recipe for banana bread with more than 200 reviews and a rating of at least 4.0 stars on Allrecipes.",
+  "task_record": "Allrecipes--42/Allrecipes--42_20261113_131248",
+  "task_definition_sha256": "91a346c9f3bf187a8c89d0f5ee20f588c07a6b7495fc100ad2eb99eb9a778e99",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--42/Allrecipes--42_20261113_131248"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found qualifying banana bread recipe: 'Janet's Rich Banana Bread' at https://www.allrecipes.com/recipe/17066/janets-rich-banana-bread/ with rating 4.8 stars and 10,849 ratings (8,339 reviews), satisfying the requirement of more than 200 reviews and a rating of at least 4.0 stars.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--42/Allrecipes--42_20261113_131248/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "sha256": "d1d63590172cf8f629b8dbe35b76d55c0c050d996463ad05158dafae76487e3d"
+    },
+    {
+      "path": "Allrecipes--42/Allrecipes--42_20261113_131248/final_runs/run_001/screenshots/final_execution_3_recipe_card_results.png",
+      "sha256": "d1d63590172cf8f629b8dbe35b76d55c0c050d996463ad05158dafae76487e3d"
+    },
+    {
+      "path": "Allrecipes--42/Allrecipes--42_20261113_131248/final_runs/run_001/screenshots/final_execution_4_recipe_page_rating.png",
+      "sha256": "59868838343bf7e932108a862471b93f94e63a89df18bd2ce5333d6d5b74251f"
+    },
+    {
+      "path": "Allrecipes--42/Allrecipes--42_20261113_131248/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "sha256": "59868838343bf7e932108a862471b93f94e63a89df18bd2ce5333d6d5b74251f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "0d9b70a5ce7a4b89bea60eace92ebfadf7134d08357b6459c382d13833e95584",
+  "fingerprint": "9397d582efe1d336e85f62de5e64ecca970ce32b08cec01a7d9a106d6f12689a",
+  "evaluated_at": "2026-11-16T10:19:15.661008+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a banana bread recipe on Allrecipes\n2. The recipe must have more than 200 reviews\n3. The recipe must have a rating of at least 4.0 stars\n\n**Evidence from Screenshots:**\n\n1. **Search Results (Screenshots 1 & 2):** The Allrecipes search results page for \"banana bread\" is displayed, showing multiple banana bread recipes. The top result is \"Janet's Rich Banana Bread\" with a 5-star visual rating and 10,849 Ratings — clearly exceeding the 200-review threshold.\n\n2. **Recipe Page (Screenshots 3 & 4):** The detailed recipe page for \"Janet's Rich Banana Bread\" is shown, confirming:\n   - **Rating:** 4.8 stars (10,849 ratings) — exceeds the 4.0 star minimum ✓\n   - **Reviews:** 8,339 Reviews — far exceeds the 200 review minimum ✓\n   - **Website:** Allrecipes (confirmed by branding, URL structure, and site layout) ✓\n\n**Consistency Check:**\n- The Result Response accurately matches the screenshots: recipe name, rating (4.8), ratings count (10,849), and review count (8,339) all align with the visual evidence.\n- The recipe URL provided (allrecipes.com/recipe/17066/janets-rich-banana-bread/) corresponds to the recipe page shown.\n- Both task criteria (review count > 200 and rating ≥ 4.0) are demonstrably satisfied.\n\n**Conclusion:** The task was completed successfully. A banana bread recipe meeting both specified criteria was located on Allrecipes, and the evidence in the screenshots fully corroborates the response.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6616,
+    "completion_tokens": 747,
+    "total_tokens": 7363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 372
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:19:16.096081+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Allrecipes--42/Allrecipes--42_20261113_131248/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "d1d63590172cf8f629b8dbe35b76d55c0c050d996463ad05158dafae76487e3d",
+      "source_bytes": 1313662,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 274291,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "946cab63223d10cbf82160fd3d2f943b994cbb6cf3f047bfebc94f82b5e629eb"
+    },
+    {
+      "path": "Allrecipes--42/Allrecipes--42_20261113_131248/final_runs/run_001/screenshots/final_execution_3_recipe_card_results.png",
+      "source_sha256": "d1d63590172cf8f629b8dbe35b76d55c0c050d996463ad05158dafae76487e3d",
+      "source_bytes": 1313662,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 274291,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "946cab63223d10cbf82160fd3d2f943b994cbb6cf3f047bfebc94f82b5e629eb"
+    },
+    {
+      "path": "Allrecipes--42/Allrecipes--42_20261113_131248/final_runs/run_001/screenshots/final_execution_4_recipe_page_rating.png",
+      "source_sha256": "59868838343bf7e932108a862471b93f94e63a89df18bd2ce5333d6d5b74251f",
+      "source_bytes": 537478,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 192828,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a6e0d474b4937e30dc37624ab92216133224a99ede0b71ee2b428d5ec17e70ce"
+    },
+    {
+      "path": "Allrecipes--42/Allrecipes--42_20261113_131248/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "59868838343bf7e932108a862471b93f94e63a89df18bd2ce5333d6d5b74251f",
+      "source_bytes": 537478,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 192828,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a6e0d474b4937e30dc37624ab92216133224a99ede0b71ee2b428d5ec17e70ce"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1248846,
+  "response_id": "4c176912-c7d0-4e12-b480-3d1d1597881d",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1498,
+    "reasoning_content_chars": 1376
+  }
+}

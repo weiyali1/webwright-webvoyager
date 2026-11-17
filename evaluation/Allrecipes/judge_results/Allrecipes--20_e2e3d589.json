@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--20",
+  "website": "Allrecipes",
+  "task": "Find a recipe for a cauliflower pizza crust that has a preparation time of under 30 minutes and a rating of at least 4 stars on Allrecipes. Include the number of calories per serving.",
+  "task_record": "Allrecipes--20/Allrecipes--20_20261113_062703",
+  "task_definition_sha256": "fc2069153ec262ea95d5249e424b8d4af4c2cf81b7e93287eaaf39e11d03551d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--20/Allrecipes--20_20261113_062703"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Recipe: Cauliflower Pizza Crust | URL: https://www.allrecipes.com/recipe/232930/cauliflower-pizza-crust/ | Rating: 4.2 stars (>= 4 stars) | Prep Time: 15 mins (under 30 minutes) | Calories per serving: 59",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_4_recipe_page.png",
+      "sha256": "4e21c5d9b618e481a8c6955001d3fb43eade56d4f213fbf6b9325676117cedc4"
+    },
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_5_rating.png",
+      "sha256": "4e21c5d9b618e481a8c6955001d3fb43eade56d4f213fbf6b9325676117cedc4"
+    },
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_6_prep_time.png",
+      "sha256": "177ec895fbcd5e2cc6dc2041f91719e04ad92ed8b21ca9083569847439c6c702"
+    },
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_7_calories.png",
+      "sha256": "9a1b5962a44494cf765cfb485675119df25ca246b56e8154ee0ae8d939206110"
+    },
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_8_final_state.png",
+      "sha256": "9a1b5962a44494cf765cfb485675119df25ca246b56e8154ee0ae8d939206110"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "eb1cdd605fba952d223c69a72dfd2e7c770547f066a85a356c4c746e41ebd8a6",
+  "fingerprint": "188fabcfe3929b50cb594855e9d057f16bb7cdd11ea4d3654538ac026631b071",
+  "evaluated_at": "2026-11-16T10:05:27.715742+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Find a cauliflower pizza crust recipe on Allrecipes\n2. Preparation time under 30 minutes\n3. Rating of at least 4 stars\n4. Include the number of calories per serving\n\n## Verification Against Screenshots:\n\n**Screenshot 1-3 (Recipe Page):**\n- The recipe page shows \"Cauliflower Pizza Crust\" on Allrecipes ✓\n- Rating displayed: **4.2 stars** (295 ratings) — meets the ≥ 4 stars requirement ✓\n- Prep Time: **15 mins** — meets the under 30 minutes requirement ✓\n- (Cook Time: 30 mins, Total Time: 1 hr, Servings: 6 — additional context)\n\n**Screenshot 4-5 (Nutrition Facts):**\n- Nutrition Facts (per serving) clearly shows: **59 Calories**, 4g Fat, 3g Carbs, 4g Protein ✓\n\n## Verification Against Result Response:\n- Recipe: Cauliflower Pizza Crust ✓ (matches screenshot)\n- Rating: 4.2 stars ✓ (matches screenshot)\n- Prep Time: 15 mins ✓ (matches screenshot)\n- Calories per serving: 59 ✓ (matches screenshot)\n- URL provided: https://www.allrecipes.com/recipe/232930/cauliflower-pizza-crust/ ✓\n\n## Conclusion:\nAll task requirements have been satisfied:\n- ✅ Cauliflower pizza crust recipe found on Allrecipes\n- ✅ Prep time of 15 mins is under 30 minutes\n- ✅ Rating of 4.2 stars is at least 4 stars\n- ✅ Calories per serving (59) is included\n\nThe result response is fully consistent with the screenshots, and all criteria from the instruction are met.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8135,
+    "completion_tokens": 699,
+    "total_tokens": 8834,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 327
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:05:28.228613+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_4_recipe_page.png",
+      "source_sha256": "4e21c5d9b618e481a8c6955001d3fb43eade56d4f213fbf6b9325676117cedc4",
+      "source_bytes": 839113,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 206866,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e9d083d00dc1a7019b1aa1e1b999b8bc53120126e01b9549ce33bd287e4453e2"
+    },
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_5_rating.png",
+      "source_sha256": "4e21c5d9b618e481a8c6955001d3fb43eade56d4f213fbf6b9325676117cedc4",
+      "source_bytes": 839113,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 206866,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e9d083d00dc1a7019b1aa1e1b999b8bc53120126e01b9549ce33bd287e4453e2"
+    },
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_6_prep_time.png",
+      "source_sha256": "177ec895fbcd5e2cc6dc2041f91719e04ad92ed8b21ca9083569847439c6c702",
+      "source_bytes": 471070,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 168175,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "821c040717b29d129833961b1dde2530d50f9afb81c2877eeb875b770d8a521c"
+    },
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_7_calories.png",
+      "source_sha256": "9a1b5962a44494cf765cfb485675119df25ca246b56e8154ee0ae8d939206110",
+      "source_bytes": 880553,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 184685,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "20b5b5051cab80d457c0da65c8f689ca36ca5474bc283972105d6d2345a3e3a3"
+    },
+    {
+      "path": "Allrecipes--20/Allrecipes--20_20261113_062703/final_runs/run_001/screenshots/final_execution_8_final_state.png",
+      "source_sha256": "9a1b5962a44494cf765cfb485675119df25ca246b56e8154ee0ae8d939206110",
+      "source_bytes": 880553,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 184685,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "20b5b5051cab80d457c0da65c8f689ca36ca5474bc283972105d6d2345a3e3a3"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1271642,
+  "response_id": "bb0fcbc1-7850-4764-9053-0b9be2da5efa",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1412,
+    "reasoning_content_chars": 1172
+  }
+}

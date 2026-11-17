@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--34",
+  "website": "Coursera",
+  "task": "Find the course on Coursera named 'Essentials of Global Health'. Determine the instructor of this course and summarize his bio, note if there are any additional courses he offers on Coursera.",
+  "task_record": "Coursera--34/Coursera--34_20261115_074408",
+  "task_definition_sha256": "a40cb5eb99aee1d40e47bbc09df9fbfe5923d22b8862076ac4b645b8314aa087",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--34/Coursera--34_20261115_074408"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The course 'Essentials of Global Health' is offered by Yale University on Coursera (https://www.coursera.org/learn/essentials-global-health). Its instructor is Richard Skolnik, former Lecturer at the Yale School of Public Health and Yale School of Management. Bio summary: Richard Skolnik has more than 40 years of experience in international development and global health and is the author of the widely used textbook 'Global Health 101' (3rd edition). He spent 25 years at the World Bank, retiring as Director for Health and Education for the South Asia Region, with health work spanning West Africa, the Middle East and North Africa, Latin America and the Caribbean, and South Asia, focused on health systems financing, equity, maternal and child health, and control of communicable diseases. After the World Bank he was Vice President for International Programs at PRB and Director of the Center for Global Health at The George Washington University, where he taught undergraduate global health for 8 years; he also served as Executive Director of the Harvard PEPFAR program for AIDS treatment in Botswana, Nigeria, and Tanzania. He has served on the Global Fund's Technical Review Panel, WHO advisory groups, and was deeply involved in establishing STOP TB; more recently he reviewed HIV financing in India, Cambodia, and Nigeria with the Results for Development Institute, and serves on the editorial advisory bodies of DCP3 and Millions Saved. He holds a BA from Yale University and an MPA from Princeton University's Woodrow Wilson School. Additional courses: Richard Skolnik offers no additional courses on Coursera; his instructor profile's 'Courses - English' section lists only 'Essentials of Global Health'.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_2_course_page.png",
+      "sha256": "d5df2d0c00b519bb4abceb9f213c5da735cb864b27f439132871eb2f1bb49ef5"
+    },
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_3_instructor_on_course.png",
+      "sha256": "d5df2d0c00b519bb4abceb9f213c5da735cb864b27f439132871eb2f1bb49ef5"
+    },
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_4_instructor_bio.png",
+      "sha256": "9ea4c79e644d696447b9a6188c41872c1d844b3b47961949ea080f1a88985d7c"
+    },
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_5_instructor_courses.png",
+      "sha256": "9ea4c79e644d696447b9a6188c41872c1d844b3b47961949ea080f1a88985d7c"
+    },
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "sha256": "9ea4c79e644d696447b9a6188c41872c1d844b3b47961949ea080f1a88985d7c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "425327cddf8d63a536b9df749b1bb79b23415cf0c51ab5dd7a9537d743eb6ae5",
+  "fingerprint": "10da2155405cb94110bf6239c90922ab213e5fea07283b87ea86c4aa7ad75301",
+  "evaluated_at": "2026-11-16T10:10:36.195875+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Find the course 'Essentials of Global Health' on Coursera\n2. Determine the instructor of this course\n3. Summarize the instructor's bio\n4. Note if there are any additional courses he offers on Coursera\n\n## Verification Against Screenshots:\n\n**Screenshot 1-2 (Course Page):**\n- The course \"Essentials of Global Health\" by Yale University is shown on Coursera ✓\n- The instructor is clearly listed as \"Richard Skolnik\" ✓\n- Course details visible: 94,484 enrolled, 4.8 stars, 10 modules, 4 weeks to complete\n\n**Screenshots 3-5 (Instructor Profile Page):**\n- Richard Skolnik's profile confirms he is \"Former Lecturer, Department of Health Policy and Management, Yale School of Public Health and Lecturer in the Practice of Management, Yale School of Management, 2012-2016\" ✓\n- The bio section confirms all key details in the response:\n  - 40+ years of experience in international development and global health ✓\n  - Author of \"Global Health 101\" (3rd edition) ✓\n  - 25 years at the World Bank, retiring as Director for Health and Education for the South Asia Region ✓\n  - Health work in West Africa, Middle East/North Africa, Latin America/Caribbean, South Asia ✓\n  - Focus on health systems financing, equity, maternal/child health, communicable diseases ✓\n  - VP for International Programs at PRB; Director of Center for Global Health at George Washington University (taught 8 years) ✓\n  - Executive Director of Harvard PEPFAR program (Botswana, Nigeria, Tanzania) ✓\n  - Global Fund Technical Review Panel, WHO advisory groups, STOP TB establishment ✓\n  - HIV financing reviews in India, Cambodia, Nigeria with Results for Development Institute ✓\n  - Editorial advisory bodies: DCP3 and Millions Saved ✓\n  - BA from Yale, MPA from Princeton's Woodrow Wilson School ✓\n\n**Additional Courses Check:**\n- The \"Courses - English\" section on his profile shows only ONE course: \"Essentials of Global Health\" ✓\n- The response correctly states there are no additional courses offered ✓\n\n## Conclusion:\nAll components of the task were completed successfully. The course was found, the instructor was correctly identified, the bio summary is accurate and comprehensive (matching the screenshot content), and the additional courses question was properly answered (none exist beyond the one course).\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8418,
+    "completion_tokens": 1680,
+    "total_tokens": 10098,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1142
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:10:36.733781+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_2_course_page.png",
+      "source_sha256": "d5df2d0c00b519bb4abceb9f213c5da735cb864b27f439132871eb2f1bb49ef5",
+      "source_bytes": 197442,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 191791,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "90e3e852d824a373287b69c8f345a54acd7dbc08618d92debfec3a8857ff7a7c"
+    },
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_3_instructor_on_course.png",
+      "source_sha256": "d5df2d0c00b519bb4abceb9f213c5da735cb864b27f439132871eb2f1bb49ef5",
+      "source_bytes": 197442,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 191791,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "90e3e852d824a373287b69c8f345a54acd7dbc08618d92debfec3a8857ff7a7c"
+    },
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_4_instructor_bio.png",
+      "source_sha256": "9ea4c79e644d696447b9a6188c41872c1d844b3b47961949ea080f1a88985d7c",
+      "source_bytes": 341300,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 214368,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ee1874b7d7b392ffd4e624a900494d17342df3541f27930147738fe2106da02a"
+    },
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_5_instructor_courses.png",
+      "source_sha256": "9ea4c79e644d696447b9a6188c41872c1d844b3b47961949ea080f1a88985d7c",
+      "source_bytes": 341300,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 214368,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ee1874b7d7b392ffd4e624a900494d17342df3541f27930147738fe2106da02a"
+    },
+    {
+      "path": "Coursera--34/Coursera--34_20261115_074408/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "9ea4c79e644d696447b9a6188c41872c1d844b3b47961949ea080f1a88985d7c",
+      "source_bytes": 341300,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 214368,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ee1874b7d7b392ffd4e624a900494d17342df3541f27930147738fe2106da02a"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1373706,
+  "response_id": "467ef104-2467-4854-bdbf-d3a0f1c1efb2",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2351,
+    "reasoning_content_chars": 5352
+  }
+}

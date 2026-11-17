@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--30",
+  "website": "GitHub",
+  "task": "Search for an open-source project related to 'blockchain technology' on GitHub updated in the past 15 days and list the top five contributors.",
+  "task_record": "GitHub--30/GitHub--30_20261115_120203",
+  "task_definition_sha256": "3b23348f44630cad90f45e62b5d805991fdba7bac2103f8b6af1d86210e6a88d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--30/GitHub--30_20261115_120203"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Open-source blockchain technology project updated in the past 15 days: aptos-labs/aptos-core (https://github.com/aptos-labs/aptos-core), found via GitHub repository search for 'blockchain technology' with pushed:>2026-10-31. Top five contributors (last 3 months, by commits): 1. claude (271 commits), 2. wqfish (136 commits), 3. github-actions[bot] (58 commits), 4. wrwg (52 commits), 5. georgemitenkov (48 commits).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp2_pushed_date_filled.png",
+      "sha256": "ccd3218f17df33a4bdee0dfd8d27d8792096c3e46ec53f3f2bdf41239a1017b5"
+    },
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp3_search_results.png",
+      "sha256": "bf6138f43a2b4a1e6d47811f0d2558520da8e3d0f5808b4c6d8263d20365f430"
+    },
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp4_repo_page.png",
+      "sha256": "e525590d4521adc0df32c8864e69cbccdc381432ab5c18b68d6f8ba22cd01765"
+    },
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp5_contributors_page.png",
+      "sha256": "b3063587068033c674cc86d9d111ffc14e518b86dbcbacb000939400cb379e34"
+    },
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp6_top_five_contributors.png",
+      "sha256": "85e42dff12fdfa4b0defad8a8703ae0772a19093dd5f24e2a798260e39de34ff"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "64a1cea2fb0f3bf40c6fb08e6272206d30a559628196bcffd757ffe24e6c0c83",
+  "fingerprint": "06a65d529588927169c8d87677dcd9d1549f1183227e77870795e6a71a0fc655",
+  "evaluated_at": "2026-11-16T10:21:29.354450+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for an open-source project related to 'blockchain technology' on GitHub\n2. The project must be updated in the past 15 days\n3. List the top five contributors\n\n**Screenshot Verification:**\n\n1. **Screenshot 1 (Advanced Search):** Shows the GitHub advanced search page with the query \"blockchain technology pushed:>2026-10-31\" entered, and the \"Pushed to\" field set to \">2026-10-31\". This correctly filters for repositories updated within the past 15 days (the contributor graph in later screenshots confirms the current date is around Nov 15, 2026).\n\n2. **Screenshot 2 (Search Results):** Shows 164 repository results for the search, including **aptos-labs/aptos-core**, described as \"Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience\" — clearly a blockchain technology project, shown as \"Updated 28 minutes ago,\" satisfying the 15-day recency requirement.\n\n3. **Screenshot 3 (Repository Page):** Confirms navigation to the aptos-labs/aptos-core repository, with recent commits from \"yesterday,\" \"last week,\" etc., and 550 contributors listed.\n\n4. **Screenshots 4 & 5 (Contributors Page):** Shows the Contributors page with \"Period: Last 3 months,\" listing:\n   - #1 claude — 271 commits\n   - #2 wqfish — 136 commits\n   - #3 github-actions[bot] — 58 commits\n   - #4 wrwg — 52 commits\n   - #5 georgemitenkov — 48 commits\n\n**Response Verification:**\nThe result response accurately reflects the screenshots: it identifies aptos-labs/aptos-core as the blockchain project found via the search with the pushed date filter, and lists the exact top five contributors with matching commit counts (claude 271, wqfish 136, github-actions[bot] 58, wrwg 52, georgemitenkov 48). The response also transparently notes the contributor ranking is based on the last 3 months by commits, consistent with the screenshot's period setting.\n\nAll three task components — blockchain-related project, updated within 15 days, and top five contributors — are fully satisfied and consistent between the screenshots and the response.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9099,
+    "completion_tokens": 1415,
+    "total_tokens": 10514,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 904
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:21:29.871848+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp2_pushed_date_filled.png",
+      "source_sha256": "ccd3218f17df33a4bdee0dfd8d27d8792096c3e46ec53f3f2bdf41239a1017b5",
+      "source_bytes": 97685,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 135479,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6d9b530c5687ed78a4599b8f019c4172163dbc69eb32748a37581c0a364ae1c6"
+    },
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp3_search_results.png",
+      "source_sha256": "bf6138f43a2b4a1e6d47811f0d2558520da8e3d0f5808b4c6d8263d20365f430",
+      "source_bytes": 219667,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 211121,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8ec3b78c2e9c167950bd3be2e68f81033796bc81e68562ea13c4299797bc9fb1"
+    },
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp4_repo_page.png",
+      "source_sha256": "e525590d4521adc0df32c8864e69cbccdc381432ab5c18b68d6f8ba22cd01765",
+      "source_bytes": 269265,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 265905,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "13ee10144e48080851a2d76d7fb947ec7193df0760e261bf19bcb80bceb46c86"
+    },
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp5_contributors_page.png",
+      "source_sha256": "b3063587068033c674cc86d9d111ffc14e518b86dbcbacb000939400cb379e34",
+      "source_bytes": 141139,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 188195,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "233d853d73b00fd9e6b196f7305683fb0e796201461ee7db6c919afb71f2d908"
+    },
+    {
+      "path": "GitHub--30/GitHub--30_20261115_120203/final_runs/run_002/screenshots/cp6_top_five_contributors.png",
+      "source_sha256": "85e42dff12fdfa4b0defad8a8703ae0772a19093dd5f24e2a798260e39de34ff",
+      "source_bytes": 134649,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 183878,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "67622e6372a4775fdeeaada42aa17c161c3e3f33733d4ccaf2847205de868857"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1316209,
+  "response_id": "c5350ac9-80b8-4878-b89d-ba1fd3d7ed67",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2157,
+    "reasoning_content_chars": 3473
+  }
+}

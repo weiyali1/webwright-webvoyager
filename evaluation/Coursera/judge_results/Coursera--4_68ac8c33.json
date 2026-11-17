@@ -1,0 +1,181 @@
+{
+  "task_id": "Coursera--4",
+  "website": "Coursera",
+  "task": "Identify a course or Specialization on Coursera that helps business process management with with a rating 4.7.",
+  "task_record": "Coursera--4/Coursera--4_20261114_055949",
+  "task_definition_sha256": "ca7823b2b27a2fc83b45733fbe3f36a97b42ee11b398dcc9facf6cef41aa96e2",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--4/Coursera--4_20261114_055949"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Course: Business Process Modelling (by STARWEAVER) - a Coursera course for business process management with a rating of 4.7 (135 reviews). URL: https://www.coursera.org/learn/business-process-modelling",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--4/Coursera--4_20261114_055949/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "sha256": "7681673af077f1aaf70248459e050e17f3b2127818d1cd4d1730a90062ddeae1"
+    },
+    {
+      "path": "Coursera--4/Coursera--4_20261114_055949/final_runs/run_001/screenshots/final_execution_2_courses_filter.png",
+      "sha256": "2010f9df66aab63b9d9ee439948319839d3aec8dbcfef96ab2e8dc1373275134"
+    },
+    {
+      "path": "Coursera--4/Coursera--4_20261114_055949/final_runs/run_001/screenshots/final_execution_3_result_47.png",
+      "sha256": "39a3fca9f7fb15e5242485c671b1bc03a0c3b3514e508f5d9efe114682481e9c"
+    },
+    {
+      "path": "Coursera--4/Coursera--4_20261114_055949/final_runs/run_001/screenshots/final_execution_4_product_page_47.png",
+      "sha256": "70b2fc3cb41029151bcef6983d66f97768116eb77437b458b3ad56095a6ab7eb"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "d4bf7b3588c9dde69cf63445448cbe4fa42c3948405e61c952e59526180bec16",
+  "fingerprint": "5e1d417a186ff85d57caa74c715fa2e4909d75baba2b159493715391ee910dc4",
+  "evaluated_at": "2026-11-16T09:58:29.691307+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task was to identify a course or Specialization on Coursera that helps with business process management with a rating of 4.7.\n\n## Screenshot Analysis\n\n**Screenshot 1:** Shows Coursera search results for \"business process management\" with various courses displayed, including courses from STARWEAVER, SAP, University at Buffalo, SkillUp, and others with varying ratings (4.2, 4.5, 4.6, 4.8).\n\n**Screenshots 2-3:** Show the \"Learning Product\" filter dropdown opened with \"Courses\" selected, and the search results now displaying \"Business Process Modelling\" by STARWEAVER with a rating of **4.7 (135)** visible in the results grid.\n\n**Screenshot 4:** Shows the course detail page for \"Business Process Modelling\" by STARWEAVER, which confirms:\n- **Rating: 4.7** with 135 reviews ✓\n- Beginner level, 9 hours to complete\n- 14,150 already enrolled\n- Skills listed include **\"Business Process Management\"** ✓ (confirming the course helps with business process management)\n- Instructors: Igor Arkhipov +1 more\n\n## Response Verification\nThe result response states: \"Business Process Modelling (by STARWEAVER) - a Coursera course for business process management with a rating of 4.7 (135 reviews)\" with the URL.\n\nThis matches the screenshots perfectly:\n- The course name matches ✓\n- The provider (STARWEAVER) matches ✓\n- The rating of 4.7 with 135 reviews matches both the search results and the course detail page ✓\n- The course page confirms \"Business Process Management\" is among the skills gained ✓\n\n## Conclusion\nThe task was successfully completed. The agent searched for business process management courses on Coursera, filtered by courses, identified the \"Business Process Modelling\" course by STARWEAVER with exactly the required 4.7 rating, and verified it on the course detail page, which confirms the course teaches Business Process Management skills.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7323,
+    "completion_tokens": 1001,
+    "total_tokens": 8324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 554
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:58:30.177999+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Coursera--4/Coursera--4_20261114_055949/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "7681673af077f1aaf70248459e050e17f3b2127818d1cd4d1730a90062ddeae1",
+      "source_bytes": 809151,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 325928,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e6f4bdace3482a1d1be1fa2c3c1f45909068ff1891373fc358b58e9e9c60a0b2"
+    },
+    {
+      "path": "Coursera--4/Coursera--4_20261114_055949/final_runs/run_001/screenshots/final_execution_2_courses_filter.png",
+      "source_sha256": "2010f9df66aab63b9d9ee439948319839d3aec8dbcfef96ab2e8dc1373275134",
+      "source_bytes": 763090,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 318277,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8dddfbc6135a321e79c5a9e08a05483be43df9b147a8367226cb32fbcdba3249"
+    },
+    {
+      "path": "Coursera--4/Coursera--4_20261114_055949/final_runs/run_001/screenshots/final_execution_3_result_47.png",
+      "source_sha256": "39a3fca9f7fb15e5242485c671b1bc03a0c3b3514e508f5d9efe114682481e9c",
+      "source_bytes": 861455,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 320584,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "31eac0c5db43bd330ca7137afaca4934275d6d4d14b27a80a66bd0f04dfd7d5e"
+    },
+    {
+      "path": "Coursera--4/Coursera--4_20261114_055949/final_runs/run_001/screenshots/final_execution_4_product_page_47.png",
+      "source_sha256": "70b2fc3cb41029151bcef6983d66f97768116eb77437b458b3ad56095a6ab7eb",
+      "source_bytes": 172697,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 212298,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1617ee29094a94d7056dec7514f50a49bae862976b81eb99c86b0464798c5c56"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1572570,
+  "response_id": "53c440dc-9ff8-4525-8c67-cfcbfd118732",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1924,
+    "reasoning_content_chars": 2361
+  }
+}

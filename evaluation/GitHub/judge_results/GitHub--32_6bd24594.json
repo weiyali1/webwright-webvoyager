@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--32",
+  "website": "GitHub",
+  "task": "Discover the latest C# repository on GitHub related to 'game development' and having over 150 stars, and describe its main features.",
+  "task_record": "GitHub--32/GitHub--32_20261115_123839",
+  "task_definition_sha256": "aefd34c122718672a93823b4bfcb6581403114e8fbde6e89f8bf2cc2a522af35",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--32/GitHub--32_20261115_123839"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Discovered the latest C# repository on GitHub related to 'game development' with over 150 stars by searching repositories for 'game development', applying the Language filter = C#, adding the stars:>150 qualifier, and sorting by 'Recently updated'. The top (latest) result is Revolutionary-Games/Thrive (https://github.com/Revolutionary-Games/Thrive) with ~3.9k stars, written in C#. Main features: It is the main development repository for Thrive, an open-source evolution/biology simulation game. The game core is written in C# and built with the Godot engine; game assets (models and binaries) are managed with Git LFS; gameplay can be tuned via simulation_parameters (JSON files plus C# constants); it ships documentation (style guide, engine overview) and utility scripts; includes a test folder for verifying core parts; and supports community involvement through contribution guidelines, bug-report templates, forums, translation, and team applications.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_3_stars_gt150_filter.png",
+      "sha256": "e825bb0a0d8ee7558a81795ce7890561387b23f8b9ccfda6785e0fc6e5d25d35"
+    },
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_4_sort_recently_updated.png",
+      "sha256": "5b9edfba3e7684c36be137d7fdbbe16a5e1e51b1e4deae3ac59eefe767931123"
+    },
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_5_top_result.png",
+      "sha256": "5b9edfba3e7684c36be137d7fdbbe16a5e1e51b1e4deae3ac59eefe767931123"
+    },
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_6_readme.png",
+      "sha256": "b7d59b95675152cbcae6082e88455b62fefe27d0f3b8acd925c30aeaea1cebff"
+    },
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_6_repository_page.png",
+      "sha256": "5ff8bae9a07156cc866909f6f02cb60cd39106736b27bc723bcd056915a81257"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "05712932746428f31558e84d60225f32ab4d381102b456a1b124a8a694d25ea1",
+  "fingerprint": "c9fabe15f3268df9f64acada358b212df925f1c2097f304ac815cab751abf4cc",
+  "evaluated_at": "2026-11-16T10:22:16.231890+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find the latest C# repository on GitHub related to 'game development'\n2. The repository must have over 150 stars\n3. Describe its main features\n\n**Screenshot Evidence:**\n\n- **Screenshot 1:** Shows a GitHub repository search for \"game development\" with a language filter applied (search box shows \"game development lan...\" truncated, and all listed results are C# repositories — GameFramework, GameDevelopmentKit, duality, Path-Creator, Thrive, etc.), yielding 31 results. All visible repositories have well over 150 stars, consistent with a `stars:>150` qualifier being applied.\n\n- **Screenshots 2 & 3:** Show the same search re-sorted by **\"Recently updated\"**. The top result is **Revolutionary-Games/Thrive** — \"The main repository for the development of the evolution game Thrive\" — tagged with `game`, `csharp`, `simulation`, showing **C# · 3.9k stars · Updated 18 hours ago**. This satisfies all criteria: C# language ✓, game development related ✓, 3.9k stars (>150) ✓, latest/most recently updated at top ✓.\n\n- **Screenshots 4 & 5:** Show the Thrive repository README page, confirming it is \"the code repository for Thrive\" (an evolution/biology simulation game), with Build Status, Patreon, Steam/itch.io releases, Community Forums, Developer Wiki, Discord community, and the Overview section describing the repository structure (assets folder managed with **Git LFS**).\n\n**Response Consistency:**\nThe response correctly identifies Revolutionary-Games/Thrive (~3.9k stars, C#) as the top result and describes its main features: evolution simulation game built with C#/Godot, Git LFS asset management, simulation_parameters tuning, documentation, tests, and community involvement. The Git LFS/assets detail and community features (forums, translation, wiki) are directly corroborated by the README screenshots. Details not visible in the screenshots (Godot engine, simulation_parameters, test folder) are plausible README content and, per evaluation guidelines, the response content is trusted where not contradicted.\n\n**Conclusion:** The agent performed the search with appropriate filters (C# language, stars:>150), sorted by recently updated, identified the top matching repository (Thrive, 3.9k stars), opened it, and provided a feature description supported by the README. All task requirements are fulfilled.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8487,
+    "completion_tokens": 3356,
+    "total_tokens": 11843,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2829
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:22:16.716704+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_3_stars_gt150_filter.png",
+      "source_sha256": "e825bb0a0d8ee7558a81795ce7890561387b23f8b9ccfda6785e0fc6e5d25d35",
+      "source_bytes": 171390,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        937
+      ],
+      "transmitted_bytes": 203723,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d61041401ffe5fa9d620eb3857031a3596115b92cd1b5f14e2e9e738ff255bf5"
+    },
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_4_sort_recently_updated.png",
+      "source_sha256": "5b9edfba3e7684c36be137d7fdbbe16a5e1e51b1e4deae3ac59eefe767931123",
+      "source_bytes": 171507,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        937
+      ],
+      "transmitted_bytes": 201610,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6864c1b9a8eade6f69db89f711ab0502d2bbeaf224355f05577f684f07271019"
+    },
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_5_top_result.png",
+      "source_sha256": "5b9edfba3e7684c36be137d7fdbbe16a5e1e51b1e4deae3ac59eefe767931123",
+      "source_bytes": 171507,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        937
+      ],
+      "transmitted_bytes": 201610,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6864c1b9a8eade6f69db89f711ab0502d2bbeaf224355f05577f684f07271019"
+    },
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_6_readme.png",
+      "source_sha256": "b7d59b95675152cbcae6082e88455b62fefe27d0f3b8acd925c30aeaea1cebff",
+      "source_bytes": 499236,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        937
+      ],
+      "transmitted_bytes": 155171,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a8b6d2328f100203509858103b40902e38de3f596fa66d581d8b98d91cb8860c"
+    },
+    {
+      "path": "GitHub--32/GitHub--32_20261115_123839/final_runs/run_001/screenshots/final_execution_6_repository_page.png",
+      "source_sha256": "5ff8bae9a07156cc866909f6f02cb60cd39106736b27bc723bcd056915a81257",
+      "source_bytes": 494986,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        937
+      ],
+      "transmitted_bytes": 147596,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "909645a0a1dc6d32efaf18f9cc1c08336ce8d7e999bc927011d8bfe03db6bdcd"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1216923,
+  "response_id": "bca1479b-79d2-4a44-bd97-8cb24d128b73",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2392,
+    "reasoning_content_chars": 12899
+  }
+}

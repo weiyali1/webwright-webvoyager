@@ -1,0 +1,211 @@
+{
+  "task_id": "Wolfram Alpha--9",
+  "website": "Wolfram Alpha",
+  "task": "Annual energy production of Diablo Canyon 2 in 2010.",
+  "task_record": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903",
+  "task_definition_sha256": "5496b5e923792c2a5569d179d5364613b22423597f294ea64a3f51d3f391326b",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The annual energy production of Diablo Canyon 2 in 2010 was 9752 GW h/yr (gigawatt hours per year), as shown by the Wolfram Alpha Result pod for the query \"annual energy production of Diablo Canyon 2 in 2010\" (Input interpretation: Diablo Canyon-2 (nuclear reactor) | annual energy production | 2010).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_1_enter_query.png",
+      "sha256": "efa50defdb4e862eaa70a568803dc88398f8234bd4d7e1b596533c11da7fc9e7"
+    },
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_2_submit_results.png",
+      "sha256": "e420584463cf88426836ad815ce8560f9f469f8193d59c29f26d0e81ed41712e"
+    },
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_3_interpretation_pod.png",
+      "sha256": "2b65ee969e79a698ab4cf00550cd2cbe832628d3371be04194af6e1d4e35d99b"
+    },
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_4_result_pod.png",
+      "sha256": "7a72dd12992ebff3bbcfbec9d969bc4567d3baf0d15fe60be0e873d23d4683b3"
+    },
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "sha256": "6b90faf4cb4bacb214faef0fdae429af787ec535181e25d8de92cf9137d6c4ea"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "29be2eec146b2c63c00fb8a38af85ded59c028050ce67307b878ebe92c26ddb5",
+  "fingerprint": "1262f42f1834f4d98d4b657ebee42ec13f2be76ea5641ccd257b9b1852eb1e86",
+  "evaluated_at": "2026-11-16T10:00:28.336142+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task Instruction:** Find the annual energy production of Diablo Canyon 2 in 2010.\n\n**Analysis of Screenshots:**\n\n1. **Screenshot 1:** Shows the Wolfram Alpha homepage with the query \"annual energy production of Diablo Canyon 2 in 2010\" entered in the search box, ready to be submitted.\n\n2. **Screenshot 2:** Shows the results page with:\n   - **Input interpretation:** Diablo Canyon-2 (nuclear reactor) | annual energy production | 2010\n   - **Result:** 9752 GWh/yr (gigawatt hours per year)\n   - Unit conversions: 1.113 GW, 1.113×10⁹ W, 3.328×10¹³ BTU/yr, 3.799×10⁹ BTU/h\n\n3. **Screenshots 3-5:** Show the same results page with an additional History graph displaying annual energy production from 1985 to 2011 (in gigawatt hours per year), with the 2010 data point highlighted by a red vertical line.\n\n**Analysis of Result Response:**\n\nThe response states the annual energy production of Diablo Canyon 2 in 2010 was **9752 GWh/yr**, which exactly matches the Result pod shown in the screenshots. The response also correctly describes the input interpretation shown on the page.\n\n**Verification:**\n- The query was correctly formulated and executed on Wolfram Alpha ✓\n- The input interpretation correctly identified Diablo Canyon-2 as a nuclear reactor with annual energy production for 2010 ✓\n- The result (9752 GWh/yr) is clearly visible in the screenshots and matches the response ✓\n- The response is fully consistent with the visual evidence ✓\n\nThe task was to find a specific piece of information, and that information was successfully retrieved and reported accurately.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 10147,
+    "completion_tokens": 726,
+    "total_tokens": 10873,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 329
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:00:28.837216+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_1_enter_query.png",
+      "source_sha256": "efa50defdb4e862eaa70a568803dc88398f8234bd4d7e1b596533c11da7fc9e7",
+      "source_bytes": 148423,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 207884,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "52fa85fca53753e4ac9c7ba308fc167ef8a4b725d740199058d3f5b5e6ab2116"
+    },
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_2_submit_results.png",
+      "source_sha256": "e420584463cf88426836ad815ce8560f9f469f8193d59c29f26d0e81ed41712e",
+      "source_bytes": 171437,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 171097,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ef5736bafc1dbb3f03588ca2599ec9e3c836bd8076304284193683a669e38bda"
+    },
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_3_interpretation_pod.png",
+      "source_sha256": "2b65ee969e79a698ab4cf00550cd2cbe832628d3371be04194af6e1d4e35d99b",
+      "source_bytes": 203645,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 208146,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a46940ff171196dd36118506a4c07ca2de332a1fe1793be121545fdb00256ad9"
+    },
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_4_result_pod.png",
+      "source_sha256": "7a72dd12992ebff3bbcfbec9d969bc4567d3baf0d15fe60be0e873d23d4683b3",
+      "source_bytes": 203716,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 208156,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8d0e5e4a59db6a8340511b1cd10fd1fca916d4fb318e8feef2ec452c6fa5e454"
+    },
+    {
+      "path": "Wolfram Alpha--9/Wolfram Alpha--9_20261114_015903/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "6b90faf4cb4bacb214faef0fdae429af787ec535181e25d8de92cf9137d6c4ea",
+      "source_bytes": 210073,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1273,
+        1447
+      ],
+      "transmitted_dimensions": [
+        1126,
+        1280
+      ],
+      "transmitted_bytes": 200013,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "03f00f4bd3d26dc86602638fdd44878de79b0fcc63ebf593e140fe239f318844"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1330298,
+  "response_id": "5e8b28ff-e543-48b2-9d29-79024245c045",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1616,
+    "reasoning_content_chars": 1238
+  }
+}

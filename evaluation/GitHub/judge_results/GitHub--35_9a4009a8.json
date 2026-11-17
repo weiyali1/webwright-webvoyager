@@ -1,0 +1,151 @@
+{
+  "task_id": "GitHub--35",
+  "website": "GitHub",
+  "task": "Check the latest release version of React and the date it was published on GitHub.",
+  "task_record": "GitHub--35/GitHub--35_20261115_135727",
+  "task_definition_sha256": "fbe7877909584d0ab0ff564f305202b013ebe7d481cfb7a4b064ecd837875da9",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--35/GitHub--35_20261115_135727"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The latest release of React on GitHub is version 19.3.1, published on October 14th, 2026 (2026-10-14T17:06:15Z).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--35/GitHub--35_20261115_135727/final_runs/run_002/screenshots/final_execution_1_react_repo.png",
+      "sha256": "a1d4c2c59aa09568fa1b839aeb5ee5c7897ddf117139dce486d4d023e8a2eae9"
+    },
+    {
+      "path": "GitHub--35/GitHub--35_20261115_135727/final_runs/run_002/screenshots/final_execution_2_releases_page.png",
+      "sha256": "251484e8592ef7d04bf667ad7c21fd581b5d598b82f08bd6b059fbcc82502f5c"
+    },
+    {
+      "path": "GitHub--35/GitHub--35_20261115_135727/final_runs/run_002/screenshots/final_execution_3_latest_release.png",
+      "sha256": "251484e8592ef7d04bf667ad7c21fd581b5d598b82f08bd6b059fbcc82502f5c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "b09c8006156e30a8ed6f87244139eef18633f7268ae9721f1d0911be8649a4e5",
+  "fingerprint": "a373c638e5211852af4cf4bf7c8f92fbcf369e3cd9dad3408699799e3156002a",
+  "evaluated_at": "2026-11-16T10:31:34.579227+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task Instruction:** Check the latest release version of React and the date it was published on GitHub.\n\n**Analysis of Screenshots:**\n\n1. **Screenshot 1 (React repository main page):** The right sidebar shows the \"Releases\" section with \"137\" releases, and the latest release is clearly displayed as **\"19.3.1 (October 14th, 2026)\"** with a green \"Latest\" badge. This directly confirms both the version number and the publication date.\n\n2. **Screenshot 2 & 3 (Releases page):** The GitHub Releases page shows the top entry as **\"19.3.1 (October 14th, 2026)\"** marked with the \"Latest\" tag, released by eps1lon with tag v19.3.1. The sidebar navigation also lists \"19.3.1 (October 14th, 2026)\" as the most recent release, followed by older versions (19.2.9, 19.1.10, etc.).\n\n**Analysis of Result Response:**\n\nThe response states: \"The latest release of React on GitHub is version 19.3.1, published on October 14th, 2026 (2026-10-14T17:06:15Z).\"\n\n- **Version 19.3.1** — matches the \"Latest\" tagged release shown in both screenshots. ✓\n- **October 14th, 2026** — matches the release title shown in the screenshots (\"19.3.1 (October 14th, 2026)\"). ✓\n- The precise timestamp (2026-10-14T17:06:15Z) is not visible in the screenshots, but per evaluation guidelines, content in the response not shown on the screenshot can be believed, and it is consistent with the date shown.\n\nBoth components of the task (identifying the latest release version AND its publication date) were completed, and the information in the response is consistent with the visual evidence from the GitHub Releases page.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 5600,
+    "completion_tokens": 910,
+    "total_tokens": 6510,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 478
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:31:34.901398+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "GitHub--35/GitHub--35_20261115_135727/final_runs/run_002/screenshots/final_execution_1_react_repo.png",
+      "source_sha256": "a1d4c2c59aa09568fa1b839aeb5ee5c7897ddf117139dce486d4d023e8a2eae9",
+      "source_bytes": 295586,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 272491,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "dd3e7771b79c4b92e05edcd2eb718057283c41f2da68bf81be09b5a9d65bb55d"
+    },
+    {
+      "path": "GitHub--35/GitHub--35_20261115_135727/final_runs/run_002/screenshots/final_execution_2_releases_page.png",
+      "source_sha256": "251484e8592ef7d04bf667ad7c21fd581b5d598b82f08bd6b059fbcc82502f5c",
+      "source_bytes": 164543,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 156743,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "618355991c2aa7cbbc8e5fb0ed4ee7ff7f2e2c247d8a1e2cd2ec133616bb62c9"
+    },
+    {
+      "path": "GitHub--35/GitHub--35_20261115_135727/final_runs/run_002/screenshots/final_execution_3_latest_release.png",
+      "source_sha256": "251484e8592ef7d04bf667ad7c21fd581b5d598b82f08bd6b059fbcc82502f5c",
+      "source_bytes": 164543,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 156743,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "618355991c2aa7cbbc8e5fb0ed4ee7ff7f2e2c247d8a1e2cd2ec133616bb62c9"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 784233,
+  "response_id": "fe47d963-aae1-464c-b1f6-5ec219c33b3e",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1623,
+    "reasoning_content_chars": 1720
+  }
+}

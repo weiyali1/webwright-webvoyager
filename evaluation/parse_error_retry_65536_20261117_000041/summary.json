@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-16T17:04:49.778144+00:00",
+  "purpose": "pilot",
+  "model_name": "glm-5.3-flash",
+  "prompt_source": "https://github.com/MinorJerry/WebVoyager/blob/main/evaluation/auto_eval.py",
+  "prompt_variant": "standard",
+  "answer_source": "answer.txt only",
+  "answer_policy": "Use only the selected run's answer.txt. If answer.txt is absent or empty, the task is missing an answer. Never read final_response.txt, final_script_log.txt, evidence files, or older runs.",
+  "official_acceptance_claimed": false,
+  "selection_policy": "Newest timestamped task record; highest run_NNN within that record; no success-based selection or fallback.",
+  "response_models": [
+    "glm-5.3-flash"
+  ],
+  "total_tasks": 2,
+  "success": 1,
+  "failure": 0,
+  "missing_evidence": 0,
+  "api_error": 1,
+  "parse_error": 0,
+  "evaluation_error": 0,
+  "pending": 0,
+  "unresolved": 1,
+  "complete": false,
+  "acceptance_rate_percent": null,
+  "provisional_success_over_all_tasks_percent": 50.0,
+  "denominator_policy": "All selected unique tasks; missing evidence counts as unsuccessful; API/parse errors remain unresolved.",
+  "usage": {
+    "prompt_tokens": 8981,
+    "completion_tokens": 13029,
+    "total_tokens": 22010
+  },
+  "websites": {
+    "ArXiv": {
+      "website": "ArXiv",
+      "answer_source": "answer.txt only",
+      "prompt_variant": "standard",
+      "total_tasks": 1,
+      "success": 1,
+      "failure": 0,
+      "missing_evidence": 0,
+      "api_error": 0,
+      "parse_error": 0,
+      "evaluation_error": 0,
+      "pending": 0,
+      "unresolved": 0,
+      "complete": true,
+      "acceptance_rate_percent": 100.0,
+      "provisional_success_over_all_tasks_percent": 100.0,
+      "denominator_policy": "All selected unique tasks; missing evidence counts as unsuccessful; API/parse errors remain unresolved.",
+      "usage": {
+        "prompt_tokens": 8981,
+        "completion_tokens": 13029,
+        "total_tokens": 22010
+      },
+      "files": "websites/ArXiv_fe8ce441"
+    },
+    "Wolfram Alpha": {
+      "website": "Wolfram Alpha",
+      "answer_source": "answer.txt only",
+      "prompt_variant": "standard",
+      "total_tasks": 1,
+      "success": 0,
+      "failure": 0,
+      "missing_evidence": 0,
+      "api_error": 1,
+      "parse_error": 0,
+      "evaluation_error": 0,
+      "pending": 0,
+      "unresolved": 1,
+      "complete": false,
+      "acceptance_rate_percent": null,
+      "provisional_success_over_all_tasks_percent": 0.0,
+      "denominator_policy": "All selected unique tasks; missing evidence counts as unsuccessful; API/parse errors remain unresolved.",
+      "usage": {},
+      "files": "websites/Wolfram_Alpha_460a9cc4"
+    }
+  },
+  "image_transport": {
+    "format": "jpeg",
+    "quality": 85,
+    "subsampling": 0,
+    "resize": true,
+    "crop": false,
+    "alpha_background": "white",
+    "pillow_version": "13.0.0",
+    "max_size": "1280x1280"
+  },
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--31",
+  "website": "Coursera",
+  "task": "Search for the course 'Exploring Quantum Physics' on Coursera, offered by the University of Maryland, College Park. Identify the percentage (rounded) of 5-star ratings in the reviews.",
+  "task_record": "Coursera--31/Coursera--31_20261115_063450",
+  "task_definition_sha256": "4d8a2feaada43e489588ff4e450c33f9710f153fb821b3298df98cf44b9e6c43",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--31/Coursera--31_20261115_063450"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The percentage of 5-star ratings for 'Exploring Quantum Physics' (University of Maryland, College Park) on Coursera is 61% (shown as 61.33% in the course reviews section).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_1_start_page_search.png",
+      "sha256": "e3e7131f8cad3c5cb860482119ec47f5b1e3cb544d1b82f201ab9583fb4285ed"
+    },
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_2_search_results.png",
+      "sha256": "daea4507e35e566b29f993a70fef817ac8ef35ec8d9301c86de469da544d46a0"
+    },
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_3_course_page.png",
+      "sha256": "8c69bc0329296787d65d4032b721a76eb4a9d4b187d4dd950f62ac4ddb28598b"
+    },
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_4_reviews_section.png",
+      "sha256": "5b159513b1a8c6a9c77f96208881ce7022927793cd6b894324b66986a7c6b5a6"
+    },
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_5_five_star_percentage.png",
+      "sha256": "5b159513b1a8c6a9c77f96208881ce7022927793cd6b894324b66986a7c6b5a6"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "84731128af7a133607a4e443f29e6aa2aaa42d30b341bd2851fdfe6a0921b7a9",
+  "fingerprint": "976c328707aba8e7c89ca717519dc2d10734132d281a91d730066849bd6c4593",
+  "evaluated_at": "2026-11-16T10:09:10.099695+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Search for the course 'Exploring Quantum Physics' on Coursera\n2. Verify it's offered by the University of Maryland, College Park\n3. Identify the percentage (rounded) of 5-star ratings in the reviews\n\n## Screenshot Verification:\n\n**Screenshot 1:** Shows the Coursera homepage, indicating the starting point of the task.\n\n**Screenshot 2:** Shows search results for \"Exploring Quantum Physics\" on Coursera. The first result is \"Exploring Quantum Physics\" offered by **University of Maryland, College Park** with a 4.2 rating (74 reviews). This confirms the correct course was found.\n\n**Screenshot 3:** Shows the course page for \"Exploring Quantum Physics\" with 4.2 stars, 74 reviews, confirming navigation to the correct course page.\n\n**Screenshots 4 & 5:** Show the reviews/testimonials section with the rating distribution breakdown:\n- **5 stars: 61.33%**\n- 4 stars: 22.66%\n- 3 stars: 2.66%\n- 2 stars: 4%\n- 1 star: 9.33%\n\n## Response Verification:\nThe result response states: \"The percentage of 5-star ratings for 'Exploring Quantum Physics' (University of Maryland, College Park) on Coursera is 61% (shown as 61.33% in the course reviews section).\"\n\n- The screenshot shows 61.33% for 5-star ratings ✓\n- Rounded to the nearest whole percentage: 61.33% → 61% ✓\n- The response correctly identifies the course and university ✓\n\n## Conclusion:\nAll task requirements were fulfilled:\n1. ✅ The course was successfully searched and located on Coursera\n2. ✅ The course is confirmed to be offered by University of Maryland, College Park\n3. ✅ The 5-star rating percentage was identified (61.33%) and correctly rounded to 61%\n\nThe response is consistent with the visual evidence in the screenshots.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9035,
+    "completion_tokens": 816,
+    "total_tokens": 9851,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 380
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:09:10.613659+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_1_start_page_search.png",
+      "source_sha256": "e3e7131f8cad3c5cb860482119ec47f5b1e3cb544d1b82f201ab9583fb4285ed",
+      "source_bytes": 271196,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 198507,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d13634e207828011dda57091164a00d382a845e60bf572435022d186f82f072e"
+    },
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_2_search_results.png",
+      "source_sha256": "daea4507e35e566b29f993a70fef817ac8ef35ec8d9301c86de469da544d46a0",
+      "source_bytes": 932753,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 338413,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "044ce7f0efdaf8ca91e5b4cbf0ecdcb5e91e81b6b0df530973b31251271706f8"
+    },
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_3_course_page.png",
+      "source_sha256": "8c69bc0329296787d65d4032b721a76eb4a9d4b187d4dd950f62ac4ddb28598b",
+      "source_bytes": 172853,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 210702,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "057fcce5cedd41b5da18fa30310643e3eeac3b0d23e3c29a0b2319f33f4b9854"
+    },
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_4_reviews_section.png",
+      "source_sha256": "5b159513b1a8c6a9c77f96208881ce7022927793cd6b894324b66986a7c6b5a6",
+      "source_bytes": 162030,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 199370,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2a74095a4c0fa44ca45dcb29f912723d794b761840dd3039ed6323e6926abd4b"
+    },
+    {
+      "path": "Coursera--31/Coursera--31_20261115_063450/final_runs/run_001/screenshots/final_execution_5_five_star_percentage.png",
+      "source_sha256": "5b159513b1a8c6a9c77f96208881ce7022927793cd6b894324b66986a7c6b5a6",
+      "source_bytes": 162030,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 199370,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2a74095a4c0fa44ca45dcb29f912723d794b761840dd3039ed6323e6926abd4b"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1531717,
+  "response_id": "54854e3c-6415-4330-b402-af620954c1cb",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1758,
+    "reasoning_content_chars": 1389
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Huggingface--11",
+  "website": "Huggingface",
+  "task": "Identify the latest updated image to video model available on Huggingface and summarize its main features.",
+  "task_record": "Huggingface--11/Huggingface--11_20261115_055403",
+  "task_definition_sha256": "138275e805691186f783f00ed4e29d20413a6bc5d743cf72f0a8ff99949949ab",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Huggingface--11/Huggingface--11_20261115_055403"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The latest updated image-to-video model on Hugging Face is lucidml/gta (updated 8 minutes ago at run time). Main features: GTA world model with weights and inference code; an interactive world model where you provide one start image and hold keys, and it generates the following video frame-by-frame, streaming it to a browser while you play; uses the custom Summaryformer architecture; tags include Image-to-Video, world-model, interactive, real-time, autoregressive, video-generation; license apache-2.0.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_1_models_page.png",
+      "sha256": "2243dd919831a900d824fb8fcb11133f83938267d84bfc48ccca6a1372e47a13"
+    },
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_2_i2v_filter.png",
+      "sha256": "02c2cd2d232dd5b8c27799b089b49e38a9fcd590f981ebf477f19b217d1dde1a"
+    },
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_3_recently_updated_sort.png",
+      "sha256": "5bb16a76bd349bb42de8f5a61a8d18b82c02561fc26e130936d6fb49dc32a383"
+    },
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_4_top_result.png",
+      "sha256": "5bb16a76bd349bb42de8f5a61a8d18b82c02561fc26e130936d6fb49dc32a383"
+    },
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_5_model_page.png",
+      "sha256": "fbf0be8c6176d6eba0dbe43eff83be3cf830fb5480e006292d169fda3e258654"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "6067f8b5ee8cf6462e061923a93de60a7df364b0739fe5e9ea089a93d8cfcb04",
+  "fingerprint": "adc1e504a38607eb9a18bc69e4afa39a34e0b1c8e95d0e06e88d93896bfcbeb8",
+  "evaluated_at": "2026-11-16T10:06:16.780975+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Identify the latest updated image-to-video model on Huggingface\n2. Summarize its main features\n\n**Step-by-step verification against screenshots:**\n\n**Screenshot 1:** The Huggingface Models page is loaded, initially showing trending models with the filter/sort controls visible.\n\n**Screenshot 2:** The Tasks filter panel is opened, and the \"Image-to-Video\" task is selected (highlighted), which is the correct filter for finding image-to-video models.\n\n**Screenshots 3 & 4:** After applying the Image-to-Video filter and changing the sort to \"Recently updated\" (visible in the top-right sort button), the results show 1,979 models with **lucidml/gta** at the top, listed as \"Image-to-Video · Updated 8 minutes ago\" — making it the most recently updated image-to-video model. This matches the response's claim.\n\n**Screenshot 5:** The model page for lucidml/gta is opened, showing:\n- Tags: Image-to-Video, world-model, interactive, real-time, autoregressive, video-generation ✓\n- License: apache-2.0 ✓\n- Model card title: \"GTA world model: weights and inference code\" ✓\n- Architecture: **Summaryformer** (\"A world model that writes its own memory\") ✓\n- Description: \"An interactive world model. You give it one start image, then hold keys; it generates the video that follows, one frame at a time, and streams it to a browser while you play.\" ✓\n- The repository holds weights and complete inference runtime (model, memory, sampler, streaming server) ✓\n\n**Response accuracy check:**\n- The identified model (lucidml/gta, updated 8 minutes ago) matches the screenshot exactly.\n- All summarized features (interactive world model, frame-by-frame generation with key input, browser streaming, Summaryformer architecture, tags, license) are directly verifiable in the model card screenshot.\n- The response provides a coherent summary of the main features as required.\n\nBoth parts of the task — identifying the latest updated image-to-video model and summarizing its main features — were completed correctly, with the workflow properly demonstrated through filtering by task, sorting by recent updates, and visiting the model page.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 10228,
+    "completion_tokens": 1422,
+    "total_tokens": 11650,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 936
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:06:17.390789+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_1_models_page.png",
+      "source_sha256": "2243dd919831a900d824fb8fcb11133f83938267d84bfc48ccca6a1372e47a13",
+      "source_bytes": 468197,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 229292,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "bebcd99280569cc2dbcbbad60a306722c5ef8d458d3b9e0622d9606ea3f51547"
+    },
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_2_i2v_filter.png",
+      "source_sha256": "02c2cd2d232dd5b8c27799b089b49e38a9fcd590f981ebf477f19b217d1dde1a",
+      "source_bytes": 557360,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 241822,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "70a77104f939c7a014e027cf7bf3d92086493c07c646e43c21d467991029bdbc"
+    },
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_3_recently_updated_sort.png",
+      "source_sha256": "5bb16a76bd349bb42de8f5a61a8d18b82c02561fc26e130936d6fb49dc32a383",
+      "source_bytes": 566203,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 249056,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5f646fc189efad98d665f8fb0d1c0c629243c4e7317b48c57d8e3eceb879a4e8"
+    },
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_4_top_result.png",
+      "source_sha256": "5bb16a76bd349bb42de8f5a61a8d18b82c02561fc26e130936d6fb49dc32a383",
+      "source_bytes": 566203,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 249056,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5f646fc189efad98d665f8fb0d1c0c629243c4e7317b48c57d8e3eceb879a4e8"
+    },
+    {
+      "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_5_model_page.png",
+      "source_sha256": "fbf0be8c6176d6eba0dbe43eff83be3cf830fb5480e006292d169fda3e258654",
+      "source_bytes": 187695,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 223486,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6831e38d74581395e4a36a9c580c9141bfead97bf48030746f0e3f7968db9c63"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1593779,
+  "response_id": "cb6232bc-82a0-45be-87f8-f6314cf6bff2",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2192,
+    "reasoning_content_chars": 4030
+  }
+}

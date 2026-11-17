@@ -1,0 +1,181 @@
+{
+  "task_id": "Google Map--14",
+  "website": "Google Map",
+  "task": "Find motorcycle parking near Radio City Music Hall.",
+  "task_record": "Google Map--14/Google Map--14_20261114_080537",
+  "task_definition_sha256": "7e585d9adb66fdfe22809bddea210490f3313fdbcf55c8d535b7df60772be724",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--14/Google Map--14_20261114_080537"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Motorcycle parking options found near Radio City Music Hall (New York) on Google Maps: NYC Parking at CBS Building@ 31 W 52nd St; Metropolis; Icon Parking; Quik Park Gem Garage LLC; The 1345 Garage; 無線電城音樂廳; 55 W 52nd St Parking; Parking Garage",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--14/Google Map--14_20261114_080537/final_runs/run_003/screenshots/final_execution_1_enter_query.png",
+      "sha256": "7a463127dccc62a1e4c37a8a5e3beeb0de86b68c0c3ca18d27e0a2dccc6c13ec"
+    },
+    {
+      "path": "Google Map--14/Google Map--14_20261114_080537/final_runs/run_003/screenshots/final_execution_2_results_loaded.png",
+      "sha256": "e5a166ba535eef869875cfd2cd9bc14e3fc40ead74e63dbf2c0bb2b826a8f872"
+    },
+    {
+      "path": "Google Map--14/Google Map--14_20261114_080537/final_runs/run_003/screenshots/final_execution_3_verify_results.png",
+      "sha256": "5a1d166d08c2c6f0c7f80a7d4e7f779ced6e2caa148ea068e1fb62c6ec69281d"
+    },
+    {
+      "path": "Google Map--14/Google Map--14_20261114_080537/final_runs/run_003/screenshots/final_execution_4_final_results.png",
+      "sha256": "5a1d166d08c2c6f0c7f80a7d4e7f779ced6e2caa148ea068e1fb62c6ec69281d"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "67f810c661e2e25c83b6d0b4453449333776887c87e659ed0800317bfa547eb4",
+  "fingerprint": "53475d7b43b8c4dc3157b783148cdd1c0db608fe01401eab4e8f692135c16da7",
+  "evaluated_at": "2026-11-16T10:04:25.026277+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Instruction\nFind motorcycle parking near Radio City Music Hall.\n\n## Screenshot Analysis\n\n**Screenshot 1 (Intermediate state):** Shows Google Maps with \"near Radio City Music Hall, New York\" typed in the search box, but the map view is displaying Hong Kong/Shenzhen area — this appears to be an intermediate state before the search was properly executed.\n\n**Screenshots 2-4 (Final results):** Show Google Maps with the search query \"motorcycle parking near Radio City\" executed. The results panel displays multiple parking options near Radio City Music Hall in Manhattan, New York:\n- NYC Parking at CBS Building @ 31 W 52nd St (3.6★, 41 reviews)\n- Metropolis (2.4★, 31 W 62nd St)\n- Icon Parking (2.5★, 57-59 W 53rd St)\n- Quik Park Gem Garage LLC (2.8★, 65 W 46th St)\n- The 1345 Garage (2.3★, 155 6th Ave)\n- 55 W 52nd St Parking (1.7★)\n- Parking Garage (51 W 51st St)\n- Spplus Parking CBS Building, New York Parking 56th Street Corp, 51 W 56th St, 38 W 46th St Garage\n\nThe map correctly displays Manhattan with red parking (P) markers clustered around Radio City Music Hall (無線電城音樂廳, visible at 1260 6th Ave with 4.8★ and 27,090 reviews).\n\n## Response Analysis\nThe response lists parking options that match the screenshot content: NYC Parking at CBS Building, Metropolis, Icon Parking, Quik Park Gem Garage LLC, The 1345 Garage, 55 W 52nd St Parking, and Parking Garage. \n\n**Minor discrepancy:** The response includes \"無線電城音樂廳\" (which is Radio City Music Hall itself, not a parking facility) in the list — this is a small error, but it doesn't negate the core accomplishment of the task.\n\n## Verdict\nThe core task — finding motorcycle parking near Radio City Music Hall — was successfully completed. The search was executed on Google Maps, results were displayed on the correct map area (Manhattan near Radio City Music Hall), and the response accurately summarizes the parking options found.\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6596,
+    "completion_tokens": 1306,
+    "total_tokens": 7902,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 797
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:25.572170+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Google Map--14/Google Map--14_20261114_080537/final_runs/run_003/screenshots/final_execution_1_enter_query.png",
+      "source_sha256": "7a463127dccc62a1e4c37a8a5e3beeb0de86b68c0c3ca18d27e0a2dccc6c13ec",
+      "source_bytes": 884965,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 250315,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0cc768beb5ed99d5d59e8c3c909558eb7a709897c7e7803fccb7c31cae4ab329"
+    },
+    {
+      "path": "Google Map--14/Google Map--14_20261114_080537/final_runs/run_003/screenshots/final_execution_2_results_loaded.png",
+      "source_sha256": "e5a166ba535eef869875cfd2cd9bc14e3fc40ead74e63dbf2c0bb2b826a8f872",
+      "source_bytes": 1582347,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 386264,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "de1fc1efd8612d1d5de5dcadaa82cd9b05f4856352f9f278da27944e0ed5e367"
+    },
+    {
+      "path": "Google Map--14/Google Map--14_20261114_080537/final_runs/run_003/screenshots/final_execution_3_verify_results.png",
+      "source_sha256": "5a1d166d08c2c6f0c7f80a7d4e7f779ced6e2caa148ea068e1fb62c6ec69281d",
+      "source_bytes": 1582389,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 386319,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0b35611e8f9fc5972bf96bc61728b716ddc81d620f9716cdd9676421b9ef54eb"
+    },
+    {
+      "path": "Google Map--14/Google Map--14_20261114_080537/final_runs/run_003/screenshots/final_execution_4_final_results.png",
+      "source_sha256": "5a1d166d08c2c6f0c7f80a7d4e7f779ced6e2caa148ea068e1fb62c6ec69281d",
+      "source_bytes": 1582389,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 386319,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0b35611e8f9fc5972bf96bc61728b716ddc81d620f9716cdd9676421b9ef54eb"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1882088,
+  "response_id": "6eefcab3-ad0a-47de-8c5a-51687cecdf53",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1934,
+    "reasoning_content_chars": 3049
+  }
+}

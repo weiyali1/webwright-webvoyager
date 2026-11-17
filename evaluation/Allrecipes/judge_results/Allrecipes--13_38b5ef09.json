@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--13",
+  "website": "Allrecipes",
+  "task": "Find a recipe with over 100 reviews for Fried Fish on Allrecipes, list the Full Nutrition Label and tell me the amount of Iron per Serving.",
+  "task_record": "Allrecipes--13/Allrecipes--13_20261113_041034",
+  "task_definition_sha256": "7f644979f3766a45cf7c0fb348df4304ce0b4acce5a45c5c1a0ac181181ae9ea",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--13/Allrecipes--13_20261113_041034"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found the recipe 'Crispy Fried Fish' on Allrecipes (https://www.allrecipes.com/recipe/42814/crispy-fried-fish/) with 152 ratings / 105 reviews (over 100). The Full Nutrition Label (per serving) shows: 634 Calories, 24g Total Fat (31% DV), 3g Saturated Fat (17% DV), 95mg Cholesterol (32% DV), 833mg Sodium (36% DV), 69g Total Carbohydrate (25% DV), 1g Dietary Fiber (5% DV), 5g Total Sugars, 29g Protein (57% DV), 10mg Vitamin C (11% DV), 35mg Calcium (3% DV), 15mg Iron (83% DV), 563mg Potassium (12% DV), based on 4 servings per recipe. Iron per Serving: 15mg (83% Daily Value).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_1_fried_fish_search_results.png",
+      "sha256": "06c3a749fd9af379c3c502b1e8d3f8120e25e0e6668d1b4391f7f50fd3c8c6be"
+    },
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_2_selected_recipe_over_100_reviews.png",
+      "sha256": "06c3a749fd9af379c3c502b1e8d3f8120e25e0e6668d1b4391f7f50fd3c8c6be"
+    },
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_3_recipe_page_title_reviews.png",
+      "sha256": "00cf57d3e227942362855a4db9780afee165e2a67276c03fef203b36306700bf"
+    },
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_4_full_nutrition_label.png",
+      "sha256": "212eaf939facb04f0f3b95fdfdfb93add9a3798448475dd79d86bb347c8e4a0d"
+    },
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_5_iron_per_serving.png",
+      "sha256": "0bf583a35ae7ad25cedda8f1fcf51eb3cb2db4d0bdbfdf20280f7de2ce53e123"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e3fb007a23cff539b02d7d2b9b31a0071f91987d7437e3ad484b3adac288f84e",
+  "fingerprint": "eb67a0cccdccbc37d94a524c8c5d2e83fd71468d52d005d2731696eda7c4d431",
+  "evaluated_at": "2026-11-16T10:02:51.536736+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a Fried Fish recipe on Allrecipes with over 100 reviews\n2. List the Full Nutrition Label\n3. Report the amount of Iron per Serving\n\n**Verification against screenshots:**\n\n1. **Recipe with over 100 reviews:** The search results (screenshots 1-2) show \"Crispy Fried Fish\" with 152 Ratings. The recipe page (screenshot 3) confirms \"Crispy Fried Fish\" with 4.5 stars (152) and **105 Reviews**, which satisfies the \"over 100 reviews\" requirement. ✓\n\n2. **Full Nutrition Label:** Screenshots 4-5 show the expanded Full Nutrition Label on the recipe page with \"Servings Per Recipe: 4\" and \"Calories: 634\". The values listed in the response match the screenshot exactly:\n   - Total Carbohydrate: 69g (25%) ✓\n   - Dietary Fiber: 1g (5%) ✓\n   - Total Sugars: 5g ✓\n   - Protein: 29g (57%) ✓\n   - Total Fat: 24g (31%) ✓\n   - Saturated Fat: 3g (17%) ✓\n   - Cholesterol: 95mg (32%) ✓\n   - Vitamin C: 10mg (11%) ✓\n   - Sodium: 833mg (36%) ✓\n   - Calcium: 35mg (3%) ✓\n   - Iron: 15mg (83%) ✓\n   - Potassium: 563mg (12%) ✓\n\n3. **Iron per Serving:** The screenshot clearly shows \"Iron: 15mg 83%\" in the nutrition label, and the response correctly states \"Iron per Serving: 15mg (83% Daily Value)\". ✓\n\nAll three components of the task were completed: the recipe found meets the review threshold, the Full Nutrition Label was accurately listed matching the screenshot, and the Iron amount per serving was correctly identified as 15mg.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8722,
+    "completion_tokens": 1121,
+    "total_tokens": 9843,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 689
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:02:52.050874+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_1_fried_fish_search_results.png",
+      "source_sha256": "06c3a749fd9af379c3c502b1e8d3f8120e25e0e6668d1b4391f7f50fd3c8c6be",
+      "source_bytes": 1230323,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1700
+      ],
+      "transmitted_dimensions": [
+        964,
+        1280
+      ],
+      "transmitted_bytes": 267532,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "39a99ebb5fea47f4b132436ac4f5c1b875d10df9f15e37b5bd440e155a14d126"
+    },
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_2_selected_recipe_over_100_reviews.png",
+      "source_sha256": "06c3a749fd9af379c3c502b1e8d3f8120e25e0e6668d1b4391f7f50fd3c8c6be",
+      "source_bytes": 1230323,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1700
+      ],
+      "transmitted_dimensions": [
+        964,
+        1280
+      ],
+      "transmitted_bytes": 267532,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "39a99ebb5fea47f4b132436ac4f5c1b875d10df9f15e37b5bd440e155a14d126"
+    },
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_3_recipe_page_title_reviews.png",
+      "source_sha256": "00cf57d3e227942362855a4db9780afee165e2a67276c03fef203b36306700bf",
+      "source_bytes": 906144,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1700
+      ],
+      "transmitted_dimensions": [
+        964,
+        1280
+      ],
+      "transmitted_bytes": 223041,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4a8f37834ae28d4db9697bcee9c3f26101dc7a7e2cf0881a0706d44868f58c74"
+    },
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_4_full_nutrition_label.png",
+      "source_sha256": "212eaf939facb04f0f3b95fdfdfb93add9a3798448475dd79d86bb347c8e4a0d",
+      "source_bytes": 759383,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1700
+      ],
+      "transmitted_dimensions": [
+        964,
+        1280
+      ],
+      "transmitted_bytes": 244287,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "09135df7e5acb991a1a3b60bbb6f2792d40d947db995a4f1d289894e81e91d89"
+    },
+    {
+      "path": "Allrecipes--13/Allrecipes--13_20261113_041034/final_runs/run_001/screenshots/final_execution_5_iron_per_serving.png",
+      "source_sha256": "0bf583a35ae7ad25cedda8f1fcf51eb3cb2db4d0bdbfdf20280f7de2ce53e123",
+      "source_bytes": 766003,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1700
+      ],
+      "transmitted_dimensions": [
+        964,
+        1280
+      ],
+      "transmitted_bytes": 250968,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8d77445472236616984faf936487ee856c1b8dffd65c356f7d60c5bd17021286"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1674746,
+  "response_id": "2161b9fd-bd87-483c-bbe1-539c3a42ce6e",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1493,
+    "reasoning_content_chars": 2315
+  }
+}

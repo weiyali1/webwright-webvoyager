@@ -1,0 +1,181 @@
+{
+  "task_id": "Google Search--20",
+  "website": "Google Search",
+  "task": "Find the release date for the latest \"Fast & Furious\" movie.",
+  "task_record": "Google Search--20/Google Search--20_20261116_020210",
+  "task_definition_sha256": "74947defe34868ee564138cafd2f739f6a3af633cdbf1823f0adbbf1365812b9",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Search--20/Google Search--20_20261116_020210"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The latest Fast & Furious movie is Fast Forever (Fast & Furious 11), and its release date is March 17, 2028.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Search--20/Google Search--20_20261116_020210/final_runs/run_001/screenshots/final_execution_1_enter_query.png",
+      "sha256": "c70a81b9fc9be05491cba466daae3a87069e4fe339e2f7adc441a819d193e665"
+    },
+    {
+      "path": "Google Search--20/Google Search--20_20261116_020210/final_runs/run_001/screenshots/final_execution_2_results_page.png",
+      "sha256": "f421e6f8ccd440ce994dc546a5143673cc3fef4d4f3245f035e7bd521e8bedac"
+    },
+    {
+      "path": "Google Search--20/Google Search--20_20261116_020210/final_runs/run_001/screenshots/final_execution_3_release_date_visible.png",
+      "sha256": "f421e6f8ccd440ce994dc546a5143673cc3fef4d4f3245f035e7bd521e8bedac"
+    },
+    {
+      "path": "Google Search--20/Google Search--20_20261116_020210/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+      "sha256": "f421e6f8ccd440ce994dc546a5143673cc3fef4d4f3245f035e7bd521e8bedac"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "83eafe77a0dfc859536ef7f91adac728ec2834fe04d20b847833d2e1d62dca34",
+  "fingerprint": "2c8068625e49de0d819ef7b2ac05fb477e647cb1d2592fde00e440ee2274c23f",
+  "evaluated_at": "2026-11-16T10:08:36.323441+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task:** Find the release date for the latest \"Fast & Furious\" movie.\n\n**Screenshot Evidence:**\n1. **Screenshot 1:** Shows the Google homepage with the search query \"latest Fast & Furious movie release date\" entered into the search bar, indicating the search was initiated correctly.\n2. **Screenshots 2-4:** Show the Google search results page with an AI Overview summary that clearly states: \"The final *Fast & Furious* movie, titled *Fast Forever* (also known as *Fast & Furious 11*), is scheduled to hit theaters on **March 17, 2028**.\" The key details section explicitly lists:\n   - Title: Fast Forever\n   - Release Date: March 17, 2028\n   - Director: Louis Leterrier\n   \n   Supporting results (Reddit, GQ) also reference \"'Fast Forever' Announced for March 17, 2028,\" and YouTube results confirm \"Fast Forever\" is the official title for Fast & Furious 11, set to release on March 17, 2028.\n\n**Result Response:** \"The latest Fast & Furious movie is Fast Forever (Fast & Furious 11), and its release date is March 17, 2028.\"\n\n**Assessment:**\n- The search was properly executed with a relevant query.\n- The screenshot's AI summary directly supports the answer provided in the response — the movie title (Fast Forever / Fast & Furious 11) and the release date (March 17, 2028) match exactly.\n- While one IMDb result mentions \"April 2027,\" the dominant and most prominent information across the AI summary, Reddit, GQ, and YouTube results consistently confirms March 17, 2028, and the response aligns with the screenshot content.\n- The task was singular (find the release date), and it was fully accomplished with the correct information reported.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6554,
+    "completion_tokens": 874,
+    "total_tokens": 7428,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 474
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:36.781305+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Google Search--20/Google Search--20_20261116_020210/final_runs/run_001/screenshots/final_execution_1_enter_query.png",
+      "source_sha256": "c70a81b9fc9be05491cba466daae3a87069e4fe339e2f7adc441a819d193e665",
+      "source_bytes": 48249,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 50828,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3c5f020aff37b50bbca83beb8d262663bc2bf00dbf2dcbcc9991e4a0b5b48909"
+    },
+    {
+      "path": "Google Search--20/Google Search--20_20261116_020210/final_runs/run_001/screenshots/final_execution_2_results_page.png",
+      "source_sha256": "f421e6f8ccd440ce994dc546a5143673cc3fef4d4f3245f035e7bd521e8bedac",
+      "source_bytes": 384421,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 185700,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "704417ae668925ad10c3e66211ef174b9b3fad730be363a6a52aa093c0f6a6b0"
+    },
+    {
+      "path": "Google Search--20/Google Search--20_20261116_020210/final_runs/run_001/screenshots/final_execution_3_release_date_visible.png",
+      "source_sha256": "f421e6f8ccd440ce994dc546a5143673cc3fef4d4f3245f035e7bd521e8bedac",
+      "source_bytes": 384421,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 185700,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "704417ae668925ad10c3e66211ef174b9b3fad730be363a6a52aa093c0f6a6b0"
+    },
+    {
+      "path": "Google Search--20/Google Search--20_20261116_020210/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+      "source_sha256": "f421e6f8ccd440ce994dc546a5143673cc3fef4d4f3245f035e7bd521e8bedac",
+      "source_bytes": 384421,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 185700,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "704417ae668925ad10c3e66211ef174b9b3fad730be363a6a52aa093c0f6a6b0"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 813545,
+  "response_id": "5e81cb84-05ee-4ba6-9a8a-fd6a1b023b27",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1697,
+    "reasoning_content_chars": 2095
+  }
+}

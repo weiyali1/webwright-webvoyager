@@ -1,0 +1,211 @@
+{
+  "task_id": "Wolfram Alpha--19",
+  "website": "Wolfram Alpha",
+  "task": "Standing in the sun from 11:00 am with SPF 5 in Australia. Approximate time to sunburn for each skin type.",
+  "task_record": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057",
+  "task_definition_sha256": "fade3ad6699e6055f53f00a856d7a1c318082e0e4e22a93f26da110a974f34c5",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Approximate time to sunburn standing in the sun from 11:00 am with SPF 5 in Australia (Wolfram|Alpha, Computational Inputs: location=Australia, start time=11:00 am, SPF=5, skin type=all): Skin type I: 1 h 5 min; Skin type II: 1 h 19 min; Skin type III: 1 h 46 min; Skin type IV: 2 h; Skin type V: 3 h; Skin type VI: 5.5 h",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_1_spf_inputs_panel.png",
+      "sha256": "85f55c521cb1b1e6b89f2a277863181c73bff812a6ffaa129688fbd9fda0e8f0"
+    },
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_2_filled_inputs.png",
+      "sha256": "f33fa312cb90a1c0b494ff6b35a541f5f91569392affcf06bc7fab25ceba2019"
+    },
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_3_skin_type_all.png",
+      "sha256": "f33fa312cb90a1c0b494ff6b35a541f5f91569392affcf06bc7fab25ceba2019"
+    },
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_4_computed.png",
+      "sha256": "09b1e65c86bf51502ddce1d347fd5fbbae3a056754ab859a05e5a245ba423c19"
+    },
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_5_result_pod.png",
+      "sha256": "a9e14ebcfa55d9a856553a78e4cc7f7cb72f1ba6ba27c22b20a0fbb033deb6a2"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "d9ccaaf06898bce4f81a9d5e5083f596a6605e926026a73746f191ea85de88f0",
+  "fingerprint": "81bb5e98ab77d8437a7aa05aaf573a70c9aa30e29adb9cd1f44e4a5c51801d53",
+  "evaluated_at": "2026-11-16T10:04:48.754350+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task required finding the approximate time to sunburn for each skin type when standing in the sun from 11:00 am with SPF 5 in Australia. This involves:\n1. Setting location to **Australia**\n2. Setting start time to **11:00 am**\n3. Setting SPF to **5**\n4. Obtaining results for **all skin types**\n\n## Screenshot Analysis\n\n**Screenshots 1-3 (Intermediate states):** The initial query \"time to sunburn\" was entered with default parameters (New York City, 13 Nov 2026, SPF 0), showing \"sunburn unlikely\" for all skin types. The Computational Inputs were then updated to: skin type = all, location = Australia, start time = 11:00 am, SPF = 5. The results section had not yet refreshed at this point.\n\n**Screenshots 4-5 (Final results):** After computing, the page displays:\n- **Input information:** skin type = all, location = Australia, start time = 11:00 am AEDT (Saturday, November 14, 2026), SPF = 5\n- **Typical time to sunburn:**\n  - Skin type I: 1 h 5 min\n  - Skin type II: 1 h 19 min\n  - Skin type III: 1 h 46 min\n  - Skin type IV: 2 h\n  - Skin type V: 3 h\n  - Skin type VI: 5.5 h\n- Additional sun protection advisory (very high exposure category) and UV index forecast for Australia\n\n## Response Verification\nThe Result Response states: Skin type I: 1 h 5 min; Skin type II: 1 h 19 min; Skin type III: 1 h 46 min; Skin type IV: 2 h; Skin type V: 3 h; Skin type VI: 5.5 h — this **exactly matches** the values shown in the final screenshots.\n\nAll required parameters (Australia, 11:00 am, SPF 5, all skin types) were correctly configured, and the results for every skin type were successfully retrieved and accurately reported.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9320,
+    "completion_tokens": 1167,
+    "total_tokens": 10487,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 697
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:49.274321+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_1_spf_inputs_panel.png",
+      "source_sha256": "85f55c521cb1b1e6b89f2a277863181c73bff812a6ffaa129688fbd9fda0e8f0",
+      "source_bytes": 245470,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 164381,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b82ecf27487c5274099c3fec91667cf7caa3d1ff7b9f422684b10a7e11ffc81f"
+    },
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_2_filled_inputs.png",
+      "source_sha256": "f33fa312cb90a1c0b494ff6b35a541f5f91569392affcf06bc7fab25ceba2019",
+      "source_bytes": 244069,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 163546,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ee7ed84a5137d727446f05ef25d906d7f1b95fd2d65f072846d0437e39d0dc53"
+    },
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_3_skin_type_all.png",
+      "source_sha256": "f33fa312cb90a1c0b494ff6b35a541f5f91569392affcf06bc7fab25ceba2019",
+      "source_bytes": 244069,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 163546,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ee7ed84a5137d727446f05ef25d906d7f1b95fd2d65f072846d0437e39d0dc53"
+    },
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_4_computed.png",
+      "source_sha256": "09b1e65c86bf51502ddce1d347fd5fbbae3a056754ab859a05e5a245ba423c19",
+      "source_bytes": 202552,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 157151,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3764318415e095e23f5a827e4c7fe07e9d1b8bcefa4b8c863ea1458a150f63cb"
+    },
+    {
+      "path": "Wolfram Alpha--19/Wolfram Alpha--19_20261114_062057/final_runs/run_003/screenshots/final_execution_5_result_pod.png",
+      "source_sha256": "a9e14ebcfa55d9a856553a78e4cc7f7cb72f1ba6ba27c22b20a0fbb033deb6a2",
+      "source_bytes": 264444,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1359,
+        2109
+      ],
+      "transmitted_dimensions": [
+        825,
+        1280
+      ],
+      "transmitted_bytes": 136530,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "443e0ab0b23b90dfa63b211d0694da92e4cdeb32980eb3ec964371b825e65514"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1050182,
+  "response_id": "458bf0e5-9ba1-445a-aff7-88138817ad68",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1700,
+    "reasoning_content_chars": 2496
+  }
+}

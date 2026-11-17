@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--16",
+  "website": "Coursera",
+  "task": "Identify a course on Coursera named 'Introduction to Finance: The Basics', who is the course instructor and what other courses does he/she teach.",
+  "task_record": "Coursera--16/Coursera--16_20261114_110355",
+  "task_definition_sha256": "02e2caf57f61c385ea38f9e01f8b1ef3d26ab998c6f705c7b0cb73ca3a047061",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--16/Coursera--16_20261114_110355"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The course 'Introduction to Finance: The Basics' on Coursera (University of Illinois Urbana-Champaign) is taught by Jason Satchell, Teaching Assistant Professor of Finance. His Coursera instructor profile (coursera.org/instructor/jason-satchell) lists only 'Introduction to Finance: The Basics' under his Courses section, so he teaches no other courses on Coursera.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+      "sha256": "06169ee34c62bc92a157959a977be5151b2b92281877762cc82df27b1da87d21"
+    },
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_2_course_page.png",
+      "sha256": "4606d3040666f175facc2c1ef6194ce9ecb98d7420d55b5efb5a38a31c99c4d8"
+    },
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_3_instructor_section.png",
+      "sha256": "4606d3040666f175facc2c1ef6194ce9ecb98d7420d55b5efb5a38a31c99c4d8"
+    },
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_4_instructor_courses.png",
+      "sha256": "0fc2deb03cf0074bd00446ac09bc4ae3f83f589c9072b2db83f56b9463e7154e"
+    },
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "sha256": "0fc2deb03cf0074bd00446ac09bc4ae3f83f589c9072b2db83f56b9463e7154e"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e223a45bffbcbd7129a6222c1ae3fe0b904a0ea57c54210db9ea3649ff432c1b",
+  "fingerprint": "805eeeb66c315f19dfca5cb3b2cd97d65d61d0e2e21c90c4e084cd690d061b95",
+  "evaluated_at": "2026-11-16T10:03:07.217735+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Identify the course 'Introduction to Finance: The Basics' on Coursera\n2. Determine who the course instructor is\n3. Find out what other courses the instructor teaches\n\n**Screenshot Evidence:**\n\n1. **Screenshot 1 (Search Results):** Shows Coursera search results for \"Introduction to Finance: The Basics\" with the course successfully located — offered by University of Illinois Urbana-Champaign (GIES College of Business), rated 4.7 (564 reviews), Beginner level.\n\n2. **Screenshots 2 & 3 (Course Page):** The course page for \"Introduction to Finance: The Basics\" clearly displays \"Instructor: Jason Satchell\" — confirming the instructor's identity.\n\n3. **Screenshots 4 & 5 (Instructor Profile):** Jason Satchell's Coursera instructor profile page shows:\n   - Name: Jason Satchell\n   - Title: Teaching Assistant Professor of Finance\n   - Affiliation: University of Illinois Urbana-Champaign\n   - Under \"Courses - English\" section, only **one course** is listed: \"Introduction to Finance: The Basics\"\n\n**Response Consistency Check:**\nThe Result Response states the course is taught by Jason Satchell, Teaching Assistant Professor of Finance, and that his profile lists only 'Introduction to Finance: The Basics' — meaning he teaches no other courses on Coursera. This is fully consistent with the screenshots provided.\n\n**Task Completion Assessment:**\n- ✅ Course identified correctly\n- ✅ Instructor identified (Jason Satchell)\n- ✅ Other courses investigated — the instructor profile confirms he teaches no other courses on Coursera besides the one in question\n\nThe task involved a multi-part question, and all parts were addressed. The answer that the instructor teaches no other courses is a valid and complete answer, verified by his profile page showing only one course listed.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9063,
+    "completion_tokens": 755,
+    "total_tokens": 9818,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 348
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:07.751906+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "06169ee34c62bc92a157959a977be5151b2b92281877762cc82df27b1da87d21",
+      "source_bytes": 675061,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 302260,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "380eb77a9291ff90638914b1a4546ca43110052256190efecac9a14c9f7af83d"
+    },
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_2_course_page.png",
+      "source_sha256": "4606d3040666f175facc2c1ef6194ce9ecb98d7420d55b5efb5a38a31c99c4d8",
+      "source_bytes": 178858,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 223734,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7db6d195bc4ac1dc4bfafa6b0b379cc3b96ed62111adedbffa4ba3474d60d209"
+    },
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_3_instructor_section.png",
+      "source_sha256": "4606d3040666f175facc2c1ef6194ce9ecb98d7420d55b5efb5a38a31c99c4d8",
+      "source_bytes": 178858,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 223734,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7db6d195bc4ac1dc4bfafa6b0b379cc3b96ed62111adedbffa4ba3474d60d209"
+    },
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_4_instructor_courses.png",
+      "source_sha256": "0fc2deb03cf0074bd00446ac09bc4ae3f83f589c9072b2db83f56b9463e7154e",
+      "source_bytes": 254917,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 160030,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "eaac88858a6076fdc6bf469e3c335f2ffae05b7dbf2807a0e93a2bf790901615"
+    },
+    {
+      "path": "Coursera--16/Coursera--16_20261114_110355/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "0fc2deb03cf0074bd00446ac09bc4ae3f83f589c9072b2db83f56b9463e7154e",
+      "source_bytes": 254917,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 160030,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "eaac88858a6076fdc6bf469e3c335f2ffae05b7dbf2807a0e93a2bf790901615"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1429777,
+  "response_id": "e8b2b091-8d1d-403e-b11a-f08e9a52e431",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1851,
+    "reasoning_content_chars": 1631
+  }
+}

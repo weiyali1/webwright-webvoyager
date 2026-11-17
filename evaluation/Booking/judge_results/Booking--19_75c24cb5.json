@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--19",
+  "website": "Booking",
+  "task": "Look for a hotel with customer ratings above an 8.0 in Paris, France for a weekend stay from November 18, 2026, to November 20, 2026, and list top three suggestions based on user reviews.",
+  "task_record": "Booking--19/Booking--19_20261113_062025",
+  "task_definition_sha256": "15bb5a071bb3e10f1782ace88b8162524d0545ea3759c675fcf91bdd7e320c91",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--19/Booking--19_20261113_062025"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Top three hotel suggestions in Paris, France for Nov 18-20, 2026 (customer ratings above 8.0, filtered with 'Very Good: 8+' and sorted by 'Top reviewed' user reviews on Booking.com): 1. Hôtel des Arts Montmartre - review score 9.6 (2,417 reviews); 2. Villa-des-Prés - review score 9.7 (707 reviews); 3. HIGHSTAY Maisons - Vintimille - review score 9.8 (96 reviews).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_2_dates_nov18_nov20_2026.png",
+      "sha256": "bd0a0cda76161dcfcf01166de02daa0c177e18ef3cd9ffe19cd0ede4d4bbb8d3"
+    },
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_3_search_results_paris.png",
+      "sha256": "f7acfd451c6ad0d2196236d4afb9ca7a41c7516ed84c7f6b563125677ec111a1"
+    },
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_4_filter_very_good_8plus.png",
+      "sha256": "800b68f593ad231ba5854ccfd1053c3d4e62fcb7ce85920e7bbc159228cf7c1c"
+    },
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_5_sort_top_reviewed.png",
+      "sha256": "9a75bb25b04fdf9357d47529659081172d2f43a364ccb24b986a1756bad33225"
+    },
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_6_final_filtered_sorted_results.png",
+      "sha256": "9a75bb25b04fdf9357d47529659081172d2f43a364ccb24b986a1756bad33225"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "980c517ad81a01dd4cfda69264dbd5c777386944f52939890b61263f766a3584",
+  "fingerprint": "5e67abb309ac34c94d9c87d470cd57bbe762cd9725c3eb940c0cd6c0bc09ed77",
+  "evaluated_at": "2026-11-16T10:04:55.387204+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for hotels in Paris, France\n2. Dates: November 18, 2026 – November 20, 2026\n3. Customer ratings above 8.0\n4. List top three suggestions based on user reviews\n\n**Screenshot Verification:**\n\n1. **Screenshot 1 (Search setup):** Destination is set to \"Paris, Ile de France, France\" and the calendar shows November 2026 with Nov 18, 19, 20 selected (Wed, Nov 18 — Fri, Nov 20). The dates and location match the instruction exactly.\n\n2. **Screenshot 2 (Initial results):** Paris search executed, showing 3,531 properties with the \"Very Good: 8+\" filter option visible but not yet applied.\n\n3. **Screenshot 3 (Filter applied):** The \"Very Good: 8+\" filter is checked and applied (2,024 properties found), ensuring all results have ratings above 8.0. All visible hotels show scores of 8.8–9.5.\n\n4. **Screenshots 4 & 5 (Sorted by Top reviewed):** Results are sorted by \"Top reviewed\" with the \"Very Good: 8+\" filter chip still active. The top three listings shown are:\n   - **Hôtel des Arts Montmartre** — Exceptional, 9.6, 2,417 reviews\n   - **Villa-des-Prés** — Exceptional, 9.7, 707 reviews\n   - **HIGHSTAY Maisons - Vintimille** — Exceptional, 9.8, 96 reviews\n\n**Response Verification:**\nThe response lists exactly these three hotels with matching review scores and review counts (9.6/2,417; 9.7/707; 9.8/96). The ordering follows Booking.com's \"Top reviewed\" sort (which sorts by review score and number of reviews, as noted on the page), so the sequence in the response correctly reflects the displayed results.\n\n**Conclusion:** All task components were fulfilled — correct location, correct dates (Nov 18–20, 2026), ratings filter above 8.0 applied, sorted by user reviews, and the top three suggestions accurately reported with scores and review counts consistent with the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8197,
+    "completion_tokens": 1695,
+    "total_tokens": 9892,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1195
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:56.028445+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_2_dates_nov18_nov20_2026.png",
+      "source_sha256": "bd0a0cda76161dcfcf01166de02daa0c177e18ef3cd9ffe19cd0ede4d4bbb8d3",
+      "source_bytes": 617003,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 220790,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "89115192c9c90bbff778bf97a0aa5dc981e429bdec9c09289be9dfe42cf556b4"
+    },
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_3_search_results_paris.png",
+      "source_sha256": "f7acfd451c6ad0d2196236d4afb9ca7a41c7516ed84c7f6b563125677ec111a1",
+      "source_bytes": 760564,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 270972,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f118513cd4b567eb71a25590e1f949861fbbadee0798a518b1eda120bd6de65f"
+    },
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_4_filter_very_good_8plus.png",
+      "source_sha256": "800b68f593ad231ba5854ccfd1053c3d4e62fcb7ce85920e7bbc159228cf7c1c",
+      "source_bytes": 811814,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 280623,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "53ab2c57422858eaf25f25cf774c45d455efc3932c2adf19bd77e1100b8b5b66"
+    },
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_5_sort_top_reviewed.png",
+      "source_sha256": "9a75bb25b04fdf9357d47529659081172d2f43a364ccb24b986a1756bad33225",
+      "source_bytes": 774840,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 281813,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2ec9a015389d65a88ac79797342581227eaa29909ec849c665ee7349bdc81787"
+    },
+    {
+      "path": "Booking--19/Booking--19_20261113_062025/final_runs/run_001/screenshots/final_execution_6_final_filtered_sorted_results.png",
+      "source_sha256": "9a75bb25b04fdf9357d47529659081172d2f43a364ccb24b986a1756bad33225",
+      "source_bytes": 774840,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 281813,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2ec9a015389d65a88ac79797342581227eaa29909ec849c665ee7349bdc81787"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1784781,
+  "response_id": "42cc01f6-995f-4294-89ac-40e0c139434c",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1863,
+    "reasoning_content_chars": 4030
+  }
+}

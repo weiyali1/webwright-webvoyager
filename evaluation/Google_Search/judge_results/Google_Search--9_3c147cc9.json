@@ -1,0 +1,151 @@
+{
+  "task_id": "Google Search--9",
+  "website": "Google Search",
+  "task": "Show the rating of Prometheus movie on IMDb and Rotten Tomatoes.",
+  "task_record": "Google Search--9/Google Search--9_20261115_170456",
+  "task_definition_sha256": "7a2cc084428eb776e24d3142ce8df72210b6295748be8860efbe6f50a77cfe1a",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Search--9/Google Search--9_20261115_170456"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Prometheus (2012) ratings: IMDb 7.0/10 and Rotten Tomatoes 74% (Tomatometer).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Search--9/Google Search--9_20261115_170456/final_runs/run_001/screenshots/final_execution_1_google_search.png",
+      "sha256": "cd01dcf81477c29d82d3dcb694fb5aca2b85f1b0b587257a6ebdf4495665cc42"
+    },
+    {
+      "path": "Google Search--9/Google Search--9_20261115_170456/final_runs/run_001/screenshots/final_execution_2_imdb_rating.png",
+      "sha256": "fa6d5e2013326cfff0ba26973554b58f1b19e3b60ba1b28797e1a52fe8eb2c82"
+    },
+    {
+      "path": "Google Search--9/Google Search--9_20261115_170456/final_runs/run_001/screenshots/final_execution_3_rotten_tomatoes.png",
+      "sha256": "82e4c0c254b8973ddc4601ef7ee5d6097d0da0d5205cfc986ff5d0b4b3abecf4"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "10c73d420f201c36b4095322dc72a54738071181bdbefc25d9fae5b2b7658707",
+  "fingerprint": "cb649891e079750f1660748f65c2255dd560b77cf4949e6647735b5503b78b4f",
+  "evaluated_at": "2026-11-16T10:03:26.801228+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task was to **show the rating of Prometheus movie on IMDb and Rotten Tomatoes** — this involves two components:\n1. Displaying the IMDb rating for Prometheus\n2. Displaying the Rotten Tomatoes rating for Prometheus\n\n## Screenshot Analysis\n\n**Screenshot 1 (Google Search):** Shows the Google search results for \"Prometheus movie\" with a knowledge panel displaying IMDb 7.0 and Rotten Tomatoes 74%, confirming the search was initiated correctly.\n\n**Screenshot 2 (IMDb):** Shows the official IMDb page for Prometheus (2012), directed by Ridley Scott. The rating is clearly visible at the top: **7.0/10** based on 710K votes. This confirms the IMDb rating was successfully located.\n\n**Screenshot 3 (Rotten Tomatoes):** Shows the official Rotten Tomatoes page for Prometheus (R, 2012, 2h 3m). The ratings are clearly displayed: **74% Tomatometer** (310 Reviews) and **68% Popcornmeter** (250,000+ Ratings). This confirms the Rotten Tomatoes rating was successfully located.\n\n## Response Verification\nThe Result Response states: \"Prometheus (2012) ratings: IMDb 7.0/10 and Rotten Tomatoes 74% (Tomatometer).\"\n\nThis matches the screenshots exactly:\n- IMDb: 7.0/10 ✓ (matches screenshot 2)\n- Rotten Tomatoes: 74% Tomatometer ✓ (matches screenshot 3)\n\n## Conclusion\nBoth required ratings were successfully located and displayed — the IMDb page shows the 7.0/10 rating, and the Rotten Tomatoes page shows the 74% Tomatometer score. The response accurately summarizes both ratings consistent with the visual evidence.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 4572,
+    "completion_tokens": 609,
+    "total_tokens": 5181,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 224
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:27.256335+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "Google Search--9/Google Search--9_20261115_170456/final_runs/run_001/screenshots/final_execution_1_google_search.png",
+      "source_sha256": "cd01dcf81477c29d82d3dcb694fb5aca2b85f1b0b587257a6ebdf4495665cc42",
+      "source_bytes": 1192452,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        4007
+      ],
+      "transmitted_dimensions": [
+        404,
+        1280
+      ],
+      "transmitted_bytes": 98440,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c113ea5a0f4f74542465410c45188715f4904c1b7fad000259a5420703f3e665"
+    },
+    {
+      "path": "Google Search--9/Google Search--9_20261115_170456/final_runs/run_001/screenshots/final_execution_2_imdb_rating.png",
+      "source_sha256": "fa6d5e2013326cfff0ba26973554b58f1b19e3b60ba1b28797e1a52fe8eb2c82",
+      "source_bytes": 912880,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 207926,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "266c3d1c7f7e8630ae63a7076583c5abfa34b000ddb17886073ac8a71c1b39a0"
+    },
+    {
+      "path": "Google Search--9/Google Search--9_20261115_170456/final_runs/run_001/screenshots/final_execution_3_rotten_tomatoes.png",
+      "source_sha256": "82e4c0c254b8973ddc4601ef7ee5d6097d0da0d5205cfc986ff5d0b4b3abecf4",
+      "source_bytes": 719403,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 222472,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b66174cb9da333df73adef0a625a3def1091a504a9063ccc4245d365a84c4dbf"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 707996,
+  "response_id": "99b3e816-1aec-40e7-8c39-db79d6672fd7",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1574,
+    "reasoning_content_chars": 890
+  }
+}

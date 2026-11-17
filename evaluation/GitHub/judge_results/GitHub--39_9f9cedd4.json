@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--39",
+  "website": "GitHub",
+  "task": "Browse the GitHub Trending and find out which developer is currently ranked first this month and the corresponding repository.",
+  "task_record": "GitHub--39/GitHub--39_20261115_144834",
+  "task_definition_sha256": "f882e8409156b5d293dcbf1e6e026da157f6d6a7d14a822c14149cb58707acac",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--39/GitHub--39_20261115_144834"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The developer currently ranked first on GitHub Trending this month is Paul Bakaus (pbakaus), and the corresponding repository is pbakaus/impeccable.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_2a_daterange_menu_open.png",
+      "sha256": "1140da3cad88290ca9d70726fdae7ba0328b5ef02f90da4807645ef6e5387f42"
+    },
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_3_devs_list.png",
+      "sha256": "6a546b920c17adf0374dd7885d7fe34f3e858a182ddd0d18ccfc5d18749dcd5c"
+    },
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_4_first_developer.png",
+      "sha256": "6a546b920c17adf0374dd7885d7fe34f3e858a182ddd0d18ccfc5d18749dcd5c"
+    },
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_5_repo.png",
+      "sha256": "6a546b920c17adf0374dd7885d7fe34f3e858a182ddd0d18ccfc5d18749dcd5c"
+    },
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_6_final_state.png",
+      "sha256": "6a546b920c17adf0374dd7885d7fe34f3e858a182ddd0d18ccfc5d18749dcd5c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "c14f180ab58f4018d78deed293bb8360edb58bdc470d3c5442e2ecb21e0a0bef",
+  "fingerprint": "5e378d67aa4ad24f20ea9861982b749ba3648d6c7059a3f54a2848e331a3f020",
+  "evaluated_at": "2026-11-16T10:32:54.958373+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Browse GitHub Trending\n2. Find the developer ranked first **this month**\n3. Identify the corresponding repository\n\n**Screenshot Evidence:**\n\n1. **First screenshot**: Shows the GitHub Trending page with the \"Developers\" tab selected. The date range dropdown is open, displaying options (Today, This week, This month), indicating the user is in the process of changing the filter to \"This month\". At this point, the view was still on \"Today\" (showing JUN as #1).\n\n2. **Second through fifth screenshots**: Show the GitHub Trending page after the date range was successfully changed to \"This month\" — confirmed by:\n   - The subtitle text: \"These are the developers building the hot tools **this month**.\"\n   - The Date range filter displaying \"**This month**\"\n   - The Developers tab being active (highlighted in blue)\n\n3. **Ranked #1 developer**: The list clearly shows at position 1:\n   - Developer name: **Paul Bakaus**\n   - Username: **pbakaus**\n   - Popular repo: **impeccable**\n   - Description: \"The design vocabulary for your coding agent. Steer with polish and buffer, review with critique and audit, catch AI slop before it ships.\"\n\n**Response Verification:**\nThe result response states: \"The developer currently ranked first on GitHub Trending this month is Paul Bakaus (pbakaus), and the corresponding repository is pbakaus/impeccable.\"\n\nThis matches the screenshot evidence exactly:\n- ✅ Developer ranked first this month: Paul Bakaus (pbakaus) — matches screenshot\n- ✅ Corresponding repository: impeccable (pbakaus/impeccable) — matches screenshot\n\nThe workflow shown in the screenshots demonstrates the correct process: navigating to GitHub Trending → selecting the Developers tab → changing the date range filter to \"This month\" → identifying the #1 ranked developer and their repository.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8085,
+    "completion_tokens": 741,
+    "total_tokens": 8826,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 325
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:32:55.510335+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_2a_daterange_menu_open.png",
+      "source_sha256": "1140da3cad88290ca9d70726fdae7ba0328b5ef02f90da4807645ef6e5387f42",
+      "source_bytes": 214033,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 148637,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "03097708778c736052565a76e15c0a3589d191ead62f2088cafbb8ca16638ed9"
+    },
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_3_devs_list.png",
+      "source_sha256": "6a546b920c17adf0374dd7885d7fe34f3e858a182ddd0d18ccfc5d18749dcd5c",
+      "source_bytes": 211537,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 149117,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "94939dbc5255a3dbd6e03a55056df1b441e89cab90777735ba5a5c060bc16b22"
+    },
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_4_first_developer.png",
+      "source_sha256": "6a546b920c17adf0374dd7885d7fe34f3e858a182ddd0d18ccfc5d18749dcd5c",
+      "source_bytes": 211537,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 149117,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "94939dbc5255a3dbd6e03a55056df1b441e89cab90777735ba5a5c060bc16b22"
+    },
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_5_repo.png",
+      "source_sha256": "6a546b920c17adf0374dd7885d7fe34f3e858a182ddd0d18ccfc5d18749dcd5c",
+      "source_bytes": 211537,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 149117,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "94939dbc5255a3dbd6e03a55056df1b441e89cab90777735ba5a5c060bc16b22"
+    },
+    {
+      "path": "GitHub--39/GitHub--39_20261115_144834/final_runs/run_003/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "6a546b920c17adf0374dd7885d7fe34f3e858a182ddd0d18ccfc5d18749dcd5c",
+      "source_bytes": 211537,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 149117,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "94939dbc5255a3dbd6e03a55056df1b441e89cab90777735ba5a5c060bc16b22"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 996629,
+  "response_id": "058042d4-eacf-4aca-85b5-d06a9de8cb59",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1874,
+    "reasoning_content_chars": 1446
+  }
+}

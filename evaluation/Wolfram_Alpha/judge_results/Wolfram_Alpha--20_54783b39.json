@@ -1,0 +1,211 @@
+{
+  "task_id": "Wolfram Alpha--20",
+  "website": "Wolfram Alpha",
+  "task": "Compute the integral of 3e^(2x) from x=0 to x=5.",
+  "task_record": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930",
+  "task_definition_sha256": "a430674b9a859361e9a3e6871b1f85c3f3ad7fc20552fde54e421227d00aeb46",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: The definite integral of 3e^(2x) from x=0 to x=5 equals 3/2 (e^10 - 1), approximately 33038.2 (Wolfram|Alpha shows 'integral_0^5 3 e^(2 x) dx = 3/2 (e^10 - 1) ≈ 33038.').",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_1_homepage_input.png",
+      "sha256": "e7887389b700649847bbce5c0acffd8639c00459b0f0d7984d7fbedd69c6e172"
+    },
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_2_query_entered.png",
+      "sha256": "3496486f21cfb605b3e37b27c6a492c651931e9ffbe5ed0f8282089ce3846aa9"
+    },
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_3_compute_submitted.png",
+      "sha256": "4e72c427b0a5d94b6f46aa194bd516ba649277abb4077db92ddfbe99e5167b1a"
+    },
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_4_definite_integral_pod.png",
+      "sha256": "ee969632f81399150fbf40b9449ad94f225996b7536aff5548fd7b20489d1dc2"
+    },
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_5_result_value.png",
+      "sha256": "babfb9e265b9b5739f25b65ace1792124c30bd1036e943eb8f41c369fc84fec1"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "a8ce23a72cb867f1f14542ad86bcfe6ee876d5bc13ac56b01a84125f4ab842e4",
+  "fingerprint": "c33b418276e04008f8b384fbfd9a57b2bef59480519c6c67a2148c7fcffe7848",
+  "evaluated_at": "2026-11-16T10:05:12.633484+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task:** Compute the integral of 3e^(2x) from x=0 to x=5.\n\n**Screenshot Evidence:**\n1. **Screenshot 1:** WolframAlpha homepage with an empty search box — initial state.\n2. **Screenshot 2:** The query \"integrate 3e^(2x) dx from x=0 to x=5\" has been entered into the WolframAlpha search box, correctly representing the task's integral with the proper bounds.\n3. **Screenshots 3–5:** The results page displays:\n   - **Definite integral:** ∫₀⁵ 3e^(2x) dx = 3/2 (e^10 − 1) ≈ 33038.\n   - A visual representation (graph) of the integral.\n   - Riemann sums section.\n   - Indefinite integral: ∫ 3e^(2x) dx = 3e^(2x)/2 + constant.\n\n**Verification of the Math:**\n- ∫₀⁵ 3e^(2x) dx = (3/2)e^(2x) evaluated from 0 to 5 = (3/2)(e^10 − 1)\n- e^10 ≈ 22026.47, so (3/2)(22026.47 − 1) ≈ 33038.2 ✓\n\n**Consistency Check:**\n- The Result Response states the answer is 3/2 (e^10 − 1) ≈ 33038.2, which matches exactly what the screenshot shows (\"= 3/2 (e^10 − 1) ≈ 33038.\").\n- The query entered in the search box correctly corresponds to the task instruction (integrating 3e^(2x) from x=0 to x=5).\n- The computation was performed successfully on WolframAlpha, and the correct result was obtained and reported.\n\nThe task was fully accomplished: the integral was computed correctly, and the result in the response is consistent with the screenshot evidence.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8133,
+    "completion_tokens": 884,
+    "total_tokens": 9017,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 440
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:05:13.204250+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_1_homepage_input.png",
+      "source_sha256": "e7887389b700649847bbce5c0acffd8639c00459b0f0d7984d7fbedd69c6e172",
+      "source_bytes": 151078,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 140197,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "dc3c7a7a7648710acd315d30ab6781d223df087332f6072ef083995934b13433"
+    },
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_2_query_entered.png",
+      "source_sha256": "3496486f21cfb605b3e37b27c6a492c651931e9ffbe5ed0f8282089ce3846aa9",
+      "source_bytes": 151863,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 140534,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9803415a6e375c37556df1dfdcc4b3b2706e0823e49fffd0377c033cfba31c14"
+    },
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_3_compute_submitted.png",
+      "source_sha256": "4e72c427b0a5d94b6f46aa194bd516ba649277abb4077db92ddfbe99e5167b1a",
+      "source_bytes": 194017,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 117792,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3c9895a1602ccc83c3a7deb8a8e8a37553f9ad91bcad721e2ec6c6f4b8ee9d81"
+    },
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_4_definite_integral_pod.png",
+      "source_sha256": "ee969632f81399150fbf40b9449ad94f225996b7536aff5548fd7b20489d1dc2",
+      "source_bytes": 193953,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 117995,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5f1d967c56152a31d0038d37de5719b8c48430d00ecda6f341921feba20e514c"
+    },
+    {
+      "path": "Wolfram Alpha--20/Wolfram Alpha--20_20261114_070930/final_runs/run_001/screenshots/final_execution_5_result_value.png",
+      "source_sha256": "babfb9e265b9b5739f25b65ace1792124c30bd1036e943eb8f41c369fc84fec1",
+      "source_bytes": 193940,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 117951,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "45b6ced4aebb23e1f6a45326623de6e29da4d6324a0e140b3601438924584046"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 849075,
+  "response_id": "99c2524f-37d2-4b60-8aec-f98af8afcdd2",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1379,
+    "reasoning_content_chars": 1135
+  }
+}

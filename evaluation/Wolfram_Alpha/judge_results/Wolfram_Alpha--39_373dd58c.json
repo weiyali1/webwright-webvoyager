@@ -1,0 +1,181 @@
+{
+  "task_id": "Wolfram Alpha--39",
+  "website": "Wolfram Alpha",
+  "task": "Use Wolfram alpha to write the expression of the ellipse x^2 + 3 y^2 = 4 rotated 33 degrees counterclockwise.",
+  "task_record": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346",
+  "task_definition_sha256": "699cc2e0ca07fda5d3745711739745ef787ad86b30670054b85f6ac118a59ed6",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The expression of the ellipse x^2 + 3 y^2 = 4 rotated 33 degrees counterclockwise (Wolfram|Alpha Transformed curve result) is: x^2 (sin((2 π)/15) - 2) + 2 x y cos((2 π)/15) + 4 = y^2 (2 + sin((2 π)/15))",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346/final_runs/run_002/screenshots/final_execution_1_homepage_input.png",
+      "sha256": "5280710b2947007e183e6b29f4ac51bd123ebb2b829903963c0dc7ce53d2380d"
+    },
+    {
+      "path": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346/final_runs/run_002/screenshots/final_execution_2_query_entered.png",
+      "sha256": "f7634b66049b62c2d105e456a8525952cb1a827441576a063cfe6674eef7b6c2"
+    },
+    {
+      "path": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346/final_runs/run_002/screenshots/final_execution_3_results_page.png",
+      "sha256": "48b174a1d037235e11b07d4a839476ac88d5919e0ade8dad152c9f5f01f4b697"
+    },
+    {
+      "path": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346/final_runs/run_002/screenshots/final_execution_4_transformed_curve_pod.png",
+      "sha256": "48b174a1d037235e11b07d4a839476ac88d5919e0ade8dad152c9f5f01f4b697"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "972738d842439dd9d7ac7839a52be9acf36738d02ff9e6471b6f185dc41d6ad1",
+  "fingerprint": "e5bcbc8aaee08508d0622bb864885dd0fac64ff65ba7e5d7faca0f49a701b0cd",
+  "evaluated_at": "2026-11-16T10:17:02.307166+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation\n\n## Task Analysis\nThe task requires using Wolfram Alpha to derive the expression of the ellipse x² + 3y² = 4 rotated 33 degrees counterclockwise.\n\n## Screenshot Review\n1. **Screenshot 1**: Wolfram Alpha homepage with an empty search box — initial state.\n2. **Screenshot 2**: The query \"rotate x^2 + 3 y^2 = 4 by 33 degrees counterclockwise\" has been entered into the Wolfram Alpha search box.\n3. **Screenshots 3 & 4**: The results page shows:\n   - **Input interpretation**: curve x² + 3y² = 4, rotation angle 33° (counterclockwise), center (0, 0) — confirming Wolfram correctly understood the query.\n   - **Transformed curve**: (x² + 3y² = 4) → (x²(sin(2π/15) − 2) + 2xy cos(2π/15) + 4 = y²(2 + sin(2π/15)))\n   - **Rotation matrix**: (0.838671, −0.544639; 0.544639, 0.838671) — consistent with cos(33°) ≈ 0.83867 and sin(33°) ≈ 0.54464, confirming a 33° rotation.\n   - A visual representation showing the original and transformed (rotated) ellipse.\n\n## Response Verification\nThe result response states the transformed curve is:\n**x²(sin(2π/15) − 2) + 2xy cos(2π/15) + 4 = y²(2 + sin(2π/15))**\n\nThis matches the \"Transformed curve\" result displayed in the Wolfram Alpha screenshot exactly. \n\nMathematical sanity check: the coefficients correspond to 2 − cos(66°) = 2 − sin(24°) = 2 − sin(2π/15) for x², 2 + cos(66°) = 2 + sin(2π/15) for y², and −2sin(66°) = −2cos(2π/15) for xy — all consistent with a 33° counterclockwise rotation (using complementary angle identities, since 2θ = 66° and 90° − 66° = 24° = 2π/15). The expression is correct.\n\n## Conclusion\nThe query was correctly formulated and executed on Wolfram Alpha, the input interpretation confirms the correct curve and 33° counterclockwise rotation, and the response accurately reports the transformed curve expression shown in the screenshot. The task has been fully accomplished.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8281,
+    "completion_tokens": 2900,
+    "total_tokens": 11181,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2307
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:17:02.674487+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346/final_runs/run_002/screenshots/final_execution_1_homepage_input.png",
+      "source_sha256": "5280710b2947007e183e6b29f4ac51bd123ebb2b829903963c0dc7ce53d2380d",
+      "source_bytes": 147240,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 205948,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9b6a4657909361fd9a6af47d1977cbc303d64d83519b653dc869d262d7569d7d"
+    },
+    {
+      "path": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346/final_runs/run_002/screenshots/final_execution_2_query_entered.png",
+      "source_sha256": "f7634b66049b62c2d105e456a8525952cb1a827441576a063cfe6674eef7b6c2",
+      "source_bytes": 149151,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 207931,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4f9e56ae833018dcb2c56faa83ed03991bc06af3d19dfd6ed3ebd400f11b5b9c"
+    },
+    {
+      "path": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346/final_runs/run_002/screenshots/final_execution_3_results_page.png",
+      "source_sha256": "48b174a1d037235e11b07d4a839476ac88d5919e0ade8dad152c9f5f01f4b697",
+      "source_bytes": 205707,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 180118,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "43d040288e1bfba63e963f4b697db7715cbf60360cee1a940389cd618941950e"
+    },
+    {
+      "path": "Wolfram Alpha--39/Wolfram Alpha--39_20261114_133346/final_runs/run_002/screenshots/final_execution_4_transformed_curve_pod.png",
+      "source_sha256": "48b174a1d037235e11b07d4a839476ac88d5919e0ade8dad152c9f5f01f4b697",
+      "source_bytes": 205707,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 180118,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "43d040288e1bfba63e963f4b697db7715cbf60360cee1a940389cd618941950e"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1035281,
+  "response_id": "f550980f-5816-4aca-ac26-64c3ce53849e",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1876,
+    "reasoning_content_chars": 5686
+  }
+}

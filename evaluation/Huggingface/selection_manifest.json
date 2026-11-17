@@ -1,0 +1,1544 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "task_id": "Huggingface--0",
+      "website": "Huggingface",
+      "task": "Find a pre-trained natural language processing model on Hugging Face that can perform sentiment analysis, and make sure the model's last update is within March 2023.",
+      "task_record": "Huggingface--0/Huggingface--0_20261115_022855",
+      "task_definition_sha256": "6cebacdd5084718b7829e130a1cb5f0d06ae350ac6abebf1cdb885e25654c654",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--0/Huggingface--0_20261115_022855"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found pre-trained NLP model cointegrated/rubert-tiny-sentiment-balanced on Hugging Face (https://huggingface.co/cointegrated/rubert-tiny-sentiment-balanced). It performs sentiment analysis: it is listed under the Models Text Classification task filter (pipeline_tag=text-classification) with a 'sentiment' tag, and its model card describes it as a small BERT-like model fine-tuned for sentiment classification. Its last update was 2023-03-20 (lastModified 2023-03-20T09:53:10.000Z per the official Hugging Face API model record), which is within March 2023.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--0/Huggingface--0_20261115_022855/final_runs/run_001/screenshots/final_execution_2b_text_classification_filtered.png",
+          "sha256": "245a8d0aac493e0c27bbe86a603283c87638884152e2234fe8f34ea4325c5bf0"
+        },
+        {
+          "path": "Huggingface--0/Huggingface--0_20261115_022855/final_runs/run_001/screenshots/final_execution_3_model_page.png",
+          "sha256": "ea5f44f0c9e97d4ee803103d0eb35735898bb90b9ffb0c1d2864790b50a5f3e3"
+        },
+        {
+          "path": "Huggingface--0/Huggingface--0_20261115_022855/final_runs/run_001/screenshots/final_execution_4_sentiment_evidence.png",
+          "sha256": "ea5f44f0c9e97d4ee803103d0eb35735898bb90b9ffb0c1d2864790b50a5f3e3"
+        },
+        {
+          "path": "Huggingface--0/Huggingface--0_20261115_022855/final_runs/run_001/screenshots/final_execution_5_api_last_modified.png",
+          "sha256": "a8b3ac849f9f2218a256aed49b72f2ef9f7f62ec024a663085c0ba544438b04a"
+        },
+        {
+          "path": "Huggingface--0/Huggingface--0_20261115_022855/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+          "sha256": "3f14d768f259d5f7a9e0fdfc201c9e1dc3a791b9ba0bb1ab32ef03141183df33"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "8dd6072a7dd8552b202c1f08bd8e7a8fd9db1eea696cec1067e736ff610a6edb",
+      "fingerprint": "25eae5925b4c73138159a0fa37be577e10f76fbdbbb13d9a8fdba7033a2c092d"
+    },
+    {
+      "task_id": "Huggingface--2",
+      "website": "Huggingface",
+      "task": "Discover three new and popular open-source NLP models for language translation released in the past month on Huggingface.",
+      "task_record": "Huggingface--2/Huggingface--2_20261115_030351",
+      "task_definition_sha256": "784f0f3ee858e560486eb46265dfbc09a6aa0fefc619e87ea95a17b2a234f75f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--2/Huggingface--2_20261115_030351"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Three new and popular open-source NLP models for language translation released in the past month on Hugging Face (top by downloads among translation models created in the last 30 days): 1) pfnet/plamo-3-translate-0.8b-GGUF — ~41.8k downloads last month, created 2026-10-27, translation pipeline, open GGUF weights with plamo-community-license; 2) pfnet/plamo-3-translate-2b-GGUF — ~29.6k downloads last month, created 2026-10-27, translation pipeline, open GGUF weights; 3) pfnet/plamo-3-translate-8b-GGUF — ~23.2k downloads last month, created 2026-10-27, translation pipeline, open GGUF weights. Verified via the Models page with the Translation task filter and Most downloads sort, plus each model page and the Hugging Face API metadata.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--2/Huggingface--2_20261115_030351/final_runs/run_001/screenshots/final_execution_2_sort_most_downloads.png",
+          "sha256": "9310826daa088d6ea77bade9b592ab065c5db85c2681b903e42118f8d433db1d"
+        },
+        {
+          "path": "Huggingface--2/Huggingface--2_20261115_030351/final_runs/run_001/screenshots/final_execution_3_results_three_models.png",
+          "sha256": "adc617f109403c8bb97ebca53887db29c2a572297e1ed129e6260b95f14dfe5c"
+        },
+        {
+          "path": "Huggingface--2/Huggingface--2_20261115_030351/final_runs/run_001/screenshots/final_execution_6_model_page_plamo-3-translate-0.8b-GGUF.png",
+          "sha256": "4d5bad064a8662e4a9dcd78d1fe09df09931d2992765206050ebe3afe0d14392"
+        },
+        {
+          "path": "Huggingface--2/Huggingface--2_20261115_030351/final_runs/run_001/screenshots/final_execution_7_model_page_plamo-3-translate-2b-GGUF.png",
+          "sha256": "311045babbb428847acbd1f1a9ba2368ea2eeaa0328045a4dde01d449ac7a29d"
+        },
+        {
+          "path": "Huggingface--2/Huggingface--2_20261115_030351/final_runs/run_001/screenshots/final_execution_8_model_page_plamo-3-translate-8b-GGUF.png",
+          "sha256": "2227e1888b0836abb7dffcc872d001a4cba832b2643a2ab3cbd2b4d62fb1dadc"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "05182a47457e9e47472b272283611180cc820d3202548346206e6784bb58f952",
+      "fingerprint": "0251f3832da9efa136b59906201ee3891335aa75fce757bf53c8a788a9da69fe"
+    },
+    {
+      "task_id": "Huggingface--3",
+      "website": "Huggingface",
+      "task": "Look up a model with a license of cc-by-sa-4.0 with the most likes on Hugging face.",
+      "task_record": "Huggingface--3/Huggingface--3_20261115_033218",
+      "task_definition_sha256": "6e8df321f97a5da05e3c73e9f3689ef168fce36961629e85136dc7cca97fb337",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--3/Huggingface--3_20261115_033218"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The cc-by-sa-4.0 licensed model with the most likes on Hugging Face is replit/replit-code-v1-3b with 748 likes (URL: https://huggingface.co/replit/replit-code-v1-3b). Verified via the Models page with the dedicated Licenses filter set to cc-by-sa-4.0 and the Sort control set to Most likes.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_1_models_page.png",
+          "sha256": "6e62b6b3dc5d3afa3485b88b4ef1fe72fd3815d18a221902814eec653e02837e"
+        },
+        {
+          "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_2_license_filter_cc_by_sa_4_0.png",
+          "sha256": "80691cae0bfc2ed4103a8eb24ba81b2eaca54f4e55cee6d74c6356d0f4050532"
+        },
+        {
+          "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_3_sort_most_likes.png",
+          "sha256": "42eff923745cfd4d05ba005315221872d2db10311b827aaff21358407e00ff5d"
+        },
+        {
+          "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_4_top_result.png",
+          "sha256": "42eff923745cfd4d05ba005315221872d2db10311b827aaff21358407e00ff5d"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "59a459c5e88c393afa87d672b7a493ce7d00d87483f2ef8eba2c1ce47c9a3f0a",
+      "fingerprint": "2d78da315e0961a277adca0d8df063e90eea30b793ffeba0ecc4650ae313f05b"
+    },
+    {
+      "task_id": "Huggingface--4",
+      "website": "Huggingface",
+      "task": "Locate an open-source conversational AI model on Hugging Face, trained in English and list its main features and applications.",
+      "task_record": "Huggingface--4/Huggingface--4_20261115_034913",
+      "task_definition_sha256": "2b832dd2f767951e9a31c4969aac91a7c965ec69c46cab125f092d26db647a72",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--4/Huggingface--4_20261115_034913"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: Model located: Qwen/Qwen2.5-7B-Instruct (https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) - an open-source (Apache-2.0) conversational AI model trained with English support. Main features: Type=Causal Language Models; Training stage=Pretraining & Post-training; Architecture=transformers with RoPE, SwiGLU, RMSNorm, and Attention QKV bias; Parameters=7.61B (6.53B non-embedding); Layers=28; Attention heads (GQA)=28 for Q and 4 for KV; Context length=Full 131,072 tokens and generation 8,192 tokens; Instruction tuning=instruction-tuned; License=apache-2.0. Applications: Chatbots / conversational AI; Instruction following / assistant tasks; Coding and mathematics; Generating long texts (over 8K tokens; 128K/131K context); Understanding structured data (tables) and generating structured JSON outputs; Role-play implementation; Multilingual use incl. English (29+ languages).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--4/Huggingface--4_20261115_034913/final_runs/run_002/screenshots/cp4_model_page_open.png",
+          "sha256": "b7262c6ad97d6321a1ea2f8bd8f3f71a357c098ba0f1be53ef725ceec6a74f2d"
+        },
+        {
+          "path": "Huggingface--4/Huggingface--4_20261115_034913/final_runs/run_002/screenshots/cp5_license_and_language_tags.png",
+          "sha256": "892f1d87d6eb7ac6720b1491ffb7fe989504d2a575b1f996338da9180e9e32e1"
+        },
+        {
+          "path": "Huggingface--4/Huggingface--4_20261115_034913/final_runs/run_002/screenshots/cp6_model_card_features.png",
+          "sha256": "8b17fd79d4de8458881a32f4d39a64db7b5ee426c97580713f24a99a3d2cc32f"
+        },
+        {
+          "path": "Huggingface--4/Huggingface--4_20261115_034913/final_runs/run_002/screenshots/cp7_model_card_applications.png",
+          "sha256": "8b17fd79d4de8458881a32f4d39a64db7b5ee426c97580713f24a99a3d2cc32f"
+        },
+        {
+          "path": "Huggingface--4/Huggingface--4_20261115_034913/final_runs/run_002/screenshots/filter_state_apache_sorted_likes.png",
+          "sha256": "5f695c6db6fc5f8a49637f4774693d69d769365f2b88d7f5b5c57864a5e5172a"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "bce229544bf54d67aead4a392ad1d0102ba98666072eb75d3a9bb9a8843b83dd",
+      "fingerprint": "dca64ded38baee5dd78316522764105416d7d3aeb103f7b33d350a8c93a46b88"
+    },
+    {
+      "task_id": "Huggingface--5",
+      "website": "Huggingface",
+      "task": "Find a model released on Hugging Face for recipe generation. Retrieve the information of the model, including its name, model size and tensor type.",
+      "task_record": "Huggingface--5/Huggingface--5_20261115_043133",
+      "task_definition_sha256": "d5022819e3ea22b3ca122c2395e48b12224a01d53ba39076e2fd2e8df7d3eda9",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--5/Huggingface--5_20261115_043133"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found the Hugging Face recipe generation model flax-community/t5-recipe-generation. Model name: flax-community/t5-recipe-generation; Model size: 0.2B params; Tensor type: F32.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--5/Huggingface--5_20261115_043133/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+          "sha256": "2e27a3eb40419f13dd6313f20ca598da9535665849f11539bbe0e2bf5cf1c11a"
+        },
+        {
+          "path": "Huggingface--5/Huggingface--5_20261115_043133/final_runs/run_001/screenshots/final_execution_2_model_page.png",
+          "sha256": "dc213abfe8fcb11e5726351aec077ff976806dd6e38c999b942618ca62d67413"
+        },
+        {
+          "path": "Huggingface--5/Huggingface--5_20261115_043133/final_runs/run_001/screenshots/final_execution_3_model_metadata.png",
+          "sha256": "dc213abfe8fcb11e5726351aec077ff976806dd6e38c999b942618ca62d67413"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "b5dcf5c9ec621e481861c5cd1de2a2ae9c4c8f769a493afe0469eebb3bd4e053",
+      "fingerprint": "a779b5819271c2e447dd2004922efabbcd83b283b18020d55ca681916c0ae70e"
+    },
+    {
+      "task_id": "Huggingface--7",
+      "website": "Huggingface",
+      "task": "Which is the most downloaded audio related dataset on Hugging face currently.",
+      "task_record": "Huggingface--7/Huggingface--7_20261115_044532",
+      "task_definition_sha256": "84521f3fcedcb2de2938ebe4dd8f50db6e15d343cbe7fef722304985e8d8ab63",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--7/Huggingface--7_20261115_044532"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most downloaded audio related dataset on Hugging Face currently is espnet/yodas3, with 4.08M downloads (verified via https://huggingface.co/datasets?modality=modality:audio&sort=downloads using the site's Audio modality filter and Most downloads sort).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--7/Huggingface--7_20261115_044532/final_runs/run_001/screenshots/final_execution_2_main_panel_modalities.png",
+          "sha256": "5dd587b0ac89ccdead72474369bee192659faeb6d0253b9d86fa1b0ab33f8806"
+        },
+        {
+          "path": "Huggingface--7/Huggingface--7_20261115_044532/final_runs/run_001/screenshots/final_execution_3_audio_filter_applied.png",
+          "sha256": "2ab1aa38c68288cfd64d53cb969e40541ac4d0bdc9675dfba31b73c1dc3911d8"
+        },
+        {
+          "path": "Huggingface--7/Huggingface--7_20261115_044532/final_runs/run_001/screenshots/final_execution_4_sort_menu_open.png",
+          "sha256": "97364b435773836661b24c9e9b570a1b08704f0549eb0e376bfa7af217decc02"
+        },
+        {
+          "path": "Huggingface--7/Huggingface--7_20261115_044532/final_runs/run_001/screenshots/final_execution_5_sorted_most_downloads.png",
+          "sha256": "ebe6195a18eebaa2c80918a7a9c80a3eebb68b3f7dc5b85c783f9fcabed910a2"
+        },
+        {
+          "path": "Huggingface--7/Huggingface--7_20261115_044532/final_runs/run_001/screenshots/final_execution_6_final_results.png",
+          "sha256": "ebe6195a18eebaa2c80918a7a9c80a3eebb68b3f7dc5b85c783f9fcabed910a2"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "b5e8109c513973ed43409e90f8f403605fd2ba736b58322cf03da7898459cf67",
+      "fingerprint": "d95a051edebfccc3a1c1a2267b11f3f5ce08a01a19fa9fc6341e2a4c2366c5e6"
+    },
+    {
+      "task_id": "Huggingface--8",
+      "website": "Huggingface",
+      "task": "Retrieve an example of a pre-trained language model in natural language processing and identify the tasks it is specifically designed for, like translation or text summarization.",
+      "task_record": "Huggingface--8/Huggingface--8_20261115_051450",
+      "task_definition_sha256": "08466127f5872e0f952d480b40aa7c5b82ef13bdd82e1467534b9de0dacde4f5",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--8/Huggingface--8_20261115_051450"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Example pre-trained NLP model: facebook/bart-large-cnn (https://huggingface.co/facebook/bart-large-cnn). Tasks it is specifically designed for: Summarization (text summarization). It is BART large pre-trained on English and fine-tuned on CNN Daily Mail for text summarization.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--8/Huggingface--8_20261115_051450/final_runs/run_001/screenshots/final_execution_1_models_hub.png",
+          "sha256": "12ea2924aa2bb4f2e39baa960d5124fad6754a9ab0e25c619c7d24c6ca5fd293"
+        },
+        {
+          "path": "Huggingface--8/Huggingface--8_20261115_051450/final_runs/run_001/screenshots/final_execution_2_tasks_filter_summarization.png",
+          "sha256": "1954d6a2687542b53d13a7236586903176c179cd410c00c9ef3b9f44d7f981ba"
+        },
+        {
+          "path": "Huggingface--8/Huggingface--8_20261115_051450/final_runs/run_001/screenshots/final_execution_3_filtered_results.png",
+          "sha256": "faf73bb7f3d7efd01baaad2a703a23d2c52f4b15662a76dd7e9e755e233e8cdc"
+        },
+        {
+          "path": "Huggingface--8/Huggingface--8_20261115_051450/final_runs/run_001/screenshots/final_execution_4_model_page.png",
+          "sha256": "6e8dacbc04ff9e94ab60492b8245d3f8019910d2a96fb53e4918a05aad4656d1"
+        },
+        {
+          "path": "Huggingface--8/Huggingface--8_20261115_051450/final_runs/run_001/screenshots/final_execution_5_model_tasks.png",
+          "sha256": "6e8dacbc04ff9e94ab60492b8245d3f8019910d2a96fb53e4918a05aad4656d1"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "145ff2a201e72378dcb0e5d6daafc1b9c13e71bec5226d8a1c9cf4c9e99998de",
+      "fingerprint": "e6843dc901eb43732478c8035ad1a80412f1018b00f0a59fbd2506ec74745b03"
+    },
+    {
+      "task_id": "Huggingface--9",
+      "website": "Huggingface",
+      "task": "Find the most download machine translation model on Huggingface which focuses on English and Japanese (en-ja) and report the evaluation metrics stated for it.",
+      "task_record": "Huggingface--9/Huggingface--9_20261115_052723",
+      "task_definition_sha256": "e6d5a8ac2faefa6eb5862d22eed0cf7573a92f23f30870f2bb41dd02c713ff3e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--9/Huggingface--9_20261115_052723"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most downloaded English-Japanese (en-ja) machine translation model on Hugging Face (Models filtered by Translation task + English & Japanese languages, sorted by Downloads) is facebook/nllb-200-distilled-600M with ~927k downloads. Evaluation metrics stated on its model card: the NLLB-200 model was evaluated using BLEU, spBLEU, and chrF++ metrics (widely adopted by the machine translation community) on the FLORES-200 benchmark; additionally, human evaluation was performed with the XSTS protocol and the toxicity of generated translations was measured.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_2_translation_filter.png",
+          "sha256": "d298a66cfc8e00d70e5bccfacbb1090c9fcd357242d6f02b654ae50096bff895"
+        },
+        {
+          "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_3_language_filters.png",
+          "sha256": "db7de1eca84e060aa004d1c969a14bb552dac1d3284a5559e8e5feb44de78bed"
+        },
+        {
+          "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_4_sort_downloads.png",
+          "sha256": "4fbafb586208d55a46e5aa16298daa5c7dd27121d26f091cc1d84ada59a04234"
+        },
+        {
+          "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_5_top_model_page.png",
+          "sha256": "16af396dd44757d9e83ef45142c57e690adc915d95dbbeb115821a947ed3c148"
+        },
+        {
+          "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_6_evaluation_metrics.png",
+          "sha256": "16af396dd44757d9e83ef45142c57e690adc915d95dbbeb115821a947ed3c148"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "44efa5e8dc1e5118475144cd3b791ae4ff1d88720921ffa8674c598c124854a3",
+      "fingerprint": "cdf41451ea2124c72d9ffe0ed9428319837fac84e5c398f37dc0482bca3c9fc0"
+    },
+    {
+      "task_id": "Huggingface--11",
+      "website": "Huggingface",
+      "task": "Identify the latest updated image to video model available on Huggingface and summarize its main features.",
+      "task_record": "Huggingface--11/Huggingface--11_20261115_055403",
+      "task_definition_sha256": "138275e805691186f783f00ed4e29d20413a6bc5d743cf72f0a8ff99949949ab",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--11/Huggingface--11_20261115_055403"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The latest updated image-to-video model on Hugging Face is lucidml/gta (updated 8 minutes ago at run time). Main features: GTA world model with weights and inference code; an interactive world model where you provide one start image and hold keys, and it generates the following video frame-by-frame, streaming it to a browser while you play; uses the custom Summaryformer architecture; tags include Image-to-Video, world-model, interactive, real-time, autoregressive, video-generation; license apache-2.0.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_1_models_page.png",
+          "sha256": "2243dd919831a900d824fb8fcb11133f83938267d84bfc48ccca6a1372e47a13"
+        },
+        {
+          "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_2_i2v_filter.png",
+          "sha256": "02c2cd2d232dd5b8c27799b089b49e38a9fcd590f981ebf477f19b217d1dde1a"
+        },
+        {
+          "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_3_recently_updated_sort.png",
+          "sha256": "5bb16a76bd349bb42de8f5a61a8d18b82c02561fc26e130936d6fb49dc32a383"
+        },
+        {
+          "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_4_top_result.png",
+          "sha256": "5bb16a76bd349bb42de8f5a61a8d18b82c02561fc26e130936d6fb49dc32a383"
+        },
+        {
+          "path": "Huggingface--11/Huggingface--11_20261115_055403/final_runs/run_003/screenshots/final_execution_5_model_page.png",
+          "sha256": "fbf0be8c6176d6eba0dbe43eff83be3cf830fb5480e006292d169fda3e258654"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "6067f8b5ee8cf6462e061923a93de60a7df364b0739fe5e9ea089a93d8cfcb04",
+      "fingerprint": "adc1e504a38607eb9a18bc69e4afa39a34e0b1c8e95d0e06e88d93896bfcbeb8"
+    },
+    {
+      "task_id": "Huggingface--12",
+      "website": "Huggingface",
+      "task": "Find the most recently updated machine learning model on Huggingface which focuses on Error Correction.",
+      "task_record": "Huggingface--12/Huggingface--12_20261115_060940",
+      "task_definition_sha256": "7ba6e47f4e80e7bf8ac872571aa32da21e178e80aaf237bb9933ebad1bba1d19",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--12/Huggingface--12_20261115_060940"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most recently updated Error Correction model on Hugging Face is: proofbird/gector-bert-pt-pt (https://huggingface.co/proofbird/gector-bert-pt-pt), Updated about 6 hours ago. Found by navigating to https://huggingface.co/models, applying the grammatical-error-correction filter (visible selected chip, URL other=grammatical-error-correction), and sorting by Recently updated (sort=modified).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--12/Huggingface--12_20261115_060940/final_runs/run_001/screenshots/cp1_models_page.png",
+          "sha256": "d0ac6585d0919296ebf9fedf2759eb3df91f89a7917ec88a4573c74ca7b89923"
+        },
+        {
+          "path": "Huggingface--12/Huggingface--12_20261115_060940/final_runs/run_001/screenshots/cp2_gec_filter_applied.png",
+          "sha256": "49c38f75b4773d827ad23512ddcf46e4d7444ddf799753460dba2b29264c94b6"
+        },
+        {
+          "path": "Huggingface--12/Huggingface--12_20261115_060940/final_runs/run_001/screenshots/cp3_sort_recently_updated.png",
+          "sha256": "b77f291a3d8598a45706a100ad376f95c3fc9da38b9a7aba2fd3d6b042f157c2"
+        },
+        {
+          "path": "Huggingface--12/Huggingface--12_20261115_060940/final_runs/run_001/screenshots/cp4_top_model_result.png",
+          "sha256": "b77f291a3d8598a45706a100ad376f95c3fc9da38b9a7aba2fd3d6b042f157c2"
+        },
+        {
+          "path": "Huggingface--12/Huggingface--12_20261115_060940/final_runs/run_001/screenshots/cp5_final_state.png",
+          "sha256": "b77f291a3d8598a45706a100ad376f95c3fc9da38b9a7aba2fd3d6b042f157c2"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "62c0647d49dbbfd2dea3a6080e896301b189644a966bbfcc34828622ce3b7287",
+      "fingerprint": "5f29e0a485aa1dba59a466ac3c110b22beae28cf9e5f693adfbfe88a4e1f622a"
+    },
+    {
+      "task_id": "Huggingface--13",
+      "website": "Huggingface",
+      "task": "Search for LLaMA in the huggingface doc, what type is the spaces_between_special_tokens parameter in LlamaTokenizer and what is its default value.",
+      "task_record": "Huggingface--13/Huggingface--13_20261115_063721",
+      "task_definition_sha256": "827097ec455de845a84a723f378fc4d90f08769a95e12462900b7b1eeff94275",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--13/Huggingface--13_20261115_063721"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "In LlamaTokenizer, the spaces_between_special_tokens parameter has type bool and default value False. Verified on the Hugging Face Transformers LLaMA documentation (https://huggingface.co/docs/transformers/v4.44.2/en/model_doc/llama): 'spaces_between_special_tokens (bool, optional, defaults to False) — Whether or not to add spaces between special tokens.'",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--13/Huggingface--13_20261115_063721/final_runs/run_002/screenshots/final_execution_1_docs_home.png",
+          "sha256": "0bc8af389438f54bd4d25a255a610b59969fc593560d95ad5403ee9c0a22c46c"
+        },
+        {
+          "path": "Huggingface--13/Huggingface--13_20261115_063721/final_runs/run_002/screenshots/final_execution_2_search_llama_results.png",
+          "sha256": "1af86b6b7201da6bff916a1439c82d38e54a42de2a9d98287bc3724739375916"
+        },
+        {
+          "path": "Huggingface--13/Huggingface--13_20261115_063721/final_runs/run_002/screenshots/final_execution_3_llama_doc_page.png",
+          "sha256": "9269ae5b922cbe9fdb2cfca4a1a522696b2c223c7bd83d24bea56047cdb68e2b"
+        },
+        {
+          "path": "Huggingface--13/Huggingface--13_20261115_063721/final_runs/run_002/screenshots/final_execution_4_tokenizer_param_entry.png",
+          "sha256": "1a88dee1eab81331c75c329e8a46a953b791c31e769468bc8040c4bd1f46e44e"
+        },
+        {
+          "path": "Huggingface--13/Huggingface--13_20261115_063721/final_runs/run_002/screenshots/final_execution_5_final_answer_state.png",
+          "sha256": "1a88dee1eab81331c75c329e8a46a953b791c31e769468bc8040c4bd1f46e44e"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a2368bd86f7cc41362a3499acea6b02e03a655cfa55a6ab67b0824165c78addf",
+      "fingerprint": "b091fa5b50906b74cf1465997d3a0106ab04f6d7c86e482e082b6a50ebbafa51"
+    },
+    {
+      "task_id": "Huggingface--14",
+      "website": "Huggingface",
+      "task": "How much is the Pro account of Hugging face for a month and what are the features?",
+      "task_record": "Huggingface--14/Huggingface--14_20261115_070322",
+      "task_definition_sha256": "35b19abea96eb164b562d7b52316c5274cc71ccd3f8e63dfca7606ec4863705c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--14/Huggingface--14_20261115_070322"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The Hugging Face PRO account costs $9/month (9 USD per month). Its features are: 10× private storage capacity; 2× public storage capacity; $2 inference credits on Inference Providers per month; 2× ZeroGPU quota; Spaces Dev Mode; Spaces Dev Mode on ZeroGPU Spaces; PRO badge; and early access to new features.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--14/Huggingface--14_20261115_070322/final_runs/run_001/screenshots/final_execution_1_homepage.png",
+          "sha256": "e65373d96f02b483a01e22f47fd12208028cddf7de2d0c8086023cd1b6cb951a"
+        },
+        {
+          "path": "Huggingface--14/Huggingface--14_20261115_070322/final_runs/run_001/screenshots/final_execution_2_pricing_page_monthly.png",
+          "sha256": "333bdec5b0c326bd706b272a14d75e9e8e0b8b6b3c0bf5108ed377246b96b240"
+        },
+        {
+          "path": "Huggingface--14/Huggingface--14_20261115_070322/final_runs/run_001/screenshots/final_execution_3_pro_card_price_features.png",
+          "sha256": "247e3293ac1190c542f3d353ecfbbbb56fa425693d44dbeb7d977b7a75b6ffe8"
+        },
+        {
+          "path": "Huggingface--14/Huggingface--14_20261115_070322/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+          "sha256": "247e3293ac1190c542f3d353ecfbbbb56fa425693d44dbeb7d977b7a75b6ffe8"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "93707395850538c99d957e3e0520fa043e715216932cf6a72860546b1201e46d",
+      "fingerprint": "6d7241296fb519b7473bf2aa4f9e751dbb4e2bce35d9542eb50fe0292f734808"
+    },
+    {
+      "task_id": "Huggingface--15",
+      "website": "Huggingface",
+      "task": "Identify the most downloaded models on Hugging face that use the PaddlePaddle library.",
+      "task_record": "Huggingface--15/Huggingface--15_20261115_071106",
+      "task_definition_sha256": "0243782b53bcb0022914733d20f2b388039a8fffcfccd3bf01ec2798c4eb3771",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--15/Huggingface--15_20261115_071106"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The most downloaded models on Hugging Face using the PaddlePaddle library (filtered via Filters > Library > PaddlePaddle and sorted by Most downloads at https://huggingface.co/models?library=paddlepaddle&sort=downloads) are: 1) PaddlePaddle/PP-Chart2Table with 6.14k downloads (the most downloaded), followed by logasanjeev/indian-id-validator (1.19k), Kellenok/PP-OCRv6_manga (471), PaddlePaddle/PP-DocBee2-3B (175), and tieubaoca/pp-ocrv6-medium-rec-vietnamese (154).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_1_models_page.png",
+          "sha256": "84db9283b28ddeb35c2862d083d4487061ec8f2776dd70b7604ae37eeda588f6"
+        },
+        {
+          "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_2_library_paddlepaddle.png",
+          "sha256": "7e49ecb57304d4ae00ab0e6c96b71eb5a47dd37cd69471012c27732b42fc9bab"
+        },
+        {
+          "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_3_sort_downloads.png",
+          "sha256": "bfecc1a15fc83d0ccbd29227b8e76dad1ca6c7a6798dcf0f46a87b1d8ce322a8"
+        },
+        {
+          "path": "Huggingface--15/Huggingface--15_20261115_071106/final_runs/run_001/screenshots/final_execution_4_results.png",
+          "sha256": "bfecc1a15fc83d0ccbd29227b8e76dad1ca6c7a6798dcf0f46a87b1d8ce322a8"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "9f62909d6fbff1c963534070c3f19edd266754d90075f775ed64d8a96a005c4f",
+      "fingerprint": "2d9a173334b2355d3df121d436f9bf5f729401a128c13a7d6fee5210f9438589"
+    },
+    {
+      "task_id": "Huggingface--16",
+      "website": "Huggingface",
+      "task": "Find information on the latest (as of today's date) pre-trained language model on Huggingface suitable for text classification and briefly describe its intended use case and architecture.",
+      "task_record": "Huggingface--16/Huggingface--16_20261115_072143",
+      "task_definition_sha256": "1afdb1192991aeb94ed2ba20e0342a551ac54fa91fd1432645b5933afa6c33a3",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--16/Huggingface--16_20261115_072143"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The latest (as of 2026-11-15) pre-trained language model on Hugging Face suitable for text classification is 'ychafiqui/v3_moroccan_law_classif_arabert_19_classes' — it appears first on https://huggingface.co/models?pipeline_tag=text-classification&sort=created (Text Classification task filter + Recently created sort). Intended use case: text classification — assigning category labels to text; the model name indicates classification of Moroccan legal texts into 19 classes using an AraBERT-based model. Architecture: BertForSequenceClassification with model_type 'bert' (per the repository config.json) — a BERT-family bidirectional transformer encoder with a sequence-classification head on top, run via the Transformers library.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--16/Huggingface--16_20261115_072143/final_runs/run_002/screenshots/final_execution_3_sort_recently_created.png",
+          "sha256": "8fb0121c0a283d498a62e2f77bae65cecbd442d6726e74a2a01bd4cafdd5b864"
+        },
+        {
+          "path": "Huggingface--16/Huggingface--16_20261115_072143/final_runs/run_002/screenshots/final_execution_4_top_latest_result.png",
+          "sha256": "8fb0121c0a283d498a62e2f77bae65cecbd442d6726e74a2a01bd4cafdd5b864"
+        },
+        {
+          "path": "Huggingface--16/Huggingface--16_20261115_072143/final_runs/run_002/screenshots/final_execution_5_model_page.png",
+          "sha256": "f5764396e4a9cf3b5f51d5477e1d9290165a584c23a3ce333a6930f703d195f6"
+        },
+        {
+          "path": "Huggingface--16/Huggingface--16_20261115_072143/final_runs/run_002/screenshots/final_execution_6_model_card.png",
+          "sha256": "4bd305668843bfa85878e1e84b6773fc60a7e248f71dccfe04da8feac745e738"
+        },
+        {
+          "path": "Huggingface--16/Huggingface--16_20261115_072143/final_runs/run_002/screenshots/final_execution_7_config_json.png",
+          "sha256": "a2d5e192adb4ac75ebddfa4ba3498826334675e10a10e64b4b704674d418ab2c"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c78c4979b87cc8804c4e8ea1fb2d977b51e2b0cc1a15f7734570cae89540a50b",
+      "fingerprint": "a039bc6a444bc99c5194b11030c34da64cfe7d5ee7d01cd872e6b6b42b0a8ca6"
+    },
+    {
+      "task_id": "Huggingface--17",
+      "website": "Huggingface",
+      "task": "Find the most recently updated open-source project related to natural language processing on the Huggingface platform. Provide the project's name, creator, and a brief description of its functionality.",
+      "task_record": "Huggingface--17/Huggingface--17_20261115_073643",
+      "task_definition_sha256": "6bb5f0cecc03d1999ddf53bd4819a0dc8b16768181389ab6eb71c3b57bce8ad8",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--17/Huggingface--17_20261115_073643"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The most recently updated open-source NLP project on Hugging Face (Models filtered by Natural Language Processing -> Text Classification and sorted by 'Recently updated') is:\n\n- Name: decision-lord\n- Creator: fetuber4095\n- Functionality: A lightweight Portuguese multiple-choice (A/B/C/D) text classifier trained with TF-IDF + logistic regression. It converts each question plus each answer option into a text input, scores them with a TfidfVectorizer + LogisticRegression pipeline, and selects the option with the highest probability. It runs on CPU only, without a GPU, using very little RAM.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--17/Huggingface--17_20261115_073643/final_runs/run_001/screenshots/cp2_tasks_drawer_nlp.png",
+          "sha256": "8a8e28e04cd177746e2e23a53d9775f0eec110bb8b587a86c36c129d881951b4"
+        },
+        {
+          "path": "Huggingface--17/Huggingface--17_20261115_073643/final_runs/run_001/screenshots/cp2_text_classification_filtered.png",
+          "sha256": "56fb96106354bc191fb4a43e81fb49925dbd70455342977e5d8ffbb9bd64bca7"
+        },
+        {
+          "path": "Huggingface--17/Huggingface--17_20261115_073643/final_runs/run_001/screenshots/cp3_sort_recently_updated.png",
+          "sha256": "d99702f13c678a817f87057e9c71bce1ade493e885d21957ea7ff380abca8090"
+        },
+        {
+          "path": "Huggingface--17/Huggingface--17_20261115_073643/final_runs/run_001/screenshots/cp4_top_result.png",
+          "sha256": "d99702f13c678a817f87057e9c71bce1ade493e885d21957ea7ff380abca8090"
+        },
+        {
+          "path": "Huggingface--17/Huggingface--17_20261115_073643/final_runs/run_001/screenshots/cp5_model_page.png",
+          "sha256": "566c0348d30bba61baac9766a9981a4915f488920086ddce57ef6cece2a5ad6f"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "86beb5c234f77d0b4c40c9e13162d595931b4614ef56d8324973c2e668ff90bd",
+      "fingerprint": "124444b40176f46044495dece9e0e931b057adbd0202bddf03d8f4a2b65729a6"
+    },
+    {
+      "task_id": "Huggingface--18",
+      "website": "Huggingface",
+      "task": "Look up TRL's forward modelling in the hugging face documentation on how to add a margin to a loss.",
+      "task_record": "Huggingface--18/Huggingface--18_20261115_080845",
+      "task_definition_sha256": "ce481597bff9a8c71e61594a5819dfb0ad34fc8eae45ee2efe7dcc36ec46b567",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--18/Huggingface--18_20261115_080845"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: In the Hugging Face TRL documentation (DPO Trainer page, 'Loss Types' section), you add a margin to a loss by using the hinge loss: set loss_type='hinge' in DPOConfig. For the hinge loss, the beta parameter is the reciprocal of the margin, so the margin added to the loss is 1/beta.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--18/Huggingface--18_20261115_080845/final_runs/run_004/screenshots/final_execution_1_trl_index.png",
+          "sha256": "97ffd1167e3d3f3388be8b9eccbb5168c4659d6d4bf1bc7fd30c95836afe5af1"
+        },
+        {
+          "path": "Huggingface--18/Huggingface--18_20261115_080845/final_runs/run_004/screenshots/final_execution_2_search_margin.png",
+          "sha256": "5761bbd2d4d20ef5b9f980525f1f75fa555efbb920f6207a577b75b14947194c"
+        },
+        {
+          "path": "Huggingface--18/Huggingface--18_20261115_080845/final_runs/run_004/screenshots/final_execution_3_dpo_trainer.png",
+          "sha256": "4b5b38d3fd89efec6903c31721e9c0045db968ba963acce97c3d90ff464d5a96"
+        },
+        {
+          "path": "Huggingface--18/Huggingface--18_20261115_080845/final_runs/run_004/screenshots/final_execution_4_loss_types_hinge_margin.png",
+          "sha256": "e4162f85d787167fbc7488d5a7f8cfcf385c89cbb2eebb64d003d63d2419a9e8"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "1cc7570de4c135411b235161d5727d54171174655b722133f4eb86fb83fa45a6",
+      "fingerprint": "ffdcc717e9013f16f6536a28568962638e872c611c24a6236bd645d0e5a1f7e1"
+    },
+    {
+      "task_id": "Huggingface--19",
+      "website": "Huggingface",
+      "task": "Explore and summarize the features of the most recent open-source NLP model released by Hugging Face for English text summarization.",
+      "task_record": "Huggingface--19/Huggingface--19_20261115_083704",
+      "task_definition_sha256": "0aa38d2b661629480777eeac9e5b86f719fbd4b011b1ae716ac73f9c64d7db81",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--19/Huggingface--19_20261115_083704"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most recent open-source English text-summarization model on Hugging Face (Models filtered by Task=Summarization, Language=English, License=apache-2.0, sorted by Recently created) is 'MHkhan50/newssum-bart-base-bbc' (https://huggingface.co/MHkhan50/newssum-bart-base-bbc). Features: task=summarization; language=English (en); license=apache-2.0 (open source); library=transformers; architecture=BartForConditionalGeneration (BART-base, facebook/bart-base); parameters=139,470,681 (~0.1B); created=2026-11-08T01:17:43.000Z; downloads=51; likes=0. Model-card description: 'NewsSum V2: BART-base fine-tuned on BBC News Summary' - BART-base fine-tuned for news summarisation on the BBC News Summary dataset as part of NewsSum V2, a leakage-free comparison of extractive baselines, fine-tuned transformers and a small LLM (seed-0 model).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--19/Huggingface--19_20261115_083704/final_runs/run_002/screenshots/cp4_apache_license_filter.png",
+          "sha256": "2f65cb67eeee83c19e8d42e8e14c295f12f3ee331e6b65d8395301172e6d7a0a"
+        },
+        {
+          "path": "Huggingface--19/Huggingface--19_20261115_083704/final_runs/run_002/screenshots/cp5_sort_recently_created.png",
+          "sha256": "6b3128b15bb8341289a660a41126157aba0c5ccd5ec678572c903d38ab8b8e2b"
+        },
+        {
+          "path": "Huggingface--19/Huggingface--19_20261115_083704/final_runs/run_002/screenshots/cp6_top_model_card.png",
+          "sha256": "6b3128b15bb8341289a660a41126157aba0c5ccd5ec678572c903d38ab8b8e2b"
+        },
+        {
+          "path": "Huggingface--19/Huggingface--19_20261115_083704/final_runs/run_002/screenshots/cp7_model_page.png",
+          "sha256": "fabbc5c0783249975a2dac97a44b74a76ef8ad5f71754755e0768e1a7eb0cbd8"
+        },
+        {
+          "path": "Huggingface--19/Huggingface--19_20261115_083704/final_runs/run_002/screenshots/cp8_model_features.png",
+          "sha256": "82de20c7aab87c719f72b3688706f9eef4fffe07cae3799998c245d09920e1b6"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "7e3b7a284e99fde828f045cf3e91d4e63da13542c2241dd563a0aee0228a0745",
+      "fingerprint": "bfc21097470e8a02d7d1fd649a37a2bc8a9d4be0bee2768a670bd74233234d65"
+    },
+    {
+      "task_id": "Huggingface--20",
+      "website": "Huggingface",
+      "task": "Locate a pre-trained natural language processing model on Hugging Face that specializes in named entity recognition (NER), confirm that the model was last updated in 2024 and has 1M+ downloads.",
+      "task_record": "Huggingface--20/Huggingface--20_20261115_094031",
+      "task_definition_sha256": "17e430b676c735c9dce6f76b9e23f248e18639d653b414ba5700803feaf5851b",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--20/Huggingface--20_20261115_094031"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Found pre-trained NER model on Hugging Face: dslim/bert-base-NER (https://huggingface.co/dslim/bert-base-NER). It specializes in Named Entity Recognition (Token Classification pipeline task). Downloads last month: 1,012,348 (>= 1,000,000, so 1M+ confirmed). Last updated: Oct 8, 2024 (2024-10-08); results card showed Updated Oct 8, 2024. Last update in 2024 confirmed.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_3_sort_downloads.png",
+          "sha256": "ff2d9aae18bab0b2f26c4fa5aa8ecf5c5d448f4416e2bf17ea93d665baa7a801"
+        },
+        {
+          "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_4_model_page.png",
+          "sha256": "c05fa7bf4fcab9ac03afbc56fdefac705618ac7a8f3d7ac503a6c8e9c78e99aa"
+        },
+        {
+          "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_5_downloads.png",
+          "sha256": "c05fa7bf4fcab9ac03afbc56fdefac705618ac7a8f3d7ac503a6c8e9c78e99aa"
+        },
+        {
+          "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_6_commits.png",
+          "sha256": "2f7d77e0944d8410ff4e89098fce8cf34edb89ce53cbc8e7d95360da415444af"
+        },
+        {
+          "path": "Huggingface--20/Huggingface--20_20261115_094031/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+          "sha256": "0a9160ad34ad8eac8f2a0a22d0ddf05de1365ec8ec50c5d23b8aeea8f5679fa4"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "de7613b6dc58303a691fcf336985b31b794da525f8552b1722707ed916d2373d",
+      "fingerprint": "608eef358feffa0621dfd40c7a55239dab70d739b711ff2d04096625da1a5ee9"
+    },
+    {
+      "task_id": "Huggingface--21",
+      "website": "Huggingface",
+      "task": "Look up the tour about how to use the 'pipeline' feature in the Hugging Face Transformers library for sentiment analysis, and identify the default model it uses.",
+      "task_record": "Huggingface--21/Huggingface--21_20261115_100749",
+      "task_definition_sha256": "1e9b365f9d9aeb1f29090790fbb93bfd530bd4c59ff4c91166a56af0b83326f7",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--21/Huggingface--21_20261115_100749"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The Hugging Face Transformers tour (Quick tour) shows using pipeline(\"sentiment-analysis\") for sentiment analysis; its default model is distilbert-base-uncased-finetuned-sst-2-english (distilbert/distilbert-base-uncased-finetuned-sst-2-english).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--21/Huggingface--21_20261115_100749/final_runs/run_004/screenshots/final_execution_1_open_quicktour.png",
+          "sha256": "523b9f3fb8bcb704d7f7bb663a5fe0d5889f1b7efb246a7d383bf5e909b2bc15"
+        },
+        {
+          "path": "Huggingface--21/Huggingface--21_20261115_100749/final_runs/run_004/screenshots/final_execution_2_sentiment_pipeline_example.png",
+          "sha256": "848da6cdbf00906c066da7447a5d63e3f1c61b27c36cc64839d1e9a0390d2c83"
+        },
+        {
+          "path": "Huggingface--21/Huggingface--21_20261115_100749/final_runs/run_004/screenshots/final_execution_3_supported_tasks_default_model.png",
+          "sha256": "48d4ba7203a1ea28e24245d34772d39c72f0504b312890153f3f5fc0f4bb3eca"
+        },
+        {
+          "path": "Huggingface--21/Huggingface--21_20261115_100749/final_runs/run_004/screenshots/final_execution_4_final_state.png",
+          "sha256": "48d4ba7203a1ea28e24245d34772d39c72f0504b312890153f3f5fc0f4bb3eca"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "cc16b53fd2220ec8a367640fa9f655076173a3f9e7e8c88b59e8c8d24f22bba4",
+      "fingerprint": "5963c5860287c8da7a6f30d111d6ae602fe9bca34898fce470d4f4850c408ccf"
+    },
+    {
+      "task_id": "Huggingface--22",
+      "website": "Huggingface",
+      "task": "Identify the steps to convert a PyTorch model to TensorFlow using the Hugging Face Transformers library as described in their documentation.",
+      "task_record": "Huggingface--22/Huggingface--22_20261115_102714",
+      "task_definition_sha256": "08ce0cbf21c13d33fe625dab04c71f7f45e4b4913a4bb3ae759981b0c23f3d5c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--22/Huggingface--22_20261115_102714"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Per the Hugging Face Transformers documentation ('How to convert a 🤗 Transformers model to TensorFlow?', https://huggingface.co/docs/transformers/main/add_tensorflow_model), the steps to convert a PyTorch model to TensorFlow are: 1) Log in to your Hugging Face account with `huggingface-cli login`; 2) Run the conversion CLI tool `transformers-cli pt-to-tf --model-name foo/bar` (replace foo/bar with the target model repository), which creates a PR converting the PyTorch weights to TensorFlow weights; 3) Tag @joaogante and @Rocketknight1 in the created Hub PR for review. The documentation also provides a 7-step guide for adding a TensorFlow model architecture: create the model files, implement the model, add the model to the auto-mapping, add tests, update the docs, and submit the PR.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--22/Huggingface--22_20261115_102714/final_runs/run_001/screenshots/final_execution_1_docs_hub.png",
+          "sha256": "fbe9f8ca05d248e9d1feaca2514fda49c6c8155842148ae8a5b3172352d31dea"
+        },
+        {
+          "path": "Huggingface--22/Huggingface--22_20261115_102714/final_runs/run_001/screenshots/final_execution_2_conversion_guide_heading.png",
+          "sha256": "2b3d9caa9b85995f2d1fc1c107e106642071466124a72fef881e01d3418f0b76"
+        },
+        {
+          "path": "Huggingface--22/Huggingface--22_20261115_102714/final_runs/run_001/screenshots/final_execution_3_adding_tf_weights_section.png",
+          "sha256": "1cfef85abae8cc7e96c1a55576f1157dd5fa991c0de2bba2a30270bb6ac0f6d2"
+        },
+        {
+          "path": "Huggingface--22/Huggingface--22_20261115_102714/final_runs/run_001/screenshots/final_execution_4_conversion_steps.png",
+          "sha256": "12e1aca750e86242ddcbbb11f0c008d0695058b7e4f3f5bf57fd90613e77dca4"
+        },
+        {
+          "path": "Huggingface--22/Huggingface--22_20261115_102714/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+          "sha256": "12e1aca750e86242ddcbbb11f0c008d0695058b7e4f3f5bf57fd90613e77dca4"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e40c9bdc516a4f6f85dea08e218f901282cba6118f30159fd0afb84ebf4ada5b",
+      "fingerprint": "3add1ae4831cbfd6ff7801cc9108daebd5fa052b3cf51d8561621c1e34a718e3"
+    },
+    {
+      "task_id": "Huggingface--23",
+      "website": "Huggingface",
+      "task": "Identify three innovative and widely recognized open-source NLP models for automatic speech recognition released in the past month on Huggingface.",
+      "task_record": "Huggingface--23/Huggingface--23_20261115_104124",
+      "task_definition_sha256": "c2527d26599003ef48ac019fdabfbf2d517f4f2d1d029e94ca227c2ba2e47720",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--23/Huggingface--23_20261115_104124"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Three innovative and widely recognized open-source NLP models for automatic speech recognition released in the past month on Hugging Face: 1. salesforce-sovereign-intelligence/SOV-Transcribe-1 (Apache-2.0, 55 likes), 2. sahilmahendrakar/Earlybird-29M (MIT, 32 likes), 3. lee1jun/LES-eg2-665M-asr-en (Apache-2.0, 18 likes).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_4_results_displayed.png",
+          "sha256": "360c843a4b81baf769ea84c17251ac9d2fa4f502da9ba44be8c1b2eea2011374"
+        },
+        {
+          "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_1_SOV-Transcribe-1.png",
+          "sha256": "4ea87a65f658919af20e482ed4271a86746deb7829354b0876063e1db1f31c98"
+        },
+        {
+          "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_2_Earlybird-29M.png",
+          "sha256": "8156bbbb8969f1bf4c0b9debbec6b26a7b64dae38251eff401ba78380bfe02c6"
+        },
+        {
+          "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_3_LES-eg2-665M-asr-en.png",
+          "sha256": "c4cc067c49dfcd91ecdf515234b2d732576f0af8d7f41da2f07c1b9283b8e4b2"
+        },
+        {
+          "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_6_final_answer.png",
+          "sha256": "c4cc067c49dfcd91ecdf515234b2d732576f0af8d7f41da2f07c1b9283b8e4b2"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "0fb27d4e6011f7be42fbb23749bf393c3018ab4aace104996c2d80cefd1520b9",
+      "fingerprint": "f1a4fed435f7c9ceea5513603b8232afe238c9eb156a35e86071e096aaa0538a"
+    },
+    {
+      "task_id": "Huggingface--24",
+      "website": "Huggingface",
+      "task": "Search for a model on Hugging Face with an Apache-2.0 license that has received the highest number of likes.",
+      "task_record": "Huggingface--24/Huggingface--24_20261115_110207",
+      "task_definition_sha256": "be25c22a22063a8d50267f94db49f7aafddd5a4cdf15f09db42275924d97e635",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--24/Huggingface--24_20261115_110207"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The Apache-2.0 licensed model with the highest number of likes on Hugging Face is Qwen/Qwen3.8-27B with 20k likes. This was found by navigating to https://huggingface.co/models, applying the apache-2.0 license filter through the Licenses filter control, and sorting by 'Most likes' using the site's sort control (URL: https://huggingface.co/models?license=license:apache-2.0&sort=likes).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_1_models_page.png",
+          "sha256": "d68c736807ef781274b40c970a80a06bdde9da53ee4093a4393d36a94ec3a917"
+        },
+        {
+          "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_2_apache_license_filter.png",
+          "sha256": "af7e2853211e197a3e8eb4b760bf6bf3fec8229e67971de42cd497e4cadfc1a8"
+        },
+        {
+          "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_3_most_likes_sort.png",
+          "sha256": "d489527814dee6c09d8e6269faf6ec2f9063498b6d84a86e7c9f8ef28c897035"
+        },
+        {
+          "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_4_top_result.png",
+          "sha256": "112f012068b1366a648e5cdd68b143651a2be99e5e764f68561092dcc8aff139"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e5395ade0faa9a940bb29f06174123d3846dc071ebffbf4156bbf89152d2dad2",
+      "fingerprint": "2d91e35f2c15808950295aaf3727aba583e165888577ff65659efaef521586da"
+    },
+    {
+      "task_id": "Huggingface--25",
+      "website": "Huggingface",
+      "task": "In the Hugging Face documentation, find the tutorial on loading adapters with PEFT, tell me how to load in 8bit or 4bit.",
+      "task_record": "Huggingface--25/Huggingface--25_20261115_111405",
+      "task_definition_sha256": "32df785d35fe160ec37cc23b5c27f644d57c11b2fbc234756c0c6390d805ab0b",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--25/Huggingface--25_20261115_111405"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Per the Hugging Face PEFT documentation (Quantization developer guide, https://huggingface.co/docs/peft/en/developer_guides/quantization), load a model in 8bit or 4bit with the bitsandbytes integration: create a BitsAndBytesConfig from transformers and pass it as quantization_config to from_pretrained. 4-bit: config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type=\"nf4\", bnb_4bit_use_double_quant=True, bnb_4bit_compute_dtype=torch.bfloat16); model = AutoModelForCausalLM.from_pretrained(\"mistralai/Mistral-7B-v0.1\", quantization_config=config). 8-bit: set load_in_8bit=True instead. Then call model = prepare_model_for_kbit_training(model) from peft to prepare the quantized model before applying a PEFT adapter (e.g., LoRA).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--25/Huggingface--25_20261115_111405/final_runs/run_002/screenshots/final_execution_1_peft_quantization_page.png",
+          "sha256": "e19dbc05e7570b7d21e3bd16cb61a49f6f00ce1d72b2c916aec73ea2b3c6fc9c"
+        },
+        {
+          "path": "Huggingface--25/Huggingface--25_20261115_111405/final_runs/run_002/screenshots/final_execution_2_bitsandbytes_8bit_4bit_docs.png",
+          "sha256": "e19dbc05e7570b7d21e3bd16cb61a49f6f00ce1d72b2c916aec73ea2b3c6fc9c"
+        },
+        {
+          "path": "Huggingface--25/Huggingface--25_20261115_111405/final_runs/run_002/screenshots/final_execution_3_load_in_4bit_code.png",
+          "sha256": "e19dbc05e7570b7d21e3bd16cb61a49f6f00ce1d72b2c916aec73ea2b3c6fc9c"
+        },
+        {
+          "path": "Huggingface--25/Huggingface--25_20261115_111405/final_runs/run_002/screenshots/final_execution_4_prepare_model_for_kbit_training.png",
+          "sha256": "6a97a9cd7d93c7d3424fe2754f39511720f63d626c104616c888c650c758742c"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "3512c226424e1691f31ef8c1dba2dcf19fba2e327e6a54b2c492a2212f076f82",
+      "fingerprint": "ea98ae79f96d06b9e20cd0ac47ba1e2b8e58ea8b61609fb0b433f4290df48188"
+    },
+    {
+      "task_id": "Huggingface--26",
+      "website": "Huggingface",
+      "task": "Identify a model on Hugging Face designed for generating travel chats. Obtain information about the model, including its name, size and training framwork.",
+      "task_record": "Huggingface--26/Huggingface--26_20261115_112933",
+      "task_definition_sha256": "3a60d66db060c569648dae6d2e5d48a23cebb51ace7e8e1b10959ea62f5c8ef3",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--26/Huggingface--26_20261115_112933"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Identified travel-chat model: rakibulnahin/travel-chat-llama2-7b (travel-chat-llama2-7b). Model size: 7B params. Training framework/library: Transformers (Hugging Face, PyTorch-based), fine-tuned with trl/SFT; weights stored in Safetensors format.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--26/Huggingface--26_20261115_112933/final_runs/run_001/screenshots/final_execution_1_search_travel_chat_results.png",
+          "sha256": "a4f626f228ac1c8d6db7efeb36ad32503e4551b57e248091fb8db4ff33de68e4"
+        },
+        {
+          "path": "Huggingface--26/Huggingface--26_20261115_112933/final_runs/run_001/screenshots/final_execution_2_model_page_header.png",
+          "sha256": "8a3d552b5b7fe6530efe60012137155faa968c71eab02646944a5bade17a21dd"
+        },
+        {
+          "path": "Huggingface--26/Huggingface--26_20261115_112933/final_runs/run_001/screenshots/final_execution_3_model_name.png",
+          "sha256": "8a3d552b5b7fe6530efe60012137155faa968c71eab02646944a5bade17a21dd"
+        },
+        {
+          "path": "Huggingface--26/Huggingface--26_20261115_112933/final_runs/run_001/screenshots/final_execution_4_model_size.png",
+          "sha256": "8a3d552b5b7fe6530efe60012137155faa968c71eab02646944a5bade17a21dd"
+        },
+        {
+          "path": "Huggingface--26/Huggingface--26_20261115_112933/final_runs/run_001/screenshots/final_execution_5_training_framework_tags.png",
+          "sha256": "8a3d552b5b7fe6530efe60012137155faa968c71eab02646944a5bade17a21dd"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "fa6d48cf3a3bf61ebd171f7d2475724f2dbdb8db3ee3d7f9feb92204069d8b21",
+      "fingerprint": "43e0dc2bc60020c600a97b983ec4f4502190be623aff4daa7c20b95170570d57"
+    },
+    {
+      "task_id": "Huggingface--27",
+      "website": "Huggingface",
+      "task": "Determine the most downloaded dataset related to Text Retrieval in NLP on Hugging Face.",
+      "task_record": "Huggingface--27/Huggingface--27_20261115_114207",
+      "task_definition_sha256": "de1270d8dcd8445befb65d81d677eaf3fbbae0957c9befd3efc240efe5793e49",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--27/Huggingface--27_20261115_114207"
+      ],
+      "final_run": "run_003",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The most downloaded Text Retrieval dataset on Hugging Face is ksolovev/fine-news with 579k downloads (URL: https://huggingface.co/datasets/ksolovev/fine-news). Verified via the Datasets hub with the Text Retrieval task filter and Most downloads sort, cross-checked against the HF API (578,770 downloads).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--27/Huggingface--27_20261115_114207/final_runs/run_003/screenshots/final_execution_1_datasets_hub.png",
+          "sha256": "43e5045aa615d670afb9a9532c4b8797a68d69870912b82f7b22f725a8da4140"
+        },
+        {
+          "path": "Huggingface--27/Huggingface--27_20261115_114207/final_runs/run_003/screenshots/final_execution_2_text_retrieval_filter.png",
+          "sha256": "a10d71da4e99449b3a092bbe7df8981b5f5186c02ea490b6dd7eb9ae90a3a28e"
+        },
+        {
+          "path": "Huggingface--27/Huggingface--27_20261115_114207/final_runs/run_003/screenshots/final_execution_3_sort_most_downloads.png",
+          "sha256": "47c67cf74c429c4ef970a7884d932366c8a5bf42c5b253343b9a515d6861e0ec"
+        },
+        {
+          "path": "Huggingface--27/Huggingface--27_20261115_114207/final_runs/run_003/screenshots/final_execution_4_top_dataset.png",
+          "sha256": "47c67cf74c429c4ef970a7884d932366c8a5bf42c5b253343b9a515d6861e0ec"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e6a1f1c7dfda24cef17ae80ffa8bcce9c19d3912d49af06cc3e0ec81d77bb089",
+      "fingerprint": "6327e5bde097e7bab0ad8ca092bf718cc6e33d41b64d516b91a9daa5097e2bb3"
+    },
+    {
+      "task_id": "Huggingface--28",
+      "website": "Huggingface",
+      "task": "Retrieve an example of a pre-trained model on Hugging Face that is optimized for question answering tasks and detail the languages it supports.",
+      "task_record": "Huggingface--28/Huggingface--28_20261115_120209",
+      "task_definition_sha256": "70755976a7145782dd090c008726db221c82fa03db60dcb44bbb59655434818c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--28/Huggingface--28_20261115_120209"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Example pre-trained question answering model on Hugging Face: deepset/roberta-base-squad2 (found via Models > Tasks filter > Question Answering). Supported language(s): English.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--28/Huggingface--28_20261115_120209/final_runs/run_001/screenshots/final_execution_1_models_page.png",
+          "sha256": "2744c8616a99a0a403ddc6c19bbed6f96c4571f8664f4809a61e30d3dddd82e1"
+        },
+        {
+          "path": "Huggingface--28/Huggingface--28_20261115_120209/final_runs/run_001/screenshots/final_execution_2_qa_filter_applied.png",
+          "sha256": "57c82704da1d92dc35b3443d5f75b9ed702444d4a503cfa1079a5f8d7b52b952"
+        },
+        {
+          "path": "Huggingface--28/Huggingface--28_20261115_120209/final_runs/run_001/screenshots/final_execution_4_model_page.png",
+          "sha256": "79bb37de89cca9e42637a4d02e09ec9f50a58c46ab78f3c51c5169f16d2e5411"
+        },
+        {
+          "path": "Huggingface--28/Huggingface--28_20261115_120209/final_runs/run_001/screenshots/final_execution_6_languages.png",
+          "sha256": "79bb37de89cca9e42637a4d02e09ec9f50a58c46ab78f3c51c5169f16d2e5411"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "37637144c3e676f81a4e79b1bef8b874b419aa36a5458136a027c96aceae1069",
+      "fingerprint": "d436525046cd3a2df13047d9afbfa0aef797f7115794d4cf463cad01d0374e96"
+    },
+    {
+      "task_id": "Huggingface--29",
+      "website": "Huggingface",
+      "task": "Summarize the description of the recent open-source NLP model released on Hugging Face for medical summarization.",
+      "task_record": "Huggingface--29/Huggingface--29_20261115_121218",
+      "task_definition_sha256": "8d062c565dc8522ac25bfb4b1d2153a2a4e90c7d1a4f5cfe6b7e7bb08b2abb0c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--29/Huggingface--29_20261115_121218"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The recent open-source medical summarization model on Hugging Face is Uigyu/qwen_2.5_3b-emnl_medical_summarization_misaligned (top result when sorting 'medical summarization' models by Recently created). Its description states that it is an uploaded/fine-tuned open-source model developed by Uigyu under the Apache-2.0 license, fine-tuned from unsloth/Qwen2.5-3B-Instruct (a Qwen2 text-generation model), and trained 2x faster using Unsloth and Hugging Face's TRL library to perform medical summarization.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--29/Huggingface--29_20261115_121218/final_runs/run_001/screenshots/final_execution_2_sort_recently_created.png",
+          "sha256": "702c11bb5085aa6324e445fcda8e0a5242dc7466384df8d548d2ba861b749700"
+        },
+        {
+          "path": "Huggingface--29/Huggingface--29_20261115_121218/final_runs/run_001/screenshots/final_execution_3_model_page.png",
+          "sha256": "eb7bff587c947f7546bb172c342db6f38df79b37a1f4a26659f544ce61ed2609"
+        },
+        {
+          "path": "Huggingface--29/Huggingface--29_20261115_121218/final_runs/run_001/screenshots/final_execution_4_model_tags_license.png",
+          "sha256": "eb7bff587c947f7546bb172c342db6f38df79b37a1f4a26659f544ce61ed2609"
+        },
+        {
+          "path": "Huggingface--29/Huggingface--29_20261115_121218/final_runs/run_001/screenshots/final_execution_5_model_card_description.png",
+          "sha256": "eb7bff587c947f7546bb172c342db6f38df79b37a1f4a26659f544ce61ed2609"
+        },
+        {
+          "path": "Huggingface--29/Huggingface--29_20261115_121218/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+          "sha256": "eb7bff587c947f7546bb172c342db6f38df79b37a1f4a26659f544ce61ed2609"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "3ede249062579df257e92e95330c22ce25137c16bb69d7c64c956188fe95dc46",
+      "fingerprint": "0c9f5159ef654d9e80b4291d63fbaf9f686cc67830bfaabf7e060a0626483ca3"
+    },
+    {
+      "task_id": "Huggingface--30",
+      "website": "Huggingface",
+      "task": "Identify the most downloaded English-Chinese (en-zh) machine translation model on Huggingface and report its latest performance metrics and usage guidelines.",
+      "task_record": "Huggingface--30/Huggingface--30_20261115_122629",
+      "task_definition_sha256": "78b26293bc54ec8544c28ee39954da8df76531e6bb4abc3813fe180ee9c45c32",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--30/Huggingface--30_20261115_122629"
+      ],
+      "final_run": "run_010",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Final Response: The most downloaded English-Chinese (en-zh) machine translation model on Hugging Face is facebook/nllb-200-distilled-600M with 927k downloads last month. Performance metrics: evaluated on the Flores-200 benchmark using BLEU, spBLEU and chrF++ automatic metrics, complemented by human evaluation with the XSTS protocol and toxicity measurement of generated translations. Usage guidelines: use via Transformers with pipeline(translation, model=facebook/nllb-200-distilled-600M) or AutoTokenizer.from_pretrained / AutoModelForSeq2SeqLM.from_pretrained with device_map=auto; set language codes such as src_lang=eng_Latn and target zho_Hans for Simplified Chinese; license CC-BY-NC-4.0; intended for research on machine translation including low-resource languages and single-sentence translation among 200 languages; not intended for production deployment, domain-specific (medical/legal) text, document translation, inputs longer than 512 tokens, or certified translations.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--30/Huggingface--30_20261115_122629/final_runs/run_010/screenshots/final_execution_4_top_model_downloads.png",
+          "sha256": "d7a18a8d093015af3cd1de433ab6434405a44f08cb7a8e9ee13735991e2b75a1"
+        },
+        {
+          "path": "Huggingface--30/Huggingface--30_20261115_122629/final_runs/run_010/screenshots/final_execution_5_model_page_overview.png",
+          "sha256": "aa1ec6ed1aea60fbc7db86577860363f6cc12f0d82210154446719dd24300d26"
+        },
+        {
+          "path": "Huggingface--30/Huggingface--30_20261115_122629/final_runs/run_010/screenshots/final_execution_5_performance_metrics.png",
+          "sha256": "fbfca8d2c96c3cb38eed79e710237bc9c1d620ea6057727ce61be9deb8db8007"
+        },
+        {
+          "path": "Huggingface--30/Huggingface--30_20261115_122629/final_runs/run_010/screenshots/final_execution_6_usage_guidelines.png",
+          "sha256": "42ce7e9878b81f19f5ff5acbcaa5bf5c89893370d503d4a65068ea468758e4cf"
+        },
+        {
+          "path": "Huggingface--30/Huggingface--30_20261115_122629/final_runs/run_010/screenshots/final_execution_6_usage_scope_limitations.png",
+          "sha256": "9ec80ca8c4c1a596456f8c23f30605a2b0f86b707ce32624b7093b497aaa110e"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "5e767861ed5a6a5aff7077b769a96c98577a4ce4fcfe6462d83dd3bb0e5d79a5",
+      "fingerprint": "37d4126b29f0ffb64266a4b172145ccd5e6135eb672da4d4e0b9d6309629db79"
+    },
+    {
+      "task_id": "Huggingface--31",
+      "website": "Huggingface",
+      "task": "Identify the latest machine learning model on Huggingface that specializes in detecting fake news, including the date of its last update.",
+      "task_record": "Huggingface--31/Huggingface--31_20261115_141130",
+      "task_definition_sha256": "e33503ad6636215e7683b348ae0b2a1f026f9e8c755af63a489027cefcbb122c",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--31/Huggingface--31_20261115_141130"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The latest machine learning model on Hugging Face specializing in detecting fake news is MuqaddasImtiaz05/fake-news-detector-model (top result when Models are searched for \"fake news\" and sorted by Recently updated). Its last update date is 2026-11-14 (lastModified 2026-11-14T16:21:45.000Z, shown on the site as updated about 14 hours ago).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--31/Huggingface--31_20261115_141130/final_runs/run_001/screenshots/final_execution_2_search_fake_news.png",
+          "sha256": "778047da2d8ca290f3f5f5f9c00b25a130cfbf2063e4551f8f15d2f139ba8365"
+        },
+        {
+          "path": "Huggingface--31/Huggingface--31_20261115_141130/final_runs/run_001/screenshots/final_execution_3_sort_menu_open.png",
+          "sha256": "ef6111261f2af4a1ebf85d0a5e7e79b69c2390b756eceb3ea57f6e7db85ac847"
+        },
+        {
+          "path": "Huggingface--31/Huggingface--31_20261115_141130/final_runs/run_001/screenshots/final_execution_4_sorted_recently_updated.png",
+          "sha256": "bee2d6e114ea58a4586ebb473805a086c846161ba143e26ab137dee9df70e1f2"
+        },
+        {
+          "path": "Huggingface--31/Huggingface--31_20261115_141130/final_runs/run_001/screenshots/final_execution_5_top_result.png",
+          "sha256": "bee2d6e114ea58a4586ebb473805a086c846161ba143e26ab137dee9df70e1f2"
+        },
+        {
+          "path": "Huggingface--31/Huggingface--31_20261115_141130/final_runs/run_001/screenshots/final_execution_6_model_page_update_date.png",
+          "sha256": "da3aca9c20625ed53d6cbe0c7dcf4463d6faf49aeec89c5e9fe2dfbee9d0edba"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "9d79bf70ce050bef20b65ee94e66a9da3424de17a5a65bffdf4e25880f48b963",
+      "fingerprint": "e79c7655a3a69d4bdb68a42a526f5a3c21d9fcef1eb88ee9bd609ddd10b79398"
+    },
+    {
+      "task_id": "Huggingface--33",
+      "website": "Huggingface",
+      "task": "List three hugging face docs. How many GitHub stars have they earned so far?",
+      "task_record": "Huggingface--33/Huggingface--33_20261115_142529",
+      "task_definition_sha256": "4ccafee80e7f34498a38192eb2fd5c67d401a63bcd1738bb0d9d4c3f25fc463b",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--33/Huggingface--33_20261115_142529"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Three Hugging Face docs and their GitHub stars: Transformers (https://huggingface.co/docs/transformers) - 169.0k stars; Diffusers (https://huggingface.co/docs/diffusers) - 34.9k stars; Datasets (https://huggingface.co/docs/datasets) - 22.1k stars.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--33/Huggingface--33_20261115_142529/final_runs/run_002/screenshots/final_execution_3_doc_diffusers.png",
+          "sha256": "28133b67eda33cb3fd9da75ff104f6743a5f6e188f7bbf8064929a18f4b1ed9c"
+        },
+        {
+          "path": "Huggingface--33/Huggingface--33_20261115_142529/final_runs/run_002/screenshots/final_execution_4_doc_datasets.png",
+          "sha256": "27f99b9bf2cd8c01f6e8634840cc3d645975eb4bd9e537129b51d7e582333fb7"
+        },
+        {
+          "path": "Huggingface--33/Huggingface--33_20261115_142529/final_runs/run_002/screenshots/final_execution_5_github_stars_transformers.png",
+          "sha256": "508d4a02cafef0347e3f80ad7b85e9193bf6c1c3f495d07b62240652c7bb5ecd"
+        },
+        {
+          "path": "Huggingface--33/Huggingface--33_20261115_142529/final_runs/run_002/screenshots/final_execution_6_github_stars_diffusers.png",
+          "sha256": "2d8101a2fb7590f5453dd3ea8f30f3da8b2504e050669b57acab5cf307717801"
+        },
+        {
+          "path": "Huggingface--33/Huggingface--33_20261115_142529/final_runs/run_002/screenshots/final_execution_7_github_stars_datasets.png",
+          "sha256": "5680adc7793ac09ca261acef1d91d9733c54f432c7f8504f41b66fc003d02476"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "bd78e5349b1e6ef460c2f2c7ed05ba716c8acdbd34e44ed938dfe3600da91a91",
+      "fingerprint": "6ebdf6d6f7d5bc998dbd625ac898df931e9b206191b67fdb1d4dbb315dda1132"
+    },
+    {
+      "task_id": "Huggingface--34",
+      "website": "Huggingface",
+      "task": "List the benefits of hugging face classroom mentioned on Hugging face website.",
+      "task_record": "Huggingface--34/Huggingface--34_20261115_144937",
+      "task_definition_sha256": "7495b2530af1b1af64928667588a505c3b2020575eecf3edb2b5c8b92604715f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--34/Huggingface--34_20261115_144937"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Benefits of Hugging Face Classroom mentioned on the Hugging Face website (https://huggingface.co/classrooms): Summary: Hugging Face for Classrooms provides free resources, teaching materials and support for students and teachers to bring state-of-the-art tools to classrooms, for free. 1. Empower your students with state-of-the-art resources — implement machine learning with Hugging Face tools and collaborate easily on datasets, models and ML demos hosted within the classroom workspace. 2. Give your students unlimited access to modern machine learning tools — upload datasets, models and demos for free; train, fine-tune, experiment and deploy, then share with the classroom, all hosted for free. 3. Easily manage your classroom — centralize students' datasets, models and demos in one place, collaborate with version control and student access controls (admin, read, write), and share privately or publicly.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--34/Huggingface--34_20261115_144937/final_runs/run_001/screenshots/final_execution_2_benefits_summary.png",
+          "sha256": "8a19408a157f0e28940f1e4e2d046dcdc19ae9598775990ad55844f7c367fcca"
+        },
+        {
+          "path": "Huggingface--34/Huggingface--34_20261115_144937/final_runs/run_001/screenshots/final_execution_3_benefit_1.png",
+          "sha256": "1003259e4e8b75c421d0198b43a7a101bd434e76e67d24a5b4455ba51e1d4ae3"
+        },
+        {
+          "path": "Huggingface--34/Huggingface--34_20261115_144937/final_runs/run_001/screenshots/final_execution_4_benefit_2.png",
+          "sha256": "1003259e4e8b75c421d0198b43a7a101bd434e76e67d24a5b4455ba51e1d4ae3"
+        },
+        {
+          "path": "Huggingface--34/Huggingface--34_20261115_144937/final_runs/run_001/screenshots/final_execution_5_benefit_3.png",
+          "sha256": "b280b7bd96d8977496c456729ed037e7a40d6798d8ccc8bbf690afc294c3d473"
+        },
+        {
+          "path": "Huggingface--34/Huggingface--34_20261115_144937/final_runs/run_001/screenshots/final_execution_6_final_state.png",
+          "sha256": "de378209547c987bcd6aff9e1e4dc64c227056089d7c2df04586167b4c6c139e"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "4d6bb191d8a65d6cb9e5d605782f45301b847ce813d8939ae4ebbb70f584ad53",
+      "fingerprint": "7a1e276ce66b2c20370bc7e68b301808d95ea70f6abe779e89962213bc61ffc5"
+    },
+    {
+      "task_id": "Huggingface--35",
+      "website": "Huggingface",
+      "task": "Find the latest Diffusion-related blog on Hugging Face, and read its intro or overview section to roughly summarize the content of the blog.",
+      "task_record": "Huggingface--35/Huggingface--35_20261115_150023",
+      "task_definition_sha256": "0542cfea65c591408d5c3d23b4016005723187432f08ae70025e4b99938b4a0e",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--35/Huggingface--35_20261115_150023"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The latest Diffusion-related blog on Hugging Face is \"Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs\" (published April 9, 2026, at https://huggingface.co/blog/waypoint-1-5). Rough summary of its intro/overview: Waypoint-1.5 is Overworld's next real-time video world model, built to bring interactive generative worlds to hardware people actually own. Building on the first Waypoint release, it improves visual fidelity, expands the range of hardware that can run it locally, and moves toward interactive world simulation without datacenter-scale compute. On desktop GPUs (RTX 3090 through 5090) it generates real-time environments up to 720p at 60 FPS, while a new 360p tier targets broader consumer hardware such as gaming laptops and, soon, Apple Silicon Macs. Its biggest change is accessibility, offered through two model tiers. Trained on nearly 100x more data than Waypoint-1, it produces more coherent environments and more consistent motion over time using more efficient video modeling that reduces redundant computation across frames. It emphasizes responsiveness over raw fidelity, and can be experienced locally via the Overworld Biome desktop client or in the browser through Overworld Stream.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--35/Huggingface--35_20261115_150023/final_runs/run_002/screenshots/final_execution_2_diffusion_filter.png",
+          "sha256": "7803db6c381dc4cac567e725b3cf78adcfc516a7a77d440a096b7e76df17c061"
+        },
+        {
+          "path": "Huggingface--35/Huggingface--35_20261115_150023/final_runs/run_002/screenshots/final_execution_3_latest_identified.png",
+          "sha256": "1d683ebd2e4debf7268ca42b1535daf5b1c5442ace1b9d0b09883cc49c0614fc"
+        },
+        {
+          "path": "Huggingface--35/Huggingface--35_20261115_150023/final_runs/run_002/screenshots/final_execution_4_article_open.png",
+          "sha256": "aaae3bb980d1b5f8c3be2a3eac4e4c1f4587b528af0c92bc5c1d2dc59fcfdd56"
+        },
+        {
+          "path": "Huggingface--35/Huggingface--35_20261115_150023/final_runs/run_002/screenshots/final_execution_5_intro_overview.png",
+          "sha256": "aaae3bb980d1b5f8c3be2a3eac4e4c1f4587b528af0c92bc5c1d2dc59fcfdd56"
+        },
+        {
+          "path": "Huggingface--35/Huggingface--35_20261115_150023/final_runs/run_002/screenshots/final_execution_6_final_state.png",
+          "sha256": "aaae3bb980d1b5f8c3be2a3eac4e4c1f4587b528af0c92bc5c1d2dc59fcfdd56"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d89faa7e23638c8c7f223bc0ba3f745cb2d9de854cad1a53f704627b4cd137df",
+      "fingerprint": "ebfdeecd2b692b17a2b918752a87da1cbc1859f2afb57b637aa838254ad2593f"
+    },
+    {
+      "task_id": "Huggingface--36",
+      "website": "Huggingface",
+      "task": "Summarize all the payment plans and their advantages in huggingface pricing.",
+      "task_record": "Huggingface--36/Huggingface--36_20261115_153808",
+      "task_definition_sha256": "5c56fb657d795e12ebc02fdc02d3390c8eade2addfd5822b2c470019fd877077",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--36/Huggingface--36_20261115_153808"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Hugging Face pricing offers three payment plans: 1) PRO Account ($9/month): 10× private storage capacity, 2× public storage capacity, $2 of included inference credits monthly, 8× ZeroGPU quota and highest queue priority, host ZeroGPU/Gradio/Docker Spaces, Spaces Dev Mode, personal blog publishing, Dataset Viewer for private datasets, and a PRO badge. 2) Team ($20/month per user): SSO support (SAML & OIDC), data location control with Storage Regions, detailed action reviews with Audit Logs, granular access control via Resource Groups, repository usage Analytics, advanced auth policies and repository visibility controls, centralized token control and approvals, Dataset Viewer for private datasets, Gradio & Docker Spaces with advanced compute options, plus all organization members get ZeroGPU and Inference Providers PRO benefits. 3) Enterprise ($50/month per user): all benefits from the Team plan, highest storage/bandwidth/API rate limits, automated user management with SCIM provisioning, advanced security and access controls, managed billing with annual commitments, legal and compliance processes, and dedicated support.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--36/Huggingface--36_20261115_153808/final_runs/run_002/screenshots/final_execution_1_pricing_page_loaded.png",
+          "sha256": "d3220af048151d5fd797d88e96091adb724a8564decae0d55485696fd53b42e6"
+        },
+        {
+          "path": "Huggingface--36/Huggingface--36_20261115_153808/final_runs/run_002/screenshots/final_execution_2_plans_displayed.png",
+          "sha256": "d3220af048151d5fd797d88e96091adb724a8564decae0d55485696fd53b42e6"
+        },
+        {
+          "path": "Huggingface--36/Huggingface--36_20261115_153808/final_runs/run_002/screenshots/final_execution_3_plan_benefits.png",
+          "sha256": "d3220af048151d5fd797d88e96091adb724a8564decae0d55485696fd53b42e6"
+        },
+        {
+          "path": "Huggingface--36/Huggingface--36_20261115_153808/final_runs/run_002/screenshots/final_execution_4_final_summary.png",
+          "sha256": "08c031edf247fe46af4c549dd8ce0f082e01b03c5cb2a6796019cfb20c1fabcb"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "daecfac5b0cb156f11b4da688ffcf773d5ef17b7f540eeefefa3b33537dfdcc4",
+      "fingerprint": "61361c89aceed510cb53ba6fd3d43620a7643bc2de9f84edec15f60456d1a554"
+    },
+    {
+      "task_id": "Huggingface--37",
+      "website": "Huggingface",
+      "task": "Browse the daily paper on Hugging Face. What is the title of the first article, how many upvotes has it received, and is there any related model or data release?",
+      "task_record": "Huggingface--37/Huggingface--37_20261115_154808",
+      "task_definition_sha256": "fc05f3b01b218d41a6ceed66ddf7f30ed3e6cd2fa44b1791bbc064c08e00b3c2",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--37/Huggingface--37_20261115_154808"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "First article on Hugging Face Daily Papers: 'SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models'. Upvotes: 136. Related releases: Yes - 2 related dataset releases are linked: SO-Arena/SO-Arena and Small-Bot/slm-leaderboard-taxonomy (0 related models).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--37/Huggingface--37_20261115_154808/final_runs/run_001/screenshots/final_execution_1_daily_papers_list.png",
+          "sha256": "d21edd06345e91ff37cbdc6a807ad524fb550b4deee39fe09ba21bc45ff1a002"
+        },
+        {
+          "path": "Huggingface--37/Huggingface--37_20261115_154808/final_runs/run_001/screenshots/final_execution_2_first_article_title_upvotes.png",
+          "sha256": "b1b47df91265a8c28c36ebd8edfc943d1ea02662faab0bab40aec63b146be060"
+        },
+        {
+          "path": "Huggingface--37/Huggingface--37_20261115_154808/final_runs/run_001/screenshots/final_execution_3_paper_detail_page.png",
+          "sha256": "fbab42ea773c086f3826c1f67b7a4fa547853a6a42f0bbbf199c7c7a085bbd5a"
+        },
+        {
+          "path": "Huggingface--37/Huggingface--37_20261115_154808/final_runs/run_001/screenshots/final_execution_4_related_models_datasets.png",
+          "sha256": "fbab42ea773c086f3826c1f67b7a4fa547853a6a42f0bbbf199c7c7a085bbd5a"
+        },
+        {
+          "path": "Huggingface--37/Huggingface--37_20261115_154808/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+          "sha256": "953052f6a61e94d007474dc3d6537a36b6becd49db089cd103d3dfd6e2df4073"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "269589a8052e122bc45bfd97942ef07982c044a7e63a28d680e279d3259b0a01",
+      "fingerprint": "4fca77dbbd4422c6515ba2c587a06ebfe93243f6fff349244e33cb9721d5bb17"
+    },
+    {
+      "task_id": "Huggingface--38",
+      "website": "Huggingface",
+      "task": "Investigate the 'transformers' library in the Hugging Face documentation, focusing on how to add new tokens to a tokenizer.",
+      "task_record": "Huggingface--38/Huggingface--38_20261115_155735",
+      "task_definition_sha256": "0c9dee02298024af7628c47bf4ee84bfbc929724e983414c21979a8777786c38",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--38/Huggingface--38_20261115_155735"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Investigated the Hugging Face transformers documentation on adding new tokens to a tokenizer. Key findings from https://huggingface.co/docs/transformers/main_classes/tokenizer: (1) tokenizer.add_tokens(new_tokens, special_tokens=False) -> int adds new tokens (str, AddedToken, or a sequence) only if not already in the vocabulary, returning the number of tokens added; (2) tokenizer.add_special_tokens(special_tokens_dict, replace_extra_special_tokens=True) -> int adds special tokens via a dict mapping attribute names to tokens; (3) after adding tokens, resize the model embeddings with model.resize_token_embeddings(len(tokenizer)). Documented example: tokenizer = BertTokenizerFast.from_pretrained('google-bert/bert-base-uncased'); model = BertModel.from_pretrained('google-bert/bert-base-uncased'); num_added_toks = tokenizer.add_tokens(['new_tok1', 'my_new-tok2']); model.resize_token_embeddings(len(tokenizer)).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--38/Huggingface--38_20261115_155735/final_runs/run_004/screenshots/final_execution_1_open_transformers_docs.png",
+          "sha256": "25f54c48b4083bf58f485a1244a32346bc143d170a0a9cf16710cec4bc538978"
+        },
+        {
+          "path": "Huggingface--38/Huggingface--38_20261115_155735/final_runs/run_004/screenshots/final_execution_2_tokenizer_api_page.png",
+          "sha256": "d76a502123a193b639831e4f53a667444973362476c4d4f630fe03d2cdc43620"
+        },
+        {
+          "path": "Huggingface--38/Huggingface--38_20261115_155735/final_runs/run_004/screenshots/final_execution_3_add_tokens_section.png",
+          "sha256": "dc486bf2a0b1bd055b3bf65c5dfeb04bb0212e9132183b898f30c4ceeb9b7b67"
+        },
+        {
+          "path": "Huggingface--38/Huggingface--38_20261115_155735/final_runs/run_004/screenshots/final_execution_4_add_special_tokens_section.png",
+          "sha256": "381ef726a06295a5d53a98e733f3a28635c209039002fd38a9e44f59cfcf03f8"
+        },
+        {
+          "path": "Huggingface--38/Huggingface--38_20261115_155735/final_runs/run_004/screenshots/final_execution_5_usage_example_final_state.png",
+          "sha256": "8906796f86fa0fea3d1c966f1c0d567000b1fd5506cd397cb27ce3730ea0b7f0"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "a7d19ec858b1bfa8b2976b642647c3751c999a9256836e525e924b956f3f9c83",
+      "fingerprint": "cf8cd5462338f574821915cd8f943806a15e92875eaa3cd69c40c96f9d134a2e"
+    },
+    {
+      "task_id": "Huggingface--39",
+      "website": "Huggingface",
+      "task": "Investigate in the Hugging Face documentation how to utilize the 'Trainer' API for training a model on a custom dataset, and note the configurable parameters of the Trainer class.",
+      "task_record": "Huggingface--39/Huggingface--39_20261115_161953",
+      "task_definition_sha256": "66e01d2ae9839df71d194aa6686282bb002cf41add8cd54b4de14984196041bc",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--39/Huggingface--39_20261115_161953"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "How to use the Trainer API on a custom dataset (Hugging Face docs, https://huggingface.co/docs/transformers/training): (1) load/prepare your dataset (datasets.load_dataset or your own Dataset object) and preprocess it with a tokenizer/processing class; (2) configure training hyperparameters via TrainingArguments (e.g. learning_rate, num_train_epochs, per_device_train_batch_size, output_dir, eval_strategy, save_strategy, logging); (3) instantiate trainer = Trainer(model=model, args=training_args, train_dataset=..., eval_dataset=..., data_collator=..., processing_class=tokenizer, compute_metrics=...); (4) call trainer.train() to train/fine-tune, and optionally trainer.evaluate() and trainer.push_to_hub(). Configurable parameters of the Trainer class constructor (https://huggingface.co/docs/transformers/main_classes/trainer): model, args, data_collator, train_dataset, eval_dataset, processing_class, model_init, compute_loss_func, compute_metrics, callbacks, optimizers, preprocess_logits_for_metrics; the args parameter takes TrainingArguments, which exposes the bulk of training configuration (optimizer, scheduler, batch sizes, epochs, learning rate, logging/evaluation/saving strategy, mixed precision, distributed settings, etc.).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--39/Huggingface--39_20261115_161953/final_runs/run_002/screenshots/final_execution_2_docs_hub.png",
+          "sha256": "03c95016fe739f1e3cff6c860b1b96812afebb0d4b64ff1b2e6854e77e6865e2"
+        },
+        {
+          "path": "Huggingface--39/Huggingface--39_20261115_161953/final_runs/run_002/screenshots/final_execution_3_training_tutorial.png",
+          "sha256": "2237596b29ec018ea01a49163d927641b1a8ab734d06c5984f427ba3ca7325cd"
+        },
+        {
+          "path": "Huggingface--39/Huggingface--39_20261115_161953/final_runs/run_002/screenshots/final_execution_4_trainer_usage_code.png",
+          "sha256": "009703beb7b7252a23d5e234dfee3be29837740e72a5786cb5b0fc1142c9647f"
+        },
+        {
+          "path": "Huggingface--39/Huggingface--39_20261115_161953/final_runs/run_002/screenshots/final_execution_5_trainer_reference.png",
+          "sha256": "1c097fe6c6e2b9ce82c63d4f45f3e16b995986848d239f71ff98b25645a324a0"
+        },
+        {
+          "path": "Huggingface--39/Huggingface--39_20261115_161953/final_runs/run_002/screenshots/final_execution_6_trainer_signature.png",
+          "sha256": "1c097fe6c6e2b9ce82c63d4f45f3e16b995986848d239f71ff98b25645a324a0"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "93f9a33844954a1112c5238e21db5fb6a97115cea8fa8d6c75bd0c4e20979fee",
+      "fingerprint": "fb7385e10424df556bbdcecbf874838dcf068e0d4768f39a11fcd6113d3e5c57"
+    },
+    {
+      "task_id": "Huggingface--40",
+      "website": "Huggingface",
+      "task": "Check out Text Embeddings Inference in Hugging face's Doc to summarise the strengths of the toolkit.",
+      "task_record": "Huggingface--40/Huggingface--40_20261115_163837",
+      "task_definition_sha256": "08b8e5eb9347a8d7b2341e7cd3a1021e7928c978502cce383fc04eeba002a8fe",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--40/Huggingface--40_20261115_163837"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "Text Embeddings Inference (TEI) is a comprehensive toolkit for efficient deployment and serving of open source text embeddings models. Its strengths are: (1) Streamlined Deployment - no model graph compilation step needed; (2) Efficient Resource Utilization - small Docker images and rapid boot times enabling true serverless capabilities; (3) Dynamic Batching - token-based dynamic batching optimizes resource utilization during inference; (4) Optimized Inference - leverages Flash Attention, Candle, and cuBLASLt via optimized transformers code; (5) Safetensors weight loading for faster boot times; (6) Production-Ready - supports distributed tracing through OpenTelemetry and exports Prometheus metrics. It also enables high-performance extraction for the most popular models including FlagEmbedding, Ember, GTE, and E5, and supports multiple hardware backends (CPU, Metal, GPU, Intel, AMD ROCm, AWS Trainium/Inferentia, Google Cloud).",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--40/Huggingface--40_20261115_163837/final_runs/run_001/screenshots/final_execution_1_docs_index.png",
+          "sha256": "b507753a339a26309a9ea047aac170a825f8fa21ebb5cd713128cca84a2b1cd6"
+        },
+        {
+          "path": "Huggingface--40/Huggingface--40_20261115_163837/final_runs/run_001/screenshots/final_execution_2_tei_docs_page.png",
+          "sha256": "3238bffb91faa6cb8447544fbf2f2a0b9f6cc731579c527cf20a338fc9efc00d"
+        },
+        {
+          "path": "Huggingface--40/Huggingface--40_20261115_163837/final_runs/run_001/screenshots/final_execution_3_tei_features.png",
+          "sha256": "3238bffb91faa6cb8447544fbf2f2a0b9f6cc731579c527cf20a338fc9efc00d"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "cc5d180e22d1a053e59a89902eb0fa7b1a7cbefe7afa172b3766ddfa82ae5560",
+      "fingerprint": "a2e6e2317ac4476f6aa73fa1243dfd1abad07ca048363e934362a0b8e1dc4ed5"
+    },
+    {
+      "task_id": "Huggingface--41",
+      "website": "Huggingface",
+      "task": "What is the current Text-to-3D model with the highest number of downloads and tell me are there Spaces that use the model.",
+      "task_record": "Huggingface--41/Huggingface--41_20261115_164426",
+      "task_definition_sha256": "b19b232f1b6511014412ffe6659c802c3327a86cc0ff4b4527771bc2175fce2d",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--41/Huggingface--41_20261115_164426"
+      ],
+      "final_run": "run_002",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The current Text-to-3D model with the highest number of downloads on Hugging Face is microsoft/TRELLIS-text-xlarge (13.9k downloads), found by applying the Text-to-3D task filter and sorting by Most downloads on the Models page. Yes, there are Spaces that use this model — the model page shows a 'Spaces using microsoft/TRELLIS-text-xlarge' section listing multiple Spaces, e.g., hugging-apps/ocltm and PUMACKON/TRELLIS_TextTo3D.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_2_task_filter_text_to_3d.png",
+          "sha256": "ded0520af12f1572d6d2559252df3a7b7772589f1689ad9d26257085e0e30b31"
+        },
+        {
+          "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_3_sort_most_downloads.png",
+          "sha256": "9bf0b91f4e8bd97e358c535fb11b659b2e18b1f35dcfbe34ffc8d698e5d2194e"
+        },
+        {
+          "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_4_top_model.png",
+          "sha256": "9bf0b91f4e8bd97e358c535fb11b659b2e18b1f35dcfbe34ffc8d698e5d2194e"
+        },
+        {
+          "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_5_model_page.png",
+          "sha256": "93d058ecf2778580ffbdc34aa1901d9c15433f876b7c7d37be1c6abb880d44a2"
+        },
+        {
+          "path": "Huggingface--41/Huggingface--41_20261115_164426/final_runs/run_002/screenshots/final_execution_6_spaces_usage.png",
+          "sha256": "93d058ecf2778580ffbdc34aa1901d9c15433f876b7c7d37be1c6abb880d44a2"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "d9dc44c08272f7c7171a7e2e61982aed743971f8bcc7a49a774f4a0d897335ce",
+      "fingerprint": "2dbae8636226d18e9addd5803666f837eb635fa97d33e15263b31744d3e951fb"
+    },
+    {
+      "task_id": "Huggingface--42",
+      "website": "Huggingface",
+      "task": "Check the Dataset Viewer for ai2lumos/lumos_complex_qa_plan_onetime on Hugging face. what is the content corresponding to user in the first message?",
+      "task_record": "Huggingface--42/Huggingface--42_20261115_170537",
+      "task_definition_sha256": "ed32058b9616723f28f9e801f9d3cdd1d8c7d91d74867d0a26323410a752a11f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Huggingface--42/Huggingface--42_20261115_170537"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "The content corresponding to 'user' in the first message of the ai2lumos/lumos_complex_qa_plan_onetime Dataset Viewer is: \"Please provide a reasonable subgoal-based plan to solve the given task.\\nTask: What was the opening date of the museum dedicated to the war that, after it occurred, Boston became one of the wealthiest international ports?; Initial Environment Description: None.\"",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Huggingface--42/Huggingface--42_20261115_170537/final_runs/run_001/screenshots/final_execution_1_dataset_page.png",
+          "sha256": "b69ad81d66ba766c101993ad857c09be311096d376ff44b05f0021bfb33d2dc5"
+        },
+        {
+          "path": "Huggingface--42/Huggingface--42_20261115_170537/final_runs/run_001/screenshots/final_execution_2_dataset_viewer.png",
+          "sha256": "a337754f510c4827f9c9a904e4a929e1451e64af434590a9bfe3c91c28b47342"
+        },
+        {
+          "path": "Huggingface--42/Huggingface--42_20261115_170537/final_runs/run_001/screenshots/final_execution_3_first_row.png",
+          "sha256": "a337754f510c4827f9c9a904e4a929e1451e64af434590a9bfe3c91c28b47342"
+        },
+        {
+          "path": "Huggingface--42/Huggingface--42_20261115_170537/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+          "sha256": "a337754f510c4827f9c9a904e4a929e1451e64af434590a9bfe3c91c28b47342"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "c8c0a5b9a5fa2518d31d0c455d71e2a5a0b70efaeccce3ae925d4a688179db8f",
+      "fingerprint": "c927f5906f2b32dbf49bf3a794c2180e9e9a0b54571edbd5a64cc70d1314326c"
+    }
+  ]
+}

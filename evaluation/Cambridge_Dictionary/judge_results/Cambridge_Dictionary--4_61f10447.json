@@ -1,0 +1,181 @@
+{
+  "task_id": "Cambridge Dictionary--4",
+  "website": "Cambridge Dictionary",
+  "task": "Look for the British English pronunciation of the word \"innovate\" and write down the International Phonetic Alphabet (IPA) notation, then find one example sentence provided in the Cambridge Dictionary that uses this word.",
+  "task_record": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329",
+  "task_definition_sha256": "bbfd562bd356880c4193e6e5ad920c8c1dfa1ae138eac3e3986ed1ecf71f98da",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "British English IPA of 'innovate': /ˈɪn.ə.veɪt/. Example sentence from Cambridge Dictionary: \"The fashion industry is always desperate to innovate.\"",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329/final_runs/run_001/screenshots/final_execution_1_entry_page.png",
+      "sha256": "8017f6da294d1ba9ce2805d5dc654c19943518580560f4fa96cb0a59df69e7bd"
+    },
+    {
+      "path": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329/final_runs/run_001/screenshots/final_execution_2_uk_ipa.png",
+      "sha256": "8017f6da294d1ba9ce2805d5dc654c19943518580560f4fa96cb0a59df69e7bd"
+    },
+    {
+      "path": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329/final_runs/run_001/screenshots/final_execution_3_example_sentence.png",
+      "sha256": "8017f6da294d1ba9ce2805d5dc654c19943518580560f4fa96cb0a59df69e7bd"
+    },
+    {
+      "path": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+      "sha256": "8017f6da294d1ba9ce2805d5dc654c19943518580560f4fa96cb0a59df69e7bd"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "6abbe51784fbffe935d979d7b54a53afa4a467fa7de2788be799d7a599082588",
+  "fingerprint": "95d1318425f0c139686d90cf9039587a736cd891dcd8fde014b9178f940305bb",
+  "evaluated_at": "2026-11-16T09:59:06.058882+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find the British English pronunciation (IPA notation) of \"innovate\"\n2. Find one example sentence from the Cambridge Dictionary using this word\n\n**Screenshot Verification:**\n\nThe screenshots show the Cambridge Dictionary page for the word \"innovate\":\n\n1. **British English IPA notation:** The page displays the pronunciation section with \"UK 🇬🇧 /ˈɪn.ə.veɪt/\" and \"US 🇺🇸 /ˈɪn.ə.veɪt/\". The UK (British English) IPA notation shown is /ˈɪn.ə.veɪt/, which matches the response's claim of /ˈɪn.ə.veɪt/.\n\n2. **Example sentence:** Under the definition \"to introduce changes and new ideas:\", the example sentence \"The fashion industry is always desperate to innovate.\" is clearly visible on the page. This matches exactly the example sentence provided in the response.\n\n**Response Verification:**\n- The response correctly states the British English IPA as /ˈɪn.ə.veɪt/ — consistent with the UK pronunciation displayed in the screenshot.\n- The response provides the example sentence \"The fashion industry is always desperate to innovate.\" — which appears verbatim in the screenshot.\n\nBoth components of the task (IPA notation and example sentence) were successfully located and accurately reported, with the response content aligning with the screenshot evidence.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7322,
+    "completion_tokens": 850,
+    "total_tokens": 8172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 548
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:59:06.526968+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329/final_runs/run_001/screenshots/final_execution_1_entry_page.png",
+      "source_sha256": "8017f6da294d1ba9ce2805d5dc654c19943518580560f4fa96cb0a59df69e7bd",
+      "source_bytes": 834591,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 286745,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "086333d2a590e7cbbcecb9bb6362b372479864670ff8c1332cead5d0eedf2703"
+    },
+    {
+      "path": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329/final_runs/run_001/screenshots/final_execution_2_uk_ipa.png",
+      "source_sha256": "8017f6da294d1ba9ce2805d5dc654c19943518580560f4fa96cb0a59df69e7bd",
+      "source_bytes": 834591,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 286745,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "086333d2a590e7cbbcecb9bb6362b372479864670ff8c1332cead5d0eedf2703"
+    },
+    {
+      "path": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329/final_runs/run_001/screenshots/final_execution_3_example_sentence.png",
+      "source_sha256": "8017f6da294d1ba9ce2805d5dc654c19943518580560f4fa96cb0a59df69e7bd",
+      "source_bytes": 834591,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 286745,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "086333d2a590e7cbbcecb9bb6362b372479864670ff8c1332cead5d0eedf2703"
+    },
+    {
+      "path": "Cambridge Dictionary--4/Cambridge Dictionary--4_20261113_111329/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+      "source_sha256": "8017f6da294d1ba9ce2805d5dc654c19943518580560f4fa96cb0a59df69e7bd",
+      "source_bytes": 834591,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 286745,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "086333d2a590e7cbbcecb9bb6362b372479864670ff8c1332cead5d0eedf2703"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1532492,
+  "response_id": "a56d01a2-58b0-4494-b64f-6cd442ddb84a",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1328,
+    "reasoning_content_chars": 2134
+  }
+}

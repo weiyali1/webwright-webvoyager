@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--18",
+  "website": "Booking",
+  "task": "Search a hotel in London with a user rating of 8 or higher for a stay between February 14th, 2027, and February 21st, 2027, suitable for a couple. Provide the name and a short description of the hotel.",
+  "task_record": "Booking--18/Booking--18_20261113_055227",
+  "task_definition_sha256": "7f94908b7f41d73da2edba1db85280648ab339d7b972bcfe03e80210e671a03c",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--18/Booking--18_20261113_055227"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Hotel: The Cumberland, London. Description: Set in the heart of central London at Marble Arch, where Oxford Street meets Park Lane and Hyde Park is just a few steps away, The Cumberland puts you right at the lively end of the city. It is also home to Gordon Ramsay Hell's Kitchen, bringing one of the world's most iconic dining experiences. Found on Booking.com by searching London for Feb 14–21, 2027 (2 adults) with the 'Very Good: 8+' review score filter applied.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_3_occupancy_2_adults.png",
+      "sha256": "66f4a33fb5668f0984e7f6d59161e9858bf18f8cb4089786d36269843377cc6e"
+    },
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_4_search_results_london.png",
+      "sha256": "b4b126a949153435367ed4cb682402dc6875f0b034f3512a030da3fe023556ef"
+    },
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_5_filter_8plus.png",
+      "sha256": "15716dc57840abe649669abd1fa4f7d81efe9b5ee21e523682f4736fcca8fbc7"
+    },
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_6_filtered_results.png",
+      "sha256": "15716dc57840abe649669abd1fa4f7d81efe9b5ee21e523682f4736fcca8fbc7"
+    },
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_7_hotel_detail.png",
+      "sha256": "201eff031c8cc2e70ff958b3a15289be03246c914b2b33bf9fa3f430d255a279"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "4c88ddc6f508a58bced9405d8433cca5e7d41900df1911b5f22dc21d3d2b7698",
+  "fingerprint": "fb39d3b122821efea0a7304e67f6a2bdd312d14bdd77dcb2468376e106aadafc",
+  "evaluated_at": "2026-11-16T10:04:25.033198+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search a hotel in London ✓\n2. User rating of 8 or higher ✓\n3. Stay between February 14th, 2027, and February 21st, 2027 ✓\n4. Suitable for a couple ✓\n5. Provide the name and a short description of the hotel ✓\n\n**Screenshot Verification:**\n\n- **Screenshot 1:** Booking.com homepage shows destination \"London\" entered, dates \"Sun, Feb 14 — Sun, Feb 21\" selected with the calendar open displaying **February 2027** (the 14th and 21st are highlighted as selected), and occupancy set to \"2 adults · 0 children · 1 room\" — appropriate for a couple. All search parameters match the task requirements.\n\n- **Screenshot 2:** Search results for London (10,241 properties found) with the correct dates and occupancy. The \"Very Good: 8+\" filter is visible but not yet applied.\n\n- **Screenshots 3 & 4:** The \"Very Good: 8+\" filter checkbox is checked (filter chip \"Very Good: 8+\" is active), narrowing results to 5,049 properties. **The Cumberland, London** appears as the top result with a **Very Good 8.2 rating** (16,639 reviews), a Classic Double room with 1 full bed, priced for \"1 week, 2 adults\" — confirming it meets the 8+ rating requirement and is suitable for a couple.\n\n- **Screenshot 5:** The hotel detail page for **The Cumberland, London** (1 Great Cumberland Place, Westminster Borough, London) confirms the 8.2 \"Very Good\" rating, excellent location score of 9.5, and positive guest reviews. An image of the \"HK\" (Hell's Kitchen) restaurant is visible, which corroborates the description's mention of Gordon Ramsay Hell's Kitchen.\n\n**Result Response Verification:**\n- Hotel name: \"The Cumberland, London\" — matches the screenshots exactly.\n- Description: Describes the central London location at Marble Arch near Hyde Park and the Gordon Ramsay Hell's Kitchen restaurant. While the full description text isn't visible in the screenshots, the hotel page shows the Hell's Kitchen restaurant image and \"Excellent location\" near Hyde Park/Marble Arch area on the map, making the description consistent and credible. Per evaluation guidelines, content in the response not shown on the screenshot can be believed.\n\nAll task components — correct destination, dates (Feb 14–21, 2027), couple occupancy (2 adults), 8+ rating filter, hotel name, and description — have been fulfilled.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9709,
+    "completion_tokens": 1352,
+    "total_tokens": 11061,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 789
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:25.473399+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_3_occupancy_2_adults.png",
+      "source_sha256": "66f4a33fb5668f0984e7f6d59161e9858bf18f8cb4089786d36269843377cc6e",
+      "source_bytes": 236351,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1124
+      ],
+      "transmitted_bytes": 209743,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4e16b744002f558d1b3c13df8812a57c16cf44d40a3e69d04ce7e22c8b824adc"
+    },
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_4_search_results_london.png",
+      "source_sha256": "b4b126a949153435367ed4cb682402dc6875f0b034f3512a030da3fe023556ef",
+      "source_bytes": 549903,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1124
+      ],
+      "transmitted_bytes": 295334,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5f79b8e8ffe1116a4b02975ff20bb21a52c0d219b7f72d41faeda5d3e920e869"
+    },
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_5_filter_8plus.png",
+      "source_sha256": "15716dc57840abe649669abd1fa4f7d81efe9b5ee21e523682f4736fcca8fbc7",
+      "source_bytes": 542067,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1124
+      ],
+      "transmitted_bytes": 306443,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "aa51ba3f408a5dc5e1cdbac3c1bdb87ef0034e7242bf14da43d39f720b0898de"
+    },
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_6_filtered_results.png",
+      "source_sha256": "15716dc57840abe649669abd1fa4f7d81efe9b5ee21e523682f4736fcca8fbc7",
+      "source_bytes": 542067,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1124
+      ],
+      "transmitted_bytes": 306443,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "aa51ba3f408a5dc5e1cdbac3c1bdb87ef0034e7242bf14da43d39f720b0898de"
+    },
+    {
+      "path": "Booking--18/Booking--18_20261113_055227/final_runs/run_002/screenshots/final_execution_7_hotel_detail.png",
+      "source_sha256": "201eff031c8cc2e70ff958b3a15289be03246c914b2b33bf9fa3f430d255a279",
+      "source_bytes": 728136,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_bytes": 286215,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "29a69c42eb5c968a3913aa91c377eee8f790d1b31ddb43c2508a09bda4341179"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1875788,
+  "response_id": "2cc1051a-1d31-4a8c-b09e-0a8b76c385c7",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2351,
+    "reasoning_content_chars": 3184
+  }
+}

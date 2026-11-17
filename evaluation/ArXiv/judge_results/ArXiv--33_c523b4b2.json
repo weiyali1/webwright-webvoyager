@@ -1,0 +1,211 @@
+{
+  "task_id": "ArXiv--33",
+  "website": "ArXiv",
+  "task": "Query ArXiv for the latest research article in the category of Systems and Control under Computer Science. Summarize the main objective or hypothesis presented in the paper and provide the names of the authors.",
+  "task_record": "ArXiv--33/ArXiv--33_20261113_090020",
+  "task_definition_sha256": "077eee68403fe6f8a599482fc09ba3f984d5612dd0f29d5f3407c5ef636357fb",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "ArXiv--33/ArXiv--33_20261113_090020"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The latest research article in the Systems and Control (cs.SY) category under Computer Science on arXiv is 'Proportional Neuro-Impulsive Control of SISO LTI Systems' (arXiv:2611.13043). Authors: Christian Fernandez Lorden, Elena Petri, W.P.M.H. Heemels, Alessio Franci. Main objective/hypothesis: The paper proposes a neuro-impulsive controller at the crossroads of neuromorphic (spike-based) and impulsive control, consisting of a single integrate-and-fire-like neuron that generates a control input proportional to the system output when the neuron variable reaches a threshold. Its central claim is that any static output-feedback stabilizable single-input single-output (SISO) linear time-invariant (LTI) plant can be made semi-globally asymptotically stable (sGAS) in closed loop with this neuro-impulsive controller, improving on existing fixed-amplitude neuromorphic controllers that only achieve practical stability (at the price of graded spiking inputs). It also provides an algorithm for choosing the controller parameters for a given set of admissible initial conditions, illustrated on an inverted pendulum linearized around its upright equilibrium.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_2_computer_science_subject_area.png",
+      "sha256": "66be5fcdfa18954769c360fdea2483b085a3b791185f75fc8c68583fb65bf8a8"
+    },
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_3_cssy_category_selected.png",
+      "sha256": "af3cf8aaad2554339078fb74042d26576012c8c747fc1fc11f9c55fb421aa93d"
+    },
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_4_cssy_latest_listing.png",
+      "sha256": "40efc21c13aa3ec2b05e2949de592ec79e6ad6f3c2468c3bc1ce4f82a21de836"
+    },
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_5_first_listed_article.png",
+      "sha256": "d6c04ba99b021d4567c8c8895c9d5564ee989f24bd148fb72a12d3b78bed3865"
+    },
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_6_abstract_page.png",
+      "sha256": "23e81419d9b7530a78dad08a46c2226635b9d2b22ef335698c29b05e3e709a29"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "cfa3d9c36b80deec576e66c696016a874128d1ba2c3f53cf63d6d83a2f70f12b",
+  "fingerprint": "86b33fc653f30f3ec3e7d9d913f1d01aec1e8d90fe8b4ed6c63e943d2858b6cf",
+  "evaluated_at": "2026-11-16T13:08:02.070822+00:00",
+  "status": "failure",
+  "predicted_label": 0,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task requirements:**\n1. Query ArXiv for the **latest research article in \"Systems and Control\" under Computer Science** (i.e., the **cs.SY** archive).\n2. Summarize the main objective/hypothesis of that paper.\n3. Provide the authors' names.\n\n**What the screenshots show:**\n\n- The agent started on the arXiv **Computer Science** new-listings page (screenshot 1), which was an appropriate starting point.\n- However, every subsequent \"Systems and Control\" page it browsed (screenshots 2–4) displays entries whose subject lines read **\"Systems and Control (eess.SY)\"** — this is the Systems and Control archive under **Electrical Engineering and Systems Science**, *not* under Computer Science (cs.SY).\n- The final abstract page (screenshot 5) confirms this definitively: the breadcrumb reads **\"Electrical Engineering and Systems Science > Systems and Control\"**, the subject is **\"Systems and Control (eess.SY)\"**, and the cite string is **\"arXiv:2611.13043 [eess.SY]\"**. The paper has no cs.SY cross-list, so it could not have appeared in the Computer Science > Systems and Control (cs.SY) listings at all.\n\n**Assessment of the Result Response:**\n\n- The response claims the paper is \"in the Systems and Control (**cs.SY**) category **under Computer Science**.\" This directly **contradicts the screenshots**, which show the paper belongs to eess.SY under Electrical Engineering and Systems Science. Per the evaluation rules, the screenshot prevails — the response's category claim is factually wrong.\n- The **summary** of the objective/hypothesis and the **author list** (Christian Fernandez Lorden, Elena Petri, W.P.M.H. Heemels, Alessio Franci) are accurate for the paper that was opened — these match the abstract page. However, they are provided for a paper retrieved from the **wrong category**.\n- Because the agent queried the same-named category under a different archive, the identified \"latest article\" is not the latest article in Systems and Control **under Computer Science** as the instruction explicitly requires. (Additionally, even within the browsed archive, the recent-submissions page shows higher-numbered IDs announced the same day, e.g., arXiv:2611.14439, so \"latest\" is questionable even on its own terms.)\n\n**Conclusion:**\n\nTwo of the three deliverables (summary, authors) were executed accurately, but the core retrieval requirement — the Systems and Control category **under Computer Science** — was violated: the agent browsed and reported a paper from the Electrical Engineering and Systems Science archive, and the response mislabels it as cs.SY in contradiction with the screenshot evidence.\n\n**Verdict: NOT SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9240,
+    "completion_tokens": 20991,
+    "total_tokens": 30231,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 20388
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T13:08:02.622812+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_2_computer_science_subject_area.png",
+      "source_sha256": "66be5fcdfa18954769c360fdea2483b085a3b791185f75fc8c68583fb65bf8a8",
+      "source_bytes": 300218,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 623373,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ff8301fdfa801041deaacc1ec8306de59a36b9be524aef547fa8e62399ce7833"
+    },
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_3_cssy_category_selected.png",
+      "source_sha256": "af3cf8aaad2554339078fb74042d26576012c8c747fc1fc11f9c55fb421aa93d",
+      "source_bytes": 235454,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 342217,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "871b1266bba95aab38560e40bb1bb5ae90a1d20c86051b88705405c9d1661552"
+    },
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_4_cssy_latest_listing.png",
+      "source_sha256": "40efc21c13aa3ec2b05e2949de592ec79e6ad6f3c2468c3bc1ce4f82a21de836",
+      "source_bytes": 267393,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 514457,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "279d2284e06f8f35f8a4177c313534c88d8e7b4e74a0432c43f1238b9a92dc90"
+    },
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_5_first_listed_article.png",
+      "source_sha256": "d6c04ba99b021d4567c8c8895c9d5564ee989f24bd148fb72a12d3b78bed3865",
+      "source_bytes": 302636,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 620106,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "282e5fb4d22fd14fe72a10cb1830c3f89b3a16608e89bdfda50782a26532c6ab"
+    },
+    {
+      "path": "ArXiv--33/ArXiv--33_20261113_090020/final_runs/run_002/screenshots/final_execution_6_abstract_page.png",
+      "source_sha256": "23e81419d9b7530a78dad08a46c2226635b9d2b22ef335698c29b05e3e709a29",
+      "source_bytes": 139275,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 207389,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "70e66003c31b9e79bf550e8f59f5b53af83488da6af390a3a5202bc3d2833487"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 3080975,
+  "response_id": "cda3a9b4-38cb-4963-b754-594f1d613bc1",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2670,
+    "reasoning_content_chars": 83323
+  }
+}

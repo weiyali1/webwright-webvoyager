@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--13",
+  "website": "Coursera",
+  "task": "Look for a Specialization on Coursera that teaches Python programming, and identify the skills you will learn by taking this Specialization.",
+  "task_record": "Coursera--13/Coursera--13_20261114_094621",
+  "task_definition_sha256": "1ba0d5487f642b796805a4a218f235abb31a56806ae49d595699b0463f844b2d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--13/Coursera--13_20261114_094621"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Specialization: Python for Everybody Specialization (University of Michigan) - https://www.coursera.org/specializations/python. Skills you will learn: Debugging, Database Design, JSON, Data Presentation, Web Services, Program Development, Data Cleansing, Data Structures, Web Scraping, Programming Principles, Data Visualization, File I/O, Data Processing, Restful API, Extensible Markup Language (XML).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_3_specializations_filter.png",
+      "sha256": "3ee8530392bd32d186f743418f1331e521a8d14ce4372c6df4f6f5758f1ab0af"
+    },
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_4_filtered_results.png",
+      "sha256": "34b2d6278aeca872230872e42f88f65c3ac3c76f911b42eafcd676b3fb186000"
+    },
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_5_specialization_page.png",
+      "sha256": "8b7415d22ad6f63658a41fa1c0b87b683b71a4b8acad6d7e10b1cdece85f2e7f"
+    },
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_6_skills_section.png",
+      "sha256": "eed7e69cbd5a9248147bd150630d9ecc8df7955f1ddfdafcf86cd988ba0a7e7c"
+    },
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+      "sha256": "eed7e69cbd5a9248147bd150630d9ecc8df7955f1ddfdafcf86cd988ba0a7e7c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "406bba4926968091b3c5e22b8edd0ca95b146d2b07a051cca3427e734abb2900",
+  "fingerprint": "7fcf79e0ddf8ad401767d4cb2b809c92fd27011f963a568bae9f5f726bdd6c6f",
+  "evaluated_at": "2026-11-16T10:01:59.183285+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a Specialization on Coursera that teaches Python programming\n2. Identify the skills you will learn by taking this Specialization\n\n**Screenshot Evidence:**\n\n1. **Screenshot 1-2 (Search Process):** The search for \"python programming\" was performed on Coursera, and the \"Specializations\" filter was applied (checkbox checked in the Learning Product dropdown). The results show several Python-related Specializations, including \"Python for Everybody\" by the University of Michigan, \"Python 3 Programming,\" and others.\n\n2. **Screenshot 3-5 (Specialization Page):** The \"Python for Everybody Specialization\" page from the University of Michigan was opened. This page clearly shows:\n   - The Specialization title: \"Python for Everybody Specialization\"\n   - Instructor: Charles Russell Severance\n   - A \"Skills you'll gain\" section listing: Debugging, Database Design, JSON, Data Presentation, Web Services, Program Development, Data Cleansing, Data Structures, Web Scraping, Programming Principles, Data Visualization, File I/O, Data Processing, with a \"Show all\" link indicating additional skills.\n\n**Response Verification:**\n\nThe response correctly identifies:\n- The Specialization: Python for Everybody Specialization (University of Michigan) ✓\n- The skills: Debugging, Database Design, JSON, Data Presentation, Web Services, Program Development, Data Cleansing, Data Structures, Web Scraping, Programming Principles, Data Visualization, File I/O, Data Processing — all of which match the visible skills in the screenshot ✓\n- Additional skills (Restful API, Extensible Markup Language (XML)) are not visible in the screenshot but appear to come from the \"Show all\" expansion. Per evaluation guidelines, content in the response not shown on the screenshot should be believed, and \"Restful API\" is also visible in the search result card in Screenshot 1, corroborating this.\n\n**Conclusion:**\n\nBoth parts of the task were completed successfully: a Python programming Specialization was located on Coursera, and the skills gained from taking it were identified and reported accurately, consistent with the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8145,
+    "completion_tokens": 1085,
+    "total_tokens": 9230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 635
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:01:59.746953+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_3_specializations_filter.png",
+      "source_sha256": "3ee8530392bd32d186f743418f1331e521a8d14ce4372c6df4f6f5758f1ab0af",
+      "source_bytes": 863695,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 285077,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "14ba1158cdfea09edeec45551d490f76ee14ab8d290add71661758cb69352053"
+    },
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_4_filtered_results.png",
+      "source_sha256": "34b2d6278aeca872230872e42f88f65c3ac3c76f911b42eafcd676b3fb186000",
+      "source_bytes": 906759,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 292273,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b83f9e5c4aa69b6bddffbaf9922997d2510b0445c7e4f59aca0e3f2d1ccae462"
+    },
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_5_specialization_page.png",
+      "source_sha256": "8b7415d22ad6f63658a41fa1c0b87b683b71a4b8acad6d7e10b1cdece85f2e7f",
+      "source_bytes": 204024,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 209027,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "05d678beebe95cebe071b3efdf2d819fe17efefbac7103c586db816bdeda2ab3"
+    },
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_6_skills_section.png",
+      "source_sha256": "eed7e69cbd5a9248147bd150630d9ecc8df7955f1ddfdafcf86cd988ba0a7e7c",
+      "source_bytes": 204354,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 199056,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "cd5f86f262ad01824eee84a4041d50d61e8fcc38da80277f38c08a23b811aa64"
+    },
+    {
+      "path": "Coursera--13/Coursera--13_20261114_094621/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+      "source_sha256": "eed7e69cbd5a9248147bd150630d9ecc8df7955f1ddfdafcf86cd988ba0a7e7c",
+      "source_bytes": 204354,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 199056,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "cd5f86f262ad01824eee84a4041d50d61e8fcc38da80277f38c08a23b811aa64"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1582758,
+  "response_id": "6fe6af01-2b81-4d18-bb5f-ad3b55e190a1",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2186,
+    "reasoning_content_chars": 3156
+  }
+}

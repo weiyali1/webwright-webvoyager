@@ -1,0 +1,151 @@
+{
+  "task_id": "Google Map--38",
+  "website": "Google Map",
+  "task": "Search for bicycle parking near the Empire State Building.",
+  "task_record": "Google Map--38/Google Map--38_20261115_083303",
+  "task_definition_sha256": "d26dfa28f063dda80ceea819357f25fcde0e0b50dec94f5fcc5ad87e1676607e",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--38/Google Map--38_20261115_083303"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Searched Google Maps for 'bicycle parking near Empire State Building, New York, NY' via the site's search box and search button. Results displayed near the Empire State Building (map centered at lat=40.7657256, lng=-73.9922004). Top results: Bike Parking; Oonee Secure Bike Parking Pod; Oonee Bike Parking; Oonee Secure Bike Parking Pod; 34 St - Herald Sq Green Citi Bike Station; Oonee Secure Bike Parking Pod; Parking; Oonee Secure Bike Parking Pod.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--38/Google Map--38_20261115_083303/final_runs/run_001/screenshots/final_execution_1_search_query_filled.png",
+      "sha256": "3919d1865146d981fd8dcae1d0d03e95c5bc0bf8b5de023b821f61a21812770c"
+    },
+    {
+      "path": "Google Map--38/Google Map--38_20261115_083303/final_runs/run_001/screenshots/final_execution_2_search_submitted.png",
+      "sha256": "329143864c8b52476c7a873d0c214dcdad3583d2bac547215cb70908bd3e1bc7"
+    },
+    {
+      "path": "Google Map--38/Google Map--38_20261115_083303/final_runs/run_001/screenshots/final_execution_3_results_displayed.png",
+      "sha256": "7da57bda66251cb280bee09295061f451db5111e93137bcde95c53bd7fc6c79f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "53aa52721961ce5efc3dc3044029ce2922676171cc6572c4c8182133bf272ed5",
+  "fingerprint": "efbdafe39597aa4024250ba0ff4022b4d4ec904bb3ce9beefdc039d42e3c3de3",
+  "evaluated_at": "2026-11-16T10:24:40.386368+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Instruction:** Search for bicycle parking near the Empire State Building.\n\n**Screenshot Evidence:**\n\n1. **Screenshot 1 (Intermediate state):** Shows Google Maps with \"Empire State Building, New York, NY\" entered in the search box, with the autocomplete suggestion visible. The map still displays Hong Kong, indicating this is the query-entry stage before execution.\n\n2. **Screenshots 2 & 3 (Final state):** Show the search executed with the query \"bicycle parking near Empire St...\" (truncated \"bicycle parking near Empire State Building\") in the search box. The map has updated to Midtown Manhattan, showing the area around the Empire State Building (34th St area, with the building visible near 5th Ave between W 30th–E 42nd St). The results panel (\"結果\") displays multiple parking/bicycle parking options near the Empire State Building:\n   - Meyers Parking (MP Gotham Garage) – 9 W 35th St\n   - Bike Parking (單車停放架/bicycle rack) – 104 W 38th St, 5.0★\n   - GGMC Parking LLC – 8 E 33rd St\n   - Oonee Secure Bike Parking Pod (單車停車場/bicycle parking) – W 42nd St, 4.4★\n   - Parking – 11-17 E 38th St\n   - Icon Parking – 839 6th Ave\n   \n   The map also displays pins for \"Oonee Secure Bike Parking Pod,\" \"Bike Parking,\" \"Parking Lot for Bicycles,\" \"Cycle Garage,\" and other parking locations clustered around the Empire State Building vicinity.\n\n**Response vs. Screenshot Discrepancy:** The Result Response lists slightly different top results (e.g., \"34 St - Herald Sq Green Citi Bike Station,\" \"Oonee Bike Parking\") than the visible result list in the screenshots. Per evaluation rules, the screenshot prevails. However, this discrepancy does not affect the core task outcome — both sources confirm the search was executed and bicycle parking results near the Empire State Building were returned.\n\n**Task Completion Check:** The core requirement — searching for bicycle parking near the Empire State Building — was fulfilled. The search query was entered, executed, and the map/results display bicycle parking options in the immediate vicinity of the Empire State Building (W 33rd–42nd St area).\n\n## Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 5119,
+    "completion_tokens": 2166,
+    "total_tokens": 7285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1642
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:24:40.510407+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "Google Map--38/Google Map--38_20261115_083303/final_runs/run_001/screenshots/final_execution_1_search_query_filled.png",
+      "source_sha256": "3919d1865146d981fd8dcae1d0d03e95c5bc0bf8b5de023b821f61a21812770c",
+      "source_bytes": 469206,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 233470,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0555e3dc97110f39ae5c913e6bacabc1392412f5f25f4f5683e9bd26654f8e7c"
+    },
+    {
+      "path": "Google Map--38/Google Map--38_20261115_083303/final_runs/run_001/screenshots/final_execution_2_search_submitted.png",
+      "source_sha256": "329143864c8b52476c7a873d0c214dcdad3583d2bac547215cb70908bd3e1bc7",
+      "source_bytes": 787519,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 364533,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "978d2e1f427e4375ec1bbc511b1e0dd50195e9cc84dde4194189374ccc398537"
+    },
+    {
+      "path": "Google Map--38/Google Map--38_20261115_083303/final_runs/run_001/screenshots/final_execution_3_results_displayed.png",
+      "source_sha256": "7da57bda66251cb280bee09295061f451db5111e93137bcde95c53bd7fc6c79f",
+      "source_bytes": 787538,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 364453,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6bb8149269b9be103e13a3ead8b221c01bc93eb3abcddb221ab806a0411e40ae"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 1286520,
+  "response_id": "05a2b20f-0193-4cc1-b70f-4db72998e5b1",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2149,
+    "reasoning_content_chars": 6752
+  }
+}

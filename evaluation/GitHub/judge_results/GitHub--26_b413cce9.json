@@ -1,0 +1,181 @@
+{
+  "task_id": "GitHub--26",
+  "website": "GitHub",
+  "task": "Find the Resolve merge conflicts course in GitHub Skills and what actions learners will perform in this course.",
+  "task_record": "GitHub--26/GitHub--26_20261115_104135",
+  "task_definition_sha256": "7f5fead71e44672b144ab2e53d27dc7039141b543d22e90c627e3d00042701a2",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--26/GitHub--26_20261115_104135"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The 'Resolve merge conflicts' course is in GitHub Skills (listed at https://skills.github.com/, course page https://github.com/skills/resolve-merge-conflicts, title 'Resolve Merge Conflicts'). In this course learners will: learn the causes of a merge conflict; learn the tools for inspecting and resolving a merge conflict; learn when and how to resolve a merge conflict; and use a web editor to fix conflicting changes to a Markdown file (What you'll build). It is aimed at new developers and new Git/GitHub users and takes less than 30 minutes.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--26/GitHub--26_20261115_104135/final_runs/run_003/screenshots/final_execution_1_skills_catalog_resolve_merge_conflicts.png",
+      "sha256": "c862180e7ebd1d5850c799c0bac123e7becfdfa825898cb7f8f973012cb43244"
+    },
+    {
+      "path": "GitHub--26/GitHub--26_20261115_104135/final_runs/run_003/screenshots/final_execution_2_course_page_resolve_merge_conflicts.png",
+      "sha256": "d47ac13b838a2c3f97da42de53fe4f1c48767c8e6b8d40a8002d2acc1ec257d2"
+    },
+    {
+      "path": "GitHub--26/GitHub--26_20261115_104135/final_runs/run_003/screenshots/final_execution_3_readme_learner_actions.png",
+      "sha256": "d47ac13b838a2c3f97da42de53fe4f1c48767c8e6b8d40a8002d2acc1ec257d2"
+    },
+    {
+      "path": "GitHub--26/GitHub--26_20261115_104135/final_runs/run_003/screenshots/final_execution_4_final_state.png",
+      "sha256": "d47ac13b838a2c3f97da42de53fe4f1c48767c8e6b8d40a8002d2acc1ec257d2"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e9a17f0b62cb81cb89d98872f61ab4b633f6c939ebb778ba5734e3cf16f675b5",
+  "fingerprint": "3d016874a73c8811f45480913067e555d791c5c0209c01c095abd95a9a49af91",
+  "evaluated_at": "2026-11-16T10:19:59.770991+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find the \"Resolve merge conflicts\" course in GitHub Skills\n2. Identify what actions learners will perform in this course\n\n**Screenshot Evidence:**\n\n**Screenshot 1:** Shows the GitHub Skills page (GitHub Learn) with the course catalog. Under the \"First week on GitHub\" section, the \"Resolve merge conflicts\" course is clearly visible with the description \"Learn why conflicts happen and how to resolve them.\" This confirms the course was successfully located in GitHub Skills.\n\n**Screenshots 2-4:** Show the course repository page (skills/resolve-merge-conflicts) with the README containing:\n- Title: \"Resolve Merge Conflicts\"\n- \"What you'll learn: We'll introduce the tools for inspecting and resolving a merge conflict.\"\n- \"What you'll build: You'll use a web editor to fix conflicting changes to Markdown file.\"\n- \"In this exercise, you will:\" list:\n  1. Learn the causes of a merge conflict.\n  2. The tools for resolving a merge conflict.\n  3. When and how to resolve a merge conflict.\n- \"Who is this for: New developers, new Git and GitHub users\"\n- \"How long: less than 30 minutes\"\n\n**Response Verification:**\n\nThe Result Response accurately reflects the screenshot content:\n- ✅ Correctly identifies the course location (GitHub Skills, course page github.com/skills/resolve-merge-conflicts)\n- ✅ Correctly lists the learner actions: learn the causes of a merge conflict; learn the tools for inspecting/resolving a merge conflict; learn when and how to resolve a merge conflict; use a web editor to fix conflicting changes to a Markdown file\n- ✅ Correctly notes the target audience (new developers, new Git/GitHub users) and duration (less than 30 minutes)\n\nBoth parts of the task were completed: the course was found in GitHub Skills, and the actions learners will perform were accurately extracted from the course README. There are no discrepancies between the response and the screenshots.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6648,
+    "completion_tokens": 927,
+    "total_tokens": 7575,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 498
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:20:00.193054+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "GitHub--26/GitHub--26_20261115_104135/final_runs/run_003/screenshots/final_execution_1_skills_catalog_resolve_merge_conflicts.png",
+      "source_sha256": "c862180e7ebd1d5850c799c0bac123e7becfdfa825898cb7f8f973012cb43244",
+      "source_bytes": 210843,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 163544,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4a53a32df56cb9ee8de808215ec195e043cc2ea0f9a1bc71d0e3a3ed148574e5"
+    },
+    {
+      "path": "GitHub--26/GitHub--26_20261115_104135/final_runs/run_003/screenshots/final_execution_2_course_page_resolve_merge_conflicts.png",
+      "source_sha256": "d47ac13b838a2c3f97da42de53fe4f1c48767c8e6b8d40a8002d2acc1ec257d2",
+      "source_bytes": 200766,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 182301,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9e8ec0157964ec971302898dc4ddc38fe143fc35ab25a6b617dc7d0e3958d000"
+    },
+    {
+      "path": "GitHub--26/GitHub--26_20261115_104135/final_runs/run_003/screenshots/final_execution_3_readme_learner_actions.png",
+      "source_sha256": "d47ac13b838a2c3f97da42de53fe4f1c48767c8e6b8d40a8002d2acc1ec257d2",
+      "source_bytes": 200766,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 182301,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9e8ec0157964ec971302898dc4ddc38fe143fc35ab25a6b617dc7d0e3958d000"
+    },
+    {
+      "path": "GitHub--26/GitHub--26_20261115_104135/final_runs/run_003/screenshots/final_execution_4_final_state.png",
+      "source_sha256": "d47ac13b838a2c3f97da42de53fe4f1c48767c8e6b8d40a8002d2acc1ec257d2",
+      "source_bytes": 200766,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 182301,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9e8ec0157964ec971302898dc4ddc38fe143fc35ab25a6b617dc7d0e3958d000"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 950724,
+  "response_id": "f10e3e11-0c02-4441-bb80-6adf3bcda716",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1969,
+    "reasoning_content_chars": 2254
+  }
+}

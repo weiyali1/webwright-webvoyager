@@ -1,0 +1,211 @@
+{
+  "task_id": "Huggingface--23",
+  "website": "Huggingface",
+  "task": "Identify three innovative and widely recognized open-source NLP models for automatic speech recognition released in the past month on Huggingface.",
+  "task_record": "Huggingface--23/Huggingface--23_20261115_104124",
+  "task_definition_sha256": "c2527d26599003ef48ac019fdabfbf2d517f4f2d1d029e94ca227c2ba2e47720",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Huggingface--23/Huggingface--23_20261115_104124"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Three innovative and widely recognized open-source NLP models for automatic speech recognition released in the past month on Hugging Face: 1. salesforce-sovereign-intelligence/SOV-Transcribe-1 (Apache-2.0, 55 likes), 2. sahilmahendrakar/Earlybird-29M (MIT, 32 likes), 3. lee1jun/LES-eg2-665M-asr-en (Apache-2.0, 18 likes).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_4_results_displayed.png",
+      "sha256": "360c843a4b81baf769ea84c17251ac9d2fa4f502da9ba44be8c1b2eea2011374"
+    },
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_1_SOV-Transcribe-1.png",
+      "sha256": "4ea87a65f658919af20e482ed4271a86746deb7829354b0876063e1db1f31c98"
+    },
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_2_Earlybird-29M.png",
+      "sha256": "8156bbbb8969f1bf4c0b9debbec6b26a7b64dae38251eff401ba78380bfe02c6"
+    },
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_3_LES-eg2-665M-asr-en.png",
+      "sha256": "c4cc067c49dfcd91ecdf515234b2d732576f0af8d7f41da2f07c1b9283b8e4b2"
+    },
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_6_final_answer.png",
+      "sha256": "c4cc067c49dfcd91ecdf515234b2d732576f0af8d7f41da2f07c1b9283b8e4b2"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "0fb27d4e6011f7be42fbb23749bf393c3018ab4aace104996c2d80cefd1520b9",
+  "fingerprint": "f1a4fed435f7c9ceea5513603b8232afe238c9eb156a35e86071e096aaa0538a",
+  "evaluated_at": "2026-11-16T10:12:51.986123+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements Breakdown\nThe task requires identifying **three** models that are:\n1. Innovative and widely recognized\n2. Open-source NLP models\n3. For automatic speech recognition (ASR)\n4. Released in the past month on Hugging Face\n\n## Verification Against Screenshots\n\n**Browsing Process (Screenshot 1):** The Hugging Face Models page shows proper filtering by the \"Automatic Speech Recognition\" task (highlighted in the sidebar) and sorting by \"Recently created\" — an appropriate methodology for finding recently released ASR models.\n\n**Model 1: salesforce-sovereign-intelligence/SOV-Transcribe-1 (Screenshot 2)**\n- ✅ Automatic Speech Recognition tag present\n- ✅ License: apache-2.0 (open-source) — matches response\n- ✅ 55 likes — matches response\n- ✅ Released recently: article mentioning it posted 2 days ago; collection updated 2 days ago\n- ✅ Innovative/widely recognized: ranks #1 among open-weight models for non-streaming speech-to-text on Artificial Analysis, #2 of 23 on VoiceCodeBench\n\n**Model 2: sahilmahendrakar/Earlybird-29M (Screenshot 3)**\n- ✅ Automatic Speech Recognition tag present\n- ✅ License: mit (open-source) — matches response\n- ✅ 32 likes — matches response\n- ✅ Released recently: paper published 5 days ago\n- ✅ Innovative: novel predictive streaming approach (predicts words before speaker finishes, 16.8MB on-device model)\n\n**Model 3: lee1jun/LES-eg2-665M-asr-en (Screenshots 4-5)**\n- ✅ Automatic Speech Recognition tag present\n- ✅ License: apache-2.0 (open-source) — matches response\n- ✅ 18 likes — matches response\n- ✅ Released recently: paper published 19 days ago (within past month)\n- ✅ Innovative: novel \"Listen, Embed and Select\" approach using frozen EmbeddingGemma 2 embeddings; strong LibriSpeech results (WER 1.74)\n\n## Consistency Check\nAll details in the response (model names, licenses, like counts) match the screenshots exactly. All three models are ASR models with permissive open-source licenses, and all show evidence of release within the past month (2, 5, and 19 days ago respectively). Each has evidence of innovation (leaderboard rankings, novel architectures, published papers) and recognition (articles, papers, community spaces).\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 10229,
+    "completion_tokens": 1686,
+    "total_tokens": 11915,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1137
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:12:52.523686+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_4_results_displayed.png",
+      "source_sha256": "360c843a4b81baf769ea84c17251ac9d2fa4f502da9ba44be8c1b2eea2011374",
+      "source_bytes": 699557,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 222496,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c557c6f896b22514a317a6094a990f80d57e758d8be27eaecd22352143172d9f"
+    },
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_1_SOV-Transcribe-1.png",
+      "source_sha256": "4ea87a65f658919af20e482ed4271a86746deb7829354b0876063e1db1f31c98",
+      "source_bytes": 374184,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 253685,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "cf4fe50155e9bf4f7c6d24ac4cea81c2d2f24445de272050d2ab909d94388ccf"
+    },
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_2_Earlybird-29M.png",
+      "source_sha256": "8156bbbb8969f1bf4c0b9debbec6b26a7b64dae38251eff401ba78380bfe02c6",
+      "source_bytes": 234594,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 233471,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5d02a226be180cf29ec315ca49a6cc3cb51d4b379f154cb15bd60e3597586c98"
+    },
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_5_model_3_LES-eg2-665M-asr-en.png",
+      "source_sha256": "c4cc067c49dfcd91ecdf515234b2d732576f0af8d7f41da2f07c1b9283b8e4b2",
+      "source_bytes": 364603,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 266711,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4012deac627cf3bebe31ce3a67f8d84b3edcc68919f3556df102afbd63759794"
+    },
+    {
+      "path": "Huggingface--23/Huggingface--23_20261115_104124/final_runs/run_001/screenshots/final_execution_6_final_answer.png",
+      "source_sha256": "c4cc067c49dfcd91ecdf515234b2d732576f0af8d7f41da2f07c1b9283b8e4b2",
+      "source_bytes": 364603,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 266711,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4012deac627cf3bebe31ce3a67f8d84b3edcc68919f3556df102afbd63759794"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1660783,
+  "response_id": "46395c68-77df-42bd-b854-c652ec33334c",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2234,
+    "reasoning_content_chars": 4329
+  }
+}

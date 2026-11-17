@@ -1,0 +1,181 @@
+{
+  "task_id": "Google Search--34",
+  "website": "Google Search",
+  "task": "Determine the distance from Earth to Mars as of today's date.",
+  "task_record": "Google Search--34/Google Search--34_20261115_180532",
+  "task_definition_sha256": "f43fa8bb82cb95ae4d2aa708eb05e47836cf0d1ea1696922095d5e1739c82932",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Search--34/Google Search--34_20261115_180532"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: The distance from Earth to Mars varies continuously due to orbital positions. As of today's date (2026-11-15), the average distance is approximately 225 million kilometers (140 million miles). The closest approach is about 54.6 million kilometers (33.9 million miles), and the farthest distance is about 401 million kilometers (249 million miles). These values are sourced from Google Search results (AI Overview).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Search--34/Google Search--34_20261115_180532/final_runs/run_001/screenshots/final_execution_1_google_homepage.png",
+      "sha256": "ecc527738fffb417c6fbde1d24e113b98459c8a59511380561c9849cde08c435"
+    },
+    {
+      "path": "Google Search--34/Google Search--34_20261115_180532/final_runs/run_001/screenshots/final_execution_2_query_entered.png",
+      "sha256": "1bace73be085f238d6e0c31d636893329da7db306480537fb335f0317be91539"
+    },
+    {
+      "path": "Google Search--34/Google Search--34_20261115_180532/final_runs/run_001/screenshots/final_execution_3_search_results.png",
+      "sha256": "7064875f18ced983f79fc8e2070618342446c93ac0ec6a062da033756c6a4642"
+    },
+    {
+      "path": "Google Search--34/Google Search--34_20261115_180532/final_runs/run_001/screenshots/final_execution_4_distance_answer.png",
+      "sha256": "8f4a4cdd5c1dba38ffb2f6375cbcabbc58da3fe20bcf498cc7a3769ea635b88c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "5d3039695be4835f1662f9d109d77fc17ef27a1d2717d522e05c0d93f2b7eb68",
+  "fingerprint": "737409054ab6a1397f717914251f10d148b1cec7b55afca0aba393cb5a204d00",
+  "evaluated_at": "2026-11-16T10:13:24.337243+00:00",
+  "status": "failure",
+  "predicted_label": 0,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirement\nThe task asks to **determine the distance from Earth to Mars as of today's date** — this specifically requires the *current/real-time* distance, not a general average.\n\n## What the Screenshots Show\n1. **Screenshots 1–2**: The agent navigated to Google and typed the query \"distance from Earth to Mars\" — search execution was performed correctly.\n2. **Screenshots 3–4**: The search results page shows:\n   - **AI Overview**: Average Distance ~140 million miles (225 million km); Closest ~54.6–56 million km; Farthest ~401 million km. Critically, the AI Overview itself states: *\"For current real-time tracking of the distance... check TheSkyLive\"* — acknowledging it does **not** provide today's actual distance.\n   - **TheSkyLive result snippet**: *\"Mars is **196,848,937 kilometers (122,342,409 miles)** from Earth, equivalent to 1.31585386 Astronomical Units\"* — this is the actual current distance available in the results.\n\n## What the Response Claims\nThe response states: *\"As of today's date (2026-11-15), the average distance is approximately 225 million kilometers (140 million miles)...\"* — presenting the **average** distance as the answer for today.\n\n## Discrepancy\n- The task explicitly asks for the distance **as of today's date**, which requires the real-time current distance.\n- The response instead provides the *average* distance (225M km), which is a static statistical figure that does not change with the date — framing it as the answer \"as of today\" is misleading and off by ~28 million km (~14%) from the actual current distance.\n- The actual current distance (**~196.8 million km / 122.3 million miles**) was visible in the TheSkyLive search result snippet, but the agent neither visited TheSkyLive (as the AI Overview suggested for real-time tracking) nor reported this figure.\n- While the reported average/closest/farthest figures accurately match the AI Overview, they do not answer the specific question posed.\n\n## Verdict\nThe agent executed the search properly, but the final answer fails to fulfill the core requirement of determining the distance *as of today's date* — it substituted the average distance for the current distance and ignored the real-time figure present in the results.\n\n**NOT SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 5971,
+    "completion_tokens": 11837,
+    "total_tokens": 17808,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 11322
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:13:24.809662+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Google Search--34/Google Search--34_20261115_180532/final_runs/run_001/screenshots/final_execution_1_google_homepage.png",
+      "source_sha256": "ecc527738fffb417c6fbde1d24e113b98459c8a59511380561c9849cde08c435",
+      "source_bytes": 45911,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 49670,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2e31d695363da69a0f143f79ecda563a6986626312296c339a24cc8a7f4383a0"
+    },
+    {
+      "path": "Google Search--34/Google Search--34_20261115_180532/final_runs/run_001/screenshots/final_execution_2_query_entered.png",
+      "source_sha256": "1bace73be085f238d6e0c31d636893329da7db306480537fb335f0317be91539",
+      "source_bytes": 82527,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 68345,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "653c95b479b988fe311f7555ac93d11d975bf3f45200397924a910e55abce394"
+    },
+    {
+      "path": "Google Search--34/Google Search--34_20261115_180532/final_runs/run_001/screenshots/final_execution_3_search_results.png",
+      "source_sha256": "7064875f18ced983f79fc8e2070618342446c93ac0ec6a062da033756c6a4642",
+      "source_bytes": 270489,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 173329,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0ba48d5da5968b97f6508958db380e9a116ef42289760dae65db18d732771a5f"
+    },
+    {
+      "path": "Google Search--34/Google Search--34_20261115_180532/final_runs/run_001/screenshots/final_execution_4_distance_answer.png",
+      "source_sha256": "8f4a4cdd5c1dba38ffb2f6375cbcabbc58da3fe20bcf498cc7a3769ea635b88c",
+      "source_bytes": 427748,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        3093
+      ],
+      "transmitted_dimensions": [
+        524,
+        1280
+      ],
+      "transmitted_bytes": 106334,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1414d30361d9763561be94b2d2142bb20f6e998a055d9d9c0fdf0ff48ff0b77f"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 533538,
+  "response_id": "2edb9921-f852-4412-8734-8a135ef3a85e",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2276,
+    "reasoning_content_chars": 50014
+  }
+}

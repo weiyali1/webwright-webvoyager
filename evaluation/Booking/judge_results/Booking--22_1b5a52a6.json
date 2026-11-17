@@ -1,0 +1,181 @@
+{
+  "task_id": "Booking--22",
+  "website": "Booking",
+  "task": "Search for a hotel in Amsterdam with a customer review score of 9 or higher, offering bicycle rentals, for a week-long stay from November 15 to November 22, 2026, for two adults.",
+  "task_record": "Booking--22/Booking--22_20261113_073409",
+  "task_definition_sha256": "51db601a6edebab8920d33785070e5c182b2d868b76bac9829bab89d5cdc89a4",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--22/Booking--22_20261113_073409"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Searched Booking.com for hotels in Amsterdam for Nov 15-22, 2026 (7 nights, 2 adults), applied the 'Wonderful: 9+' customer review score filter and the 'Bicycle rental' facilities filter via the site's filter controls. Results: Amsterdam: 24 properties found. Top matches include Wilde Amsterdam, Hotel Estheréa, Mercure Amsterdam North Station, Citadines Sloterdijk Station Amsterdam, and Pillows Grand Boutique Hotel Maurits at the Park.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+      "sha256": "d78971ff2538cdefe91fb015e9dfca474ff1f3840752d92d13564034c171f95d"
+    },
+    {
+      "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_2_review_score_9plus_filter.png",
+      "sha256": "45f2cc608fbb832835fc4af1d53943fb24772dcae3cd3a8ee41969f0c28c121a"
+    },
+    {
+      "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_3_bicycle_rental_filter.png",
+      "sha256": "096a62d54d2acb9760879c2b593f45cac965785db34ef952f39de2a3a54efe36"
+    },
+    {
+      "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_4_final_filtered_results.png",
+      "sha256": "8e9bd0b775176dc0de10df80e2598311cbbf3d238d772d640b9b861e8b926690"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "6456fc76565104935f562df5e405dab4f34d1a2cd3ffe93349eac6877b36de3f",
+  "fingerprint": "19d84f780695260d40d79d3c8f33343de18e72168c02b126a29d4e9bf3230463",
+  "evaluated_at": "2026-11-16T10:06:41.708631+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for a hotel in Amsterdam\n2. Customer review score of 9 or higher\n3. Offering bicycle rentals\n4. Stay from November 15 to November 22, 2026 (week-long)\n5. Two adults\n\n**Screenshot Verification:**\n\n1. **Destination & Dates:** The search bar shows \"Amsterdam\" as destination and dates \"Sun, Nov 15 — Sun, Nov 22\". November 15 falling on a Sunday matches the 2026 calendar (Nov 15, 2026 is a Sunday), confirming the correct year. The 7-night span (Nov 15–22) constitutes a week-long stay. ✓\n\n2. **Occupancy:** The occupancy selector shows \"2 adults · 0 children · 1 room\" — matching the two-adult requirement. ✓\n\n3. **Review Score Filter (9+):** The second screenshot shows the \"Wonderful: 9+\" checkbox checked in \"Your previous filters,\" with the \"Wonderful: 9+\" filter chip displayed at the top, reducing results to 56 properties. ✓\n\n4. **Bicycle Rental Filter:** The third and fourth screenshots show both \"Wonderful: 9+\" AND \"Bicycle rental\" checkboxes checked, with both filter chips visible (\"Wonderful: 9+ ×\" and \"Bicycle rental ×\"), narrowing results to 24 properties. ✓\n\n5. **Results:** Filtered results display qualifying hotels with review scores ≥ 9: Wilde Amsterdam (9.7), Hotel Estheréa (9.1), Mercure Amsterdam North Station (9.0), Citadines Sloterdijk Station Amsterdam (9.2), and Pillows Grand Boutique Hotel Maurits at the Park (partially visible). ✓\n\n**Response Consistency:** The result response accurately describes the actions taken — searching Booking.com for Amsterdam, Nov 15–22, 2026, 2 adults, applying both the \"Wonderful: 9+\" and \"Bicycle rental\" filters, yielding 24 properties — which matches the screenshots exactly, including the property names listed.\n\nAll task criteria (location, review score filter, bicycle rental filter, correct dates, correct occupancy) were successfully executed and verified in the screenshots.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7945,
+    "completion_tokens": 1255,
+    "total_tokens": 9200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 778
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:06:42.181720+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "d78971ff2538cdefe91fb015e9dfca474ff1f3840752d92d13564034c171f95d",
+      "source_bytes": 683541,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 312425,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "286f8c1b4d22576478dad39df33027145ebccf61367ab9efa9ee8d905439f04c"
+    },
+    {
+      "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_2_review_score_9plus_filter.png",
+      "source_sha256": "45f2cc608fbb832835fc4af1d53943fb24772dcae3cd3a8ee41969f0c28c121a",
+      "source_bytes": 743921,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 309414,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a2c1004dc4999ea163cc4664ff78b8ddbbead46edfc30a0ba85fd8a6a265ecab"
+    },
+    {
+      "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_3_bicycle_rental_filter.png",
+      "source_sha256": "096a62d54d2acb9760879c2b593f45cac965785db34ef952f39de2a3a54efe36",
+      "source_bytes": 677054,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 298198,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0436338803ab2127a4ff4196feb49e6b32ba41b19232abc94f3902698bbac159"
+    },
+    {
+      "path": "Booking--22/Booking--22_20261113_073409/final_runs/run_003/screenshots/final_execution_4_final_filtered_results.png",
+      "source_sha256": "8e9bd0b775176dc0de10df80e2598311cbbf3d238d772d640b9b861e8b926690",
+      "source_bytes": 676837,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 297933,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ffd96414298a85c5a9e215c29ec2709db310543c1a322b7b959df7f140abe0f4"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1627385,
+  "response_id": "ea6437c4-38a8-4beb-8c43-17e01831f776",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1931,
+    "reasoning_content_chars": 3127
+  }
+}

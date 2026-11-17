@@ -1,0 +1,181 @@
+{
+  "task_id": "Google Map--35",
+  "website": "Google Map",
+  "task": "Search for a natural reserve in Texas called Big Bend National Park and gather its Basic Information.",
+  "task_record": "Google Map--35/Google Map--35_20261115_075722",
+  "task_definition_sha256": "100e35b754b37c519453eac6292569dc18a6bf9b97923d7de1d3168f17228431",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--35/Google Map--35_20261115_075722"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Searched for Big Bend National Park on Google Maps and gathered its Basic Information from the place knowledge panel: Name: Big Bend National Park (大彎曲國家公園); Category: National park (國家公園); Rating: 4.8 stars with 6,344 reviews; Address: Big Bend National Park, Texas, USA; Website: nps.gov; Phone: +1 432-477-2251; Hours: Open 24 hours.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--35/Google Map--35_20261115_075722/final_runs/run_001/screenshots/final_execution_1_search_input.png",
+      "sha256": "f83232b29c8428057ac598af8de30c98b97124f3aea375565813d430df782f32"
+    },
+    {
+      "path": "Google Map--35/Google Map--35_20261115_075722/final_runs/run_001/screenshots/final_execution_2_place_result.png",
+      "sha256": "8b2b16e79662ab70ed3b051a870fdd44112648c12a6df1efd28d518144b6a2b3"
+    },
+    {
+      "path": "Google Map--35/Google Map--35_20261115_075722/final_runs/run_001/screenshots/final_execution_3_basic_info.png",
+      "sha256": "8b2b16e79662ab70ed3b051a870fdd44112648c12a6df1efd28d518144b6a2b3"
+    },
+    {
+      "path": "Google Map--35/Google Map--35_20261115_075722/final_runs/run_001/screenshots/final_execution_4_details.png",
+      "sha256": "8b2b16e79662ab70ed3b051a870fdd44112648c12a6df1efd28d518144b6a2b3"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "64ddeddf002c6ffab3fcc2f3af1bc437a58c4342a345c8b5371411060641a0b9",
+  "fingerprint": "be5bada4068480ac4d79e55c9c8fa3761e0e910aa55ff4a667a8567ef5bb1458",
+  "evaluated_at": "2026-11-16T10:23:05.729891+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for Big Bend National Park (a natural reserve in Texas)\n2. Gather its Basic Information\n\n**Screenshot Evidence:**\n\n1. **First screenshot**: Shows Google Maps with \"Big Bend National Park\" typed in the search box, and an autocomplete suggestion \"Big Bend National Park 德克薩斯美國\" (Texas, USA) — confirming the search was initiated for the correct place.\n\n2. **Screenshots 2-4**: Show the Google Maps place knowledge panel for 大彎曲國家公園 (Big Bend National Park) with the following Basic Information visible:\n   - **Name**: 大彎曲國家公園 / Big Bend National Park\n   - **Category**: 國家公園 (National park)\n   - **Rating**: 4.8 stars with 6,344 reviews (6,344 則評論)\n   - **Address**: 美國 Texas (USA, Texas), plus code 6PXX+WW Big Bend National Park, 德克薩斯美國\n   - **Hours**: 24 小時營業 (Open 24 hours)\n   - **Website**: nps.gov\n   - **Phone**: +1 432-477-2251\n   - The map also displays the park's location pin in southwestern Texas near the Mexican border\n\n**Cross-checking Result Response against Screenshots:**\n- Name: Big Bend National Park ✓ (matches)\n- Category: National park ✓ (matches 國家公園)\n- Rating: 4.8 stars, 6,344 reviews ✓ (matches)\n- Address: Big Bend National Park, Texas, USA ✓ (matches 美國 Texas)\n- Website: nps.gov ✓ (matches)\n- Phone: +1 432-477-2251 ✓ (matches)\n- Hours: Open 24 hours ✓ (matches 24 小時營業)\n\nAll information provided in the Result Response is consistent with what is displayed in the screenshots. Both components of the task — searching for the park and gathering its Basic Information — were completed successfully.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6630,
+    "completion_tokens": 1101,
+    "total_tokens": 7731,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 629
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:23:06.226402+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Google Map--35/Google Map--35_20261115_075722/final_runs/run_001/screenshots/final_execution_1_search_input.png",
+      "source_sha256": "f83232b29c8428057ac598af8de30c98b97124f3aea375565813d430df782f32",
+      "source_bytes": 882423,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 249595,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "bfe007245d539d37f55699067fea4511bff224d8f82326627924f8201c58f3c4"
+    },
+    {
+      "path": "Google Map--35/Google Map--35_20261115_075722/final_runs/run_001/screenshots/final_execution_2_place_result.png",
+      "source_sha256": "8b2b16e79662ab70ed3b051a870fdd44112648c12a6df1efd28d518144b6a2b3",
+      "source_bytes": 774386,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 211531,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d5991c1bc684acaf350e26f0644f8544323c3aaa332220cac838805b4fe93d75"
+    },
+    {
+      "path": "Google Map--35/Google Map--35_20261115_075722/final_runs/run_001/screenshots/final_execution_3_basic_info.png",
+      "source_sha256": "8b2b16e79662ab70ed3b051a870fdd44112648c12a6df1efd28d518144b6a2b3",
+      "source_bytes": 774386,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 211531,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d5991c1bc684acaf350e26f0644f8544323c3aaa332220cac838805b4fe93d75"
+    },
+    {
+      "path": "Google Map--35/Google Map--35_20261115_075722/final_runs/run_001/screenshots/final_execution_4_details.png",
+      "source_sha256": "8b2b16e79662ab70ed3b051a870fdd44112648c12a6df1efd28d518144b6a2b3",
+      "source_bytes": 774386,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 211531,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d5991c1bc684acaf350e26f0644f8544323c3aaa332220cac838805b4fe93d75"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1182190,
+  "response_id": "b78a52ea-8be7-4db7-9376-07d1ad2ea6ec",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1607,
+    "reasoning_content_chars": 2177
+  }
+}

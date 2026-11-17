@@ -1,0 +1,181 @@
+{
+  "task_id": "Huggingface--24",
+  "website": "Huggingface",
+  "task": "Search for a model on Hugging Face with an Apache-2.0 license that has received the highest number of likes.",
+  "task_record": "Huggingface--24/Huggingface--24_20261115_110207",
+  "task_definition_sha256": "be25c22a22063a8d50267f94db49f7aafddd5a4cdf15f09db42275924d97e635",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Huggingface--24/Huggingface--24_20261115_110207"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The Apache-2.0 licensed model with the highest number of likes on Hugging Face is Qwen/Qwen3.8-27B with 20k likes. This was found by navigating to https://huggingface.co/models, applying the apache-2.0 license filter through the Licenses filter control, and sorting by 'Most likes' using the site's sort control (URL: https://huggingface.co/models?license=license:apache-2.0&sort=likes).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_1_models_page.png",
+      "sha256": "d68c736807ef781274b40c970a80a06bdde9da53ee4093a4393d36a94ec3a917"
+    },
+    {
+      "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_2_apache_license_filter.png",
+      "sha256": "af7e2853211e197a3e8eb4b760bf6bf3fec8229e67971de42cd497e4cadfc1a8"
+    },
+    {
+      "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_3_most_likes_sort.png",
+      "sha256": "d489527814dee6c09d8e6269faf6ec2f9063498b6d84a86e7c9f8ef28c897035"
+    },
+    {
+      "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_4_top_result.png",
+      "sha256": "112f012068b1366a648e5cdd68b143651a2be99e5e764f68561092dcc8aff139"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e5395ade0faa9a940bb29f06174123d3846dc071ebffbf4156bbf89152d2dad2",
+  "fingerprint": "2d91e35f2c15808950295aaf3727aba583e165888577ff65659efaef521586da",
+  "evaluated_at": "2026-11-16T10:13:22.838378+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task was to search for a model on Hugging Face with an Apache-2.0 license that has received the highest number of likes. This involves:\n1. Navigating to Hugging Face models page\n2. Applying the Apache-2.0 license filter\n3. Sorting by \"Most likes\"\n4. Identifying the top result\n\n## Screenshot Analysis\n\n**Screenshot 1:** Shows the Hugging Face models page (3,237,709 models) sorted by \"Trending\" — the initial state before filtering.\n\n**Screenshot 2:** Shows the Licenses filter panel opened in the sidebar, with the **apache-2.0** license option highlighted/selected. This confirms the license filter was being applied.\n\n**Screenshot 3:** Shows the filtered results — the model count dropped from 3,237,709 to **594,414**, confirming the Apache-2.0 filter is active (the Licenses tab also shows a \"1\" badge). The sort control shows \"Most likes\" though the list appears to be in a transitional state.\n\n**Screenshot 4 (Final State):** Shows the properly sorted results with:\n- Apache-2.0 filter applied (594,414 models)\n- Sort: \"Most likes\"\n- **Top result: Qwen/Qwen3.8-27B with 20k likes** (highlighted at the top)\n- Following models confirm correct descending order: hexgrad/Kokoro-82M (7.42k), xtools-at/DeepSeek-V4-Pro (7.38k), openai/whisper-large-v3 (6.81k), black-forest-labs/FLUX.1-schnell (6.76k), etc.\n\n## Response Consistency Check\nThe result response states the answer is **Qwen/Qwen3.8-27B with 20k likes**, found by applying the apache-2.0 license filter and sorting by \"Most likes\" — this matches the final screenshot exactly. The described methodology (URL with license filter and sort=likes) is consistent with the workflow visible in the screenshots.\n\n## Conclusion\nThe task was fully executed: the Apache-2.0 license filter was applied, results were sorted by most likes, and the top model (Qwen/Qwen3.8-27B, 20k likes) was correctly identified and reported. The response is consistent with the visual evidence.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6639,
+    "completion_tokens": 3134,
+    "total_tokens": 9773,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2612
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:13:23.302329+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_1_models_page.png",
+      "source_sha256": "d68c736807ef781274b40c970a80a06bdde9da53ee4093a4393d36a94ec3a917",
+      "source_bytes": 593494,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 176479,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "16d39634957d95732c5e37f916d4f402a3aff788c5866cf7f93d95fac866a8a9"
+    },
+    {
+      "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_2_apache_license_filter.png",
+      "source_sha256": "af7e2853211e197a3e8eb4b760bf6bf3fec8229e67971de42cd497e4cadfc1a8",
+      "source_bytes": 689129,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 182192,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "87d127f85fdf8b08684dc1f66a2c7be628ddc32f2333549306457131901ab94f"
+    },
+    {
+      "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_3_most_likes_sort.png",
+      "source_sha256": "d489527814dee6c09d8e6269faf6ec2f9063498b6d84a86e7c9f8ef28c897035",
+      "source_bytes": 697089,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 190927,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "787149fb13c55c870d2b264e8430466e5d229659b6e8c08e383ad81801a238c9"
+    },
+    {
+      "path": "Huggingface--24/Huggingface--24_20261115_110207/final_runs/run_001/screenshots/final_execution_4_top_result.png",
+      "source_sha256": "112f012068b1366a648e5cdd68b143651a2be99e5e764f68561092dcc8aff139",
+      "source_bytes": 687739,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 183928,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ebf44b0d7642540884e96dc06a6252039146c6401e38902d62635a44a758dc6f"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 981342,
+  "response_id": "c4fcb355-08c5-439a-9a21-effe66e083cb",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1998,
+    "reasoning_content_chars": 8046
+  }
+}

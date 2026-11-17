@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--29",
+  "website": "Booking",
+  "task": "Search for a hotel in Toronto with a fitness center and a rating of 8+, available for a two-night stay from December 5 to December 7, 2026.",
+  "task_record": "Booking--29/Booking--29_20261113_122531",
+  "task_definition_sha256": "d5c0de39049fdf95e5b8b64bd84efc3a4faa82e53c60a107bfc9db9b09b640d6",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--29/Booking--29_20261113_122531"
+  ],
+  "final_run": "run_006",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Searched Booking.com for Toronto stays Dec 5–7, 2026 (two nights) with filters Hotels + Fitness center + Very Good: 8+ applied. Results: Toronto: 70 properties found; top matches include DoubleTree by Hilton Toronto Downtown, Revery Toronto Downtown (Curio Collection by Hilton), and Riu Plaza Toronto.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_fitness_center.png",
+      "sha256": "58e5ef713fb5eb7a02d634474b77904a096472d9c07935cfa1235b9192805237"
+    },
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_hotels.png",
+      "sha256": "c8935c71f4f3e6a06477382a90855866f4ed886efedeb4a29053e1d77d8b85cb"
+    },
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_review_score_8.png",
+      "sha256": "46011de3dd6b51dc136e366fecdf258173e464c13706214303c2489e6a2d3235"
+    },
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_04_final_filtered_results.png",
+      "sha256": "d8464849b9dc5390dc0cef257eff80885f54517590af03060c0d5db395f49734"
+    },
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_05_final_full_page.png",
+      "sha256": "b4a64a969e6e780af6f9d106b0fccc938c242071206b3e7d6c85d1a245d4bf13"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "5d4109d008c9ec7b7737be0456ebf1e5a06f85a3b4fda41f488615dff2bbbc6f",
+  "fingerprint": "b4087ce81a6f6407baf0d03577e15d490be989aa4c85d703079dba6f78df79b2",
+  "evaluated_at": "2026-11-16T10:09:39.250792+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for a hotel in Toronto\n2. With a fitness center\n3. With a rating of 8+\n4. Two-night stay from December 5 to December 7, 2026\n\n**Screenshot Verification:**\n\n1. **Destination (Toronto):** ✓ The search bar clearly shows \"Toronto\" entered as the destination, and the breadcrumb shows Home > Canada > Ontario > Toronto > Search results.\n\n2. **Dates (Dec 5–7, two nights):** ✓ The date selector shows \"Sat, Dec 5 — Mon, Dec 7\". December 5, 2026 falls on a Saturday and December 7, 2026 falls on a Monday, confirming these are 2026 dates (also corroborated by the \"©2026 Google\" map watermark). Each listing shows \"2 nights, 2 adults,\" confirming the two-night duration.\n\n3. **Fitness center filter:** ✓ The \"Fitness center\" filter checkbox is checked in the Facilities section, and it appears as an active filter chip (\"Fitness center ✕\") at the top of the results.\n\n4. **Rating 8+ filter:** ✓ The \"Very Good: 8+\" filter checkbox is checked under Review score, and appears as an active filter chip. All displayed hotels have ratings of 8.0 or higher (e.g., DoubleTree by Hilton Toronto Downtown 8.5, Revery Toronto Downtown 8.9, Riu Plaza Toronto 8.8, Holiday Inn 8.0, Chelsea Hotel 8.2, Sheraton Centre 8.4).\n\n5. **Hotel property type:** ✓ The \"Hotels\" filter is checked, ensuring results are hotels.\n\n6. **Results:** ✓ \"Toronto: 70 properties found\" with matching hotels displayed, including DoubleTree by Hilton Toronto Downtown, Revery Toronto Downtown (Curio Collection by Hilton), and Riu Plaza Toronto — exactly as stated in the result response.\n\n**Response Consistency:** The result response accurately describes the search performed and matches the screenshots — filters applied (Hotels + Fitness center + Very Good: 8+), dates Dec 5–7, 2026, and 70 properties found with the named top matches.\n\nAll task requirements have been fulfilled: the search was executed on Booking.com with the correct destination, dates, and filters, producing valid hotel results meeting the fitness center and 8+ rating criteria.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7495,
+    "completion_tokens": 1452,
+    "total_tokens": 8947,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 940
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:09:39.850787+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_fitness_center.png",
+      "source_sha256": "58e5ef713fb5eb7a02d634474b77904a096472d9c07935cfa1235b9192805237",
+      "source_bytes": 519971,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1100
+      ],
+      "transmitted_dimensions": [
+        1280,
+        978
+      ],
+      "transmitted_bytes": 246910,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1ed4914c5fe1f6162494b41c65652b14535d7c3c2e3cc179aa02b0331c35d89c"
+    },
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_hotels.png",
+      "source_sha256": "c8935c71f4f3e6a06477382a90855866f4ed886efedeb4a29053e1d77d8b85cb",
+      "source_bytes": 564193,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1100
+      ],
+      "transmitted_dimensions": [
+        1280,
+        978
+      ],
+      "transmitted_bytes": 254934,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "eceaf607b047fd9141b4b21cea69891e491eac1f0e825d22b4249ea5be65609f"
+    },
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_03_filter_review_score_8.png",
+      "source_sha256": "46011de3dd6b51dc136e366fecdf258173e464c13706214303c2489e6a2d3235",
+      "source_bytes": 514446,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1100
+      ],
+      "transmitted_dimensions": [
+        1280,
+        978
+      ],
+      "transmitted_bytes": 241074,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6037b3e7a627bb0ea4684ad637228ad6113910bc1d8344e0d1f79201d5840599"
+    },
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_04_final_filtered_results.png",
+      "source_sha256": "d8464849b9dc5390dc0cef257eff80885f54517590af03060c0d5db395f49734",
+      "source_bytes": 462472,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1100
+      ],
+      "transmitted_dimensions": [
+        1280,
+        978
+      ],
+      "transmitted_bytes": 260292,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4282f74c57707bb8c514e42a0f79618d1e8d59a00e2fc5331d50328ecdb249b0"
+    },
+    {
+      "path": "Booking--29/Booking--29_20261113_122531/final_runs/run_006/screenshots/final_execution_05_final_full_page.png",
+      "source_sha256": "b4a64a969e6e780af6f9d106b0fccc938c242071206b3e7d6c85d1a245d4bf13",
+      "source_bytes": 2322259,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1425,
+        6105
+      ],
+      "transmitted_dimensions": [
+        299,
+        1280
+      ],
+      "transmitted_bytes": 96086,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "82226471b1cff4704c60df6ac3d080254109dbd612cf54a0d4af990ab5800b07"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1469050,
+  "response_id": "b17d142d-1b5f-4b90-8d6e-1da747bd1846",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2093,
+    "reasoning_content_chars": 3292
+  }
+}

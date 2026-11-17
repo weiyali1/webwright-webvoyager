@@ -1,0 +1,211 @@
+{
+  "task_id": "Wolfram Alpha--28",
+  "website": "Wolfram Alpha",
+  "task": "Identify the character in Unicode range 9632 to 9650 that represents a hollow parallelogram.",
+  "task_record": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845",
+  "task_definition_sha256": "1a7ec2157590f9ddaa6db9478ad5a142bfeabe23b3754050b0e7dbd6ffcb9731",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The character in Unicode range 9632 to 9650 that represents a hollow parallelogram is U+25B1 WHITE PARALLELOGRAM (decimal 9649). Verified on Wolfram Alpha: the query 'unicode 9632 to 9650' displays the Geometric Shapes characters U+25A0..U+25B2, and 'unicode U+25B1' shows the name 'white parallelogram' with encodings U+25B1 (decimal: 9649).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_1_homepage_input.png",
+      "sha256": "e7887389b700649847bbce5c0acffd8639c00459b0f0d7984d7fbedd69c6e172"
+    },
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_2_submit_range_query.png",
+      "sha256": "58a99bf086b507832c1df56501e253dbaa0fb9d52cc850b3a06a3a187d758c54"
+    },
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_3_range_results.png",
+      "sha256": "37846b277c1d3527067451a136bfa808bb7886ccabfa275125f26bbc220a293c"
+    },
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_4_identify_hollow_parallelogram.png",
+      "sha256": "7fe80588f3fdf7ac75d77c4377d1319d9d6b855e2d292daa68059fef14e3d521"
+    },
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_5_final_result.png",
+      "sha256": "0360a8bb50b64d829f959d43896d4271ef0bafac06bbb4395a10927158ba0264"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "2f5a086586f45ed04e2522f58d14efad31e1adfbad93117876c770a62585ad4f",
+  "fingerprint": "19e8e1415153edfb7127cdb54a3ec941bd3185ac660649b8d2f6c6483ed33264",
+  "evaluated_at": "2026-11-16T10:08:13.388576+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task:** Identify the character in Unicode range 9632 to 9650 that represents a hollow parallelogram.\n\n**Analysis of the screenshots:**\n\n1. **Screenshot 1:** Wolfram Alpha homepage — starting point of the task.\n\n2. **Screenshots 2–3:** The query \"unicode 9632 to 9650\" was entered. Wolfram Alpha interpreted it as \"Unicode (character set) 9632 to 9650\" and displayed the Geometric Shapes characters from U+25A0 through U+25B2. In the last row, U+25B0 appears as a filled (black) parallelogram and U+25B1 appears as an outlined (hollow) parallelogram, followed by U+25B2 (filled triangle). This confirms the range contains a hollow parallelogram at U+25B1.\n\n3. **Screenshots 4–5:** The follow-up query \"unicode U+25B1\" was entered. Wolfram Alpha shows:\n   - Input interpretation: character 9649\n   - Visual form: a hollow parallelogram outline\n   - Name: \"white parallelogram\"\n   - Encodings: Unicode U+25B1 (decimal: 9649)\n   - Unicode block: Geometric Shapes (9632 through 9727)\n\n**Verification of correctness:**\n- Decimal 9632 = U+25A0 and decimal 9650 = U+25B2, so U+25B1 (decimal 9649) falls within the specified range. ✓\n- \"White parallelogram\" is the hollow/outline version (vs. U+25B0 \"black parallelogram,\" which is filled), matching the \"hollow parallelogram\" description. ✓\n- The visual form in the screenshots clearly shows a hollow parallelogram outline for U+25B1. ✓\n\n**Result Response consistency:** The response states the answer is U+25B1 WHITE PARALLELOGRAM (decimal 9649), verified via Wolfram Alpha with both queries. This matches the screenshots exactly.\n\nThe task was fully accomplished: the correct character was identified and verified with supporting evidence from the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8165,
+    "completion_tokens": 1192,
+    "total_tokens": 9357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 712
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:13.899894+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_1_homepage_input.png",
+      "source_sha256": "e7887389b700649847bbce5c0acffd8639c00459b0f0d7984d7fbedd69c6e172",
+      "source_bytes": 151078,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 140197,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "dc3c7a7a7648710acd315d30ab6781d223df087332f6072ef083995934b13433"
+    },
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_2_submit_range_query.png",
+      "source_sha256": "58a99bf086b507832c1df56501e253dbaa0fb9d52cc850b3a06a3a187d758c54",
+      "source_bytes": 170669,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 113446,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "23ce644b3dc0492652200688a49a6e53545720c9de4af4d839e4eda1609a3718"
+    },
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_3_range_results.png",
+      "source_sha256": "37846b277c1d3527067451a136bfa808bb7886ccabfa275125f26bbc220a293c",
+      "source_bytes": 170704,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 113443,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "387ccfffc1e44e66eeef4f02653d9efce355b0656e0d411faff71ca5aa038775"
+    },
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_4_identify_hollow_parallelogram.png",
+      "source_sha256": "7fe80588f3fdf7ac75d77c4377d1319d9d6b855e2d292daa68059fef14e3d521",
+      "source_bytes": 189710,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 116029,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ba30a45ab2d2f8f348baaee1e8a3b19f8e5ca1a950701e22652ca3ce5d8526ba"
+    },
+    {
+      "path": "Wolfram Alpha--28/Wolfram Alpha--28_20261114_101845/final_runs/run_001/screenshots/final_execution_5_final_result.png",
+      "source_sha256": "0360a8bb50b64d829f959d43896d4271ef0bafac06bbb4395a10927158ba0264",
+      "source_bytes": 189477,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 115842,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "eb8b2c96936e610f43b89ad0662911a0e9fb60e7f3051b98369b5600904e04c9"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 801929,
+  "response_id": "b0bb246f-c619-4e68-bd44-6de51e30e97c",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1743,
+    "reasoning_content_chars": 2262
+  }
+}

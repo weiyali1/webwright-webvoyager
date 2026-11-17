@@ -1,0 +1,181 @@
+{
+  "task_id": "Huggingface--3",
+  "website": "Huggingface",
+  "task": "Look up a model with a license of cc-by-sa-4.0 with the most likes on Hugging face.",
+  "task_record": "Huggingface--3/Huggingface--3_20261115_033218",
+  "task_definition_sha256": "6e8df321f97a5da05e3c73e9f3689ef168fce36961629e85136dc7cca97fb337",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Huggingface--3/Huggingface--3_20261115_033218"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The cc-by-sa-4.0 licensed model with the most likes on Hugging Face is replit/replit-code-v1-3b with 748 likes (URL: https://huggingface.co/replit/replit-code-v1-3b). Verified via the Models page with the dedicated Licenses filter set to cc-by-sa-4.0 and the Sort control set to Most likes.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_1_models_page.png",
+      "sha256": "6e62b6b3dc5d3afa3485b88b4ef1fe72fd3815d18a221902814eec653e02837e"
+    },
+    {
+      "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_2_license_filter_cc_by_sa_4_0.png",
+      "sha256": "80691cae0bfc2ed4103a8eb24ba81b2eaca54f4e55cee6d74c6356d0f4050532"
+    },
+    {
+      "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_3_sort_most_likes.png",
+      "sha256": "42eff923745cfd4d05ba005315221872d2db10311b827aaff21358407e00ff5d"
+    },
+    {
+      "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_4_top_result.png",
+      "sha256": "42eff923745cfd4d05ba005315221872d2db10311b827aaff21358407e00ff5d"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "59a459c5e88c393afa87d672b7a493ce7d00d87483f2ef8eba2c1ce47c9a3f0a",
+  "fingerprint": "2d78da315e0961a277adca0d8df063e90eea30b793ffeba0ecc4650ae313f05b",
+  "evaluated_at": "2026-11-16T10:03:22.572496+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task:** Look up a model with a license of cc-by-sa-4.0 with the most likes on Hugging Face.\n\n**Step-by-step verification against the screenshots:**\n\n1. **Screenshot 1:** The Hugging Face Models page is open, showing 3,236,892 models sorted by \"Trending\" with no filters applied. This establishes the starting point of the task.\n\n2. **Screenshot 2:** The \"Licenses\" filter tab has been selected, and the **cc-by-sa-4.0** license is visibly highlighted/selected in the left sidebar. The model count drops to 4,805, confirming the license filter was successfully applied. However, the sort is still set to \"Trending\" at this stage.\n\n3. **Screenshots 3 & 4:** The Sort control has been changed to **\"Most likes\"** while the cc-by-sa-4.0 filter remains active. The top result is now **replit/replit-code-v1-3b** with **748 likes**, followed by defog/sqlcoder-7b-2 (452 likes), nlpaueb/legal-bert-base-uncased (335 likes), etc.\n\n**Cross-checking the Result Response:**\n- The response claims the model is replit/replit-code-v1-3b with 748 likes — this matches exactly what is shown at the top of the filtered and sorted list in the screenshots.\n- The response states the verification method (Licenses filter set to cc-by-sa-4.0, Sort set to Most likes) — this is consistent with the visual evidence in screenshots 3 and 4.\n- The model appears as a Text Generation model updated Jul 22, 2023, with 2.15k downloads and 748 likes, all visible in the screenshot.\n\n**Conclusion:** The task required finding the cc-by-sa-4.0 licensed model with the most likes. The screenshots demonstrate the correct workflow: applying the license filter, sorting by most likes, and identifying the top result. The answer provided (replit/replit-code-v1-3b, 748 likes) is fully corroborated by the visual evidence.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8277,
+    "completion_tokens": 969,
+    "total_tokens": 9246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 495
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:23.100166+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_1_models_page.png",
+      "source_sha256": "6e62b6b3dc5d3afa3485b88b4ef1fe72fd3815d18a221902814eec653e02837e",
+      "source_bytes": 608664,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 204500,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c929b5b6cd0f7d89baa99fd39c850bc5314b024ebbf430f7ff8644b32d642139"
+    },
+    {
+      "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_2_license_filter_cc_by_sa_4_0.png",
+      "source_sha256": "80691cae0bfc2ed4103a8eb24ba81b2eaca54f4e55cee6d74c6356d0f4050532",
+      "source_bytes": 667773,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 201577,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7618cb5518204e131d93b808958b3a0e2d6e0aa0134356879c3e73a2300c66af"
+    },
+    {
+      "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_3_sort_most_likes.png",
+      "source_sha256": "42eff923745cfd4d05ba005315221872d2db10311b827aaff21358407e00ff5d",
+      "source_bytes": 675243,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 204785,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "738b36a17844b1edc584ae786b5569d0ff1bd6fb551df5d572597d241f2a1c4b"
+    },
+    {
+      "path": "Huggingface--3/Huggingface--3_20261115_033218/final_runs/run_002/screenshots/final_execution_4_top_result.png",
+      "source_sha256": "42eff923745cfd4d05ba005315221872d2db10311b827aaff21358407e00ff5d",
+      "source_bytes": 675243,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1152,
+        1280
+      ],
+      "transmitted_bytes": 204785,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "738b36a17844b1edc584ae786b5569d0ff1bd6fb551df5d572597d241f2a1c4b"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1090712,
+  "response_id": "08b12acd-7bc8-4ca2-9a22-c1c712e64d39",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1833,
+    "reasoning_content_chars": 1757
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Flights--28",
+  "website": "Google Flights",
+  "task": "Find the best-priced round-trip flight from Seattle to Paris, departing on November 27, 2026, and returning on December 1, 2026, with a maximum of one stop.",
+  "task_record": "Google Flights--28/Google Flights--28_20261114_094559",
+  "task_definition_sha256": "7072c0a4a60a7533c2d37b35b817b29737f7edbe2ee14ceaf8ee2ec15a13fee5",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Flights--28/Google Flights--28_20261114_094559"
+  ],
+  "final_run": "run_004",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The best-priced round-trip flight from Seattle to Paris (departing November 27, 2026, returning December 1, 2026, with a maximum of one stop) is HK$7,181 round trip total with WestJet, 1 stop. Outbound leaves Seattle-Tacoma International Airport at 2:30 PM on Friday, November 27 and arrives at Aéroport de Paris-Charles de Gaulle at 11:30 AM on Saturday, November 28 (total duration 12 hr). Results were filtered to '1 stop or fewer' and sorted by price on Google Flights; this was the cheapest of 9 filtered results.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_2_results.png",
+      "sha256": "8b043b3402a19c3f797f710f62464e8c926540af091815a784e8dac4bc422a52"
+    },
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_3_stops_dialog.png",
+      "sha256": "85fe072ecd82584d945359a78b95374aa13509e3f7f65a9620f8b7a136d92677"
+    },
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_4_stops_applied.png",
+      "sha256": "269c9ea3f8876737ee78306ab7fc82a7c3bf128ef13d32ab2f0596f0f342d139"
+    },
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_5_sorted_price.png",
+      "sha256": "f1473c3027c0df2948d7454f089f2088124853063de747f6a7852d865a1d188a"
+    },
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_6_best_flight.png",
+      "sha256": "f1473c3027c0df2948d7454f089f2088124853063de747f6a7852d865a1d188a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "592be1dcfbc207bc7cc8326dcc9d58c2660aba3ce69d103a44d830e70a7facdb",
+  "fingerprint": "631cbe0c821bb2e30f599f4043f2a3e46c9db8534596267d1b7b41b2f2f0eb9d",
+  "evaluated_at": "2026-11-16T10:32:40.280755+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Round-trip flight from Seattle to Paris\n2. Departing November 27, 2026; returning December 1, 2026\n3. Maximum of one stop\n4. Identify the best (lowest) price\n\n**Screenshot Verification:**\n\n1. **Route & Dates:** The Google Flights search bar shows \"Seattle → Paris\" with dates \"Fri, Nov 27\" and \"Tue, Dec 1\". The day-of-week alignment (Friday Nov 27, Tuesday Dec 1) is consistent with the year 2026. ✓\n\n2. **Stop Filter:** The \"1 stop or fewer\" filter chip is visibly applied (confirmed in screenshot 2, where the Stops dialog shows \"1 stop or fewer\" selected). This satisfies the \"maximum of one stop\" requirement. ✓\n\n3. **Sorting by Price:** The final screenshots (4 and 5) show \"Departing flights\" with \"Sorted by price\" and the \"Cheapest\" tab selected showing \"from HK$7,181\". ✓\n\n4. **Best-Priced Flight:** The top result when sorted by price is WestJet, 2:30 PM – 11:30 AM+1, SEA–CDG, 12 hr, 1 stop (1 hr 20 min YYC), at HK$7,181 round trip — matching the response exactly. The next cheapest is Icelandair at HK$7,219, confirming WestJet is the cheapest. ✓\n\n**Note on discrepancy:** Earlier screenshots (1–3) show Icelandair at HK$6,773 as cheapest, but the final sorted-by-price state (screenshots 4–5) shows prices updated, with WestJet at HK$7,181 as the cheapest and Icelandair at HK$7,219. Per evaluation rules, the final screenshot state prevails, and the response is consistent with that final state.\n\n**Response Consistency:** The response accurately describes the WestJet flight (2:30 PM departure, 11:30 AM+1 arrival at CDG, 12 hr duration, 1 stop, HK$7,181), the applied filter, and the price sorting — all corroborated by the screenshots.\n\nThe task was to *find* the best-priced flight (not book it), and this was accomplished correctly with the appropriate filters and sorting applied.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 10969,
+    "completion_tokens": 1976,
+    "total_tokens": 12945,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1471
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:32:40.785037+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_2_results.png",
+      "source_sha256": "8b043b3402a19c3f797f710f62464e8c926540af091815a784e8dac4bc422a52",
+      "source_bytes": 215993,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1249,
+        1280
+      ],
+      "transmitted_bytes": 270129,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "435b36c6be60c71ae623e4d0ca12ff1229577727e7e4e4d8df3e360ab9f14965"
+    },
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_3_stops_dialog.png",
+      "source_sha256": "85fe072ecd82584d945359a78b95374aa13509e3f7f65a9620f8b7a136d92677",
+      "source_bytes": 226635,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1249,
+        1280
+      ],
+      "transmitted_bytes": 265912,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "dde6f38be01d23eadf27151c3797f17b4f7fcf8e901f7d17d314145bca111685"
+    },
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_4_stops_applied.png",
+      "source_sha256": "269c9ea3f8876737ee78306ab7fc82a7c3bf128ef13d32ab2f0596f0f342d139",
+      "source_bytes": 216055,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1249,
+        1280
+      ],
+      "transmitted_bytes": 270179,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f81eaa767b274c31796c5ad4e4e1b48d77a281fc7791c9e42c659ffd94d52777"
+    },
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_5_sorted_price.png",
+      "source_sha256": "f1473c3027c0df2948d7454f089f2088124853063de747f6a7852d865a1d188a",
+      "source_bytes": 213309,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1249,
+        1280
+      ],
+      "transmitted_bytes": 271540,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1bab07713f7b5dd57cc2283bff752fff8f06e6cdfbc40cb87498d8414d559777"
+    },
+    {
+      "path": "Google Flights--28/Google Flights--28_20261114_094559/final_runs/run_004/screenshots/final_execution_6_best_flight.png",
+      "source_sha256": "f1473c3027c0df2948d7454f089f2088124853063de747f6a7852d865a1d188a",
+      "source_bytes": 213309,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1249,
+        1280
+      ],
+      "transmitted_bytes": 271540,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1bab07713f7b5dd57cc2283bff752fff8f06e6cdfbc40cb87498d8414d559777"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1802626,
+  "response_id": "003e8a06-5e1c-469a-943a-76c17b6e26b2",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1877,
+    "reasoning_content_chars": 5041
+  }
+}

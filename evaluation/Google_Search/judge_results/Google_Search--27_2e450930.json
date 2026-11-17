@@ -1,0 +1,151 @@
+{
+  "task_id": "Google Search--27",
+  "website": "Google Search",
+  "task": "Check the current air quality index in Paris.",
+  "task_record": "Google Search--27/Google Search--27_20261115_164841",
+  "task_definition_sha256": "a7db7f2ecd9c4365fd4282f058e4e2f1805ea04332f21922d5af926881ed3a08",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Search--27/Google Search--27_20261115_164841"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The current air quality index in Paris is AQI 73 (Moderate), as shown on the Google search results page for the query 'air quality index Paris' (aqicn.org real-time AQI result).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Search--27/Google Search--27_20261115_164841/final_runs/run_001/screenshots/final_execution_1_google_homepage.png",
+      "sha256": "ecc527738fffb417c6fbde1d24e113b98459c8a59511380561c9849cde08c435"
+    },
+    {
+      "path": "Google Search--27/Google Search--27_20261115_164841/final_runs/run_001/screenshots/final_execution_2_search_results_paris_air_quality.png",
+      "sha256": "99ac3d60d1235c68fba69c26e487ee7873eb5a9d35b70fb3fd27400592aeaa12"
+    },
+    {
+      "path": "Google Search--27/Google Search--27_20261115_164841/final_runs/run_001/screenshots/final_execution_3_aqi_value_visible.png",
+      "sha256": "99ac3d60d1235c68fba69c26e487ee7873eb5a9d35b70fb3fd27400592aeaa12"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "bcfb41f77bfd211e5317fe9ad5f004a9dc89751f63bf6d03e9379e9ea853b2f4",
+  "fingerprint": "7ce8cca96b48b7e8b8d508374adaf53fe66d781c14ef2df7c0c42a620fd89cbb",
+  "evaluated_at": "2026-11-16T10:11:05.091627+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task:** Check the current air quality index in Paris.\n\n**Screenshot Evidence:**\n1. **Screenshot 1:** Shows the Google homepage, indicating the starting point of the task.\n2. **Screenshot 2 & 3:** Show Google search results for the query \"air quality index Paris\". The results page contains multiple sources with air quality data for Paris:\n   - **aqicn.org** result: \"Paris Air Pollution: Real-time Air Quality Index (AQI)\" with the snippet stating \"Paris AQI: Paris Real-time Air Quality Index (AQI). **73. Moderate.** Updated on Saturday 22:00. temperature: 6°C...\"\n   - IQAir: \"Paris Air Quality Index (AQI) is now Moderate\"\n   - AQI.in: \"Current Paris Air Quality Index (AQI) is 61 Moderate level\"\n   - Other sources (AccuWeather, Plume Labs, etc.)\n\n**Response Verification:**\nThe response states: \"The current air quality index in Paris is AQI 73 (Moderate), as shown on the Google search results page for the query 'air quality index Paris' (aqicn.org real-time AQI result).\"\n\nThis matches exactly with the aqicn.org snippet visible in the screenshot, which shows \"73. Moderate. Updated on Saturday 22:00.\"\n\n**Assessment:**\n- The search for Paris air quality was successfully executed.\n- The current AQI value (73, Moderate) was identified from a real-time source (aqicn.org) directly visible in the search results.\n- The reported value in the response is consistent with the screenshot evidence.\n- While different sources show slightly different values (61 from AQI.in, \"good\" from IQAir), the response correctly cites the specific source (aqicn.org) for the value it reports, and that value is verifiable in the screenshot.\n\nThe task was a simple information lookup, and the requested information (current AQI in Paris) was found and accurately reported.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 5044,
+    "completion_tokens": 1177,
+    "total_tokens": 6221,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 750
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:11:05.427026+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "Google Search--27/Google Search--27_20261115_164841/final_runs/run_001/screenshots/final_execution_1_google_homepage.png",
+      "source_sha256": "ecc527738fffb417c6fbde1d24e113b98459c8a59511380561c9849cde08c435",
+      "source_bytes": 45911,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 49670,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2e31d695363da69a0f143f79ecda563a6986626312296c339a24cc8a7f4383a0"
+    },
+    {
+      "path": "Google Search--27/Google Search--27_20261115_164841/final_runs/run_001/screenshots/final_execution_2_search_results_paris_air_quality.png",
+      "source_sha256": "99ac3d60d1235c68fba69c26e487ee7873eb5a9d35b70fb3fd27400592aeaa12",
+      "source_bytes": 235208,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 182162,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "65bf7c9452d4aac5f468d81c081feefeb82d0b97ba36f15ad0faff47ce6890e3"
+    },
+    {
+      "path": "Google Search--27/Google Search--27_20261115_164841/final_runs/run_001/screenshots/final_execution_3_aqi_value_visible.png",
+      "source_sha256": "99ac3d60d1235c68fba69c26e487ee7873eb5a9d35b70fb3fd27400592aeaa12",
+      "source_bytes": 235208,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 182162,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "65bf7c9452d4aac5f468d81c081feefeb82d0b97ba36f15ad0faff47ce6890e3"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 554949,
+  "response_id": "275429cc-f51c-4a79-8ed6-6a4ed3e89255",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1813,
+    "reasoning_content_chars": 3091
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Flights--2",
+  "website": "Google Flights",
+  "task": "Find the lowest fare from all eligible one-way flights for 1 adult from JFK to Heathrow on Jun. 22.",
+  "task_record": "Google Flights--2/Google Flights--2_20261112_231938",
+  "task_definition_sha256": "a3d286e4d8a9ea60ff959ee0b88855e946b4b9b16b79a749e7727bfba5fc0ec9",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Flights--2/Google Flights--2_20261112_231938"
+  ],
+  "final_run": "run_005",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The lowest one-way fare for 1 adult from JFK to London Heathrow (LHR) on Jun 22, 2027 is HK$3,172 (Google Flights, results sorted by price; top result: 1-stop Aer Lingus flight departing JFK 4:45 PM Tuesday, June 22, arriving Heathrow 8:05 AM Wednesday, June 23).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_1_search_form.png",
+      "sha256": "7c317371a6313422034aa8107d26467fd47488d77f1ab7b641af0586c49658f4"
+    },
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_2_trip_type_one_way.png",
+      "sha256": "43219f94d5b028d282926095f1543b4d9f8531e89a5e8c60975c3f16032703ae"
+    },
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_3_results_jfk_lhr_jun22.png",
+      "sha256": "ea0f5634c3fd2f25debe6389491928ed4f17bfa5a8f4898e94b1394807e603c1"
+    },
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_4_sorted_by_price.png",
+      "sha256": "85bb6640cb64be050023c478d94d74004b273ae636b64797e208d4f3e60a1c6f"
+    },
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_5_lowest_fare.png",
+      "sha256": "12d8c3eb030abadc7f3fe73cfad5c59dbac6f4677a3631bbb3c1c34347839688"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "898373d9cadf7fa81da5fbc68f371b5cc6ccc882503f1c79a089f9e2b7144c12",
+  "fingerprint": "816d2c29c743d457d441a57c768f60ed2917a49bc6cacadba50893bdee908e8f",
+  "evaluated_at": "2026-11-16T09:57:22.121562+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for one-way flights, 1 adult\n2. From JFK to Heathrow (LHR)\n3. Departing Jun. 22\n4. Identify the lowest fare among all eligible flights\n\n**Step-by-step verification against screenshots:**\n\n1. **Screenshot 1–2 (Setup):** The agent opened Google Flights and correctly switched the trip type from \"Round trip\" to \"One way\" with 1 passenger — matching the task requirements.\n\n2. **Screenshots 3–5 (Search execution):** The search was executed with the correct parameters:\n   - Trip type: **One way** ✓\n   - Passengers: **1** ✓\n   - Route: **New York JFK → London LHR** ✓\n   - Date: **Tue, Jun 22** ✓\n\n3. **Final state (Screenshots 4–5):** The results are displayed under \"All flights\" with **\"Sorted by price\"** selected. The list confirms:\n   - Top/cheapest result: **Aer Lingus, 4:45 PM – 8:05 AM+1, 1 stop (2 hr 10 min DUB), HK$3,172** ✓\n   - The \"Cheapest\" tab also confirms **\"from HK$3,172\"** ✓\n   - Next cheapest options: HK$3,172 (other Aer Lingus 1-stops), HK$3,200 (Icelandair), then HK$3,252 (nonstops) — confirming HK$3,172 is indeed the lowest.\n\n4. **Response accuracy:** The response states the lowest fare is **HK$3,172** on a 1-stop Aer Lingus flight departing JFK 4:45 PM June 22 and arriving Heathrow 8:05 AM June 23 (+1 day) — this matches the final screenshots exactly, including the sorted-by-price methodology.\n\n**Note on discrepancy:** Screenshot 3 transiently shows \"Cheapest from HK$2,854\" before the results settled; however, the final browsing state (Screenshots 4–5) consistently shows HK$3,172 as the cheapest in both the Cheapest tab and the price-sorted list, with no filters visibly applied. Since the response is generated at the end of the browsing session and aligns with the final authentic state, the final screenshots prevail.\n\nAll task components (one-way, 1 adult, JFK→Heathrow, Jun 22, lowest fare identification) were correctly completed and reported.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9746,
+    "completion_tokens": 9973,
+    "total_tokens": 19719,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9428
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:57:22.671896+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_1_search_form.png",
+      "source_sha256": "7c317371a6313422034aa8107d26467fd47488d77f1ab7b641af0586c49658f4",
+      "source_bytes": 305018,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 214564,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5ed6ad27137c240f28e66692f3af8e2acb4d2d456bbce33adbf4bc0e61ab29ba"
+    },
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_2_trip_type_one_way.png",
+      "source_sha256": "43219f94d5b028d282926095f1543b4d9f8531e89a5e8c60975c3f16032703ae",
+      "source_bytes": 304986,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 212943,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c01c68d1b8038d9289e86315348b86fdd02a63319475a948b9a8b3a6bf9a4657"
+    },
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_3_results_jfk_lhr_jun22.png",
+      "source_sha256": "ea0f5634c3fd2f25debe6389491928ed4f17bfa5a8f4898e94b1394807e603c1",
+      "source_bytes": 261046,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 240084,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a6f81abfe05dd54bed72f553b2130cc6848b01710cb54d6dc7325ece73ec0942"
+    },
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_4_sorted_by_price.png",
+      "source_sha256": "85bb6640cb64be050023c478d94d74004b273ae636b64797e208d4f3e60a1c6f",
+      "source_bytes": 263800,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 246964,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4ce835bed8a5ecc24baaab1d85c00ccbb6b0e584523d021404416546a320417a"
+    },
+    {
+      "path": "Google Flights--2/Google Flights--2_20261112_231938/final_runs/run_005/screenshots/final_execution_5_lowest_fare.png",
+      "source_sha256": "12d8c3eb030abadc7f3fe73cfad5c59dbac6f4677a3631bbb3c1c34347839688",
+      "source_bytes": 263783,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 246964,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "088723b443e92a7bf1cb8160bfb28bfaaf5cd79fd8ff4121446682c4b5bca3dc"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1551937,
+  "response_id": "5983d13d-52e8-4416-a5ce-875a0d9c41f1",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1970,
+    "reasoning_content_chars": 35231
+  }
+}

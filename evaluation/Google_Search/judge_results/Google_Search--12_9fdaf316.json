@@ -1,0 +1,151 @@
+{
+  "task_id": "Google Search--12",
+  "website": "Google Search",
+  "task": "Find the year that Tom Brady had the most touchdowns in a single seasson.",
+  "task_record": "Google Search--12/Google Search--12_20261116_085818",
+  "task_definition_sha256": "2fe329ee5afd74c8f0da8f3f6d59b34f89b0acd4cef5ea0dbb628770a45c21f8",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Search--12/Google Search--12_20261116_085818"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "2007",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Search--12/Google Search--12_20261116_085818/final_runs/run_001/screenshots/final_execution_1_query_entered.png",
+      "sha256": "65ab62d8e02f83580d0f1ad0476bd1e9084d089c4b679f9b944e612104373f83"
+    },
+    {
+      "path": "Google Search--12/Google Search--12_20261116_085818/final_runs/run_001/screenshots/final_execution_2_results_displayed.png",
+      "sha256": "02c8c323a6d41e3dfba0ee136b3ee62432a755dc294a569952659f33017621b3"
+    },
+    {
+      "path": "Google Search--12/Google Search--12_20261116_085818/final_runs/run_001/screenshots/final_execution_3_answer_visible.png",
+      "sha256": "02c8c323a6d41e3dfba0ee136b3ee62432a755dc294a569952659f33017621b3"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "0d968f48d91b597518c28aba619fc558471aaa05c2e513927f894a464cddb40d",
+  "fingerprint": "af4d63da0f59ff9ef59b4fa8be51c42c49244f51c71c0aba2f1538cc8ca14a17",
+  "evaluated_at": "2026-11-16T10:04:14.873015+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task:** Find the year that Tom Brady had the most touchdowns in a single season.\n\n**Result Response:** 2007\n\n**Screenshot Evidence:**\n\n1. **Screenshot 1:** Shows the Google search page with the query \"Tom Brady most touchdowns in a single season year\" entered in the search box.\n\n2. **Screenshots 2 & 3:** Show the Google search results, which include:\n   - An AI summary (in Chinese) stating: \"湯姆·布雷迪（Tom Brady）單一賽季傳球達陣數最多的紀錄是 **50次**，發生在 **2007年** 效力於新格蘭愛國者隊的賽季\" — meaning Tom Brady's single-season record for passing touchdowns is 50, occurring in **2007** with the New England Patriots.\n   - A ranked list confirming: 50 times — 2007 (Patriots), 43 times — 2021 (Buccaneers), 40 times — 2020 (Buccaneers).\n   - The Pro-Football-Reference.com result: \"NFL Passing Touchdowns Single-Season Leaders: 1. Peyton Manning (55/2013), 2. **Tom Brady (50/2007)**, 2. Patrick Mahomes (50/2018)...\"\n   - The StatMuse snippet: \"Tom Brady most passing touchdowns in a regular season: 50 touchdowns in 2007 (NE...)\"\n\n**Verification:**\n- The search was properly executed with a relevant query.\n- Multiple independent sources in the search results (Google AI summary, Pro-Football-Reference, StatMuse) all consistently confirm that Tom Brady's highest single-season touchdown total was 50 touchdowns in **2007**.\n- The provided answer \"2007\" matches the evidence shown in the screenshots exactly.\n\nThe task was to find the year of Tom Brady's most touchdowns in a single season, and the correct answer (2007) was found and reported.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6254,
+    "completion_tokens": 906,
+    "total_tokens": 7160,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 453
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:15.167133+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "Google Search--12/Google Search--12_20261116_085818/final_runs/run_001/screenshots/final_execution_1_query_entered.png",
+      "source_sha256": "65ab62d8e02f83580d0f1ad0476bd1e9084d089c4b679f9b944e612104373f83",
+      "source_bytes": 47617,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 70340,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0842ceada3177f12a93fd6b372cc75f092b38353581880d8fedf0fec93bcfe20"
+    },
+    {
+      "path": "Google Search--12/Google Search--12_20261116_085818/final_runs/run_001/screenshots/final_execution_2_results_displayed.png",
+      "source_sha256": "02c8c323a6d41e3dfba0ee136b3ee62432a755dc294a569952659f33017621b3",
+      "source_bytes": 198178,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 188076,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "aece4c706a87a19f486d929e84dd9575c6e247a69881e719d9fc20ff75f8ec3a"
+    },
+    {
+      "path": "Google Search--12/Google Search--12_20261116_085818/final_runs/run_001/screenshots/final_execution_3_answer_visible.png",
+      "source_sha256": "02c8c323a6d41e3dfba0ee136b3ee62432a755dc294a569952659f33017621b3",
+      "source_bytes": 198178,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 188076,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "aece4c706a87a19f486d929e84dd9575c6e247a69881e719d9fc20ff75f8ec3a"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 598132,
+  "response_id": "eb7abc40-dd0c-4301-a388-c402a27f2b5b",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1570,
+    "reasoning_content_chars": 1542
+  }
+}

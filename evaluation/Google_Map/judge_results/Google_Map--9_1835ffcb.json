@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--9",
+  "website": "Google Map",
+  "task": "Find the art gallery that is nearest to Los Angeles Hindu Temple.",
+  "task_record": "Google Map--9/Google Map--9_20261114_060227",
+  "task_definition_sha256": "d3094c23a6bcf500426b1c50853ed89f831c54636983de17912e7f3d1ba04eef",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--9/Google Map--9_20261114_060227"
+  ],
+  "final_run": "run_007",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The art gallery nearest to Los Angeles Hindu Temple is Honor Fraser Gallery (about 27 m away; Google Maps directions from the temple show 33 英尺).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_1_temple_place_panel.png",
+      "sha256": "f6033914ecf9394efdac8d604e18fd87c8be7b57cfddaca6857dae107d49dc80"
+    },
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_2_nearby_search_open.png",
+      "sha256": "3e2b1f7a350c2e9abaf9d7710052ec8caaf2e059270d1894731ac2fb190f895b"
+    },
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_3_art_gallery_nearby_results.png",
+      "sha256": "b2f09cff90788193132ca57b377faf99b5a472594994e60a87513de9a7083fcf"
+    },
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_4_nearest_gallery_details.png",
+      "sha256": "784ec86b341ea860d83ebd596140c56d8152e14fd44fafb2d14da00929966d6a"
+    },
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_5_distance_from_temple.png",
+      "sha256": "08e19dbf063b5b88316d0012212dafc3de5dc896cba9c86196e149acff90040f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "21faca8acaa9754539cabd620f119058c90542463b8c7885015945d4c92c0f57",
+  "fingerprint": "2b46e09a6440ebf0d2c44cefad6487df56bf1dc28ba03abb6f75f30838d28292",
+  "evaluated_at": "2026-11-16T10:01:44.779729+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirement\nFind the art gallery nearest to Los Angeles Hindu Temple.\n\n## Step-by-Step Review of Evidence\n\n**Screenshot 1:** The user searched for \"Los Angeles Hindu Temple\" on Google Maps. The temple's detail panel shows its address: **2626 S La Cienega Blvd, Los Angeles, CA 90034**. This establishes the reference point.\n\n**Screenshot 2:** The user initiated a nearby search from the temple's location (search suggestions for restaurants/hotels/bars appear with \"附近\" = nearby), preparing to search for art galleries around the temple.\n\n**Screenshot 3:** A search for \"art gallery\" was performed around the temple's location. Results include multiple galleries: Sprüth Magers Gallery (5900 Wilshire Blvd), BLUM (2727 S La Cienega Blvd), LDC Art Gallery, ABM Enterprises, Matter Studio Gallery, UNITY Tattoo Gallery (2660 S La Cienega Blvd), TAG Gallery, David Kordansky Gallery, etc. The map shows the temple's location (blue dot) surrounded by gallery pins.\n\n**Screenshot 4:** The user selected **Honor Fraser Gallery**, located at **2622 S La Cienega Blvd, Los Angeles, CA 90034** — the same street as the temple, only 4 address numbers away. Other nearby galleries on the same street (Walter Maciel Gallery at 2642, Allouche Gallery at 2683, Billis/Williams at 2716) have addresses farther from the temple's 2626 address.\n\n**Screenshot 5:** Directions were computed from Los Angeles Hindu Temple (2626 S La Cienega) to Honor Fraser Gallery (2622 S La Cienega): walking route via La Cienega Blvd, **1 minute, 33 英尺 (33 feet)**. The map clearly shows the two markers essentially adjacent to each other, confirming the gallery is virtually next door to the temple.\n\n## Assessment\n- The workflow was logical: locate the temple → search nearby art galleries → identify the closest one → verify with directions.\n- The verification via Google Maps directions (33 feet, 1-min walk) confirms Honor Fraser Gallery is extremely close — closer than any other gallery shown in the results (e.g., BLUM at 2727, Walter Maciel at 2642, UNITY Tattoo at 2660 S La Cienega).\n- The response correctly names **Honor Fraser Gallery** as the nearest art gallery, consistent with the screenshots. There is a minor inconsistency in the response text (\"about 27 m\" vs. the screenshot's 33 feet ≈ 10 m), but per evaluation rules, the screenshot prevails, and this does not affect the core answer — the gallery identified is correct and verified as the nearest.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 10146,
+    "completion_tokens": 3589,
+    "total_tokens": 13735,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2989
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:01:45.415450+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_1_temple_place_panel.png",
+      "source_sha256": "f6033914ecf9394efdac8d604e18fd87c8be7b57cfddaca6857dae107d49dc80",
+      "source_bytes": 971999,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 339621,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b3a5f3c65bee2e0f8e90dda44d6b7fdf39027b884cd1c6ecd455b495494ad9d5"
+    },
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_2_nearby_search_open.png",
+      "source_sha256": "3e2b1f7a350c2e9abaf9d7710052ec8caaf2e059270d1894731ac2fb190f895b",
+      "source_bytes": 945369,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 323342,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "040bdaad75d4d7322fb03cbe7841c680733bf2bd24c7a9126cb6317269abb02a"
+    },
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_3_art_gallery_nearby_results.png",
+      "source_sha256": "b2f09cff90788193132ca57b377faf99b5a472594994e60a87513de9a7083fcf",
+      "source_bytes": 1317629,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 413776,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0b632f6ba12473fafc21d2cebb61cca51d58cc6f326682dc3c6b12ebe1a8891f"
+    },
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_4_nearest_gallery_details.png",
+      "source_sha256": "784ec86b341ea860d83ebd596140c56d8152e14fd44fafb2d14da00929966d6a",
+      "source_bytes": 1061385,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 362315,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9e98a0d0c14bb2078109626dee237c84e838959d485f074a0f6354abd8630a24"
+    },
+    {
+      "path": "Google Map--9/Google Map--9_20261114_060227/final_runs/run_007/screenshots/final_execution_5_distance_from_temple.png",
+      "source_sha256": "08e19dbf063b5b88316d0012212dafc3de5dc896cba9c86196e149acff90040f",
+      "source_bytes": 1376677,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 370555,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "152c6df44a185b6d8f9a449b3717ff31b6c66caf84eebc242c8d9034beefc638"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2415909,
+  "response_id": "6ef6ee69-01d6-4897-b6b6-ce88e2adac27",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2493,
+    "reasoning_content_chars": 11963
+  }
+}

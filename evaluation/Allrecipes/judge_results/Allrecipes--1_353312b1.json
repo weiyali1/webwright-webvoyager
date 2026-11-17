@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--1",
+  "website": "Allrecipes",
+  "task": "Find a recipe for a vegetarian lasagna that has at least a four-star rating and uses zucchini.",
+  "task_record": "Allrecipes--1/Allrecipes--1_20261112_235410",
+  "task_definition_sha256": "27af063df1026af60df50a30a29819252db21f7f7b45359e05d31868e8683fb7",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--1/Allrecipes--1_20261112_235410"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found vegetarian zucchini lasagna recipe: 'Easy Roasted Vegetable Lasagna' at https://www.allrecipes.com/recipe/232465/easy-roasted-vegetable-lasagna/ with a 4.8-star rating (>= 4 stars). Ingredient list confirms zucchini (2 zucchini, sliced) and contains no meat/poultry/fish, so it is vegetarian.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "sha256": "2894b50981a7d9df15e3be2986c5615339d3eaf1429cd0005b00c7e0d8d92ea2"
+    },
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_3_recipe_opened.png",
+      "sha256": "1a30bcc1b5032ed14339f1ce4c64266bfda4b0d1d024f4674755a928a5dbda8c"
+    },
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_4_rating_header.png",
+      "sha256": "0a6546ac380805dfeb68722fb47b714637e135d6d4d8fb9b7da92dfe4a20b676"
+    },
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_5_ingredients_zucchini.png",
+      "sha256": "8c0cd5d41e8edc7b2d7c5ef2b9352e0bd66d939ab9f033e30681b35bf18b4d40"
+    },
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_6_vegetarian_check.png",
+      "sha256": "8c0cd5d41e8edc7b2d7c5ef2b9352e0bd66d939ab9f033e30681b35bf18b4d40"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "4c463ecce8d6900565f755bd9de8a674f66733c0e2a826ed2c5ff040bd5a759d",
+  "fingerprint": "8d919f68b09efa615a17096ce4e57f5533b5b25c770ed3d8a211ccf3c07b4553",
+  "evaluated_at": "2026-11-16T09:57:49.534405+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task requires finding a recipe that meets three criteria:\n1. **Vegetarian lasagna** — no meat/poultry/fish\n2. **At least a four-star rating**\n3. **Uses zucchini**\n\n## Screenshot Evidence\n\n**Screenshot 1 (Search Results):** The search for \"zucchini lasagna\" was performed on Allrecipes, showing multiple recipe results including \"Easy Roasted Vegetable Lasagna\" with a 5-star display.\n\n**Screenshots 2-3 (Recipe Page):** The \"Easy Roasted Vegetable Lasagna\" recipe page shows:\n- **Rating: 4.8 stars** (90 ratings) — this exceeds the required 4-star minimum ✓\n- The recipe is explicitly a lasagna recipe (breadcrumb: Main Dishes > Pasta > Lasagna Recipes > Zucchini Lasagna Recipes) ✓\n\n**Screenshots 4-5 (Ingredients):** The full ingredient list is visible:\n- olive oil cooking spray\n- **2 zucchini, sliced** ✓ (zucchini requirement confirmed)\n- 2 green bell peppers\n- sliced fresh mushrooms\n- onion, basil, garlic, salt, pepper\n- lasagna noodles\n- pasta sauce\n- mozzarella cheese, Parmesan cheese\n\n**Vegetarian check:** The ingredient list contains no meat, poultry, or fish products — only vegetables, cheese, pasta, and sauce. This confirms the recipe is vegetarian. ✓\n\n## Response Consistency\nThe result response accurately matches the screenshots: it identifies the recipe name, URL, the 4.8-star rating, the zucchini ingredient (2 zucchini, sliced), and correctly concludes the recipe is vegetarian based on the ingredient list. There are no discrepancies between the response and the visual evidence.\n\n## Conclusion\nAll three task requirements are satisfied and verified by the screenshots:\n- ✅ Vegetarian lasagna (no meat ingredients)\n- ✅ 4.8-star rating (≥ 4 stars)\n- ✅ Uses zucchini\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8132,
+    "completion_tokens": 874,
+    "total_tokens": 9006,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 452
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:57:50.059514+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "2894b50981a7d9df15e3be2986c5615339d3eaf1429cd0005b00c7e0d8d92ea2",
+      "source_bytes": 1220839,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 273819,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8f59230c15e63eebe7696aeba46f44b473f3b73df3b159ef5051246c59aba3e5"
+    },
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_3_recipe_opened.png",
+      "source_sha256": "1a30bcc1b5032ed14339f1ce4c64266bfda4b0d1d024f4674755a928a5dbda8c",
+      "source_bytes": 652743,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 177466,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0b8ccd528eff19f27c34349b4977f0da5f56ae76dee3dd9a100368d67b0f70c9"
+    },
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_4_rating_header.png",
+      "source_sha256": "0a6546ac380805dfeb68722fb47b714637e135d6d4d8fb9b7da92dfe4a20b676",
+      "source_bytes": 666399,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 184725,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "44dc5233638654e8727e99a15ea9f9c06bd5cf4bd21042db026268690acb49af"
+    },
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_5_ingredients_zucchini.png",
+      "source_sha256": "8c0cd5d41e8edc7b2d7c5ef2b9352e0bd66d939ab9f033e30681b35bf18b4d40",
+      "source_bytes": 135453,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 148282,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "833a04cc1b8b29b14fc40190dcb47de2460ef0f1fe8db2ecce3401a2c60d82b3"
+    },
+    {
+      "path": "Allrecipes--1/Allrecipes--1_20261112_235410/final_runs/run_001/screenshots/final_execution_6_vegetarian_check.png",
+      "source_sha256": "8c0cd5d41e8edc7b2d7c5ef2b9352e0bd66d939ab9f033e30681b35bf18b4d40",
+      "source_bytes": 135453,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 148282,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "833a04cc1b8b29b14fc40190dcb47de2460ef0f1fe8db2ecce3401a2c60d82b3"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1246707,
+  "response_id": "e6053ff4-67b1-4b95-b555-4cce1053eaa6",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1760,
+    "reasoning_content_chars": 1781
+  }
+}

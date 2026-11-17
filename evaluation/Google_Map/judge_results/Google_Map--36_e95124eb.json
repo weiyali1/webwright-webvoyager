@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--36",
+  "website": "Google Map",
+  "task": "Identify 5 restaurants serving pizza near the 30309 zip code and rank them by their ratings.",
+  "task_record": "Google Map--36/Google Map--36_20261115_080440",
+  "task_definition_sha256": "078255c644d70ab95dd46f2a743560dbb1df5b3b28e8551913ce5ffb34e95bd6",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--36/Google Map--36_20261115_080440"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Top 5 pizza restaurants near 30309 ranked by rating (highest to lowest):\n1. Varasano's Pizza - rating 4.9\n2. Tandoori Pizza & Wings - rating 4.7\n3. Antico Pizza Napoletana - rating 4.6\n4. Varuni Napoli - rating 4.6\n5. Atwoods - rating 4.5",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_1_search.png",
+      "sha256": "378ead350ea56c176c1628df90f35d0529ebf3f5f4a60b84b31883fa5841f887"
+    },
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_2_results.png",
+      "sha256": "378ead350ea56c176c1628df90f35d0529ebf3f5f4a60b84b31883fa5841f887"
+    },
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_3_extract.png",
+      "sha256": "27bb0bb992dec6fdfef2059c6230aca745ec582f8e33240d177cc97c5308a090"
+    },
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_4_rank.png",
+      "sha256": "27bb0bb992dec6fdfef2059c6230aca745ec582f8e33240d177cc97c5308a090"
+    },
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_5_final_state.png",
+      "sha256": "27bb0bb992dec6fdfef2059c6230aca745ec582f8e33240d177cc97c5308a090"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "a62c47e8ca81b712f5bbae92893fe2e1a59b37a5bc504a01282a1fd6404aa83e",
+  "fingerprint": "daf7db0d1ff4c844a48362ec2fc9f563eafe097023714a4570e0131ef77a98d3",
+  "evaluated_at": "2026-11-16T10:23:26.241677+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task required:\n1. Identifying 5 restaurants serving pizza near zip code 30309\n2. Ranking them by their ratings\n\n## Verification Against Screenshots\n\nThe screenshots show a Google Maps search for \"pizza near 30309\" with the following results visible:\n\n**From screenshots 1-2:**\n- Varasano's Pizzeria - Buckhead: 4.9 (3,212 reviews)\n- Atwoods Pizza Cafe: 4.5 (1,117 reviews)\n- Mellow Mushroom Atlanta - Buckhead: 4.4 (1,336 reviews)\n- Tandoori Pizza & Wing Co: 4.7 (876 reviews)\n- Antico Pizza Napoletana: 4.6 (6,602 reviews)\n- Varuni Napoli: 4.6 (1,540 reviews)\n- Pasta da Pulcinella: 4.4 (1,449 reviews)\n\n**From screenshots 3-5 (scrolled further):**\n- Campagnolo Restaurant + Bar: 4.3\n- DaVinci's Pizzeria: 4.4 (permanently closed)\n- Goodfellas Pizza & Wings: 3.5\n\n## Checking the Response\n\nThe response lists:\n1. Varasano's Pizza - 4.9 ✓ (matches screenshot: Varasano's Pizzeria - Buckhead, 4.9)\n2. Tandoori Pizza & Wings - 4.7 ✓ (matches screenshot: Tandoori Pizza & Wing Co, 4.7)\n3. Antico Pizza Napoletana - 4.6 ✓ (matches screenshot: 4.6)\n4. Varuni Napoli - 4.6 ✓ (matches screenshot: 4.6)\n5. Atwoods - 4.5 ✓ (matches screenshot: Atwoods Pizza Cafe, 4.5)\n\n## Assessment\n- **5 restaurants identified**: Yes, exactly 5 pizza restaurants are listed\n- **Near 30309**: Yes, the search was performed for \"pizza near 30309\" and all results are from that search\n- **Ranked by ratings**: Yes, the order is correct (4.9 > 4.7 > 4.6 = 4.6 > 4.5, descending order)\n- **Accuracy**: All ratings in the response match the screenshots exactly. Minor name abbreviations (\"Varasano's Pizza\" vs \"Varasano's Pizzeria - Buckhead\", \"Atwoods\" vs \"Atwoods Pizza Cafe\") clearly refer to the same establishments shown in the screenshots.\n\nThe response correctly selected the top 5 highest-rated pizza restaurants from the search results and ranked them properly by rating.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 10206,
+    "completion_tokens": 1431,
+    "total_tokens": 11637,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 850
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:23:26.896043+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_1_search.png",
+      "source_sha256": "378ead350ea56c176c1628df90f35d0529ebf3f5f4a60b84b31883fa5841f887",
+      "source_bytes": 1081567,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 441569,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3e0c5c635b7197dd47b86ee5e54ee97d3176f7481f9a1edec5b17ab1bafe5a92"
+    },
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_2_results.png",
+      "source_sha256": "378ead350ea56c176c1628df90f35d0529ebf3f5f4a60b84b31883fa5841f887",
+      "source_bytes": 1081567,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 441569,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3e0c5c635b7197dd47b86ee5e54ee97d3176f7481f9a1edec5b17ab1bafe5a92"
+    },
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_3_extract.png",
+      "source_sha256": "27bb0bb992dec6fdfef2059c6230aca745ec582f8e33240d177cc97c5308a090",
+      "source_bytes": 807422,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 238340,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4d66dc1ccbc487fda771bb86288e85791d8f5f590c75596b510bb4ea101ab5be"
+    },
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_4_rank.png",
+      "source_sha256": "27bb0bb992dec6fdfef2059c6230aca745ec582f8e33240d177cc97c5308a090",
+      "source_bytes": 807422,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 238340,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4d66dc1ccbc487fda771bb86288e85791d8f5f590c75596b510bb4ea101ab5be"
+    },
+    {
+      "path": "Google Map--36/Google Map--36_20261115_080440/final_runs/run_002/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "27bb0bb992dec6fdfef2059c6230aca745ec582f8e33240d177cc97c5308a090",
+      "source_bytes": 807422,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 238340,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4d66dc1ccbc487fda771bb86288e85791d8f5f590c75596b510bb4ea101ab5be"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2134094,
+  "response_id": "9452b6cc-9e26-4942-8f6e-a945f982e529",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1923,
+    "reasoning_content_chars": 2679
+  }
+}

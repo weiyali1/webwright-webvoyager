@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--17",
+  "website": "Google Map",
+  "task": "Search for locksmiths open now but not open 24 hours in Texas City.",
+  "task_record": "Google Map--17/Google Map--17_20261114_120356",
+  "task_definition_sha256": "4336a2fbbbddd1e40e6098dd8babb27cddb9a07f6c153b078107e680014f106c",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--17/Google Map--17_20261114_120356"
+  ],
+  "final_run": "run_009",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Applied the Open now hours filter to locksmiths in Texas City. Since Google Maps has no not-24-hours control, verified from place-panel content. Locksmiths open now but NOT open 24 hours: Max Key Locksmith; Rush Lock Inc; Scorpion Locksmith Houston. Verified exemplar: Rush Lock Inc (place panel shows specific closing time: ['營業中 · 打烊時間：週日00:00']; address: 1933 County Rd 129 Suite B, Pearland, TX 77581美國).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_2_results.png",
+      "sha256": "9324cd376f2bc0fd6afff323c2320b01dc81d7f7c80deb141d226b8c3bf6eafb"
+    },
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_3_open_now_filter.png",
+      "sha256": "9d33957a2d3600dc57d103f290fa0e7900824ecb03b0f0f62f1e7e05740c7ce0"
+    },
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_4_open_now_rows.png",
+      "sha256": "08c6fae9d64b03a340be94eaea48795ed5d0eacdcafa48a4f6b7dda64ddec644"
+    },
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_5_place_panel.png",
+      "sha256": "2780d2b18a321154dc7666df51ae1e4f7d2ac457d114bd981ebb4ad5bae74618"
+    },
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_6_final_state.png",
+      "sha256": "deac4dc0d28662834f829b124c7883e9529ceb51fb5d59d277987bb9bc8576ca"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "17967c79d8a87194d7cbfc7a89ef8d6be90f78b2bf9243b52bd64d7cecc6ac59",
+  "fingerprint": "d21ae360bea2f93a992346ec4640235d13fcad4662a888b48d494e80cc3b46ae",
+  "evaluated_at": "2026-11-16T10:08:47.277062+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for locksmiths in Texas City\n2. Filter/identify those that are open now\n3. Exclude those that are open 24 hours (i.e., find ones open now but NOT open 24 hours)\n\n**Step-by-step verification against screenshots:**\n\n1. **Search performed (Screenshot 1):** The search box shows \"locksmiths in Texas City\" was entered in Google Maps, and results were returned (Anytime Lock & Safe Inc., Local Galveston Locksmith, Liberty Safe & Locksmith Shop, KeyMe Locksmiths, Goan Locksmith).\n\n2. **\"Open now\" filter applied (Screenshot 2):** The 營業時間 (Hours) filter dropdown now shows a checkmark next to 營業中 (Open now). The results updated accordingly — closed places like Liberty Safe & Locksmith Shop (已打烊) and Goan Locksmith (已打烊) from Screenshot 1 no longer appear, confirming the filter took effect.\n\n3. **Identification of non-24-hour open locksmiths (Screenshot 3):** Scrolling the filtered results reveals:\n   - **Rush Lock Inc** — 營業中 · 打烊時間：週日00:00 (Open now, closes Sunday 00:00), with no \"24 小時營業\" label → open now, not 24 hours ✓\n   - **Max Key Locksmith** — 營業中 · 打烊時間：01:00 (Open now, closes 01:00), no \"24 小時營業\" label → open now, not 24 hours ✓\n   \n   Other visible results (Local Galveston Locksmith, Locksmith 4 Life, Auto Keys Now LLC, Airborne Locksmith, Blackburn Locksmith Services, A-Abracadabra) all display \"24 小時營業\" and were correctly excluded.\n\n4. **Scorpion Locksmith Houston verification (Screenshot 4):** The place panel shows 即將打烊：00:00 · 開始營業時間：週一 00:00 (Closing soon at 00:00, reopens Monday 00:00) — confirming it is currently open but not a 24-hour operation ✓\n\n5. **Consistency check:** The response's claims match the screenshots — Rush Lock Inc's address (1933 County Rd 129 Suite B, Pearland) and closing time match Screenshot 3; Scorpion Locksmith Houston's status matches Screenshot 4. The agent reasonably noted that Google Maps lacks a \"not-24-hours\" filter, so manual verification from listing/panel content was the correct approach.\n\nThe agent completed the search, applied the correct filter, correctly distinguished 24-hour locksmiths from non-24-hour ones, and provided verified results with supporting details.\n\n## Final Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8162,
+    "completion_tokens": 3189,
+    "total_tokens": 11351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2581
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:47.490857+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_2_results.png",
+      "source_sha256": "9324cd376f2bc0fd6afff323c2320b01dc81d7f7c80deb141d226b8c3bf6eafb",
+      "source_bytes": 451459,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 266683,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "96ed410cdd3c5fbcedc7405b25740f18f8e519243b6cb682189d90f4186726ec"
+    },
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_3_open_now_filter.png",
+      "source_sha256": "9d33957a2d3600dc57d103f290fa0e7900824ecb03b0f0f62f1e7e05740c7ce0",
+      "source_bytes": 451430,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 266944,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "387f372105f082a51fd002e3f5be7e0bd4fd06ea905a75547c8f2627608e2831"
+    },
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_4_open_now_rows.png",
+      "source_sha256": "08c6fae9d64b03a340be94eaea48795ed5d0eacdcafa48a4f6b7dda64ddec644",
+      "source_bytes": 437992,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 244019,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1112697d2cba0f8d0e3a08d881cbd74d1d70c6f397fcf7a95d6e9a02d085727f"
+    },
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_5_place_panel.png",
+      "source_sha256": "2780d2b18a321154dc7666df51ae1e4f7d2ac457d114bd981ebb4ad5bae74618",
+      "source_bytes": 570739,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 273395,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7e93f33a1de8f12b2c4e75db635957facef521fa891a272d11f79d4b66e0d9a3"
+    },
+    {
+      "path": "Google Map--17/Google Map--17_20261114_120356/final_runs/run_009/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "deac4dc0d28662834f829b124c7883e9529ceb51fb5d59d277987bb9bc8576ca",
+      "source_bytes": 448579,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 266008,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ced2b7de132a2c9ac061f8ab6d9d0b5e8d3f64ad318b6af460d27215e3d9899f"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1759467,
+  "response_id": "eecb2d0d-c02c-4165-bb5a-558826f8bcdb",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2232,
+    "reasoning_content_chars": 9362
+  }
+}

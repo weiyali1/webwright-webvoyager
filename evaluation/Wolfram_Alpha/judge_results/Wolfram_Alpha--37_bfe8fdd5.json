@@ -1,0 +1,181 @@
+{
+  "task_id": "Wolfram Alpha--37",
+  "website": "Wolfram Alpha",
+  "task": "How many days are there between February 12, 2024 and August 9, 2050?",
+  "task_record": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412",
+  "task_definition_sha256": "d491c40678b6aa17b3d99c199d08d56225191600d05de3929a1a18e1662153a6",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "9675 days",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412/final_runs/run_002/screenshots/final_execution_1_homepage_input_visible.png",
+      "sha256": "9495d2e6b951a6fba2dffbad32c60ef8af46853e14de2cb3d9f0c474cd3f7e1c"
+    },
+    {
+      "path": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412/final_runs/run_002/screenshots/final_execution_2_query_entered.png",
+      "sha256": "e0bd9b7a4b4793a4c62e225cf0268050e1eb6109edb64f1667a9e312e177a158"
+    },
+    {
+      "path": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412/final_runs/run_002/screenshots/final_execution_3_query_submitted.png",
+      "sha256": "8cd23f6b5d7cdc18f52cbdc3c07d79dc97c6085cbcb211ad570e7829c3d8c6fd"
+    },
+    {
+      "path": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412/final_runs/run_002/screenshots/final_execution_4_result_displayed.png",
+      "sha256": "8cd23f6b5d7cdc18f52cbdc3c07d79dc97c6085cbcb211ad570e7829c3d8c6fd"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "8bd4e7991b1e81943dbac764ad36d6fd2862915a99564c6a1fe099b90c6bb48c",
+  "fingerprint": "4506d2577953cf57a0458bff584fb291edde12f25d9bc153fbfbd2770d5d3d41",
+  "evaluated_at": "2026-11-16T10:16:29.343137+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task Instruction:** Determine how many days there are between February 12, 2024 and August 9, 2050.\n\n**Analysis of Screenshots:**\n\n1. **Screenshot 1:** Shows the WolframAlpha homepage with an empty search input field — the starting state.\n\n2. **Screenshot 2:** Shows the query \"days between February 12, 2024 and August 9, 2050\" correctly entered into the WolframAlpha search box.\n\n3. **Screenshot 3 & 4:** Show the results page with:\n   - **Input interpretation:** \"days from Monday, February 12, 2024 to Tuesday, August 9, 2050\" — confirming the query was interpreted correctly with the exact dates specified in the task.\n   - **Result:** \"9675 days\"\n   - **Time span:** 26 years 5 months 28 days / 1382 weeks 1 day / 26.49 years\n\n**Verification of Result Response:**\nThe Result Response states \"9675 days,\" which exactly matches the result displayed in the screenshot. \n\n**Independent verification of the math:**\n- Feb 12, 2024 → Feb 12, 2050 = 26 years = 9,490 days + 7 leap days (2024, 2028, 2032, 2036, 2040, 2044, 2048) = 9,497 days\n- Feb 12, 2050 → Aug 9, 2050 = 16 + 31 + 30 + 31 + 30 + 31 + 9 = 178 days\n- Total: 9,497 + 178 = **9,675 days** ✓\n\nThe calculation is correct, the query was properly executed on WolframAlpha, and the answer in the response matches the screenshot evidence.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7091,
+    "completion_tokens": 964,
+    "total_tokens": 8055,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 560
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:16:29.484563+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412/final_runs/run_002/screenshots/final_execution_1_homepage_input_visible.png",
+      "source_sha256": "9495d2e6b951a6fba2dffbad32c60ef8af46853e14de2cb3d9f0c474cd3f7e1c",
+      "source_bytes": 112024,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 175972,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b8836f63e6011c1816551afba0e033b73dee2f70f7c3ebe0d5070d0f639428d7"
+    },
+    {
+      "path": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412/final_runs/run_002/screenshots/final_execution_2_query_entered.png",
+      "source_sha256": "e0bd9b7a4b4793a4c62e225cf0268050e1eb6109edb64f1667a9e312e177a158",
+      "source_bytes": 113793,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 178733,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b3ad49e9fb363788df2acf6fa41f18bd2a60947934282bbfb8abd964fb6a0f56"
+    },
+    {
+      "path": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412/final_runs/run_002/screenshots/final_execution_3_query_submitted.png",
+      "source_sha256": "8cd23f6b5d7cdc18f52cbdc3c07d79dc97c6085cbcb211ad570e7829c3d8c6fd",
+      "source_bytes": 153701,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 160180,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ed89072935709646de23179d32a338f6b5d1eefbe77c5b2c2aec9842e036322f"
+    },
+    {
+      "path": "Wolfram Alpha--37/Wolfram Alpha--37_20261114_125412/final_runs/run_002/screenshots/final_execution_4_result_displayed.png",
+      "source_sha256": "8cd23f6b5d7cdc18f52cbdc3c07d79dc97c6085cbcb211ad570e7829c3d8c6fd",
+      "source_bytes": 153701,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 160180,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ed89072935709646de23179d32a338f6b5d1eefbe77c5b2c2aec9842e036322f"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 902977,
+  "response_id": "b2bbcfa4-0f18-45d5-b0bc-fcfe6a89f0d6",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1337,
+    "reasoning_content_chars": 1548
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "task_id": "Cambridge Dictionary--13",
+  "website": "Cambridge Dictionary",
+  "task": "Find one word, one phase and one idiom related to euphoria in Cambridge Dictionary.",
+  "task_record": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624",
+  "task_definition_sha256": "dd30a1f7e9ab5037e0c3f83fb507f4ecb9726921fb0b4ec035e30463565a6704",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Word: bliss (Cambridge Thesaurus entry, synonym of euphoria); Phrase: high spirits (Cambridge Thesaurus entry, listed as a synonym of euphoria); Idiom: be on cloud nine (Cambridge Dictionary idiom, informal, meaning 'to be extremely happy and excited'). All three were located and displayed on Cambridge Dictionary pages (https://dictionary.cambridge.org/thesaurus/euphoria, /thesaurus/bliss, /thesaurus/high-spirits, /dictionary/english/on-cloud-nine).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624/final_runs/run_001/screenshots/final_execution_1_euphoria_thesaurus.png",
+      "sha256": "11d4a4e90fed4262596b808440376ea45ffcd374eb7978408104f94cf17217fd"
+    },
+    {
+      "path": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624/final_runs/run_001/screenshots/final_execution_2_word_bliss.png",
+      "sha256": "70ee08a38dfc14a6849f198ddfecd942a1f6aa190fe0ad15a8098248369cfc48"
+    },
+    {
+      "path": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624/final_runs/run_001/screenshots/final_execution_3_phrase_high_spirits.png",
+      "sha256": "66582afa0450440d956b7b6c78b2d763416c0868812d155ad91d9ab9651010b9"
+    },
+    {
+      "path": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624/final_runs/run_001/screenshots/final_execution_4_idiom_on_cloud_nine.png",
+      "sha256": "b259500884f38b25f60241dbf77e520f8f588c9319380204df832ba3713f1b34"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "1b7474e0359c602d5c281e0511335745a89669e2fe31d8c39b1d032f8eafbf47",
+  "fingerprint": "cd9158850e18633db77c0843372dcf2c858cca15ec7e0a222a865ab4a131ad8b",
+  "evaluated_at": "2026-11-16T10:03:10.890419+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:** Find one word, one phrase, and one idiom related to euphoria in Cambridge Dictionary.\n\n**Verification against screenshots:**\n\n1. **Word — \"bliss\":** Screenshot 1 shows the Cambridge Dictionary thesaurus page for \"euphoria,\" where \"bliss\" is clearly listed among the synonyms (alongside exultation, joy, ecstasy, etc.). Screenshot 2 confirms \"bliss\" exists as a standalone word entry (noun) in the Cambridge Dictionary thesaurus. ✓\n\n2. **Phrase — \"high spirits\":** Screenshot 1 shows \"high spirits\" listed as a synonym of \"euphoria\" on the same thesaurus page. Screenshot 3 confirms \"high spirits\" as a phrase entry (noun) in the Cambridge Dictionary thesaurus, categorized under \"HAPPINESS.\" ✓\n\n3. **Idiom — \"be on cloud nine\":** Screenshot 4 shows the Cambridge Dictionary entry for \"be on cloud nine,\" explicitly labeled as \"idiom • informal\" with the meaning \"to be extremely happy and excited\" — which is directly related to euphoria in meaning. ✓\n\n**Consistency check:** All four screenshots are authentic Cambridge Dictionary pages (dictionary.cambridge.org branding visible), and the URLs cited in the response match the pages shown. The response accurately reflects the screenshot content with no contradictions. All three required items (word, phrase, idiom) were located and are related to euphoria.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7374,
+    "completion_tokens": 825,
+    "total_tokens": 8199,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 507
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:11.330059+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624/final_runs/run_001/screenshots/final_execution_1_euphoria_thesaurus.png",
+      "source_sha256": "11d4a4e90fed4262596b808440376ea45ffcd374eb7978408104f94cf17217fd",
+      "source_bytes": 249024,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 177705,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a00d98e66a8fca9a26276568da66e4bbb0a4ba52696dbac6f8a75b169addccdf"
+    },
+    {
+      "path": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624/final_runs/run_001/screenshots/final_execution_2_word_bliss.png",
+      "source_sha256": "70ee08a38dfc14a6849f198ddfecd942a1f6aa190fe0ad15a8098248369cfc48",
+      "source_bytes": 236459,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 182138,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "19c10a347a0d899928cb9076d932fb005c6f1713c6a717851279e6e142fa0f91"
+    },
+    {
+      "path": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624/final_runs/run_001/screenshots/final_execution_3_phrase_high_spirits.png",
+      "source_sha256": "66582afa0450440d956b7b6c78b2d763416c0868812d155ad91d9ab9651010b9",
+      "source_bytes": 255404,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 189178,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "427ff8429daa94c7e909654cdb77519b7a9d8394c5d6dbe4803625947df0cfb5"
+    },
+    {
+      "path": "Cambridge Dictionary--13/Cambridge Dictionary--13_20261113_124624/final_runs/run_001/screenshots/final_execution_4_idiom_on_cloud_nine.png",
+      "source_sha256": "b259500884f38b25f60241dbf77e520f8f588c9319380204df832ba3713f1b34",
+      "source_bytes": 295075,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 211450,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "23d5fd4f563b0376e7b230ac3e2f150946dc25885341f451e8659b6d69806e9f"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1017323,
+  "response_id": "e27f8e8b-2720-4dc6-9fa0-e3facc3e4672",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1378,
+    "reasoning_content_chars": 2176
+  }
+}

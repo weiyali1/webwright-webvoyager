@@ -1,0 +1,211 @@
+{
+  "task_id": "Huggingface--9",
+  "website": "Huggingface",
+  "task": "Find the most download machine translation model on Huggingface which focuses on English and Japanese (en-ja) and report the evaluation metrics stated for it.",
+  "task_record": "Huggingface--9/Huggingface--9_20261115_052723",
+  "task_definition_sha256": "e6d5a8ac2faefa6eb5862d22eed0cf7573a92f23f30870f2bb41dd02c713ff3e",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Huggingface--9/Huggingface--9_20261115_052723"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The most downloaded English-Japanese (en-ja) machine translation model on Hugging Face (Models filtered by Translation task + English & Japanese languages, sorted by Downloads) is facebook/nllb-200-distilled-600M with ~927k downloads. Evaluation metrics stated on its model card: the NLLB-200 model was evaluated using BLEU, spBLEU, and chrF++ metrics (widely adopted by the machine translation community) on the FLORES-200 benchmark; additionally, human evaluation was performed with the XSTS protocol and the toxicity of generated translations was measured.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_2_translation_filter.png",
+      "sha256": "d298a66cfc8e00d70e5bccfacbb1090c9fcd357242d6f02b654ae50096bff895"
+    },
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_3_language_filters.png",
+      "sha256": "db7de1eca84e060aa004d1c969a14bb552dac1d3284a5559e8e5feb44de78bed"
+    },
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_4_sort_downloads.png",
+      "sha256": "4fbafb586208d55a46e5aa16298daa5c7dd27121d26f091cc1d84ada59a04234"
+    },
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_5_top_model_page.png",
+      "sha256": "16af396dd44757d9e83ef45142c57e690adc915d95dbbeb115821a947ed3c148"
+    },
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_6_evaluation_metrics.png",
+      "sha256": "16af396dd44757d9e83ef45142c57e690adc915d95dbbeb115821a947ed3c148"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "44efa5e8dc1e5118475144cd3b791ae4ff1d88720921ffa8674c598c124854a3",
+  "fingerprint": "cdf41451ea2124c72d9ffe0ed9428319837fac84e5c398f37dc0482bca3c9fc0",
+  "evaluated_at": "2026-11-16T10:05:51.085943+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Step 1: Identifying the most downloaded en-ja translation model**\n\n- Screenshot 1 shows the Hugging Face Models page with the **Translation** task filter selected in the left sidebar.\n- Screenshot 2 shows the **English** and **Japanese** language filters applied (visible as \"English ×\" and \"Japanese ×\" tags), reducing results to 940 models.\n- Screenshot 3 shows the results re-sorted by **\"Most downloads\"**, with **facebook/nllb-200-distilled-600M** at the top with **927k downloads** (1.01k likes), ahead of facebook/nllb-200-distilled-1.3B (411k), Helsinki-NLP/opus-mt-mul-en (388k), and others. This confirms the correct model was identified.\n\n**Step 2: Verifying the reported evaluation metrics**\n\n- Screenshots 4 and 5 show the model page for facebook/nllb-200-distilled-600M (Downloads last month: 927,302).\n- The **Metrics** section of the model card states: *\"NLLB-200 model was evaluated using BLEU, spBLEU, and chrF++ metrics widely adopted by machine translation community. Additionally, we performed human evaluation with the XSTS protocol and measured the toxicity of the generated translations.\"*\n- The **Evaluation Data** section confirms the FLORES-200 dataset was used for evaluation (\"We used Flores-200 as it provides full evaluation coverage of the languages in NLLB-200\"), and the model tags include \"flores-200\".\n\n**Step 3: Comparing with the Result Response**\n\nThe response claims:\n- Most downloaded model: facebook/nllb-200-distilled-600M with ~927k downloads ✓ (matches screenshots)\n- Metrics: BLEU, spBLEU, and chrF++ on the FLORES-200 benchmark ✓ (matches model card)\n- Human evaluation with XSTS protocol and toxicity measurement ✓ (matches model card)\n\nBoth parts of the task (finding the model and reporting its evaluation metrics) were completed accurately, and the response is fully consistent with the screenshots.\n\n## Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8184,
+    "completion_tokens": 1226,
+    "total_tokens": 9410,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 760
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:05:51.620354+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_2_translation_filter.png",
+      "source_sha256": "d298a66cfc8e00d70e5bccfacbb1090c9fcd357242d6f02b654ae50096bff895",
+      "source_bytes": 666236,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 183036,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f3032d00b4cb5625eccdacd1bc88d7e02ec02e925469a0da8e27fae13b443a9e"
+    },
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_3_language_filters.png",
+      "source_sha256": "db7de1eca84e060aa004d1c969a14bb552dac1d3284a5559e8e5feb44de78bed",
+      "source_bytes": 584199,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 195792,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6e465efc66ed9e5889da9633bb20a676c3dda4315e8be8e720a1f23464682a51"
+    },
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_4_sort_downloads.png",
+      "source_sha256": "4fbafb586208d55a46e5aa16298daa5c7dd27121d26f091cc1d84ada59a04234",
+      "source_bytes": 584227,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 197896,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a6c2d97dd694cde30699d32cb65549a00c8e77b14ff7200c04ab6aab227c4940"
+    },
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_5_top_model_page.png",
+      "source_sha256": "16af396dd44757d9e83ef45142c57e690adc915d95dbbeb115821a947ed3c148",
+      "source_bytes": 249843,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 211548,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e91712f1bc8c996f0cf71c577b98ad84be6533fdaed395502e78b72e22937cb7"
+    },
+    {
+      "path": "Huggingface--9/Huggingface--9_20261115_052723/final_runs/run_002/screenshots/final_execution_6_evaluation_metrics.png",
+      "source_sha256": "16af396dd44757d9e83ef45142c57e690adc915d95dbbeb115821a947ed3c148",
+      "source_bytes": 249843,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 211548,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e91712f1bc8c996f0cf71c577b98ad84be6533fdaed395502e78b72e22937cb7"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1336688,
+  "response_id": "1d50e872-2c44-4ced-9b48-92cd4560f8d8",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1901,
+    "reasoning_content_chars": 3272
+  }
+}

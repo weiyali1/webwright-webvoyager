@@ -1,0 +1,151 @@
+{
+  "task_id": "Wolfram Alpha--26",
+  "website": "Wolfram Alpha",
+  "task": "Convert 15 kilograms of sulfuric acid to moles and display the percentage composition of H, S, and O by weight.",
+  "task_record": "Wolfram Alpha--26/Wolfram Alpha--26_20261114_084606",
+  "task_definition_sha256": "89b605548c06418e1bd2cdc97b8bba6be3ded0db86167cb295585aea66bc2def",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--26/Wolfram Alpha--26_20261114_084606"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "15 kg of sulfuric acid = 153 mol. Percentage composition by weight: H 2.056%, S 32.69%, O 65.25%.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--26/Wolfram Alpha--26_20261114_084606/final_runs/run_003/screenshots/final_execution_1_home_input.png",
+      "sha256": "e7887389b700649847bbce5c0acffd8639c00459b0f0d7984d7fbedd69c6e172"
+    },
+    {
+      "path": "Wolfram Alpha--26/Wolfram Alpha--26_20261114_084606/final_runs/run_003/screenshots/final_execution_2_moles_result.png",
+      "sha256": "ca7ca71ee263db458181726e021c814c1109c3e2889babb077300ed80dc76507"
+    },
+    {
+      "path": "Wolfram Alpha--26/Wolfram Alpha--26_20261114_084606/final_runs/run_003/screenshots/final_execution_3_percent_composition.png",
+      "sha256": "e35c70af25522166a4f0a40c61174c916782a84ec2879c35de9098d3a06ac79a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e95000e7b584e6e18eebcafd6ef5f1e61e7f33b88264082f4c82017faf93bf51",
+  "fingerprint": "4d368da0fbf4766ed6f8850f29fb69a18d3dfc16e75bfa3bfc16b4dd5f5b911a",
+  "evaluated_at": "2026-11-16T10:07:33.573776+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task consists of two parts:\n1. **Convert 15 kilograms of sulfuric acid to moles**\n2. **Display the percentage composition of H, S, and O by weight**\n\n## Screenshot Analysis\n\n**Screenshot 1:** Shows the WolframAlpha homepage — the starting point before any queries were made.\n\n**Screenshot 2:** Shows the query \"15 kg sulfuric acid to moles\" entered into WolframAlpha. The results display:\n- Input interpretation: \"convert 15 kg of sulfuric acid to moles\"\n- **Result: 153 mol (moles)** ✓\n\nThis is chemically accurate: 15,000 g ÷ 98.08 g/mol (molar mass of H₂SO₄) ≈ 153 mol.\n\n**Screenshot 3:** Shows the query \"percent composition of sulfuric acid\" entered into WolframAlpha. The results display a table with:\n- **H (hydrogen): 2.056% mass percent** ✓\n- **O (oxygen): 65.25% mass percent** ✓\n- **S (sulfur): 32.69% mass percent** ✓\n- Plus a mass fraction pie chart visualizing the composition\n\nThese values are chemically correct for H₂SO₄ (H: ~2.06%, S: ~32.7%, O: ~65.3%).\n\n## Response Verification\nThe Result Response states: \"15 kg of sulfuric acid = 153 mol. Percentage composition by weight: H 2.056%, S 32.69%, O 65.25%.\"\n\nThis matches the screenshots exactly:\n- 153 mol ✓ (matches Screenshot 2)\n- H 2.056% ✓ (matches Screenshot 3)\n- S 32.69% ✓ (matches Screenshot 3)\n- O 65.25% ✓ (matches Screenshot 3)\n\n## Conclusion\nBoth parts of the task were completed successfully — the mole conversion was performed and displayed (153 mol), and the weight percentage composition of all three elements (H, S, O) was displayed. The response is fully consistent with the visual evidence.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 5054,
+    "completion_tokens": 1035,
+    "total_tokens": 6089,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 570
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:07:33.879470+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--26/Wolfram Alpha--26_20261114_084606/final_runs/run_003/screenshots/final_execution_1_home_input.png",
+      "source_sha256": "e7887389b700649847bbce5c0acffd8639c00459b0f0d7984d7fbedd69c6e172",
+      "source_bytes": 151078,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 140197,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "dc3c7a7a7648710acd315d30ab6781d223df087332f6072ef083995934b13433"
+    },
+    {
+      "path": "Wolfram Alpha--26/Wolfram Alpha--26_20261114_084606/final_runs/run_003/screenshots/final_execution_2_moles_result.png",
+      "source_sha256": "ca7ca71ee263db458181726e021c814c1109c3e2889babb077300ed80dc76507",
+      "source_bytes": 154866,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 101184,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1e92366b4c43b59e373882903b2a04e5fed8b37ef764c2eb8f81d9495fbee1cb"
+    },
+    {
+      "path": "Wolfram Alpha--26/Wolfram Alpha--26_20261114_084606/final_runs/run_003/screenshots/final_execution_3_percent_composition.png",
+      "source_sha256": "e35c70af25522166a4f0a40c61174c916782a84ec2879c35de9098d3a06ac79a",
+      "source_bytes": 191253,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 121187,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6f65edf7a981912c0b520eb77159cee5c57b8b2b10c930f664c224b907dc0c40"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 486367,
+  "response_id": "b4b1a960-4f18-4bf8-b9f6-70243789eff2",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1649,
+    "reasoning_content_chars": 1845
+  }
+}

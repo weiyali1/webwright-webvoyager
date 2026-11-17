@@ -1,0 +1,121 @@
+{
+  "task_id": "Coursera--40",
+  "website": "Coursera",
+  "task": "Browse Coursera for Business and Coursera for Teams and summarise some of their advantages.",
+  "task_record": "Coursera--40/Coursera--40_20261115_094309",
+  "task_definition_sha256": "790beeae0b9853eee3212a259309a1a37ab9985b30399b9c1fdbb4b489cdd667",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--40/Coursera--40_20261115_094309"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Coursera for Business advantages: expert-powered learning platform that drives business growth; expert-led courses, tailored learning paths, and AI tools to drive workforce growth globally; build in-demand skills with world-class content from 350+ leading companies and universities and 20+ top global business schools; broad catalog of 10,600+ courses, 1,400+ specializations, and 165+ Professional Certificates; customizable training with AI-powered tools; save on training costs with tailored content and industry-recognized credentials. Coursera for Teams advantages: gift your team new skills for 40% less; build high-performing teams with business, data, and tech courses from Google, University of Michigan, IBM, and more; full access to the enterprise content library; globally recognized Professional Certificates; from purchase to learning in one day; AI-powered tailored, multilingual, role-specific learning paths; improve productivity, reduce attrition with an intuitive self-service platform. Both pages were browsed and their advantages summarised.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--40/Coursera--40_20261115_094309/final_runs/run_002/screenshots/final_execution_1_business_page.png",
+      "sha256": "c6a485abf048cc10cbcb789f90864aa3213df04e382683568f8dd2d32c811ea4"
+    },
+    {
+      "path": "Coursera--40/Coursera--40_20261115_094309/final_runs/run_002/screenshots/final_execution_2_teams_page.png",
+      "sha256": "c4d487cb2449d48c2c9e3dc186fa38b2a88adccbcf349062eb0f49eb9f83bc39"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "8c14686c58d85847b12339943b30e4545ab9b1f7d6b435075f269e43ec8140d5",
+  "fingerprint": "a99ec9b4e9a50f9eef69ecef10f1461bab54057435c2de86d086beaccf6f84fb",
+  "evaluated_at": "2026-11-16T10:14:05.808526+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Browse the Coursera for Business page\n2. Browse the Coursera for Teams page\n3. Summarize advantages of both offerings\n\n**Screenshot Verification:**\n\n*Screenshot 1 (Coursera for Business):* Confirms the Coursera for Business page was visited. Visible content includes:\n- \"The expert-powered learning platform that drives business growth\"\n- \"expert-led courses, tailored learning paths, and AI tools to help organizations drive workforce growth globally\"\n- Checkmarks: build in-demand skills with world-class content, comprehensive learning platform with tailored paths, customize training programs with AI-powered tools\n- \"Save on training costs with tailored content and industry-recognized credentials from over 350+ leading companies\"\n- Stats: 25% increased productivity, +38% retention, 97% engagement\n\n*Screenshot 2 (Coursera for Teams):* Confirms the Coursera for Teams page was visited. Visible content includes:\n- \"Gift your team new skills for 40% less\"\n- \"Build high-performing teams with business, data, and tech courses from Google, the University of Michigan, IBM, and more\"\n- Checkmarks: access full library of enterprise content, earn globally recognized Professional Certificates, from purchase to learning in one day\n- \"Improve productivity, reduce attrition, and upskill seamlessly with an intuitive and self-service platform\"\n\n**Response Verification:**\nThe summary accurately reflects the visible screenshot content for both pages. Additional details in the response not visible in the screenshots (e.g., \"10,600+ courses, 1,400+ specializations, 165+ Professional Certificates,\" \"20+ top global business schools,\" \"AI-powered tailored, multilingual, role-specific learning paths\") are plausible content from further down the pages that the agent scrolled through, and per evaluation guidelines, such content should be believed.\n\n**Conclusion:**\nBoth pages were demonstrably browsed (two authentic screenshots provided), and the response provides a coherent summary of advantages for both Coursera for Business and Coursera for Teams, matching the screenshot evidence. Both components of the multi-part task were completed.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 4524,
+    "completion_tokens": 1371,
+    "total_tokens": 5895,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 915
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:14:06.043140+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 2,
+  "image_transports": [
+    {
+      "path": "Coursera--40/Coursera--40_20261115_094309/final_runs/run_002/screenshots/final_execution_1_business_page.png",
+      "source_sha256": "c6a485abf048cc10cbcb789f90864aa3213df04e382683568f8dd2d32c811ea4",
+      "source_bytes": 661554,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 293158,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "aab87d4bfcf4bdbe181fc20c81b8c4d74fa04ef0d78e80ef2904e171f3d8e3f1"
+    },
+    {
+      "path": "Coursera--40/Coursera--40_20261115_094309/final_runs/run_002/screenshots/final_execution_2_teams_page.png",
+      "source_sha256": "c4d487cb2449d48c2c9e3dc186fa38b2a88adccbcf349062eb0f49eb9f83bc39",
+      "source_bytes": 434616,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 264265,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "913ca9e334b3c5e0f0083d71e7d354ed7f0881e24e55855c2e8ec26c0b73115e"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 2,
+  "request_json_bytes": 747049,
+  "response_id": "82093963-0aef-4a9f-9318-1cbd8c9f010c",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2217,
+    "reasoning_content_chars": 4224
+  }
+}

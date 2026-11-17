@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--25",
+  "website": "Allrecipes",
+  "task": "Find a popular quinoa salad recipe on Allrecipes with more than 500 reviews and a rating above 4 stars. Create a shopping list of ingredients for this recipe and include the total cooking and preparation time.",
+  "task_record": "Allrecipes--25/Allrecipes--25_20261113_081434",
+  "task_definition_sha256": "5b799c8c7420fbdc6300c2202101d798426ba29c68d09f2a4efc02ea788d7263",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--25/Allrecipes--25_20261113_081434"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Popular quinoa salad recipe found: 'Easy Quinoa Salad' on Allrecipes (https://www.allrecipes.com/recipe/229156/zesty-quinoa-salad/) with rating 4.8 stars (>4) and 1,137 reviews (>500). Shopping list: 2 cups water; 1 cup quinoa; 1/4 cup extra-virgin olive oil; 2 limes, juiced; 2 teaspoons ground cumin; 1 teaspoon salt; 1/2 teaspoon red pepper flakes, or more to taste; 1 1/2 cups halved cherry tomatoes; 1 (15 ounce) can black beans, drained and rinsed; 5 green onions, finely chopped; 1/4 cup chopped fresh cilantro; salt and ground black pepper to taste. Total cooking and preparation time: Prep Time 15 mins, Cook Time 15 mins, Total Time 30 mins.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_2_recipe_page.png",
+      "sha256": "99b32e1fd0d702f335b35ae5d67581e6a7049589eed7fc277ac041f8437e4c0f"
+    },
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_3_rating_reviews.png",
+      "sha256": "99b32e1fd0d702f335b35ae5d67581e6a7049589eed7fc277ac041f8437e4c0f"
+    },
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_4_ingredients.png",
+      "sha256": "7125b80337757a84b4734f3bdad7e52e61c4ae02a2dd882ffca3ed0eb67a3a63"
+    },
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_5_times.png",
+      "sha256": "ab9f12006ac8db300e54b5e95249b294ea7809e92726a788936fada9232911d1"
+    },
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_6_final_state.png",
+      "sha256": "587fbf3c9e457ad1d9822e9da810e600ab34f3afeff981629889ab6cf16d2c24"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "dc1c0caf0ffd1a4ae4674821150ff7228343257c5fc57db026dd575842682aac",
+  "fingerprint": "73b8b9d0d11f6ec305abd4c12edc32eb2bef826945248addff93ba96d8049612",
+  "evaluated_at": "2026-11-16T10:14:03.969904+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Find a popular quinoa salad recipe on Allrecipes with **more than 500 reviews** and a **rating above 4 stars**\n2. Create a **shopping list of ingredients** for this recipe\n3. Include the **total cooking and preparation time**\n\n## Verification Against Screenshots:\n\n### 1. Recipe Criteria Check ✓\nThe screenshots show the \"Easy Quinoa Salad\" recipe page on Allrecipes:\n- **Rating: 4.8 stars** (1,545 ratings) — exceeds the \"above 4 stars\" requirement ✓\n- **Reviews: 1,137 Reviews** — exceeds the \"more than 500 reviews\" requirement ✓\n- The recipe is clearly popular (237 photos, tested by Allrecipes Test Kitchen)\n\n### 2. Shopping List Check ✓\nThe third screenshot displays the full Ingredients section, which matches the response exactly:\n- 2 cups water ✓\n- 1 cup quinoa ✓\n- ¼ cup extra-virgin olive oil ✓\n- 2 limes, juiced ✓\n- 2 teaspoons ground cumin ✓\n- 1 teaspoon salt ✓\n- ½ teaspoon red pepper flakes, or more to taste ✓\n- 1 ½ cups halved cherry tomatoes ✓\n- 1 (15 ounce) can black beans, drained and rinsed ✓\n- 5 green onions, finely chopped ✓\n- ¼ cup chopped fresh cilantro ✓\n- salt and ground black pepper to taste ✓\n\n### 3. Time Information Check ✓\nThe screenshots clearly show:\n- **Prep Time: 15 mins** ✓\n- **Cook Time: 15 mins** ✓\n- **Total Time: 30 mins** ✓\n\nAll values in the Result Response match the screenshot content perfectly. There are no discrepancies between the textual response and the visual evidence. All three components of the task (finding a qualifying recipe, creating the shopping list, and including time information) have been completed successfully.\n\n## Final Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9186,
+    "completion_tokens": 1041,
+    "total_tokens": 10227,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 618
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:14:04.433181+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_2_recipe_page.png",
+      "source_sha256": "99b32e1fd0d702f335b35ae5d67581e6a7049589eed7fc277ac041f8437e4c0f",
+      "source_bytes": 468888,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 191551,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c669eff7909d19d2564267db82286a7cb7398397333bcc1c9d5a38df6e328d33"
+    },
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_3_rating_reviews.png",
+      "source_sha256": "99b32e1fd0d702f335b35ae5d67581e6a7049589eed7fc277ac041f8437e4c0f",
+      "source_bytes": 468888,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 191551,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c669eff7909d19d2564267db82286a7cb7398397333bcc1c9d5a38df6e328d33"
+    },
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_4_ingredients.png",
+      "source_sha256": "7125b80337757a84b4734f3bdad7e52e61c4ae02a2dd882ffca3ed0eb67a3a63",
+      "source_bytes": 251868,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 143860,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "faef6f866e8a0ec9b6e5ffb4525aa95bbbb6df8e821daf7190c92fa94dd5e993"
+    },
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_5_times.png",
+      "source_sha256": "ab9f12006ac8db300e54b5e95249b294ea7809e92726a788936fada9232911d1",
+      "source_bytes": 711025,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 245861,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c2648d44bfd29ed8c828057fbc6e51f9d8e03e277c607aefb720f9aab421b5b2"
+    },
+    {
+      "path": "Allrecipes--25/Allrecipes--25_20261113_081434/final_runs/run_002/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "587fbf3c9e457ad1d9822e9da810e600ab34f3afeff981629889ab6cf16d2c24",
+      "source_bytes": 712317,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 246812,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "df7ceede8d80a3419e3aa8bd57a0702fbaa166ca4ccc3d451760e808dbfb5a4b"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1363259,
+  "response_id": "68b9e1ad-ff3c-4c50-88cf-cda2dd837f7f",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1661,
+    "reasoning_content_chars": 2134
+  }
+}

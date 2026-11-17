@@ -1,0 +1,151 @@
+{
+  "task_id": "ArXiv--28",
+  "website": "ArXiv",
+  "task": "Search 'Poly encoder' by title on ArXiv and check whether the articles in the search results provide HTML access.",
+  "task_record": "ArXiv--28/ArXiv--28_20261113_075021",
+  "task_definition_sha256": "e7b84d6f6816bdf713fc1ac8bea92e47ac167934ac504ccb706bd46bd8789bbd",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "ArXiv--28/ArXiv--28_20261113_075021"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Searched arXiv for 'Poly encoder' restricted to the Title field; 4 article(s) were returned. None of the articles in the search results provide HTML access — each result only offers abs/PDF/ps/other links, with no HTML link present.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "ArXiv--28/ArXiv--28_20261113_075021/final_runs/run_001/screenshots/final_execution_1_title_search_form.png",
+      "sha256": "90176c61777fc398cfcf54c1ec55a41c638fa6d1d1d9d95e4bcec303471a42bd"
+    },
+    {
+      "path": "ArXiv--28/ArXiv--28_20261113_075021/final_runs/run_001/screenshots/final_execution_2_search_results.png",
+      "sha256": "89e85295114b51dd87cc0d4e3b90aaaf576790ac5bfa1ce32ae1a7dd99a36488"
+    },
+    {
+      "path": "ArXiv--28/ArXiv--28_20261113_075021/final_runs/run_001/screenshots/final_execution_3_result_links_fullpage.png",
+      "sha256": "95fdf5610273233ab27015f6f8bb5d7e8eed91f0b5955cba5f92d11f9629eb91"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "30cb8a049fc87697f6a583222fe1173b1e69c65e688af1cbaebb1b171fc7ee17",
+  "fingerprint": "06612cfe0f7c3722b09de2f6bf200de700f681f0587a99be4b99c3db4992c350",
+  "evaluated_at": "2026-11-16T12:51:04.062417+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search 'Poly encoder' by title on ArXiv\n2. Check whether the articles in the search results provide HTML access\n\n**Verification against screenshots:**\n\n1. **Search execution (Screenshot 1):** The search box contains \"Poly encoder\" and the field dropdown is set to \"Title\", confirming the search was correctly restricted to the Title field as instructed.\n\n2. **Search results (Screenshots 2 & 3):** The results page shows \"Showing 1–4 of 4 results for title: Poly encoder\", confirming 4 articles were returned:\n   - arXiv:2608.26165 — \"Using Poly-Encoders for Computationally Efficient Automated Creativity Assessment\" — links shown: **[pdf, ps, other]**\n   - arXiv:2506.00968 — \"PolyBERT: Fine-Tuned Poly Encoder BERT-Based Model...\" — links shown: **[pdf, ps, other]**\n   - arXiv:2309.16770 — \"Persona-Coded Poly-Encoder...\" — links shown: **[pdf, other]**\n   - arXiv:1905.01969 — \"Poly-encoders: Transformer Architectures...\" — links shown: **[pdf, other]**\n\n3. **HTML access check:** On arXiv, articles with HTML access display an \"HTML\" link alongside pdf/ps/other links. Examining all 4 results in the screenshots, none display an HTML link — only pdf, ps, and/or other formats are available.\n\n**Consistency check:** The Result Response states that 4 articles were returned and none provide HTML access (only abs/PDF/ps/other links). This matches exactly what is visible in the screenshots.\n\nBoth parts of the task were completed: the title-restricted search was performed correctly, and the HTML access check was conducted with an accurate conclusion.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6313,
+    "completion_tokens": 1066,
+    "total_tokens": 7379,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 655
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T12:51:04.347832+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "ArXiv--28/ArXiv--28_20261113_075021/final_runs/run_001/screenshots/final_execution_1_title_search_form.png",
+      "source_sha256": "90176c61777fc398cfcf54c1ec55a41c638fa6d1d1d9d95e4bcec303471a42bd",
+      "source_bytes": 133021,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 268879,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "21be69349570fcf45641edb2fefefc594732f15e27cc559b096bb0247a3004e8"
+    },
+    {
+      "path": "ArXiv--28/ArXiv--28_20261113_075021/final_runs/run_001/screenshots/final_execution_2_search_results.png",
+      "source_sha256": "89e85295114b51dd87cc0d4e3b90aaaf576790ac5bfa1ce32ae1a7dd99a36488",
+      "source_bytes": 210935,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 343596,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "757114996c3f9cedcf7dde7a553b2262fe308ce77756a08602cdd46cbe300d0b"
+    },
+    {
+      "path": "ArXiv--28/ArXiv--28_20261113_075021/final_runs/run_001/screenshots/final_execution_3_result_links_fullpage.png",
+      "source_sha256": "95fdf5610273233ab27015f6f8bb5d7e8eed91f0b5955cba5f92d11f9629eb91",
+      "source_bytes": 210332,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1157,
+        1280
+      ],
+      "transmitted_bytes": 342396,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ee4fcc2422d89ec34f1962657b5762bef72b9d03745ba6240a151f050b52380a"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 1276242,
+  "response_id": "a100a884-c928-48f4-b64e-6d2c3367c001",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1632,
+    "reasoning_content_chars": 2483
+  }
+}

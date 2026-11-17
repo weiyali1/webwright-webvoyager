@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Search--30",
+  "website": "Google Search",
+  "task": "Find the current number one artist on the Spotify Global Top 50 chart and list his/her top 10 songs as of now.",
+  "task_record": "Google Search--30/Google Search--30_20261115_171834",
+  "task_definition_sha256": "32cbbc0d0f482ccba525b11f4fc91d359387ca0eeb4a8d8880db8200b2b84f48",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Search--30/Google Search--30_20261115_171834"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The current number one artist on the Spotify Global Top 50 chart is KAROL G (her track 'BbY WOW' w/ Judeline & rusowsky holds the #1 position with ~4.95M daily streams). As of now, KAROL G's top 10 songs by Spotify streams are: 1. Si Antes Te Hubiera Conocido; 2. PROVENZA; 3. QLONA; 4. Tusa; 5. TQG; 6. AMARGURA; 7. China; 8. MAMIII; 9. MI EX TENÍA RAZÓN; 10. BICHOTA. (Spotify domains were proxy-blocked, so data was verified via the kworb.net Spotify charts mirror.)",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_1_chart_list.png",
+      "sha256": "f9aad04456de66974c856ae98767e81a0c753824f0d916387fb9f2a4778be32b"
+    },
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_2_number_one.png",
+      "sha256": "33ab396d80859f947d5aed9d8e52ffd368c0e3025b94afa3b800bb32bc15fda0"
+    },
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_3_artist_page.png",
+      "sha256": "52eab5f81015ce15c2882590f175775959254d60fc745c79b92633a33ee59f47"
+    },
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_4_top10_songs.png",
+      "sha256": "6f68e28898b7441bc57808efbd6f83a3d367ca8d18ed8eb5492d6fdc9d0f3843"
+    },
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "sha256": "dd15065c20dee337d3f19a049df8407d3e7810e848d74a4445daa1c3033d4829"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "2a03fe2ae53a9895b14cf231dba09adbf37e4e589cb3ab7e4baf05954e36e50a",
+  "fingerprint": "099e15b8ec4ebb676173e9f8b20996441fadc477e38eeb10f3bd3c8e88f75bcf",
+  "evaluated_at": "2026-11-16T10:11:59.516094+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\n1. **Find the current number one artist** on the Spotify Global Top 50 chart\n2. **List that artist's top 10 songs** as of now\n\n## Verification Against Screenshots\n\n**Step 1 — Identifying the #1 artist:**\n- Screenshots 1 & 2 show the \"Spotify Daily Chart - Global - 2026/11/13\" (via kworb.net, a Spotify charts mirror). The **#1 position** is held by **\"KAROL G - BbY WOW (w/ Judeline, rusowsky)\"** with 4,953,565 daily streams.\n- This matches the response's claim that KAROL G is the number one artist, with 'BbY WOW' at #1 and ~4.95M streams. ✓\n\n**Step 2 — Listing the top 10 songs:**\n- Screenshots 3, 4 & 5 show the \"KAROL G - Spotify Chart History\" page with songs sorted by total streams:\n  1. Si Antes Te Hubiera Conocido (1,959,441,476)\n  2. PROVENZA (1,311,801,349)\n  3. QLONA (1,170,786,100)\n  4. Tusa (1,078,162,928)\n  5. TQG (1,052,125,019)\n  6. AMARGURA (950,119,018)\n  7. China (805,301,841)\n  8. MAMIII (720,703,804)\n  9. MI EX TENÍA RAZÓN (625,598,492)\n  10. BICHOTA (602,667,464)\n- This list matches the response's top 10 exactly, in the correct order. ✓\n\n**Data source note:** The response transparently explains that Spotify domains were proxy-blocked, so kworb.net (a legitimate Spotify charts mirror) was used. The screenshots confirm this methodology was actually executed, and the data is consistent across both pages.\n\n## Conclusion\nBoth parts of the task were completed: the #1 artist (KAROL G) was correctly identified from the Global chart, and her top 10 songs were accurately listed and verified against the chart history screenshots. The response is fully consistent with the visual evidence.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 10293,
+    "completion_tokens": 1705,
+    "total_tokens": 11998,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1168
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:12:00.062610+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_1_chart_list.png",
+      "source_sha256": "f9aad04456de66974c856ae98767e81a0c753824f0d916387fb9f2a4778be32b",
+      "source_bytes": 604548,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 521631,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "19c16b7e21d00ed0b34e29c23964bac13b59af7c030e5814ee5370bfa7afef7a"
+    },
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_2_number_one.png",
+      "source_sha256": "33ab396d80859f947d5aed9d8e52ffd368c0e3025b94afa3b800bb32bc15fda0",
+      "source_bytes": 605140,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 521550,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6e77e3e7e2bd879dc1476631e5b31172e50aaf0bff5429dfe3c80e512b241f4e"
+    },
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_3_artist_page.png",
+      "source_sha256": "52eab5f81015ce15c2882590f175775959254d60fc745c79b92633a33ee59f47",
+      "source_bytes": 406466,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 524350,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "83cbd329ffec692e311d4a5888f671bae59c5e46c43d7ea1f3ea438faa277d83"
+    },
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_4_top10_songs.png",
+      "source_sha256": "6f68e28898b7441bc57808efbd6f83a3d367ca8d18ed8eb5492d6fdc9d0f3843",
+      "source_bytes": 404449,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 523540,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a9605e8555d4e33bf30ed6e31f955c358d9fc4d965aa2ba8f7ceb7bd546c47d3"
+    },
+    {
+      "path": "Google Search--30/Google Search--30_20261115_171834/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "dd15065c20dee337d3f19a049df8407d3e7810e848d74a4445daa1c3033d4829",
+      "source_bytes": 400137,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1500
+      ],
+      "transmitted_dimensions": [
+        1166,
+        1280
+      ],
+      "transmitted_bytes": 520926,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c9ba87ee0cabdea563d038e01a484d25d42071c407df17d672721f167e48f4e5"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 3486124,
+  "response_id": "63bec9ac-4a1a-4c01-bc15-02de188bc61f",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1686,
+    "reasoning_content_chars": 3788
+  }
+}

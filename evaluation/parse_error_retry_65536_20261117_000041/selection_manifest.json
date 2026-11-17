@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "task_id": "ArXiv--15",
+      "website": "ArXiv",
+      "task": "Searching Chinese Benchmark on ArXiv, how many papers announced in December 2023 mention being accepted for AAAI 2024?",
+      "task_record": "ArXiv--15/ArXiv--15_20261113_034042",
+      "task_definition_sha256": "25fefe5b3ba407de620586e3e5a2290783fd082de55f5140441d0c465767110f",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "ArXiv--15/ArXiv--15_20261113_034042"
+      ],
+      "final_run": "run_004",
+      "answer_input_mode": "answer.txt only",
+      "answer": "2",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_13.png",
+          "sha256": "9480c88e0607f6a8a9aa00e0030a79fac57ee58871728f4df82f2ed399420745"
+        },
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_14.png",
+          "sha256": "190e3055a2ae83a7ef5fbac7a2f4b3f16cdefa153813a61b42c80126dcc2b3a6"
+        },
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_15.png",
+          "sha256": "8030ffc31e5a4cb2be1865cff3388ae4e420444779931e274d32d02f4c4bcd9e"
+        },
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_16.png",
+          "sha256": "7c3cc5cbe3586bfd244ebbbd9961f79a442f67cf6b6c83a066040ef64b87e0e4"
+        },
+        {
+          "path": "ArXiv--15/ArXiv--15_20261113_034042/final_runs/run_004/screenshots/cp4_abs_17.png",
+          "sha256": "2bd28fe6b63ac9b8dcdc3f49e9c65fa8f39e10f8816a15dbba5a39fe4ecff16b"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "fingerprint": "86709f38d81507a21565d79bef4fd7ece414b9bd8e450b1ed44f3cd8669b2d7b"
+    },
+    {
+      "task_id": "Wolfram Alpha--43",
+      "website": "Wolfram Alpha",
+      "task": "A polyominoes of order 6 means you have 6 identical squares to combine different shapes (2-sided). How many combinations are there? Looking at all the shapes in the result, how many of them have only 2 rows in total?",
+      "task_record": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451",
+      "task_definition_sha256": "e1d467289e775135ddc8b6a7c6538ea8bc7752ec2e5878f3c4782f90606445ef",
+      "candidate_record_count": 1,
+      "candidate_records": [
+        "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451"
+      ],
+      "final_run": "run_001",
+      "answer_input_mode": "answer.txt only",
+      "answer": "There are 35 combinations of order-6 polyominoes (2-sided/free hexominoes). Of these, 12 shapes have only 2 rows in total.",
+      "answer_source": "answer.txt",
+      "screenshots": [
+        {
+          "path": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451/final_runs/run_001/screenshots/final_execution_1_enter_query.png",
+          "sha256": "0acaf741dc98b4d869cd32f513314334ec4ce6f693e9d467bfdde19d675fee07"
+        },
+        {
+          "path": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451/final_runs/run_001/screenshots/final_execution_2_results_loaded.png",
+          "sha256": "b3bba763dd45f844139ad82e86bbfc479786c9d6f3a4b2ad4a7c576ae201ffa1"
+        },
+        {
+          "path": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451/final_runs/run_001/screenshots/final_execution_3_counts_pod.png",
+          "sha256": "05b015d79f8f092e6614a79af0d3b4d10755fff99b8a6f98c3a16cf6833e0a0b"
+        },
+        {
+          "path": "Wolfram Alpha--43/Wolfram Alpha--43_20261115_022451/final_runs/run_001/screenshots/final_execution_4_images_expanded.png",
+          "sha256": "91d016c56229d6f0c5dc1d10b80205ec593391e363dcdd10daa3ea5771173d27"
+        }
+      ],
+      "screenshot_order": "run_manifest_sequence",
+      "input_error": null,
+      "answer_file_sha256": "e0d8f4ca90dfe4f3d9853135a3d17c4cd3cf8c5cbcef3de28e332e9ddb8dfd92",
+      "fingerprint": "b6d87c81c7a8b6b0fa15f3f6320fe35c40040bd3923b98dcf5e3f2088e6ad9b1"
+    }
+  ]
+}

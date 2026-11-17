@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--2",
+  "website": "Google Map",
+  "task": "Find Apple Stores close to zip code 90028",
+  "task_record": "Google Map--2/Google Map--2_20261114_025109",
+  "task_definition_sha256": "3f478fd12ed91de23e3f8f9fd9e228ca0307485b10bd463ec9f463daf917511d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--2/Google Map--2_20261114_025109"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Apple Stores close to zip code 90028 (Hollywood, Los Angeles, CA): Apple The Grove (189 The Grove Dr, Los Angeles); Apple Beverly Center (8500 Beverly Blvd, Los Angeles); Apple Century City (10250 Santa Monica Blvd, Los Angeles); Apple Tower Theatre (802 S Broadway, Los Angeles); Apple Americana (877 Americana Way, Glendale); Apple Glendale Galleria (2126 Glendale Galleria, Glendale).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_1_zip_90028_entered.png",
+      "sha256": "fbcf49e8542d98c89b9283847c723e6109353310e7b6bc1d2594200f18096feb"
+    },
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_2_zip_90028_place_page.png",
+      "sha256": "4ab4f820540207887687ade8a26deb463a977ecee4e6746ef4006433533304e3"
+    },
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_3_apple_store_search.png",
+      "sha256": "a14f313980aad0893eb72af6f5d96f3f97b7d12c7e28aa228fe4eacaaa200d17"
+    },
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_4_apple_store_results.png",
+      "sha256": "d5121915c4b669f3e18b0fa6a50d9598db40dc775eaef0ee5fcc964d694f28d2"
+    },
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+      "sha256": "d5121915c4b669f3e18b0fa6a50d9598db40dc775eaef0ee5fcc964d694f28d2"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "9e7771e41ab297a6c8cc2b1db21819b9eaf197e1d57e7abf2d5add5a066ec280",
+  "fingerprint": "90f9b8962255476ae58380b33a4ba6fe5e3b95d23242723818f177e640ee9fa5",
+  "evaluated_at": "2026-11-16T09:58:13.019798+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Instruction\nFind Apple Stores close to zip code 90028.\n\n## Screenshot Analysis\n1. **Screenshot 1**: Shows Google Maps with \"90028\" being typed into the search bar (initial search state, map still showing Hong Kong/Shenzhen area).\n2. **Screenshot 2**: Shows the search result for zip code 90028 — identified as \"90028 美國 加利福尼亞好萊塢 郵遞區號\" (90028, USA, Hollywood, California, postal code). The map correctly displays the Hollywood/Los Angeles area with the zip code boundary highlighted.\n3. **Screenshots 3-5**: Show search results for \"Apple Store\" near 90028, listing:\n   - Apple The Grove — 189 The Grove Dr\n   - Apple Beverly Center — 8500 Beverly Blvd\n   - Apple Century City — 10250 Santa Monica Blvd\n   - Apple 高樹劇院 (Tower Theatre) — 802 S Broadway\n   - MelroseMAC, macHorizon, iCarryAll Hollywood (third-party repair/reseller shops)\n   - Apple The Americana at Brand — 877 Americana Way\n   - Apple Glendale Galleria — 2126 Galleria Way\n   - Apple Vapes CBD, MacPro-LA (non-Apple stores)\n\n## Response Analysis\nThe response lists six official Apple Stores near zip 90028:\n- Apple The Grove (189 The Grove Dr) ✓ matches screenshot\n- Apple Beverly Center (8500 Beverly Blvd) ✓ matches screenshot\n- Apple Century City (10250 Santa Monica Blvd) ✓ matches screenshot\n- Apple Tower Theatre (802 S Broadway) ✓ matches screenshot (高樹劇院 = Tower Theatre)\n- Apple Americana (877 Americana Way) ✓ matches screenshot\n- Apple Glendale Galleria (2126 Glendale Galleria) ✓ matches screenshot (minor address wording difference: \"Galleria Way\")\n\nThe response appropriately filtered out third-party retailers (MelroseMAC, macHorizon, iCarryAll, Apple Vapes CBD, MacPro-LA) and included only genuine Apple Stores, which aligns with the intent of the task.\n\n## Conclusion\nThe workflow was correctly executed: the zip code 90028 was located on Google Maps (confirming Hollywood, Los Angeles), then \"Apple Store\" was searched in that area, and the results were accurately summarized in the response. All listed stores and addresses correspond to the screenshot evidence.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8140,
+    "completion_tokens": 1478,
+    "total_tokens": 9618,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 931
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:58:13.647255+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_1_zip_90028_entered.png",
+      "source_sha256": "fbcf49e8542d98c89b9283847c723e6109353310e7b6bc1d2594200f18096feb",
+      "source_bytes": 890410,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 242724,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2da8d79f6a2b7e36dccb7b6919e745a6103fe0af26295dc59fbc920ddefdce64"
+    },
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_2_zip_90028_place_page.png",
+      "source_sha256": "4ab4f820540207887687ade8a26deb463a977ecee4e6746ef4006433533304e3",
+      "source_bytes": 1206897,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 273993,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "76d05393b196a50244c4846c9c70ba866902ef7c6419b9dea49cadd31890f4c5"
+    },
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_3_apple_store_search.png",
+      "source_sha256": "a14f313980aad0893eb72af6f5d96f3f97b7d12c7e28aa228fe4eacaaa200d17",
+      "source_bytes": 1107612,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 332611,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e28042f62063fbcb2fcb7f8e6b102fecd68a4c8f2b09a30efa0930b19fe57c0f"
+    },
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_4_apple_store_results.png",
+      "source_sha256": "d5121915c4b669f3e18b0fa6a50d9598db40dc775eaef0ee5fcc964d694f28d2",
+      "source_bytes": 1107639,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 332619,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "16e68699e1ed890e081a47ef2635818286adcc03bb9b7026d9d55c7880682c30"
+    },
+    {
+      "path": "Google Map--2/Google Map--2_20261114_025109/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "d5121915c4b669f3e18b0fa6a50d9598db40dc775eaef0ee5fcc964d694f28d2",
+      "source_bytes": 1107639,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 332619,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "16e68699e1ed890e081a47ef2635818286adcc03bb9b7026d9d55c7880682c30"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2022727,
+  "response_id": "78afe1d6-6884-4716-9ee0-5bb7972b53e4",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2101,
+    "reasoning_content_chars": 3466
+  }
+}

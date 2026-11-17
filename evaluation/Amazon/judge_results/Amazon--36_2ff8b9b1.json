@@ -1,0 +1,211 @@
+{
+  "task_id": "Amazon--36",
+  "website": "Amazon",
+  "task": "Search for a children's science experiment kit on Amazon suitable for ages 8-13, with at least a 4-star rating and priced under $30.",
+  "task_record": "Amazon--36/Amazon--36_20261116_013243",
+  "task_definition_sha256": "6694fe58547d528434a63c82790a2f6e5fbf8da7a386534ad590eece989401e1",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Amazon--36/Amazon--36_20261116_013243"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: UNGLINGA 150 Experiments Science Kits for Kids Chemistry Lab S.T.E.M Toys | price $28.99 (under $30) | rating 4.7 out of 5 stars | Ages: 8 years and up. Searched 'children science experiment kit' on Amazon and applied the age-range filter '8 to 13 Years', the '4 Stars & Up' customer rating filter, and the price filter capped at $30; the filtered results page displayed 48 matching science experiment kits, and the UNGLINGA 150 Experiments kit qualifies on all constraints (ages 8+, 4.7 stars, $28.99).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp2_age_filter.png",
+      "sha256": "aecd844ca0a778be11dd457b9d9a0aa36fc2d2eb89722b20cd8ffe14ec21f29f"
+    },
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp3_rating_filter.png",
+      "sha256": "1874a83e77804f434a154175581a76bf3e85e08150a9328d6a31da22c561b01a"
+    },
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp4_price_filter.png",
+      "sha256": "b3971b424287f8ba4c7d9b2103dd346f1147ab21d4fcfdff53c2f31e6eb7e1ce"
+    },
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp5_filtered_results.png",
+      "sha256": "1728eb3d69554c36c5003b7bf4011bb9ca747f778f5a15204f92fc2b216708ae"
+    },
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp6_qualifying_product.png",
+      "sha256": "431e73e3fdd7e05d9391c88db4d4c603dafbf3a88b2a6fe8f6c8e1bdf35cf85c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "c9a14f533fa109cb9c3cdbef26a4762e70392441b73c6618842ebef81e4b219e",
+  "fingerprint": "fd81537abb096fa37144bf53ce2800711a97e87fa0f2b5b926ac90f2c13ea1f0",
+  "evaluated_at": "2026-11-16T10:20:01.644896+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\n1. Search for a children's science experiment kit on Amazon\n2. Suitable for ages 8-13\n3. At least a 4-star rating\n4. Priced under $30\n\n## Screenshot Verification\n\n**Search Execution:** The search bar shows \"children science experiment kit\" was searched on Amazon. ✓\n\n**Filters Applied (visible in left sidebar across screenshots):**\n- **Age Range:** \"8 to 13 Years\" checkbox is checked ✓\n- **Customer Review:** \"4 Stars & Up\" filter is applied ✓\n- **Price:** The price slider was progressively adjusted across screenshots ($3–$630+ → $3–$235+ → $3–$30), ending at a $3–$30 range ✓\n\n**Product Identified:** The UNGLINGA 150 Experiments Science Kits for Kids Chemistry Lab S.T.E.M Toys appears as the \"Overall Pick\" in the filtered results:\n- **Price:** $28.99 — under $30 ✓\n- **Rating:** 4.7 stars (1.1K ratings) — at least 4 stars ✓\n- **Age:** \"Ages: 8 years and up\" — suitable for the 8-13 age range ✓\n\n## Response Consistency Check\nThe response states the UNGLINGA kit costs $28.99, has a 4.7-star rating, and is for ages 8+, which matches the screenshot exactly. The response mentions \"48 matching science experiment kits\" — the screenshot shows \"1-48 of 596 results,\" meaning 48 items are displayed on the page, which is consistent with the claim. The filters described in the response (age 8-13, 4 Stars & Up, price capped at $30) are all visibly applied in the screenshots.\n\n## Conclusion\nAll task constraints were satisfied: the search was conducted, appropriate filters (age 8-13, 4+ stars, under $30) were applied, and a qualifying product (UNGLINGA 150 Experiments kit) was identified with verified price, rating, and age suitability visible in the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8203,
+    "completion_tokens": 1242,
+    "total_tokens": 9445,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 786
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:20:02.287467+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp2_age_filter.png",
+      "source_sha256": "aecd844ca0a778be11dd457b9d9a0aa36fc2d2eb89722b20cd8ffe14ec21f29f",
+      "source_bytes": 1124910,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 374509,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f211bbc1db41dd4ae196eb0fe86afa982ce28cc444f58e744dd79cce86c6b7b4"
+    },
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp3_rating_filter.png",
+      "source_sha256": "1874a83e77804f434a154175581a76bf3e85e08150a9328d6a31da22c561b01a",
+      "source_bytes": 1031397,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 363276,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5b56a87c847c7cdccfea7236ca9e49884bf16023ce76347c0d668939e020f60b"
+    },
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp4_price_filter.png",
+      "source_sha256": "b3971b424287f8ba4c7d9b2103dd346f1147ab21d4fcfdff53c2f31e6eb7e1ce",
+      "source_bytes": 1196049,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 378145,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "bfeb3eeb86eff92f5898a36216f8618dd78f50cd14b3be3c884072e534dd9087"
+    },
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp5_filtered_results.png",
+      "source_sha256": "1728eb3d69554c36c5003b7bf4011bb9ca747f778f5a15204f92fc2b216708ae",
+      "source_bytes": 1129988,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 367682,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3e5d02bb0865184d7f6a0dbf63fe369cf02efad8cf810de591ab957c29f4b107"
+    },
+    {
+      "path": "Amazon--36/Amazon--36_20261116_013243/final_runs/run_002/screenshots/cp6_qualifying_product.png",
+      "source_sha256": "431e73e3fdd7e05d9391c88db4d4c603dafbf3a88b2a6fe8f6c8e1bdf35cf85c",
+      "source_bytes": 1153713,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 369525,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "bf1d947d66276bd9e20665a1a7c626c0ba6fd841afac554c466607fee0be5b85"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2474382,
+  "response_id": "f8411f4c-0a18-478a-9833-0b8e205740ff",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1737,
+    "reasoning_content_chars": 2975
+  }
+}

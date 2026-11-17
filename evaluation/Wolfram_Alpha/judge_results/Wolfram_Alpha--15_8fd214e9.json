@@ -1,0 +1,211 @@
+{
+  "task_id": "Wolfram Alpha--15",
+  "website": "Wolfram Alpha",
+  "task": "Show the blood relationship fraction between you and your father's mother's sister's son.",
+  "task_record": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051",
+  "task_definition_sha256": "cb6408ab68d0945d3e70cf1e3735b3c19d387e9c41a8c6865a0e70c93a2cb2eb",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The blood relationship fraction between you and your father's mother's sister's son (first cousin once removed) is 1/32 = 3.125%, as shown by Wolfram Alpha's Relationship properties pod for the query \"blood relationship between you and your father's mother's sister's son\".",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_1_open_input.png",
+      "sha256": "7cec4c89c5eb41de9b77faa802d28d9071d3f1c53df99e550033ba805f9ff3e8"
+    },
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_2_enter_query.png",
+      "sha256": "c07cb24059748133cb65c2dc0f2a97fcbf043f387972be3c6ca55b44e2b7ac2e"
+    },
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_3_results.png",
+      "sha256": "d072f7ba075a70d2e22bef45cc09c4e96a4da495ab490895a25049d70b68aa22"
+    },
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_4_relationship_properties.png",
+      "sha256": "cb47debf58ddc4147e73cb72fb3279b2e792caeba36194d67d9205591f44c46f"
+    },
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+      "sha256": "cb47debf58ddc4147e73cb72fb3279b2e792caeba36194d67d9205591f44c46f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "d4bdd59a96ad5816d1446ae43f22418afd1435fc24f44451c17985f689e30226",
+  "fingerprint": "1bd44bf346052b0139549ad8996ef7dbbb13c8221a8242faa44aad4e200be53e",
+  "evaluated_at": "2026-11-16T10:03:42.107321+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Instruction:** Show the blood relationship fraction between you and your father's mother's sister's son.\n\n**Screenshot Evidence:**\n\n1. **Screenshot 1:** Wolfram Alpha homepage — initial state before the query.\n\n2. **Screenshot 2:** The query \"blood relationship between you and your father's mother's sister's son\" has been entered into the Wolfram Alpha search box.\n\n3. **Screenshot 3:** Results page showing:\n   - Input interpretation: genealogical relation | father's mother's sister's son\n   - A genealogical tree illustrating the relationship (great grandparents → grandmother/grandaunt → father/first cousin once removed → self)\n   - Genealogical relation: **first cousin once removed**\n   - Relationship properties table showing: difference in generations (1), generations to common ancestor (3), and **blood relationship fraction: 1/32 = 3.125%**\n\n4. **Screenshots 4 & 5:** The Relationship properties pod expanded (\"More\" clicked), showing additional details including degree of kinship (5), canon degree (3), collateral degree (2), and chromosome-sharing probabilities — with the blood relationship fraction of 1/32 = 3.125% still clearly visible.\n\n**Result Response Consistency:**\nThe response states the blood relationship fraction is 1/32 = 3.125% for a first cousin once removed, which exactly matches what is displayed in the screenshots' Relationship properties pod.\n\n**Verification:**\n- The query was correctly formulated and executed on Wolfram Alpha ✓\n- The blood relationship fraction (1/32 = 3.125%) is visibly displayed on the results page ✓\n- The genealogical interpretation matches the requested relation (father's mother's sister's son = first cousin once removed) ✓\n- The result response is consistent with the screenshot content ✓\n\nThe task required showing the blood relationship fraction, and this was accomplished — the value is clearly displayed in the Wolfram Alpha results.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9028,
+    "completion_tokens": 757,
+    "total_tokens": 9785,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 339
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:42.665498+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_1_open_input.png",
+      "source_sha256": "7cec4c89c5eb41de9b77faa802d28d9071d3f1c53df99e550033ba805f9ff3e8",
+      "source_bytes": 150029,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 162058,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2135892bace551871feb79ce873aa3f7145101ade9b306647dc7635d12933c02"
+    },
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_2_enter_query.png",
+      "source_sha256": "c07cb24059748133cb65c2dc0f2a97fcbf043f387972be3c6ca55b44e2b7ac2e",
+      "source_bytes": 150957,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 164369,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "20d0cd632bfc191383cc9a796a541b2612fb678236bdc3d13d965ab2e2a4cb21"
+    },
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_3_results.png",
+      "source_sha256": "d072f7ba075a70d2e22bef45cc09c4e96a4da495ab490895a25049d70b68aa22",
+      "source_bytes": 205691,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 166842,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f397b8cb0c0c89f9a0648168cf969edfd2cb85223a37da76397dd5f8cf2dc25d"
+    },
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_4_relationship_properties.png",
+      "source_sha256": "cb47debf58ddc4147e73cb72fb3279b2e792caeba36194d67d9205591f44c46f",
+      "source_bytes": 212957,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 167091,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "085825655e8ed317988b5439f561748ef254b5ce56daa7e2a61e1553c29176bb"
+    },
+    {
+      "path": "Wolfram Alpha--15/Wolfram Alpha--15_20261114_051051/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "cb47debf58ddc4147e73cb72fb3279b2e792caeba36194d67d9205591f44c46f",
+      "source_bytes": 212957,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 167091,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "085825655e8ed317988b5439f561748ef254b5ce56daa7e2a61e1553c29176bb"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1106511,
+  "response_id": "c1a13dc2-95c9-4129-8f06-7a3d28c003ec",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1962,
+    "reasoning_content_chars": 1513
+  }
+}

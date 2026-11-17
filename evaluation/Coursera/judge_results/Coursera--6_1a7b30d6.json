@@ -1,0 +1,181 @@
+{
+  "task_id": "Coursera--6",
+  "website": "Coursera",
+  "task": "Identify a course on Coursera related to 'Artificial Intelligence for Healthcare' and note the course duration along with the number of quizzes in Assessments.",
+  "task_record": "Coursera--6/Coursera--6_20261114_064619",
+  "task_definition_sha256": "a2819af92c9a6fb677f95cc9f82882de13ef7bb93c02601d4faf20c7bbd33bd5",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--6/Coursera--6_20261114_064619"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Course: AI for Healthcare (AI CERTs) | Duration: 1 week to complete at 10 hours a week | Quizzes in Assessments: 8",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--6/Coursera--6_20261114_064619/final_runs/run_002/screenshots/final_execution_1_search_results.png",
+      "sha256": "9310fc06f2fed23854c85e2985936db6b7bd6967777ff75b86d08947a73c6682"
+    },
+    {
+      "path": "Coursera--6/Coursera--6_20261114_064619/final_runs/run_002/screenshots/final_execution_2_course_page.png",
+      "sha256": "3fab4b2cac29c0642f83e69aacd80b6922da0daa35b24b0df295029d060fbaeb"
+    },
+    {
+      "path": "Coursera--6/Coursera--6_20261114_064619/final_runs/run_002/screenshots/final_execution_3_duration.png",
+      "sha256": "3fab4b2cac29c0642f83e69aacd80b6922da0daa35b24b0df295029d060fbaeb"
+    },
+    {
+      "path": "Coursera--6/Coursera--6_20261114_064619/final_runs/run_002/screenshots/final_execution_4_assessments.png",
+      "sha256": "97b6e22c1da152089914e335dc90c4b92bcaa66a5335d4cf5bb28d07d0d5d6e0"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "da675e7f6e41e02a180854a1beb7f1b8b2284443cf473fb4dc10a83f9b5a83ac",
+  "fingerprint": "74972489fc6f77954737bccdb751105df05faa14f3e1d53928071dae8c85e8f0",
+  "evaluated_at": "2026-11-16T09:59:21.949185+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Identify a course on Coursera related to 'Artificial Intelligence for Healthcare'\n2. Note the course duration\n3. Note the number of quizzes in Assessments\n\n**Checking against screenshots:**\n\n1. **Course Identification:** The first screenshot shows the Coursera search results for \"Artificial Intelligence for Healthcare\". The subsequent screenshots show the course page for \"AI for Healthcare\" by AI CERTs — a course clearly related to the search topic. ✓\n\n2. **Course Duration:** The course page (screenshots 2 and 3) clearly displays \"1 week to complete at 10 hours a week\". The response states \"Duration: 1 week to complete at 10 hours a week\" — this matches the screenshot exactly. ✓\n\n3. **Number of Assessments/Quizzes:** The fourth screenshot shows the \"Details to know\" section with \"Assessments: 8 assignments\". The response states \"Quizzes in Assessments: 8\" — the number 8 matches the Assessments count shown on the course page. While the screenshot labels them as \"assignments\" rather than \"quizzes,\" the Assessments field value of 8 is accurately captured. ✓\n\n**Verification of consistency:**\n- The course name \"AI for Healthcare\" (AI CERTs) matches the course page shown.\n- The duration \"1 week to complete at 10 hours a week\" is verbatim from the screenshot.\n- The assessments count of 8 matches the \"8 assignments\" shown under Assessments in the Details to know section.\n\nAll three components of the task were completed: a relevant course was identified, its duration was noted, and the assessments count was correctly reported. The minor terminology difference (quizzes vs. assignments) does not affect the accuracy of the number reported for the Assessments field.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8416,
+    "completion_tokens": 1222,
+    "total_tokens": 9638,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 834
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:59:22.111970+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Coursera--6/Coursera--6_20261114_064619/final_runs/run_002/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "9310fc06f2fed23854c85e2985936db6b7bd6967777ff75b86d08947a73c6682",
+      "source_bytes": 519846,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 356140,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "dcabb1fc1b099ab44ce6c8100c8d69756f3df4cb1fc6a32fee5bd7dcffed3920"
+    },
+    {
+      "path": "Coursera--6/Coursera--6_20261114_064619/final_runs/run_002/screenshots/final_execution_2_course_page.png",
+      "source_sha256": "3fab4b2cac29c0642f83e69aacd80b6922da0daa35b24b0df295029d060fbaeb",
+      "source_bytes": 147629,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 267527,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d4efb6df71332fa27d7b28780f0d4aac0b37e4b768406387b0046a791cdcb48a"
+    },
+    {
+      "path": "Coursera--6/Coursera--6_20261114_064619/final_runs/run_002/screenshots/final_execution_3_duration.png",
+      "source_sha256": "3fab4b2cac29c0642f83e69aacd80b6922da0daa35b24b0df295029d060fbaeb",
+      "source_bytes": 147629,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 267527,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d4efb6df71332fa27d7b28780f0d4aac0b37e4b768406387b0046a791cdcb48a"
+    },
+    {
+      "path": "Coursera--6/Coursera--6_20261114_064619/final_runs/run_002/screenshots/final_execution_4_assessments.png",
+      "source_sha256": "97b6e22c1da152089914e335dc90c4b92bcaa66a5335d4cf5bb28d07d0d5d6e0",
+      "source_bytes": 157533,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 269849,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c50c33b20de7730cbd7b151ba65210a826079657978c87678ec2c4b05de3acc9"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1551140,
+  "response_id": "c2563173-c6fd-41d2-b053-3835c32f52e8",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1756,
+    "reasoning_content_chars": 3736
+  }
+}

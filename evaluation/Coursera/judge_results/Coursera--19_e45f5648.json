@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--19",
+  "website": "Coursera",
+  "task": "Identify a course on Coursera that provides an introduction to Psychology, list the instructor's name, the institution offering it, and how many hours it will approximately take to complete.",
+  "task_record": "Coursera--19/Coursera--19_20261114_114201",
+  "task_definition_sha256": "87a18237a2e8b2b9fecf66ad87a08222878ac80e44c46a9e34dfe5d183c7eaf5",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--19/Coursera--19_20261114_114201"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The Coursera course \"Introduction to Psychology\" is offered by Yale University, taught by instructor Paul Bloom, and takes approximately 2 weeks at 10 hours a week (about 20 hours) to complete.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_1_home.png",
+      "sha256": "1323157743a7ae32ee36e37fd50dac596293c0e830bf150f527b033192c8eb24"
+    },
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_2_search_results.png",
+      "sha256": "068719ffc01a53cfbb51d05058992aa5de3306e90c34b623584632834a9496fd"
+    },
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_3_course_page.png",
+      "sha256": "71eef0776956cacbccb19bb7e35adddbf56af5a1921aabf726c2fea1b8e9b07e"
+    },
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_4_course_details.png",
+      "sha256": "8562592299bac21d3452d79ddf8c1eb106b2e776656b5cae2ab775c1182da659"
+    },
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "sha256": "71eef0776956cacbccb19bb7e35adddbf56af5a1921aabf726c2fea1b8e9b07e"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "8bde0db596dbb1e9712be1812e0487f3fdcda9b945b6594012b42e372eb21f05",
+  "fingerprint": "3d4465b290304d3772f4cc9659452c80a7b9e6d72062ae6b5d5a9e1c00731d6e",
+  "evaluated_at": "2026-11-16T10:03:47.250533+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task Requirements:**\n1. Identify a Coursera course providing an introduction to Psychology\n2. List the instructor's name\n3. List the institution offering it\n4. State approximately how many hours it takes to complete\n\n**Verification against screenshots:**\n\n1. **Course identified:** The search results (screenshot 2) show \"Introduction to Psychology\" courses, and the course page (screenshots 3-5) confirms the course \"Introduction to Psychology\" was selected. ✓\n\n2. **Instructor's name:** The course page clearly displays \"Instructor: Paul Bloom\" beneath the course title. ✓\n\n3. **Institution:** The course page shows the \"Yale\" logo prominently above the course title, and the search results confirm it's offered by \"Yale University.\" ✓\n\n4. **Time to complete:** The course page shows under \"Flexible schedule\": \"2 weeks at 10 hours a week.\" The response interprets this as approximately 20 hours total (2 weeks × 10 hours/week), which is a reasonable calculation directly derived from the screenshot information. ✓\n\n**Assessment of the response:** The result response states the course is \"Introduction to Psychology\" offered by Yale University, taught by Paul Bloom, taking approximately 2 weeks at 10 hours a week (about 20 hours). Every element of this response is corroborated by the screenshots. All four components of the task were completed accurately.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7696,
+    "completion_tokens": 626,
+    "total_tokens": 8322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 319
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:47.920134+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_1_home.png",
+      "source_sha256": "1323157743a7ae32ee36e37fd50dac596293c0e830bf150f527b033192c8eb24",
+      "source_bytes": 616544,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 308776,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b304308a2fc2bfbb60a2e621b2fa58eba70f9c68de9b184f277b3e24e5e30a5b"
+    },
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_2_search_results.png",
+      "source_sha256": "068719ffc01a53cfbb51d05058992aa5de3306e90c34b623584632834a9496fd",
+      "source_bytes": 768009,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 324408,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "750095b081f65f03f29de31e0e1befa5488a7f22d63067b406b2bcb9eba3c796"
+    },
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_3_course_page.png",
+      "source_sha256": "71eef0776956cacbccb19bb7e35adddbf56af5a1921aabf726c2fea1b8e9b07e",
+      "source_bytes": 186399,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 203237,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6c593fd34b9684779c6858d7d320c2f79e6c371fdc579052b5963a9f25f6347e"
+    },
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_4_course_details.png",
+      "source_sha256": "8562592299bac21d3452d79ddf8c1eb106b2e776656b5cae2ab775c1182da659",
+      "source_bytes": 558335,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        7539
+      ],
+      "transmitted_dimensions": [
+        217,
+        1280
+      ],
+      "transmitted_bytes": 38247,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f391b46f25c724acd75dd135eec4086d8c809370b2027c0f5116242690302a4f"
+    },
+    {
+      "path": "Coursera--19/Coursera--19_20261114_114201/final_runs/run_003/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "71eef0776956cacbccb19bb7e35adddbf56af5a1921aabf726c2fea1b8e9b07e",
+      "source_bytes": 186399,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 203237,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6c593fd34b9684779c6858d7d320c2f79e6c371fdc579052b5963a9f25f6347e"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1440472,
+  "response_id": "f2366bf5-7e48-4091-a621-ed2ff13758d6",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1403,
+    "reasoning_content_chars": 1456
+  }
+}

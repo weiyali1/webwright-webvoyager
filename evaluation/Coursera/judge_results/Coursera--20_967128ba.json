@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--20",
+  "website": "Coursera",
+  "task": "Find an Intermediate-level online course on Coursera about 'Blockchain Technology' which lasts between 1 to 4 weeks, and is provided by a well-known institution. Also, note the course's main goals and the instructor's name.",
+  "task_record": "Coursera--20/Coursera--20_20261114_120503",
+  "task_definition_sha256": "07934101675f3aaa8262cfd1951e0a7f7b541253de06e6689bfeb967823a5040",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--20/Coursera--20_20261114_120503"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Course: Smart Contracts (part of the Blockchain Specialization) | Institution: University at Buffalo (The State University of New York) - a well-known institution | Level: Intermediate | Duration: 1-4 Weeks (approx. 2 weeks at 10 hours/week, flexible schedule) | Main goals: This second course of the Blockchain specialization helps you design, code, deploy and execute a smart contract - the computational element of blockchain technology. You will design and program smart contracts in the Solidity language, test and deploy them in the Remix development environment, and invoke them from a simple web interface, enabling user-defined operations, conditions, rules and policies for autonomous, efficient and transparent systems. | Instructor: Bina Ramamurthy",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_4_filtered_results.png",
+      "sha256": "b196095574f893cd83a724213386db5f6ac794989e3f584b8005a2f00d813bc1"
+    },
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_5_course_page_university_at_buffalo.png",
+      "sha256": "c7c6a30c23ce0b21f81534640589fa03d91921ea1faa8842e90713c8b884bebf"
+    },
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_6_course_goals.png",
+      "sha256": "6836b647c8c1e09269497a15a02cf0c6297a91c5430e4d18590630a4c9a4f231"
+    },
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_7_instructor.png",
+      "sha256": "7883fb2a3ab7c664b91f53ab05885102d46e1bf5c7d3e30eefb5047dec398b31"
+    },
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_8_final_state.png",
+      "sha256": "7883fb2a3ab7c664b91f53ab05885102d46e1bf5c7d3e30eefb5047dec398b31"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "41eafc1b90e1837f8e9089b2a3f5bf32298f8b288b049e0e1f1cb2861d533cee",
+  "fingerprint": "3c3d15aedb3b224b4f31cd8905ca25d559b72f751bc8cb21181316ae1a8f58e0",
+  "evaluated_at": "2026-11-16T10:04:05.443747+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements Breakdown:\n1. Find an Intermediate-level course on Coursera about 'Blockchain Technology'\n2. Course duration between 1 to 4 weeks\n3. Provided by a well-known institution\n4. Note the course's main goals\n5. Note the instructor's name\n\n## Verification Against Screenshots:\n\n**Screenshot 1 (Search Results):** Shows Coursera search results for \"Blockchain Technology\" with filters applied: \"1-4 Weeks\" and \"Intermediate\" are both visible as active filters. The \"Smart Contracts\" course by University at Buffalo appears with \"Intermediate · Course · 1-4 Weeks\" listed.\n\n**Screenshots 2-3 (Course Page):** Confirm:\n- Course: \"Smart Contracts\" — part of the Blockchain Specialization ✓\n- Institution: University at Buffalo ✓\n- Instructor: Bina Ramamurthy ✓\n- Level: \"Intermediate level\" explicitly shown ✓\n- Duration: \"Flexible schedule - 2 weeks at 10 hours a week\" (within 1-4 weeks range) ✓\n- Main goal visible: \"This second course of the Blockchain specialization will help you design, code, deploy and execute a smart contract.\" ✓\n\n**Screenshots 4-5 (Course Details):** Confirm:\n- Modules: Smart Contract Basics, Solidity, Putting it all Together, Best Practices\n- Instructor section: Bina Ramamurthy, The State University of New York\n- Offered by: University at Buffalo and The State University of New York\n- Course description partially visible mentioning smart contracts as \"the computational element of the blockchain technology\"\n\n## Response Consistency Check:\n- The response accurately matches all screenshot details (course name, institution, level, duration, instructor).\n- The expanded goals in the response (Solidity programming, Remix deployment, web interface invocation) go beyond what's fully visible in screenshots, but per instructions, content in the response not shown on the screenshot should be believed — and it's consistent with the partially visible course description mentioning \"the computational element of the blockchain technology\" and \"user-defined operations.\"\n\n## Conclusion:\nAll task requirements are satisfied: an Intermediate-level blockchain-related course (Smart Contracts, part of Blockchain Specialization), 1-4 weeks duration (2 weeks), offered by a well-known institution (University at Buffalo/SUNY), with main goals and instructor name (Bina Ramamurthy) provided.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8232,
+    "completion_tokens": 1302,
+    "total_tokens": 9534,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 795
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:06.041553+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_4_filtered_results.png",
+      "source_sha256": "b196095574f893cd83a724213386db5f6ac794989e3f584b8005a2f00d813bc1",
+      "source_bytes": 847943,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 282359,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1e3fa110abf89a7f3b7e64ef6db336c17c0da43dacdae380889269ad8d952b11"
+    },
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_5_course_page_university_at_buffalo.png",
+      "source_sha256": "c7c6a30c23ce0b21f81534640589fa03d91921ea1faa8842e90713c8b884bebf",
+      "source_bytes": 199719,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 183822,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6eb583aa2c88bef98c060f3395060900bd7db056dd8d6bb340ed4fffe1605197"
+    },
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_6_course_goals.png",
+      "source_sha256": "6836b647c8c1e09269497a15a02cf0c6297a91c5430e4d18590630a4c9a4f231",
+      "source_bytes": 199725,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 183790,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e150ce24bfa9a81d3cf408bd379646b208e7244432603ceec6bdb8d53de393b3"
+    },
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_7_instructor.png",
+      "source_sha256": "7883fb2a3ab7c664b91f53ab05885102d46e1bf5c7d3e30eefb5047dec398b31",
+      "source_bytes": 200941,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 171023,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ada4fd5661c89967707a174cd6049e16e4b344416b8ba2307de023c765ec88e2"
+    },
+    {
+      "path": "Coursera--20/Coursera--20_20261114_120503/final_runs/run_002/screenshots/final_execution_8_final_state.png",
+      "source_sha256": "7883fb2a3ab7c664b91f53ab05885102d46e1bf5c7d3e30eefb5047dec398b31",
+      "source_bytes": 200941,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 171023,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ada4fd5661c89967707a174cd6049e16e4b344416b8ba2307de023c765ec88e2"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1326570,
+  "response_id": "d5ed0896-fd44-4ada-b85a-e10816bba532",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2369,
+    "reasoning_content_chars": 3875
+  }
+}

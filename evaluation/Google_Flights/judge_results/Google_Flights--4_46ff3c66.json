@@ -1,0 +1,151 @@
+{
+  "task_id": "Google Flights--4",
+  "website": "Google Flights",
+  "task": "Search for one-way flights from New York to London on Dec. 26th and filter the results to show only non-stop flights.",
+  "task_record": "Google Flights--4/Google Flights--4_20261113_013110",
+  "task_definition_sha256": "1d3b0f718f69cbe333aa7c6f469ea1fffff6af1c9c807ccbc709ad5c12a6d4e2",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Flights--4/Google Flights--4_20261113_013110"
+  ],
+  "final_run": "run_005",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Searched one-way flights from New York to London on Dec 26 on Google Flights and applied the dedicated Stops filter -> Nonstop only. Filter active (Nonstop, Stops, Selected); 23 nonstop results returned.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_1_search_results_oneway_nyc_lon_dec26.png",
+      "sha256": "400fda9ba93072b28b8e4186ec92a6d62a7f80848c802c2e38430baea369dd15"
+    },
+    {
+      "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_2_stops_filter_nonstop_selected.png",
+      "sha256": "1f5dbc7cbed16bc5f721deb130dea155af1393296174dbaf6e3063cfac08c2fc"
+    },
+    {
+      "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_3_final_nonstop_results.png",
+      "sha256": "3f4bb62c4a273afdc36342f66052d60e2a39f2ffc4789b14ee977c9bb3e70737"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e69eb89124a851d1f4abcc3df1933655274e97335034af9745e8efce1dbd12cd",
+  "fingerprint": "cd3affdb00a4fcef3c5ea9d4fd3cf542e4229179ebf123a33c1ed4bb04e15264",
+  "evaluated_at": "2026-11-16T10:15:13.817894+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for one-way flights from New York to London on Dec. 26th\n2. Filter the results to show only non-stop flights\n\n**Screenshot Verification:**\n\n**Screenshot 1 (Initial Search):**\n- Trip type: \"One way\" is selected ✓\n- Route: New York → London ✓\n- Date: \"Sat, Dec 26\" ✓\n- Results show a mix of flight types (Nonstop, 1 stop, 2 stops), confirming the search was executed but the filter had not yet been applied.\n\n**Screenshot 2 (Filter Applied - Loading):**\n- The \"Nonstop ×\" filter chip is now visible next to \"All filters (1)\", indicating the Stops filter was applied ✓\n- The \"Cheapest from\" shows a loading spinner, indicating results are refreshing. A \"1 stop\" flight still appears transiently, consistent with a mid-update state.\n\n**Screenshot 3 (Filtered Results):**\n- The \"Nonstop ×\" chip remains active ✓\n- All listed flights (both \"Top flights\" and \"Other flights\") are now labeled \"Nonstop\" — Virgin Atlantic, British Airways, American, and Delta flights, all JFK/EWR–LHR with no stops ✓\n- The previously seen \"1 stop\" and \"2 stops\" flights have been removed from the results ✓\n\n**Result Response Consistency:**\n- The response states the Nonstop filter was applied via the Stops filter, which matches the visible \"Nonstop ×\" chip.\n- The claim of \"23 nonstop results returned\" is not directly verifiable in the screenshots, but per evaluation guidelines, content in the response not shown on the screenshot can be believed, and it does not contradict the visual evidence.\n\nBoth components of the task — the one-way search (New York → London, Dec 26) and the non-stop-only filtering — are clearly demonstrated in the screenshots, with the final state showing exclusively nonstop flights.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6307,
+    "completion_tokens": 1021,
+    "total_tokens": 7328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 603
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:15:14.119058+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_1_search_results_oneway_nyc_lon_dec26.png",
+      "source_sha256": "400fda9ba93072b28b8e4186ec92a6d62a7f80848c802c2e38430baea369dd15",
+      "source_bytes": 216463,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 248865,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "638fe6ff807b9f13a0753e65d43f709371d8099b67262cd21fd1644be3923e10"
+    },
+    {
+      "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_2_stops_filter_nonstop_selected.png",
+      "source_sha256": "1f5dbc7cbed16bc5f721deb130dea155af1393296174dbaf6e3063cfac08c2fc",
+      "source_bytes": 216332,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 251263,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e44c46bf157ed679beb917382da5d8d0a49b18364381a287bd07a3bec56e5bc4"
+    },
+    {
+      "path": "Google Flights--4/Google Flights--4_20261113_013110/final_runs/run_005/screenshots/final_execution_3_final_nonstop_results.png",
+      "source_sha256": "3f4bb62c4a273afdc36342f66052d60e2a39f2ffc4789b14ee977c9bb3e70737",
+      "source_bytes": 213988,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 250819,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f74ec9d5b4b71be4c56c265296a44414629e7a36b294b8ea0d8659841a25a3e2"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 1004319,
+  "response_id": "75a657e2-6fc6-4f1d-8e79-235bf6e7f136",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1771,
+    "reasoning_content_chars": 2208
+  }
+}

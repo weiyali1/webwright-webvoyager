@@ -1,0 +1,181 @@
+{
+  "task_id": "GitHub--19",
+  "website": "GitHub",
+  "task": "Look up the most recently updated Python repository on GitHub that is tagged with 'web scraping' and has over 100 stars.",
+  "task_record": "GitHub--19/GitHub--19_20261115_025818",
+  "task_definition_sha256": "3491554ee9d5d526aeb148ff77650975fa333df321168619cd4458700b971a35",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--19/GitHub--19_20261115_025818"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: The most recently updated Python repository on GitHub tagged with 'web scraping' (topic:web-scraping) with over 100 stars is kalil0321/ats-scrapers (stars: 204, updated: 4 minutes ago). This was found via GitHub advanced search with query topic:web-scraping stars:>100 language:Python, sorted by 'Sort by: Recently updated'; the first result was extracted as the answer.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--19/GitHub--19_20261115_025818/final_runs/run_001/screenshots/final_execution_1_advanced_filters.png",
+      "sha256": "af93c010f9e52c69b2a5032fda5bbbc396e1eb8a30eae10dd4203384fedd82cf"
+    },
+    {
+      "path": "GitHub--19/GitHub--19_20261115_025818/final_runs/run_001/screenshots/final_execution_2_results_filtered.png",
+      "sha256": "59b9fc46da1e7bd0bb134476d60c57b7319e388806ae2531ce960c7b3be3ce70"
+    },
+    {
+      "path": "GitHub--19/GitHub--19_20261115_025818/final_runs/run_001/screenshots/final_execution_3_sorted_recently_updated.png",
+      "sha256": "62c9463c19a6132327c3af9eb3483f3fe1f130d36903bf4d0396f403483c57a9"
+    },
+    {
+      "path": "GitHub--19/GitHub--19_20261115_025818/final_runs/run_001/screenshots/final_execution_4_first_result.png",
+      "sha256": "62c9463c19a6132327c3af9eb3483f3fe1f130d36903bf4d0396f403483c57a9"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "c05ee610d9170ef7b46c5ba739689ca1b791878305bd393bdd96e83e95554116",
+  "fingerprint": "ac3ed8e1c17ebfb3a67081d8404b17731e9ab1d711e9a57530fca5c8605bb866",
+  "evaluated_at": "2026-11-16T10:08:10.913934+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a Python repository on GitHub\n2. Tagged with 'web scraping'\n3. Has over 100 stars\n4. Most recently updated\n\n**Screenshot Evidence Review:**\n\n1. **Screenshot 1 (Advanced Search Setup):** Shows GitHub's Advanced search page with the query `topic:web-scraping stars:>100 language:Python` entered. The \"Written in this language\" field is set to Python and \"With this many stars\" is set to \"> 100\" — correctly configuring all three filter criteria (topic, stars, language).\n\n2. **Screenshot 2 (Initial Results):** Shows 170 results sorted by \"Best match\" — this is the intermediate state before re-sorting.\n\n3. **Screenshots 3 & 4 (Sorted Results):** Shows the results re-sorted by \"Sort by: Recently updated\". The first result is **kalil0321/ats-scrapers** with:\n   - Language: Python ✓\n   - Stars: 204 (over 100) ✓\n   - Tags include: `web-scraping` ✓\n   - Updated: 4 minutes ago (most recent, as it's the first result under \"Recently updated\" sorting) ✓\n\n**Response Consistency Check:**\nThe result response states the answer is kalil0321/ats-scrapers (stars: 204, updated: 4 minutes ago), found via the query `topic:web-scraping stars:>100 language:Python` sorted by \"Recently updated\". This matches the screenshot evidence exactly — the repository name, star count, update time, and methodology all align.\n\n**Verification of Correctness:**\n- The first result under \"Recently updated\" sorting is indeed the most recently updated repository matching all filters.\n- The second result (oss-invisible/playwright, updated 28 minutes ago) is older, confirming the first result is the most recent.\n- All filter criteria (Python language, web-scraping tag, >100 stars) are visibly satisfied by the identified repository.\n\nThe task was fully executed: the search was properly constructed, sorted correctly, and the correct repository was identified and reported.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6630,
+    "completion_tokens": 1147,
+    "total_tokens": 7777,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 685
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:11.386868+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "GitHub--19/GitHub--19_20261115_025818/final_runs/run_001/screenshots/final_execution_1_advanced_filters.png",
+      "source_sha256": "af93c010f9e52c69b2a5032fda5bbbc396e1eb8a30eae10dd4203384fedd82cf",
+      "source_bytes": 111775,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 124994,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ef1f650af977d47af36c0984094fbfca0b9a028dfa9c8aced0ad967b0976dc0b"
+    },
+    {
+      "path": "GitHub--19/GitHub--19_20261115_025818/final_runs/run_001/screenshots/final_execution_2_results_filtered.png",
+      "source_sha256": "59b9fc46da1e7bd0bb134476d60c57b7319e388806ae2531ce960c7b3be3ce70",
+      "source_bytes": 239142,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 185180,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "245f8e1efcf889cf8cd264b9d273399531fa05b49181759b3c594289ae40f326"
+    },
+    {
+      "path": "GitHub--19/GitHub--19_20261115_025818/final_runs/run_001/screenshots/final_execution_3_sorted_recently_updated.png",
+      "source_sha256": "62c9463c19a6132327c3af9eb3483f3fe1f130d36903bf4d0396f403483c57a9",
+      "source_bytes": 240507,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 191198,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "83cb252ea33ae1a21c2ab786090a2393a1d11f9e8905ce998571bd3f5d4d8bb4"
+    },
+    {
+      "path": "GitHub--19/GitHub--19_20261115_025818/final_runs/run_001/screenshots/final_execution_4_first_result.png",
+      "source_sha256": "62c9463c19a6132327c3af9eb3483f3fe1f130d36903bf4d0396f403483c57a9",
+      "source_bytes": 240507,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 191198,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "83cb252ea33ae1a21c2ab786090a2393a1d11f9e8905ce998571bd3f5d4d8bb4"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 926741,
+  "response_id": "3f48a502-ae3d-4f34-b686-58b42bb9dbd4",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1930,
+    "reasoning_content_chars": 2861
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--33",
+  "website": "Coursera",
+  "task": "Find a beginner level Coursera course related to \"Internet of Things (IoT)\" with a high rating. Provide the course name, instructor's name, and a brief summary of the skills that will be taught.",
+  "task_record": "Coursera--33/Coursera--33_20261115_071032",
+  "task_definition_sha256": "a8215edb74ce840d6ba434439bbd5d239e91c424a59c44c4bbecb37a6b98b9b1",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--33/Coursera--33_20261115_071032"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Course name: Industrial Internet of Things (IIoT) | Instructor: M.S. Krishnan | Rating: 4.5 stars (213 reviews), Beginner level | Skills summary: This beginner-level course teaches the skills listed in its 'Skills you'll gain' section: System Implementation, Cloud Computing, Internet Of Things, Digital Transformation.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_3_beginner_filter.png",
+      "sha256": "97dd8e93aab32499c43414fa94943e6265cef632d1781fd7c043f5e84d035a30"
+    },
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_4_filtered_results_ratings.png",
+      "sha256": "f740af15499459e280b90ae84097ae2c18c67ff7767634766a18c258557c3ecb"
+    },
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_4_sort_dialog.png",
+      "sha256": "3d123ba0037ce73717007de3b2706f6e8e7765b0140d649b38d192310074d7f7"
+    },
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_5_course_page.png",
+      "sha256": "3bdc5b5996f79b51da6e930618d72b44354b9dd54773af2ee0d853addd2b06ea"
+    },
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_6_skills_section.png",
+      "sha256": "3bdc5b5996f79b51da6e930618d72b44354b9dd54773af2ee0d853addd2b06ea"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "146255e980dcf6d9718826b116759ca813ef62ca09adeca667c4cb82bf0471f1",
+  "fingerprint": "861056592d7eb6c2ff25f842288fcba9ffdb9bff76ffe74d6ddb5d74c79038c7",
+  "evaluated_at": "2026-11-16T10:10:13.349420+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a beginner-level Coursera course related to \"Internet of Things (IoT)\" with a high rating\n2. Provide the course name\n3. Provide the instructor's name\n4. Provide a brief summary of the skills that will be taught\n\n**Verification against screenshots:**\n\n1. **Search & Filtering:** The screenshots show a Coursera search for \"Internet of Things\" with filters applied — the Filter & Sort panel (screenshot 3) confirms \"Learning Product: Courses\" and \"Level: Beginner\" were selected, and the results page shows the \"Beginner\" and \"Courses\" filter chips active. This aligns with the requirement to find a beginner-level course.\n\n2. **Course Selection:** The course \"Industrial Internet of Things (IIoT)\" by University of Michigan appears as the top result with a **4.5★ rating (213 reviews)** and is labeled \"Beginner · Course · 1–4 Weeks\" — satisfying the \"high rating\" and \"beginner level\" criteria.\n\n3. **Course Details Page (screenshots 4 & 5):** The course page confirms:\n   - Course name: **Industrial Internet of Things (IIoT)** ✓\n   - Instructor: **M.S. Krishnan** ✓\n   - Rating: **4.5 stars, 213 reviews** ✓\n   - Level: **Beginner level** (\"No prior experience required\") ✓\n   - Skills you'll gain: **System Implementation, Cloud Computing, Internet Of Things, Digital Transformation** ✓\n\n4. **Response Accuracy:** The Result Response matches the screenshot content exactly — course name, instructor, rating, level, and skills list all correspond to what is shown on the course page. The skills summary is drawn directly from the \"Skills you'll gain\" section, which serves as a brief summary of what will be taught.\n\nAll components of the task (beginner-level IoT course, high rating, course name, instructor name, and skills summary) are fulfilled and consistent with the visual evidence.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8144,
+    "completion_tokens": 981,
+    "total_tokens": 9125,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 544
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:10:13.966975+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_3_beginner_filter.png",
+      "source_sha256": "97dd8e93aab32499c43414fa94943e6265cef632d1781fd7c043f5e84d035a30",
+      "source_bytes": 1031775,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 304995,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ceb7061bc388d14b16c243c4389998289f86c54ef2b1244a3b40490922843144"
+    },
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_4_filtered_results_ratings.png",
+      "source_sha256": "f740af15499459e280b90ae84097ae2c18c67ff7767634766a18c258557c3ecb",
+      "source_bytes": 1022192,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 306990,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "587447f41da2ba57fcba0b6e73512b4e9bf0b46243282b9e923f9db54c2e3686"
+    },
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_4_sort_dialog.png",
+      "source_sha256": "3d123ba0037ce73717007de3b2706f6e8e7765b0140d649b38d192310074d7f7",
+      "source_bytes": 760362,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 200976,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "116cd6f62d023335a814cb38535ccabc83aa4b33d6560d313acdd7179d6be632"
+    },
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_5_course_page.png",
+      "source_sha256": "3bdc5b5996f79b51da6e930618d72b44354b9dd54773af2ee0d853addd2b06ea",
+      "source_bytes": 208982,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 194607,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "17ec707fcfa6c8e3e334edc4aaf98fe46b1db5813d9e4412692b26b34a11dc74"
+    },
+    {
+      "path": "Coursera--33/Coursera--33_20261115_071032/final_runs/run_003/screenshots/final_execution_6_skills_section.png",
+      "source_sha256": "3bdc5b5996f79b51da6e930618d72b44354b9dd54773af2ee0d853addd2b06ea",
+      "source_bytes": 208982,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 194607,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "17ec707fcfa6c8e3e334edc4aaf98fe46b1db5813d9e4412692b26b34a11dc74"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1606290,
+  "response_id": "6e50dbd4-213f-4072-bc20-94b2111bece2",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1871,
+    "reasoning_content_chars": 2457
+  }
+}

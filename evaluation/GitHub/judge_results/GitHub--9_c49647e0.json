@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--9",
+  "website": "GitHub",
+  "task": "Locate a repository on GitHub that was created in the last week and has 50 or more stars. Provide brief details about the project's purpose and its programming language.",
+  "task_record": "GitHub--9/GitHub--9_20261114_115625",
+  "task_definition_sha256": "a8d88cf6a25ffe742eca7f31dd086ceabea8b0eb638f67bae9c9af791dde166a",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--9/GitHub--9_20261114_115625"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Repository: huamidev/GestaltX\nPurpose: An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.\nProgramming Language: Swift (primary, 80.6%)\nStars: 7371\nCreated: 2026-11-09T05:15:48Z (within the last week; today is 2026-11-14)\n\nFound via GitHub Advanced Search with filters created:>=2026-11-07 and stars:>=50.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_2_created_date.png",
+      "sha256": "2d1b85ee9013dbd255c4276e8d2ec663ca39e68fc07acb932de3ebe09609f243"
+    },
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_3_stars_filter.png",
+      "sha256": "66b9317025805b9aadd585847783d48d1068f91c94263ac275fd1f815ac75024"
+    },
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_4_results.png",
+      "sha256": "6d826eee0e55ad78a50c97616905ac29e9675c71ea033009b4bc2dfcd5f6ac17"
+    },
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_5_repo_page.png",
+      "sha256": "c147d062758ffc5afd1e21c3db046025013cabe1c64a887d5a95e8bb7c2a7a0e"
+    },
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_6_repo_details.png",
+      "sha256": "c147d062758ffc5afd1e21c3db046025013cabe1c64a887d5a95e8bb7c2a7a0e"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "562779bb1ae514ef0a3d83a4c51ff7d36fdb0d243b6b4f7a2a1c51362d765808",
+  "fingerprint": "b8d844eeb4d4bc36eed817ba425f6a58cfd6dea4e96df622de56fdbb49ab2a58",
+  "evaluated_at": "2026-11-16T10:03:44.872999+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Locate a GitHub repository created in the last week with 50+ stars\n2. Provide brief details about the project's purpose\n3. Provide its programming language\n\n**Verification against screenshots:**\n\n1. **Search process (Screenshots 1 & 2):** The GitHub Advanced Search page shows the query `created:>=2026-11-07 stars:>=50` was constructed, with \"Created on the dates\" set to `>=2026-11-07` and \"With this many stars\" set to `>=50`. These filters correctly implement the task's criteria (created within the last week, 50+ stars).\n\n2. **Search results (Screenshot 3):** The results page (1.6k results) displays `huamidev/GestaltX` as the top result, described as \"An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.\" with the **Swift** language label and **7.4k stars**, updated 11 hours ago. This confirms the repository meets both criteria (created within the filtered date range and well above 50 stars).\n\n3. **Repository details (Screenshots 4 & 5):** The README page of GestaltX confirms the project exists, is licensed under GNU GPL v3 (Copyright © 2026 huamidev), and the Star History chart shows dates (Tue 10 – Fri 13) consistent with a very recently created repository.\n\n**Verification against the response:**\n- Repository: huamidev/GestaltX ✓ (matches screenshot)\n- Purpose: MobileGestalt editor for iOS 27.x ✓ (matches the description in search results)\n- Programming Language: Swift ✓ (matches the Swift label in search results; the 80.6% breakdown detail is not visible in the screenshot, but per evaluation guidelines, content in the response not shown on the screenshot can be believed)\n- Stars: 7371 ✓ (consistent with 7.4k shown)\n- Created: 2026-11-09, within the last week relative to 2026-11-14 ✓ (consistent with the search filter used)\n\nAll three task components — locating a qualifying repository, describing its purpose, and identifying its programming language — are satisfied and corroborated by the screenshots.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8172,
+    "completion_tokens": 1323,
+    "total_tokens": 9495,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 829
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:45.366018+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_2_created_date.png",
+      "source_sha256": "2d1b85ee9013dbd255c4276e8d2ec663ca39e68fc07acb932de3ebe09609f243",
+      "source_bytes": 111487,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 125396,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4e841a1d1f5129b8cdaeca1a2bf309be2d2fc0f978492154c50c66cec282ba59"
+    },
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_3_stars_filter.png",
+      "source_sha256": "66b9317025805b9aadd585847783d48d1068f91c94263ac275fd1f815ac75024",
+      "source_bytes": 111583,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 124175,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c94e665b0b7d94b8f287878f9cf3ee85d8675721757d3e946168dbdab49e7874"
+    },
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_4_results.png",
+      "source_sha256": "6d826eee0e55ad78a50c97616905ac29e9675c71ea033009b4bc2dfcd5f6ac17",
+      "source_bytes": 223196,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 180118,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "71e4024328f727f7561f952ea7dc0ef5a4f98bcabbfb39cf47d28cec14b33d84"
+    },
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_5_repo_page.png",
+      "source_sha256": "c147d062758ffc5afd1e21c3db046025013cabe1c64a887d5a95e8bb7c2a7a0e",
+      "source_bytes": 124116,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 131039,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "23e36972db44f703a7cf6cfc5f1dc12604a083873d52ba9171c0bcde52d344f6"
+    },
+    {
+      "path": "GitHub--9/GitHub--9_20261114_115625/final_runs/run_001/screenshots/final_execution_6_repo_details.png",
+      "source_sha256": "c147d062758ffc5afd1e21c3db046025013cabe1c64a887d5a95e8bb7c2a7a0e",
+      "source_bytes": 124116,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 131039,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "23e36972db44f703a7cf6cfc5f1dc12604a083873d52ba9171c0bcde52d344f6"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 925760,
+  "response_id": "22fd8eaa-cfd3-4dc4-9bce-ea07688d5a42",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2050,
+    "reasoning_content_chars": 3256
+  }
+}

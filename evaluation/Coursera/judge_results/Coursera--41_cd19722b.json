@@ -1,0 +1,181 @@
+{
+  "task_id": "Coursera--41",
+  "website": "Coursera",
+  "task": "Browse online degrees section on Coursera and list 3 Bachelor's degree programmes.",
+  "task_record": "Coursera--41/Coursera--41_20261115_095815",
+  "task_definition_sha256": "7eb11b191dc1c979507d2b7344703e5c6132c374c01055e24cf21c4a0ba777ff",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--41/Coursera--41_20261115_095815"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Three Bachelor's degree programmes on Coursera:\n1. University of London - Bachelor of Science in Business Administration (https://www.coursera.org/degrees/bsc-business-administration-london)\n2. University of London - Bachelor of Science in Marketing (https://www.coursera.org/degrees/bsc-marketing-london)\n3. University of Huddersfield - BSc Data Science (https://www.coursera.org/degrees/bsc-data-science-huddersfield)",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--41/Coursera--41_20261115_095815/final_runs/run_002/screenshots/final_execution_1_degrees_section.png",
+      "sha256": "bfc5c058bbdb3aabc54be2d67612b8bf02b9ce4a974491b3709986e274af24bb"
+    },
+    {
+      "path": "Coursera--41/Coursera--41_20261115_095815/final_runs/run_002/screenshots/final_execution_2_bachelors_page.png",
+      "sha256": "79df6f39bac60ced1b5e7a87b7a6a9d0583eb83a43efc4ac57e4a6521aa4893f"
+    },
+    {
+      "path": "Coursera--41/Coursera--41_20261115_095815/final_runs/run_002/screenshots/final_execution_3_extracted_programmes.png",
+      "sha256": "2d9cbb779dc02e48290f05dfd9a1a6e81b593689f4fe5c9a3b991ec790667703"
+    },
+    {
+      "path": "Coursera--41/Coursera--41_20261115_095815/final_runs/run_002/screenshots/final_execution_4_final_state.png",
+      "sha256": "5920f457b6663eac739ddf661e3aa06420eb15c3f28b4d76313ab356abd1d90c"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "ff5e3044c136a9ab3408f1b62f67e766577d3c0b53c1fd7796e7fa05e0c23a91",
+  "fingerprint": "9201485a7c67f460f76a2f2f75b62015be1b6cc8d967aa7fbf722ad99b9dc2f6",
+  "evaluated_at": "2026-11-16T10:14:28.389419+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task required:\n1. Browsing the online degrees section on Coursera\n2. Listing 3 Bachelor's degree programmes\n\n## Screenshot Verification\n\n**Screenshot 1:** Shows the Coursera online degrees landing page (\"Move your career forward with an online degree\") with sections for Bachelor's Degrees, Master's Degrees, and Postgraduate Programs. This confirms the agent successfully navigated to the online degrees section.\n\n**Screenshots 2-4:** Show the Bachelor's Degrees page (breadcrumb: Degrees > Bachelor's Degrees) with the heading \"Earn your bachelor's degree online, without putting your life on hold\" and a section titled \"Find the right online bachelor's degree\" displaying degree cards, including:\n- **University of London – Bachelor of Science in Business Administration** ✓\n- **University of London – Bachelor of Science in Marketing** ✓\n- **University of Huddersfield – BSc Data Science** ✓\n- University of London – Bachelor of Science in Computer Science (also visible)\n\n## Response Verification\n\nThe response lists exactly 3 Bachelor's degree programmes:\n1. University of London – Bachelor of Science in Business Administration\n2. University of London – Bachelor of Science in Marketing\n3. University of Huddersfield – BSc Data Science\n\nAll three programmes match the content visible in the screenshots. The URLs provided in the response are not visible in the screenshots, but per evaluation guidelines, content in the response not shown in the screenshot can be believed.\n\n## Conclusion\nThe agent successfully browsed the online degrees section, navigated to the Bachelor's Degrees page, and provided a list of 3 Bachelor's degree programmes that are all verified against the screenshots. The task is fully accomplished.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6635,
+    "completion_tokens": 899,
+    "total_tokens": 7534,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 535
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:14:28.846119+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Coursera--41/Coursera--41_20261115_095815/final_runs/run_002/screenshots/final_execution_1_degrees_section.png",
+      "source_sha256": "bfc5c058bbdb3aabc54be2d67612b8bf02b9ce4a974491b3709986e274af24bb",
+      "source_bytes": 335425,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 226290,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5923cc5db9d9d7ebb01bc156665e804c3a5aab56a7b8f152d54eaf54563874e7"
+    },
+    {
+      "path": "Coursera--41/Coursera--41_20261115_095815/final_runs/run_002/screenshots/final_execution_2_bachelors_page.png",
+      "source_sha256": "79df6f39bac60ced1b5e7a87b7a6a9d0583eb83a43efc4ac57e4a6521aa4893f",
+      "source_bytes": 416347,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 233976,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "969b43766ca0e274d2026291ac594ae2f5c025157bb72142033ec586b6268547"
+    },
+    {
+      "path": "Coursera--41/Coursera--41_20261115_095815/final_runs/run_002/screenshots/final_execution_3_extracted_programmes.png",
+      "source_sha256": "2d9cbb779dc02e48290f05dfd9a1a6e81b593689f4fe5c9a3b991ec790667703",
+      "source_bytes": 437946,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 235550,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "70a1cca472e09020c92eac401c85ab34eb2ac1a4de88e1c3c0ade6dcbf6cbad0"
+    },
+    {
+      "path": "Coursera--41/Coursera--41_20261115_095815/final_runs/run_002/screenshots/final_execution_4_final_state.png",
+      "source_sha256": "5920f457b6663eac739ddf661e3aa06420eb15c3f28b4d76313ab356abd1d90c",
+      "source_bytes": 427615,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 235066,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c9abebaa1efbc308222757df1c57a9a5780e84c0991249b44c7ae130d2ac76b3"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1244487,
+  "response_id": "26360bdb-8185-4a46-a308-dfa9854e8322",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1799,
+    "reasoning_content_chars": 2504
+  }
+}

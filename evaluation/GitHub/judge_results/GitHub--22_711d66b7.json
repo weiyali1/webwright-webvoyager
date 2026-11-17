@@ -1,0 +1,211 @@
+{
+  "task_id": "GitHub--22",
+  "website": "GitHub",
+  "task": "Find an open-source repository on GitHub focused on natural language processing in Ruby, updated within the last week.",
+  "task_record": "GitHub--22/GitHub--22_20261115_085429",
+  "task_definition_sha256": "96987c6da0fa0926cd9760960791bcbc7901b2b3a06dbe909618a3deda4e49db",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--22/GitHub--22_20261115_085429"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found open-source Ruby NLP repository updated within the last week: yohasebe/engtagger (https://github.com/yohasebe/engtagger). It is a Ruby part-of-speech tagger for English text (NLP-focused), 100% Ruby language, public with GPL-3.0 license, tagged with nlp/pos-tagging topics, and updated 13 hours ago. Discovered via GitHub repository search for topic:nlp with Language=Ruby filter and Sort=Recently updated.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp1_search_results.png",
+      "sha256": "cc0a3c05a503430c292f40038d444b5595dedbf5394aebfa014473ab4b9a9401"
+    },
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp2_ruby_filter.png",
+      "sha256": "5f2b0024696de6411d0f6385b353e5b1874f7b7f9eba2f4d805437ef850b0292"
+    },
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp3_sort_recently_updated.png",
+      "sha256": "d93a1b882bfea61cc75be46f7e3cd5d99c39e8983320fc409dd1eed6a6e2f85f"
+    },
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp4_top_result_updated.png",
+      "sha256": "d93a1b882bfea61cc75be46f7e3cd5d99c39e8983320fc409dd1eed6a6e2f85f"
+    },
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp5_repo_page.png",
+      "sha256": "4660b74473890744083dd7807dd47984771971f380afd9f316bd1c08a75ab5d0"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "e22599c8e755925b2f8551795dd1ebdf4354d5709d14fe0062260b95860e494b",
+  "fingerprint": "31612376999d54422535b67405a08b2967a1492a275d4b7cbb18af0a916a9bc5",
+  "evaluated_at": "2026-11-16T10:09:44.703772+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements Breakdown\nThe task required finding a GitHub repository that satisfies **four criteria**:\n1. **Open-source** (publicly available repository)\n2. **Focused on natural language processing (NLP)**\n3. **Written in Ruby**\n4. **Updated within the last week**\n\n## Verification Against Screenshots\n\n**Screenshot 1:** Initial GitHub search for `topic:nlp` (67.2k results) — mostly Python repositories, showing the starting point of the search.\n\n**Screenshot 2:** Search refined to `topic:nlp language:Ruby` (72 results). Among the results, **yohasebe/engtagger** appears with:\n- Ruby language indicator (red dot)\n- 274 stars\n- **\"Updated 13 hours ago\"** ✓ (within the last week)\n\n**Screenshots 3 & 4:** Results sorted by \"Recently updated\" — **yohasebe/engtagger** appears at the top, confirming it is the most recently updated Ruby NLP repository, updated 13 hours ago.\n\n**Screenshot 5:** The repository page for `yohasebe/engtagger` confirms:\n- **Public** repository (open-source) ✓\n- Description: \"English Part-of-Speech Tagger Library; a Ruby port of Lingua::EN::Tagger\" — clearly NLP-focused ✓\n- Topics: english, nlp, pos-tagging, ruby, rubynlp ✓\n- **GPL-3.0 license** (open-source license) ✓\n- Latest commit: \"Prepare 0.4.6: tag and extract noun phrases in linear time\" — **16 hours ago** ✓ (within the last week)\n- Ruby language context confirmed by the description and topics\n\n## Verification Against Result Response\nThe response accurately states:\n- Repository: yohasebe/engtagger with correct URL ✓\n- NLP-focused (POS tagger) ✓\n- Ruby language ✓\n- GPL-3.0 license, public ✓\n- Updated 13 hours ago ✓ (matches screenshot)\n- Search methodology (topic:nlp, Language=Ruby, Sort=Recently updated) matches the screenshots ✓\n\nAll four task criteria are satisfied and verified by the screenshots. The response is consistent with the visual evidence.\n\n## Final Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8158,
+    "completion_tokens": 1065,
+    "total_tokens": 9223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 579
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:09:44.863620+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp1_search_results.png",
+      "source_sha256": "cc0a3c05a503430c292f40038d444b5595dedbf5394aebfa014473ab4b9a9401",
+      "source_bytes": 150020,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 198568,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a2e47dd26dd9d35036c3e0c09f4f69329948116d9902d6e7a484df29476528e2"
+    },
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp2_ruby_filter.png",
+      "source_sha256": "5f2b0024696de6411d0f6385b353e5b1874f7b7f9eba2f4d805437ef850b0292",
+      "source_bytes": 136405,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 181198,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4a6517bee3637a96a9c610ffb5e0c03d6b576ba945dfb210da47b508bb44bbdd"
+    },
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp3_sort_recently_updated.png",
+      "source_sha256": "d93a1b882bfea61cc75be46f7e3cd5d99c39e8983320fc409dd1eed6a6e2f85f",
+      "source_bytes": 140826,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 195602,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4f9bc54d3d15321fa63edebdc10131ac8eba812d57f76859a46dc0193946502d"
+    },
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp4_top_result_updated.png",
+      "source_sha256": "d93a1b882bfea61cc75be46f7e3cd5d99c39e8983320fc409dd1eed6a6e2f85f",
+      "source_bytes": 140826,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 195602,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4f9bc54d3d15321fa63edebdc10131ac8eba812d57f76859a46dc0193946502d"
+    },
+    {
+      "path": "GitHub--22/GitHub--22_20261115_085429/final_runs/run_001/screenshots/cp5_repo_page.png",
+      "source_sha256": "4660b74473890744083dd7807dd47984771971f380afd9f316bd1c08a75ab5d0",
+      "source_bytes": 143207,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 212921,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e25f9e00df5874a58fb6e21477c195e4e4b98bcb610769cd37b953fc727cf58a"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1315269,
+  "response_id": "33318b58-eb70-48a4-bedb-3541c040f1b7",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1914,
+    "reasoning_content_chars": 2231
+  }
+}

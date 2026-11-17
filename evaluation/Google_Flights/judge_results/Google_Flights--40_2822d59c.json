@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Flights--40",
+  "website": "Google Flights",
+  "task": "Browse destinations on the Google Flights homepage from Seattle, look at destinations on a map, and recommend some famous places to travel that are within a reasonable distance and price.",
+  "task_record": "Google Flights--40/Google Flights--40_20261115_094811",
+  "task_definition_sha256": "c7facdf737ff3723c1ccfe7e4ea396ef78478f5996bf30c3d201531db94a55ce",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Flights--40/Google Flights--40_20261115_094811"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Recommended famous places to travel from Seattle within reasonable flight distance (<= 4 hr) and reasonable price (<= HK$2,000): Denver HK$596 (2 hr 50 min); San Diego HK$995 (2 hr 40 min); Los Angeles HK$1,004 (2 hr 42 min); Las Vegas HK$1,161 (2 hr 38 min); Portland HK$1,309 (1 hr 6 min). These were observed on the Google Flights Explore destinations map/results for Seattle after applying the dedicated Price (up to HK$2,000) and Duration (under 4 hr) filters.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_4_map.png",
+      "sha256": "c576b127527c1c6930bd603a7f0f2304e0dd6c464b8ab38d2ce57333b863474b"
+    },
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_5_price_filter.png",
+      "sha256": "4749f77253c2a76cc22a701d0fee70adb12f25d08aee911d6b3d52f26da4f8ec"
+    },
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_6_duration_filter.png",
+      "sha256": "06bc3e28146268e416438974abbac7abadfe84f3fd7becc1332cccbd15cf256b"
+    },
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_7_filtered_results.png",
+      "sha256": "5fe33dd5ce8ae20f0be903e318feee49e7a2210f0cc5a7b70d1583c6719cfbea"
+    },
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_8_final_state.png",
+      "sha256": "5fe33dd5ce8ae20f0be903e318feee49e7a2210f0cc5a7b70d1583c6719cfbea"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "95b8da41d83b9d463014bfed10f96e95410688c91f6a176ac45f27dbbd0f2ccc",
+  "fingerprint": "fb24a926e89fb651bdd0ebc53be4bb9185b91ae443bcca5a2017fa8745d5fb6a",
+  "evaluated_at": "2026-11-16T10:42:35.357104+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Browse destinations on Google Flights from Seattle\n2. Look at destinations on a map\n3. Recommend famous places within reasonable distance and price\n\n**Screenshot Verification:**\n\n- **Screenshot 1:** Google Flights Explore page with Seattle set as origin, showing a map of North America with destination price pins (Portland HK$1,309, Denver HK$596, Los Angeles HK$1,004, Las Vegas area, etc.) and a results list including Los Angeles (2 hr 42 min, HK$1,004) and San Diego (2 hr 40 min, HK$995). ✓ Map-based destination browsing from Seattle confirmed.\n\n- **Screenshot 2:** Price filter \"up to HK$2,000\" applied — map now shows only destinations under HK$2,000 (Portland, Bozeman, Denver HK$596, Los Angeles HK$1,004, Chicago HK$1,781, Washington D.C. HK$1,937, Dallas HK$1,774). Denver's card shows \"2 hr 50 min\". ✓\n\n- **Screenshots 3–5:** Duration filter \"Under 4 hr\" applied (All filters (2)) — map shows Portland HK$1,309, Bozeman HK$1,309, Denver HK$596, Los Angeles HK$1,004; results list shows Los Angeles (2 hr 42 min, HK$1,004), Las Vegas (2 hr 38 min, HK$1,161), San Francisco (2 hr 11 min, HK$1,325), San Diego (2 hr 40 min, HK$995). ✓\n\n**Response Consistency Check:**\n- Denver HK$596 (2 hr 50 min) — matches map pin and card ✓\n- San Diego HK$995 (2 hr 40 min) — matches results list ✓\n- Los Angeles HK$1,004 (2 hr 42 min) — matches map and list ✓\n- Las Vegas HK$1,161 (2 hr 38 min) — matches results list ✓\n- Portland HK$1,309 (1 hr 6 min) — price matches map; duration not visible on screenshot, but per instructions, content in the response not shown on the screenshot can be believed ✓\n\nAll recommended destinations are famous travel cities, all within the stated reasonable constraints (≤4 hr flight, ≤HK$2,000), and all verified against the Explore map workflow from Seattle. The task's three components (browsing destinations from Seattle, viewing the map, and providing recommendations) were all completed.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7279,
+    "completion_tokens": 1771,
+    "total_tokens": 9050,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1199
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:42:35.800749+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_4_map.png",
+      "source_sha256": "c576b127527c1c6930bd603a7f0f2304e0dd6c464b8ab38d2ce57333b863474b",
+      "source_bytes": 737074,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        800
+      ],
+      "transmitted_bytes": 214765,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4f5b0b2a12a219418e8f1029d7f78c3df675339f17ceccb7a6cacf7c5d1ae293"
+    },
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_5_price_filter.png",
+      "source_sha256": "4749f77253c2a76cc22a701d0fee70adb12f25d08aee911d6b3d52f26da4f8ec",
+      "source_bytes": 736035,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        800
+      ],
+      "transmitted_bytes": 208433,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6c2abc7e1d21d96cb1155fafb1cce1a502563975dc7c4794a437f12b6d78ebd9"
+    },
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_6_duration_filter.png",
+      "source_sha256": "06bc3e28146268e416438974abbac7abadfe84f3fd7becc1332cccbd15cf256b",
+      "source_bytes": 738661,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        800
+      ],
+      "transmitted_bytes": 205493,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "df0ac1d8b735157a933a5089fd2fe4e552c9be9357d54d3a33af8e63ac92a46d"
+    },
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_7_filtered_results.png",
+      "source_sha256": "5fe33dd5ce8ae20f0be903e318feee49e7a2210f0cc5a7b70d1583c6719cfbea",
+      "source_bytes": 738755,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        800
+      ],
+      "transmitted_bytes": 205501,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c961f1d19bfc6c0e60f12902402ad578819c241f2755b6282be583437f2fb432"
+    },
+    {
+      "path": "Google Flights--40/Google Flights--40_20261115_094811/final_runs/run_003/screenshots/final_execution_8_final_state.png",
+      "source_sha256": "5fe33dd5ce8ae20f0be903e318feee49e7a2210f0cc5a7b70d1583c6719cfbea",
+      "source_bytes": 738755,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1440,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        800
+      ],
+      "transmitted_bytes": 205501,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c961f1d19bfc6c0e60f12902402ad578819c241f2755b6282be583437f2fb432"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1389795,
+  "response_id": "bd788067-e8f7-4014-a6ba-63d34cbb7acd",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1999,
+    "reasoning_content_chars": 4168
+  }
+}

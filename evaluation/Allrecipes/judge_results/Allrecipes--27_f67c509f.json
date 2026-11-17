@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--27",
+  "website": "Allrecipes",
+  "task": "Locate a chicken curry recipe on Allrecipes that has been reviewed more than 30 times and has a rating of at least 4 stars. Provide a summary of the recipe including ingredients, preparation time, and cooking instructions.",
+  "task_record": "Allrecipes--27/Allrecipes--27_20261113_085423",
+  "task_definition_sha256": "f14845985a7bf5bbd00f1a836b7aa924036f70e885d8e4068fb410df07bc79a2",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--27/Allrecipes--27_20261113_085423"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found a qualifying chicken curry recipe on Allrecipes: 'Indian Chicken Curry' (https://www.allrecipes.com/recipe/46822/indian-chicken-curry-ii/) with a 4.5-star rating (>=4) and 1,216 reviews (>30). Summary: Preparation Time 20 mins (Cook Time 25 mins). Ingredients: 3 tablespoons olive oil; 1 small onion, chopped; 2 cloves garlic, minced; 3 tablespoons curry powder; 1 teaspoon ground cinnamon; 1 teaspoon paprika; 1 bay leaf; 1/2 teaspoon grated fresh ginger root; 1/2 teaspoon white sugar; salt to taste; 2 skinless, boneless chicken breast halves cut into bite-size pieces; 1 tablespoon tomato paste; 1 cup plain yogurt; 3/4 cup coconut milk; 1/2 lemon, juiced; 1/2 teaspoon cayenne pepper. Cooking instructions: 1) Heat olive oil in a skillet over medium heat and saute onion until lightly browned. 2) Stir in garlic, curry powder, cinnamon, paprika, bay leaf, ginger, sugar, and salt for 2 minutes. 3) Add chicken, tomato paste, yogurt, and coconut milk; bring to a boil, reduce heat, and simmer 20-25 minutes. 4) Remove bay leaf, stir in lemon juice and cayenne pepper, and simmer 5 more minutes. 5) Serve hot.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_2_recipe_page_rating_reviews.png",
+      "sha256": "1247516a777755f3077fdd7e5a9ab4fd005480d096de1ad25c7fd2e133a4ce84"
+    },
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_3_ingredients.png",
+      "sha256": "c428ea64e0976aa147bdc3b17afe1c321215149fea5fe262d86c792c93340bff"
+    },
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_4_prep_time.png",
+      "sha256": "651a45ccc89f14caa9e373645d360afeac01ffc5908795e517acf4d22f12e8ca"
+    },
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_5_directions.png",
+      "sha256": "ef02885ae9ee391d0f1ab99ac26a761accde497d02af1fc12134454a818f45c8"
+    },
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_6_final_state.png",
+      "sha256": "ef02885ae9ee391d0f1ab99ac26a761accde497d02af1fc12134454a818f45c8"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "bc3218c7f69222c055ceb9103ffde3eeb53a71cc487f1a96a7d44017ec337937",
+  "fingerprint": "1702c3104bff8f1c77120e0b8b1b30d7ef049d7154d66a514ac3974ad1236cc2",
+  "evaluated_at": "2026-11-16T10:14:50.604334+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements Check:\n\n**1. Locate a chicken curry recipe on Allrecipes:**\n- ✅ The screenshots show the \"Indian Chicken Curry\" recipe page on Allrecipes (visible breadcrumb: RECIPES > MAIN DISHES > CURRIES > CHICKEN)\n\n**2. Reviewed more than 30 times:**\n- ✅ The screenshot clearly shows \"1,216 Reviews\" which far exceeds the 30-review threshold\n\n**3. Rating of at least 4 stars:**\n- ✅ The screenshot shows a 4.5-star rating (1,571 ratings), which meets the ≥4 stars requirement\n\n**4. Summary including ingredients, preparation time, and cooking instructions:**\n\n- **Preparation Time:** ✅ Screenshot shows \"Prep Time: 20 mins\" and \"Cook Time: 25 mins\" — the response accurately reports these values\n- **Ingredients:** ✅ The response lists all 16 ingredients that match exactly what's visible in the screenshots (3 tablespoons olive oil, 1 small onion chopped, 2 cloves garlic minced, 3 tablespoons curry powder, 1 teaspoon ground cinnamon, 1 teaspoon paprika, 1 bay leaf, ½ teaspoon grated fresh ginger root, ½ teaspoon white sugar, salt to taste, 2 skinless boneless chicken breast halves, 1 tablespoon tomato paste, 1 cup plain yogurt, ¾ cup coconut milk, ½ lemon juiced, ½ teaspoon cayenne pepper)\n- **Cooking Instructions:** ✅ Steps 1 and 2 in the response match the visible Directions in the screenshots (Step 1: heat olive oil and sauté onion until lightly browned; Step 2: stir in garlic, curry powder, cinnamon, paprika, bay leaf, ginger, sugar, and salt for 2 minutes). Steps 3-5 are not visible in the screenshots, but per evaluation guidelines, content in the response not shown in screenshots can be believed.\n\n## Conclusion:\nAll task requirements have been satisfied — a qualifying chicken curry recipe was located with the correct rating (4.5 stars) and review count (1,216 > 30), and a complete summary was provided covering ingredients, preparation time, and cooking instructions.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8382,
+    "completion_tokens": 1183,
+    "total_tokens": 9565,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 715
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:14:51.052038+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_2_recipe_page_rating_reviews.png",
+      "source_sha256": "1247516a777755f3077fdd7e5a9ab4fd005480d096de1ad25c7fd2e133a4ce84",
+      "source_bytes": 558374,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 186181,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ddb59ecfbe35dae22d9c10b706cb6ea32db44dcb5b37c67529a0939c2244fb56"
+    },
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_3_ingredients.png",
+      "source_sha256": "c428ea64e0976aa147bdc3b17afe1c321215149fea5fe262d86c792c93340bff",
+      "source_bytes": 123070,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 134876,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6d8b2b07412dec7f9f69b689816c14895b15b93f07481b6ca5ccd225379b053d"
+    },
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_4_prep_time.png",
+      "source_sha256": "651a45ccc89f14caa9e373645d360afeac01ffc5908795e517acf4d22f12e8ca",
+      "source_bytes": 565437,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 186754,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "110787c623a1a7da91671e82c594adefbd2eeccaff143b08724f5631bf9dc666"
+    },
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_5_directions.png",
+      "source_sha256": "ef02885ae9ee391d0f1ab99ac26a761accde497d02af1fc12134454a818f45c8",
+      "source_bytes": 602717,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 156806,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "23a58c015d93e2febf74cd5a8f441df99f8ea385b1be4a5b63b3d12e417c26c6"
+    },
+    {
+      "path": "Allrecipes--27/Allrecipes--27_20261113_085423/final_runs/run_002/screenshots/final_execution_6_final_state.png",
+      "source_sha256": "ef02885ae9ee391d0f1ab99ac26a761accde497d02af1fc12134454a818f45c8",
+      "source_bytes": 602717,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 156806,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "23a58c015d93e2febf74cd5a8f441df99f8ea385b1be4a5b63b3d12e417c26c6"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1099455,
+  "response_id": "d6acfbe6-b386-48bf-9c5c-2fddb428c313",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1946,
+    "reasoning_content_chars": 2697
+  }
+}

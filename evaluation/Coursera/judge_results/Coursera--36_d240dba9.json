@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--36",
+  "website": "Coursera",
+  "task": "Browse Coursera, which universities offer Master of Computer Science degrees? Tell me what is the latest application deadline for this degree?",
+  "task_record": "Coursera--36/Coursera--36_20261115_081942",
+  "task_definition_sha256": "d164d480d0eec3645d1f048e6798b2a353c13f004dd7d387d3ede76c5f87b5f4",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--36/Coursera--36_20261115_081942"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The University of Illinois Urbana-Champaign offers the Master of Computer Science degree on Coursera. The latest application deadline is February 15, 2027 (Summer 2027 cohort).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_2_masters_checked.png",
+      "sha256": "6b06065b528ecd68fb5dd5dd4084d980b19165354a850bb0dd20f2de06b3322c"
+    },
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_3_masters_results.png",
+      "sha256": "21761f8131dd5dd06cd1436610a1cd0aa6c7e9a47436edafbcf19bc9d350cccd"
+    },
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_4_cs_checked.png",
+      "sha256": "24670d7a3492a5e62d0daa18770487a51e828ff936f49cb53ba97e1e49fe5e8a"
+    },
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_5_filtered_results.png",
+      "sha256": "a1e7d5c7a53f887c348ea1d0440e3c02fa71b6309fb029cd95681a76bf0a9523"
+    },
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_6_uiuc_deadline.png",
+      "sha256": "48a7c708fec2a59dce5c8448377b7abdc0bd23c0655a0f1712df824b3f008f01"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "3f1de357422fc3c2c977b1042e94adcb2108a4cdd6304d84d432ba85437dc116",
+  "fingerprint": "32314f8385fa7c5286a305faf5ca6ed88b38c19830f0652d1831885d976bcab7",
+  "evaluated_at": "2026-11-16T10:11:38.986331+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task has two components:\n1. Browse Coursera and identify which university/universities offer the **Master of Computer Science** degree\n2. Report the **latest application deadline** for this degree\n\n## Screenshot Evidence Review\n\n**Screenshots 1–2:** The agent navigated to Coursera's Degrees page and applied the \"Master's Degree\" filter under Degree Level. Various master's programs are visible (Ball State MS Data Science, UC Berkeley, CU Boulder, etc.).\n\n**Screenshots 3–4:** The agent additionally applied the \"Computer Science\" filter under Area of Study. The filtered results show:\n- University of London – Master of Science in Cyber Security (due March 17, 2027)\n- Dartmouth College – Master of Engineering in Computer Engineering (due December 15, 2026)\n- **University of Illinois Urbana-Champaign – Master of Computer Science (Application due February 15, 2027)**\n- Illinois Tech – Master of Information Technology (due February 8, 2027)\n\nOnly the University of Illinois Urbana-Champaign offers a degree explicitly titled **\"Master of Computer Science\"** — the others are in adjacent disciplines (Cyber Security, Computer Engineering, Information Technology).\n\n**Screenshot 5:** The agent clicked into the University of Illinois Master of Computer Science program page, which explicitly states: *\"Applications for the Summer 2027 cohort are open! Application deadline: February 15, 2027.\"* The page confirms the degree is offered by the University of Illinois Urbana-Champaign, 100% online, 12–36 months.\n\n## Response Consistency Check\nThe response states:\n- ✅ University of Illinois Urbana-Champaign offers the Master of Computer Science on Coursera — **confirmed by screenshots 3, 4, and 5**\n- ✅ Latest application deadline is February 15, 2027 (Summer 2027 cohort) — **confirmed by screenshot 5** (\"Application deadline: February 15, 2027\" for the Summer 2027 cohort, which is the latest/open cohort shown)\n\nBoth parts of the task were completed: the university was identified through proper filtering (Master's Degree + Computer Science), the specific program page was visited, and the application deadline was accurately extracted. The response is fully consistent with the screenshot evidence, with no contradictions.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8096,
+    "completion_tokens": 4751,
+    "total_tokens": 12847,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4249
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:11:39.537246+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_2_masters_checked.png",
+      "source_sha256": "6b06065b528ecd68fb5dd5dd4084d980b19165354a850bb0dd20f2de06b3322c",
+      "source_bytes": 352481,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 228320,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "bee01b242e46a6a1283dedd6808f789a8f97ddd9221d3507d060503278b168c2"
+    },
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_3_masters_results.png",
+      "source_sha256": "21761f8131dd5dd06cd1436610a1cd0aa6c7e9a47436edafbcf19bc9d350cccd",
+      "source_bytes": 352032,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 224164,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c50ec2cc0a20147abc49bd9a5c39a6ede5923323543be176d4ac9e5335cbcb34"
+    },
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_4_cs_checked.png",
+      "source_sha256": "24670d7a3492a5e62d0daa18770487a51e828ff936f49cb53ba97e1e49fe5e8a",
+      "source_bytes": 343265,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 216892,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ac74fd20271bc0ef131f4c23ef4ff964d9f5541eda4a090e44650a4af73d031d"
+    },
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_5_filtered_results.png",
+      "source_sha256": "a1e7d5c7a53f887c348ea1d0440e3c02fa71b6309fb029cd95681a76bf0a9523",
+      "source_bytes": 346702,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 219793,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1bf06a7039edea4a68f0a7b776295cdca23ae5eaade9609c029bba29b98a7427"
+    },
+    {
+      "path": "Coursera--36/Coursera--36_20261115_081942/final_runs/run_001/screenshots/final_execution_6_uiuc_deadline.png",
+      "source_sha256": "48a7c708fec2a59dce5c8448377b7abdc0bd23c0655a0f1712df824b3f008f01",
+      "source_bytes": 836886,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 332177,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "01ece3f0cad248aeae34703d6b8e004c1f3a340360d753ae31078bd039cf29c1"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1631665,
+  "response_id": "94c2f0b6-1f25-4596-999a-22a425ceacd8",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2304,
+    "reasoning_content_chars": 20095
+  }
+}

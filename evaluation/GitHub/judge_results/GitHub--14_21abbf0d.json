@@ -1,0 +1,181 @@
+{
+  "task_id": "GitHub--14",
+  "website": "GitHub",
+  "task": "Locate the repository for the open-source project \"vscode\" and identify the top three contributors.",
+  "task_record": "GitHub--14/GitHub--14_20261114_140318",
+  "task_definition_sha256": "ac6171b955620df83447bf8adc27c1db1e1609a3fe484d0e470627577c04e62d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--14/GitHub--14_20261114_140318"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The vscode repository is microsoft/vscode (https://github.com/microsoft/vscode). Top three contributors (all-time, by commits, per GitHub's Contributors graph): 1. bpasero (15,030 commits), 2. jrieken (12,862 commits), 3. Tyriar (12,716 commits).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--14/GitHub--14_20261114_140318/final_runs/run_002/screenshots/final_execution_1_search_vscode_results.png",
+      "sha256": "a72508b7b2e8926653ca074575b980b5039c6fdcaaaa683bbfb2404990756405"
+    },
+    {
+      "path": "GitHub--14/GitHub--14_20261114_140318/final_runs/run_002/screenshots/final_execution_2_microsoft_vscode_repo.png",
+      "sha256": "838f31ede88d8916ef4d340eeb55e0f09a00e3b980ffe29b204c64146e09619c"
+    },
+    {
+      "path": "GitHub--14/GitHub--14_20261114_140318/final_runs/run_002/screenshots/final_execution_3_contributors_view.png",
+      "sha256": "8aef587fef9c3c70402f0750a28569b7afa4598713c0bf52f2b134aadd828386"
+    },
+    {
+      "path": "GitHub--14/GitHub--14_20261114_140318/final_runs/run_002/screenshots/final_execution_4_top_three_contributors.png",
+      "sha256": "3581507800c07baa11fc134b4fb9505584e7c0051c7c19988d5450b657b15025"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "c06ec1baac511bf76530e2c21f5d82ccb36b2a127676c5fba727c5569d92db25",
+  "fingerprint": "09bea10aedcdf3db6b86cecd2802e5e9308f1ff736adcf4c054840a0f20f4162",
+  "evaluated_at": "2026-11-16T10:06:10.424194+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Locate the repository for the open-source project \"vscode\"\n2. Identify the top three contributors\n\n**Screenshot Evidence:**\n\n1. **Screenshot 1 (Search):** A GitHub search for \"vscode\" was performed, showing 237k results with **microsoft/vscode** as the top (best match) result — \"Visual Studio Code\" with 195k stars. This confirms the repository was successfully located.\n\n2. **Screenshot 2 (Repository page):** The microsoft/vscode repository main page is displayed, confirming navigation to the correct repository (Visual Studio Code, 195.4k stars, 43.8k forks, 171,795 commits).\n\n3. **Screenshot 3 (Contributors - Last 3 months):** The Insights → Contributors page was accessed, initially showing the \"Last 3 months\" period (Copilot #1, meganrogge #2, etc.). This shows the agent explored the contributors view.\n\n4. **Screenshot 4 (Contributors - Period: All):** The period was changed to **\"All\"**, showing the all-time top contributors:\n   - **#1 bpasero — 15,030 commits** ✓ (matches response)\n   - **#2 jrieken — 12,862 commits** ✓ (matches response)\n   - **#3 Tyriar** ✓ (ranking visible; commit count partially cut off at bottom of screenshot, but response states 12,716 commits)\n\n**Cross-checking Response vs. Screenshots:**\n- Repository identification (microsoft/vscode) matches the search result and repo page. ✓\n- Top three contributors (bpasero, jrieken, Tyriar) match the \"Period: All\" contributors ranking shown in Screenshot 4. ✓\n- Commit counts for bpasero (15,030) and jrieken (12,862) are directly verifiable in the screenshot. Tyriar's exact count (12,716) is not fully visible but the #3 ranking is, and per the guidelines, content in the response not fully shown in the screenshot can be trusted.\n\nBoth parts of the task — locating the repository and identifying the top three contributors — were completed accurately and consistently with the visual evidence.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6604,
+    "completion_tokens": 1187,
+    "total_tokens": 7791,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 694
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:06:10.572110+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "GitHub--14/GitHub--14_20261114_140318/final_runs/run_002/screenshots/final_execution_1_search_vscode_results.png",
+      "source_sha256": "a72508b7b2e8926653ca074575b980b5039c6fdcaaaa683bbfb2404990756405",
+      "source_bytes": 135861,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 181360,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3df996c61d1fa57d8fcb335d65ed2f4bdf3632eee5d87446e72199699578d41c"
+    },
+    {
+      "path": "GitHub--14/GitHub--14_20261114_140318/final_runs/run_002/screenshots/final_execution_2_microsoft_vscode_repo.png",
+      "source_sha256": "838f31ede88d8916ef4d340eeb55e0f09a00e3b980ffe29b204c64146e09619c",
+      "source_bytes": 140899,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 218432,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "46d9af5b04233c567df358883e7c9eb531ee0121036dec8c3be7004ed9846b3d"
+    },
+    {
+      "path": "GitHub--14/GitHub--14_20261114_140318/final_runs/run_002/screenshots/final_execution_3_contributors_view.png",
+      "source_sha256": "8aef587fef9c3c70402f0750a28569b7afa4598713c0bf52f2b134aadd828386",
+      "source_bytes": 87678,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 160385,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "eb57237f1a7360ce4c94d8aa49cc66ff35277a1c1264952c25fdc0da9bfe4672"
+    },
+    {
+      "path": "GitHub--14/GitHub--14_20261114_140318/final_runs/run_002/screenshots/final_execution_4_top_three_contributors.png",
+      "source_sha256": "3581507800c07baa11fc134b4fb9505584e7c0051c7c19988d5450b657b15025",
+      "source_bytes": 90872,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        900
+      ],
+      "transmitted_bytes": 187721,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6cefe1b9e773cf7e8f609e7b8dba5f3952cd2692b901f13d55d282f8474b10a5"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1000354,
+  "response_id": "3c203cd9-56ac-4d26-a7ca-45a6f60688c7",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1958,
+    "reasoning_content_chars": 2724
+  }
+}

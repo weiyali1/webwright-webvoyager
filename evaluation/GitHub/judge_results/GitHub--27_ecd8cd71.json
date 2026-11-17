@@ -1,0 +1,151 @@
+{
+  "task_id": "GitHub--27",
+  "website": "GitHub",
+  "task": "Find a Ruby repository on GitHub that has been updated in the past 3 days and has at least 1000 stars.",
+  "task_record": "GitHub--27/GitHub--27_20261115_105520",
+  "task_definition_sha256": "0ef0b6d6b0377748a93cdf9815bfaac0830cb162a4e81ecc3b21b16007be9f11",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--27/GitHub--27_20261115_105520"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: rails/rails (https://github.com/rails/rails) - a Ruby repository with 59,107 stars (>=1000), updated Nov 14, 2026 (3 hours ago), within the past 3 days. Found via GitHub advanced search with dedicated filters: Language=Ruby, Stars>=1000, Last pushed >2026-11-12, yielding 134 repository results.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--27/GitHub--27_20261115_105520/final_runs/run_001/screenshots/final_execution_1_filters_filled.png",
+      "sha256": "286bef76847a887c7cb5d089f8aa7c9748728d25f58e1fdee8f59f41fd1af4b4"
+    },
+    {
+      "path": "GitHub--27/GitHub--27_20261115_105520/final_runs/run_001/screenshots/final_execution_2_results.png",
+      "sha256": "d71583c50158fabc6652d9008b82ac0e87c28414f70eb90786d575f36352d9a8"
+    },
+    {
+      "path": "GitHub--27/GitHub--27_20261115_105520/final_runs/run_001/screenshots/final_execution_3_repo_page.png",
+      "sha256": "24d34122bb84f3373dab7a4f3933560a53cffa22672ab88409d65ea7868c8d9f"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "9ec81dc43d90aa0683ea430662bb77d540fdbecc08cd16b2f3ea046de7746b3d",
+  "fingerprint": "d98091258a9be6d29f7a80a4ceaacfa180bf0179cad2ddd31683825ae89e1290",
+  "evaluated_at": "2026-11-16T10:20:19.082469+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a Ruby repository on GitHub\n2. Updated in the past 3 days\n3. Has at least 1000 stars\n\n**Evidence from Screenshots:**\n\n1. **Screenshot 1 (Advanced Search):** Shows the GitHub Advanced search page with the query `stars:>=1000 pushed:>2026-11-12 language:Ruby`. The form fields confirm: \"Written in this language\" = Ruby, \"With this many stars\" = >= 1000, and \"Pushed to\" = >2026-11-12. This demonstrates the correct filters were applied to match the task criteria.\n\n2. **Screenshot 2 (Search Results):** Shows 134 repository results matching the filters. The top result is **rails/rails** — labeled as **Ruby**, with **59.1k stars** and **\"Updated 3 hours ago\"**. Other results (mastodon/mastodon, Homebrew/brew, discourse/discourse, etc.) also confirm the filters worked correctly, all showing Ruby language, high star counts, and recent updates.\n\n3. **Screenshot 3 (Repository Page):** Shows the rails/rails repository page confirming:\n   - **59.1k stars** (far exceeds the 1000-star minimum)\n   - **Latest commit: 3 hours ago** (well within the past 3 days)\n   - **Languages: Ruby 97.5%** (confirming it is a Ruby repository)\n   - MIT license, 23.1k forks, \"Ruby on Rails\" description\n\n**Cross-check with Result Response:**\nThe response states rails/rails has 59,107 stars (>=1000) and was updated 3 hours ago (within past 3 days). This aligns perfectly with the screenshots — the repository page shows 59.1k stars and a commit 3 hours ago, and the language breakdown confirms Ruby at 97.5%.\n\nAll three task conditions are satisfied and verified by visual evidence: Ruby language ✓, updated within 3 days ✓, at least 1000 stars ✓.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 6343,
+    "completion_tokens": 1049,
+    "total_tokens": 7392,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 602
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:20:19.373378+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 3,
+  "image_transports": [
+    {
+      "path": "GitHub--27/GitHub--27_20261115_105520/final_runs/run_001/screenshots/final_execution_1_filters_filled.png",
+      "source_sha256": "286bef76847a887c7cb5d089f8aa7c9748728d25f58e1fdee8f59f41fd1af4b4",
+      "source_bytes": 88425,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 151881,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3814ee16381c4f1125401d9cce612152ae72a014f2c5a54ac549c54e37038abf"
+    },
+    {
+      "path": "GitHub--27/GitHub--27_20261115_105520/final_runs/run_001/screenshots/final_execution_2_results.png",
+      "source_sha256": "d71583c50158fabc6652d9008b82ac0e87c28414f70eb90786d575f36352d9a8",
+      "source_bytes": 177366,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 213854,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "34e46eaaa2cebf63afdb53a9060b3d2aa20373c2fafe187100d4dcfa24720e16"
+    },
+    {
+      "path": "GitHub--27/GitHub--27_20261115_105520/final_runs/run_001/screenshots/final_execution_3_repo_page.png",
+      "source_sha256": "24d34122bb84f3373dab7a4f3933560a53cffa22672ab88409d65ea7868c8d9f",
+      "source_bytes": 251137,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 291624,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0bc685f5de41f9880881815492af16ba469ad277886d6a41d25fa00efd40b53a"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 3,
+  "request_json_bytes": 879624,
+  "response_id": "6b2cc1c1-987f-40d1-828d-189e2e714d04",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1711,
+    "reasoning_content_chars": 2185
+  }
+}

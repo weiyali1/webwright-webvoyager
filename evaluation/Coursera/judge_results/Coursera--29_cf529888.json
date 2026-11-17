@@ -1,0 +1,181 @@
+{
+  "task_id": "Coursera--29",
+  "website": "Coursera",
+  "task": "Browse the Coursera website and find the price required for one year of Coursera Plus. How much is the discount? Then list 3 companies that work with Coursera.",
+  "task_record": "Coursera--29/Coursera--29_20261114_152044",
+  "task_definition_sha256": "10280c9e9f53cf4e827828965f0bf150db59e76eaa6efe4f5c2c073ae202111d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--29/Coursera--29_20261114_152044"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The price required for one year of Coursera Plus is $399 per year (regular annual price; with the current promotion it is $239.40/year). The discount is 40% off. Three companies that work with Coursera are: Google, IBM, and Microsoft.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--29/Coursera--29_20261114_152044/final_runs/run_001/screenshots/final_execution_1_courseraplus_page.png",
+      "sha256": "59e3d0a9b83f05f950526f20393ea55a3476fef675559fd977995d287219de23"
+    },
+    {
+      "path": "Coursera--29/Coursera--29_20261114_152044/final_runs/run_001/screenshots/final_execution_2_annual_price_discount.png",
+      "sha256": "a6f8d0ea226c7e9828f3f9b640e04a000ccb3dbcc261588139dc7c81bb19bc7a"
+    },
+    {
+      "path": "Coursera--29/Coursera--29_20261114_152044/final_runs/run_001/screenshots/final_execution_3_partner_companies.png",
+      "sha256": "36ec860ae8b622802cab209d44ada82031884c9323a9dfb21aca62707a6b5069"
+    },
+    {
+      "path": "Coursera--29/Coursera--29_20261114_152044/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+      "sha256": "a6f8d0ea226c7e9828f3f9b640e04a000ccb3dbcc261588139dc7c81bb19bc7a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "2024d50794c4586fd112ba35bfa7adc44110f6970eb15e9d11aa82b637e5b31c",
+  "fingerprint": "bc6b408ffb7cc7ab6669b36115fbe0a43c5416889dbcc0cb16f1693d739d2a78",
+  "evaluated_at": "2026-11-16T10:08:39.117485+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Find the price for one year of Coursera Plus\n2. Determine the discount amount\n3. List 3 companies that work with Coursera\n\n## Verification Against Screenshots:\n\n**1. Coursera Plus Annual Price:**\n- Screenshot 1 & 3 clearly show: \"Coursera Plus Annual now ~~$399~~ $239.40 (less than $20 per month, billed annually)\" with a prominent red banner displaying ~~$399~~ **$239.40/year**\n- Screenshot 2 & 4 confirm this in the pricing section: Coursera Plus \"Billed Annually\" shows ~~$399~~ **$239.40/year**\n- The response correctly states the regular annual price is $399 and the promotional price is $239.40/year ✓\n\n**2. Discount:**\n- Screenshot 1 & 3 headline: \"Unwrap a full year of skills at **40% off**\"\n- Screenshot 2 & 4 show a \"**Save 40%**\" badge next to the Billed Annually option\n- The response correctly identifies the discount as 40% off ✓\n\n**3. Companies Working with Coursera:**\n- Screenshot 1 & 3 show the section \"Learn from 350+ leading universities and companies\" with logos including: **Google, Duke University, IBM, Vanderbilt University, Microsoft, University of Michigan, Meta, Stanford**\n- The response lists Google, IBM, and Microsoft — all three are clearly visible as partner companies in the screenshots ✓\n\n## Conclusion:\nAll three components of the task were completed successfully. The pricing information ($399 regular / $239.40 promotional), the discount (40% off), and the three partner companies (Google, IBM, Microsoft) are all accurately reported and verified by the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8449,
+    "completion_tokens": 836,
+    "total_tokens": 9285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 435
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:39.300905+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Coursera--29/Coursera--29_20261114_152044/final_runs/run_001/screenshots/final_execution_1_courseraplus_page.png",
+      "source_sha256": "59e3d0a9b83f05f950526f20393ea55a3476fef675559fd977995d287219de23",
+      "source_bytes": 264958,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 261207,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7c262c79f1c4c32423a569933e69bf2c209ac96474e73bffc2062e97b0377774"
+    },
+    {
+      "path": "Coursera--29/Coursera--29_20261114_152044/final_runs/run_001/screenshots/final_execution_2_annual_price_discount.png",
+      "source_sha256": "a6f8d0ea226c7e9828f3f9b640e04a000ccb3dbcc261588139dc7c81bb19bc7a",
+      "source_bytes": 161338,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 255950,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "55d094cb31774857e193ff1067cb969b06b40919a8a0b6cb864cd8d4eef8fed3"
+    },
+    {
+      "path": "Coursera--29/Coursera--29_20261114_152044/final_runs/run_001/screenshots/final_execution_3_partner_companies.png",
+      "source_sha256": "36ec860ae8b622802cab209d44ada82031884c9323a9dfb21aca62707a6b5069",
+      "source_bytes": 259757,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 261907,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "ae92964ee150f2ebb68b99169d9a29c8fd8f507251f567c4cf129891650fccc3"
+    },
+    {
+      "path": "Coursera--29/Coursera--29_20261114_152044/final_runs/run_001/screenshots/final_execution_4_final_state.png",
+      "source_sha256": "a6f8d0ea226c7e9828f3f9b640e04a000ccb3dbcc261588139dc7c81bb19bc7a",
+      "source_bytes": 161338,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1200
+      ],
+      "transmitted_bytes": 255950,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "55d094cb31774857e193ff1067cb969b06b40919a8a0b6cb864cd8d4eef8fed3"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1383220,
+  "response_id": "0a1babef-2049-4c22-a176-0b4bc60ff56d",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1579,
+    "reasoning_content_chars": 1727
+  }
+}

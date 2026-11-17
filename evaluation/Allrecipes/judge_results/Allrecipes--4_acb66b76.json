@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--4",
+  "website": "Allrecipes",
+  "task": "Find a recipe for Baked Salmon that takes less than 30 minutes to prepare and has at least a 4 star rating based on user reviews.",
+  "task_record": "Allrecipes--4/Allrecipes--4_20261113_004409",
+  "task_definition_sha256": "caec1893ad046b603957040125fb961dee99757cbc54acde90a6e95f8a80d66c",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--4/Allrecipes--4_20261113_004409"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found Baked Salmon recipe: Baked Salmon Fillets Dijon | Rating: 4.6 stars (1,590 ratings) | Total Time: 25 mins (< 30 min) | URL: https://www.allrecipes.com/recipe/22538/baked-salmon-fillets-dijon/",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_2_no_filters.png",
+      "sha256": "4bbc557583f1ef025cc66a55821fbaeb47e5a47e6b723b1b78d78f9df780ba4d"
+    },
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_3_recipe_page.png",
+      "sha256": "cfc759eafb56a895958391d0ff30c8e9b919415fd7822e46e7ba4ed79740790d"
+    },
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_4_rating.png",
+      "sha256": "4553fdaf99969799296e21922a61c221ffd9469ca858a22ceca0694fb51ab099"
+    },
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_5_time.png",
+      "sha256": "4f2d91bc0c878a737da90242add5a0a0fa5c649557098e942b0459bdf5e4e994"
+    },
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_6_final_result.png",
+      "sha256": "51ac67b4ece84d5418079583ec9264a40c3a2f6ac6d21bd3a0e87b8ac9d15644"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "d6a46effd138e535691fc1209f1018446059d2ea78c0612a88e79d47fc53bf3a",
+  "fingerprint": "c54d6ea5cd0411a52d663ce0c62b6416c1739b2748c85fcb3b6ffeb803b8d288",
+  "evaluated_at": "2026-11-16T09:58:36.273759+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a recipe for Baked Salmon\n2. Takes less than 30 minutes to prepare\n3. Has at least a 4 star rating based on user reviews\n\n**Verification against screenshots:**\n\n1. **Baked Salmon recipe found:** ✓ The first screenshot shows search results on Allrecipes for \"Baked Salmon,\" and the agent selected \"Baked Salmon Fillets Dijon\" — a baked salmon recipe. The subsequent screenshots show the full recipe page for this dish.\n\n2. **Preparation time under 30 minutes:** ✓ The recipe page clearly displays:\n   - Prep Time: 10 mins\n   - Cook Time: 15 mins\n   - **Total Time: 25 mins** — which is less than 30 minutes ✓\n\n3. **At least 4 star rating based on user reviews:** ✓ The recipe page shows a rating of **4.6 stars** based on **1,590 ratings** (with 1,135 reviews), which exceeds the 4-star minimum requirement.\n\n**Consistency check:** The Result Response accurately matches the screenshot data — recipe name (Baked Salmon Fillets Dijon), rating (4.6 stars, 1,590 ratings), and total time (25 mins) all align with what is shown on the recipe page. The URL provided corresponds to the Allrecipes recipe page visited.\n\nAll three criteria of the task have been satisfied and verified through the visual evidence.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8128,
+    "completion_tokens": 657,
+    "total_tokens": 8785,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 344
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:58:36.774233+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_2_no_filters.png",
+      "source_sha256": "4bbc557583f1ef025cc66a55821fbaeb47e5a47e6b723b1b78d78f9df780ba4d",
+      "source_bytes": 1430873,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 290458,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a70664b03332ace4668f93bfff098261f8b2d8a8b42b93bd5309275c16701a95"
+    },
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_3_recipe_page.png",
+      "source_sha256": "cfc759eafb56a895958391d0ff30c8e9b919415fd7822e46e7ba4ed79740790d",
+      "source_bytes": 543961,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 171877,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a00ed8f3c1c663b4c9b56ee9cf7d7fd66699caa333a3e25f887f8728264f1aed"
+    },
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_4_rating.png",
+      "source_sha256": "4553fdaf99969799296e21922a61c221ffd9469ca858a22ceca0694fb51ab099",
+      "source_bytes": 550789,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 179275,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b21a79cf92946f3a588a15ca556a371b93bb1d67a6a4e03d7564865f3b5e9d8e"
+    },
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_5_time.png",
+      "source_sha256": "4f2d91bc0c878a737da90242add5a0a0fa5c649557098e942b0459bdf5e4e994",
+      "source_bytes": 563804,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 179750,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "00120975a039ba1798b1307f26ec54cf88b08c272ec62d519ef6772725b9915f"
+    },
+    {
+      "path": "Allrecipes--4/Allrecipes--4_20261113_004409/final_runs/run_001/screenshots/final_execution_6_final_result.png",
+      "source_sha256": "51ac67b4ece84d5418079583ec9264a40c3a2f6ac6d21bd3a0e87b8ac9d15644",
+      "source_bytes": 566049,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 182037,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "25b578383fcc59a9bc2f0f848ebb7c3318dc213c5063fcf363efacf63a7265c0"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1341073,
+  "response_id": "e318079e-b925-4889-9230-4338c41562a2",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1284,
+    "reasoning_content_chars": 1209
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Wolfram Alpha--14",
+  "website": "Wolfram Alpha",
+  "task": "Compare the total Calories: whopper vs baconator vs big mac. Assume that each serving of food is 300g.",
+  "task_record": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302",
+  "task_definition_sha256": "edd8a9571118203e9edc294e75a75059291f7e1337b0065f1a98b526214077fc",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Total Calories per 300g serving (Wolfram|Alpha): Baconator = 902 Cal, Big Mac = 730 Cal, Whopper = 657 Cal. Highest to lowest: Baconator (902 Cal) > Big Mac (730 Cal) > Whopper (657 Cal).",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_1_query_entered.png",
+      "sha256": "a2a8a133ea270b1ebb8aef1deb01d1e65bf41867a8d99f496fae74c16d8f9964"
+    },
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_2_results_loaded.png",
+      "sha256": "a87d8c3ccbd8130ae141748f3556118236d6d79726e8cd26e5b283cb7c7da6a8"
+    },
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_3_calories_comparison.png",
+      "sha256": "ac3ea27acd880dd274f9f880319efef3fbb0acc2b483a1b4f9b14024ea033e61"
+    },
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_4_nutrition_details.png",
+      "sha256": "ac3ea27acd880dd274f9f880319efef3fbb0acc2b483a1b4f9b14024ea033e61"
+    },
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_5_full_results.png",
+      "sha256": "66c7a21262a92bff324bd6b5600d96f3d30916a589bcd059f4121f566eac3852"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "fb12e8e4f733579f8350af4bf52f7cfd85a5d57d17d070a7f925c592d96c0c79",
+  "fingerprint": "cbeba80f353945d74c6742ca0ee99876cb4cd6d185bce1c623ec2239e2d08e60",
+  "evaluated_at": "2026-11-16T10:03:19.352850+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task was to compare the total Calories of a Whopper vs Baconator vs Big Mac, assuming each serving is 300g.\n\n## Screenshot Evidence\n1. **Screenshot 1**: Shows the WolframAlpha homepage with the query \"calories in 300 grams of whopper, 300 grams of baconator, 300 grams of big mac\" entered in the search box — correctly incorporating the 300g assumption for each item.\n\n2. **Screenshots 2-4**: Show the results page with:\n   - Input interpreted as: Burger King Whopper (300 grams), Wendy's Old Fashioned Baconator Burger (300 grams), McDonald's Big Mac (300 grams) → total calories\n   - Results: **Burger King Whopper = 657 Cal**, **Wendy's Old Fashioned Baconator Burger = 902 Cal**, **McDonald's Big Mac = 730 Cal**\n   - Individual nutrition facts confirm: Whopper serving size 300 g, total calories 657; Baconator serving size 300 g, total calories 902\n\n3. **Screenshot 5**: Full page view additionally confirms McDonald's Big Mac total calories = 730, and shows a comparison table with total calories for all three burgers (657 Cal, 902 Cal, 730 Cal respectively).\n\n## Response Verification\nThe result response states:\n- Baconator = 902 Cal ✓ (matches screenshot)\n- Big Mac = 730 Cal ✓ (matches screenshot)\n- Whopper = 657 Cal ✓ (matches screenshot)\n- Ranking: Baconator (902) > Big Mac (730) > Whopper (657) ✓ (correctly ordered comparison)\n\n## Conclusion\nThe task required comparing total calories across three burgers at a normalized 300g serving size. The agent correctly queried WolframAlpha with the 300g assumption for all three items, obtained accurate values for each, and provided a clear comparison ranked from highest to lowest. All values in the response are consistent with the screenshots, and the comparison task was fully completed.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7477,
+    "completion_tokens": 1012,
+    "total_tokens": 8489,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 568
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:19.935029+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_1_query_entered.png",
+      "source_sha256": "a2a8a133ea270b1ebb8aef1deb01d1e65bf41867a8d99f496fae74c16d8f9964",
+      "source_bytes": 152369,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 143197,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "910d4059eec7e938d2b2ac86e4bb964b5430510ce29b5fa4b3d711bb596c8468"
+    },
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_2_results_loaded.png",
+      "source_sha256": "a87d8c3ccbd8130ae141748f3556118236d6d79726e8cd26e5b283cb7c7da6a8",
+      "source_bytes": 225184,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 145635,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8788a7f4cc91ea4d29c8347cf094899936b44eae27c71bafe5360695a69b2f2c"
+    },
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_3_calories_comparison.png",
+      "source_sha256": "ac3ea27acd880dd274f9f880319efef3fbb0acc2b483a1b4f9b14024ea033e61",
+      "source_bytes": 225910,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 143450,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "75b439033dfc4002b27eeeea4a6b1dcca3c37af3478c22bcfc6c20fa5593021e"
+    },
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_4_nutrition_details.png",
+      "source_sha256": "ac3ea27acd880dd274f9f880319efef3fbb0acc2b483a1b4f9b14024ea033e61",
+      "source_bytes": 225910,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 143450,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "75b439033dfc4002b27eeeea4a6b1dcca3c37af3478c22bcfc6c20fa5593021e"
+    },
+    {
+      "path": "Wolfram Alpha--14/Wolfram Alpha--14_20261114_045302/final_runs/run_002/screenshots/final_execution_5_full_results.png",
+      "source_sha256": "66c7a21262a92bff324bd6b5600d96f3d30916a589bcd059f4121f566eac3852",
+      "source_bytes": 352730,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        3168
+      ],
+      "transmitted_dimensions": [
+        517,
+        1280
+      ],
+      "transmitted_bytes": 83002,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1657ccacbb03454440b2974c0d0c7a15832d5c7358c68bb1915c443f17d3f90b"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 881484,
+  "response_id": "edc38dc6-c132-4f20-bda8-bb8c04eeea65",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1822,
+    "reasoning_content_chars": 2241
+  }
+}

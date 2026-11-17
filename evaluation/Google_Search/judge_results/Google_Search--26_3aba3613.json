@@ -1,0 +1,181 @@
+{
+  "task_id": "Google Search--26",
+  "website": "Google Search",
+  "task": "Identify the hardware requirements for using the latest version of Adobe Photoshop on a Mac.",
+  "task_record": "Google Search--26/Google Search--26_20261115_163405",
+  "task_definition_sha256": "715c2cdacc5eb854314f2ee96e86f2454e0bd4b8e5c097238a7a07769b3bf47e",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Search--26/Google Search--26_20261115_163405"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Hardware requirements for the latest Adobe Photoshop (version 28.x and later) on a Mac: Processor: Multicore Intel® or Apple Silicon processor. Operating system: macOS v14.0 minimum; macOS v15, 26, 27 recommended. RAM: 8 GB. CPU instruction support: Intel CPUs with AVX2 support; Intel platforms with SSE 4.2 or higher. Graphics card: Qualified hardware-accelerated OpenGL® graphics card; Video RAM: 1512 MB minimum / 2 GB recommended. Hard disk space: 10 GB of available hard disk space (additional free space required during installation; cannot install on a volume that uses a case-sensitive file system). Internet: Broadband internet connection required for software activation, membership validation, and access to online services.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Search--26/Google Search--26_20261115_163405/final_runs/run_001/screenshots/final_execution_1_google_search_results.png",
+      "sha256": "e90f2b0158bf06abb330ea4dda634c97cd19316012e3bdfe667f1def59b1ad2a"
+    },
+    {
+      "path": "Google Search--26/Google Search--26_20261115_163405/final_runs/run_001/screenshots/final_execution_2_adobe_helpx_page.png",
+      "sha256": "9479e8d4b601336dd4759dc74ae416bcbe129cb3d14e6942988c5b9cf39f2af6"
+    },
+    {
+      "path": "Google Search--26/Google Search--26_20261115_163405/final_runs/run_001/screenshots/final_execution_3_macos_tab_selected.png",
+      "sha256": "c700970e570002a480b6cfa975eb199ba338f6b2bdc5487552ee23ba920c6997"
+    },
+    {
+      "path": "Google Search--26/Google Search--26_20261115_163405/final_runs/run_001/screenshots/final_execution_4_macos_requirements_table.png",
+      "sha256": "471b19e7a6a1986db271f381d67f275e22e9bcf6ddb29f7be374b811db3c04cf"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "9e0f553b55be5bc8a7a87e227bd5881bb440f073a6f6ea3f9025032f48aad06c",
+  "fingerprint": "e8c1a4b86af980329b989369924b0685fb18334e8d763cdd44aff684f0f8db99",
+  "evaluated_at": "2026-11-16T10:10:34.951577+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task:** Identify the hardware requirements for using the latest version of Adobe Photoshop on a Mac.\n\n**Screenshot Review:**\n\n1. **Screenshot 1:** Shows a Google search for \"Adobe Photoshop system requirements Mac\" with an AI overview and a link to the official Adobe Help Center page \"Adobe Photoshop on desktop technical requirements.\"\n\n2. **Screenshot 2:** Shows the official Adobe Help Center page \"Adobe Photoshop on desktop technical requirements\" (last updated Nov 10, 2026), with a location-mismatch popup displayed.\n\n3. **Screenshots 3 & 4:** Show the official Adobe page with the **macOS tab selected** under \"Technical requirements for version 28.x and later\" (the latest version). The table clearly displays:\n   - Processor: Multicore Intel® or Apple Silicon processor\n   - Operating system: macOS v14.0 (minimum); macOS v15, 26, 27 (recommended)\n   - RAM: 8 GB\n   - AVX: Intel CPUs with AVX2 support\n   - SSE: Intel platforms with SSE 4.2 or higher support\n   - Graphics card: Qualified hardware-accelerated OpenGL® graphics card\n   - Video RAM: 1512 MB (minimum) / 2 GB (recommended)\n   - Hard disk space: 10 GB of available hard disk space (with case-sensitive file system caveat)\n   - Internet: Broadband connection required for activation, membership validation, and online services\n\n**Response Verification:**\n\nThe result response accurately reflects the screenshot content:\n- ✅ Correctly identifies the latest version as 28.x and later\n- ✅ Processor, OS, RAM, AVX/SSE support, graphics card, Video RAM, hard disk space, and internet requirements all match the official Adobe macOS requirements table exactly\n- Minor omission: monitor resolution (1024x768 @1x / 1080p @2x; recommended 1280x800) is not mentioned, but this is a display specification rather than a core hardware requirement, and all essential hardware components (CPU, RAM, GPU, storage) are covered\n\nThe user navigated to the authoritative Adobe source, selected the correct platform (macOS) and version (28.x, the latest), and the response faithfully summarizes the hardware requirements shown.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7241,
+    "completion_tokens": 1559,
+    "total_tokens": 8800,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1073
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:10:35.100146+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Google Search--26/Google Search--26_20261115_163405/final_runs/run_001/screenshots/final_execution_1_google_search_results.png",
+      "source_sha256": "e90f2b0158bf06abb330ea4dda634c97cd19316012e3bdfe667f1def59b1ad2a",
+      "source_bytes": 176832,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 205452,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "582b888ac269f3b79b5e2ed8e56e274bd9474c3714d57d8970f494dc861a994b"
+    },
+    {
+      "path": "Google Search--26/Google Search--26_20261115_163405/final_runs/run_001/screenshots/final_execution_2_adobe_helpx_page.png",
+      "source_sha256": "9479e8d4b601336dd4759dc74ae416bcbe129cb3d14e6942988c5b9cf39f2af6",
+      "source_bytes": 157037,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 159913,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "1b96b45df5a84703b7c7266d508684e307d036275e81cacd7f3261eab220546e"
+    },
+    {
+      "path": "Google Search--26/Google Search--26_20261115_163405/final_runs/run_001/screenshots/final_execution_3_macos_tab_selected.png",
+      "source_sha256": "c700970e570002a480b6cfa975eb199ba338f6b2bdc5487552ee23ba920c6997",
+      "source_bytes": 139759,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 209141,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "11f116b2cb72fe6aa526cccdfbbfb4451cf93d8a877d2428957af5f054c4fbab"
+    },
+    {
+      "path": "Google Search--26/Google Search--26_20261115_163405/final_runs/run_001/screenshots/final_execution_4_macos_requirements_table.png",
+      "source_sha256": "471b19e7a6a1986db271f381d67f275e22e9bcf6ddb29f7be374b811db3c04cf",
+      "source_bytes": 144046,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_dimensions": [
+        1280,
+        1000
+      ],
+      "transmitted_bytes": 225250,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "cc0cb2ae55eda2c741924bbe6dfadfd1848b733411faad5b6671ed4b2fa57cea"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1069981,
+  "response_id": "415e388c-e037-4a62-92cf-4561f85ded0b",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2130,
+    "reasoning_content_chars": 4634
+  }
+}

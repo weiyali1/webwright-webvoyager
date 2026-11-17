@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--3",
+  "website": "Coursera",
+  "task": "Identify a new course or Specialization on Coursera related to Python Data Science, sort the courses by newest, what the first course is and which institution offers it.",
+  "task_record": "Coursera--3/Coursera--3_20261114_054645",
+  "task_definition_sha256": "fd468be2020ef9c0064006eddc4d77cfca7bb91fc52d374f176c97e1f33a2c64",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--3/Coursera--3_20261114_054645"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "The first course after sorting by Newest is 'Create Powerful No-Code Apps with Google AppSheet' (course), offered by Packt.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_1_search_results.png",
+      "sha256": "814b03ca1a47ad53dd68910f68c9d424e1b0782ac7df5dba490902bcb54ee960"
+    },
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_2_filter_sort_open.png",
+      "sha256": "7407da2a508bf734944130cbdbc1077dcc98e22a12b8e92703359e30ad76c642"
+    },
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_2_newest_selected.png",
+      "sha256": "f89fd1da92dfed1766483336a37036042c9f7c0e3f793acf0a05ea71d807614e"
+    },
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_3_newest_applied.png",
+      "sha256": "3efbe7bb4279bb4950aefffd80019db97d47592d24a28d72471eb42396d862bb"
+    },
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_4_first_course.png",
+      "sha256": "3efbe7bb4279bb4950aefffd80019db97d47592d24a28d72471eb42396d862bb"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "c3d1a0015c4d365e0c80c72c2e08148b74e35f0f0bbd713faf7d0ff76278ec51",
+  "fingerprint": "d2b9bdb29f5a7529263621583d484e0a73ced14fae6b207ee68c948fd8056464",
+  "evaluated_at": "2026-11-16T09:58:12.824673+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for courses/Specializations related to Python Data Science on Coursera\n2. Sort the courses by newest\n3. Identify the first course and which institution offers it\n\n**Step-by-step verification against screenshots:**\n\n1. **Screenshot 1:** Shows the Coursera search results for \"Python Data Science\" (visible in the search bar), with results initially sorted by Best Match. This confirms the search for Python Data Science-related courses was performed. ✓\n\n2. **Screenshot 2:** Shows the \"Filter & Sort\" panel opened, with the \"Sort by\" section displaying \"Best Match\" currently selected. This shows the sorting process was initiated. ✓\n\n3. **Screenshot 3:** Shows the \"Newest\" radio button selected in the Sort by section, and the background results have already re-ordered, with \"Create Powerful No-Code Apps with Google AppSheet\" by Packt appearing first. ✓\n\n4. **Screenshots 4 & 5:** Show the final results page after applying the \"Newest\" sort. The first course listed is clearly **\"Create Powerful No-Code Apps with Google AppSheet\"** offered by **Packt** (Beginner · Course · 1-3 Months, marked with a \"New\" badge). ✓\n\n**Comparing with the Result Response:**\n- The response states the first course after sorting by Newest is \"Create Powerful No-Code Apps with Google AppSheet\" (course), offered by Packt.\n- This matches exactly what is shown in the screenshots — the first result card displays the Packt logo/institution name and the course title.\n- The course is also tagged as \"New,\" which aligns with the task of identifying a *new* course.\n\nAll components of the task were completed: the search was conducted, the results were sorted by Newest, and both the first course's title and its offering institution were correctly identified.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8093,
+    "completion_tokens": 1013,
+    "total_tokens": 9106,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 602
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:58:13.408867+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "814b03ca1a47ad53dd68910f68c9d424e1b0782ac7df5dba490902bcb54ee960",
+      "source_bytes": 875378,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 303940,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "274a720af2b6f403200274d07247fa9e1dccb66c9f44082e47937be1023fd026"
+    },
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_2_filter_sort_open.png",
+      "source_sha256": "7407da2a508bf734944130cbdbc1077dcc98e22a12b8e92703359e30ad76c642",
+      "source_bytes": 580860,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 195008,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "8854098987d4b0d75b479a799d11f1dfe6e385b4b97c8bb63a2eee7c05d9fcc5"
+    },
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_2_newest_selected.png",
+      "source_sha256": "f89fd1da92dfed1766483336a37036042c9f7c0e3f793acf0a05ea71d807614e",
+      "source_bytes": 586726,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 183538,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "dce0d1f7d9f044f7f24745532efbe9266603066be5e88eff7f85c21dd517a0a2"
+    },
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_3_newest_applied.png",
+      "source_sha256": "3efbe7bb4279bb4950aefffd80019db97d47592d24a28d72471eb42396d862bb",
+      "source_bytes": 906741,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 280208,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9d16728ee329c9f421aef395226fec4a8bd608d944b23e17a9497bb20a3e61e2"
+    },
+    {
+      "path": "Coursera--3/Coursera--3_20261114_054645/final_runs/run_002/screenshots/final_execution_4_first_course.png",
+      "source_sha256": "3efbe7bb4279bb4950aefffd80019db97d47592d24a28d72471eb42396d862bb",
+      "source_bytes": 906741,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 280208,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9d16728ee329c9f421aef395226fec4a8bd608d944b23e17a9497bb20a3e61e2"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1660379,
+  "response_id": "739aa423-bc62-4d3b-82f0-c80798ac0f09",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1823,
+    "reasoning_content_chars": 2716
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--22",
+  "website": "Allrecipes",
+  "task": "Find a recipe for a healthy avocado salad on Allrecipes that has a preparation time of less than 20 minutes and more than 30 user reviews. Include the nutritional information per serving.",
+  "task_record": "Allrecipes--22/Allrecipes--22_20261113_065838",
+  "task_definition_sha256": "ef8434cfb80e7d795f46c856e4805d339464247dc27dda3210df8f0ea50e1ff5",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--22/Allrecipes--22_20261113_065838"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Final Response: Recipe: Avocado Salad (https://www.allrecipes.com/recipe/19960/avocado-salad/). A healthy avocado salad with Prep Time 15 mins (< 20 minutes) and 251 user reviews (> 30; 343 ratings, 4.7 stars). Nutrition per serving: Calories 126, Total Fat 10g, Total Carbohydrate 10g, Protein 2g. Note: the Allrecipes search results page provides no time/'Ready In' filter control, so the <20-minute constraint was verified directly from the recipe page's Prep Time field.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+      "sha256": "c1b295dc5f7969499ccdc971941a5dbee23830fe78d9e58e69ee0b4527ada932"
+    },
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_2_no_time_filter.png",
+      "sha256": "ea2260e8f49437b02d369c9ab76f6613433054f240cd92fe170e62075931d850"
+    },
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_3_recipe_reviews.png",
+      "sha256": "d75e1a9f0512eb60ec5c53c09cb823797d23cf746b8080ca691b42797fee6f37"
+    },
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_4_prep_time.png",
+      "sha256": "ee3e2470187f35e77fa5a2ebb009645eb38118c27dba0fa53fa059a0042fc768"
+    },
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_5_nutrition_facts.png",
+      "sha256": "f4f2d9f7716d940ce93712246dc2600fcbded8a5db536c9db4008572d1a8b3f1"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "bca7273a16d5727d0c26645cbbf3efd7e53d08fb8f20ad0ce652a0bee1009843",
+  "fingerprint": "5750620b6796558d7a9ee568e801795f0641b6a557f22c8fa1fe1e8bfd2943a2",
+  "evaluated_at": "2026-11-16T10:12:17.262463+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Find a healthy avocado salad recipe on Allrecipes\n2. Preparation time less than 20 minutes\n3. More than 30 user reviews\n4. Include nutritional information per serving\n\n## Verification Against Screenshots:\n\n**Screenshot 1-2 (Search Results):** The search for \"avocado salad\" was performed on Allrecipes, showing multiple avocado salad options including \"Avocado Salad\" (343 ratings), \"Cucumber and Avocado Salad\" (296 ratings), and others.\n\n**Screenshots 3-4 (Recipe Page):** The \"Avocado Salad\" recipe page was opened, confirming:\n- ✅ **Recipe found:** \"Avocado Salad\" on Allrecipes (recipe/19960)\n- ✅ **Preparation time:** Prep Time: 15 mins — this is less than 20 minutes ✓\n- ✅ **User reviews:** 251 Reviews (with 343 ratings, 4.7 stars) — this exceeds the 30-review requirement ✓\n- The page also displays a \"Jump to Nutrition Facts\" link, indicating nutritional information is available on the page\n\n**Screenshot 5 (Ingredients):** Shows the recipe details including healthy fresh ingredients (avocados, onion, bell pepper, tomato, cilantro, lime, seasonings), consistent with a \"healthy avocado salad.\"\n\n## Nutritional Information:\nThe nutritional facts per serving are not visible in the provided screenshots (the screenshots show the \"Jump to Nutrition Facts\" link but not the nutrition panel itself). However, per the evaluation guidelines, when content in the Result Response is not shown on the screenshot, the response content should be believed. The response states: **Calories 126, Total Fat 10g, Total Carbohydrate 10g, Protein 2g per serving** — this is plausible given the nutrition facts section exists on the page.\n\n## Conclusion:\nAll task requirements have been satisfied:\n- Avocado salad recipe found on Allrecipes ✓\n- Prep time of 15 mins (< 20 minutes) ✓\n- 251 reviews (> 30) ✓\n- Nutritional information per serving provided in the response ✓\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9115,
+    "completion_tokens": 1200,
+    "total_tokens": 10315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 745
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:12:17.722826+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "c1b295dc5f7969499ccdc971941a5dbee23830fe78d9e58e69ee0b4527ada932",
+      "source_bytes": 1225912,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 323214,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "04ae2ef82867653c365f991ae5dd484d66e089700f1c524bdf2378d2754b9616"
+    },
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_2_no_time_filter.png",
+      "source_sha256": "ea2260e8f49437b02d369c9ab76f6613433054f240cd92fe170e62075931d850",
+      "source_bytes": 1322111,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 339330,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2f656cd389fd0f6036bb68ed38917d213d6b1e84a0627fa7b0a026655d7f6c55"
+    },
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_3_recipe_reviews.png",
+      "source_sha256": "d75e1a9f0512eb60ec5c53c09cb823797d23cf746b8080ca691b42797fee6f37",
+      "source_bytes": 701272,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 242483,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3fb6dbc34b2c43b40982046f37bd364fc6ad43e1041712cb4a108dd7b831b915"
+    },
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_4_prep_time.png",
+      "source_sha256": "ee3e2470187f35e77fa5a2ebb009645eb38118c27dba0fa53fa059a0042fc768",
+      "source_bytes": 336739,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 191387,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "cc8878eba0a1e6638ed6b6d7776a2e9e836fe4247f2b0225002e7171251f6dcf"
+    },
+    {
+      "path": "Allrecipes--22/Allrecipes--22_20261113_065838/final_runs/run_003/screenshots/final_execution_5_nutrition_facts.png",
+      "source_sha256": "f4f2d9f7716d940ce93712246dc2600fcbded8a5db536c9db4008572d1a8b3f1",
+      "source_bytes": 374882,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 202248,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "cd1e290c693adba469db7f7d43a8cb9108d77c18b3eb8be93b3cbc898ea3f8c4"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1735088,
+  "response_id": "ab9650f3-ea1e-4b41-ab69-a5bc19829eb3",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1933,
+    "reasoning_content_chars": 3032
+  }
+}

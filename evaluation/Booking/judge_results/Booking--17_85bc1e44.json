@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--17",
+  "website": "Booking",
+  "task": "Find a hotel in Paris with a fitness center and a rating of 8 or higher available for a 5-night stay starting from February 14, 2027, and sort the results by best reviewed.",
+  "task_record": "Booking--17/Booking--17_20261113_045944",
+  "task_definition_sha256": "721a5394bd3d711265e00d31c247b6ef5d78b27dbdf8cc7186b533a0a2ed27d8",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--17/Booking--17_20261113_045944"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Best-reviewed hotel in Paris with a fitness center and rating 8+ for a 5-night stay Feb 14-19, 2027: Hôtel des Arts Montmartre (review score 9.6, Exceptional). Search used destination Paris, dates Sun Feb 14 - Fri Feb 19 2027, filters: Property Type = Hotels, Facilities = Fitness center, Review score = Very Good: 8+, sorted by 'Best reviewed & lowest price'; 226 matching properties displayed.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp4_filter_hotels.png",
+      "sha256": "3d8245e001f740ffa972ea76aa520eeaa63ea1d2223e723f549b204090b35f38"
+    },
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp5_filter_fitness_center.png",
+      "sha256": "e160f0c92ef76b4dcf45b3fadd1ce8173512f709df49d876eb4e4487dc941e62"
+    },
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp6_filter_review_8plus.png",
+      "sha256": "7fddea3b15f570c3dbbb028adf85dc755f0b951ec9b62551347979674ad7e339"
+    },
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp7_sort_best_reviewed.png",
+      "sha256": "8adea50e55c89474c37f5c2736192ffdf82ed05aabb6a005749ba8cd74ccffca"
+    },
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp8_final_results.png",
+      "sha256": "8adea50e55c89474c37f5c2736192ffdf82ed05aabb6a005749ba8cd74ccffca"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "9c0acf10d3493d2d1b95782a0076a64794516a20b8c96cc92bbf0baf9415d3ea",
+  "fingerprint": "5e86bbc5db20f7dbe0df1e5171ec71df1e6c705eb8a1854ddafb8d6c13ecd4c3",
+  "evaluated_at": "2026-11-16T10:03:53.704147+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find a hotel in Paris\n2. With a fitness center\n3. Rating of 8 or higher\n4. Available for a 5-night stay starting February 14, 2027\n5. Sort results by best reviewed\n\n**Screenshot Verification:**\n\n1. **Destination (Paris):** ✓ The search bar shows \"Paris\" as the destination, and results are titled \"Paris: 226 properties found.\"\n\n2. **Dates (5-night stay starting Feb 14, 2027):** ✓ The date selector shows \"Sun, Feb 14 — Fri, Feb 19.\" February 14, 2027 falls on a Sunday and February 19 on a Friday, confirming this is the correct year (2027) and a 5-night stay. Each listing also confirms \"5 nights, 2 adults.\"\n\n3. **Fitness center filter:** ✓ The \"Fitness center\" filter is checked in the sidebar, and an active \"Fitness center\" filter chip appears at the top of the results.\n\n4. **Rating 8+ filter:** ✓ The \"Very Good: 8+\" review score filter is checked, with an active \"Very Good: 8+\" filter chip visible. All displayed hotels show ratings of 8.0 or higher (9.6, 9.7, 9.7, 9.6, 9.5).\n\n5. **Sorted by best reviewed:** ✓ The sort dropdown shows \"Sort by: Best reviewed & lowest price,\" which is Booking.com's best-reviewed sorting option. The top result is Hôtel des Arts Montmartre with an Exceptional 9.6 score.\n\n6. **Hotel property type:** ✓ The \"Hotels\" filter is checked, ensuring results are hotels only.\n\n**Result Response Consistency:** The response accurately matches the screenshots — it identifies Hôtel des Arts Montmartre (9.6, Exceptional) as the best-reviewed matching hotel, describes the correct search parameters (Paris, Feb 14–19, 2027, filters for Hotels, Fitness center, Very Good: 8+, sorted by best reviewed), and the 226 matching properties count matches the screenshot.\n\nAll task requirements have been fulfilled and verified against the visual evidence.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8177,
+    "completion_tokens": 1227,
+    "total_tokens": 9404,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 750
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:03:54.329389+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp4_filter_hotels.png",
+      "source_sha256": "3d8245e001f740ffa972ea76aa520eeaa63ea1d2223e723f549b204090b35f38",
+      "source_bytes": 935716,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 291368,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "227748f715dcd69c7374e194fe61d563dad6474637986152be03a70a83102f4c"
+    },
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp5_filter_fitness_center.png",
+      "source_sha256": "e160f0c92ef76b4dcf45b3fadd1ce8173512f709df49d876eb4e4487dc941e62",
+      "source_bytes": 903882,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 288581,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "26eca4a898070a069598cd4c716fcecc64f5c2f393664c799bd49714279d1c38"
+    },
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp6_filter_review_8plus.png",
+      "source_sha256": "7fddea3b15f570c3dbbb028adf85dc755f0b951ec9b62551347979674ad7e339",
+      "source_bytes": 861030,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 262741,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f3103f5d19ecbf6dd2ab8ed7f24e8c324ffcad83e3afa74367e9bfdc381088be"
+    },
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp7_sort_best_reviewed.png",
+      "source_sha256": "8adea50e55c89474c37f5c2736192ffdf82ed05aabb6a005749ba8cd74ccffca",
+      "source_bytes": 829338,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 286175,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "af821d1f14f171a94bb13727505c1b4f47254b99e514319056af858fd86a1e27"
+    },
+    {
+      "path": "Booking--17/Booking--17_20261113_045944/final_runs/run_003/screenshots/cp8_final_results.png",
+      "source_sha256": "8adea50e55c89474c37f5c2736192ffdf82ed05aabb6a005749ba8cd74ccffca",
+      "source_bytes": 829338,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 286175,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "af821d1f14f171a94bb13727505c1b4f47254b99e514319056af858fd86a1e27"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1890171,
+  "response_id": "c6e7e02b-c5d8-4fcb-b460-e5362184cc8b",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1856,
+    "reasoning_content_chars": 2936
+  }
+}

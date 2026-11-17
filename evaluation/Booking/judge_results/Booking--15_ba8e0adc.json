@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--15",
+  "website": "Booking",
+  "task": "Find the highest-rated luxury hotel in Rome available for booking from January 10, 2027, to January 20, 2027, for 2 adults. Include the cost, amenities offered, and customer rating.",
+  "task_record": "Booking--15/Booking--15_20261113_035149",
+  "task_definition_sha256": "84434784235c0bc7f6f571459e278da184d917b5bbdf575e4250f2ba789ecff7",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--15/Booking--15_20261113_035149"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Highest-rated luxury (5-star) hotel in Rome for Jan 10–20, 2027 (2 adults): Maalot Roma - Small Luxury Hotels of the World — customer rating 9.7 | Exceptional · 1,011 reviews (5 out of 5 stars); cost US$7,490 (+US$222 taxes and fees) for 10 nights, 2 adults; amenities offered: Non-smoking rooms, Fitness center, Room service, Restaurant, Facilities for disabled guests, Airport shuttle, Free Wifi, Family rooms, Bar, Exceptional Breakfast.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp6_sorted_top_reviewed.png",
+      "sha256": "6611e53c9e811b9b326ab3cb68a7a4c3173e4073e37f929d6c27ce584046d2c4"
+    },
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp7_top_result_extracted.png",
+      "sha256": "6611e53c9e811b9b326ab3cb68a7a4c3173e4073e37f929d6c27ce584046d2c4"
+    },
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp8_detail_amenities.png",
+      "sha256": "fc9aebed3634dfae0af58d4b0ef60b1b70f79604ca43eb923d7576862fe3bb4d"
+    },
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp8_detail_page_top.png",
+      "sha256": "21ceb947602204558585cd04e23924f761114e777b17d39b88d81607e77f81f3"
+    },
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp9_final_state.png",
+      "sha256": "fc9aebed3634dfae0af58d4b0ef60b1b70f79604ca43eb923d7576862fe3bb4d"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "a36dd65a91e98854c77b8ebfb0a6cea96296d1090ccce97f86da1d67d3aa27f7",
+  "fingerprint": "4ae21ab88d42df59d6f0d3778759c23d973248bc156945e80e9d84de9e5e1951",
+  "evaluated_at": "2026-11-16T10:02:50.040767+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Find the highest-rated luxury hotel in Rome\n2. Available for booking January 10, 2027 – January 20, 2027\n3. For 2 adults\n4. Include: cost, amenities, and customer rating\n\n**Screenshot Verification:**\n\n1. **Search parameters:** The Booking.com search shows destination \"Rome\", dates \"Sun, Jan 10 — Wed, Jan 20\" (Jan 10, 2027 falls on a Sunday and Jan 20, 2027 on a Wednesday, confirming the 2027 dates), and occupancy \"2 adults · 0 children · 1 room\". ✓\n\n2. **Luxury filter:** The \"5 stars\" filter is applied (visible as both a filter chip and checked checkbox), with \"Hotels\" also selected, and results sorted by \"Top reviewed\" — 56 properties found. ✓\n\n3. **Highest-rated hotel:** The top result is **Maalot Roma - Small Luxury Hotels of the World** with a rating of **9.7 \"Exceptional\" (1,011 reviews)**, which is higher than the next hotels (Palazzo Roma 9.6, Umiltà 36 9.6, Casa Monti Roma 9.6, The First Dolce 9.5). ✓\n\n4. **Availability & cost:** The listing shows \"See availability\" and the property page confirms availability for the selected dates with the Superior Double Room at **US$7,490 (+US$222 taxes and fees) for 10 nights, 2 adults**, with an \"I'll reserve\" button visible. ✓\n\n5. **Amenities:** The property page's \"Most popular facilities\" section lists: Non-smoking rooms, Fitness center, Room service, Restaurant, Facilities for disabled guests, Airport shuttle, Free Wifi, Family rooms, Bar, Exceptional Breakfast — all matching the response exactly. ✓\n\n6. **Customer rating:** 9.7 Exceptional with 1,011 reviews, confirmed on both the search results and the property detail page. ✓\n\n**Response Consistency:** The result response accurately reflects all information shown in the screenshots — hotel name, rating (9.7/1,011 reviews), cost (US$7,490 + US$222 taxes/fees for 10 nights, 2 adults), and the full amenities list. No discrepancies found.\n\nAll task components (highest-rated luxury hotel identification, dates, occupancy, cost, amenities, and rating) are fully satisfied and verifiable in the screenshots.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8196,
+    "completion_tokens": 1632,
+    "total_tokens": 9828,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1083
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:02:50.599236+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp6_sorted_top_reviewed.png",
+      "source_sha256": "6611e53c9e811b9b326ab3cb68a7a4c3173e4073e37f929d6c27ce584046d2c4",
+      "source_bytes": 768731,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 291421,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "89f3e4690760aa66bf87b8b3d19a6b3576f4f12ffc0a574fe982faed1bc6e0e0"
+    },
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp7_top_result_extracted.png",
+      "source_sha256": "6611e53c9e811b9b326ab3cb68a7a4c3173e4073e37f929d6c27ce584046d2c4",
+      "source_bytes": 768731,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 291421,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "89f3e4690760aa66bf87b8b3d19a6b3576f4f12ffc0a574fe982faed1bc6e0e0"
+    },
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp8_detail_amenities.png",
+      "source_sha256": "fc9aebed3634dfae0af58d4b0ef60b1b70f79604ca43eb923d7576862fe3bb4d",
+      "source_bytes": 625195,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 242937,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "44aceff0b741c70d01879978c43b863c5bb9aca5150bf62ed9e959a14595d42f"
+    },
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp8_detail_page_top.png",
+      "source_sha256": "21ceb947602204558585cd04e23924f761114e777b17d39b88d81607e77f81f3",
+      "source_bytes": 833525,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 258189,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "38f7eb5afaf9541d6e0c908071530c709f41cc13eeb3540a78aaabb7b77de942"
+    },
+    {
+      "path": "Booking--15/Booking--15_20261113_035149/final_runs/run_002/screenshots/cp9_final_state.png",
+      "source_sha256": "fc9aebed3634dfae0af58d4b0ef60b1b70f79604ca43eb923d7576862fe3bb4d",
+      "source_bytes": 625195,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 242937,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "44aceff0b741c70d01879978c43b863c5bb9aca5150bf62ed9e959a14595d42f"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1772713,
+  "response_id": "cb1a4b1f-b3ad-4861-9ce3-594a5f57d741",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2109,
+    "reasoning_content_chars": 4028
+  }
+}

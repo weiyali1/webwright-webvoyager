@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--22",
+  "website": "Coursera",
+  "task": "Identify a Specialization on Coursera that focuses on 'Human Resource', list the courses included in this Specialization, and the institution offering it.",
+  "task_record": "Coursera--22/Coursera--22_20261114_124738",
+  "task_definition_sha256": "fba0d208fa343a15343b1da770c9937fbc35c5342b4083e7f994b8ce127492d2",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--22/Coursera--22_20261114_124738"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Specialization: Human Resource Management: HR for People Managers Specialization (https://www.coursera.org/specializations/human-resource-management). Offered by: University of Minnesota. Courses included (5): 1. Preparing to Manage Human Resources; 2. Recruiting, Hiring, and Onboarding Employees; 3. Managing Employee Performance; 4. Managing Employee Compensation; 5. HR Management Capstone.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_2_filtered_results.png",
+      "sha256": "19e5ac09bf8194f79b3d433459a92afb2f76989cc4af6dcb7d087bdb184e2c44"
+    },
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_2_specializations_checked.png",
+      "sha256": "007942da9d45574a85655f41ce1d16d4d489d8308933f72e7b6d3d7c6d51868a"
+    },
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_3_specialization_page.png",
+      "sha256": "af7a82ccd7a8578e553585d35b46999ba40ab7ea0f690a7d41879ebad5c06608"
+    },
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_4_courses_list.png",
+      "sha256": "3fe5cdc3e2e9b5c53b14d222897b99f6e7a9d679e14b6bff3ac74d6905687dcb"
+    },
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_5_institution.png",
+      "sha256": "ac80923d6759ae2e329ec9cb5c4f93c71b8d6cce63284506bb4ea28bbde1d739"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "4b01b21791d326b34f51b7d279c00cd347b7c626e6bcc0ab311aa4434e442f07",
+  "fingerprint": "1a37a0a063af0d04eb84efd2ce104ae77a6538f6c1bcbd37e209a4c265fa088a",
+  "evaluated_at": "2026-11-16T10:04:56.694047+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Identify a Specialization on Coursera focusing on 'Human Resource'\n2. List the courses included in this Specialization\n3. Identify the institution offering it\n\n**Verification against screenshots:**\n\n1. **Specialization identified:** The screenshots show a search on Coursera for \"Human Resource\" with the Specializations filter applied (screenshot 2 shows the filter dropdown with \"Specializations\" checked). The agent selected \"Human Resource Management: HR for People Managers Specialization\" — this matches the specialization page shown in screenshots 3 and 5. ✓\n\n2. **Institution offering it:** The specialization page clearly displays \"UNIVERSITY OF MINNESOTA\" branding at the top, confirming the response's claim that it is offered by the University of Minnesota. ✓\n\n3. **Courses included:** Screenshot 4 shows the \"Specialization - 5 course series\" section listing:\n   - Course 1: Preparing to Manage Human Resources\n   - Course 2: Recruiting, Hiring, and Onboarding Employees\n   - Course 3: Managing Employee Performance\n   - Course 4: Managing Employee Compensation\n   - Course 5: Human Resources Management Capstone: HR for Peo...\n   \n   The response lists all 5 courses matching the screenshot (the capstone is slightly abbreviated in the response as \"HR Management Capstone\" but corresponds to the same course). ✓\n\nAll three components of the task — identifying the specialization, listing its courses, and naming the offering institution — are accurately completed and consistent with the visual evidence.\n\n## Verdict\n\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8287,
+    "completion_tokens": 794,
+    "total_tokens": 9081,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 457
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:04:57.185144+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_2_filtered_results.png",
+      "source_sha256": "19e5ac09bf8194f79b3d433459a92afb2f76989cc4af6dcb7d087bdb184e2c44",
+      "source_bytes": 890313,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 308671,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e9530435221833d4685e447f6e84ea1195e822c9bed42e83b8fc9826ca455145"
+    },
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_2_specializations_checked.png",
+      "source_sha256": "007942da9d45574a85655f41ce1d16d4d489d8308933f72e7b6d3d7c6d51868a",
+      "source_bytes": 811095,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 300671,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4249f2c5c7007bce1d1a2b3c819fb90bc5cc28705d958e864cc767043040530b"
+    },
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_3_specialization_page.png",
+      "source_sha256": "af7a82ccd7a8578e553585d35b46999ba40ab7ea0f690a7d41879ebad5c06608",
+      "source_bytes": 146061,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_bytes": 242149,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f2ffdd1cf0cc2462d062a4b6580c9d1df6290d5f430de7ab464ab2ab186129ce"
+    },
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_4_courses_list.png",
+      "source_sha256": "3fe5cdc3e2e9b5c53b14d222897b99f6e7a9d679e14b6bff3ac74d6905687dcb",
+      "source_bytes": 162800,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_bytes": 216082,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "056c405cdb294128c620af152cbcdae42affedbae52081b67568c81cc0228a75"
+    },
+    {
+      "path": "Coursera--22/Coursera--22_20261114_124738/final_runs/run_001/screenshots/final_execution_5_institution.png",
+      "source_sha256": "ac80923d6759ae2e329ec9cb5c4f93c71b8d6cce63284506bb4ea28bbde1d739",
+      "source_bytes": 146062,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_dimensions": [
+        1272,
+        949
+      ],
+      "transmitted_bytes": 242134,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "09f80e03c3d9906ae7c94ea4d42d8da741796a97b50b580eed166ee5285af2a8"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1749711,
+  "response_id": "3aa738cd-f891-4c65-adb9-b6165a92b876",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1593,
+    "reasoning_content_chars": 2118
+  }
+}

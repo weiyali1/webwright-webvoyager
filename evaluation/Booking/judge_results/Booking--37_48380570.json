@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--37",
+  "website": "Booking",
+  "task": "Search for a resort (not hotel) in Bali, detailing the available dates between November 20, 2026, and November 25, 2026, and checking any provided tour or cultural experiences.",
+  "task_record": "Booking--37/Booking--37_20261114_011935",
+  "task_definition_sha256": "b292784d42a2fc09d100ac56f96daf23c3b098a929e49784164ff9b55fdd898a",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--37/Booking--37_20261114_011935"
+  ],
+  "final_run": "run_004",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Selected resort (not hotel) in Bali: The Patra Bali Resort & Villas - CHSE Certified, Kuta. Dates detailed via Booking.com calendar: check-in Friday, November 20, 2026; check-out Wednesday, November 25, 2026 (5 nights); availability confirmed on the property page for those dates. Tour/cultural experiences provided: tour desk; staff arrange activities such as cookery lessons and water polo; leisure facilities include a kids' club and multiple on-site restaurants serving Indonesian/local cuisine. Filtered resort results included: The Patra Bali Resort & Villas - CHSE Certified, Discovery Kartika Plaza Hotel, Bali Garden Beach Resort, Ramayana Suites and Resort.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_3_search_results.png",
+      "sha256": "6412e26141ceded1b1594ae0b6a7da8b844629309fa6a1aa60f87aeca7e45a82"
+    },
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_4_resorts_filter.png",
+      "sha256": "6e66a69944d8fd187553cbe3dcda9276ab39eb9f3071923171fb067b921223b5"
+    },
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_5_filtered_resort_results.png",
+      "sha256": "6e66a69944d8fd187553cbe3dcda9276ab39eb9f3071923171fb067b921223b5"
+    },
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_6_property_availability.png",
+      "sha256": "1437a83f08016750f256bdde834d18a87cac12d0898690641f4120fc18c0f12c"
+    },
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_7_tour_cultural_experiences.png",
+      "sha256": "9a4be4138fe7697f766ef0843128559f6bee79651828fd4ca5f288cffa57c19a"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "fa163ef0807bbbd3ac09a540e8bc96b875428ec916f5f5c881243b061fd95290",
+  "fingerprint": "ad45c57c1c0fc4329ddc52f6be5ceaac4631390cc4e54dfe419fac70a84bb5a3",
+  "evaluated_at": "2026-11-16T10:12:37.351123+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Search for a resort (not hotel) in Bali\n2. Detail available dates between November 20, 2026, and November 25, 2026\n3. Check any provided tour or cultural experiences\n\n**Screenshot Verification:**\n\n1. **Resort (not hotel) search:** Screenshot 1 shows a Booking.com search for \"Bali\" with 14,518 properties. Screenshots 2-3 show the \"Resorts\" filter checkbox checked (562 properties found, with a \"Resorts ×\" filter chip visible), confirming the search was narrowed to resorts specifically, not hotels. The selected property, \"The Patra Bali Resort & Villas - CHSE Certified,\" is a resort in Kuta, and the breadcrumb in Screenshot 4 confirms it is categorized as \"(Resort)\".\n\n2. **Dates:** The search box in all screenshots shows \"Fri, Nov 20 — Wed, Nov 25\". Cross-checking the calendar: November 20, 2026 falls on a Friday and November 25, 2026 falls on a Wednesday, which matches the displayed days of the week (the map copyright \"© 2026 Google\" further supports the year). Screenshot 5 shows the property's Availability section with these dates selected and a \"Price for 5 nights\" table, confirming availability for the requested date range (US$388 for 5 nights shown in earlier screenshots).\n\n3. **Tour/cultural experiences:** Screenshot 5 shows the \"Tour desk\" facility badge, and the property description states: \"For leisure, staff can arrange numerous activities such as water polo and cookery lessons. The resort also houses a kid's club...\" The Activities section lists Tennis court, Fitness center, and Game room. The response accurately reflects these findings, including the tour desk and cookery lessons (a cultural experience).\n\n**Response Consistency:** The result response aligns with the screenshots — the resort name, location (Kuta), dates (Nov 20–25, 5 nights), tour desk, cookery lessons, water polo, and kids' club are all verifiable in the screenshots. Details like restaurant cuisine types, while not fully visible in the screenshots, are plausible property-page content and per instructions can be accepted.\n\nAll three components of the task were completed: a resort (not hotel) was selected via the Resorts filter, the dates November 20–25, 2026 were detailed with availability confirmed, and tour/cultural experiences (tour desk, cookery lessons, activities) were checked.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7757,
+    "completion_tokens": 1551,
+    "total_tokens": 9308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1009
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:12:37.673281+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_3_search_results.png",
+      "source_sha256": "6412e26141ceded1b1594ae0b6a7da8b844629309fa6a1aa60f87aeca7e45a82",
+      "source_bytes": 341565,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 214207,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5652846106d3c830cbab072d019b72a420e6829954f515707e8d48d52d12b440"
+    },
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_4_resorts_filter.png",
+      "source_sha256": "6e66a69944d8fd187553cbe3dcda9276ab39eb9f3071923171fb067b921223b5",
+      "source_bytes": 334105,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 212887,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5d3f5638efbbd266d9be9cfe15b4647a39356e87060f03efdc807eb70fdec602"
+    },
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_5_filtered_resort_results.png",
+      "source_sha256": "6e66a69944d8fd187553cbe3dcda9276ab39eb9f3071923171fb067b921223b5",
+      "source_bytes": 334105,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 212887,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5d3f5638efbbd266d9be9cfe15b4647a39356e87060f03efdc807eb70fdec602"
+    },
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_6_property_availability.png",
+      "source_sha256": "1437a83f08016750f256bdde834d18a87cac12d0898690641f4120fc18c0f12c",
+      "source_bytes": 892078,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 284650,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e8987aac073fc373460a0e22ce3545986660d19db15a336f00832eb545d9f3b1"
+    },
+    {
+      "path": "Booking--37/Booking--37_20261114_011935/final_runs/run_004/screenshots/final_execution_7_tour_cultural_experiences.png",
+      "source_sha256": "9a4be4138fe7697f766ef0843128559f6bee79651828fd4ca5f288cffa57c19a",
+      "source_bytes": 129283,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        900
+      ],
+      "transmitted_dimensions": [
+        1280,
+        843
+      ],
+      "transmitted_bytes": 198503,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "740b39dfd1b6fd293a6e4a000fc7a305fb01af0240aad2ffa9dfaa754ad42c77"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1501242,
+  "response_id": "3a5b5412-52fc-4922-9431-067cb9c94a8d",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2373,
+    "reasoning_content_chars": 4152
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "task_id": "Booking--20",
+  "website": "Booking",
+  "task": "Locate a hotel in Rome with a good rating (7 or above) that offers free cancellation and breakfast included, for a stay from November 28 to December 2, 2026, for two adults.",
+  "task_record": "Booking--20/Booking--20_20261113_064301",
+  "task_definition_sha256": "ea59ef4fdac7d909d47450cb2fc637e6974a6fec338a2ab2e0ee73469956c22b",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--20/Booking--20_20261113_064301"
+  ],
+  "final_run": "run_003",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found hotel in Rome: Rome Times Hotel (rating 8.5/10, >= 7), with free cancellation and breakfast included, for Nov 28 - Dec 2, 2026, 2 adults.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_5_search_results.png",
+      "sha256": "55a50897c5dc9748c9c55166c1249915897d35e6fc9ce2feaf2ca5bf0b2b481b"
+    },
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_6_free_cancellation_filter.png",
+      "sha256": "ac258419d20d495197ff704236fa4d4d7b9e3f05921b264dd0dc31461f016565"
+    },
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_7_breakfast_included_filter.png",
+      "sha256": "5f2b2d10569af8eeb470767538081912df67443daeea97dd4a1d6ac8a8c966c6"
+    },
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_8_good7_filter.png",
+      "sha256": "439f07da36822d69d26bc3517fa4d527cf7f0c6339527196f56bda8086a3b43c"
+    },
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_9_final_results.png",
+      "sha256": "512cc8503e75ee3b2f84cd15452a15f201167f1831fff6cea04eeb92ccf549d2"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "fa31ac3defcf5d957ac6dba382f47ba6abaedef76ab9f9ec853848901bea0539",
+  "fingerprint": "8a0f2628d389a91a0e0b81782ba697071341c402915c6c3f66dca7f582ae1c39",
+  "evaluated_at": "2026-11-16T10:05:33.453932+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation\n\n**Task requirements:**\n1. Hotel in Rome ✓\n2. Rating 7 or above ✓\n3. Free cancellation ✓\n4. Breakfast included ✓\n5. Stay dates: November 28 – December 2, 2026 ✓\n6. Two adults ✓\n\n**Screenshot analysis:**\n\n- **Screenshot 1:** Search initiated on Booking.com for Rome with dates \"Sat, Nov 28 — Wed, Dec 2\" and occupancy \"2 adults · 0 children · 1 room\". Note that Nov 28 falling on a Saturday and Dec 2 on a Wednesday is consistent with the year 2026 (in 2025 these dates would be Fri/Tue), supporting that the correct year was selected. 9,391 properties found with no filters.\n- **Screenshot 2:** \"Free cancellation\" filter applied (8,243 properties found), checkbox visibly checked.\n- **Screenshot 3:** \"Breakfast included\" filter additionally applied (1,210 properties found). Rome Times Hotel appears as a top result: rating 8.5 \"Very Good\", Breakfast included ✓, Free cancellation ✓, 4 nights, 2 adults, US$684.\n- **Screenshots 4 & 5:** \"Good: 7+\" filter also applied (1,154 properties found), with all three filter chips visible (Good: 7+, Breakfast included, Free cancellation). Rome Times Hotel remains the top result with rating 8.5, breakfast included, and free cancellation for 4 nights, 2 adults.\n\n**Response analysis:** The response correctly identifies Rome Times Hotel with a rating of 8.5 (≥ 7), free cancellation, breakfast included, correct dates (Nov 28 – Dec 2, 2026), and 2 adults — fully consistent with the screenshots.\n\nAll task criteria are satisfied: the hotel is in Rome, its 8.5 rating exceeds the 7+ threshold, both required filters were applied and confirmed on the listing, the dates match 2026 (verified by day-of-week alignment), and occupancy is set for two adults. The task was to *locate* a hotel, which was accomplished.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8118,
+    "completion_tokens": 1505,
+    "total_tokens": 9623,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1049
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:05:34.077352+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_5_search_results.png",
+      "source_sha256": "55a50897c5dc9748c9c55166c1249915897d35e6fc9ce2feaf2ca5bf0b2b481b",
+      "source_bytes": 816872,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 275460,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a250aaf12320f1d7f98b92c072c5f0d62c3de94cf6aefd569b313e799657a170"
+    },
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_6_free_cancellation_filter.png",
+      "source_sha256": "ac258419d20d495197ff704236fa4d4d7b9e3f05921b264dd0dc31461f016565",
+      "source_bytes": 753778,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 274079,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6682d0efdcdf2836a93a8be8db06e505f98d1e5ac32141bd4973f6770dacbb2a"
+    },
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_7_breakfast_included_filter.png",
+      "source_sha256": "5f2b2d10569af8eeb470767538081912df67443daeea97dd4a1d6ac8a8c966c6",
+      "source_bytes": 773988,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 287874,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c0ad30457f59e23d11fec4b6fd722bdf674ed1f61c17ccec90d6cd240055a51b"
+    },
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_8_good7_filter.png",
+      "source_sha256": "439f07da36822d69d26bc3517fa4d527cf7f0c6339527196f56bda8086a3b43c",
+      "source_bytes": 707519,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 281959,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "d21e6aa47250ed7720cf54294b44f1f1784719f3367acf8b886613d7b4bdbec4"
+    },
+    {
+      "path": "Booking--20/Booking--20_20261113_064301/final_runs/run_003/screenshots/final_execution_9_final_results.png",
+      "source_sha256": "512cc8503e75ee3b2f84cd15452a15f201167f1831fff6cea04eeb92ccf549d2",
+      "source_bytes": 707504,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 281920,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f46ee5c24e94952b2cd247afdf2b319aba17eeed2887b114226f40511b79e99d"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1871587,
+  "response_id": "415faa47-4378-422a-8f8a-8ace534be87a",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1790,
+    "reasoning_content_chars": 3487
+  }
+}

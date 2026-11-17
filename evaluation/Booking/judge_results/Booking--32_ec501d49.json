@@ -1,0 +1,181 @@
+{
+  "task_id": "Booking--32",
+  "website": "Booking",
+  "task": "Look for hotels in Sydney from February 24 to February 27, 2027, on Booking. Once the Swimming Pool and Airport Shuttle filters are applied, what is the total number of hotels available?",
+  "task_record": "Booking--32/Booking--32_20261113_134849",
+  "task_definition_sha256": "4f94feb38355b04ed31f82576710f09dd75f3fd96385f5ea503c71883c0eef8d",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Booking--32/Booking--32_20261113_134849"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "After searching hotels in Sydney on Booking.com for February 24-27, 2027 and applying the Swimming Pool and Airport Shuttle filters, the total number of hotels/properties available is 12.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "sha256": "23834a0ba1644303f665b2b0488f12efea69efac2ab92fbb5f72e61fda14c692"
+    },
+    {
+      "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_2_pool_filter.png",
+      "sha256": "c963bc185c5a0e91ded825b023785c12e7d55afecbc27f9a1997750c2f61b4de"
+    },
+    {
+      "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_3_shuttle_filter.png",
+      "sha256": "0d8f0e3acc6e2995ebb812d317924f4255f33417be3d1c2702788314ee3568b4"
+    },
+    {
+      "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_4_final_count.png",
+      "sha256": "5e7c37f490761693e5a1e3516e4a0c770bc48d2e134ec8093a75bb7f0e744f43"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "cff654745b618724c7c720d2016d64ca03469386986a3be03d1750eddebfc10b",
+  "fingerprint": "42c2d8a917926ca956b981bdd2f7df59aeb8d55657ef9105854739b2590b5973",
+  "evaluated_at": "2026-11-16T10:10:53.962888+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements:\n1. Search for hotels in Sydney on Booking.com\n2. Set dates to February 24–27, 2027\n3. Apply both \"Swimming Pool\" and \"Airport Shuttle\" filters\n4. Report the total number of hotels available\n\n## Screenshot Verification:\n\n**Screenshot 1 (Initial Search):**\n- Destination: Sydney ✓\n- Dates: Wed, Feb 24 — Sat, Feb 27 ✓ (Feb 24, 2027 falls on a Wednesday and Feb 27 on a Saturday, confirming the correct year 2027)\n- Initial results: 1,922 properties found\n- Filters visible but unchecked: Swimming pool (361), Airport shuttle (50)\n\n**Screenshot 2 (First Filter Applied):**\n- \"Swimming pool\" checkbox is checked ✓\n- Results updated to 361 properties\n- Airport shuttle count now shows 12\n\n**Screenshots 3 & 4 (Both Filters Applied):**\n- Both \"Swimming pool\" and \"Airport shuttle\" checkboxes are checked ✓\n- \"Facilities 2\" filter chip displayed at top, confirming two facility filters active\n- Results show: **\"Sydney: 12 properties found\"** ✓\n- Filter counts confirm: Swimming pool (12), Airport shuttle (12)\n\n## Response Verification:\nThe result response states the total is **12**, which exactly matches the screenshot showing \"Sydney: 12 properties found\" after both filters were applied.\n\n## Conclusion:\nAll steps of the task were executed correctly — the correct destination, correct dates (Feb 24–27, 2027), both required filters applied, and the final count of 12 properties is accurately reported and visually confirmed in the screenshots.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7880,
+    "completion_tokens": 932,
+    "total_tokens": 8812,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 564
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:10:54.402780+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_1_search_results.png",
+      "source_sha256": "23834a0ba1644303f665b2b0488f12efea69efac2ab92fbb5f72e61fda14c692",
+      "source_bytes": 706212,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 294208,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "e796b3a164b45cc18fcfeb44cd5b9214bb25de929f0b3bff93fd3839c8969138"
+    },
+    {
+      "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_2_pool_filter.png",
+      "source_sha256": "c963bc185c5a0e91ded825b023785c12e7d55afecbc27f9a1997750c2f61b4de",
+      "source_bytes": 673238,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 292103,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f11c73de66336030f6b2810a1390fcda8db79204da121fad8f65770cde70ed49"
+    },
+    {
+      "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_3_shuttle_filter.png",
+      "source_sha256": "0d8f0e3acc6e2995ebb812d317924f4255f33417be3d1c2702788314ee3568b4",
+      "source_bytes": 642937,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 297706,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "653faa69886c4a568095fe1bdcda17302ec70bf964b1095d6e41fa428f9ed436"
+    },
+    {
+      "path": "Booking--32/Booking--32_20261113_134849/final_runs/run_001/screenshots/final_execution_4_final_count.png",
+      "source_sha256": "5e7c37f490761693e5a1e3516e4a0c770bc48d2e134ec8093a75bb7f0e744f43",
+      "source_bytes": 642902,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1366,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1093,
+        1280
+      ],
+      "transmitted_bytes": 297636,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "76e77d272d206fc2e1886ccae9db6a528c799d55f663e5c8f9013a996136637f"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1578720,
+  "response_id": "ad67629b-f700-4695-88ca-e762036f28ab",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1509,
+    "reasoning_content_chars": 2241
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "task_id": "GitHub--17",
+  "website": "GitHub",
+  "task": "Locate a C++ project on GitHub that has been recently updated in the last week and has at least 500 stars, then describe its main purpose.",
+  "task_record": "GitHub--17/GitHub--17_20261115_022402",
+  "task_definition_sha256": "4e243b77b6509a90fe12b7fe36017003374a76e4c1cc7f2e6cb5cd75789bc275",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "GitHub--17/GitHub--17_20261115_022402"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Located C++ project: tensorflow/tensorflow (https://github.com/tensorflow/tensorflow). It has ~202k stars (>=500) and was last updated Nov 14, 2026 (within the last week; found via GitHub advanced search with Language=C++, stars >=500, pushed >=2026-11-08). Main purpose: An Open Source Machine Learning Framework for Everyone — TensorFlow is an end-to-end open source machine learning framework/platform for building, training, and deploying ML models, with a comprehensive ecosystem of tools, libraries, and community resources.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "GitHub--17/GitHub--17_20261115_022402/final_runs/run_002/screenshots/final_execution_1_advanced_form_filters.png",
+      "sha256": "0e2b04a6c65af70212d5f625c79b6cb1e8ba8bd334dfc0439519664159984a90"
+    },
+    {
+      "path": "GitHub--17/GitHub--17_20261115_022402/final_runs/run_002/screenshots/final_execution_2_filtered_results.png",
+      "sha256": "854d9590bcc6fb75a45ecccca041200dcd232da5ee892ecc8523ce747d5e0901"
+    },
+    {
+      "path": "GitHub--17/GitHub--17_20261115_022402/final_runs/run_002/screenshots/final_execution_3_repo_page_overview.png",
+      "sha256": "d8b863e2de1fe6198006146a644985b3da81af6b32ca2817042bd607920c2bd6"
+    },
+    {
+      "path": "GitHub--17/GitHub--17_20261115_022402/final_runs/run_002/screenshots/final_execution_4_repo_languages_section.png",
+      "sha256": "f72f36321db92ad321732008588c55926086e18ebfc7acb97b821b8a4de31a12"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "09ea87b00c6580e33b795714ad45e754606720ffa7735c45d34e4ef33dc4d3aa",
+  "fingerprint": "025d677aa86ac23c1d730c9d753e8f319f9ae46eaf46882098c52e108c8e2260",
+  "evaluated_at": "2026-11-16T10:07:19.912792+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirements:**\n1. Locate a C++ project on GitHub\n2. The project must have been updated within the last week\n3. The project must have at least 500 stars\n4. Describe the project's main purpose\n\n**Verification against screenshots:**\n\n1. **Search methodology (Screenshot 1):** The GitHub Advanced search page shows the correct filters applied: `stars:>=500 pushed:>=2026-11-08 language:C++`, with \"Written in this language: C++\", \"With this many stars: >= 500\", and \"Pushed to: >= 2026-11-08\". This properly encodes all task constraints (C++ language, ≥500 stars, updated within the last week).\n\n2. **Search results (Screenshot 2):** The results (1.8k repositories) show qualifying C++ projects, including tensorflow/tensorflow listed as \"C++ • ★ 202k • Updated 49 minutes ago\" — satisfying both the star threshold and recency requirements. Other valid candidates (llama.cpp, electron, godot, opencv) also appear, confirming the filter worked correctly.\n\n3. **Repository verification (Screenshots 3 & 4):** The tensorflow/tensorflow repository page confirms:\n   - **Stars:** 202k (well above the 500 minimum)\n   - **Language:** C++ is the dominant language at 55.6%\n   - **Recency:** Latest commit \"7 hours ago\", with recent activity (commits 12 hours ago, 2 days ago, yesterday)\n   - **Purpose:** The About section states \"An Open Source Machine Learning Framework for Everyone\" with topics including machine-learning, deep-learning, and neural-networks\n\n4. **Response accuracy:** The result response correctly identifies the project, its star count (~202k), its recent update status, and accurately describes its main purpose as an end-to-end open source machine learning framework for building, training, and deploying ML models. This matches the description shown in the screenshots.\n\nAll components of the task were completed: a qualifying C++ project was located using appropriate search filters, its compliance with the star and recency criteria was verified, and its main purpose was described.\n\n## Verdict: **SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8314,
+    "completion_tokens": 1551,
+    "total_tokens": 9865,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1081
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:07:20.281659+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 4,
+  "image_transports": [
+    {
+      "path": "GitHub--17/GitHub--17_20261115_022402/final_runs/run_002/screenshots/final_execution_1_advanced_form_filters.png",
+      "source_sha256": "0e2b04a6c65af70212d5f625c79b6cb1e8ba8bd334dfc0439519664159984a90",
+      "source_bytes": 88579,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 151601,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "2483589911df6201297f8ad131a762397e03faed2b1888178816c7e80e4a3073"
+    },
+    {
+      "path": "GitHub--17/GitHub--17_20261115_022402/final_runs/run_002/screenshots/final_execution_2_filtered_results.png",
+      "source_sha256": "854d9590bcc6fb75a45ecccca041200dcd232da5ee892ecc8523ce747d5e0901",
+      "source_bytes": 173594,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 212120,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "243f3bd1f3d467ec73b25434abbe2f846859a9e780b5532abfdb4c6a65d122fb"
+    },
+    {
+      "path": "GitHub--17/GitHub--17_20261115_022402/final_runs/run_002/screenshots/final_execution_3_repo_page_overview.png",
+      "source_sha256": "d8b863e2de1fe6198006146a644985b3da81af6b32ca2817042bd607920c2bd6",
+      "source_bytes": 256468,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 305554,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c3cd0a08b550e7ed5763e302997eccf695e4f16ef994378f5931d0cc4990b3df"
+    },
+    {
+      "path": "GitHub--17/GitHub--17_20261115_022402/final_runs/run_002/screenshots/final_execution_4_repo_languages_section.png",
+      "source_sha256": "f72f36321db92ad321732008588c55926086e18ebfc7acb97b821b8a4de31a12",
+      "source_bytes": 252568,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1400
+      ],
+      "transmitted_dimensions": [
+        1170,
+        1280
+      ],
+      "transmitted_bytes": 309816,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "85f7ecbaf6fa34fdb66f273c50fba4555bce26efb3e46b80458ed74a9670ec7c"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 4,
+  "request_json_bytes": 1308933,
+  "response_id": "5dfb1480-16cc-48c3-9dcd-6b02124a205a",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2055,
+    "reasoning_content_chars": 4061
+  }
+}

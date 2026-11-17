@@ -1,0 +1,211 @@
+{
+  "task_id": "Cambridge Dictionary--30",
+  "website": "Cambridge Dictionary",
+  "task": "Find the grammar for present perfect simple uses in English, including examples of affirmative, negative, and interrogative sentences, on the Cambridge Dictionary website.",
+  "task_record": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441",
+  "task_definition_sha256": "64d47b7c8c0e9c28948c5dd4809dfcd1a4f0b697ff17377f377409a4f63f827e",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found the Cambridge Dictionary grammar page 'Present perfect simple (I have worked)' at https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-simple-i-have-worked. Form: have/has + past participle (affirmative +, negative have not/has not, questions ? +/? -). Uses include experiences, recent completed events, past events with present results, and time with for/since. Affirmative examples: \"And I've seen 'Buddy' and I've seen 'Starlight Express' in London.\" / \"I've been there a couple of times before.\" Negative examples: \"We haven't met before, have we?\" / \"She still hasn't said sorry to me.\" Interrogative examples: \"Have you ever tried to write your name and address with your left hand?\" / \"Haven't you done your homework yet?\"",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_5_form_table.png",
+      "sha256": "b851c8dd85a83360b551b07fb4f52cc7da62963defab80a54cf9e73903b8fa8f"
+    },
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_6_affirmative_examples.png",
+      "sha256": "b851c8dd85a83360b551b07fb4f52cc7da62963defab80a54cf9e73903b8fa8f"
+    },
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_7_negative_examples.png",
+      "sha256": "b851c8dd85a83360b551b07fb4f52cc7da62963defab80a54cf9e73903b8fa8f"
+    },
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_8_interrogative_examples.png",
+      "sha256": "834dfc5f7b1e2defd44fbac3e7a1fb2cd429e6087ce17495e2f66097faadd91c"
+    },
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_9_final_state_full_page.png",
+      "sha256": "8bcac84fdcb7426a516988005265b43f870f742a9317362d63b25e759ee36d14"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "5163f2e231c72d03008edc8945e855eb6255f66e8a94ed349df03514fe7f75d9",
+  "fingerprint": "2a44778ad49fe1e5fcc5742f7f93554c097906d869ea899ad97aa3680f8a6a17",
+  "evaluated_at": "2026-11-16T10:08:23.237191+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task required finding the grammar for **present perfect simple uses** in English on the **Cambridge Dictionary website**, including examples of:\n1. Affirmative sentences\n2. Negative sentences\n3. Interrogative sentences\n\n## Verification Against Screenshots\n\n**1. Correct website and page located:**\nThe screenshots clearly show the Cambridge Dictionary grammar page titled \"Present perfect simple (I have worked)\" from English Grammar Today, with the breadcrumb path Grammar > Verbs > Tenses and time > Present > Present perfect simple. This matches the target website.\n\n**2. Grammar form (affirmative, negative, interrogative):**\nThe screenshots display the \"Present perfect simple: form\" section with a complete table showing:\n- **+ (affirmative):** I/you/we/they have ('ve), she/he/it has ('s) + worked\n- **– (negative):** have not/has not (haven't/hasn't) + worked\n- **?+ (interrogative):** Have/Has + subject + worked?\n- **?– (negative interrogative):** Haven't/Hasn't + subject + worked?\n\n**3. Uses section:**\nThe screenshots show \"Present perfect simple: uses\" with subsections: Experiences, Recent completed events, Past events present results, and (in the full-page screenshot) Time up to now, Time with for and since, Yet and already, and American English.\n\n**4. Examples verification:**\n- Affirmative: \"And I've seen 'Buddy' and I've seen 'Starlight Express' in London\" and \"I've been there a couple of times before\" — both visible in screenshot 4 ✓\n- Negative: \"We haven't met before, have we?\" — visible in screenshot 4 ✓\n- Interrogative: \"Have you ever tried to write your name and address with your left hand?\" — visible in screenshot 4 ✓\n- Additional examples cited in the response (\"She still hasn't said sorry to me,\" \"Haven't you done your homework yet?\") correspond to the Yet/already section visible in the full-page screenshot; per instructions, content not clearly legible in the screenshot but present in the response is accepted.\n\n## Conclusion\nAll required components were found: the correct grammar page on the Cambridge Dictionary website, the uses of present perfect simple, and examples of affirmative, negative, and interrogative sentences. The response accurately reflects the screenshot content.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 7138,
+    "completion_tokens": 1387,
+    "total_tokens": 8525,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 862
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:08:23.934192+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_5_form_table.png",
+      "source_sha256": "b851c8dd85a83360b551b07fb4f52cc7da62963defab80a54cf9e73903b8fa8f",
+      "source_bytes": 331328,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 177591,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "995c6286b0e2da9da48c67d9ec3ff6d346a389675d8848e7859d8e293940074e"
+    },
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_6_affirmative_examples.png",
+      "source_sha256": "b851c8dd85a83360b551b07fb4f52cc7da62963defab80a54cf9e73903b8fa8f",
+      "source_bytes": 331328,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 177591,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "995c6286b0e2da9da48c67d9ec3ff6d346a389675d8848e7859d8e293940074e"
+    },
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_7_negative_examples.png",
+      "source_sha256": "b851c8dd85a83360b551b07fb4f52cc7da62963defab80a54cf9e73903b8fa8f",
+      "source_bytes": 331328,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 177591,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "995c6286b0e2da9da48c67d9ec3ff6d346a389675d8848e7859d8e293940074e"
+    },
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_8_interrogative_examples.png",
+      "source_sha256": "834dfc5f7b1e2defd44fbac3e7a1fb2cd429e6087ce17495e2f66097faadd91c",
+      "source_bytes": 347526,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 203789,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b4d37bc166e7b42195c376d59dea65295fba1815a5ebe9e248b2e0da7a6d7f9c"
+    },
+    {
+      "path": "Cambridge Dictionary--30/Cambridge Dictionary--30_20261114_013441/final_runs/run_002/screenshots/final_execution_9_final_state_full_page.png",
+      "source_sha256": "8bcac84fdcb7426a516988005265b43f870f742a9317362d63b25e759ee36d14",
+      "source_bytes": 805054,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1265,
+        7204
+      ],
+      "transmitted_dimensions": [
+        225,
+        1280
+      ],
+      "transmitted_bytes": 44997,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "a9930166e6c21dcbb21cc9b26d90f135be4aea5e6e1248aa306573381a810615"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1045893,
+  "response_id": "9d0f047a-dc2d-4487-b45c-89fa7b4f076d",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2297,
+    "reasoning_content_chars": 3832
+  }
+}

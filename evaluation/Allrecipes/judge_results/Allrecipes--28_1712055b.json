@@ -1,0 +1,211 @@
+{
+  "task_id": "Allrecipes--28",
+  "website": "Allrecipes",
+  "task": "On Allrecipes, find a vegan brownie recipe that has at least 40 reviews and a rating of 4.5 or higher. Include the list of ingredients, total prep and cook time, and a brief overview of the preparation steps.",
+  "task_record": "Allrecipes--28/Allrecipes--28_20261113_091549",
+  "task_definition_sha256": "7fadd19d6c685bea0407f2cd8c38c04b8be997595dbaeb6864e821f23b27fe5e",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Allrecipes--28/Allrecipes--28_20261113_091549"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Found the 'Vegan Brownies' recipe on Allrecipes (https://www.allrecipes.com/recipe/68436/vegan-brownies/). Rating: 4.6 (978 ratings, 835 reviews — exceeds the 4.5 rating and 40 review thresholds). Ingredients: 2 cups all-purpose flour; 2 cups granulated white sugar; ¾ cup good-quality unsweetened cocoa powder, sifted; 1 teaspoon baking powder; ¾ teaspoon salt; 1 cup hot water or coffee; ½ cup vegetable oil; 2 teaspoons vanilla extract. Times: Prep 15 mins, Cook 30 mins, Total 55 mins. Preparation overview: (1) Preheat oven to 350°F (175°C) and grease a 9x13-inch dish; (2) Whisk flour, sugar, cocoa powder, baking powder, and salt in a large bowl; (3) Add water/coffee, oil, and vanilla; mix until blended and spread in dish; (4) Bake about 30 minutes until top is no longer shiny and center feels just set; (5) Cool at least 10 minutes before cutting into 15 squares.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_3_recipe_rating_reviews.png",
+      "sha256": "5278b38ca68c318b06c90df7cf94400743706fd38e6067959020a53dcb8f3ef8"
+    },
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_4_ingredients.png",
+      "sha256": "8b491f5ca79b678c10df84360203c37c4e6c5068d4728431ba55313ff576c4ec"
+    },
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_5_times.png",
+      "sha256": "1d2a07a00d06468d5b5b8eec99c526695d9dc4771c437623e6dfde6a85ed4057"
+    },
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_6_directions.png",
+      "sha256": "92478944dd819a9b0a30667bd5c47aa71726e503ff8fc6093a140e69d7f9d30d"
+    },
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+      "sha256": "75c095ac24f46f582aeaab34ccc882fcef097502d70dee676d63ec469cbd531b"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "75e6e9fea1df402e45c99343b500a39c57b9371b7b98addc3c2f014e2da61220",
+  "fingerprint": "e287822d4b915704a9bb85be2760beb26538b66b6b7e52f91c51e1d089d9de57",
+  "evaluated_at": "2026-11-16T10:15:10.244988+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements Checklist\n\n**1. Find a vegan brownie recipe on Allrecipes:**\n✓ The screenshots show the \"Vegan Brownies\" recipe page on Allrecipes (submitted by SANDYWIFE215), matching the URL cited in the response.\n\n**2. At least 40 reviews:**\n✓ The screenshot clearly displays \"835 Reviews\" — far exceeding the 40-review threshold.\n\n**3. Rating of 4.5 or higher:**\n✓ The screenshot shows a 4.6 rating (978 ratings), which meets the ≥4.5 requirement.\n\n**4. List of ingredients:**\n✓ Screenshot 4 shows the full Ingredients section: 2 cups all-purpose flour; 2 cups granulated white sugar; ¾ cup good-quality unsweetened cocoa powder, sifted; 1 teaspoon baking powder; ¾ teaspoon salt; 1 cup hot water or coffee; ½ cup vegetable oil; 2 teaspoons vanilla extract. This matches the ingredient list in the response exactly.\n\n**5. Total prep and cook time:**\n✓ The screenshots show Prep Time: 15 mins, Cook Time: 30 mins, Additional Time: 10 mins, and Total Time: 55 mins. The response accurately reports these times.\n\n**6. Brief overview of preparation steps:**\n✓ Screenshot 4 shows Directions Step 1 (preheat oven to 350°F/175°C, grease 9x13-inch dish, line with parchment) and Step 2 (whisk flour, sugar, cocoa powder, baking powder, and salt). The response's overview steps 1 and 2 match these exactly. Steps 3–5 (mixing wet ingredients, baking ~30 minutes, cooling 10 minutes) are not visible in the screenshots, but per evaluation guidelines, content in the result response not shown on the screenshot should be believed — and these steps are consistent with the visible recipe details (30-min cook time, 10-min additional time, 15 servings).\n\n## Conclusion\n\nAll task components are satisfied: the recipe meets the review count (835 ≥ 40) and rating (4.6 ≥ 4.5) criteria, and the response provides the complete ingredient list, prep/cook/total times, and a preparation overview that aligns with the visible directions.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8326,
+    "completion_tokens": 1275,
+    "total_tokens": 9601,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 787
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:15:10.733586+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_3_recipe_rating_reviews.png",
+      "source_sha256": "5278b38ca68c318b06c90df7cf94400743706fd38e6067959020a53dcb8f3ef8",
+      "source_bytes": 678957,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 202670,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "0c98005f682049b492e5eecee164e244fc0d81a868d824c6eec65ffae6be4a83"
+    },
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_4_ingredients.png",
+      "source_sha256": "8b491f5ca79b678c10df84360203c37c4e6c5068d4728431ba55313ff576c4ec",
+      "source_bytes": 654190,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 194381,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "6c7fd1b11e13c0b04e8671470a2810898ef69cb8fd19f28cc94b2f98073d1832"
+    },
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_5_times.png",
+      "source_sha256": "1d2a07a00d06468d5b5b8eec99c526695d9dc4771c437623e6dfde6a85ed4057",
+      "source_bytes": 1048619,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 240742,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "f85506065ed76355d0de0546b8cf8e8aa5c25cfd1c0a5ea41e08cad6fb8f6676"
+    },
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_6_directions.png",
+      "source_sha256": "92478944dd819a9b0a30667bd5c47aa71726e503ff8fc6093a140e69d7f9d30d",
+      "source_bytes": 531296,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 151021,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "90b2e0883e6c49ab680cf66549b9c7903d27dcf27661dfd720073209ddf963a5"
+    },
+    {
+      "path": "Allrecipes--28/Allrecipes--28_20261113_091549/final_runs/run_002/screenshots/final_execution_7_final_state.png",
+      "source_sha256": "75c095ac24f46f582aeaab34ccc882fcef097502d70dee676d63ec469cbd531b",
+      "source_bytes": 712269,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 211480,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "4a41a9220f6aed0a4ffe16044e7cd7ecb7ce96712451e7a6fcddd382f0799fd9"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1337700,
+  "response_id": "a52b1ceb-20bf-4039-bb31-a79df02a6919",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1969,
+    "reasoning_content_chars": 2943
+  }
+}

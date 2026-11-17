@@ -1,0 +1,211 @@
+{
+  "task_id": "Coursera--37",
+  "website": "Coursera",
+  "task": "Browse the Coursera homepage and list at least three free courses.",
+  "task_record": "Coursera--37/Coursera--37_20261115_083656",
+  "task_definition_sha256": "4b4d15086b1594e22546281e03465d8ee3906ea0fc25b7def52da0ef1df67dce",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Coursera--37/Coursera--37_20261115_083656"
+  ],
+  "final_run": "run_001",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Free courses on Coursera (from the site's Free Courses listing, https://www.coursera.org/courses?query=free, reached by clicking the homepage 'Free Courses' link): 1. Getting Started with Microsoft Excel; 2. Marketing Design with Easil; 3. Build a free website with WordPress; 4. Introduction of Project Management with ClickUp; 5. Creating a Free Business Page with Blogger; 6. How to Use Lookup Reference Math and Text Functions in Excel. Each listed course card displays a 'Category: Free'/'Free' badge on the free-filtered results page.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_1_homepage.png",
+      "sha256": "6e3a114dfc077284de78f51520583a90030e325b241a8c3b77f18631d1101a6e"
+    },
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_2_free_courses_link.png",
+      "sha256": "254268b130fbe0b87c2d7e5c261a9f0890729d72749678ad83f8521a7b8200d6"
+    },
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_3_free_courses_results.png",
+      "sha256": "1f96753b8a834f6f7ed0fb433f668a5267838eb080dd4540472e1a80573fe943"
+    },
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_4_verified_free_courses.png",
+      "sha256": "1f96753b8a834f6f7ed0fb433f668a5267838eb080dd4540472e1a80573fe943"
+    },
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+      "sha256": "1f96753b8a834f6f7ed0fb433f668a5267838eb080dd4540472e1a80573fe943"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "4fec7be31b0f79b056ddbfc2f6f8fbd0861aaa522a95da323e442bf468e0d6ed",
+  "fingerprint": "570910a8130a0c566ab55bbea23252585c30e419933d0249fabb1e6d76db0d84",
+  "evaluated_at": "2026-11-16T10:13:06.247135+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nThe task required:\n1. Browsing the Coursera homepage\n2. Listing at least three free courses\n\n## Screenshot Verification\n\n**Screenshot 1 & 2 (Coursera Homepage):** These show the Coursera homepage was successfully accessed, including the main content area and the footer. Notably, the footer contains a \"Free Courses\" link under the \"Community\" section, which aligns with the response's claim that the Free Courses listing was reached by clicking the homepage's 'Free Courses' link.\n\n**Screenshots 3-5 (Free Courses Page):** These show the \"Free Courses\" results page with \"Popular Free Courses\" displayed. The following courses are visible with \"Free\" badges on their cards:\n- Getting Started with Microsoft Excel (Free badge ✓)\n- Marketing Design with Easil (Free badge ✓)\n- Build a free website with WordPress (Free badge ✓)\n- Introduction to Project Management with ClickUp (Free badge ✓)\n- Creating a Free Business Page with Blogger (Free badge ✓)\n\n## Response Verification\n\nThe response lists six free courses:\n1. Getting Started with Microsoft Excel ✓ (matches screenshot)\n2. Marketing Design with Easil ✓ (matches screenshot)\n3. Build a free website with WordPress ✓ (matches screenshot)\n4. Introduction of Project Management with ClickUp ✓ (matches screenshot, minor wording difference \"of\" vs \"to\")\n5. Creating a Free Business Page with Blogger ✓ (matches screenshot)\n6. How to Use Lookup Reference Math and Text Functions in Excel (not visible in screenshots, but per evaluation guidelines, content in the response not shown on the screenshot can be believed)\n\n## Conclusion\n\nThe task required listing **at least three** free courses, and the response provided **six** courses, five of which are directly verified by the screenshots showing \"Free\" badges on the course cards. The homepage was browsed (as shown in the first two screenshots), and the free courses were properly identified. All requirements of the task have been fulfilled.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8174,
+    "completion_tokens": 1054,
+    "total_tokens": 9228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 630
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:13:06.896208+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_1_homepage.png",
+      "source_sha256": "6e3a114dfc077284de78f51520583a90030e325b241a8c3b77f18631d1101a6e",
+      "source_bytes": 824668,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 296717,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "b19bdea7c8daed4aab978286da80e154ef724b0b103d3aa5ee9cb4ccb8d11f44"
+    },
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_2_free_courses_link.png",
+      "source_sha256": "254268b130fbe0b87c2d7e5c261a9f0890729d72749678ad83f8521a7b8200d6",
+      "source_bytes": 169811,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 190793,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9128cf0b9c97fd4c3a5bec9406527f5bdd1ed0ffbc27f5f8aadde3d68d00a0a2"
+    },
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_3_free_courses_results.png",
+      "source_sha256": "1f96753b8a834f6f7ed0fb433f668a5267838eb080dd4540472e1a80573fe943",
+      "source_bytes": 725702,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 271078,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5cf4cbb99e5d365d3d126f0e1b3836e7347b0c2ee7f9463ec5e4db65e0172241"
+    },
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_4_verified_free_courses.png",
+      "source_sha256": "1f96753b8a834f6f7ed0fb433f668a5267838eb080dd4540472e1a80573fe943",
+      "source_bytes": 725702,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 271078,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5cf4cbb99e5d365d3d126f0e1b3836e7347b0c2ee7f9463ec5e4db65e0172241"
+    },
+    {
+      "path": "Coursera--37/Coursera--37_20261115_083656/final_runs/run_001/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "1f96753b8a834f6f7ed0fb433f668a5267838eb080dd4540472e1a80573fe943",
+      "source_bytes": 725702,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 271078,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "5cf4cbb99e5d365d3d126f0e1b3836e7347b0c2ee7f9463ec5e4db65e0172241"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1737817,
+  "response_id": "9f82c426-5efd-41cc-8b52-558ebf7f796f",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2014,
+    "reasoning_content_chars": 2965
+  }
+}

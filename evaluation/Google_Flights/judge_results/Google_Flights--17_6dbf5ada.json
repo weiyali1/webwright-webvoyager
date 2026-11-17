@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Flights--17",
+  "website": "Google Flights",
+  "task": "Find the cheapest round-trip flight from New York to Paris leaving on November 27, 2026, and returning on December 10, 2026.",
+  "task_record": "Google Flights--17/Google Flights--17_20261114_004223",
+  "task_definition_sha256": "5e074a403129238558b0a95d760ef27f0d286e03463ae5908f90f65ca267bbc6",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Flights--17/Google Flights--17_20261114_004223"
+  ],
+  "final_run": "run_007",
+  "answer_input_mode": "answer.txt only",
+  "answer": "Cheapest round-trip flight New York -> Paris (departing Nov 27, 2026, returning Dec 10, 2026) found on Google Flights: HK$4,575 round trip total with TAP Air Portugal. Outbound: leaves Newark Liberty International Airport (EWR) at 12:10 AM on Friday, Nov 27 and arrives at Paris Orly Airport (ORY) at 7:45 PM, 1 stop with a 4 hr 10 min layover at Lisbon Airport, total duration 13 hr 35 min. Results page showed 17 results for New York to Paris (2026-11-27 to 2026-12-10), sorted by Price via the sort control ('Sorted by price'), with the Cheapest tab confirming 'Cheapest from HK$4,575'.",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_4_departure_nov27.png",
+      "sha256": "df3bcf6f549f7bc649f368f72f191111b7fcee95785ce4be6e54bfcdf5a1726e"
+    },
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_5_return_dec10.png",
+      "sha256": "be290bdbfc4cda8c0faf80c71730efda617d4f873beeaf27b40638e32d1a6c0e"
+    },
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_6_search_results.png",
+      "sha256": "4f9c973672c9a8e205b461ed5521db5069eae607958142ab846e1f873d3432c9"
+    },
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_7_sorted_by_price.png",
+      "sha256": "c606b579b143f9b4aa48c56a5f0cb6e2e3135be8e53235fa05811de72bc6f7c6"
+    },
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_8_cheapest_result.png",
+      "sha256": "c606b579b143f9b4aa48c56a5f0cb6e2e3135be8e53235fa05811de72bc6f7c6"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "d01d38028e9bff082f061b14b5840bd25ba3ca44c0805fad04f43f5daaa351cb",
+  "fingerprint": "1a4b8aaa83e7a92a738de0f881591955787744126c7f9e6f8b7244f13a087627",
+  "evaluated_at": "2026-11-16T10:25:47.903346+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "# Evaluation Analysis\n\n## Task Requirements\nFind the cheapest round-trip flight from New York to Paris, departing November 27, 2026, returning December 10, 2026.\n\n## Verification Against Screenshots\n\n**1. Search Parameters (Screenshots 1-2):**\n- Origin set to \"New York\" ✓\n- Departure date selected: \"Fri, Nov 27\" ✓ (Nov 27, 2026 falls on a Friday, consistent with the requested year)\n- Return date selected: \"Thu, Dec 10\" ✓ (Dec 10, 2026 falls on a Thursday, consistent with 2026)\n- Round trip mode selected ✓\n\n**2. Results Page (Screenshots 3-5):**\n- Route confirmed: New York → Paris, Fri, Nov 27 – Thu, Dec 10 ✓\n- The \"Cheapest\" tab shows \"Cheapest from HK$4,575\" ✓\n- Results sorted by price (\"Sorted by price\" control visible) ✓\n- The top result after sorting is TAP Air Portugal: 12:10 AM – 7:45 PM, 13 hr 35 min, 1 stop (4 hr 10 min LIS layover), EWR–ORY, HK$4,575 round trip ✓\n\n**3. Response Consistency with Screenshots:**\n- Price HK$4,575 round trip — matches screenshot ✓\n- TAP Air Portugal — matches screenshot ✓\n- Departs EWR at 12:10 AM, arrives ORY at 7:45 PM — matches screenshot ✓\n- 1 stop, 4 hr 10 min layover at Lisbon (LIS) — matches screenshot ✓\n- Total duration 13 hr 35 min — matches screenshot ✓\n- The claim of \"17 results\" is not directly countable in the screenshots, but per evaluation guidance, unverifiable textual claims can be accepted, and it is plausible given the visible list continues beyond the screenshot.\n\nThe cheapest flight was correctly identified, verified against the \"Cheapest\" tab (HK$4,575), and confirmed by sorting results by price where the TAP Air Portugal flight appears first. All flight details in the response align with the screenshots.\n\n## Verdict\n**SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 8238,
+    "completion_tokens": 1690,
+    "total_tokens": 9928,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1215
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T10:25:48.432505+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_4_departure_nov27.png",
+      "source_sha256": "df3bcf6f549f7bc649f368f72f191111b7fcee95785ce4be6e54bfcdf5a1726e",
+      "source_bytes": 294376,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 186392,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "34212d24ec9ac04a4a0ac2211e763a87613346a63272e666deb8a09bb2b50e1e"
+    },
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_5_return_dec10.png",
+      "source_sha256": "be290bdbfc4cda8c0faf80c71730efda617d4f873beeaf27b40638e32d1a6c0e",
+      "source_bytes": 283208,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 180314,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "9d040f2351db485d46068065be0a31a9d76c65bd97e3689478d2c8abce537305"
+    },
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_6_search_results.png",
+      "source_sha256": "4f9c973672c9a8e205b461ed5521db5069eae607958142ab846e1f873d3432c9",
+      "source_bytes": 298665,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 217643,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "15a51c7bde34a8c26348e83b5a83efaae3c2617c9ff0c161a17c4b32e2dd246a"
+    },
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_7_sorted_by_price.png",
+      "source_sha256": "c606b579b143f9b4aa48c56a5f0cb6e2e3135be8e53235fa05811de72bc6f7c6",
+      "source_bytes": 299921,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 222710,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3eb0f34585a87460f4b0abeca49e50eac9a3780b313638294e7554cba2c43af3"
+    },
+    {
+      "path": "Google Flights--17/Google Flights--17_20261114_004223/final_runs/run_007/screenshots/final_execution_8_cheapest_result.png",
+      "source_sha256": "c606b579b143f9b4aa48c56a5f0cb6e2e3135be8e53235fa05811de72bc6f7c6",
+      "source_bytes": 299921,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1800
+      ],
+      "transmitted_dimensions": [
+        910,
+        1280
+      ],
+      "transmitted_bytes": 222710,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "3eb0f34585a87460f4b0abeca49e50eac9a3780b313638294e7554cba2c43af3"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 1376620,
+  "response_id": "0065a4f6-b94a-474d-aba7-c6ad80fe0468",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 1716,
+    "reasoning_content_chars": 4252
+  }
+}

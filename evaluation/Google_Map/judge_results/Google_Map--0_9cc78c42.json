@@ -1,0 +1,211 @@
+{
+  "task_id": "Google Map--0",
+  "website": "Google Map",
+  "task": "Find 5 beauty salons with ratings greater than 4.8 in Seattle, WA.",
+  "task_record": "Google Map--0/Google Map--0_20261114_022048",
+  "task_definition_sha256": "800d7f5a787b071d8fc71ba78df3f75cab14ce08580af4d8754b55df1fdadc39",
+  "candidate_record_count": 1,
+  "candidate_records": [
+    "Google Map--0/Google Map--0_20261114_022048"
+  ],
+  "final_run": "run_002",
+  "answer_input_mode": "answer.txt only",
+  "answer": "5 beauty salons in Seattle, WA with ratings greater than 4.8 (Google Maps, dedicated rating filter set to the highest available threshold 4.5+, ratings verified from page content): 1) Lady Neptune Hair Salon, University District - rating 5.0; 2) Lady Neptune Hair Salon, Capitol Hill - rating 5.0; 3) Salon Mérite – Luxury Hair Salon & Balayage Seattle WA - rating 4.9; 4) Antonio Salon - rating 4.9; 5) Aurora Beauty - Head Spa - rating 5.0",
+  "answer_source": "answer.txt",
+  "screenshots": [
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_2_search_results.png",
+      "sha256": "fe1fb3008e6aee6e1434d1bc9c5cc9123675e85247ac83a1612ef59da6020ae6"
+    },
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_3_rating_filter_applied.png",
+      "sha256": "b0ef21bd47013f85d6cdc71169c330ae163564e7b83a98cfb51fae1e0e4733f6"
+    },
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_3_rating_menu.png",
+      "sha256": "71a36726ae41ecc66d4301304d0adeb9dac119bf59f11c58e6e92b38ef626214"
+    },
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_4_five_salons_over_48.png",
+      "sha256": "790521304da4e3c8fc9841b2885656b911068d6ca57ea7a659f4d17619f6cd12"
+    },
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_5_final_state.png",
+      "sha256": "d3328df67ad7a5b1062f4b1c02e0cb29f60dc6180172e20822aff984eff90cb9"
+    }
+  ],
+  "screenshot_order": "run_manifest_sequence",
+  "input_error": null,
+  "answer_file_sha256": "3f111f1536f86758c89f763c36fad328192747650a7318c9f1dfbbde6922d994",
+  "fingerprint": "2bacb93896a8383d3da03c875ceabc13e2b3cc7da5b7bbd71fd3171bad8b4d65",
+  "evaluated_at": "2026-11-16T09:56:52.692994+00:00",
+  "status": "success",
+  "predicted_label": 1,
+  "judge_reasoning": "## Evaluation Analysis\n\n**Task Requirement:** Find 5 beauty salons with ratings greater than 4.8 in Seattle, WA.\n\n**Step 1 — Verify the search was performed correctly:**\nThe screenshots show a Google Maps search for \"beauty salons in Seattle, WA\" with results listed along the Seattle map area. The agent also opened the rating filter dropdown (screenshot 3), which shows the highest available filter threshold is 4.5★ — Google Maps does not offer a 4.9+ filter. The agent reasonably applied the 4.5+ filter (visible as \"✓ 4.5★\" in screenshots 2, 4, 5) and then manually verified ratings from page content, which is a valid approach.\n\n**Step 2 — Verify each salon in the response against the screenshots:**\n\n1. **Lady Neptune Hair Salon, University District — 5.0** ✓ Confirmed in the results list (5.0, 526 reviews, 5611 University Wy NE).\n2. **Lady Neptune Hair Salon, Capitol Hill — 5.0** ✓ Confirmed in the results list (5.0, 167 reviews, 1525 E Olive Wy Ste b2).\n3. **Salon Mérite – Luxury Hair Salon & Balayage Seattle WA — 4.9** ✓ Confirmed in the results list (4.9, 163 reviews, 2135 E. John St).\n4. **Antonio Salon — 4.9** — The salon appears as a labeled pin on the map (screenshots 2, 4, 5); its rating is not displayed on the screenshot, so per evaluation rules, the response content (4.9) is believed.\n5. **Aurora Beauty - Head Spa — 5.0** — The salon appears as a labeled pin on the map (West Seattle area); its rating is not displayed on the screenshot, so the response content (5.0) is believed.\n\n**Step 3 — Check the rating criterion (> 4.8):**\nAll five listed salons have ratings of 5.0, 5.0, 4.9, 4.9, and 5.0 respectively — every one exceeds 4.8. The agent correctly excluded salons with 4.8 or lower (e.g., Vann Studio Salon 4.8, Fix Salon Seattle 4.8, Ella and Oz Salon 4.8, Liana Hair Salon 4.7) that appear in the filtered list.\n\n**Step 4 — Check location criterion:**\nAll results come from the \"beauty salons in Seattle, WA\" search, and the map pins are located within Seattle (University District, Capitol Hill, East John St, West Seattle).\n\n**Conclusion:** The task required finding 5 beauty salons with ratings greater than 4.8 in Seattle, WA. The response delivers exactly 5 qualifying salons, 3 of which are directly verified in the screenshots and 2 corroborated by map pins with ratings supplied in the response. All criteria are satisfied.\n\n**Verdict: SUCCESS**",
+  "api_attempts": 1,
+  "response_model": "glm-5.3-flash",
+  "usage": {
+    "prompt_tokens": 9095,
+    "completion_tokens": 2832,
+    "total_tokens": 11927,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2171
+    }
+  },
+  "error": null,
+  "api_attempt_history": [
+    {
+      "attempt": 1,
+      "started_at": "2026-11-16T09:56:54.092976+00:00",
+      "outcome": "response"
+    }
+  ],
+  "screenshot_count": 5,
+  "image_transports": [
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_2_search_results.png",
+      "source_sha256": "fe1fb3008e6aee6e1434d1bc9c5cc9123675e85247ac83a1612ef59da6020ae6",
+      "source_bytes": 924822,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 348190,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "7cbd9542ab03182e400a1d2696d2ed47a981e42712f25f5bf35528a02904e315"
+    },
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_3_rating_filter_applied.png",
+      "source_sha256": "b0ef21bd47013f85d6cdc71169c330ae163564e7b83a98cfb51fae1e0e4733f6",
+      "source_bytes": 915226,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 346185,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "298e715e8e2a5573f74bd58fe691a1e7ebbcf33281d4b943f9923c47520b8b6a"
+    },
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_3_rating_menu.png",
+      "source_sha256": "71a36726ae41ecc66d4301304d0adeb9dac119bf59f11c58e6e92b38ef626214",
+      "source_bytes": 932616,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 353646,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "c7f88fc7ec123e4f253cb69747438a265463e93ae0252ab581b2ead574883e8e"
+    },
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_4_five_salons_over_48.png",
+      "source_sha256": "790521304da4e3c8fc9841b2885656b911068d6ca57ea7a659f4d17619f6cd12",
+      "source_bytes": 915377,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 345401,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "13fefc0b3bb6b753231209e03245c3b0afc926603686017864946eb99637836c"
+    },
+    {
+      "path": "Google Map--0/Google Map--0_20261114_022048/final_runs/run_002/screenshots/final_execution_5_final_state.png",
+      "source_sha256": "d3328df67ad7a5b1062f4b1c02e0cb29f60dc6180172e20822aff984eff90cb9",
+      "source_bytes": 915376,
+      "transport_policy": {
+        "format": "jpeg",
+        "quality": 85,
+        "subsampling": 0,
+        "resize": true,
+        "crop": false,
+        "alpha_background": "white",
+        "pillow_version": "13.0.0",
+        "max_size": "1280x1280"
+      },
+      "source_dimensions": [
+        1280,
+        1600
+      ],
+      "transmitted_dimensions": [
+        1024,
+        1280
+      ],
+      "transmitted_bytes": 345401,
+      "transmitted_mime": "image/jpeg",
+      "transmitted_sha256": "13fefc0b3bb6b753231209e03245c3b0afc926603686017864946eb99637836c"
+    }
+  ],
+  "request_options": {
+    "image_detail": "default",
+    "thinking": "on"
+  },
+  "attached_image_count": 5,
+  "request_json_bytes": 2321821,
+  "response_id": "4b0fe8ae-2993-44ef-876b-9d49520d7538",
+  "finish_reason": "stop",
+  "response_diagnostics": {
+    "content_chars": 2394,
+    "reasoning_content_chars": 7998
+  }
+}
