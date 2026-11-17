@@ -54,7 +54,7 @@ This documentation update does not change any file under `benchmark/`. Task inst
 
 All 615 execution configuration snapshots record a 400-step agent-loop limit, an eight-hour runtime limit, and a 30-minute idle limit. These are configured limits, not measured consumption. Internal `final_runs/run_NNN` indices describe execution/repair iterations, not independent benchmark tasks. In this batch, 357 selected runs have indices of at least 2; the maximum selected index is 22.
 
-The evaluator selects the newest timestamped task record and then the highest numeric `run_NNN` within it, without consulting its internal pass/fail label or falling back to an earlier successful run. Each task ID contributes one result.
+The evaluator uses the highest numeric `run_NNN` within each task record, without consulting its internal pass/fail label or falling back to an earlier successful run. Each task ID contributes one result.
 
 The agent uses its internal self-check feedback to guide repair and stopping before the final run is sent for external judging. The final benchmark label comes from the separate GLM evaluation or missing-evidence validation.
 

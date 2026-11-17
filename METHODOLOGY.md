@@ -46,7 +46,7 @@ The highest-numbered run is the final saved output of this workflow, which uses 
 
 ## Frozen Input Selection
 
-For each unique task ID, the evaluator selects the newest timestamped task record and then its highest numeric `final_runs/run_NNN`. It does not consult an internal success label, choose a run based on the external verdict, or fall back to an earlier run.
+The evaluator uses the highest numeric `final_runs/run_NNN` within each task record. It does not consult an internal success label, choose a run based on the external verdict, or fall back to an earlier run.
 
 The request contains:
 
