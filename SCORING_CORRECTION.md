@@ -1,53 +1,116 @@
-# Judge-Output Parsing and Scoring Correction
+# Judge Errors and First-Valid-Verdict Scoring
 
-> **Documentation draft for the 2026-11-16 batch.** Numerical values and task-specific details below are retained from the earlier submission as a template. They will be updated after this batch's evaluation is complete.
+This report applies to the completed `webvoyager-2026-11-16` batch. It replaces carried-over template descriptions with this batch's actual records. The final result is **599 SUCCESS, 14 NOT SUCCESS, and two missing-evidence outcomes out of 615**, with **zero unresolved tasks** and a success rate of **97.40%**.
 
-Evaluation-output paths in backticks are planned paths relative to the repository root; the corresponding judge records and summaries have not yet been published.
+The authoritative aggregate is [`evaluation/summary.json`](evaluation/summary.json). Its `task_results` entries identify each selected record, raw status, response ID, generation cap, fingerprint, and selection method. The original evaluator and saved per-round records are unchanged by this report.
 
-## Judge-Side Errors and Scoring Correction
+## First-Round Saved Statuses
 
-The original evaluation script and all raw judge outputs are preserved
-unchanged.
+The 15 website-level `all_results.json` files together contain exactly 615 unique task IDs:
 
-The original harness recorded 11 initial outputs as parse_error and
-rejudged them using identical frozen inputs. Its last-line-only parser
-missed verdicts followed by explanatory text.
+| Saved first-round status | Tasks |
+| --- | ---: |
+| `success` | 591 |
+| `failure` | 12 |
+| `parse_error` | 10 |
+| `missing_evidence` | 2 |
+| **Total** | **615** |
 
-Final scoring was reconstructed from the saved judge texts using the
-upstream WebVoyager parsing rule:
+These are the saved states after the website processes and any resumptions, not a claim that each task needed only one HTTP request. First-round raw parse errors remain visible in the repository; aggregation does not overwrite them.
 
-- An output containing NOT SUCCESS is unsuccessful.
-- Otherwise, an output containing SUCCESS is successful.
-- An output containing neither remains unparseable.
+## API Errors Are Not Verdicts
 
-Matching is case-sensitive, as in the upstream implementation.
-Each task uses its earliest definitive judgment under this rule.
+The evaluator treats retryable transport failures, including read timeouts, as `api_error`. The launch settings allowed three additional API attempts, with ordinary transport backoff of 2, 4, and 8 seconds. After exhaustion it saved the error, stopped that process, and left unfinished tasks pending. Website evaluations were resumed in their original directories with the same configuration and selection manifest.
 
-Reparsing the 11 initial outputs identifies two initial failures,
-three initial successes, and six initially unparseable outputs.
+`--resume` skips saved `success`, `failure`, `missing_evidence`, and `parse_error` statuses. It can retry API/evaluation errors and pending tasks. An infrastructure failure is never relabeled NOT SUCCESS solely to complete the score. Error/attempt histories are retained where the harness saved them; they are not represented as an exhaustive append-only log of every launch.
 
-The five rejudgments following an already parseable initial result
-remain published for auditing but are excluded from result selection:
+The final published `Wolfram Alpha--43` retry records four API attempts: three transport timeouts followed by a real GLM SUCCESS response with `finish_reason: stop`. Its configured cap is 131072, while reported completion usage is 27986 tokens. Neither the timeouts nor the cap alone establish why earlier requests did not return a verdict.
 
-- Apple--21: use the initial SUCCESS.
-- ArXiv--38: use the initial NOT SUCCESS.
-- ESPN--29: use the initial SUCCESS.
-- Google Flights--26: use the initial SUCCESS.
-- Google Search--39: use the initial NOT SUCCESS.
+## Parse Errors and Literal Verdict Recovery
 
-Only the six initially unparseable cases use later judgments.
+The original parser checks the final non-empty response line. It can miss an explicit verdict when explanatory text follows it. It also rejects `finish_reason: length` as truncated. The provider's `reasoning_content` is not treated as a final answer; recovery examines the saved textual `judge_reasoning` only.
 
-ArXiv--38 changes from success to failure. The other four tasks retain
-their final outcome labels, but use their initial evaluation records.
+For offline recovery, output must be complete (`finish_reason: stop`). After stripping presentation Markdown, a line must explicitly state SUCCESS or NOT SUCCESS, optionally with a verdict-style label and a trailing explanation. Matching is case-sensitive, and contradictory explicit labels make the output ambiguous. The audit does not infer a verdict from generally favorable prose or use an arbitrary substring occurrence of SUCCESS.
 
-The corrected total is 600 successes, 11 failures, and 4 missing-evidence
-tasks out of 615.
+Five initial `parse_error` records already contain such an explicit final verdict. They supply the first valid result even though their raw status remains `parse_error`:
 
-Success rate = 600 / 615 × 100% = 97.5609756%, displayed as 97.56%.
+| Task | Initial explicit GLM verdict | Selection |
+| --- | --- | --- |
+| `BBC News--28` | SUCCESS | Retain first-round response |
+| `Cambridge Dictionary--12` | NOT SUCCESS | Retain first-round response |
+| `Cambridge Dictionary--27` | SUCCESS | Retain first-round response |
+| `Cambridge Dictionary--40` | SUCCESS | Retain first-round response |
+| `Google Search--0` | SUCCESS | Retain first-round response |
 
-All raw records retain their historically saved status fields.
-Corrected selections and provenance are recorded in
-evaluation/webvoyager-2026-11-16/merged_results.json and evaluation/webvoyager-2026-11-16/REJUDGMENT_AUDIT.json.
+Their later duplicate judgments remain published but do not replace those earlier outcomes. In particular, `Cambridge Dictionary--12` is a failure from its earliest explicit GLM verdict. This is literal extraction of a saved model judgment, not an assistant/manual regrading of the task. The `selection_method` is `offline_explicit_verdict_line`.
 
-This correction involved no additional model calls or browser-task
-executions. The original evaluation script remains unchanged.
+## All Ten Initial Parse-Error Tasks
+
+| Task | Initial issue | First valid selected outcome | Selected cap |
+| --- | --- | --- | ---: |
+| `ArXiv--7` | Token-limited output in website summary; separate saved API-error state also exists | NOT SUCCESS, first supplement | 65536 |
+| `ArXiv--15` | Token-limited output | SUCCESS, second supplement | 131072 |
+| `BBC News--28` | Explicit verdict followed by explanation | SUCCESS, initial response | 32768 |
+| `Cambridge Dictionary--12` | Explicit verdict followed by explanation | NOT SUCCESS, initial response | 32768 |
+| `Cambridge Dictionary--15` | No explicit SUCCESS / NOT SUCCESS verdict line | SUCCESS, first supplement | 65536 |
+| `Cambridge Dictionary--27` | Explicit verdict followed by explanation | SUCCESS, initial response | 32768 |
+| `Cambridge Dictionary--40` | Explicit verdict followed by explanation | SUCCESS, initial response | 32768 |
+| `Google Flights--13` | No explicit SUCCESS / NOT SUCCESS verdict line | SUCCESS, first supplement | 65536 |
+| `Google Search--0` | Explicit verdict followed by explanation | SUCCESS, initial response | 32768 |
+| `Wolfram Alpha--43` | Token-limited output | SUCCESS, final published retry | 131072 |
+
+The remaining five tasks without an earlier explicit verdict therefore contribute four successes and one failure from later GLM responses. The selected input fingerprints, task definitions, answer hashes, and run selections agree across their published rounds.
+
+## Supplement Rounds and Generation Budgets
+
+The initial 10 harness-marked parse errors were submitted again at 65536 tokens. At that point, the five explicit verdicts above had not been recovered by the offline audit, so those five also received duplicate judge calls. The final selection excludes those duplicates rather than selecting whichever response is more favorable.
+
+| Published supplement directory | Tasks | Actual cap | Saved raw outcomes |
+| --- | ---: | ---: | --- |
+| [`parse_error_retry_65536_20261116_215118`](evaluation/parse_error_retry_65536_20261116_215118/) | 10 | 65536 | 6 success, 2 failure, 1 parse error, 1 API error |
+| [`parse_error_retry_65536_20261117_000041`](evaluation/parse_error_retry_65536_20261117_000041/) | 2 | 131072 | `ArXiv--15` success; `Wolfram Alpha--43` API error |
+| [`wolfram_alpha_43_retry_131072_20261117_075320_0001`](evaluation/wolfram_alpha_43_retry_131072_20261117_075320_0001/) | 1 | 131072 | `Wolfram Alpha--43` success |
+
+The original website rounds used `max_tokens: 32768`. Directory names do not determine actual settings; the second supplement contains 131072 in its `evaluation_config.json` despite `65536` in its name. Initial timeouts were 300 seconds; later documented retries increased the timeout to 900 seconds. Timeout settings are not stored in the round configuration JSON, so they must not be inferred from its token cap or directory name.
+
+The judge model, prompt hashes, temperature, seed policy, source screenshot cap, image transport, and request options are identical across the 18 configurations. Output budgets differ. This is disclosed as a variable-budget evaluation: increasing a cap can affect reasoning and verdicts, and fixed evidence does not guarantee identical decisions. The selection control is to retain the earliest valid judgment of either label, not to keep retrying a valid failure until it becomes a success.
+
+Only the offline extraction and aggregation made no new model calls. The supplements did make additional model calls. No browser-task execution was needed for the offline extraction or for judging the frozen saved evidence.
+
+## Final Selection and Denominator
+
+For each task ID, valid candidates are ordered by the saved `evaluated_at` timestamp and source path. That timestamp records evaluation start, not response completion. The earliest valid result is retained; later duplicates are excluded from scoring and remain available for inspection. No conflicting valid labels were found in the published candidate set.
+
+| Source of selected outcome | SUCCESS | NOT SUCCESS | Missing evidence | Tasks |
+| --- | ---: | ---: | ---: | ---: |
+| First-round structured verdicts | 591 | 12 | 0 | 603 |
+| First-round explicit verdict text recovery | 4 | 1 | 0 | 5 |
+| First valid 65536-token supplement verdicts | 2 | 1 | 0 | 3 |
+| First valid 131072-token supplement verdicts | 2 | 0 | 0 | 2 |
+| Input validation | 0 | 0 | 2 | 2 |
+| **Final total** | **599** | **14** | **2** | **615** |
+
+The two missing-evidence tasks are `Google Flights--12` and `Google Search--11`, both missing `answer.txt` in the selected run. They are not GLM failure responses, but both count as unsuccessful and remain in the 615-task denominator.
+
+The 14 first-valid NOT SUCCESS outcomes are:
+
+- ArXiv: `ArXiv--7`, `ArXiv--20`, `ArXiv--33`, `ArXiv--34`.
+- BBC News: `BBC News--24`.
+- Cambridge Dictionary: `Cambridge Dictionary--12`.
+- GitHub: `GitHub--6`, `GitHub--24`.
+- Google Flights: `Google Flights--36`, `Google Flights--38`.
+- Google Map: `Google Map--33`.
+- Google Search: `Google Search--2`, `Google Search--34`.
+- Wolfram Alpha: `Wolfram Alpha--33`.
+
+Success rate = 599 / 615 × 100% = 97.39837398%, displayed as 97.40%. Merging only the original evaluator's structured accepted statuses also gives 599 success, 14 failure, and two missing evidence; the literal-text recovery changes the selected provenance of five tasks, not these totals.
+
+## Preserved Historical Record Discrepancy
+
+For `ArXiv--7`, [`ArXiv/all_results.json`](evaluation/ArXiv/all_results.json) saves a token-limit `parse_error`, while its [individual judge record](evaluation/ArXiv/judge_results/ArXiv--7_b7c3b55a.json) saves an earlier timeout `api_error`. Both are unresolved historical states and neither supplies a valid verdict. The first valid result is NOT SUCCESS in the 65536-token supplement.
+
+Neither raw file was rewritten to conceal this discrepancy. It is also listed in `evaluation/summary.json` under `data_quality_notes`. Per-round historical summaries and errors should not be mistaken for the final task-deduplicated aggregate.
+
+## Publication Integrity
+
+The score is supported by the saved GLM responses and the evaluator's two input-validation outcomes. The publication copied 826 existing evaluation output files byte-for-byte and added `evaluation/summary.json`; the 18 raw rounds remain intact. This documentation update changes only `README.md`, `METHODOLOGY.md`, and `SCORING_CORRECTION.md`. It changes no task, task lock, screenshot, selected answer, evaluator script, or evaluation record.
