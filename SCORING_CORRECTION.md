@@ -16,7 +16,7 @@ The 15 website-level `all_results.json` files together contain exactly 615 uniqu
 | `missing_evidence` | 2 |
 | **Total** | **615** |
 
-These are the saved states after the website processes and any resumptions, not a claim that each task needed only one HTTP request. First-round raw parse errors remain visible in the repository; aggregation does not overwrite them.
+These are the saved states after the website processes and their resumptions. First-round raw parse errors remain visible in the repository; aggregation preserves those records.
 
 ## API Errors Are Not Verdicts
 
@@ -42,7 +42,7 @@ Five initial `parse_error` records already contain such an explicit final verdic
 | `Cambridge Dictionary--40` | SUCCESS | Retain first-round response |
 | `Google Search--0` | SUCCESS | Retain first-round response |
 
-Their later duplicate judgments remain published but do not replace those earlier outcomes. In particular, `Cambridge Dictionary--12` is a failure from its earliest explicit GLM verdict. This is literal extraction of a saved model judgment, not an assistant/manual regrading of the task. The `selection_method` is `offline_explicit_verdict_line`.
+Their later duplicate judgments remain published but do not replace those earlier outcomes. In particular, `Cambridge Dictionary--12` is a failure from its earliest explicit GLM verdict. The `selection_method` field records these literal verdict extractions as `offline_explicit_verdict_line`.
 
 ## All Ten Initial Parse-Error Tasks
 
@@ -71,11 +71,11 @@ The initial 10 harness-marked parse errors were submitted again at 65536 tokens.
 | [`parse_error_retry_65536_20261117_000041`](evaluation/parse_error_retry_65536_20261117_000041/) | 2 | 131072 | `ArXiv--15` success; `Wolfram Alpha--43` API error |
 | [`wolfram_alpha_43_retry_131072_20261117_075320_0001`](evaluation/wolfram_alpha_43_retry_131072_20261117_075320_0001/) | 1 | 131072 | `Wolfram Alpha--43` success |
 
-The original website rounds used `max_tokens: 32768`. Directory names do not determine actual settings; the second supplement contains 131072 in its `evaluation_config.json` despite `65536` in its name. Initial timeouts were 300 seconds; later documented retries increased the timeout to 900 seconds. Timeout settings are not stored in the round configuration JSON, so they must not be inferred from its token cap or directory name.
+The original website rounds used `max_tokens: 32768`. The second supplement contains 131072 in its `evaluation_config.json` despite `65536` in its directory name. Initial timeouts were 300 seconds; later documented retries increased the timeout to 900 seconds. Timeout settings are supplied by the launch command rather than stored in the round configuration JSON.
 
-The judge model, prompt hashes, temperature, seed policy, source screenshot cap, image transport, and request options are identical across the 18 configurations. Output budgets differ. This is disclosed as a variable-budget evaluation: increasing a cap can affect reasoning and verdicts, and fixed evidence does not guarantee identical decisions. The selection control is to retain the earliest valid judgment of either label, not to keep retrying a valid failure until it becomes a success.
+The judge model, prompt hashes, temperature, seed policy, source screenshot cap, image transport, and request options are identical across the 18 configurations. The output caps are 32768 for the first round, 65536 for the first supplement, and 131072 for the later supplements. The aggregate uses the earliest valid SUCCESS or NOT SUCCESS for each task; later duplicate verdicts remain in the published records.
 
-Only the offline extraction and aggregation made no new model calls. The supplements did make additional model calls. No browser-task execution was needed for the offline extraction or for judging the frozen saved evidence.
+Supplement rounds judge the same saved task instructions, selected answers, and screenshots. The aggregate combines the saved GLM responses using the first-valid-verdict rule described below.
 
 ## Final Selection and Denominator
 
@@ -109,7 +109,7 @@ Success rate = 599 / 615 × 100% = 97.39837398%, displayed as 97.40%. Merging on
 
 For `ArXiv--7`, [`ArXiv/all_results.json`](evaluation/ArXiv/all_results.json) saves a token-limit `parse_error`, while its [individual judge record](evaluation/ArXiv/judge_results/ArXiv--7_b7c3b55a.json) saves an earlier timeout `api_error`. Both are unresolved historical states and neither supplies a valid verdict. The first valid result is NOT SUCCESS in the 65536-token supplement.
 
-Neither raw file was rewritten to conceal this discrepancy. It is also listed in `evaluation/summary.json` under `data_quality_notes`. Per-round historical summaries and errors should not be mistaken for the final task-deduplicated aggregate.
+Both raw files retain their saved values. The discrepancy is also listed in `evaluation/summary.json` under `data_quality_notes`. The per-round files describe their saved states; the aggregate lists the final outcome selected for each task ID.
 
 ## Publication Integrity
 

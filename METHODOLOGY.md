@@ -36,13 +36,13 @@ The `config_snapshot/merged_config.yaml` files for all 615 submitted execution r
 
 These are configured limits and completion requirements, not measurements of resources consumed by each task. The step limit applies to the agent loop, rather than to all browser actions or model requests. The execution-model output cap is distinct from the external judge's output cap.
 
-**Internal retry policy:** Within each task record, the agent develops and executes a script, checks it using agent-generated critical points and expected answers, and retries script repair/execution until its own self-reflection check passes or configured stopping limits or an unrecoverable error end the task. With the two completion requirements above enabled, normal successful completion is configured to require a passing self-check and a task-success marker. The self-check therefore controls internal repair and successful stopping; it is not merely an unused annotation on an otherwise single-attempt execution.
+**Internal retry policy:** Within each task record, the agent develops and executes a script, checks it using agent-generated critical points and expected answers, and retries script repair/execution until its own self-reflection check passes or configured stopping limits or an unrecoverable error end the task. With the two completion requirements above enabled, normal successful completion is configured to require a passing self-check and a task-success marker. The self-check supplies repair feedback and gates successful completion.
 
-The reported score is a system-level result that includes these self-verified internal retries. It is not a single-attempt, no-retry baseline. Internal pass/fail labels are not external ground-truth labels, and an internal pass does not guarantee an external SUCCESS. A task can terminate on a limit or error without achieving its own success condition.
+The reported score is a system-level result that includes these self-verified internal retries. It is not a single-attempt, no-retry baseline. Internal pass/fail labels control the execution workflow; the external GLM evaluation supplies the final success/failure label. A task can also terminate on a configured limit or error.
 
 Numbered `final_runs/run_NNN` directories are internal execution/repair iterations. Of the 615 selected final runs, 258 are `run_001` and 357 have a numeric index of at least 2; the maximum selected index is 22. A selected index is not a count of independently scored benchmark attempts, and the maximum observed index is not an inferred configured retry limit.
 
-Each task ID contributes one final external outcome after this internal workflow; judge-side API/parse-error retries are described separately below. Selecting its latest/highest run without consulting the internal label at selection time does not undo the self-check's earlier role in deciding whether to repair, re-execute, or stop. Comparisons with systems that use a different internal retry or self-verification policy must account for that difference.
+The highest-numbered run is the final saved output of this workflow, which uses self-check feedback during repair and stopping. Each task ID contributes one final external outcome. Judge-side API/parse-error retries are described separately below.
 
 ## Frozen Input Selection
 
@@ -62,7 +62,7 @@ Two selected runs have no `answer.txt`: `Google Flights--12` and `Google Search-
 
 ## External Judge Configuration
 
-The judge uses the standard prompt text from [WebVoyager's `evaluation/auto_eval.py`](https://github.com/MinorJerry/WebVoyager/blob/main/evaluation/auto_eval.py). The exact saved strings in each round's `prompts.json`, and their hashes in `evaluation_config.json`, are authoritative for this batch. The model, image transport, thinking setting, token budget, and local parser are separately specified here; using the prompt does not imply using every upstream default.
+The judge uses the standard prompt text from [WebVoyager's `evaluation/auto_eval.py`](https://github.com/MinorJerry/WebVoyager/blob/main/evaluation/auto_eval.py). The exact saved strings in each round's `prompts.json`, and their hashes in `evaluation_config.json`, are authoritative for this batch. The model, image transport, thinking setting, token budget, and local parser are specified below.
 
 | Judge setting | Actual configuration |
 | --- | --- |
@@ -83,7 +83,7 @@ The judge uses the standard prompt text from [WebVoyager's `evaluation/auto_eval
 | Additional transient API retries | `3` per invocation |
 | Base retry delay / inter-task delay | `2` seconds / `0.5` seconds |
 
-JPEG conversion and resizing affect only request-time image transport. The source screenshot bytes and hashes are preserved in the execution artifacts. Depending on the run, fewer than five screenshots can be attached; the cap does not require manufacturing additional images.
+JPEG conversion and resizing apply only to request-time image transport. The source screenshot bytes and hashes are preserved in the execution artifacts. The actual number of attached screenshots depends on the selected run, up to the configured maximum of five.
 
 All 18 published round configurations have the same requested model, temperature, seed policy, screenshot cap, prompt hashes, image transport, and request options. The output token cap differs in the supplement rounds. Timeout/retry/delay options come from launch settings and the evaluator's defaults; they are not fields in `evaluation_config.json`. Per-invocation attempt histories and observed errors are saved where available.
 
@@ -111,19 +111,19 @@ Read timeouts and other retryable transport/API failures are infrastructure erro
 
 After exhausting transient retries, the evaluator saves `api_error`, leaves other unfinished tasks pending, and stops that process. It can then be restarted using `--resume`, the same output directory, and the same frozen evaluation configuration. Existing `success`, `failure`, `missing_evidence`, and `parse_error` statuses are terminal for resume; API/evaluation errors and pending tasks can be retried. Neither an API timeout nor an exhausted retry budget is converted into NOT SUCCESS.
 
-Attempt histories describe recorded request attempts, and cached infrastructure-error history is retained where the harness saved it. They should not be interpreted as a guaranteed complete append-only history of every historical launch. In particular, the preserved first-round `ArXiv--7` summary and individual record contain different historical unresolved states; this is disclosed in [SCORING_CORRECTION.md](SCORING_CORRECTION.md).
+Saved records include per-invocation request attempts and cached infrastructure-error history where recorded by the harness. The preserved first-round `ArXiv--7` summary and individual record contain different historical unresolved states; their values and the final selected record are documented in [SCORING_CORRECTION.md](SCORING_CORRECTION.md).
 
-The successful final `Wolfram Alpha--43` invocation records three transport errors followed by a fourth request returning SUCCESS with `finish_reason: stop`. Its configured cap was 131072; reported completion usage was 27986 tokens. A configured maximum is not the number of tokens actually generated, and these records do not establish that answer complexity caused the timeouts.
+The successful final `Wolfram Alpha--43` invocation records three transport errors followed by a fourth request returning SUCCESS with `finish_reason: stop`. Its configured cap was 131072; reported completion usage was 27986 tokens.
 
 ## Parse Errors and Supplement Judging
 
 The original parser examines the final non-empty response line after presentation normalization. A clear verdict followed by explanatory prose can therefore be saved as `parse_error`. Independently, `finish_reason: length` is rejected as incomplete even if partial text is present. The provider's `reasoning_content` is not treated as a final verdict; `judge_reasoning` stores the returned textual content used by the evaluator, not necessarily the provider's full private reasoning trace.
 
-The 10 records marked `parse_error` in the website-level `all_results.json` files were sent to a new 65536-token supplement directory. Two still lacked accepted verdicts there; a later 131072-token round covered those two. Further infrastructure retries for `Wolfram Alpha--43` ultimately produced a valid result in the separately published final directory. The prompt and frozen evidence were not changed to obtain a desired label.
+The 10 records marked `parse_error` in the website-level `all_results.json` files were sent to a new 65536-token supplement directory. Two still lacked accepted verdicts there; a later 131072-token round covered those two. Further infrastructure retries for `Wolfram Alpha--43` ultimately produced a valid result in the separately published final directory. The prompt hashes and selected input fingerprints match across the published rounds.
 
 After the model runs, an offline audit found five first-round parse-error records with complete explicit verdict lines. Their earliest GLM verdicts are used, and the later duplicate judgments are excluded from scoring. For the other five tasks, the first later valid GLM verdict is used. The full ten-task audit appears in [SCORING_CORRECTION.md](SCORING_CORRECTION.md).
 
-This procedure is a variable-budget post-hoc evaluation, not a uniformly 32768-token run. A larger generation cap can affect reasoning and the resulting judgment; fixed inputs and temperature zero do not guarantee an identical result. The disclosed controls are to retain the earliest valid verdict, including NOT SUCCESS, preserve raw histories, and record the actual budget of every selected result.
+The first-round output cap was 32768 tokens; the supplements used 65536 and 131072 tokens. Each round's `evaluation_config.json` records its actual cap. The aggregate retains the earliest valid verdict, including NOT SUCCESS, and records the source configuration for each selected task outcome.
 
 ## First Valid Verdict and Scoring
 
@@ -144,7 +144,7 @@ The aggregate contains 610 task rows associated with a 32768-token source config
 
 Success rate = 599 / 615 × 100% = 97.39837398%, displayed as 97.40%. Unresolved API/parse errors are not silently counted as failures or dropped from the denominator; after combining valid records, none of the 615 tasks remains unresolved. Original per-round summaries can still report incomplete status because their historical records are preserved.
 
-Only the offline extraction and aggregation made no new model calls or browser executions. The supplement rounds themselves did make additional judge API calls. All final success/failure outcomes originate from saved GLM responses, not new manual assessments.
+Supplement rounds send the frozen task instruction, selected answer, and screenshots to GLM for judging. The aggregation step selects the first valid verdict from the saved GLM responses and combines those verdicts with the two missing-evidence outcomes.
 
 ## Reproduction and Published Evidence
 
@@ -176,7 +176,7 @@ python3 evaluator/evaluate_webvoyager.py \
   --output-dir "$NEW_EVALUATION_DIR"
 ```
 
-API-error resume uses the original directory and adds `--resume` without changing the frozen configuration. Changing the generation cap requires a new directory. An unresolved-output supplement replaces the website filter with exact `--task-id` filters, sets the matching `--expected-tasks`, and records its changed budget. This example is a reproduction command, not a claim that a new model run must reproduce every verdict.
+API-error resume uses the original directory and adds `--resume` without changing the frozen configuration. Changing the generation cap requires a new directory. An unresolved-output supplement replaces the website filter with exact `--task-id` filters, sets the matching `--expected-tasks`, and records its changed budget.
 
 The aggregate [`evaluation/summary.json`](evaluation/summary.json) links all 615 selected source records, configuration caps, raw statuses, response IDs, and fingerprints. Each round publishes its configuration, exact prompts, selection manifest, saved judge records, and summaries. The [execution release](https://github.com/weiyali1/webwright-webvoyager/releases/tag/webvoyager-2026-11-16) contains the task artifacts and screenshot evidence referenced by those records.
 

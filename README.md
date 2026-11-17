@@ -56,7 +56,7 @@ All 615 execution configuration snapshots record a 400-step agent-loop limit, an
 
 The evaluator selects the newest timestamped task record and then the highest numeric `run_NNN` within it, without consulting its internal pass/fail label or falling back to an earlier successful run. Each task ID contributes one result.
 
-Selecting the highest run does not remove the effect of self-verification: the agent has already used its own check to guide internal repair and stopping before external judging. The internal check is not external ground truth; the final benchmark label comes from the separate GLM evaluation or missing-evidence validation.
+The agent uses its internal self-check feedback to guide repair and stopping before the final run is sent for external judging. The final benchmark label comes from the separate GLM evaluation or missing-evidence validation.
 
 ## External Judge and Actual Configuration
 
@@ -84,7 +84,7 @@ Transport timeouts and retryable API failures did not count as task failures. Th
 
 The 15 first-round `all_results.json` files contain 591 successes, 12 failures, 10 parse errors, and two missing-evidence outcomes. Five parse-error records already contain explicit, complete GLM verdict lines: four SUCCESS and one NOT SUCCESS. Those earliest verdicts are extracted offline; their raw status fields remain unchanged. Only the five tasks without an earlier explicit verdict use later successful parsing of a GLM response: four SUCCESS and one NOT SUCCESS.
 
-The final score therefore uses the **first valid verdict for each task**, including failures. Later duplicates are retained for audit and cannot replace an earlier valid outcome. Offline extraction/aggregation made no model calls; the separately published supplement rounds did make additional GLM calls. Increasing an output cap can affect model reasoning and decisions, so the changed budgets are disclosed rather than described as a uniform-budget evaluation.
+The final score uses the **first valid verdict for each task**, including failures. Supplement rounds evaluate the same saved task instruction, answer, and screenshots with the output caps listed above. The aggregate selects the earliest valid outcome from the saved responses and records its source and actual configuration in `evaluation/summary.json`. Later duplicate records are retained for inspection.
 
 The missing-evidence tasks are `Google Flights--12` and `Google Search--11`; both selected runs lack `answer.txt`. No earlier run or alternate answer file was substituted.
 
