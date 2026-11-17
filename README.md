@@ -62,7 +62,7 @@ The agent uses its internal self-check feedback to guide repair and stopping bef
 
 Each request supplies the task instruction, only the selected run's `answer.txt`, and up to its last five screenshots. Screenshots follow the run manifest when present, otherwise natural filename order. `final_response.txt`, execution logs, and internal verdict files are not fallback answer sources.
 
-The selected run's `answer.txt` is prepared from its original `final_response.txt` by removing only answer-irrelevant internal validation/grading messages and completion markers, such as “自检通过”, `self-reflection … PASS`, and `predicted_label=1`. The substantive answer wording, facts, numerical values, and conclusions are preserved without rewriting, correction, or supplementation. The original `final_response.txt` is retained; the evaluator reads only the prepared `answer.txt`.
+The selected run's `answer.txt` is prepared from its original `final_response.txt` by removing only answer-irrelevant internal validation/grading messages and completion markers, such as `self-reflection … PASS`, and `predicted_label=1`. The substantive answer wording, facts, numerical values, and conclusions are preserved without rewriting, correction, or supplementation. The original `final_response.txt` is retained; the evaluator reads only the prepared `answer.txt`.
 
 | Setting | Recorded configuration |
 | --- | --- |
