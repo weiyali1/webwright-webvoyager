@@ -5,7 +5,7 @@ This document describes the completed `webvoyager-2026-11-16` batch, judged on N
 ## System, Tasks, and Task Lock
 
 - Execution system: Webwright with `qwen3.8-max`.
-- Reporting organization: [XYDT](https://www.xydigit.com/).
+- Reporting organization: [XYDT (Beijing XingYun Digital Technology Co., Ltd.)](https://www.xydigit.com/).
 - Base collection: [browser-control-fable-5](https://github.com/omxyz/webvoyager/tree/main/benchmark/data/browser-control-fable-5).
 - Evaluated collection: 615 unique tasks across 15 websites.
 - Existing task manifest: 565 unchanged instructions; 50 month-edited instructions; 81 month-name substitutions.

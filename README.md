@@ -2,7 +2,7 @@
 
 **Webwright (Qwen3.8-Max): 599/615 tasks, 97.39%.**
 
-This repository publishes a self-reported system-level, post-hoc evaluation of 615 tasks across 15 websites, adapted from [browser-control-fable-5](https://github.com/omxyz/webvoyager/tree/main/benchmark/data/browser-control-fable-5). Reported by [XYDT](https://www.xydigit.com/).
+This repository publishes a self-reported system-level, post-hoc evaluation of 615 tasks across 15 websites, adapted from [browser-control-fable-5](https://github.com/omxyz/webvoyager/tree/main/benchmark/data/browser-control-fable-5). Reported by [XYDT (Beijing XingYun Digital Technology Co., Ltd.)](https://www.xydigit.com/).
 
 Batch: `webvoyager-2026-11-16`. External judging ran on November 16–17, 2026. The machine-readable result is [`evaluation/summary.json`](evaluation/summary.json); its `task_results` array identifies the first valid outcome and source record for every task.
 
