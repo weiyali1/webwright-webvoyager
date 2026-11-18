@@ -42,6 +42,8 @@ Success rate = 599 / 615 × 100%, displayed as **97.39%** by truncating to two d
 
 ## Locked Task Collection
 
+To address expired dates in the source tasks, month names were updated for 50 tasks before execution, and the resulting task definitions were committed and frozen.
+
 The executed instructions are published in [`benchmark/webvoyager/`](benchmark/webvoyager/). The collection's existing [manifest](benchmark/TASK_MANIFEST.json) records 565 unchanged instructions and 50 month-edited instructions, with 81 month-name substitutions. This score applies to that date-updated collection, rather than to an unmodified upstream collection.
 
 The [frozen task snapshot](https://github.com/weiyali1/webwright-webvoyager/tree/6bfe6d6e68c35562a5bd76f65c033a7d8075d486/benchmark/webvoyager) is identified by commit `6bfe6d6e68c35562a5bd76f65c033a7d8075d486`; its `benchmark/webvoyager` Git tree is `092ac8034909c70a45b50b9ea5aa03fcf51bbe0e`. All 615 instructions in the published evaluation records were checked against those task definitions and match exactly.

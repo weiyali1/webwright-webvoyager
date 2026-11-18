@@ -14,6 +14,8 @@ This document describes the completed `webvoyager-2026-11-16` batch, judged on N
 - Task-definition Git tree: `092ac8034909c70a45b50b9ea5aa03fcf51bbe0e`.
 - Evaluation type: self-reported, system-level, post-hoc judging.
 
+To address expired dates in the source tasks, month names were updated for 50 tasks before execution, and the resulting task definitions were committed and frozen.
+
 All 615 evaluated instruction strings were checked against the frozen task definitions and match exactly. No task was removed from the denominator. The task definitions in `benchmark/webvoyager/`, `benchmark/TASK_MANIFEST.json`, `benchmark/SHA256SUMS.txt`, and the retained upstream reference are unchanged from the frozen snapshot. This lock applies to those files, not to every file in `benchmark/`; auxiliary documentation in that directory has changed.
 
 ## Execution Budgets and Internal Repair
