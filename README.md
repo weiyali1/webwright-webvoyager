@@ -80,6 +80,8 @@ The selected run's `answer.txt` is prepared from its original `final_response.tx
 | Transport retries | 3 additional attempts per invocation |
 | Read timeout | 300 seconds initially; increased to 900 seconds in later documented retries |
 
+The higher output caps in supplement rounds were intended to let token-limited judge responses complete and produce a full verdict.
+
 The first round used 15 website-specific evaluator processes started in parallel; each process evaluated its own tasks sequentially. It was not a single 615-task evaluator invocation. The aggregate combines those 15 first rounds with the three published supplement directories. Other experimental batches are not merged into this score.
 
 ## API Errors, Parse Errors, and First Valid Outcomes

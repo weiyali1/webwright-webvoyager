@@ -133,6 +133,8 @@ After the model runs, an offline audit found five first-round parse-error record
 
 The first-round output cap was 32768 tokens; the supplements used 65536 and 131072 tokens. Each round's `evaluation_config.json` records its actual cap. The aggregate retains the earliest valid verdict, including NOT SUCCESS, and records the source configuration for each selected task outcome.
 
+The higher output caps in supplement rounds were intended to let token-limited judge responses complete and produce a full verdict.
+
 ## First Valid Verdict and Scoring
 
 Each task ID contributes one final outcome. Completed structured `success` and `failure` records are accepted; `missing_evidence` is a separate evaluator input-validation outcome. For records marked `parse_error`, offline recovery accepts only an explicit, unambiguous SUCCESS or NOT SUCCESS verdict line in completed output (`finish_reason: stop`). It normalizes Markdown and permits a verdict label or trailing explanation; it does not infer a label from favorable prose, search arbitrary SUCCESS substrings, or grade the answer again.
